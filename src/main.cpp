@@ -2,6 +2,7 @@
 #include <iostream>
 #include <vector>
 #include <string>
+#include "Load.h"
 using namespace std;
 
 
@@ -14,12 +15,12 @@ using namespace std;
 
 int main() {
 
-  vector<string> msg {"Hello", "C++", "World", "from", "VS Code!"};
-
-  for (const string& word : msg)
-  {
-    cout << word << " ";
+  Load l(provFile, ObsFile);
+  string prov = l.getProv();
+  cout << prov << endl;
+  map<string, double> prob = l.getProb();
+  for (auto it=prob.begin(); it!=prob.end(); it++) {
+    cout << it->first << ' ' << it->second << endl;
   }
-  cout << endl;
 
 }
