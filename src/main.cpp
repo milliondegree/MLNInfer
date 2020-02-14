@@ -1,8 +1,15 @@
+
 #include <iostream>
 #include <vector>
 #include <string>
 using namespace std;
 
+
+#define provFile \
+"./data/prov/cancer5.txt"
+
+#define ObsFile \
+"./data/observe/smokeTest.db"
 
 
 int main() {
