@@ -3,6 +3,7 @@
 #include <vector>
 #include <string>
 #include "Load.h"
+#include "MLN.h"
 using namespace std;
 
 
@@ -11,6 +12,12 @@ using namespace std;
 
 #define ObsFile \
 "./data/observe/smokeTest.db"
+
+
+void test(string& s) {
+  s = s.substr(0, s.length()-1);
+  cout << s.length();
+}
 
 
 int main() {
@@ -23,4 +30,6 @@ int main() {
     cout << it->first << ' ' << it->second << endl;
   }
 
+  MLN mln(l.getProv(), l.getProb());
+  
 }
