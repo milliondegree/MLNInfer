@@ -1,6 +1,7 @@
 #ifndef _CLIQUE_H
 #define _CLIQUE_H
 
+#include <iostream> 
 #include <string>
 #include <map>
 #include <vector>
@@ -15,6 +16,8 @@ public:
 
   // double getPotential();
   // void setValue(string literal, int value);
+
+  void printClique();
 
   ~Clique();
 

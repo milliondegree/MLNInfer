@@ -161,6 +161,16 @@ int MLN::numberCliques(string literal) {
 }
 
 
+vector<Clique> MLN::getCliques(string literal) {
+  vector<int> indices = this->c_map[literal];
+  vector<Clique> res;
+  for (int i : indices) {
+    res.push_back(this->cliques[i]);
+  }
+  return res;
+}
+
+
 set<string> MLN::getObsLiterals() {
   return this->obs;
 }

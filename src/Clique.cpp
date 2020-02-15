@@ -47,5 +47,18 @@ double Clique::getPotential() {
 }
 */
 
+
+void Clique::printClique() {
+  cout << this->rule_name << ' ' << this->rule_head << " :- ";
+  for (size_t i=0; i<this->rule_body.size(); i++) {
+    if (i!=this->rule_body.size()-1) {
+      cout << this->rule_body[i] << ", ";
+    }
+    else {
+      cout << this->rule_body[i] << endl;
+    }
+  }
+}
+
 Clique::~Clique() {
 }

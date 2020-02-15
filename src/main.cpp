@@ -4,6 +4,7 @@
 #include <string>
 #include "Load.h"
 #include "MLN.h"
+#include "Clique.h"
 using namespace std;
 
 
@@ -46,6 +47,11 @@ int main() {
   for (string s : obs) {
     int nc = mln.numberCliques(s);
     cout << s << ' ' << nc << endl;
+  }
+
+  vector<Clique> cs = mln.getCliques("smoke5");
+  for (Clique c : cs) {
+    c.printClique();
   }
 
 }

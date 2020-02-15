@@ -18,11 +18,12 @@ public:
   void build(string prov);
 
   int numberCliques(string literal);
+  vector<Clique> getCliques(string literal);
   set<string> getObsLiterals();
   set<string> getQueryLiterals();
 
   ~MLN();
-  
+
 private:
   string prov;
   vector<Clique> cliques;
