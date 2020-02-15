@@ -7,9 +7,6 @@ MLN::MLN() {
 
 MLN::MLN(string prov, map<string, double> prob) {
   this->prob = prob;
-  for (auto it=prob.begin(); it!=prob.end(); it++) {
-    this->obs.insert(it->first);
-  }
   build(prov);
 }
 
@@ -50,6 +47,12 @@ void MLN::build(string prov) {
   string head = prov.substr(0, s);
   if (this->c_map.find(head)==this->c_map.end()) {
     this->c_map[head] = vector<int> ();
+  }
+  if (this->prob.find(head)==this->prob.end()) {
+    this->queries.insert(head);
+  }
+  else {
+    this->obs.insert(head);
   }
 
   // find vector of rules
@@ -141,9 +144,30 @@ void MLN::build(string prov) {
       if (this->c_map.find(body)==this->c_map.end()) {
         this->c_map[body] = vector<int> ();
       }
+      if (this->prob.find(body)==this->prob.end()) {
+        this->queries.insert(body);
+      }
+      else {
+        this->obs.insert(body);
+      }
       this->c_map[body].push_back(index);
     }
   }
+}
+
+
+int MLN::numberCliques(string literal) {
+  return this->c_map[literal].size();
+}
+
+
+set<string> MLN::getObsLiterals() {
+  return this->obs;
+}
+
+
+set<string> MLN::getQueryLiterals() {
+  return this->queries;
 }
 
 

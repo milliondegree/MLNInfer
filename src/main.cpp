@@ -29,7 +29,23 @@ int main() {
   for (auto it=prob.begin(); it!=prob.end(); it++) {
     cout << it->first << ' ' << it->second << endl;
   }
+  cout << endl;
 
   MLN mln(l.getProv(), l.getProb());
-  
+  set<string> obs = mln.getObsLiterals();
+  set<string> queries = mln.getQueryLiterals();
+  for (string s : obs) {
+    cout << s << ' ';
+  }
+  cout << endl;
+  for (string s : queries) {
+    cout << s << ' ';
+  }
+  cout << endl;
+
+  for (string s : obs) {
+    int nc = mln.numberCliques(s);
+    cout << s << ' ' << nc << endl;
+  }
+
 }
