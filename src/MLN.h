@@ -4,6 +4,8 @@
 #include <iostream>
 #include <string>
 #include <map>
+#include <random>
+#include <math.h>
 #include <assert.h>
 #include "Clique.h"
 using namespace std;
@@ -21,6 +23,9 @@ public:
   vector<Clique> getCliques(string literal);
   set<string> getObsLiterals();
   set<string> getQueryLiterals();
+
+  void gibbsSampling(int round);
+  double queryProb(string query);
 
   ~MLN();
 

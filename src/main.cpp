@@ -54,4 +54,8 @@ int main() {
     c.printClique();
   }
 
+  mln.gibbsSampling(10000);
+  double p = mln.queryProb("cancer5");
+  cout << p << endl;
+
 }
