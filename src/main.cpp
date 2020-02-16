@@ -21,7 +21,9 @@ void test(string& s) {
 }
 
 
-int main() {
+int main(int argc, char* argv[]) {
+
+  string query_name (argv[1]);
 
   Load l(provFile, ObsFile);
   string prov = l.getProv();
@@ -44,18 +46,8 @@ int main() {
   }
   cout << endl;
 
-  for (string s : obs) {
-    int nc = mln.numberCliques(s);
-    cout << s << ' ' << nc << endl;
-  }
-
-  vector<Clique> cs = mln.getCliques("smoke5");
-  for (Clique c : cs) {
-    c.printClique();
-  }
-
   mln.gibbsSampling(10000);
-  double p = mln.queryProb("cancer5");
+  double p = mln.queryProb(query_name);
   cout << p << endl;
 
 }

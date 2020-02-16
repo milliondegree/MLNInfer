@@ -18,12 +18,13 @@ Clique::Clique(string rule, double weight, string r_head, vector<string> r_body)
 
 double Clique::getPotential(map<string, int> truth) {
   assert(truth.find(this->rule_head)!=truth.end());
-  int rule_head_value = (1-truth[this->rule_head]);
+  int rule_head_value = truth[this->rule_head];
   int rule_body_value = 1;
   for (string body : this->rule_body) {
     assert(truth.find(body)!=truth.end());
     rule_body_value &= truth[body];
   }
+  rule_body_value = 1-rule_body_value;
   int bool_res = rule_head_value | rule_body_value;
   double res = this->rule_weight * bool_res;
   return res;

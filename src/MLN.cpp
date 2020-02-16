@@ -234,7 +234,7 @@ void MLN::gibbsSampling(int round) {
         sum_1 += p;
       }
       double sum_0 = 0;
-      for (double p : potentials_1) {
+      for (double p : potentials_0) {
         sum_0 += p;
       }
       double exp_1 = exp(sum_1);
