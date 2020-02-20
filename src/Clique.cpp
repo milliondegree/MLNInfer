@@ -42,7 +42,7 @@ double Clique::getPotential(map<string, double> truth) {
     p_body *= truth[rule_b];
   }
   double potential = 1.0 - p_head*p_body;
-  return potential;
+  return potential*this->rule_weight;
 }
 
 

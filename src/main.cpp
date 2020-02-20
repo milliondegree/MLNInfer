@@ -40,7 +40,7 @@ int main(int argc, char* argv[]) {
   }
   cout << endl;
 
-  mln.gibbsSampling_v2(10000);
+  mln.gibbsSampling_v2(100000);
   double p = mln.queryProb(query_name);
   cout << p << endl;
 
