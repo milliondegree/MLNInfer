@@ -25,6 +25,7 @@ public:
   set<string> getQueryLiterals();
 
   void gibbsSampling(int round);
+  void gibbsSampling_v2(int round);
   double queryProb(string query);
 
   ~MLN();

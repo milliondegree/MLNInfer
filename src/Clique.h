@@ -15,6 +15,7 @@ public:
   Clique(string rule, double weight, string r_head, vector<string> r_body);
 
   double getPotential(map<string, int> truth);
+  double getPotential(map<string, double> truth);
   vector<string> getLiterals();
 
   void printClique();

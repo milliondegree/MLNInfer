@@ -258,6 +258,77 @@ void MLN::gibbsSampling(int round) {
 
 
 
+void MLN::gibbsSampling_v2(int round) {
+  map<string, int> samples;
+  for (string query : this->queries) {
+    samples[query] = 0;
+  }
+
+  map<string, int> assignments;
+  random_device rd;
+  mt19937 generator(rd());
+  uniform_real_distribution<double> distribution(0.0,1.0);
+  for (string query : this->queries) {
+    double prand = distribution(generator);
+    if (prand<0.5) {
+      assignments[query] = 1;
+    }
+    else {
+      assignments[query] = 0;
+    }
+  }
+
+  for (int r=0; r<round; r++) {
+    for (string query : this->queries) {
+      vector<int> indices = this->c_map[query];
+      vector<double> potentials_0;
+      vector<double> potentials_1;
+      for (int i : indices) {
+        Clique c = this->cliques[i];
+        map<string, double> truth;
+        vector<string> literals = c.getLiterals();
+        for (string literal : literals) {
+          if (this->obs.find(literal)!=this->obs.end()) {
+            truth[literal] = this->prob[literal];
+          }
+          else {
+            truth[literal] = (double)assignments[literal];
+          }
+        }
+        truth[query] = 1.0;
+        potentials_1.push_back(c.getPotential(truth));
+        truth[query] = 0.0;
+        potentials_0.push_back(c.getPotential(truth));
+      }
+      double sum_1 = 0;
+      for (double p : potentials_1) {
+        sum_1 += p;
+      }
+      double sum_0 = 0;
+      for (double p : potentials_0) {
+        sum_0 += p;
+      }
+      double exp_1 = exp(sum_1);
+      double exp_0 = exp(sum_0);
+      double p = exp_1 / (exp_1+exp_0);
+      double prand = distribution(generator);
+      if (prand<p) {
+        samples[query] += 1;
+        assignments[query] = 1;
+      }
+      else {
+        assignments[query] = 0;
+      }
+    }
+  }
+
+  for (string query : this->queries) {
+    this->prob[query] = ((double)samples[query]) / round;
+  }
+}
+
+
+
 double MLN::queryProb(string query) {
   assert(this->prob.find(query)!=this->prob.end());
   return this->prob[query];

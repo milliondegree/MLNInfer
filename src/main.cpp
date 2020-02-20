@@ -15,12 +15,6 @@ using namespace std;
 "./data/observe/smokeTest.db"
 
 
-void test(string& s) {
-  s = s.substr(0, s.length()-1);
-  cout << s.length();
-}
-
-
 int main(int argc, char* argv[]) {
 
   string query_name (argv[1]);
@@ -46,7 +40,7 @@ int main(int argc, char* argv[]) {
   }
   cout << endl;
 
-  mln.gibbsSampling(10000);
+  mln.gibbsSampling_v2(10000);
   double p = mln.queryProb(query_name);
   cout << p << endl;
 
