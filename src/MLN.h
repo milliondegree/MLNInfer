@@ -15,6 +15,8 @@ class MLN {
 public:
   MLN();
   MLN(string prov, map<string, double> prob);
+  void clear();
+  void setProperty(string prov, map<string, double> prob);
 
   friend class Parser;
 

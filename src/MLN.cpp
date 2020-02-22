@@ -12,6 +12,24 @@ MLN::MLN(string prov, map<string, double> prob) {
 }
 
 
+void MLN::clear() {
+  this->cliques = vector<Clique> ();
+  this->c_map = map<string, vector<int>> ();
+  this->obs = set<string> ();
+  this->queries = set<string> ();
+  this->prob = map<string, double> ();
+  this->prov = string ();
+}
+
+
+void MLN::setProperty(string prov, map<string, double> prob) {
+  clear();
+  this->prov = prov;
+  this->prob = prob;
+  build(prov);
+}
+
+
 void MLN::removeRedundant(string& prov) {
   while (true) {
     if (prov.length()>0 && prov[0]!='(') {

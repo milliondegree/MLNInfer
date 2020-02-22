@@ -10,7 +10,6 @@ Parser::~Parser() {
 
 
 void Parser::parseProvenance(MLN& mln) {
-  // cout << "parsing with class Parser" << endl;
   int i = 0;
   this->parseRuleHead(mln, mln.prov, i);
 }
@@ -61,7 +60,6 @@ void Parser::parseRuleHead(MLN& mln, string& prov, int& i) {
 
 
 vector<vector<string>> Parser::parseRules(MLN& mln, string& prov, int& i) {
-  cout << prov.substr(0, i) << endl;
   vector<vector<string>> res;
   if (prov[i+1]!='(') {
     vector<string> rule = parseRule(mln, prov, i);
@@ -82,7 +80,6 @@ vector<vector<string>> Parser::parseRules(MLN& mln, string& prov, int& i) {
     }
     i++;
   }
-  cout << prov.substr(0, i) << endl;
   return res;
 }
 
@@ -97,7 +94,6 @@ vector<string> Parser::parseRule(MLN& mln, string& prov, int& i) {
   while (prov[i]!='(') {
     i++;
   }
-  // cout << prov.substr(0, i) << endl;
   vector<string> rule_body = parseRuleBody(mln, prov, i);
   rule_body.insert(rule_body.begin(), rule_name);
   i++;
@@ -118,10 +114,7 @@ vector<string> Parser::parseRuleBody(MLN& mln, string& prov, int& i) {
     res.push_back(body);
     if (prov[i]=='(') {
       i = start;
-      // cout << prov.substr(0, i) << endl;
       parseRuleHead(mln, prov, i);
-      // cout << prov.substr(0, i) << endl;
-      // cout << i << ' ' << prov.length() << endl;
       assert(prov[i]=='*'|prov[i]==')');
       if (prov[i]=='*') {
         i++;
