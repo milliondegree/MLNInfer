@@ -6,8 +6,9 @@ MLN::MLN() {
 
 
 MLN::MLN(string prov, map<string, double> prob) {
+  this->prov = prov;
   this->prob = prob;
-  build(prov);
+  // build(prov);
 }
 
 

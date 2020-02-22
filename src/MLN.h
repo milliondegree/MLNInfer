@@ -16,6 +16,8 @@ public:
   MLN();
   MLN(string prov, map<string, double> prob);
 
+  friend class Parser;
+
   void removeRedundant(string& prov);
   void build(string prov);
 
@@ -37,6 +39,23 @@ private:
   set<string> queries;
   map<string, double> prob;
   map<string, vector<int>> c_map;
+};
+
+
+
+class Parser {
+public:
+  Parser();
+
+  void parseProvenance(MLN& mln);
+
+  ~Parser();
+
+private:
+  void parseRuleHead(MLN& mln, string& prov, int& i);
+  vector<vector<string>> parseRules(MLN& mln, string& prov, int& i);
+  vector<string> parseRule(MLN& mln, string& prov, int& i);
+  vector<string> parseRuleBody(MLN& mln, string& prov, int& i);
 };
 
 
