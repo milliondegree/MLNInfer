@@ -75,7 +75,7 @@ void MLN::build(string prov) {
   }
 
   // find vector of rules
-  string neck_body = prov.substr(s, prov.length());
+  string neck_body = prov.substr(s, prov.length()-s);
   removeRedundant(neck_body);
   vector<string> rules;
   int count = 0;
@@ -88,7 +88,7 @@ void MLN::build(string prov) {
     else if (neck_body[e]==')') {
       count--;
       if (count==0) {
-        rules.push_back(neck_body.substr(s, e+1));
+        rules.push_back(neck_body.substr(s, e+1-s));
         if (e!=neck_body.length()-1) {
           assert(neck_body[e+1]=='+');
           s = e+2;
@@ -112,7 +112,7 @@ void MLN::build(string prov) {
       rs++;
     }
     // get vector of rule bodies
-    string rule_body = rule.substr(rs, rule.length());
+    string rule_body = rule.substr(rs, rule.length()-rs);
     removeRedundant(rule_body);
     vector<string> bodies;
     int rcount = 0;
@@ -126,13 +126,13 @@ void MLN::build(string prov) {
         rcount--;
       }
       else if (rule_body[re]=='*' && rcount==0) {
-        bodies.push_back(rule_body.substr(rs, re));
+        bodies.push_back(rule_body.substr(rs, re-rs));
         rs = re+1;
       }
       re++;
     }
     if (rs!=rule_body.length()) {
-      bodies.push_back(rule_body.substr(rs, re));
+      bodies.push_back(rule_body.substr(rs, re-rs));
     }
 
     //parse each body, get body list

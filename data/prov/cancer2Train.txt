@@ -1,0 +1,1 @@
+cancer2(r1@n257(smoke2((r2@n257(friends2_5*smoke5((r2@n257(friends5_6*smoke6)))))+(r2@n257(friends2_1*smoke1((r2@n257(friends1_4*smoke4((r2@n257(friends4_3*smoke3)))))+(r2@n257(friends1_7*smoke7((r2@n257(friends7_8*smoke8)))))+(r2@n257(friends1_3*smoke3((r2@n257(friends3_4*smoke4)))))))))))

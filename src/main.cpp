@@ -16,6 +16,12 @@ using namespace std;
 #define ObsFile \
 "./data/observe/smokeTest.db"
 
+#define provFileTrain \
+"./data/prov/cancer2Train.txt"
+
+#define ObsFileTrain \
+"./data/observe/smokeTrain.db"
+
 
 double calcVar(vector<double> values) {
   double mean = 0;
@@ -36,7 +42,7 @@ int main(int argc, char* argv[]) {
 
   string query_name (argv[1]);
 
-  Load l(provFile, ObsFile);
+  Load l(provFileTrain, ObsFileTrain);
   string prov = l.getProv();
   cout << prov << endl;
 
@@ -81,7 +87,7 @@ int main(int argc, char* argv[]) {
   }
   cout << endl;
 
-  /*
+
   t1 = clock();
   mln.gibbsSampling(10000);
   t2 = clock();
@@ -94,11 +100,12 @@ int main(int argc, char* argv[]) {
 
   double p = mln.queryProb(query_name);
   cout << p << endl;
-  */
+  cout << endl;
+
 
   t1 = clock();
   vector<double> p1;
-  for (int i=0; i<100; i++) {
+  for (int i=0; i<50; i++) {
     mln.gibbsSampling(10000);
     p1.push_back(mln.queryProb(query_name));
   }
@@ -109,7 +116,7 @@ int main(int argc, char* argv[]) {
 
   t3 = clock();
   vector<double> p2;
-  for (int i=0; i<100; i++) {
+  for (int i=0; i<50; i++) {
     mln.gibbsSampling_v2(10000);
     p2.push_back(mln.queryProb(query_name));
   }
