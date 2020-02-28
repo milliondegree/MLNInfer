@@ -4,6 +4,7 @@
 #include <iostream> 
 #include <string>
 #include <map>
+#include <unordered_map>
 #include <vector>
 #include <set>
 #include <assert.h>
@@ -16,6 +17,7 @@ public:
 
   double getPotential(map<string, int> truth);
   double getPotential(map<string, double> truth);
+  double getPotential(unordered_map<string, double> truth);
   vector<string> getLiterals();
 
   void printClique();

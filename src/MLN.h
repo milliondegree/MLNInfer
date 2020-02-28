@@ -4,6 +4,7 @@
 #include <iostream>
 #include <string>
 #include <map>
+#include <unordered_map>
 #include <random>
 #include <math.h>
 #include <assert.h>
@@ -30,6 +31,7 @@ public:
 
   void gibbsSampling(int round);
   void gibbsSampling_v2(int round);
+  void gibbsSampling_v3(int round);
   double queryProb(string query);
 
   ~MLN();
