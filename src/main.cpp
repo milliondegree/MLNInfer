@@ -7,6 +7,7 @@
 #include "Load.h"
 #include "MLN.h"
 #include "Clique.h"
+#include "Influence.h"
 using namespace std;
 
 
@@ -120,7 +121,7 @@ int main(int argc, char* argv[]) {
   t1 = clock();
   vector<double> p1;
   for (int i=0; i<1000; i++) {
-    mln.gibbsSampling(10000);
+    mln.gibbsSampling(1000);
     p1.push_back(mln.queryProb(query_name));
   }
   t2 = clock();
@@ -131,7 +132,7 @@ int main(int argc, char* argv[]) {
   t3 = clock();
   vector<double> p2;
   for (int i=0; i<1000; i++) {
-    mln.gibbsSampling_v2(10000);
+    mln.gibbsSampling_v2(1000);
     p2.push_back(mln.queryProb(query_name));
   }
   t4 = clock();
@@ -142,7 +143,7 @@ int main(int argc, char* argv[]) {
   t5 = clock();
   vector<double> p3;
   for (int i=0; i<1000; i++) {
-    mln.gibbsSampling_v3(10000);
+    mln.gibbsSampling_v3(1000);
     p3.push_back(mln.queryProb(query_name));
   }
   t6 = clock();
