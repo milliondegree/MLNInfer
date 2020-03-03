@@ -7,6 +7,8 @@
 #include <unordered_map>
 #include <map>
 #include <string>
+#include <assert.h>
+#include <set>
 #include "MLN.h"
 
 using namespace std;

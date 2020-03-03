@@ -29,6 +29,8 @@ public:
   set<string> getObsLiterals();
   set<string> getQueryLiterals();
 
+  void setObsProb(string str, double prob);
+
   void gibbsSampling(int round);
   void gibbsSampling_v2(int round);
   void gibbsSampling_v3(int round);

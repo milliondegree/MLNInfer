@@ -200,6 +200,13 @@ set<string> MLN::getQueryLiterals() {
 }
 
 
+void MLN::setObsProb(string str, double p) {
+  assert(this->obs.find(str)!=this->obs.end());
+  this->prob[str] = p;
+  return ;
+}
+
+
 void MLN::gibbsSampling(int round) {
   map<string, int> samples;
   for (string query : this->queries) {
