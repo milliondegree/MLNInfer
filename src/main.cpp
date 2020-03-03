@@ -123,6 +123,7 @@ void varianceTest(MLN mln, string query_name) {
 
 
 void influenceTest(MLN mln, string query, string target, int n) {
+  clock_t t1 = clock();
   Influence inference(mln);
   vector<double> probs;
   for (int i=0; i<=n; i++) {
