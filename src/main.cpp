@@ -39,6 +39,16 @@ double calcVar(vector<double> values) {
 }
 
 
+void printObservation(Load l) {
+  // print out observed literals and their probabilities
+  map<string, double> prob = l.getProb();
+  for (auto it=prob.begin(); it!=prob.end(); it++) {
+    cout << it->first << ' ' << it->second << endl;
+  }
+  cout << endl;
+}
+
+
 void parseTest(MLN mln, Load l) {
   Parser parser;
   clock_t t1 = clock();
@@ -50,6 +60,24 @@ void parseTest(MLN mln, Load l) {
   mln.setProperty(l.getProv(), l.getProb());
   clock_t t4 = clock();
   cout << "original parsing time: " << ((double)(t4-t3))/CLOCKS_PER_SEC << " seconds" << endl;
+  cout << endl;
+}
+
+
+void printLiterals(MLN& mln) {
+  // print out the observed literals and unknown literals after parsing
+  set<string> obs = mln.getObsLiterals();
+  set<string> queries = mln.getQueryLiterals();
+  cout << "observed tuples: ";
+  for (string s : obs) {
+    cout << s << ' ';
+  }
+  cout << endl;
+  cout << "unknown tuples: ";
+  for (string s : queries) {
+    cout << s << ' ';
+  }
+  cout << endl;
   cout << endl;
 }
 
@@ -122,18 +150,26 @@ void varianceTest(MLN mln, string query_name) {
 }
 
 
-void influenceTest(MLN mln, string query, string target, int n) {
+void influenceTest(MLN mln, string target, int n) {
   clock_t t1 = clock();
-  Influence inference(mln);
+  Influence influence(mln);
   vector<double> probs;
   for (int i=0; i<=n; i++) {
     probs.push_back((1.0/n)*i);
   }
-  vector<double> q_b = inference.computeObsInfluence(query, target, probs);
-  for (int i=0; i<q_b.size(); i++) {
-    cout << q_b[i] << ' ';
+  influence.computeObsInfluence(target, probs);
+  set<string> queries = mln.getQueryLiterals();
+  for (string q : queries) {
+    vector<double> q_p = influence.getProbs(q);
+    cout << q << ": ";
+    for (double p : q_p) {
+      cout << p << ' ';
+    }
+    cout << endl;
   }
   cout << endl;
+  clock_t t2 = clock();
+  cout << "influence compute time: " << ((double)(t2-t1))/CLOCKS_PER_SEC << " seconds" << endl;
 }
 
 
@@ -171,14 +207,9 @@ int main(int argc, char* argv[]) {
 
   Load l(args["provenance_file"], args["observe_file"]);
   string prov = l.getProv();
-  cout << prov << endl;
+  // cout << prov << endl;
 
-  // print out observed literals and their probabilities
-  map<string, double> prob = l.getProb();
-  for (auto it=prob.begin(); it!=prob.end(); it++) {
-    cout << it->first << ' ' << it->second << endl;
-  }
-  cout << endl;
+  // printObservation(l);
 
   MLN mln(l.getProv(), l.getProb());
   Parser parser;
@@ -186,26 +217,13 @@ int main(int argc, char* argv[]) {
 
   // parseTest(mln, l);
 
-  // print out the observed literals and unknown literals after parsing
-  set<string> obs = mln.getObsLiterals();
-  set<string> queries = mln.getQueryLiterals();
-  cout << "observed tuples: ";
-  for (string s : obs) {
-    cout << s << ' ';
-  }
-  cout << endl;
-  cout << "unknown tuples: ";
-  for (string s : queries) {
-    cout << s << ' ';
-  }
-  cout << endl;
-  cout << endl;
+  printLiterals(mln);
 
-  cliqueTest(mln, args["query_name"]);
+  // cliqueTest(mln, args["query_name"]);
 
-  gibbsTest(mln, 10000, args["query_name"]);
+  // gibbsTest(mln, 10000, args["query_name"]);
 
   // varianceTest(mln, args["query_name"]);
 
-  influenceTest(mln, args["query_name"], args["target_name"], 20);
+  influenceTest(mln, args["target_name"], 10);
 }

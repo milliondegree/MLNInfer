@@ -18,13 +18,14 @@ public:
   Influence();
   Influence(MLN& mln);
 
-  vector<double> computeObsInfluence(string& query, string& target, vector<double>& probs);
+  void computeObsInfluence(string& target, vector<double>& probs);
+  vector<double> getProbs(string& query);
  
   ~Influence();
 
 private:
   MLN mln;
-
+  map<string, vector<double>> pm;
 };
 
 
