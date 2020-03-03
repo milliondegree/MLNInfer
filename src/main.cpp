@@ -122,8 +122,17 @@ void varianceTest(MLN mln, string query_name) {
 }
 
 
-void influenceTest(MLN mln, string query, string target) {
-  return ;
+void influenceTest(MLN mln, string query, string target, int n) {
+  Influence inference(mln);
+  vector<double> probs;
+  for (int i=0; i<=n; i++) {
+    probs.push_back((1.0/n)*i);
+  }
+  vector<double> q_b = inference.computeObsInfluence(query, target, probs);
+  for (int i=0; i<q_b.size(); i++) {
+    cout << q_b[i] << ' ';
+  }
+  cout << endl;
 }
 
 
@@ -193,9 +202,9 @@ int main(int argc, char* argv[]) {
 
   cliqueTest(mln, args["query_name"]);
 
-  // gibbsTest(mln, 10000, query_name);
+  gibbsTest(mln, 10000, args["query_name"]);
 
-  // varianceTest(mln, query_name);
+  // varianceTest(mln, args["query_name"]);
 
-  influenceTest(mln, args["query_name"], args["target_name"]);
+  influenceTest(mln, args["query_name"], args["target_name"], 20);
 }

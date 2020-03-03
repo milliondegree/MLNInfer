@@ -16,7 +16,7 @@ vector<double> Influence::computeObsInfluence(string& query, string& target, vec
   this->mln.gibbsSampling_v3(100000);
   for (int i=0; i<n; i++) {
     this->mln.setObsProb(target, probs[i]);
-    this->mln.gibbsSampling_v3(10000);
+    this->mln.gibbsSampling_v3(100000);
     res[i] = this->mln.queryProb(query);
   }
   return res;
