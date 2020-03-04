@@ -219,7 +219,7 @@ int main(int argc, char* argv[]) {
 
   printLiterals(mln);
 
-  // cliqueTest(mln, args["query_name"]);
+  cliqueTest(mln, args["query_name"]);
 
   // gibbsTest(mln, 10000, args["query_name"]);
 

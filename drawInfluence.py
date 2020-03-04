@@ -7,8 +7,7 @@ def drawInfluence(p_str):
   probs = [float(ele) for ele in probs]
   size = 1.0/(len(probs)-1)
   x = [size*i for i in range(len(probs))]
-  plt.plot(x, probs, 'b.')
-  plt.show()
+  plt.plot(x, probs, 'b-')
 
 
 
@@ -23,3 +22,4 @@ if __name__ == '__main__':
   drawInfluence(cancer5_smoke1)
   drawInfluence(smoke2_smoke1)
   drawInfluence(smoke5_smoke1)
+  plt.show()

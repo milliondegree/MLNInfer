@@ -16,7 +16,7 @@ Clique::Clique(string rule, double weight, string r_head, vector<string> r_body)
 }
 
 
-double Clique::getPotential(map<string, int> truth) {
+double Clique::getPotential(map<string, int>& truth) {
   assert(truth.find(this->rule_head)!=truth.end());
   int rule_head_value = truth[this->rule_head];
   int rule_body_value = 1;
@@ -31,7 +31,7 @@ double Clique::getPotential(map<string, int> truth) {
 }
 
 
-double Clique::getPotential(map<string, double> truth) {
+double Clique::getPotential(map<string, double>& truth) {
   assert(truth.find(this->rule_head)!=truth.end());
   for (string rule_b : this->rule_body) {
     assert(truth.find(rule_b)!=truth.end());
@@ -46,7 +46,7 @@ double Clique::getPotential(map<string, double> truth) {
 }
 
 
-double Clique::getPotential(unordered_map<string, double> truth) {
+double Clique::getPotential(unordered_map<string, double>& truth) {
   assert(truth.find(this->rule_head)!=truth.end());
   for (string rule_b : this->rule_body) {
     assert(truth.find(rule_b)!=truth.end());
