@@ -82,6 +82,16 @@ void Clique::printClique() {
 }
 
 
+void Clique::saveToFile(ofstream& file) {
+  file << "clique: ";
+  file << this->rule_name << ' ' << this->rule_head << ' ';
+  for (int i=0; i<this->rule_body.size(); i++) {
+    file << this->rule_body[i] << ' ';
+  }
+  file << endl;
+}
+
+
 vector<string> Clique::getLiterals() {
   return this->literals;
 }

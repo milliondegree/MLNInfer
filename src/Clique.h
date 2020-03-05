@@ -2,6 +2,7 @@
 #define _CLIQUE_H
 
 #include <iostream> 
+#include <fstream>
 #include <string>
 #include <map>
 #include <unordered_map>
@@ -21,6 +22,7 @@ public:
   vector<string> getLiterals();
 
   void printClique();
+  void saveToFile(ofstream& file);
 
   ~Clique();
 

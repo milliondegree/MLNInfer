@@ -2,6 +2,7 @@
 #define _MLN_H
 
 #include <iostream>
+#include <fstream>
 #include <string>
 #include <map>
 #include <unordered_map>
@@ -35,6 +36,8 @@ public:
   void gibbsSampling_v2(int round);
   void gibbsSampling_v3(int round);
   double queryProb(string query);
+
+  void saveToFile(ofstream& file);
 
   ~MLN();
 

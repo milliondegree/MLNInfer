@@ -92,6 +92,20 @@ void cliqueTest(MLN& mln, string query_name) {
 }
 
 
+void saveToFile(MLN& mln, string file_name) {
+  cout << "saving to file " << file_name << endl;
+  clock_t t1 = clock();
+  ofstream file;
+  file.open(file_name);
+  mln.gibbsSampling_v3(100000);
+  mln.saveToFile(file);
+  file.close();
+  clock_t t2 = clock();
+  cout << "saving finished, time cost: " << ((double)(t2-t1))/CLOCKS_PER_SEC << " seconds" << endl;
+}
+
+
+
 void gibbsTest(MLN& mln, int round, string query_name) {
   clock_t t1 = clock();
   mln.gibbsSampling(round);
@@ -182,17 +196,20 @@ int main(int argc, char* argv[]) {
   }
   for (int i=1; i<argc; i+=2) {
     assert(i+1<argc);
-    if (argvs[i]=="-q" || argvs[i+1]=="-query_name") {
+    if (argvs[i]=="-q" || argvs[i]=="-query_name") {
       args["query_name"] = argvs[i+1];
     }
-    else if (argvs[i]=="-t" || argvs[i+1]=="-target_name") {
+    else if (argvs[i]=="-t" || argvs[i]=="-target_name") {
       args["target_name"] = argvs[i+1];
     }
-    else if (argvs[i]=="-o" || argvs[i+1]=="-observe_file") {
+    else if (argvs[i]=="-o" || argvs[i]=="-observe_file") {
       args["observe_file"] = argvs[i+1];
     }
-    else if (argvs[i]=="-p" || argvs[i+1]=="-provenance_file") {
+    else if (argvs[i]=="-p" || argvs[i]=="-provenance_file") {
       args["provenance_file"] = argvs[i+1];
+    }
+    else if (argvs[i]=="-s" || argvs[i]=="-save") {
+      args["save"] = argvs[i+1];
     }
   }
 
@@ -221,9 +238,13 @@ int main(int argc, char* argv[]) {
 
   cliqueTest(mln, args["query_name"]);
 
-  gibbsTest(mln, 10000, args["query_name"]);
+  if (args.find("save")!=args.end()) {
+    saveToFile(mln, args["save"]);
+  }
+
+  // gibbsTest(mln, 10000, args["query_name"]);
 
   // varianceTest(mln, args["query_name"]);
 
-  influenceTest(mln, args["target_name"], 10);
+  // influenceTest(mln, args["target_name"], 10);
 }

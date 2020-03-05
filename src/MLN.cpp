@@ -441,5 +441,31 @@ double MLN::queryProb(string query) {
 }
 
 
+
+void MLN::saveToFile(ofstream& file) {
+  file << "provenance: " << this->prov << endl;
+  file << "observed: ";
+  for (string s : this->obs) {
+    file << s << ' ';
+  }
+  file << endl;
+  file << "queried: ";
+  for (string s : this->queries) {
+    file << s << ' ';
+  }
+  file << endl;
+  for (int i=0; i<this->cliques.size(); i++) {
+    this->cliques[i].saveToFile(file);
+  }
+  for (auto it=this->c_map.begin(); it!=this->c_map.end(); it++) {
+    file << "c_map: " << it->first << ' ';
+    for (int i=0; i<it->second.size(); i++) {
+      file << it->second[i] << ' ';
+    }
+    file << endl;
+  }
+}
+
+
 MLN::~MLN() {
 }
