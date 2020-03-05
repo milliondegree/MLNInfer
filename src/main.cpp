@@ -64,7 +64,7 @@ void parseTest(MLN mln, Load l) {
 }
 
 
-void printLiterals(MLN& mln) {
+void printLiterals(MLN mln) {
   // print out the observed literals and unknown literals after parsing
   set<string> obs = mln.getObsLiterals();
   set<string> queries = mln.getQueryLiterals();
@@ -82,7 +82,7 @@ void printLiterals(MLN& mln) {
 }
 
 
-void cliqueTest(MLN mln, string query_name) {
+void cliqueTest(MLN& mln, string query_name) {
   cout << "cliques of queried tuple: " << endl;
   vector<Clique> cliques = mln.getCliques(query_name);
   for (Clique c : cliques) {
@@ -92,7 +92,7 @@ void cliqueTest(MLN mln, string query_name) {
 }
 
 
-void gibbsTest(MLN mln, int round, string query_name) {
+void gibbsTest(MLN& mln, int round, string query_name) {
   clock_t t1 = clock();
   mln.gibbsSampling(round);
   clock_t t2 = clock();
@@ -114,7 +114,7 @@ void gibbsTest(MLN mln, int round, string query_name) {
 }
 
 
-void varianceTest(MLN mln, string query_name) {
+void varianceTest(MLN& mln, string query_name) {
   clock_t t1 = clock();
   vector<double> p1;
   for (int i=0; i<1000; i++) {
@@ -221,7 +221,7 @@ int main(int argc, char* argv[]) {
 
   cliqueTest(mln, args["query_name"]);
 
-  // gibbsTest(mln, 10000, args["query_name"]);
+  gibbsTest(mln, 10000, args["query_name"]);
 
   // varianceTest(mln, args["query_name"]);
 

@@ -47,13 +47,21 @@ double Clique::getPotential(map<string, double>& truth) {
 
 
 double Clique::getPotential(unordered_map<string, double>& truth) {
+  /*
   assert(truth.find(this->rule_head)!=truth.end());
   for (string rule_b : this->rule_body) {
     assert(truth.find(rule_b)!=truth.end());
   }
+  */
   double p_head = 1 - truth[this->rule_head];
+  if (abs(p_head)<1e-10) {
+    return this->rule_weight;
+  }
   double p_body = 1.0;
   for (string rule_b : this->rule_body) {
+    if (abs(truth[rule_b])<1e-10) {
+      return this->rule_weight;
+    }
     p_body *= truth[rule_b];
   }
   double potential = 1.0 - p_head*p_body;

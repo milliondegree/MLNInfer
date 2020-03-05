@@ -3,7 +3,7 @@
 Influence::Influence() {
 }
 
-Influence::Influence(MLN& mln) {
+Influence::Influence(MLN mln) {
   this->mln = mln;
 }
 
@@ -24,6 +24,15 @@ void Influence::computeObsInfluence(string& target, vector<double>& probs) {
       this->pm[s].push_back(mln.queryProb(s));
     }
   }
+}
+
+
+void Influence::generateInfluenceMap() {
+  this->influMap = unordered_map<string, unordered_set<string>> ();
+  for (string query : this->mln.getQueryLiterals()) {
+    this->influMap[query] = unordered_set<string> ();
+  }
+  return;
 }
 
 

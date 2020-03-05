@@ -5,6 +5,7 @@
 #include <iostream>
 #include <vector>
 #include <unordered_map>
+#include <unordered_set>
 #include <map>
 #include <string>
 #include <assert.h>
@@ -16,16 +17,19 @@ using namespace std;
 class Influence {
 public:
   Influence();
-  Influence(MLN& mln);
+  Influence(MLN mln);
 
   void computeObsInfluence(string& target, vector<double>& probs);
+  void generateInfluenceMap();
   vector<double> getProbs(string& query);
  
   ~Influence();
 
 private:
   MLN mln;
-  map<string, vector<double>> pm;
+  unordered_map<string, vector<double>> pm;
+  unordered_map<string, unordered_set<string>> influMap;
+
 };
 
 
