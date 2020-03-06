@@ -17,10 +17,10 @@ def setObsNode(G, node_name):
   G.add_node(node_name)
   n = G.get_node(node_name)
   n.attr['shape'] = 'oval'
-  n.attr['fontsize'] = 10
+  n.attr['fontsize'] = 15
   n.attr['fontname'] = 'sans-serif'
-  n.attr['height'] = 0.3
-  n.attr['width'] = 0.4
+  n.attr['height'] = 0.6
+  n.attr['width'] = 0.8
   n.attr['color'] = 'blue'
 
 
@@ -28,10 +28,10 @@ def setQueNode(G, node_name):
   G.add_node(node_name)
   n = G.get_node(node_name)
   n.attr['shape'] = 'oval'
-  n.attr['fontsize'] = 10
+  n.attr['fontsize'] = 15
   n.attr['fontname'] = 'sans-serif'
-  n.attr['height'] = 0.3
-  n.attr['width'] = 0.4
+  n.attr['height'] = 0.6
+  n.attr['width'] = 0.8
   n.attr['color'] = 'red'
 
 
