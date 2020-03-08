@@ -433,13 +433,25 @@ void MLN::gibbsSampling_v3(int round) {
 }
 
 
-
-
 double MLN::queryProb(string query) {
   assert(this->prob.find(query)!=this->prob.end());
   return this->prob[query];
 }
 
+
+map<string, vector<double>> MLN::getAllProbs(int round, int times) {
+  map<string, vector<double>> res;
+  for (string query : this->queries) {
+    res[query] = vector<double> (times);
+  }
+  for (int i=0; i<times; i++) {
+    gibbsSampling_v3(round);
+    for (string query : this->queries) {
+      res[query][i] = queryProb(query);
+    }
+  }
+  return res;
+}
 
 
 void MLN::saveToFile(ofstream& file) {
@@ -461,6 +473,12 @@ void MLN::saveToFile(ofstream& file) {
     file << "c_map: " << it->first << ' ';
     for (int i=0; i<it->second.size(); i++) {
       file << it->second[i] << ' ';
+    }
+    file << endl;
+  }
+  for (string query : this->queries) {
+    if (this->prob.find(query)!=this->prob.end()) {
+      file << "prob: " << query << ' ' << this->prob[query];
     }
     file << endl;
   }

@@ -1,5 +1,6 @@
 
 #include <iostream>
+#include <fstream>
 #include <vector>
 #include <string>
 #include <ctime>
@@ -164,6 +165,45 @@ void varianceTest(MLN& mln, string query_name) {
 }
 
 
+map<string, vector<double>> boxplotTest(MLN& mln, int round, int times) {
+  map<string, vector<double>> values;
+  set<string> queries = mln.getQueryLiterals();
+  for (string s : queries) {
+    values[s] = vector<double> ();
+  }
+  for (int t=0; t<times; t++) {
+    mln.gibbsSampling_v3(round);
+    for (string s : queries) {
+      values[s].push_back(mln.queryProb(s));
+    }
+  }
+  return values;
+}
+
+
+void boxplotTestSave(MLN mln, string file_name, int times) {
+  ofstream file;
+  file.open(file_name);
+  vector<int> rounds = {1000, 2000, 5000, 10000, 50000, 100000};
+  set<string> queries = mln.getQueryLiterals();
+  for (int round : rounds) {
+    // cout << round << endl;
+    file << "rounds: " << round << ' ' << "times: " << times << endl;
+    // map<string, vector<double>> values = boxplotTest(mln, round, times);
+    map<string, vector<double>> values = mln.getAllProbs(round, times);
+    for (string s : queries) {
+      file << s << ": ";
+      for (double v : values[s]) {
+        file << v << ' ';
+      }
+      file << endl;
+    }
+    file << endl;
+  }
+  file.close();
+}
+
+
 void influenceTest(MLN mln, string target, int n) {
   clock_t t1 = clock();
   Influence influence(mln);
@@ -213,8 +253,8 @@ int main(int argc, char* argv[]) {
     }
   }
 
-  assert(args.find("query_name")!=args.end());
-  assert(args.find("target_name")!=args.end());
+  // assert(args.find("query_name")!=args.end());
+  // assert(args.find("target_name")!=args.end());
   if (args.find("observe_file")==args.end()) {
     args["observe_file"] = ObsFile;
   }
@@ -236,15 +276,19 @@ int main(int argc, char* argv[]) {
 
   printLiterals(mln);
 
-  cliqueTest(mln, args["query_name"]);
+  if (args.find("query_name")!=args.end()) {
+    cliqueTest(mln, args["query_name"]);
+    // gibbsTest(mln, 10000, args["query_name"]);
+    // varianceTest(mln, args["query_name"]);
+  }
 
   if (args.find("save")!=args.end()) {
     saveToFile(mln, args["save"]);
   }
 
-  // gibbsTest(mln, 10000, args["query_name"]);
+  // boxplotTestSave(mln, "./data/record/cancer8.txt", 100);
 
-  // varianceTest(mln, args["query_name"]);
-
-  // influenceTest(mln, args["target_name"], 10);
+  if (args.find("target_name")!=args.end()) {
+    // influenceTest(mln, args["target_name"], 10);
+  }
 }

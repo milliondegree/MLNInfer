@@ -37,6 +37,8 @@ public:
   void gibbsSampling_v3(int round);
   double queryProb(string query);
 
+  map<string, vector<double>> getAllProbs(int round, int times);
+
   void saveToFile(ofstream& file);
 
   ~MLN();
