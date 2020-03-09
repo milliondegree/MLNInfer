@@ -69,6 +69,11 @@ double Clique::getPotential(unordered_map<string, double>& truth) {
 }
 
 
+double Clique::getPartialDerivative(unordered_map<string, double>& truth, string p_f, string p_v) {
+  // to be implemented
+}
+
+
 void Clique::printClique() {
   cout << this->rule_name << ' ' << this->rule_head << " :- ";
   for (size_t i=0; i<this->rule_body.size(); i++) {

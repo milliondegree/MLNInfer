@@ -40,6 +40,7 @@ def drawBoxPlot(input):
     plt.boxplot(data, labels=labels)
     plt.title(k)
     plt.show()
+    
 
 if __name__ == '__main__':
   parser = argparse.ArgumentParser()

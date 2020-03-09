@@ -6,6 +6,7 @@
 #include <string>
 #include <map>
 #include <unordered_map>
+#include <unordered_set>
 #include <random>
 #include <math.h>
 #include <assert.h>
@@ -21,6 +22,7 @@ public:
   void setProperty(string prov, map<string, double> prob);
 
   friend class Parser;
+  friend class Grader;
 
   void removeRedundant(string& prov);
   void build(string prov);
@@ -50,6 +52,7 @@ private:
   set<string> queries;
   map<string, double> prob;
   map<string, vector<int>> c_map;
+  unordered_map<string, unordered_map<string, double>> pd;
 };
 
 
@@ -67,6 +70,21 @@ private:
   vector<vector<string>> parseRules(MLN& mln, string& prov, int& i);
   vector<string> parseRule(MLN& mln, string& prov, int& i);
   vector<string> parseRuleBody(MLN& mln, string& prov, int& i);
+};
+
+
+
+class Grader {
+public:
+  Grader();
+
+  void computeGradients(MLN& mln, string query);
+
+  ~Grader();
+
+private:
+  string target;
+  void dfsBuild(MLN& mln, vector<bool>& visited, string query, double grad);
 };
 
 
