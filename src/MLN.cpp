@@ -454,6 +454,12 @@ map<string, vector<double>> MLN::getAllProbs(int round, int times) {
 }
 
 
+unordered_map<string, double> MLN::getInfluence(string query) {
+  assert(this->pd.find(query)!=this->pd.end());
+  return this->pd[query];
+}
+
+
 void MLN::saveToFile(ofstream& file) {
   file << "provenance: " << this->prov << endl;
   file << "observed: ";

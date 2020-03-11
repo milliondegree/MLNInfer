@@ -227,6 +227,22 @@ void influenceTest(MLN mln, string target, int n) {
 }
 
 
+void influenceQuery(MLN& mln, string query) {
+  cout << "compute influence of " << query << endl;
+  mln.gibbsSampling_v3(100000);
+  Grader grader;
+  clock_t t1 = clock();
+  grader.computeGradients(mln, query);
+  clock_t t2 = clock();
+  cout << "influence compute time: " << ((double)(t2-t1))/CLOCKS_PER_SEC << " seconds" << endl;
+  unordered_map<string, double> influs = mln.getInfluence(query);
+  for (auto it=influs.begin(); it!=influs.end(); it++) {
+    cout << it->first << ' ' << it->second << endl;
+  }
+  cout << endl;
+}
+
+
 int main(int argc, char* argv[]) {
 
   unordered_map<string, string> args;
@@ -250,6 +266,9 @@ int main(int argc, char* argv[]) {
     }
     else if (argvs[i]=="-s" || argvs[i]=="-save") {
       args["save"] = argvs[i+1];
+    }
+    else if (argvs[i]=="-i" || argvs[i]=="-influence_name") {
+      args["influence_name"] = argvs[i+1];
     }
   }
 
@@ -287,6 +306,10 @@ int main(int argc, char* argv[]) {
   }
 
   // boxplotTestSave(mln, "./data/record/cancer8.txt", 100);
+
+  if (args.find("influence_name")!=args.end()) {
+    influenceQuery(mln, args["influence_name"]);
+  }
 
   if (args.find("target_name")!=args.end()) {
     // influenceTest(mln, args["target_name"], 10);

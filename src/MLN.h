@@ -41,6 +41,8 @@ public:
 
   map<string, vector<double>> getAllProbs(int round, int times);
 
+  unordered_map<string, double> getInfluence(string query);
+
   void saveToFile(ofstream& file);
 
   ~MLN();

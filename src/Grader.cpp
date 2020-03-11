@@ -29,18 +29,18 @@ void Grader::dfsBuild(MLN& mln, vector<bool>& visited, string query, double grad
       visited[id] = true;
       Clique c = mln.cliques[id];
       vector<string> literals = c.getLiterals();
-      unordered_map<string, double> truth;
       for (string s : literals) {
-        truth[s] = mln.prob[s];
-      }
-      for (string s : literals) {
-        if (mln.pd[this->target].find(s)==mln.pd[this->target].end()) {
-          double pd_value = c.getPartialDerivative(truth, query, s);
-          double n_grad = pd_value * grad
+        if (s!=query && mln.pd[this->target].find(s)==mln.pd[this->target].end()) {
+          double pd_value = c.getPartialDerivative(mln.prob, query, s);
+          double n_grad = pd_value * grad;
           mln.pd[this->target][s] = n_grad;
           dfsBuild(mln, visited, s, n_grad);
         } 
       }
     }
   }
+}
+
+
+Grader::~Grader() {
 }

@@ -19,7 +19,7 @@ public:
   double getPotential(map<string, int>& truth);
   double getPotential(map<string, double>& truth);
   double getPotential(unordered_map<string, double>& truth);
-  double getPartialDerivative(unordered_map<string, double>& truth, string p_f, string p_v);
+  double getPartialDerivative(map<string, double>& truth, string p_f, string p_v);
   vector<string> getLiterals();
 
   void printClique();
