@@ -31,6 +31,13 @@ void Parser::parseRuleHead(MLN& mln, string& prov, int& i) {
     mln.obs.insert(rule_head);
   }
 
+  // deal with cliques only contain one literal (single clique)
+  string predName = extractName(rule_head);
+  assert(mln.prob.find(predName)!=mln.prob.end());
+  Clique s_c = Clique(rule_head, mln.prob[predName]);
+  mln.cliques.push_back(s_c);
+  mln.c_map[rule_head].push_back(mln.cliques.size()-1);
+
   vector<vector<string>> rules = parseRules(mln, prov, i);
 
   for (vector<string> rule : rules) {
@@ -123,10 +130,29 @@ vector<string> Parser::parseRuleBody(MLN& mln, string& prov, int& i) {
         break;
       }
     }
-    else if (prov[i]=='*') {
-      i++;
+    else {
+      string predName = extractName(body);
+      assert(mln.prob.find(predName)!=mln.prob.end());
+      Clique s_c = Clique(body, mln.prob[predName]);
+      if (mln.c_map.find(body)==mln.c_map.end()) {
+        mln.c_map[body] = vector<int> ();
+      }
+      mln.cliques.push_back(s_c);
+      mln.c_map[body].push_back(mln.cliques.size()-1);
+      if (prov[i]=='*') {
+        i++;
+      }
     }
   }
   i++;
   return res;
+}
+
+
+string Parser::extractName(string& s) {
+  int i = 0;
+  while (!(s[i]>='0' && s[i]<='9')) {
+    i++;
+  }
+  return s.substr(0, i);
 }

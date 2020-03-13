@@ -14,6 +14,7 @@ using namespace std;
 class Clique {
 public:
   Clique();
+  Clique(string rule, double weight);
   Clique(string rule, double weight, string r_head, vector<string> r_body);
 
   double getPotential(map<string, int>& truth);

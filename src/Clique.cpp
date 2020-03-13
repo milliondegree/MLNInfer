@@ -4,6 +4,14 @@
 Clique::Clique() {
 }
 
+
+Clique::Clique(string rule, double weight) {
+  this->rule_name = rule;
+  this->rule_weight = weight;
+  this->literals.push_back(rule);
+}
+
+
 Clique::Clique(string rule, double weight, string r_head, vector<string> r_body) {
   this->rule_name = rule;
   this->rule_weight = weight;
@@ -17,6 +25,9 @@ Clique::Clique(string rule, double weight, string r_head, vector<string> r_body)
 
 
 double Clique::getPotential(map<string, int>& truth) {
+  if (this->literals.size()==1) {
+    return this->rule_weight * truth[this->rule_name];
+  }
   assert(truth.find(this->rule_head)!=truth.end());
   int rule_head_value = truth[this->rule_head];
   int rule_body_value = 1;
@@ -32,6 +43,9 @@ double Clique::getPotential(map<string, int>& truth) {
 
 
 double Clique::getPotential(map<string, double>& truth) {
+  if (this->literals.size()==1) {
+    return this->rule_weight * truth[this->rule_name];
+  }
   assert(truth.find(this->rule_head)!=truth.end());
   for (string rule_b : this->rule_body) {
     assert(truth.find(rule_b)!=truth.end());
@@ -53,6 +67,9 @@ double Clique::getPotential(unordered_map<string, double>& truth) {
     assert(truth.find(rule_b)!=truth.end());
   }
   */
+  if (this->literals.size()==1) {
+    return this->rule_weight * truth[this->rule_name];
+  }
   double p_head = 1 - truth[this->rule_head];
   if (abs(p_head)<1e-10) {
     return this->rule_weight;
@@ -96,7 +113,11 @@ double Clique::getPartialDerivative(map<string, double>& truth, string p_f, stri
 
 
 void Clique::printClique() {
-  cout << this->rule_name << ' ' << this->rule_head << " :- ";
+  if (this->literals.size()==1) {
+    cout << this->rule_name << ' ' << this->rule_weight << endl;
+    return;
+  }
+  cout << this->rule_name << ' ' << this->rule_weight << ' ' << this->rule_head << " :- ";
   for (size_t i=0; i<this->rule_body.size(); i++) {
     if (i!=this->rule_body.size()-1) {
       cout << this->rule_body[i] << ", ";
@@ -109,6 +130,9 @@ void Clique::printClique() {
 
 
 void Clique::saveToFile(ofstream& file) {
+  if (this->literals.size()==1) {
+    return;
+  }
   file << "clique: ";
   file << this->rule_name << ' ' << this->rule_head << ' ';
   for (int i=0; i<this->rule_body.size(); i++) {

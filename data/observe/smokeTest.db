@@ -11,4 +11,8 @@ smoke1 1
 smoke6 1
 
 r1 0.89
-r2 0.88
+r2 0.44
+
+smoke 0.54
+cancer -1.33
+friends 0

@@ -129,6 +129,13 @@ void gibbsTest(MLN& mln, int round, string query_name) {
 }
 
 
+void probabilityQuery(MLN& mln, int round, string query_name) {
+  mln.gibbsSampling_v3(round);
+  double prob = mln.queryProb(query_name);
+  cout << "probability of " << query_name << " is " << prob << endl;
+}
+
+
 void varianceTest(MLN& mln, string query_name) {
   clock_t t1 = clock();
   vector<double> p1;
@@ -291,12 +298,11 @@ int main(int argc, char* argv[]) {
   Parser parser;
   parser.parseProvenance(mln);
 
-  // parseTest(mln, l);
-
   printLiterals(mln);
 
   if (args.find("query_name")!=args.end()) {
     cliqueTest(mln, args["query_name"]);
+    probabilityQuery(mln, 100000, args["query_name"]);
     // gibbsTest(mln, 10000, args["query_name"]);
     // varianceTest(mln, args["query_name"]);
   }

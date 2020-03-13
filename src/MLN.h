@@ -72,6 +72,7 @@ private:
   vector<vector<string>> parseRules(MLN& mln, string& prov, int& i);
   vector<string> parseRule(MLN& mln, string& prov, int& i);
   vector<string> parseRuleBody(MLN& mln, string& prov, int& i);
+  string extractName(string& s);
 };
 
 
