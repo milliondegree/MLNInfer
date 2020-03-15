@@ -131,6 +131,8 @@ void Clique::printClique() {
 
 void Clique::saveToFile(ofstream& file) {
   if (this->literals.size()==1) {
+    file << "cliques: ";
+    file << this->rule_name << endl;
     return;
   }
   file << "clique: ";

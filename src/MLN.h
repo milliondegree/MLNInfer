@@ -81,13 +81,15 @@ class Grader {
 public:
   Grader();
 
-  void computeGradients(MLN& mln, string query);
+  void computeGradients(MLN& mln, string query, int round);
+  void computeGradients_v2(MLN& mln, string query, int round, double delta);
 
   ~Grader();
 
 private:
   string target;
-  void dfsBuild(MLN& mln, vector<bool>& visited, string query, double grad);
+  void dfsBuild(MLN& mln, vector<bool>& visited, string& query, double grad);
+  void dfsSearch(MLN& mln, unordered_set<string>& valid_obs, vector<bool>& visited, string& query);
 };
 
 

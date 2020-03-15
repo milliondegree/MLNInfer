@@ -130,7 +130,10 @@ void gibbsTest(MLN& mln, int round, string query_name) {
 
 
 void probabilityQuery(MLN& mln, int round, string query_name) {
+  clock_t t1 = clock();
   mln.gibbsSampling_v3(round);
+  clock_t t2 = clock();
+  cout << "gibbs sample: " << ((double)(t2-t1))/CLOCKS_PER_SEC << " seconds" << endl;
   double prob = mln.queryProb(query_name);
   cout << "probability of " << query_name << " is " << prob << endl;
 }
@@ -234,12 +237,12 @@ void influenceTest(MLN mln, string target, int n) {
 }
 
 
-void influenceQuery(MLN& mln, string query) {
+void influenceQuery(MLN& mln, string query, int round, double delta) {
   cout << "compute influence of " << query << endl;
-  mln.gibbsSampling_v3(100000);
   Grader grader;
   clock_t t1 = clock();
-  grader.computeGradients(mln, query);
+  grader.computeGradients_v2(mln, query, round, delta);
+  // grader.computeGradients(mln, query, round);
   clock_t t2 = clock();
   cout << "influence compute time: " << ((double)(t2-t1))/CLOCKS_PER_SEC << " seconds" << endl;
   unordered_map<string, double> influs = mln.getInfluence(query);
@@ -250,9 +253,17 @@ void influenceQuery(MLN& mln, string query) {
 }
 
 
+void setDefaultArgs(unordered_map<string, string>& args) {
+  args["observe_file"] = "./data/observe/smokeTest.db";
+  args["provenance_file"] = "./data/prov/cancer2.txt";
+  args["round"] = "100000";
+}
+
+
 int main(int argc, char* argv[]) {
 
   unordered_map<string, string> args;
+  setDefaultArgs(args);
   vector<string> argvs;
   for (int i=0; i<argc; i++) {
     argvs.push_back(string(argv[i]));
@@ -276,6 +287,9 @@ int main(int argc, char* argv[]) {
     }
     else if (argvs[i]=="-i" || argvs[i]=="-influence_name") {
       args["influence_name"] = argvs[i+1];
+    }
+    else if (argvs[i]=="-r" || argvs[i]=="-round") {
+      args["round"] = argvs[i+1];
     }
   }
 
@@ -302,7 +316,7 @@ int main(int argc, char* argv[]) {
 
   if (args.find("query_name")!=args.end()) {
     cliqueTest(mln, args["query_name"]);
-    probabilityQuery(mln, 100000, args["query_name"]);
+    probabilityQuery(mln, stoi(args["round"]), args["query_name"]);
     // gibbsTest(mln, 10000, args["query_name"]);
     // varianceTest(mln, args["query_name"]);
   }
@@ -314,7 +328,7 @@ int main(int argc, char* argv[]) {
   // boxplotTestSave(mln, "./data/record/cancer8.txt", 100);
 
   if (args.find("influence_name")!=args.end()) {
-    influenceQuery(mln, args["influence_name"]);
+    influenceQuery(mln, args["influence_name"], stoi(args["round"]), 0.1);
   }
 
   if (args.find("target_name")!=args.end()) {
