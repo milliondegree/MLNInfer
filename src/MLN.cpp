@@ -433,6 +433,97 @@ void MLN::gibbsSampling_v3(int round) {
 }
 
 
+void MLN::gibbsSampling_v4(int round, string query) {
+  unordered_set<string> valid_unknown;
+  vector<bool> visited (this->cliques.size(), false);
+  dfsSearch(valid_unknown, visited, query);
+
+  unordered_map<string, int> samples;
+  for (string query : valid_unknown) {
+    samples[query] = 0;
+  }
+
+  unordered_map<string, int> assignments;
+  random_device rd;
+  mt19937 generator(rd());
+  uniform_real_distribution<double> distribution(0.0,1.0);
+  for (string query : valid_unknown) {
+    double rand = distribution(generator);
+    if (rand>0.5) {
+      assignments[query] = 1.0;
+    }
+    else {
+      assignments[query] = 0.0;
+    }
+  }
+
+  vector<unordered_map<string, double>> truth_tables;
+  for (Clique c : this->cliques) {
+    unordered_map<string, double> m;
+    vector<string> literals = c.getLiterals();
+    for (string literal : literals) {
+      if (this->obs.find(literal)==this->obs.end()) {
+        m[literal] = (double)assignments[literal];
+      }
+      else {
+        m[literal] = this->prob[literal];
+      }
+    }
+    truth_tables.push_back(m);
+  }
+
+  unordered_map<string, vector<double>> potentials_0s;
+  unordered_map<string, vector<double>> potentials_1s;
+  for (string query : valid_unknown) {
+    potentials_0s[query] = vector<double> (this->c_map[query].size(), 0.0);
+    potentials_1s[query] = vector<double> (this->c_map[query].size(), 0.0);
+  }
+
+  for (int r=0; r<round; r++) {
+    for (string query : valid_unknown) {
+      for (int i=0; i<this->c_map[query].size(); i++) {
+        int ind = this->c_map[query][i];
+        Clique c = this->cliques[ind];
+        vector<string> literals = c.getLiterals();
+        for (string literal : literals) {
+          if (this->obs.find(literal)==this->obs.end()) {
+            truth_tables[ind][literal] = (double)assignments[literal];
+          }
+        }
+        truth_tables[ind][query] = 1.0;
+        potentials_1s[query][i] = c.getPotential(truth_tables[ind]);
+        truth_tables[ind][query] = 0.0;
+        potentials_0s[query][i] = c.getPotential(truth_tables[ind]);
+      }
+      double sum_1 = 0;
+      for (double p : potentials_1s[query]) {
+        sum_1 += p;
+      }
+      double sum_0 = 0;
+      for (double p : potentials_0s[query]) {
+        sum_0 += p;
+      }
+      double exp_1 = exp(sum_1);
+      double exp_0 = exp(sum_0);
+      double p = exp_1 / (exp_1+exp_0);
+      double prand = distribution(generator);
+      if (prand<p) {
+        samples[query] += 1;
+        assignments[query] = 1;
+      }
+      else {
+        assignments[query] = 0;
+      }
+    }
+  }
+
+  for (string query : valid_unknown) {
+    this->prob[query] = ((double)samples[query]) / round;
+  }
+}
+
+
+
 double MLN::queryProb(string query) {
   assert(this->prob.find(query)!=this->prob.end());
   return this->prob[query];
@@ -487,6 +578,26 @@ void MLN::saveToFile(ofstream& file) {
       file << "prob: " << query << ' ' << this->prob[query];
     }
     file << endl;
+  }
+}
+
+
+void MLN::dfsSearch(unordered_set<string>& valid_unknown, vector<bool>& visited, string& query) {
+  if (this->obs.find(query)!=this->obs.end()) {
+    return;
+  }
+  else {
+    valid_unknown.insert(query);
+  }
+  for (int ind : this->c_map[query]) {
+    if (!visited[ind]) {
+      visited[ind] = true;
+      for (string s : this->cliques[ind].getLiterals()) {
+        if (s!=query) {
+          dfsSearch(valid_unknown, visited, s);
+        }
+      }
+    }
   }
 }
 

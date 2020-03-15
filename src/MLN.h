@@ -37,6 +37,7 @@ public:
   void gibbsSampling(int round);
   void gibbsSampling_v2(int round);
   void gibbsSampling_v3(int round);
+  void gibbsSampling_v4(int round, string query);
   double queryProb(string query);
 
   map<string, vector<double>> getAllProbs(int round, int times);
@@ -55,6 +56,8 @@ private:
   map<string, double> prob;
   map<string, vector<int>> c_map;
   unordered_map<string, unordered_map<string, double>> pd;
+
+  void dfsSearch(unordered_set<string>& valid_unknown, vector<bool>& visited, string& query);
 };
 
 

@@ -34,15 +34,20 @@ void Grader::computeGradients_v2(MLN& mln, string query, int round, double delta
   unordered_set<string> valid_obs;
   vector<bool> visited (mln.cliques.size(), false);
   dfsSearch(mln, valid_obs, visited, query);
+  cout << "tuples which have direct influence: ";
+  for (string s : valid_obs) {
+    cout << s << ' ';
+  }
+  cout << endl;
   for (string observe : valid_obs) {
     double prev = mln.prob[observe];
     double upper = max(1.0, mln.prob[observe]+delta);
     double lower = min(0.0, mln.prob[observe]-delta);
     mln.setObsProb(observe, upper);
-    mln.gibbsSampling_v3(round);
+    mln.gibbsSampling_v4(round, query);
     double upper_prob = mln.queryProb(query);
     mln.setObsProb(observe, lower);
-    mln.gibbsSampling_v3(round);
+    mln.gibbsSampling_v4(round, query);
     double lower_prob = mln.queryProb(query);
     mln.setObsProb(observe, prev);
     mln.pd[query][observe] = (upper_prob-lower_prob) / (upper-lower);
@@ -83,7 +88,7 @@ void Grader::dfsSearch(MLN& mln, unordered_set<string>& valid_obs, vector<bool>&
   for (int ind : mln.c_map[query]) {
     if (!visited[ind]) {
       visited[ind] = true;
-      for (string& s : mln.cliques[ind].getLiterals) {
+      for (string& s : mln.cliques[ind].getLiterals()) {
         if (s!=query) {
           dfsSearch(mln, valid_obs, visited, s);
         }

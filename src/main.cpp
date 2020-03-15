@@ -131,7 +131,8 @@ void gibbsTest(MLN& mln, int round, string query_name) {
 
 void probabilityQuery(MLN& mln, int round, string query_name) {
   clock_t t1 = clock();
-  mln.gibbsSampling_v3(round);
+  // mln.gibbsSampling_v3(round);
+  mln.gibbsSampling_v4(round, query_name);
   clock_t t2 = clock();
   cout << "gibbs sample: " << ((double)(t2-t1))/CLOCKS_PER_SEC << " seconds" << endl;
   double prob = mln.queryProb(query_name);
@@ -257,6 +258,7 @@ void setDefaultArgs(unordered_map<string, string>& args) {
   args["observe_file"] = "./data/observe/smokeTest.db";
   args["provenance_file"] = "./data/prov/cancer2.txt";
   args["round"] = "100000";
+  args["delta"] = "0.1";
 }
 
 
@@ -290,6 +292,9 @@ int main(int argc, char* argv[]) {
     }
     else if (argvs[i]=="-r" || argvs[i]=="-round") {
       args["round"] = argvs[i+1];
+    }
+    else if (argvs[i]=="-d" || argvs[i]=="delta") {
+      args["delta"] = argvs[i+1];
     }
   }
 
@@ -328,7 +333,7 @@ int main(int argc, char* argv[]) {
   // boxplotTestSave(mln, "./data/record/cancer8.txt", 100);
 
   if (args.find("influence_name")!=args.end()) {
-    influenceQuery(mln, args["influence_name"], stoi(args["round"]), 0.1);
+    influenceQuery(mln, args["influence_name"], stoi(args["round"]), stoi(args["delta"]));
   }
 
   if (args.find("target_name")!=args.end()) {
