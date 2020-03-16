@@ -61,12 +61,6 @@ double Clique::getPotential(map<string, double>& truth) {
 
 
 double Clique::getPotential(unordered_map<string, double>& truth) {
-  /*
-  assert(truth.find(this->rule_head)!=truth.end());
-  for (string rule_b : this->rule_body) {
-    assert(truth.find(rule_b)!=truth.end());
-  }
-  */
   if (this->literals.size()==1) {
     return this->rule_weight * truth[this->rule_name];
   }

@@ -15,8 +15,8 @@ MLN::MLN(string prov, map<string, double> prob) {
 void MLN::clear() {
   this->cliques = vector<Clique> ();
   this->c_map = map<string, vector<int>> ();
-  this->obs = set<string> ();
-  this->queries = set<string> ();
+  this->obs = unordered_set<string> ();
+  this->queries = unordered_set<string> ();
   this->prob = map<string, double> ();
   this->prov = string ();
 }
@@ -190,12 +190,12 @@ vector<Clique> MLN::getCliques(string literal) {
 }
 
 
-set<string> MLN::getObsLiterals() {
+unordered_set<string> MLN::getObsLiterals() {
   return this->obs;
 }
 
 
-set<string> MLN::getQueryLiterals() {
+unordered_set<string> MLN::getQueryLiterals() {
   return this->queries;
 }
 
@@ -479,8 +479,21 @@ void MLN::gibbsSampling_v4(int round, string query) {
     potentials_1s[query] = vector<double> (this->c_map[query].size(), 0.0);
   }
 
+  vector<string> v_query;
+  for (string query : valid_unknown) {
+    v_query.push_back(query);
+  }
+  vector<int> q_indices (v_query.size());
+  for (int i=0; i<v_query.size(); i++) {
+    q_indices[i] = i;
+  }
+
+  auto rng = std::default_random_engine {};
+
   for (int r=0; r<round; r++) {
-    for (string query : valid_unknown) {
+    shuffle(q_indices.begin(), q_indices.end(), rng);
+    for (int qi : q_indices) {
+      string query = v_query[qi];
       for (int i=0; i<this->c_map[query].size(); i++) {
         int ind = this->c_map[query][i];
         Clique c = this->cliques[ind];

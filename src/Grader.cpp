@@ -24,6 +24,10 @@ void Grader::computeGradients(MLN& mln, string query, int round) {
 
 
 void Grader::computeGradients_v2(MLN& mln, string query, int round, double delta) {
+  if (mln.queries.find(query)==mln.queries.end()) {
+    cout << "cannot compute influence to a observed tuple" << endl;
+    return;
+  }
   if (mln.pd.find(query)==mln.pd.end()) {
     mln.pd[query] = unordered_map<string, double> ();
   }

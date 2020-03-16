@@ -67,8 +67,8 @@ void parseTest(MLN mln, Load l) {
 
 void printLiterals(MLN mln) {
   // print out the observed literals and unknown literals after parsing
-  set<string> obs = mln.getObsLiterals();
-  set<string> queries = mln.getQueryLiterals();
+  unordered_set<string> obs = mln.getObsLiterals();
+  unordered_set<string> queries = mln.getQueryLiterals();
   cout << "observed tuples: ";
   for (string s : obs) {
     cout << s << ' ';
@@ -178,7 +178,7 @@ void varianceTest(MLN& mln, string query_name) {
 
 map<string, vector<double>> boxplotTest(MLN& mln, int round, int times) {
   map<string, vector<double>> values;
-  set<string> queries = mln.getQueryLiterals();
+  unordered_set<string> queries = mln.getQueryLiterals();
   for (string s : queries) {
     values[s] = vector<double> ();
   }
@@ -196,7 +196,7 @@ void boxplotTestSave(MLN mln, string file_name, int times) {
   ofstream file;
   file.open(file_name);
   vector<int> rounds = {1000, 2000, 5000, 10000, 50000, 100000};
-  set<string> queries = mln.getQueryLiterals();
+  unordered_set<string> queries = mln.getQueryLiterals();
   for (int round : rounds) {
     // cout << round << endl;
     file << "rounds: " << round << ' ' << "times: " << times << endl;
@@ -223,7 +223,7 @@ void influenceTest(MLN mln, string target, int n) {
     probs.push_back((1.0/n)*i);
   }
   influence.computeObsInfluence(target, probs);
-  set<string> queries = mln.getQueryLiterals();
+  unordered_set<string> queries = mln.getQueryLiterals();
   for (string q : queries) {
     vector<double> q_p = influence.getProbs(q);
     cout << q << ": ";
@@ -330,7 +330,7 @@ int main(int argc, char* argv[]) {
     saveToFile(mln, args["save"]);
   }
 
-  // boxplotTestSave(mln, "./data/record/cancer8.txt", 100);
+  boxplotTestSave(mln, "./data/record/cancer8_2.txt", 100);
 
   if (args.find("influence_name")!=args.end()) {
     influenceQuery(mln, args["influence_name"], stoi(args["round"]), stoi(args["delta"]));

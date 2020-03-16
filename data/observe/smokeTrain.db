@@ -1,12 +1,12 @@
 friends1_2 1
-friends2_1 1
+friends2_1 0.8
 friends1_3 1
 friends3_1 1
 friends1_4 1
 friends4_1 1
-friends2_5 1
+friends2_5 0.8
 friends5_2 1
-friends5_6 1
+friends5_6 0.8
 friends6_5 1
 friends3_4 1
 friends4_3 1
@@ -14,7 +14,7 @@ friends7_8 1
 friends8_7 1
 friends7_1 1
 friends1_7 1
-smoke1 1
+smoke1 0.8
 smoke3 1
 smoke4 1
 smoke7 1

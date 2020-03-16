@@ -9,8 +9,8 @@ Influence::Influence(MLN mln) {
 
 
 void Influence::computeObsInfluence(string& target, vector<double>& probs) {
-  set<string> obs = this->mln.getObsLiterals();
-  set<string> queries = this->mln.getQueryLiterals();
+  unordered_set<string> obs = this->mln.getObsLiterals();
+  unordered_set<string> queries = this->mln.getQueryLiterals();
   for (string s : queries) {
     this->pm[s] = vector<double> ();
   }

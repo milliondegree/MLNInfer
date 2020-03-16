@@ -29,8 +29,8 @@ public:
 
   int numberCliques(string literal);
   vector<Clique> getCliques(string literal);
-  set<string> getObsLiterals();
-  set<string> getQueryLiterals();
+  unordered_set<string> getObsLiterals();
+  unordered_set<string> getQueryLiterals();
 
   void setObsProb(string str, double prob);
 
@@ -51,8 +51,8 @@ public:
 private:
   string prov;
   vector<Clique> cliques;
-  set<string> obs;
-  set<string> queries;
+  unordered_set<string> obs;
+  unordered_set<string> queries;
   map<string, double> prob;
   map<string, vector<int>> c_map;
   unordered_map<string, unordered_map<string, double>> pd;
