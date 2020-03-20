@@ -262,6 +262,49 @@ void setDefaultArgs(unordered_map<string, string>& args) {
 }
 
 
+void save3DPlot(MLN& mln, string file_name, string query, int round, double delta) {
+  ofstream file;
+  file.open(file_name);
+  Grader grader;
+  vector<double> smokes;
+  vector<double> friends;
+  vector<double> smokes_inf;
+  vector<double> friends_inf;
+  for (int i=0; i<=10; i++) {
+    for (int j=0; j<=10; j++) {
+      smokes.push_back(i*0.1);
+      friends.push_back(j*0.1);
+      mln.setObsProb("smoke1", i*0.1);
+      mln.setObsProb("friends1_2", j*0.1);
+      grader.computeGradients_v2(mln, query, round, delta);
+      unordered_map<string, double> influs = mln.getInfluence(query);
+      smokes_inf.push_back(influs["smoke1"]);
+      friends_inf.push_back(influs["friends1_2"]);
+    }
+  }
+  file << "smoke1: ";
+  for (double v : smokes) {
+    file << v << ' ';
+  }
+  file << endl;
+  file << "inf: ";
+  for (double v : smokes_inf) {
+    file << v << ' ';
+  }
+  file << endl;
+  file << "friend1_2: ";
+  for (double v : friends) {
+    file << v << ' ';
+  }
+  file << endl;
+  file << "inf: ";
+  for (double v : friends_inf) {
+    file << v << ' ';
+  }
+  file << endl;
+}
+
+
 int main(int argc, char* argv[]) {
 
   unordered_map<string, string> args;
@@ -330,10 +373,11 @@ int main(int argc, char* argv[]) {
     saveToFile(mln, args["save"]);
   }
 
-  boxplotTestSave(mln, "./data/record/cancer8_2.txt", 100);
+  // boxplotTestSave(mln, "./data/record/cancer8_2.txt", 100);
 
   if (args.find("influence_name")!=args.end()) {
-    influenceQuery(mln, args["influence_name"], stoi(args["round"]), stoi(args["delta"]));
+    influenceQuery(mln, args["influence_name"], stoi(args["round"]), stod(args["delta"]));
+    // save3DPlot(mln, "./data/record/test.txt", args["influence_name"], stoi(args["round"]), stod(args["round"]));
   }
 
   if (args.find("target_name")!=args.end()) {

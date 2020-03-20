@@ -106,6 +106,23 @@ double Clique::getPartialDerivative(map<string, double>& truth, string p_f, stri
 }
 
 
+bool Clique::satisifiablity(unordered_map<string, int>& truth) {
+  if (this->literals.size()==1) {
+    return truth[this->rule_name];
+  }
+  bool head = truth[this->rule_head];
+  if (head) {
+    return true;
+  }
+  for (string body : this->rule_body) {
+    if (!truth[body]) {
+      return false;
+    }
+  }
+  return true;
+}
+
+
 void Clique::printClique() {
   if (this->literals.size()==1) {
     cout << this->rule_name << ' ' << this->rule_weight << endl;
@@ -125,7 +142,7 @@ void Clique::printClique() {
 
 void Clique::saveToFile(ofstream& file) {
   if (this->literals.size()==1) {
-    file << "cliques: ";
+    file << "clique: ";
     file << this->rule_name << endl;
     return;
   }

@@ -1,4 +1,7 @@
-friends1_2 1
-smoke2 1
+friends1_2 0.4
+smoke1 0.8
 r1 0.89
-r2 0.88
+r2 0.44
+smoke 0.54
+cancer -1.33
+friends 0

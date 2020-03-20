@@ -31,10 +31,6 @@ void Grader::computeGradients_v2(MLN& mln, string query, int round, double delta
   if (mln.pd.find(query)==mln.pd.end()) {
     mln.pd[query] = unordered_map<string, double> ();
   }
-  else {
-    cout << "influence of " << query << "has already been computed" << endl;
-    return;
-  }
   unordered_set<string> valid_obs;
   vector<bool> visited (mln.cliques.size(), false);
   dfsSearch(mln, valid_obs, visited, query);
@@ -45,8 +41,8 @@ void Grader::computeGradients_v2(MLN& mln, string query, int round, double delta
   cout << endl;
   for (string observe : valid_obs) {
     double prev = mln.prob[observe];
-    double upper = max(1.0, mln.prob[observe]+delta);
-    double lower = min(0.0, mln.prob[observe]-delta);
+    double upper = min(1.0, mln.prob[observe]+delta);
+    double lower = max(0.0, mln.prob[observe]-delta);
     mln.setObsProb(observe, upper);
     mln.gibbsSampling_v4(round, query);
     double upper_prob = mln.queryProb(query);
@@ -56,6 +52,14 @@ void Grader::computeGradients_v2(MLN& mln, string query, int round, double delta
     mln.setObsProb(observe, prev);
     mln.pd[query][observe] = (upper_prob-lower_prob) / (upper-lower);
   }
+}
+
+
+unordered_set<string> Grader::getValidObservedTuples(MLN& mln, string query) {
+  unordered_set<string> valid_obs;
+  vector<bool> visited (mln.cliques.size(), false);
+  dfsSearch(mln, valid_obs, visited, query);
+  return valid_obs;
 }
 
 

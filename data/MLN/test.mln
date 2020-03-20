@@ -1,0 +1,11 @@
+provenance: smoke1(r1@n257(friends1_2*smoke2))
+observed: friends1_2 smoke1 
+queried: smoke2 
+clique: smoke1
+clique: friends1_2
+clique: smoke2
+clique: r1 smoke1 friends1_2 smoke2 
+c_map: friends1_2 1 3 
+c_map: smoke1 0 3 
+c_map: smoke2 2 3 
+prob: smoke2 0.63171

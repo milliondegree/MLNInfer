@@ -21,6 +21,7 @@ public:
   double getPotential(map<string, double>& truth);
   double getPotential(unordered_map<string, double>& truth);
   double getPartialDerivative(map<string, double>& truth, string p_f, string p_v);
+  bool satisifiablity(unordered_map<string, int>& truth);
   vector<string> getLiterals();
 
   void printClique();

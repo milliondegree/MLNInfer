@@ -4,7 +4,7 @@ friends1_3 1
 friends3_1 1
 friends1_4 1
 friends4_1 1
-friends2_5 0.8
+friends2_5 0.5
 friends5_2 1
 friends5_6 0.8
 friends6_5 1
@@ -21,7 +21,7 @@ smoke7 1
 cancer1 1
 cancer3 1
 r1 0.89
-r2 0.88
+r2 0.44
 smoke 0.54
 cancer -1.33
 friends 0

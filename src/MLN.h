@@ -86,6 +86,7 @@ public:
 
   void computeGradients(MLN& mln, string query, int round);
   void computeGradients_v2(MLN& mln, string query, int round, double delta);
+  unordered_set<string> getValidObservedTuples(MLN& mln, string query);
 
   ~Grader();
 
