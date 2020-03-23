@@ -9,6 +9,7 @@
 #include <unordered_set>
 #include <random>
 #include <math.h>
+#include <float.h>
 #include <assert.h>
 #include "Clique.h"
 using namespace std;
@@ -40,8 +41,9 @@ public:
   void gibbsSampling_v4(int round, string query);
   double queryProb(string query);
 
-  map<string, vector<double>> getAllProbs(int round, int times);
+  void mcsat(int round);
 
+  map<string, vector<double>> getAllProbs(int round, int times);
   unordered_map<string, double> getInfluence(string query);
 
   void saveToFile(ofstream& file);
@@ -58,6 +60,12 @@ private:
   unordered_map<string, unordered_map<string, double>> pd;
 
   void dfsSearch(unordered_set<string>& valid_unknown, vector<bool>& visited, string& query);
+  void sampleSAT(unordered_map<string, int>& state, vector<int>& c_idx, int maxTries);
+  void maxWalkSAT(unordered_map<string, int>& state, vector<int>& c_idx, int maxFlips, int maxTries, double target, double p);
+
+  double getCost(unordered_map<string, int>& state, vector<int>& c_idx);
+  string randomPick(Clique& c);
+  string lowestPick(Clique& c, unordered_map<string, int>& state);
 };
 
 

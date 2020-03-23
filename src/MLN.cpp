@@ -446,7 +446,7 @@ void MLN::gibbsSampling_v4(int round, string query) {
   unordered_map<string, int> assignments;
   random_device rd;
   mt19937 generator(rd());
-  uniform_real_distribution<double> distribution(0.0,1.0);
+  uniform_real_distribution<double> distribution(0.0, 1.0);
   for (string query : valid_unknown) {
     double rand = distribution(generator);
     if (rand>0.5) {

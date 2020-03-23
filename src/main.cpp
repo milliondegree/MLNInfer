@@ -140,6 +140,16 @@ void probabilityQuery(MLN& mln, int round, string query_name) {
 }
 
 
+void probabilityQuery_mcsat(MLN& mln, int round, string query_name) {
+  clock_t t1 = clock();
+  mln.mcsat(round);
+  clock_t t2 = clock();
+  cout << "mcsat: " << ((double)(t2-t1))/CLOCKS_PER_SEC << " seconds" << endl;
+  double prob = mln.queryProb(query_name);
+  cout << "probability of " << query_name << " is " << prob << endl;
+}
+
+
 void varianceTest(MLN& mln, string query_name) {
   clock_t t1 = clock();
   vector<double> p1;
@@ -364,6 +374,8 @@ int main(int argc, char* argv[]) {
 
   if (args.find("query_name")!=args.end()) {
     cliqueTest(mln, args["query_name"]);
+    probabilityQuery_mcsat(mln, stoi(args["round"]), args["query_name"]);
+    cout << endl;
     probabilityQuery(mln, stoi(args["round"]), args["query_name"]);
     // gibbsTest(mln, 10000, args["query_name"]);
     // varianceTest(mln, args["query_name"]);

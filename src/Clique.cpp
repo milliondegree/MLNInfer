@@ -9,6 +9,7 @@ Clique::Clique(string rule, double weight) {
   this->rule_name = rule;
   this->rule_weight = weight;
   this->literals.push_back(rule);
+  buildLiterals();
 }
 
 
@@ -21,6 +22,7 @@ Clique::Clique(string rule, double weight, string r_head, vector<string> r_body)
   for (string body : this->rule_body) {
     this->literals.push_back(body);
   }
+  buildLiterals();
 }
 
 
@@ -106,21 +108,24 @@ double Clique::getPartialDerivative(map<string, double>& truth, string p_f, stri
 }
 
 
+
 bool Clique::satisifiablity(unordered_map<string, int>& truth) {
-  if (this->literals.size()==1) {
-    return truth[this->rule_name];
-  }
-  bool head = truth[this->rule_head];
-  if (head) {
-    return true;
-  }
-  for (string body : this->rule_body) {
-    if (!truth[body]) {
-      return false;
+  for (Literal& l : this->sliterals) {
+    string lname = l.name;
+    if (l.nag) {
+      if (!truth[lname]) {
+        return true;
+      }
+    }
+    else {
+      if (truth[lname]) {
+        return true;
+      }
     }
   }
-  return true;
+  return false;
 }
+
 
 
 void Clique::printClique() {
@@ -158,6 +163,33 @@ void Clique::saveToFile(ofstream& file) {
 vector<string> Clique::getLiterals() {
   return this->literals;
 }
+
+
+double Clique::getRuleWeight() {
+  return this->rule_weight;
+}
+
+
+bool Clique::isHard() {
+  return abs(this->rule_weight-DBL_MAX)<1e-10;
+}
+
+
+void Clique::buildLiterals() {
+  if (this->literals.size()==1) {
+    Literal l(this->literals[0], false);
+    this->sliterals.push_back(l);
+  }
+  else {
+    Literal head(this->rule_head, false);
+    this->sliterals.push_back(head);
+    for (string body : this->rule_body) {
+      Literal lb(body, true);
+      this->sliterals.push_back(lb);
+    }
+  }
+}
+
 
 Clique::~Clique() {
 }
