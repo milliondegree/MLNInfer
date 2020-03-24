@@ -142,7 +142,7 @@ void probabilityQuery(MLN& mln, int round, string query_name) {
 
 void probabilityQuery_mcsat(MLN& mln, int round, string query_name) {
   clock_t t1 = clock();
-  mln.mcsat(round);
+  mln.mcsat(round, query_name);
   clock_t t2 = clock();
   cout << "mcsat: " << ((double)(t2-t1))/CLOCKS_PER_SEC << " seconds" << endl;
   double prob = mln.queryProb(query_name);
@@ -151,6 +151,7 @@ void probabilityQuery_mcsat(MLN& mln, int round, string query_name) {
 
 
 void varianceTest(MLN& mln, string query_name) {
+  /*
   clock_t t1 = clock();
   vector<double> p1;
   for (int i=0; i<1000; i++) {
@@ -183,6 +184,28 @@ void varianceTest(MLN& mln, string query_name) {
   cout << "gibbs sample v3: " << ((double)(t6-t5))/CLOCKS_PER_SEC << " seconds" << endl;
   double var3 = calcVar(p3);
   cout << "variance of v3: " << var3 << endl;
+  */
+  clock_t t1 = clock();
+  vector<double> p1;
+  for (int i=0; i<100; i++) {
+    mln.gibbsSampling_v4(1000, query_name);
+    p1.push_back(mln.queryProb(query_name));
+  }
+  clock_t t2 = clock();
+  cout << "gibbs sample time: " << ((double)(t2-t1))/CLOCKS_PER_SEC << " seconds" << endl;
+  double var1 = calcVar(p1);
+  cout << "variance of gibbs sampling: " << var1 << endl;
+
+  clock_t t3 = clock();
+  vector<double> p2;
+  for (int i=0; i<100; i++) {
+    mln.mcsat(1000, query_name);
+    p2.push_back(mln.queryProb(query_name));
+  }
+  clock_t t4 = clock();
+  cout << "mcsat time: " << ((double)(t4-t3))/CLOCKS_PER_SEC << " seconds" << endl;
+  double var2 = calcVar(p2);
+  cout << "variance of masat: " << var2 << endl;
 }
 
 
@@ -373,12 +396,13 @@ int main(int argc, char* argv[]) {
   printLiterals(mln);
 
   if (args.find("query_name")!=args.end()) {
-    cliqueTest(mln, args["query_name"]);
+    // cliqueTest(mln, args["query_name"]);
     probabilityQuery_mcsat(mln, stoi(args["round"]), args["query_name"]);
     cout << endl;
-    probabilityQuery(mln, stoi(args["round"]), args["query_name"]);
+    // probabilityQuery(mln, stoi(args["round"]), args["query_name"]);
+    cout << endl;
     // gibbsTest(mln, 10000, args["query_name"]);
-    // varianceTest(mln, args["query_name"]);
+    varianceTest(mln, args["query_name"]);
   }
 
   if (args.find("save")!=args.end()) {

@@ -37,6 +37,7 @@ public:
 
   vector<string> getLiterals();
   double getRuleWeight();
+  double getCost(string& mode);
   bool isHard();
 
   void printClique();

@@ -110,20 +110,26 @@ double Clique::getPartialDerivative(map<string, double>& truth, string p_f, stri
 
 
 bool Clique::satisifiablity(unordered_map<string, int>& truth) {
+  bool res = false;
   for (Literal& l : this->sliterals) {
     string lname = l.name;
     if (l.nag) {
       if (!truth[lname]) {
-        return true;
+        res = true;
+        break;
       }
     }
     else {
       if (truth[lname]) {
-        return true;
+        res = true;
+        break;
       }
     }
   }
-  return false;
+  if (this->rule_weight<0) {
+    res = !res;
+  }
+  return res;
 }
 
 
@@ -167,6 +173,18 @@ vector<string> Clique::getLiterals() {
 
 double Clique::getRuleWeight() {
   return this->rule_weight;
+}
+
+
+double Clique::getCost(string& mode) {
+  double res = 0.0;
+  if (mode=="mws") {
+    res = abs(this->rule_weight);
+  }
+  else if (mode=="ss") {
+    res = 1.0;
+  }
+  return res;
 }
 
 

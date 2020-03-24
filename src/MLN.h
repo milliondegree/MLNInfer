@@ -1,6 +1,14 @@
 #ifndef _MLN_H
 #define _MLN_H
 
+#define MAXTRIES 100
+#define MAXFLIPS 10
+#define TARGET 0.00001
+#define NOISE 0.5
+#define SARATIO 0.5
+#define SATEMPERATURE 80
+
+
 #include <iostream>
 #include <fstream>
 #include <string>
@@ -41,7 +49,7 @@ public:
   void gibbsSampling_v4(int round, string query);
   double queryProb(string query);
 
-  void mcsat(int round);
+  void mcsat(int round, string query);
 
   map<string, vector<double>> getAllProbs(int round, int times);
   unordered_map<string, double> getInfluence(string query);
@@ -60,12 +68,15 @@ private:
   unordered_map<string, unordered_map<string, double>> pd;
 
   void dfsSearch(unordered_set<string>& valid_unknown, vector<bool>& visited, string& query);
-  void sampleSAT(unordered_map<string, int>& state, vector<int>& c_idx, int maxTries);
-  void maxWalkSAT(unordered_map<string, int>& state, vector<int>& c_idx, int maxFlips, int maxTries, double target, double p);
+  void sampleSAT(unordered_map<string, int>& state, unordered_set<int>& c_idx, int maxFlips, int maxTries, double target, double p);
+  void maxWalkSAT(unordered_map<string, int>& state, unordered_set<int>& c_idx, int maxFlips, int maxTries, double target, double p);
 
-  double getCost(unordered_map<string, int>& state, vector<int>& c_idx);
+  // double getCost(unordered_map<string, int>& state, unordered_set<int>& c_idx);
+  double getCost(unordered_map<string, int>& state, unordered_set<int>& c_idx, string& mode);
+  // double getSampleSATCost(unordered_map<string, int>& state, unordered_set<int>& c_idx);
   string randomPick(Clique& c);
-  string lowestPick(Clique& c, unordered_map<string, int>& state);
+  string lowestPick(Clique& c, unordered_map<string, int>& state, unordered_set<int>& c_idx, string& mode);
+  string optimalPick(unordered_map<string, int>& state, string& mode);
 };
 
 

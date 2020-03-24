@@ -447,15 +447,31 @@ void MLN::gibbsSampling_v4(int round, string query) {
   random_device rd;
   mt19937 generator(rd());
   uniform_real_distribution<double> distribution(0.0, 1.0);
+  // initialize randomly
+  /*
   for (string query : valid_unknown) {
     double rand = distribution(generator);
     if (rand>0.5) {
-      assignments[query] = 1.0;
+      assignments[query] = 1;
     }
     else {
-      assignments[query] = 0.0;
+      assignments[query] = 0;
     }
   }
+  */
+  // intialize assignment with maxwalksat
+  unordered_set<int> c_idx;
+  for (auto& query_name : valid_unknown) {
+    for (int id : this->c_map[query_name]) {
+      c_idx.insert(id);
+    }
+  }
+  maxWalkSAT(assignments, c_idx, MAXFLIPS, MAXTRIES, TARGET, NOISE);
+  // cout << "after maxWalkSAT initialization: " << endl;
+  // for (auto& query_name : valid_unknown) {
+  //   cout << query_name << ' ' << assignments[query_name] << endl;
+  // }
+
 
   vector<unordered_map<string, double>> truth_tables;
   for (Clique c : this->cliques) {
@@ -521,7 +537,9 @@ void MLN::gibbsSampling_v4(int round, string query) {
       double p = exp_1 / (exp_1+exp_0);
       double prand = distribution(generator);
       if (prand<p) {
-        samples[query] += 1;
+        if (round<10000 || r>1000) {
+          samples[query] += 1;
+        }
         assignments[query] = 1;
       }
       else {
@@ -530,8 +548,9 @@ void MLN::gibbsSampling_v4(int round, string query) {
     }
   }
 
+  int denominator = round>=10000 ? round-1000 : round;
   for (string query : valid_unknown) {
-    this->prob[query] = ((double)samples[query]) / round;
+    this->prob[query] = ((double)samples[query]) / denominator;
   }
 }
 
