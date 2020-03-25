@@ -6,32 +6,8 @@ void MLN::mcsat(int round, string query) {
   random_device rd;
   mt19937 generator(rd());
   uniform_real_distribution<double> distribution(0.0, 1.0);
-  // initialize numTrue map
-  unordered_map<string, int> numTrue;
-  for (auto& query_name : this->queries) {
-    numTrue[query_name] = 0;
-  }
-  // initialize state map
-  unordered_map<string, int> state;
-  for (string pred : obs) {
-    state[pred] = 1;
-  }
-  for (auto& query_name : this->queries) {
-    double rand = distribution(generator);
-    if (rand>0.5) {
-      state[query_name] = 1;
-    }
-    else {
-      state[query_name] = 0;
-    }
-  }
-  // find useful cliques
+  // find valid unknown tuples and valid cliques
   unordered_set<int> c_idx;
-  // for (auto& query : this->queries) {
-  //   for (int idx : this->c_map[query]) {
-  //     c_idx.insert(idx);
-  //   }
-  // }
   unordered_set<string> valid_unknown;
   vector<bool> visited (this->cliques.size());
   dfsSearch(valid_unknown, visited, query);
@@ -40,11 +16,30 @@ void MLN::mcsat(int round, string query) {
       c_idx.insert(c_id);
     }
   }
-  // cout << "number of related cliques: " << c_idx.size() << endl;
-  // for (int id : c_idx) {
-  //   this->cliques[id].printClique();
-  // }
-  // cout << endl;
+  unordered_set<string> valid_known;
+  for (int c_id : c_idx) {
+    for (auto& valid : this->cliques[c_id].getLiterals()) {
+      if (this->obs.find(valid)!=this->obs.end()) {
+        valid_known.insert(valid);
+      }
+    }
+  }
+  // initialize state map
+  unordered_map<string, int> state;
+  for (auto& query_name : valid_unknown) {
+    double prand = distribution(generator);
+    if (prand>0.5) {
+      state[query_name] = 1;
+    }
+    else {
+      state[query_name] = 0;
+    }
+  }
+  // initialize numTrue map
+  unordered_map<string, int> numTrue;
+  for (auto& query_name : valid_unknown) {
+    numTrue[query_name] = 0;
+  }
   // make the current state satisify hard clauses
   for (int id : c_idx) {
     if (this->cliques[id].isHard()) {
@@ -53,11 +48,22 @@ void MLN::mcsat(int round, string query) {
   }
   // start sampling
   for (int i=0; i<round; i++) {
+    // initialize state value of observed tuples with probability
+    for (auto& literal : valid_known) {
+      double prand = distribution(generator);
+      // double prand = (double)rand()/RAND_MAX;
+      if (prand<this->prob[literal]) {
+        state[literal] = 1;
+      }
+      else {
+        state[literal] = 0;
+      }
+    }
     unordered_set<int> m;
     // sample clauses and insert clique id into m
     for (int id : c_idx) {
       if (this->cliques[id].satisifiablity(state)) {
-        double prand = distribution(generator);
+        double prand = (double)rand()/RAND_MAX;
         double p = 1-exp(-abs(this->cliques[id].getRuleWeight()));
         if (prand<p) {
           m.insert(id);
@@ -129,9 +135,13 @@ void MLN::sampleSAT(unordered_map<string, int>& state, unordered_set<int>& c_idx
         toFlip = randomPick(this->cliques[c_id]);
       }
       else {
-        toFlip = lowestPick(this->cliques[c_id], state, c_idx, mode);
+        // toFlip = optimalPick(state, c_idx, mode);
+        // toFlip = lowestPick(this->cliques[c_id], state, c_idx, mode);
+        toFlip = ssPick(state, c_idx, mode);
       }
-      solu[toFlip] = 1-solu[toFlip];
+      if (toFlip!="_STAY") {
+        solu[toFlip] = 1-solu[toFlip];
+      }
       cost = getCost(solu, c_idx, mode);
     }
   }
@@ -261,16 +271,16 @@ string MLN::lowestPick(Clique& c, unordered_map<string, int>& state, unordered_s
   for (auto& literal : valid) {
     double prevCost = 0.0;
     for (int c_id : this->c_map[literal]) {
-      // if (c_idx.find(c_id)!=c_idx.end() && !this->cliques[c_id].satisifiablity(state)) {
-      if (!this->cliques[c_id].satisifiablity(state)) {
+      if (c_idx.find(c_id)!=c_idx.end() && !this->cliques[c_id].satisifiablity(state)) {
+      // if (!this->cliques[c_id].satisifiablity(state)) {
         prevCost += this->cliques[c_id].getCost(mode);
       }
     }
     state[literal] = 1-state[literal];
     double afterCost = 0.0;
     for (int c_id : c_idx) {
-      // if (c_idx.find(c_id)!=c_idx.end() && !this->cliques[c_id].satisifiablity(state)) {
-      if (!this->cliques[c_id].satisifiablity(state)) {
+      if (c_idx.find(c_id)!=c_idx.end() && !this->cliques[c_id].satisifiablity(state)) {
+      // if (!this->cliques[c_id].satisifiablity(state)) {
         prevCost += this->cliques[c_id].getCost(mode);
       }
     }
@@ -284,27 +294,34 @@ string MLN::lowestPick(Clique& c, unordered_map<string, int>& state, unordered_s
 }
 
 
-/*
-string MLN::optimalPick(unordered_map<string, int>& state, string& mode) {
-  vector<string> valid;
+
+string MLN::optimalPick(unordered_map<string, int>& state, unordered_set<int>& c_idx, string& mode) {
+  unordered_set<string> valid;
+  for (int c_id : c_idx) {
+    vector<string> literals = this->cliques[c_id].getLiterals();
+    for (auto& literal : literals) {
+      if (this->queries.find(literal)!=this->queries.end()) {
+        valid.insert(literal);
+      }
+    }
+  }
   string res;
   double costChange = DBL_MAX;
   for (auto& literal : valid) {
-    int prev = state[literal];
     double prevCost = 0.0;
     for (int c_id : this->c_map[literal]) {
       if (!this->cliques[c_id].satisifiablity(state)) {
-        prevCost += this->cliques[c_id].getCost("wms");
+        prevCost += this->cliques[c_id].getCost(mode);
       }
     }
     state[literal] = 1-state[literal];
     double afterCost = 0.0;
     for (int c_id : this->c_map[literal]) {
       if (!this->cliques[c_id].satisifiablity(state)) {
-        afterCost += this->cliques[c_id].getCost("wms");
+        afterCost += this->cliques[c_id].getCost(mode);
       }
     }
-    state[literal] = prev;
+    state[literal] = 1-state[literal];
     if (afterCost-prevCost < costChange) {
       costChange = afterCost-prevCost;
       res = literal;
@@ -312,4 +329,45 @@ string MLN::optimalPick(unordered_map<string, int>& state, string& mode) {
   }
   return res;
 }
-*/
+
+
+string MLN::ssPick(unordered_map<string, int>& state, unordered_set<int>& c_idx, string& mode) {
+  unordered_set<string> valid_set;
+  for (int c_id : c_idx) {
+    vector<string> literals = this->cliques[c_id].getLiterals();
+    for (auto& literal : literals) {
+      if (this->queries.find(literal)!=this->queries.end()) {
+        valid_set.insert(literal);
+      }
+    }
+  }
+  vector<string> valid;
+  for (auto& literal : valid_set) {
+    valid.push_back(literal);
+  }
+  string res = valid[rand()%valid.size()];
+  double prev = 0.0;
+  for (int c_id : this->c_map[res]) {
+    if (c_idx.find(c_id)!=c_idx.end() && !this->cliques[c_id].satisifiablity(state)) {
+      prev += this->cliques[c_id].getCost(mode);
+    }
+  }
+  state[res] = 1-state[res];
+  double after = 0.0;
+  for (int c_id : this->c_map[res]) {
+    if (c_idx.find(c_id)!=c_idx.end() && !this->cliques[c_id].satisifiablity(state)) {
+      after += this->cliques[c_id].getCost(mode);
+    }
+  }
+  double delta = after-prev;
+  if (delta<0) {
+    // if cost is less, directly return the random result
+    return res;
+  }
+  double p = exp(-(delta)/SATEMPERATURE);
+  double prand = (double)rand() / RAND_MAX;
+  if (prand<p) {
+    return res;
+  }
+  return "_STAY";
+}

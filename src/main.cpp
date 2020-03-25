@@ -194,7 +194,7 @@ void varianceTest(MLN& mln, string query_name) {
   clock_t t2 = clock();
   cout << "gibbs sample time: " << ((double)(t2-t1))/CLOCKS_PER_SEC << " seconds" << endl;
   double var1 = calcVar(p1);
-  cout << "variance of gibbs sampling: " << var1 << endl;
+  cout << "standard variance of gibbs sampling: " << sqrt(var1) << endl;
 
   clock_t t3 = clock();
   vector<double> p2;
@@ -205,7 +205,24 @@ void varianceTest(MLN& mln, string query_name) {
   clock_t t4 = clock();
   cout << "mcsat time: " << ((double)(t4-t3))/CLOCKS_PER_SEC << " seconds" << endl;
   double var2 = calcVar(p2);
-  cout << "variance of masat: " << var2 << endl;
+  cout << "standard variance of masat: " << sqrt(var2) << endl;
+
+  /*
+  clock_t t5 = clock();
+  vector<double> p3;
+  for (int i=0; i<100; i++) {
+    double p = 0.0;
+    for (int j=0; j<100; j++) {
+      mln.gibbsSampling_v3(100);
+      p += mln.queryProb(query_name);
+      p3.push_back(p/100);
+    }
+  }
+  clock_t t6 = clock();
+  cout << "gibbs sample parallel: " << ((double)(t6-t5))/CLOCKS_PER_SEC << " seconds" << endl;
+  double var3 = calcVar(p3);
+  cout << "variance of parallel: " << var3 << endl;
+  */
 }
 
 
@@ -278,7 +295,23 @@ void influenceQuery(MLN& mln, string query, int round, double delta) {
   grader.computeGradients_v2(mln, query, round, delta);
   // grader.computeGradients(mln, query, round);
   clock_t t2 = clock();
-  cout << "influence compute time: " << ((double)(t2-t1))/CLOCKS_PER_SEC << " seconds" << endl;
+  cout << "influence compute time (gibbs sample): " << ((double)(t2-t1))/CLOCKS_PER_SEC << " seconds" << endl;
+  unordered_map<string, double> influs = mln.getInfluence(query);
+  for (auto it=influs.begin(); it!=influs.end(); it++) {
+    cout << it->first << ' ' << it->second << endl;
+  }
+  cout << endl;
+}
+
+
+void influenceQuery_mcsat(MLN& mln, string query, int round, double delta) {
+  cout << "compute influence of " << query << endl;
+  Grader grader;
+  clock_t t1 = clock();
+  grader.computeGradients_mcsat(mln, query, round, delta);
+  // grader.computeGradients(mln, query, round);
+  clock_t t2 = clock();
+  cout << "influence compute time (mcsat): " << ((double)(t2-t1))/CLOCKS_PER_SEC << " seconds" << endl;
   unordered_map<string, double> influs = mln.getInfluence(query);
   for (auto it=influs.begin(); it!=influs.end(); it++) {
     cout << it->first << ' ' << it->second << endl;
@@ -399,7 +432,7 @@ int main(int argc, char* argv[]) {
     // cliqueTest(mln, args["query_name"]);
     probabilityQuery_mcsat(mln, stoi(args["round"]), args["query_name"]);
     cout << endl;
-    // probabilityQuery(mln, stoi(args["round"]), args["query_name"]);
+    probabilityQuery(mln, stoi(args["round"]), args["query_name"]);
     cout << endl;
     // gibbsTest(mln, 10000, args["query_name"]);
     varianceTest(mln, args["query_name"]);
@@ -413,7 +446,8 @@ int main(int argc, char* argv[]) {
 
   if (args.find("influence_name")!=args.end()) {
     influenceQuery(mln, args["influence_name"], stoi(args["round"]), stod(args["delta"]));
-    // save3DPlot(mln, "./data/record/test.txt", args["influence_name"], stoi(args["round"]), stod(args["round"]));
+    influenceQuery_mcsat(mln, args["influence_name"], stoi(args["round"]), stod(args["delta"]));
+    // save3DPlot(mln, "./data/record/test.txt", args["influence_name"], stoi(args["round"]), stod(args["delta"]));
   }
 
   if (args.find("target_name")!=args.end()) {

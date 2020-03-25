@@ -76,7 +76,8 @@ private:
   // double getSampleSATCost(unordered_map<string, int>& state, unordered_set<int>& c_idx);
   string randomPick(Clique& c);
   string lowestPick(Clique& c, unordered_map<string, int>& state, unordered_set<int>& c_idx, string& mode);
-  string optimalPick(unordered_map<string, int>& state, string& mode);
+  string optimalPick(unordered_map<string, int>& state, unordered_set<int>& c_idx, string& mode);
+  string ssPick(unordered_map<string, int>& state, unordered_set<int>& c_idx, string& mode);
 };
 
 
@@ -105,6 +106,7 @@ public:
 
   void computeGradients(MLN& mln, string query, int round);
   void computeGradients_v2(MLN& mln, string query, int round, double delta);
+  void computeGradients_mcsat(MLN& mln, string query, int round, double delta);
   unordered_set<string> getValidObservedTuples(MLN& mln, string query);
 
   ~Grader();

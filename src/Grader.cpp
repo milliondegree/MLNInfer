@@ -55,6 +55,38 @@ void Grader::computeGradients_v2(MLN& mln, string query, int round, double delta
 }
 
 
+void Grader::computeGradients_mcsat(MLN& mln, string query, int round, double delta) {
+  if (mln.queries.find(query)==mln.queries.end()) {
+    cout << "cannot compute influence to a observed tuple" << endl;
+    return;
+  }
+  if (mln.pd.find(query)==mln.pd.end()) {
+    mln.pd[query] = unordered_map<string, double> ();
+  }
+  unordered_set<string> valid_obs;
+  vector<bool> visited (mln.cliques.size(), false);
+  dfsSearch(mln, valid_obs, visited, query);
+  cout << "tuples which have direct influence: ";
+  for (string s : valid_obs) {
+    cout << s << ' ';
+  }
+  cout << endl;
+  for (string observe : valid_obs) {
+    double prev = mln.prob[observe];
+    double upper = min(1.0, mln.prob[observe]+delta);
+    double lower = max(0.0, mln.prob[observe]-delta);
+    mln.setObsProb(observe, upper);
+    mln.mcsat(round, query);
+    double upper_prob = mln.queryProb(query);
+    mln.setObsProb(observe, lower);
+    mln.mcsat(round, query);
+    double lower_prob = mln.queryProb(query);
+    mln.setObsProb(observe, prev);
+    mln.pd[query][observe] = (upper_prob-lower_prob) / (upper-lower);
+  }
+}
+
+
 unordered_set<string> Grader::getValidObservedTuples(MLN& mln, string query) {
   unordered_set<string> valid_obs;
   vector<bool> visited (mln.cliques.size(), false);
