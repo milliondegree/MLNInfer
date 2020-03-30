@@ -1,15 +1,18 @@
-provenance: cancer1(r1@n257(smoke1(r2@n257(friends1_2*smoke2))))
+provenance: cancer1(r1@n257(smoke1(r2@n257(friends1_2*smoke2(r3@n257(friends1_2*smoke1))))))
 observed: friends1_2 smoke1 
 queried: smoke2 cancer1 
 clique: cancer1
 clique: smoke1
 clique: friends1_2
 clique: smoke2
+clique: friends1_2
+clique: smoke1
+clique: r3 smoke2 friends1_2 smoke1 
 clique: r2 smoke1 friends1_2 smoke2 
 clique: r1 cancer1 smoke1 
-c_map: cancer1 0 5 
-c_map: friends1_2 2 4 
-c_map: smoke1 1 4 5 
-c_map: smoke2 3 4 
-prob: smoke2 0.62566
-prob: cancer1 0.3537
+c_map: cancer1 0 8 
+c_map: friends1_2 2 4 6 7 
+c_map: smoke1 1 5 6 7 8 
+c_map: smoke2 3 6 7 
+prob: smoke2 0.63211
+prob: cancer1 0.3896

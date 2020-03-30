@@ -156,3 +156,31 @@ string Parser::extractName(string& s) {
   }
   return s.substr(0, i);
 }
+
+
+
+void Parser::extendCliques(MLN& mln) {
+  for (Clique& c : mln.cliques) {
+    string rule_name;
+    if (c.getRuleName()=="r2") {
+      rule_name = "r3";
+    }
+    else if (c.getRuleName()=="r3") {
+      rule_name = "r2";
+    }
+    else {
+      continue;
+    }
+    double rule_weight = mln.prob[rule_name];
+    vector<string> literals = c.getLiterals();
+    string rule_head = literals[2];
+    vector<string> rule_body;
+    rule_body.push_back(literals[1]);
+    rule_body.push_back(literals[0]);
+    Clique nc(rule_name, rule_weight, rule_head, rule_body);
+    mln.cliques.push_back(nc);
+    for (auto& literal : literals) {
+      mln.c_map[literal].push_back(mln.cliques.size()-1);
+    }
+  }
+}

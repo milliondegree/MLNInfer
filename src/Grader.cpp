@@ -87,6 +87,42 @@ void Grader::computeGradients_mcsat(MLN& mln, string query, int round, double de
 }
 
 
+void Grader::computeGradient(MLN& mln, string query, string infl, int round, double delta, string mode) {
+  assert(mln.queries.find(query)!=mln.queries.end() && mln.obs.find(infl)!=mln.obs.end());
+  if (mln.pd.find(query)==mln.pd.end()) {
+    mln.pd[query] = unordered_map<string, double> ();
+  }
+  unordered_set<string> valid_obs;
+  vector<bool> visited (mln.cliques.size(), false);
+  dfsSearch(mln, valid_obs, visited, query);
+  if (valid_obs.find(infl)==valid_obs.end()) {
+    mln.pd[query][infl] = 0.0;
+  }
+  double prev = mln.prob[infl];
+  double upper = min(1.0, mln.prob[infl]+delta);
+  double lower = max(0.0, mln.prob[infl]-delta);
+  mln.setObsProb(infl, upper);
+  if (mode=="mcsat") {
+    mln.mcsat(round, query);
+  }
+  else if (mode=="gibbs") {
+    mln.gibbsSampling_v4(round, query);
+  }
+  double upper_prob = mln.queryProb(query);
+  mln.setObsProb(infl, lower);
+  if (mode=="mcsat") {
+    mln.mcsat(round, query);
+  }
+  else if (mode=="gibbs") {
+    mln.gibbsSampling_v4(round, query);
+  }
+  double lower_prob = mln.queryProb(query);
+  mln.setObsProb(infl, prev);
+  mln.pd[query][infl] = (upper_prob-lower_prob) / (upper-lower);
+}
+
+
+
 unordered_set<string> Grader::getValidObservedTuples(MLN& mln, string query) {
   unordered_set<string> valid_obs;
   vector<bool> visited (mln.cliques.size(), false);

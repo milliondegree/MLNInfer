@@ -26,6 +26,11 @@ Clique::Clique(string rule, double weight, string r_head, vector<string> r_body)
 }
 
 
+bool Clique:: operator == (Clique& c) {
+  return this->toString()==c.toString();
+}
+
+
 double Clique::getPotential(map<string, int>& truth) {
   if (this->literals.size()==1) {
     return this->rule_weight * truth[this->rule_name];
@@ -133,6 +138,40 @@ bool Clique::satisifiablity(unordered_map<string, int>& truth) {
 }
 
 
+double Clique::satisifiablity(unordered_map<string, double>& truth) {
+  double res = 1.0;
+  for (Literal& l : this->sliterals) {
+    if (l.nag) {
+      res *= 1-truth[l.name];
+    }
+    else {
+      res *= truth[l.name];
+    }
+  }
+  if (this->rule_weight>0) {
+    res = (1-res);
+  }
+  return res;
+}
+
+
+string Clique::toString() {
+  string res = "";
+  if (this->literals.size()==1) {
+    res = res + rule_name + " " + to_string(rule_weight);
+  }
+  else {
+    res += rule_name + " " + to_string(rule_weight) + " " + rule_head + " :- ";
+    for (int i=0; i<literals.size(); i++) {
+      res += rule_body[i];
+      if (i!=literals.size()-1) {
+        res += ", ";
+      }
+    }
+  }
+  return res;
+}
+
 
 void Clique::printClique() {
   if (this->literals.size()==1) {
@@ -168,6 +207,11 @@ void Clique::saveToFile(ofstream& file) {
 
 vector<string> Clique::getLiterals() {
   return this->literals;
+}
+
+
+string Clique::getRuleName() {
+  return this->rule_name;
 }
 
 

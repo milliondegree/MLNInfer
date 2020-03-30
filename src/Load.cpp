@@ -21,6 +21,11 @@ map<string, double> Load::getProb() {
 }
 
 
+map<string, string> Load::getSames() {
+  return this->sames;
+}
+
+
 void Load::setProv(string pfile) {
   ifstream pfin(pfile);
   stringstream buffer;
@@ -44,7 +49,13 @@ void Load::setProb(string ofile) {
       boost::split(split, line, boost::is_any_of(" "));
       string literal = split[0];
       string sp = split[1];
-      this->prob[literal] = atof(sp.c_str());
+      if (!isalpha(sp[0])) {
+        this->prob[literal] = stof(sp);
+      }
+      else {
+        this->sames[literal] = sp;
+        this->sames[sp] = literal;
+      }
     }
   }
 }

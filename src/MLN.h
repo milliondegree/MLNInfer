@@ -20,6 +20,7 @@
 #include <float.h>
 #include <assert.h>
 #include "Clique.h"
+#include "Load.h"
 using namespace std;
 
 
@@ -27,6 +28,7 @@ class MLN {
 public:
   MLN();
   MLN(string prov, map<string, double> prob);
+  MLN(Load& load);
   void clear();
   void setProperty(string prov, map<string, double> prob);
 
@@ -64,6 +66,7 @@ private:
   unordered_set<string> obs;
   unordered_set<string> queries;
   map<string, double> prob;
+  map<string, string> sames;
   map<string, vector<int>> c_map;
   unordered_map<string, unordered_map<string, double>> pd;
 
@@ -87,6 +90,7 @@ public:
   Parser();
 
   void parseProvenance(MLN& mln);
+  void extendCliques(MLN& mln);
 
   ~Parser();
 
@@ -107,6 +111,7 @@ public:
   void computeGradients(MLN& mln, string query, int round);
   void computeGradients_v2(MLN& mln, string query, int round, double delta);
   void computeGradients_mcsat(MLN& mln, string query, int round, double delta);
+  void computeGradient(MLN& mln, string query, string infl, int round, double delta, string mode);
   unordered_set<string> getValidObservedTuples(MLN& mln, string query);
 
   ~Grader();

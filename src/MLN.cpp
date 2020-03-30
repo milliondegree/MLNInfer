@@ -12,6 +12,13 @@ MLN::MLN(string prov, map<string, double> prob) {
 }
 
 
+MLN::MLN(Load& load) {
+  this->prov = load.getProv();
+  this->prob = load.getProb();
+  this->sames = load.getSames();
+}
+
+
 void MLN::clear() {
   this->cliques = vector<Clique> ();
   this->c_map = map<string, vector<int>> ();
@@ -203,6 +210,9 @@ unordered_set<string> MLN::getQueryLiterals() {
 void MLN::setObsProb(string str, double p) {
   assert(this->obs.find(str)!=this->obs.end());
   this->prob[str] = p;
+  if (this->sames.find(str)!=this->sames.end()) {
+    this->prob[this->sames[str]] = p;
+  }
   return ;
 }
 
@@ -521,8 +531,11 @@ void MLN::gibbsSampling_v4(int round, string query) {
         }
         truth_tables[ind][query] = 1.0;
         potentials_1s[query][i] = c.getPotential(truth_tables[ind]);
+        // c.printClique();
+        // cout << potentials_1s[query][i] << ' ';
         truth_tables[ind][query] = 0.0;
         potentials_0s[query][i] = c.getPotential(truth_tables[ind]);
+        // cout << potentials_0s[query][i] << endl;
       }
       double sum_1 = 0;
       for (double p : potentials_1s[query]) {
@@ -532,6 +545,7 @@ void MLN::gibbsSampling_v4(int round, string query) {
       for (double p : potentials_0s[query]) {
         sum_0 += p;
       }
+      // cout << sum_1 << ' ' << sum_0 << endl;
       double exp_1 = exp(sum_1);
       double exp_0 = exp(sum_0);
       double p = exp_1 / (exp_1+exp_0);

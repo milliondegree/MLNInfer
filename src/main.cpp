@@ -150,6 +150,23 @@ void probabilityQuery_mcsat(MLN& mln, int round, string query_name) {
 }
 
 
+void probabilityQuery(MLN& mln, int round, string query_name, string mode) {
+  clock_t t1 = clock();
+  // mln.gibbsSampling_v3(round);
+  if (mode=="gibbs") {
+    mln.gibbsSampling_v4(round, query_name);
+  }
+  else {
+    mln.mcsat(round, query_name);
+  }
+  clock_t t2 = clock();
+  cout << mode+" sample time: " << ((double)(t2-t1))/CLOCKS_PER_SEC << " seconds" << endl;
+  double prob = mln.queryProb(query_name);
+  cout << "probability of " << query_name << " is " << prob << endl;
+  cout << endl;
+}
+
+
 void varianceTest(MLN& mln, string query_name) {
   /*
   clock_t t1 = clock();
@@ -195,7 +212,7 @@ void varianceTest(MLN& mln, string query_name) {
   cout << "gibbs sample time: " << ((double)(t2-t1))/CLOCKS_PER_SEC << " seconds" << endl;
   double var1 = calcVar(p1);
   cout << "standard variance of gibbs sampling: " << sqrt(var1) << endl;
-
+  /*
   clock_t t3 = clock();
   vector<double> p2;
   for (int i=0; i<100; i++) {
@@ -206,8 +223,7 @@ void varianceTest(MLN& mln, string query_name) {
   cout << "mcsat time: " << ((double)(t4-t3))/CLOCKS_PER_SEC << " seconds" << endl;
   double var2 = calcVar(p2);
   cout << "standard variance of masat: " << sqrt(var2) << endl;
-
-  /*
+  */
   clock_t t5 = clock();
   vector<double> p3;
   for (int i=0; i<100; i++) {
@@ -222,7 +238,7 @@ void varianceTest(MLN& mln, string query_name) {
   cout << "gibbs sample parallel: " << ((double)(t6-t5))/CLOCKS_PER_SEC << " seconds" << endl;
   double var3 = calcVar(p3);
   cout << "variance of parallel: " << var3 << endl;
-  */
+
 }
 
 
@@ -320,6 +336,19 @@ void influenceQuery_mcsat(MLN& mln, string query, int round, double delta) {
 }
 
 
+void influenceQuery(MLN& mln, string query, string infl, int round, double delta, string mode) {
+  Grader grader;
+  clock_t t1 = clock();
+  grader.computeGradient(mln, query, infl, round, delta, mode);
+  // grader.computeGradients(mln, query, round);
+  clock_t t2 = clock();
+  cout << "influence compute time (" << mode << "): " << ((double)(t2-t1))/CLOCKS_PER_SEC << " seconds" << endl;
+  double influs = mln.getInfluence(query)[infl];
+  cout << "influence of " << infl << " to " << query << " is " << influs << endl;
+  cout << endl;
+}
+
+
 void setDefaultArgs(unordered_map<string, string>& args) {
   args["observe_file"] = "./data/observe/smokeTest.db";
   args["provenance_file"] = "./data/prov/cancer2.txt";
@@ -336,6 +365,7 @@ void save3DPlot(MLN& mln, string file_name, string query, int round, double delt
   vector<double> friends;
   vector<double> smokes_inf;
   vector<double> friends_inf;
+  clock_t t1 = clock();
   for (int i=0; i<=10; i++) {
     for (int j=0; j<=10; j++) {
       smokes.push_back(i*0.1);
@@ -348,6 +378,8 @@ void save3DPlot(MLN& mln, string file_name, string query, int round, double delt
       friends_inf.push_back(influs["friends1_2"]);
     }
   }
+  clock_t t2 = clock();
+  cout << "time cost: " << ((double)(t2-t1))/CLOCKS_PER_SEC << " seconds" << endl;
   file << "smoke1: ";
   for (double v : smokes) {
     file << v << ' ';
@@ -420,22 +452,25 @@ int main(int argc, char* argv[]) {
   string prov = l.getProv();
   // cout << prov << endl;
 
-  // printObservation(l);
+  printObservation(l);
 
-  MLN mln(l.getProv(), l.getProb());
+  MLN mln(l);
   Parser parser;
   parser.parseProvenance(mln);
+  parser.extendCliques(mln);
 
-  printLiterals(mln);
+  // printLiterals(mln);
 
   if (args.find("query_name")!=args.end()) {
     // cliqueTest(mln, args["query_name"]);
-    probabilityQuery_mcsat(mln, stoi(args["round"]), args["query_name"]);
-    cout << endl;
-    probabilityQuery(mln, stoi(args["round"]), args["query_name"]);
-    cout << endl;
+    // probabilityQuery_mcsat(mln, stoi(args["round"]), args["query_name"]);
+    // cout << endl;
+    // probabilityQuery(mln, stoi(args["round"]), args["query_name"]);
+    // cout << endl;
     // gibbsTest(mln, 10000, args["query_name"]);
-    varianceTest(mln, args["query_name"]);
+    // varianceTest(mln, args["query_name"]);
+    probabilityQuery(mln, stoi(args["round"]), args["query_name"], "gibbs");
+    // probabilityQuery(mln, stoi(args["round"]), args["query_name"], "mcsat");
   }
 
   if (args.find("save")!=args.end()) {
@@ -443,11 +478,13 @@ int main(int argc, char* argv[]) {
   }
 
   // boxplotTestSave(mln, "./data/record/cancer8_2.txt", 100);
+  save3DPlot(mln, "./data/record/test1.txt", args["query_name"], stoi(args["round"]), stod(args["delta"]));
 
   if (args.find("influence_name")!=args.end()) {
-    influenceQuery(mln, args["influence_name"], stoi(args["round"]), stod(args["delta"]));
-    influenceQuery_mcsat(mln, args["influence_name"], stoi(args["round"]), stod(args["delta"]));
-    // save3DPlot(mln, "./data/record/test.txt", args["influence_name"], stoi(args["round"]), stod(args["delta"]));
+    // influenceQuery(mln, args["influence_name"], stoi(args["round"]), stod(args["delta"]));
+    // influenceQuery_mcsat(mln, args["influence_name"], stoi(args["round"]), stod(args["delta"]));
+    influenceQuery(mln, args["query_name"], args["influence_name"], stoi(args["round"]), stod(args["delta"]), "gibbs");
+    // influenceQuery(mln, args["query_name"], args["influence_name"], stoi(args["round"]), stod(args["delta"]), "mcsat");
   }
 
   if (args.find("target_name")!=args.end()) {

@@ -20,6 +20,9 @@ struct Literal {
     name = literal_name;
     nag = literal_nag;
   }
+  bool operator == (Literal& l) {
+    return (name==l.name) & (nag==l.nag);
+  }
 };
 
 
@@ -29,17 +32,22 @@ public:
   Clique(string rule, double weight);
   Clique(string rule, double weight, string r_head, vector<string> r_body);
 
+  bool operator == (Clique& c);
+
   double getPotential(map<string, int>& truth);
   double getPotential(map<string, double>& truth);
   double getPotential(unordered_map<string, double>& truth);
   double getPartialDerivative(map<string, double>& truth, string p_f, string p_v);
   bool satisifiablity(unordered_map<string, int>& truth);
+  double satisifiablity(unordered_map<string, double>& truth);
 
   vector<string> getLiterals();
+  string getRuleName();
   double getRuleWeight();
   double getCost(string& mode);
   bool isHard();
 
+  string toString();
   void printClique();
   void saveToFile(ofstream& file);
 

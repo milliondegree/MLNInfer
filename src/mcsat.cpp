@@ -63,7 +63,8 @@ void MLN::mcsat(int round, string query) {
     // sample clauses and insert clique id into m
     for (int id : c_idx) {
       if (this->cliques[id].satisifiablity(state)) {
-        double prand = (double)rand()/RAND_MAX;
+        double prand = distribution(generator);
+        // double prand = (double)rand()/RAND_MAX;
         double p = 1-exp(-abs(this->cliques[id].getRuleWeight()));
         if (prand<p) {
           m.insert(id);
@@ -207,6 +208,7 @@ void MLN::maxWalkSAT(unordered_map<string, int>& state, unordered_set<int>& c_id
     state[query] = solu[query];
   }
 }
+
 
 /*
 double MLN::getCost(unordered_map<string, int>& state, unordered_set<int>& c_idx) {
