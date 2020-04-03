@@ -52,6 +52,7 @@ public:
   double queryProb(string query);
 
   void mcsat(int round, string query);
+  void pmcsat(int round, string query);
 
   map<string, vector<double>> getAllProbs(int round, int times);
   unordered_map<string, double> getInfluence(string query);
@@ -73,14 +74,17 @@ private:
   void dfsSearch(unordered_set<string>& valid_unknown, vector<bool>& visited, string& query);
   void sampleSAT(unordered_map<string, int>& state, unordered_set<int>& c_idx, int maxFlips, int maxTries, double target, double p);
   void maxWalkSAT(unordered_map<string, int>& state, unordered_set<int>& c_idx, int maxFlips, int maxTries, double target, double p);
+  void pSampleSAT(unordered_map<string, double>& state, unordered_set<int>& c_idx, int maxFlips, int maxTries, double target, double p);
 
   // double getCost(unordered_map<string, int>& state, unordered_set<int>& c_idx);
   double getCost(unordered_map<string, int>& state, unordered_set<int>& c_idx, string& mode);
+  double pGetCost(unordered_map<string, double>& state, unordered_set<int>& c_idx, string& mode);
   // double getSampleSATCost(unordered_map<string, int>& state, unordered_set<int>& c_idx);
   string randomPick(Clique& c);
   string lowestPick(Clique& c, unordered_map<string, int>& state, unordered_set<int>& c_idx, string& mode);
   string optimalPick(unordered_map<string, int>& state, unordered_set<int>& c_idx, string& mode);
   string ssPick(unordered_map<string, int>& state, unordered_set<int>& c_idx, string& mode);
+  string pSsPick(unordered_map<string, double>& state, unordered_set<int>& c_idx, string& mode);
 };
 
 

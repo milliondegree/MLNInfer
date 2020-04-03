@@ -366,8 +366,8 @@ void save3DPlot(MLN& mln, string file_name, string query, int round, double delt
   vector<double> smokes_inf;
   vector<double> friends_inf;
   clock_t t1 = clock();
-  for (int i=0; i<=10; i++) {
-    for (int j=0; j<=10; j++) {
+  for (int i=1; i<10; i++) {
+    for (int j=1; j<10; j++) {
       smokes.push_back(i*0.1);
       friends.push_back(j*0.1);
       mln.setObsProb("smoke1", i*0.1);
@@ -470,7 +470,7 @@ int main(int argc, char* argv[]) {
     // gibbsTest(mln, 10000, args["query_name"]);
     // varianceTest(mln, args["query_name"]);
     probabilityQuery(mln, stoi(args["round"]), args["query_name"], "gibbs");
-    // probabilityQuery(mln, stoi(args["round"]), args["query_name"], "mcsat");
+    probabilityQuery(mln, stoi(args["round"]), args["query_name"], "mcsat");
   }
 
   if (args.find("save")!=args.end()) {
@@ -478,7 +478,7 @@ int main(int argc, char* argv[]) {
   }
 
   // boxplotTestSave(mln, "./data/record/cancer8_2.txt", 100);
-  save3DPlot(mln, "./data/record/test1.txt", args["query_name"], stoi(args["round"]), stod(args["delta"]));
+  // save3DPlot(mln, "./data/record/test1.txt", args["query_name"], stoi(args["round"]), stod(args["delta"]));
 
   if (args.find("influence_name")!=args.end()) {
     // influenceQuery(mln, args["influence_name"], stoi(args["round"]), stod(args["delta"]));

@@ -16,15 +16,15 @@ def draw3DGraph(input):
 
   Xs = lines[0].split()
   Xname = Xs[0]
-  X = np.array([float(ele) for ele in Xs[1:]]).reshape(11, 11)
+  X = np.array([float(ele) for ele in Xs[1:]]).reshape(9, 9)
   Xinf = lines[1].split()
-  Xinf = np.array([float(ele) for ele in Xinf[1:]]).reshape(11, 11)
+  Xinf = np.array([float(ele) for ele in Xinf[1:]]).reshape(9, 9)
 
   Ys = lines[2].split()
   Yname = Ys[0]
-  Y = np.array([float(ele) for ele in Ys[1:]]).reshape(11, 11)
+  Y = np.array([float(ele) for ele in Ys[1:]]).reshape(9, 9)
   Yinf = lines[3].split()
-  Yinf = np.array([float(ele) for ele in Yinf[1:]]).reshape(11, 11)
+  Yinf = np.array([float(ele) for ele in Yinf[1:]]).reshape(9, 9)
 
   fig = plt.figure("influence of "+Xname)
   ax = plt.axes(projection='3d')

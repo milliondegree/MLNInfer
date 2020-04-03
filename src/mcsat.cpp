@@ -35,6 +35,9 @@ void MLN::mcsat(int round, string query) {
       state[query_name] = 0;
     }
   }
+  for (auto& literal : valid_known) {
+    state[literal] = 1;
+  }
   // initialize numTrue map
   unordered_map<string, int> numTrue;
   for (auto& query_name : valid_unknown) {
@@ -49,6 +52,7 @@ void MLN::mcsat(int round, string query) {
   // start sampling
   for (int i=0; i<round; i++) {
     // initialize state value of observed tuples with probability
+    /*
     for (auto& literal : valid_known) {
       double prand = distribution(generator);
       // double prand = (double)rand()/RAND_MAX;
@@ -59,6 +63,7 @@ void MLN::mcsat(int round, string query) {
         state[literal] = 0;
       }
     }
+    */
     unordered_set<int> m;
     // sample clauses and insert clique id into m
     for (int id : c_idx) {
@@ -91,10 +96,6 @@ void MLN::mcsat(int round, string query) {
 
 
 void MLN::sampleSAT(unordered_map<string, int>& state, unordered_set<int>& c_idx, int maxFlips, int maxTries, double target, double p) {
-  // initialize random tools
-  random_device rd;
-  mt19937 generator(rd());
-  uniform_real_distribution<double> distribution(0.0, 1.0);
   // initialize solution
   unordered_map<string, int> solu;
   string mode = "ss";
@@ -105,7 +106,7 @@ void MLN::sampleSAT(unordered_map<string, int>& state, unordered_set<int>& c_idx
     // initialize solution randomly
     // cout << "sample round " << t << endl;
     for (auto& query : this->queries) {
-      double prand = distribution(generator);
+      double prand = (double)rand()/RAND_MAX;
       if (prand<0.5) {
         solu[query] = 1;
       }
@@ -116,7 +117,7 @@ void MLN::sampleSAT(unordered_map<string, int>& state, unordered_set<int>& c_idx
     double cost = getCost(solu, c_idx, mode);
     // flip literals
     for (int f=0; f<maxFlips; f++) {
-      // cout << "flip round " << f << endl;
+      // terminate when cost < target
       if (cost<target) {
         for (auto& query : this->queries) {
           state[query] = solu[query];
@@ -130,7 +131,7 @@ void MLN::sampleSAT(unordered_map<string, int>& state, unordered_set<int>& c_idx
         }
       }
       int c_id = false_idx[rand()%false_idx.size()];
-      double prand = distribution(generator);
+      double prand = (double)rand()/RAND_MAX;
       string toFlip;
       if (prand<p) {
         toFlip = randomPick(this->cliques[c_id]);
@@ -153,10 +154,6 @@ void MLN::sampleSAT(unordered_map<string, int>& state, unordered_set<int>& c_idx
 
 
 void MLN::maxWalkSAT(unordered_map<string, int>& state, unordered_set<int>& c_idx, int maxFlips, int maxTries, double target, double p) {
-  // initialize random tools
-  random_device rd;
-  mt19937 generator(rd());
-  uniform_real_distribution<double> distribution(0.0, 1.0);
   // initialize solution
   unordered_map<string, int> solu;
   string mode = "mws";
@@ -167,7 +164,7 @@ void MLN::maxWalkSAT(unordered_map<string, int>& state, unordered_set<int>& c_id
     // initialize solution randomly
     // cout << "sample round " << t << endl;
     for (auto& query : this->queries) {
-      double prand = distribution(generator);
+      double prand = (double)rand()/RAND_MAX;
       if (prand<0.5) {
         solu[query] = 1;
       }
@@ -192,7 +189,7 @@ void MLN::maxWalkSAT(unordered_map<string, int>& state, unordered_set<int>& c_id
         }
       }
       int c_id = false_idx[rand()%false_idx.size()];
-      double prand = distribution(generator);
+      double prand = (double)rand()/RAND_MAX;
       string toFlip;
       if (prand<p) {
         toFlip = randomPick(this->cliques[c_id]);
@@ -372,4 +369,191 @@ string MLN::ssPick(unordered_map<string, int>& state, unordered_set<int>& c_idx,
     return res;
   }
   return "_STAY";
+}
+
+
+
+
+
+
+
+// probabilistic mcsat algorithm
+void MLN::pmcsat(int round, string query) {
+  // random generator
+  random_device rd;
+  mt19937 generator(rd());
+  uniform_real_distribution<double> distribution(0.0, 1.0);
+  // find valid unknown tuples and valid cliques
+  unordered_set<int> c_idx;
+  unordered_set<string> valid_unknown;
+  vector<bool> visited (this->cliques.size());
+  dfsSearch(valid_unknown, visited, query);
+  for (auto& valid : valid_unknown) {
+    for (int c_id : this->c_map[valid]) {
+      c_idx.insert(c_id);
+    }
+  }
+  unordered_set<string> valid_known;
+  for (int c_id : c_idx) {
+    for (auto& valid : this->cliques[c_id].getLiterals()) {
+      if (this->obs.find(valid)!=this->obs.end()) {
+        valid_known.insert(valid);
+      }
+    }
+  }
+  // initialize state map
+  unordered_map<string, double> state;
+  for (auto& query_name : valid_unknown) {
+    double prand = distribution(generator);
+    if (prand>0.5) {
+      state[query_name] = 1;
+    }
+    else {
+      state[query_name] = 0;
+    }
+  }
+  for (auto& literal : valid_known) {
+    state[literal] = this->prob[literal];
+  }
+  // initialize numTrue map
+  unordered_map<string, int> numTrue;
+  for (auto& query_name : valid_unknown) {
+    numTrue[query_name] = 0;
+  }
+  // make the current state satisify hard clauses
+  for (int id : c_idx) {
+    if (this->cliques[id].isHard()) {
+      // to be implemented
+    }
+  }
+  // start sampling
+  for (int i=0; i<round; i++) {
+    unordered_set<int> m;
+    // sample clauses and insert clique id into m
+    for (int id : c_idx) {
+      double pSat = this->cliques[id].satisifiablity(state);
+      double prand = distribution(generator);
+      if (prand<pSat) {
+        m.insert(id);
+      }
+    }
+    pSampleSAT(state, m, MAXFLIPS, MAXTRIES, TARGET, NOISE);
+    for (auto& query_name : valid_unknown) {
+      if (abs(state[query_name]-1.0)<1e-10) {
+        numTrue[query_name]++;
+      }
+    }
+  }
+  // calculate probabilities of queried tuples
+  for (auto& query_name : valid_unknown) {
+    this->prob[query_name] = numTrue[query_name]*1.0 / round;
+  }
+}
+
+
+void MLN::pSampleSAT(unordered_map<string, double>& state, unordered_set<int>& c_idx, int maxFlips, int maxTries, double target, double p) {
+  // initialize solution
+  unordered_map<string, double> solu;
+  string mode = "ss";
+  for (string observe : this->obs) {
+    solu[observe] = 1;
+  }
+  for (int t=0; t<maxTries; t++) {
+    // initialize solution randomly
+    for (auto& query : this->queries) {
+      double prand = (double)rand()/RAND_MAX;
+      if (prand<0.5) {
+        solu[query] = 1;
+      }
+      else {
+        solu[query] = 0;
+      }
+    }
+    double cost = pGetCost(solu, c_idx, mode);
+    // flip literals
+    for (int f=0; f<maxFlips; f++) {
+      // terminate when cost < target
+      if (cost<target) {
+        for (auto& query : this->queries) {
+          state[query] = solu[query];
+        }
+        return;
+      }
+      vector<int> false_idx;
+      for (int c_id : c_idx) {
+        if (!this->cliques[c_id].satisifiablity(solu)) {
+          false_idx.push_back(c_id);
+        }
+      }
+      int c_id = false_idx[rand()%false_idx.size()];
+      double prand = (double)rand()/RAND_MAX;
+      string toFlip;
+      if (prand<p) {
+        toFlip = randomPick(this->cliques[c_id]);
+      }
+      else {
+        // toFlip = optimalPick(state, c_idx, mode);
+        // toFlip = lowestPick(this->cliques[c_id], state, c_idx, mode);
+        toFlip = pSsPick(state, c_idx, mode);
+      }
+      if (toFlip!="_STAY") {
+        solu[toFlip] = 1-solu[toFlip];
+      }
+      cost = pGetCost(solu, c_idx, mode);
+    }
+  }
+  for (auto& query : this->queries) {
+    state[query] = solu[query];
+  }
+}
+
+
+string MLN::pSsPick(unordered_map<string, double>& state, unordered_set<int>& c_idx, string& mode) {
+  unordered_set<string> valid_set;
+  for (int c_id : c_idx) {
+    vector<string> literals = this->cliques[c_id].getLiterals();
+    for (auto& literal : literals) {
+      if (this->queries.find(literal)!=this->queries.end()) {
+        valid_set.insert(literal);
+      }
+    }
+  }
+  vector<string> valid;
+  for (auto& literal : valid_set) {
+    valid.push_back(literal);
+  }
+  string res = valid[rand()%valid.size()];
+  double prev = 0.0;
+  for (int c_id : this->c_map[res]) {
+    if (c_idx.find(c_id)!=c_idx.end() && !this->cliques[c_id].satisifiablity(state)) {
+      prev += this->cliques[c_id].getCost(mode);
+    }
+  }
+  state[res] = 1-state[res];
+  double after = 0.0;
+  for (int c_id : this->c_map[res]) {
+    if (c_idx.find(c_id)!=c_idx.end() && !this->cliques[c_id].satisifiablity(state)) {
+      after += this->cliques[c_id].getCost(mode);
+    }
+  }
+  double delta = after-prev;
+  if (delta<0) {
+    // if cost is less, directly return the random result
+    return res;
+  }
+  double p = exp(-(delta)/SATEMPERATURE);
+  double prand = (double)rand() / RAND_MAX;
+  if (prand<p) {
+    return res;
+  }
+  return "_STAY";
+}
+
+
+double MLN::pGetCost(unordered_map<string, double>& state, unordered_set<int>& c_idx, string& mode) {
+  double cost = 0.0;
+  for (int id : c_idx) {
+    cost += 1-this->cliques[id].satisifiablity(state);
+  }
+  return cost;
 }
