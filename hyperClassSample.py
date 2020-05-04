@@ -22,7 +22,7 @@ mf.write("materialize(topic, infinity, infinity, keys(1, 2:str, 3:int32)).\n")
 mf.write("materialize(links, infinity, infinity, keys(1, 2:int32, 3:int32)).\n")
 mf.write("materialize(shaResult, infinity, infinity, keys(1, 2:cid, 3:str)).\n")
 mf.write("\n\n")
-mf.write("rl topic(@Local, T, P2) :- links(@Local, P1, P2), topic(@Local, T, P2).\n")
+mf.write("rl topic(@Local, T, P1) :- links(@Local, P1, P2), topic(@Local, T, P2), P1!=P2.\n")
 mf.write("\n")
 
 of.write("hasword 0\n")
@@ -56,17 +56,17 @@ for i, l in enumerate(mlnList):
     p2 = p1+1
     while l[3][p2]!="\"":
       p2 += 1
-    T = l[3][p1+1:p2]
+    W = l[3][p1+1:p2]
     p1 = 0
     while l[5][p1]!="(":
       p1 += 1
     p2 = p1+1
     while l[5][p2]!=",":
       p2 += 1
-    W = l[5][p1+1:p2]
+    T = l[5][p1+1:p2]
     mf.write(rule_name+" topic(@Local, T, P) :- hasword(@Local, W, P), T:=\""+T+"\", W==\""+W+"\".\n")
     of.write(rule_name+" "+str(rule_weight)+"\n")
-  except IndexError as e:
+  except:
     print(l)
 
 mf.write("\n")

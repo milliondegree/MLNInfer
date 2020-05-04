@@ -142,13 +142,14 @@ double Clique::satisifiablity(unordered_map<string, double>& truth) {
   double res = 1.0;
   for (Literal& l : this->sliterals) {
     if (l.nag) {
-      res *= 1-truth[l.name];
-    }
-    else {
       res *= truth[l.name];
     }
+    else {
+      res *= 1-truth[l.name];
+    }
   }
-  if (this->rule_weight>0) {
+  res = 1-res;
+  if (this->rule_weight<0) {
     res = (1-res);
   }
   return res;
@@ -158,12 +159,12 @@ double Clique::satisifiablity(unordered_map<string, double>& truth) {
 string Clique::toString() {
   string res = "";
   if (this->literals.size()==1) {
-    res = res + rule_name + " " + to_string(rule_weight);
+    res = res + rule_name;
   }
   else {
-    res += rule_name + " " + to_string(rule_weight) + " " + rule_head + " :- ";
-    for (int i=0; i<literals.size(); i++) {
-      res += rule_body[i];
+    res += rule_name + " " + rule_head + " :- ";
+    for (int i=1; i<literals.size(); i++) {
+      res += literals[i];
       if (i!=literals.size()-1) {
         res += ", ";
       }
@@ -230,6 +231,7 @@ double Clique::getCost(string& mode) {
   }
   return res;
 }
+
 
 
 bool Clique::isHard() {

@@ -13,10 +13,11 @@ MLN::MLN(string prov, map<string, double> prob) {
 
 
 MLN::MLN(Load& load) {
-  this->prov = load.getProv();
+  this->provs = load.getProv();
   this->prob = load.getProb();
   this->sames = load.getSames();
 }
+
 
 
 void MLN::clear() {
@@ -598,7 +599,9 @@ unordered_map<string, double> MLN::getInfluence(string query) {
 
 
 void MLN::saveToFile(ofstream& file) {
-  file << "provenance: " << this->prov << endl;
+  for (string& prov : this->provs) {
+    file << "provenance: " << prov << endl;
+  }
   file << "observed: ";
   for (string s : this->obs) {
     file << s << ' ';

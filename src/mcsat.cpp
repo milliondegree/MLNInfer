@@ -358,6 +358,7 @@ string MLN::ssPick(unordered_map<string, int>& state, unordered_set<int>& c_idx,
       after += this->cliques[c_id].getCost(mode);
     }
   }
+  state[res] = 1-state[res];
   double delta = after-prev;
   if (delta<0) {
     // if cost is less, directly return the random result
@@ -379,6 +380,7 @@ string MLN::ssPick(unordered_map<string, int>& state, unordered_set<int>& c_idx,
 
 // probabilistic mcsat algorithm
 void MLN::pmcsat(int round, string query) {
+  // cout << "running pmcsat" << endl;
   // random generator
   random_device rd;
   mt19937 generator(rd());
@@ -404,12 +406,12 @@ void MLN::pmcsat(int round, string query) {
   // initialize state map
   unordered_map<string, double> state;
   for (auto& query_name : valid_unknown) {
-    double prand = distribution(generator);
+    double prand = (double)rand()/RAND_MAX;
     if (prand>0.5) {
-      state[query_name] = 1;
+      state[query_name] = 1.0;
     }
     else {
-      state[query_name] = 0;
+      state[query_name] = 0.0;
     }
   }
   for (auto& literal : valid_known) {
@@ -432,12 +434,21 @@ void MLN::pmcsat(int round, string query) {
     // sample clauses and insert clique id into m
     for (int id : c_idx) {
       double pSat = this->cliques[id].satisifiablity(state);
-      double prand = distribution(generator);
-      if (prand<pSat) {
+      /*
+      cout << this->cliques[id].toString() << endl;
+      for (auto& s : this->cliques[id].getLiterals()) {
+        cout << s << ' ' << state[s] << ' ';
+      }
+      cout << endl;
+      cout << pSat << endl;
+      */
+      double p = 1-exp(-pSat*abs(this->cliques[id].getRuleWeight()));
+      double prand = (double)rand()/RAND_MAX;
+      if (prand<p) {
         m.insert(id);
       }
     }
-    pSampleSAT(state, m, MAXFLIPS, MAXTRIES, TARGET, NOISE);
+    pSampleSAT(state, m, MAXFLIPS, MAXTRIES, PTARGET, NOISE);
     for (auto& query_name : valid_unknown) {
       if (abs(state[query_name]-1.0)<1e-10) {
         numTrue[query_name]++;
@@ -456,17 +467,17 @@ void MLN::pSampleSAT(unordered_map<string, double>& state, unordered_set<int>& c
   unordered_map<string, double> solu;
   string mode = "ss";
   for (string observe : this->obs) {
-    solu[observe] = 1;
+    solu[observe] = this->prob[observe];
   }
   for (int t=0; t<maxTries; t++) {
     // initialize solution randomly
     for (auto& query : this->queries) {
       double prand = (double)rand()/RAND_MAX;
       if (prand<0.5) {
-        solu[query] = 1;
+        solu[query] = 1.0;
       }
       else {
-        solu[query] = 0;
+        solu[query] = 0.0;
       }
     }
     double cost = pGetCost(solu, c_idx, mode);
@@ -481,11 +492,18 @@ void MLN::pSampleSAT(unordered_map<string, double>& state, unordered_set<int>& c
       }
       vector<int> false_idx;
       for (int c_id : c_idx) {
-        if (!this->cliques[c_id].satisifiablity(solu)) {
+        if (this->cliques[c_id].satisifiablity(solu)<0.5) {
           false_idx.push_back(c_id);
         }
       }
+      if (false_idx.size()==0) {
+        for (auto& query : this->queries) {
+          state[query] = solu[query];
+        }
+        return;
+      }
       int c_id = false_idx[rand()%false_idx.size()];
+      // cout << c_id << endl;
       double prand = (double)rand()/RAND_MAX;
       string toFlip;
       if (prand<p) {
@@ -500,6 +518,7 @@ void MLN::pSampleSAT(unordered_map<string, double>& state, unordered_set<int>& c
         solu[toFlip] = 1-solu[toFlip];
       }
       cost = pGetCost(solu, c_idx, mode);
+      // cout << cost << endl;
     }
   }
   for (auto& query : this->queries) {
@@ -525,24 +544,25 @@ string MLN::pSsPick(unordered_map<string, double>& state, unordered_set<int>& c_
   string res = valid[rand()%valid.size()];
   double prev = 0.0;
   for (int c_id : this->c_map[res]) {
-    if (c_idx.find(c_id)!=c_idx.end() && !this->cliques[c_id].satisifiablity(state)) {
-      prev += this->cliques[c_id].getCost(mode);
+    if (c_idx.find(c_id)!=c_idx.end()) {
+      prev += (1-this->cliques[c_id].satisifiablity(state));
     }
   }
   state[res] = 1-state[res];
   double after = 0.0;
   for (int c_id : this->c_map[res]) {
-    if (c_idx.find(c_id)!=c_idx.end() && !this->cliques[c_id].satisifiablity(state)) {
-      after += this->cliques[c_id].getCost(mode);
+    if (c_idx.find(c_id)!=c_idx.end()) {
+      prev += (1-this->cliques[c_id].satisifiablity(state));
     }
   }
+  state[res] = 1-state[res];
   double delta = after-prev;
   if (delta<0) {
     // if cost is less, directly return the random result
     return res;
   }
   double p = exp(-(delta)/SATEMPERATURE);
-  double prand = (double)rand() / RAND_MAX;
+  double prand = (double)rand()/RAND_MAX;
   if (prand<p) {
     return res;
   }

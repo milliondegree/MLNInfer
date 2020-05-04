@@ -10,8 +10,12 @@ Parser::~Parser() {
 
 
 void Parser::parseProvenance(MLN& mln) {
-  int i = 0;
-  this->parseRuleHead(mln, mln.prov, i);
+  // int i = 0;
+  // this->parseRuleHead(mln, mln.prov, i);
+  for (string& prov : mln.provs) {
+    int i = 0;
+    this->parseRuleHead(mln, prov, i);
+  }
 }
 
 
@@ -35,8 +39,10 @@ void Parser::parseRuleHead(MLN& mln, string& prov, int& i) {
   string predName = extractName(rule_head);
   assert(mln.prob.find(predName)!=mln.prob.end());
   Clique s_c = Clique(rule_head, mln.prob[predName]);
-  mln.cliques.push_back(s_c);
-  mln.c_map[rule_head].push_back(mln.cliques.size()-1);
+  if (!findIn(mln, s_c)) {
+    mln.cliques.push_back(s_c);
+    mln.c_map[rule_head].push_back(mln.cliques.size()-1);
+  }
 
   vector<vector<string>> rules = parseRules(mln, prov, i);
 
@@ -47,20 +53,22 @@ void Parser::parseRuleHead(MLN& mln, string& prov, int& i) {
       r_body.push_back(rule[j]);
     }
     Clique c(rule_name, mln.prob[rule_name], rule_head, r_body);
-    mln.cliques.push_back(c);
-    int index = mln.cliques.size()-1;
-    mln.c_map[rule_head].push_back(index);
-    for (string body : r_body) {
-      if (mln.c_map.find(body)==mln.c_map.end()) {
-        mln.c_map[body] = vector<int> ();
+    if (!findIn(mln, c)) {
+      mln.cliques.push_back(c);
+      int index = mln.cliques.size()-1;
+      mln.c_map[rule_head].push_back(index);
+      for (string body : r_body) {
+        if (mln.c_map.find(body)==mln.c_map.end()) {
+          mln.c_map[body] = vector<int> ();
+        }
+        if (mln.prob.find(body)==mln.prob.end()) {
+          mln.queries.insert(body);
+        }
+        else {
+          mln.obs.insert(body);
+        }
+        mln.c_map[body].push_back(index);
       }
-      if (mln.prob.find(body)==mln.prob.end()) {
-        mln.queries.insert(body);
-      }
-      else {
-        mln.obs.insert(body);
-      }
-      mln.c_map[body].push_back(index);
     }
   }
 }
@@ -137,8 +145,10 @@ vector<string> Parser::parseRuleBody(MLN& mln, string& prov, int& i) {
       if (mln.c_map.find(body)==mln.c_map.end()) {
         mln.c_map[body] = vector<int> ();
       }
-      mln.cliques.push_back(s_c);
-      mln.c_map[body].push_back(mln.cliques.size()-1);
+      if (!findIn(mln, s_c)) {
+        mln.cliques.push_back(s_c);
+        mln.c_map[body].push_back(mln.cliques.size()-1);
+      }
       if (prov[i]=='*') {
         i++;
       }
@@ -157,6 +167,17 @@ string Parser::extractName(string& s) {
   return s.substr(0, i);
 }
 
+
+
+bool Parser::findIn(MLN& mln, Clique& c) {
+  for (auto& mc : mln.cliques) {
+    // cout << mc.toString() << ' ' << c.toString() << endl;
+    if (mc==c) {
+      return true;
+    }
+  }
+  return false;
+}
 
 
 void Parser::extendCliques(MLN& mln) {
@@ -181,6 +202,32 @@ void Parser::extendCliques(MLN& mln) {
     mln.cliques.push_back(nc);
     for (auto& literal : literals) {
       mln.c_map[literal].push_back(mln.cliques.size()-1);
+    }
+  }
+}
+
+
+void Parser::extendR1Cliques(MLN& mln) {
+  for (auto query : mln.queries) {
+    if (extractName(query)=="smoke") {
+      int i=0;
+      while (!(query[i]>='0' && query[i]<='9')) {
+        i++;
+      }
+      string name = query.substr(i, query.size()-i);
+      string cancer = "cancer"+name;
+      mln.queries.insert(cancer);
+      Clique s_c(cancer, mln.prob["cancer"]);
+      if (!findIn(mln, s_c)) {
+        mln.cliques.push_back(s_c);
+        mln.c_map[cancer].push_back(mln.cliques.size());
+      }
+      Clique c("r1", mln.prob["r1"], cancer, vector<string>({query}));
+      if (!findIn(mln, c)) {
+        mln.cliques.push_back(c);
+        mln.c_map[query].push_back(mln.cliques.size());
+        mln.c_map[cancer].push_back(mln.cliques.size());
+      }
     }
   }
 }

@@ -56,12 +56,13 @@ void parseTest(MLN mln, Load l) {
   parser.parseProvenance(mln);
   clock_t t2 = clock();
   cout << "optimized parsing time: " << ((double)(t2-t1))/CLOCKS_PER_SEC << " seconds" << endl;
-
+  /*
   clock_t t3 = clock();
   mln.setProperty(l.getProv(), l.getProb());
   clock_t t4 = clock();
   cout << "original parsing time: " << ((double)(t4-t3))/CLOCKS_PER_SEC << " seconds" << endl;
   cout << endl;
+  */
 }
 
 
@@ -98,7 +99,7 @@ void saveToFile(MLN& mln, string file_name) {
   clock_t t1 = clock();
   ofstream file;
   file.open(file_name);
-  mln.gibbsSampling_v3(100000);
+  // mln.gibbsSampling_v3(100000);
   mln.saveToFile(file);
   file.close();
   clock_t t2 = clock();
@@ -156,8 +157,11 @@ void probabilityQuery(MLN& mln, int round, string query_name, string mode) {
   if (mode=="gibbs") {
     mln.gibbsSampling_v4(round, query_name);
   }
-  else {
+  else if (mode=="mcsat"){
     mln.mcsat(round, query_name);
+  }
+  else if (mode=="pmcsat") {
+    mln.pmcsat(round, query_name);
   }
   clock_t t2 = clock();
   cout << mode+" sample time: " << ((double)(t2-t1))/CLOCKS_PER_SEC << " seconds" << endl;
@@ -439,25 +443,16 @@ int main(int argc, char* argv[]) {
     }
   }
 
-  // assert(args.find("query_name")!=args.end());
-  // assert(args.find("target_name")!=args.end());
-  if (args.find("observe_file")==args.end()) {
-    args["observe_file"] = ObsFile;
-  }
-  if (args.find("provenance_file")==args.end()) {
-    args["provenance_file"] = provFile;
-  }
-
   Load l(args["provenance_file"], args["observe_file"]);
-  string prov = l.getProv();
-  // cout << prov << endl;
+  vector<string> prov = l.getProv();
 
   printObservation(l);
 
   MLN mln(l);
   Parser parser;
   parser.parseProvenance(mln);
-  parser.extendCliques(mln);
+  // parser.extendCliques(mln);
+  // parser.extendR1Cliques(mln);
 
   // printLiterals(mln);
 
@@ -469,8 +464,9 @@ int main(int argc, char* argv[]) {
     // cout << endl;
     // gibbsTest(mln, 10000, args["query_name"]);
     // varianceTest(mln, args["query_name"]);
-    probabilityQuery(mln, stoi(args["round"]), args["query_name"], "gibbs");
-    probabilityQuery(mln, stoi(args["round"]), args["query_name"], "mcsat");
+    // probabilityQuery(mln, stoi(args["round"]), args["query_name"], "gibbs");
+    // probabilityQuery(mln, stoi(args["round"]), args["query_name"], "mcsat");
+    // probabilityQuery(mln, stoi(args["round"]), args["query_name"], "pmcsat");
   }
 
   if (args.find("save")!=args.end()) {

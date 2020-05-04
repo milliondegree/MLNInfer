@@ -45,6 +45,7 @@ public:
   string getRuleName();
   double getRuleWeight();
   double getCost(string& mode);
+  double getMinCost();
   bool isHard();
 
   string toString();

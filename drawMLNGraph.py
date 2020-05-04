@@ -6,9 +6,11 @@ import argparse
 def setRuleNode(G, node_name):
   G.add_node(node_name)
   n = G.get_node(node_name)
-  n.attr['shape'] = 'box'
+  n.attr['shape'] = 'oval'
   n.attr['color'] = 'red'
-  n.attr['fontsize'] = 10
+  n.attr['fontsize'] = 15
+  n.attr['height'] = 0.8
+  n.attr['width'] = 1.2
   n.attr['fontname'] = 'sans-serif'
   n.attr['margin'] = 0.1
 
@@ -91,6 +93,35 @@ def parseFile(file_name):
   return obs, que, cliques, c_map
 
 
+def drawDirected():
+  G = pgv.AGraph(strict=True, directed=True)
+  G.graph_attr['rankdir'] = 'BT'
+  G.graph_attr['splines'] = False
+  G.graph_attr['overlap'] = "scale"
+
+  n1 = "live(\"Steve\",\"DC\")"
+  n2 = "live(\"Elena\",\"DC\")"
+  n3 = "like(\"Steve\",\"Veggies\")"
+  n4 = "like(\"Elena\",\"Veggies\")"
+  n5 = "know(\"Steve\",\"Elena\")"
+
+  setObsNode(G, n1)
+  setObsNode(G, n2)
+  setRuleNode(G, "r1")
+  G.add_edge(n1, "r1")
+  G.add_edge(n2, "r1")
+  setObsNode(G, n3)
+  setObsNode(G, n4)
+  setRuleNode(G, "r2")
+  G.add_edge(n3, "r2")
+  G.add_edge(n4, "r2")
+  setObsNode(G, n5)
+  G.add_edge("r1", n5)
+  G.add_edge("r2", n5)
+  
+  G.layout(prog="dot")
+  G.draw("./data/images/acquaintance.eps")
+
 
 if __name__ == '__main__':
   parser = argparse.ArgumentParser()
@@ -98,9 +129,12 @@ if __name__ == '__main__':
   parser.add_argument("--output", type=str)
   args = parser.parse_args()
 
+
   obs, que, cliques, c_map = parseFile(args.input)
   # print(obs)
   # print(que)
   # print(cliques)
   # print(c_map)
   drawMLNGraph(obs, que, cliques, c_map, args.output)
+
+  # drawDirected()

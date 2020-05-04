@@ -4,6 +4,7 @@
 #define MAXTRIES 100
 #define MAXFLIPS 10
 #define TARGET 0.00001
+#define PTARGET 1.0
 #define NOISE 0.5
 #define SARATIO 0.5
 #define SATEMPERATURE 80
@@ -63,6 +64,7 @@ public:
 
 private:
   string prov;
+  vector<string> provs;
   vector<Clique> cliques;
   unordered_set<string> obs;
   unordered_set<string> queries;
@@ -95,6 +97,7 @@ public:
 
   void parseProvenance(MLN& mln);
   void extendCliques(MLN& mln);
+  void extendR1Cliques(MLN& mln);
 
   ~Parser();
 
@@ -103,6 +106,7 @@ private:
   vector<vector<string>> parseRules(MLN& mln, string& prov, int& i);
   vector<string> parseRule(MLN& mln, string& prov, int& i);
   vector<string> parseRuleBody(MLN& mln, string& prov, int& i);
+  bool findIn(MLN& mln, Clique& c);
   string extractName(string& s);
 };
 

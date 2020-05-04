@@ -12,7 +12,7 @@ Load::Load(string pfile, string ofile) {
 Load::~Load() {
 }
 
-string Load::getProv() {
+vector<string> Load::getProv() {
   return this->prov;
 }
 
@@ -27,13 +27,16 @@ map<string, string> Load::getSames() {
 
 
 void Load::setProv(string pfile) {
-  ifstream pfin(pfile);
-  stringstream buffer;
-  buffer << pfin.rdbuf();
-  string prov = buffer.str();
-  prov.erase(0,prov.find_first_not_of(" \t\r\n"));
-  prov.erase(prov.find_last_not_of(" \t\r\n") + 1);
-  this->prov = prov;
+  ifstream ofin(pfile);
+  string line;
+
+  while (getline(ofin, line)) {
+    if (!line.empty()) {
+      line.erase(0, line.find_first_not_of(" \t\r\n"));
+      line.erase(line.find_last_not_of(" \t\r\n")+1);
+      this->prov.push_back(line);
+    }
+  }
 }
 
 

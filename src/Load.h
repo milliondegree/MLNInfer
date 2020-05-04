@@ -18,7 +18,7 @@ public:
   Load();
   Load(string pfile, string ofile);
 
-  string getProv();
+  vector<string> getProv();
   void setProv(string pfile);
   map<string, double> getProb();
   map<string, string> getSames();
@@ -27,7 +27,7 @@ public:
   ~Load();
 
 private:
-  string prov;
+  vector<string> prov;
   map<string, double> prob;
   map<string, string> sames;
 };
