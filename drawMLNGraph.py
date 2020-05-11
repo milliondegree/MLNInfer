@@ -1,6 +1,7 @@
 import matplotlib.pyplot as plt
 import pygraphviz as pgv
 import argparse
+import random
 
 
 def setRuleNode(G, node_name):
@@ -48,7 +49,9 @@ def drawMLNGraph(obs, que, cliques, c_map, save_name):
   G.graph_attr['overlap'] = "scale"
   used = []
   for c in cliques:
-    if len(c)==2:
+    if random.random()>0.2:
+      continue
+    if len(c)==1:
       # if it is single clique
       continue
     for node in c[1:]:

@@ -108,7 +108,8 @@ for i, line in enumerate(obsList):
       of.write(predicate+"_"+a1+"_"+str(m[a2])+" 1\n")
       df.write(predicate+" "+a1+" "+str(m[a2])+"\n")
   elif predicate=="links":
-    if random.random()<args.ro:
+    if random.random()<0.5:
+    # if True:
       countl += 1
       if not a1 in m:
         m[a1] = len(m)+1

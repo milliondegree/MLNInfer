@@ -161,7 +161,7 @@ vector<string> Parser::parseRuleBody(MLN& mln, string& prov, int& i) {
 
 string Parser::extractName(string& s) {
   int i = 0;
-  while (!(s[i]>='0' && s[i]<='9')) {
+  while (!((s[i]>='0' && s[i]<='9')||(s[i]=='_'))) {
     i++;
   }
   return s.substr(0, i);
