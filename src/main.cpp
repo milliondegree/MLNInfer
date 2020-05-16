@@ -353,6 +353,17 @@ void influenceQuery(MLN& mln, string query, string infl, int round, double delta
 }
 
 
+void influenceQueryAll(MLN& mln, string query, int round, double delta, string mode) {
+  Grader grader;
+  unordered_set<string> observedTuples = grader.getValidObservedTuples(mln, query);
+  for (string observed : observedTuples) {
+    grader.computeGradient(mln, query, observed, round, delta, mode);
+    double influs = mln.getInfluence(query)[observed];
+    cout << "influence of " << observed << " to " << query << " is " << influs << endl;
+  }
+}
+
+
 void setDefaultArgs(unordered_map<string, string>& args) {
   args["observe_file"] = "./data/observe/smokeTest.db";
   args["provenance_file"] = "./data/prov/cancer2.txt";
@@ -446,7 +457,7 @@ int main(int argc, char* argv[]) {
   Load l(args["provenance_file"], args["observe_file"]);
   vector<string> prov = l.getProv();
 
-  printObservation(l);
+  // printObservation(l);
 
   MLN mln(l);
   Parser parser;
@@ -454,7 +465,16 @@ int main(int argc, char* argv[]) {
   // parser.extendCliques(mln);
   // parser.extendR1Cliques(mln);
 
-  // printLiterals(mln);
+  /*
+  map<string, double> prob = mln.getProb();
+  for (auto it : prob) {
+    cout << it.first << ' ' << it.second << endl;
+  }
+  */
+
+  printLiterals(mln);
+  
+  MLN mmln;
 
   if (args.find("query_name")!=args.end()) {
     // cliqueTest(mln, args["query_name"]);
@@ -464,9 +484,16 @@ int main(int argc, char* argv[]) {
     // cout << endl;
     // gibbsTest(mln, 10000, args["query_name"]);
     // varianceTest(mln, args["query_name"]);
-    // probabilityQuery(mln, stoi(args["round"]), args["query_name"], "gibbs");
+    mmln = mln.getMinimalMLN(args["query_name"]);
+    // for (Clique c : mmln.getCliques()) {
+    //   c.printClique();
+    // }
+    probabilityQuery(mmln, stoi(args["round"]), args["query_name"], "gibbs");
     // probabilityQuery(mln, stoi(args["round"]), args["query_name"], "mcsat");
     // probabilityQuery(mln, stoi(args["round"]), args["query_name"], "pmcsat");
+    // MLN mmln = mln.getMinimalMLN(args["query_name"]);
+    // unordered_set<string> obs = mmln.getObsLiterals();
+    // saveToFile(mmln, args["save"]);
   }
 
   if (args.find("save")!=args.end()) {
@@ -477,10 +504,14 @@ int main(int argc, char* argv[]) {
   // save3DPlot(mln, "./data/record/test1.txt", args["query_name"], stoi(args["round"]), stod(args["delta"]));
 
   if (args.find("influence_name")!=args.end()) {
-    // influenceQuery(mln, args["influence_name"], stoi(args["round"]), stod(args["delta"]));
-    // influenceQuery_mcsat(mln, args["influence_name"], stoi(args["round"]), stod(args["delta"]));
-    influenceQuery(mln, args["query_name"], args["influence_name"], stoi(args["round"]), stod(args["delta"]), "gibbs");
-    // influenceQuery(mln, args["query_name"], args["influence_name"], stoi(args["round"]), stod(args["delta"]), "mcsat");
+    mmln = mln.getMinimalMLN(args["query_name"]);
+    if (args["influence_name"]=="all") {
+      influenceQueryAll(mmln, args["query_name"], stoi(args["round"]), stod(args["delta"]), "gibbs");
+    }
+    else {
+      influenceQuery(mmln, args["query_name"], args["influence_name"], stoi(args["round"]), stod(args["delta"]), "gibbs");
+      // influenceQuery(mln, args["query_name"], args["influence_name"], stoi(args["round"]), stod(args["delta"]), "mcsat");
+    }
   }
 
   if (args.find("target_name")!=args.end()) {

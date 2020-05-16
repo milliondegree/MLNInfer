@@ -38,6 +38,51 @@ void MLN::setProperty(string prov, map<string, double> prob) {
 }
 
 
+void MLN::setProv(string prov) {
+  this->prov = prov;
+}
+
+
+void MLN::setProvs(vector<string> provs) {
+  this->provs = provs;
+}
+
+
+void MLN::setCliques(vector<Clique> cliques) {
+  this->cliques = cliques;
+}
+
+
+void MLN::setObs(unordered_set<string> obs) {
+  this->obs = obs;
+}
+
+
+void MLN::setQueries(unordered_set<string> queries) {
+  this->queries = queries;
+}
+
+
+void MLN::setProb(map<string, double> prob) {
+  this->prob = prob;
+}
+
+
+void MLN::setSames(map<string, string> sames) {
+  this->sames = sames;
+}
+
+
+void MLN::setCMap(map<string, vector<int>> c_map) {
+  this->c_map = c_map;
+}
+
+
+void MLN::setPd(unordered_map<string, unordered_map<string, double>> pd) {
+  this->pd = pd;
+}
+
+
 void MLN::removeRedundant(string& prov) {
   while (true) {
     if (prov.length()>0 && prov[0]!='(') {
@@ -188,6 +233,11 @@ int MLN::numberCliques(string literal) {
 }
 
 
+vector<Clique> MLN::getCliques() {
+  return this->cliques;
+}
+
+
 vector<Clique> MLN::getCliques(string literal) {
   vector<int> indices = this->c_map[literal];
   vector<Clique> res;
@@ -198,6 +248,10 @@ vector<Clique> MLN::getCliques(string literal) {
 }
 
 
+map<string, double> MLN::getProb() {
+  return this->prob;
+}
+
 unordered_set<string> MLN::getObsLiterals() {
   return this->obs;
 }
@@ -205,6 +259,47 @@ unordered_set<string> MLN::getObsLiterals() {
 
 unordered_set<string> MLN::getQueryLiterals() {
   return this->queries;
+}
+
+
+MLN MLN::getMinimalMLN(string& query) {
+  MLN mmln;
+  unordered_set<string> valid_unknown;
+  vector<bool> visited (this->cliques.size(), false);
+  dfsSearch(valid_unknown, visited, query);
+
+  // mmln.setProb(this->prob);
+  vector<Clique> mcliques;
+  unordered_set<string> mobs;
+  unordered_set<string> mqueries;
+  map<string, vector<int>> mc_map;
+  for (int i=0; i<this->cliques.size(); i++) {
+    if (visited[i]) {
+      mcliques.push_back(this->cliques[i]);
+      for (string literal : this->cliques[i].getLiterals()) {
+        if (mc_map.find(literal)==mc_map.end()) {
+          mc_map[literal] = vector<int> ();
+        }
+        mc_map[literal].push_back(mcliques.size()-1);
+        if (this->obs.find(literal)==this->obs.end()) {
+          mqueries.insert(literal);
+        }
+        else {
+          mobs.insert(literal);
+        }
+      }
+    }
+  }
+  map<string, double> mprob;
+  for (string literal : mobs) {
+    mprob[literal] = this->prob[literal];
+  }
+  mmln.setCliques(mcliques);
+  mmln.setObs(mobs);
+  mmln.setQueries(mqueries);
+  mmln.setCMap(mc_map);
+  mmln.setProb(mprob);
+  return mmln;
 }
 
 
@@ -446,8 +541,9 @@ void MLN::gibbsSampling_v3(int round) {
 
 void MLN::gibbsSampling_v4(int round, string query) {
   unordered_set<string> valid_unknown;
-  vector<bool> visited (this->cliques.size(), false);
-  dfsSearch(valid_unknown, visited, query);
+  valid_unknown = this->queries;
+  // vector<bool> visited (this->cliques.size(), false);
+  // dfsSearch(valid_unknown, visited, query);
 
   unordered_map<string, int> samples;
   for (string query : valid_unknown) {

@@ -30,19 +30,32 @@ public:
   MLN();
   MLN(string prov, map<string, double> prob);
   MLN(Load& load);
-  void clear();
-  void setProperty(string prov, map<string, double> prob);
 
   friend class Parser;
   friend class Grader;
+
+  void clear();
+  void setProperty(string prov, map<string, double> prob);
+  void setProv(string prov);
+  void setProvs(vector<string> provs);
+  void setCliques(vector<Clique> cliques);
+  void setObs(unordered_set<string> obs);
+  void setQueries(unordered_set<string> queries);
+  void setProb(map<string, double> prob);
+  void setSames(map<string, string> sames);
+  void setCMap(map<string, vector<int>> c_map);
+  void setPd(unordered_map<string, unordered_map<string, double>> pd);
 
   void removeRedundant(string& prov);
   void build(string prov);
 
   int numberCliques(string literal);
+  vector<Clique> getCliques();
   vector<Clique> getCliques(string literal);
+  map<string, double> getProb();
   unordered_set<string> getObsLiterals();
   unordered_set<string> getQueryLiterals();
+  MLN getMinimalMLN(string& query);
 
   void setObsProb(string str, double prob);
 

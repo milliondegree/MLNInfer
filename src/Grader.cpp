@@ -92,11 +92,14 @@ void Grader::computeGradient(MLN& mln, string query, string infl, int round, dou
   if (mln.pd.find(query)==mln.pd.end()) {
     mln.pd[query] = unordered_map<string, double> ();
   }
-  unordered_set<string> valid_obs;
-  vector<bool> visited (mln.cliques.size(), false);
-  dfsSearch(mln, valid_obs, visited, query);
-  if (valid_obs.find(infl)==valid_obs.end()) {
+  // unordered_set<string> valid_obs;
+  // vector<bool> visited (mln.cliques.size(), false);
+  // dfsSearch(mln, valid_obs, visited, query);
+  if (mln.obs.find(infl)==mln.obs.end()) {
     mln.pd[query][infl] = 0.0;
+    return;
+    // consider rule tuple
+    // if (infl.start)
   }
   double prev = mln.prob[infl];
   double upper = min(1.0, mln.prob[infl]+delta);
