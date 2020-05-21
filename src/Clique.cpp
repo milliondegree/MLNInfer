@@ -239,6 +239,11 @@ bool Clique::isHard() {
 }
 
 
+bool Clique::isSingular() {
+  return this->literals.size()==1;
+}
+
+
 void Clique::buildLiterals() {
   if (this->literals.size()==1) {
     Literal l(this->literals[0], false);

@@ -13,6 +13,7 @@
 #include <iostream>
 #include <fstream>
 #include <string>
+#include <queue>
 #include <map>
 #include <unordered_map>
 #include <unordered_set>
@@ -33,6 +34,7 @@ public:
 
   friend class Parser;
   friend class Grader;
+  friend class Pruner;
 
   void clear();
   void setProperty(string prov, map<string, double> prob);
@@ -49,6 +51,7 @@ public:
   void removeRedundant(string& prov);
   void build(string prov);
 
+  int getNumberOfCliques();
   int numberCliques(string literal);
   vector<Clique> getCliques();
   vector<Clique> getCliques(string literal);
@@ -71,6 +74,7 @@ public:
   map<string, vector<double>> getAllProbs(int round, int times);
   unordered_map<string, double> getInfluence(string query);
 
+  string toString();
   void saveToFile(ofstream& file);
 
   ~MLN();
@@ -143,5 +147,15 @@ private:
   void dfsSearch(MLN& mln, unordered_set<string>& valid_obs, vector<bool>& visited, string& query);
 };
 
+
+class Pruner {
+public:
+  Pruner();
+
+  MLN prune(MLN& mln, string query, double delta);
+  MLN prune_v2(MLN& mln, string query, double delta);
+
+  ~Pruner();
+};
 
 #endif

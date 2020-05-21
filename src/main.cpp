@@ -40,6 +40,21 @@ double calcVar(vector<double> values) {
 }
 
 
+double calcStdVar(vector<double> values) {
+  double mean = 0;
+  for (int i=0; i<values.size(); i++) {
+    mean += values[i];
+  }
+  mean /= values.size();
+  double var = 0;
+  for (int i=0; i<values.size(); i++) {
+    var += abs(values[i]-mean);
+  }
+  var /= values.size();
+  return var;
+}
+
+
 void printObservation(Load l) {
   // print out observed literals and their probabilities
   map<string, double> prob = l.getProb();
@@ -171,7 +186,7 @@ void probabilityQuery(MLN& mln, int round, string query_name, string mode) {
 }
 
 
-void varianceTest(MLN& mln, string query_name) {
+void varianceTest(MLN& mln, int round, string query_name) {
   /*
   clock_t t1 = clock();
   vector<double> p1;
@@ -208,13 +223,13 @@ void varianceTest(MLN& mln, string query_name) {
   */
   clock_t t1 = clock();
   vector<double> p1;
-  for (int i=0; i<100; i++) {
-    mln.gibbsSampling_v4(1000, query_name);
+  for (int i=0; i<50; i++) {
+    mln.gibbsSampling_v4(round, query_name);
     p1.push_back(mln.queryProb(query_name));
   }
   clock_t t2 = clock();
   cout << "gibbs sample time: " << ((double)(t2-t1))/CLOCKS_PER_SEC << " seconds" << endl;
-  double var1 = calcVar(p1);
+  double var1 = calcStdVar(p1);
   cout << "standard variance of gibbs sampling: " << sqrt(var1) << endl;
   /*
   clock_t t3 = clock();
@@ -228,20 +243,6 @@ void varianceTest(MLN& mln, string query_name) {
   double var2 = calcVar(p2);
   cout << "standard variance of masat: " << sqrt(var2) << endl;
   */
-  clock_t t5 = clock();
-  vector<double> p3;
-  for (int i=0; i<100; i++) {
-    double p = 0.0;
-    for (int j=0; j<100; j++) {
-      mln.gibbsSampling_v3(100);
-      p += mln.queryProb(query_name);
-      p3.push_back(p/100);
-    }
-  }
-  clock_t t6 = clock();
-  cout << "gibbs sample parallel: " << ((double)(t6-t5))/CLOCKS_PER_SEC << " seconds" << endl;
-  double var3 = calcVar(p3);
-  cout << "variance of parallel: " << var3 << endl;
 
 }
 
@@ -483,12 +484,20 @@ int main(int argc, char* argv[]) {
     // probabilityQuery(mln, stoi(args["round"]), args["query_name"]);
     // cout << endl;
     // gibbsTest(mln, 10000, args["query_name"]);
-    // varianceTest(mln, args["query_name"]);
     mmln = mln.getMinimalMLN(args["query_name"]);
     // for (Clique c : mmln.getCliques()) {
     //   c.printClique();
     // }
     probabilityQuery(mmln, stoi(args["round"]), args["query_name"], "gibbs");
+    varianceTest(mmln, stoi(args["round"]), args["query_name"]);
+    // cout << mmln.getNumberOfCliques() << endl;
+    // cout << mmln.toString() << endl;
+    Pruner pruner;
+    // MLN nmln = pruner.prune(mmln, args["query_name"], 0.001);
+    // probabilityQuery(nmln, stoi(args["round"]), args["query_name"], "gibbs");
+    // cout << nmln.getNumberOfCliques() << endl;
+    // cout << nmln.toString() << endl;
+
     // probabilityQuery(mln, stoi(args["round"]), args["query_name"], "mcsat");
     // probabilityQuery(mln, stoi(args["round"]), args["query_name"], "pmcsat");
     // MLN mmln = mln.getMinimalMLN(args["query_name"]);

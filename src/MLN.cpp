@@ -228,6 +228,11 @@ void MLN::build(string prov) {
 }
 
 
+int MLN::getNumberOfCliques() {
+  return this->cliques.size();
+}
+
+
 int MLN::numberCliques(string literal) {
   return this->c_map[literal].size();
 }
@@ -691,6 +696,15 @@ map<string, vector<double>> MLN::getAllProbs(int round, int times) {
 unordered_map<string, double> MLN::getInfluence(string query) {
   assert(this->pd.find(query)!=this->pd.end());
   return this->pd[query];
+}
+
+
+string MLN::toString() {
+  string res;
+  for (Clique c : this->cliques) {
+    res += c.toString()+"\n";
+  }
+  return res;
 }
 
 

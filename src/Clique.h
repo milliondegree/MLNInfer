@@ -47,6 +47,7 @@ public:
   double getCost(string& mode);
   double getMinCost();
   bool isHard();
+  bool isSingular();
 
   string toString();
   void printClique();
