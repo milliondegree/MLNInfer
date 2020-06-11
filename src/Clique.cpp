@@ -211,8 +211,18 @@ vector<string> Clique::getLiterals() {
 }
 
 
+vector<string> Clique::getRuleBody() {
+  return this->rule_body;
+}
+
+
 string Clique::getRuleName() {
   return this->rule_name;
+}
+
+
+string Clique::getRuleHead() {
+  return this->rule_head;
 }
 
 
@@ -241,6 +251,21 @@ bool Clique::isHard() {
 
 bool Clique::isSingular() {
   return this->literals.size()==1;
+}
+
+
+bool Clique::isRuleHead(string& literal) {
+  return literal==this->rule_head;
+}
+
+
+bool Clique::isRuleBody(string& literal) {
+  for (string body : this->rule_body) {
+    if (body==literal) {
+      return true;
+    }
+  }
+  return false;
 }
 
 

@@ -42,12 +42,16 @@ public:
   double satisifiablity(unordered_map<string, double>& truth);
 
   vector<string> getLiterals();
+  vector<string> getRuleBody();
   string getRuleName();
+  string getRuleHead();
   double getRuleWeight();
   double getCost(string& mode);
   double getMinCost();
   bool isHard();
   bool isSingular();
+  bool isRuleHead(string& literal);
+  bool isRuleBody(string& literal);
 
   string toString();
   void printClique();

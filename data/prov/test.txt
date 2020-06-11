@@ -1,1 +1,1 @@
-cancer1(r1@n257(smoke1(r2@n257(friends1_2*smoke2))))
+smoke1(r2@n257(friends1_2*smoke2))

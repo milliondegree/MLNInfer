@@ -3,43 +3,105 @@
 Influence::Influence() {
 }
 
-Influence::Influence(MLN mln) {
-  this->mln = mln;
+
+Influence::Influence(MLN& mln) {
+  this->queries = vector<string> ();
+  this->l_index = unordered_map<string, int> ();
+  for (auto query : mln.getQueryLiterals()) {
+    this->queries.push_back(query);
+    this->l_index[query] = this->queries.size()-1;
+  }
+  int n = this->queries.size();
+  this->partialDerivs = vector<vector<double>> (n, vector<double> (n+1, 0.0));
 }
 
 
-void Influence::computeObsInfluence(string& target, vector<double>& probs) {
-  unordered_set<string> obs = this->mln.getObsLiterals();
-  unordered_set<string> queries = this->mln.getQueryLiterals();
-  for (string s : queries) {
-    this->pm[s] = vector<double> ();
+void Influence::computePartialDerivatives(MLN& mln, string& infl) {
+  map<string, double> probs = mln.getProb();
+  vector<Clique> cliques = mln.getCliques();
+  map<string, vector<int>> c_map = mln.getCMap();
+  for (string numerator : this->queries) {
+    // for each queried tuple, use its probability formula
+    int n_i = this->l_index[numerator];
+    double base = -probs[numerator]*(1-probs[numerator]);
+    for (string denominator : this->queries) {
+      // for each queried tuple, considered its partial derivative of tuple numerator
+      int d_i = this->l_index[denominator];
+      if (denominator==numerator) {
+        this->partialDerivs[n_i][d_i] = 1.0;
+      }
+      else {
+        double accu = getAccuPotential(numerator, denominator, probs, cliques, c_map);
+        this->partialDerivs[n_i][d_i] = base*accu;
+      }
+    }
+    // compute the infl's partial derivative of numerator
+    int d_i = this->queries.size();
+    double accu = getAccuPotential(numerator, infl, probs, cliques, c_map);
+    this->partialDerivs[n_i][d_i] = base*accu;
   }
-  int n = probs.size();
-  vector<double> res (n, 0);
-  // this->mln.gibbsSampling_v3(100000);
-  for (int i=0; i<n; i++) {
-    this->mln.setObsProb(target, probs[i]);
-    this->mln.gibbsSampling_v3(100000);
-    for (string s : queries) {
-      this->pm[s].push_back(mln.queryProb(s));
+}
+
+
+double Influence::getPartialDeriv(string& query, string& infl) {
+  assert(this->l_index.find(query)!=this->l_index.end()&this->l_index.find(infl)!=this->l_index.end());
+  int q_i = this->l_index[query];
+  int i_i = this->l_index[infl];
+  return this->partialDerivs[q_i][i_i];
+}
+
+
+vector<string> Influence::getQueries() {
+  return this->queries;
+}
+
+
+vector<vector<double>> Influence::getPartialDeriv() {
+  return this->partialDerivs;
+}
+
+
+double Influence::getAccuPotential(string& numerator, string& denominator, map<string, double>& probs, vector<Clique>& cliques, map<string, vector<int>> c_map) {
+  double accu = 0.0;
+  for (int c_i : c_map[numerator]) {
+    Clique c = cliques[c_i];
+    if (!c.isSingular()) {
+      if (c.isRuleHead(numerator)&&c.isRuleBody(denominator)) {
+        double potential = 1.0;
+        potential *= c.getRuleWeight();
+        for (string literal : c.getRuleBody()) {
+          if (literal!=denominator) {
+            potential *= probs[literal];
+          }
+        }
+        accu += potential;
+      }
+      else if (c.isRuleHead(denominator)&&c.isRuleBody(numerator)) {
+        double potential = 1.0;
+        potential *= c.getRuleWeight();
+        for (string literal : c.getRuleBody()) {
+          if (literal!=numerator) {
+            potential *= probs[literal];
+          }
+        }
+        accu += potential;
+      }
+      else if (c.isRuleBody(numerator)&&c.isRuleBody(denominator)) {
+        double potential = 1.0;
+        potential *= -c.getRuleWeight();
+        potential *= (1-probs[c.getRuleHead()]);
+        for (string literal : c.getRuleBody()) {
+          if (literal!=numerator&&literal!=denominator) {
+            potential *= probs[literal];
+          }
+        }
+        accu += potential;
+      }
     }
   }
+  return accu;
 }
 
-
-void Influence::generateInfluenceMap() {
-  this->influMap = unordered_map<string, unordered_set<string>> ();
-  for (string query : this->mln.getQueryLiterals()) {
-    this->influMap[query] = unordered_set<string> ();
-  }
-  return;
-}
-
-
-vector<double> Influence::getProbs(string& query) {
-  assert(this->pm.find(query)!=pm.end());
-  return this->pm[query];
-}
 
 Influence::~Influence() {
 }

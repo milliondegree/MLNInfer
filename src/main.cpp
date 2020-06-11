@@ -178,6 +178,9 @@ void probabilityQuery(MLN& mln, int round, string query_name, string mode) {
   else if (mode=="pmcsat") {
     mln.pmcsat(round, query_name);
   }
+  // else if (mode=="mtgibbs") {
+  //   mln.multithread_gibbsSampling(round, query_name);
+  // }
   clock_t t2 = clock();
   cout << mode+" sample time: " << ((double)(t2-t1))/CLOCKS_PER_SEC << " seconds" << endl;
   double prob = mln.queryProb(query_name);
@@ -286,6 +289,7 @@ void boxplotTestSave(MLN mln, string file_name, int times) {
 }
 
 
+/*
 void influenceTest(MLN mln, string target, int n) {
   clock_t t1 = clock();
   Influence influence(mln);
@@ -306,6 +310,26 @@ void influenceTest(MLN mln, string target, int n) {
   cout << endl;
   clock_t t2 = clock();
   cout << "influence compute time: " << ((double)(t2-t1))/CLOCKS_PER_SEC << " seconds" << endl;
+}
+*/
+
+
+void influenceTest(MLN& mln, string& query, string& infl, int round) {
+  Influence influence (mln);
+  influence.computePartialDerivatives(mln, infl);
+  // double pd = influence.getPartialDeriv(query, infl);
+  vector<vector<double>> pds = influence.getPartialDeriv();
+  vector<string> queries = influence.getQueries();
+  for (int i=0; i<queries.size(); i++) {
+    cout << queries[i] << ' ';
+  }
+  cout << endl;
+  for (int i=0; i<pds.size(); i++) {
+    for (int j=0; j<pds[i].size(); j++) {
+      cout << pds[i][j] << ' ';
+    }
+    cout << endl;
+  }
 }
 
 
@@ -488,12 +512,30 @@ int main(int argc, char* argv[]) {
     // for (Clique c : mmln.getCliques()) {
     //   c.printClique();
     // }
+
+    // we only need one clique
+  
+    vector<Clique> cliques = mmln.getCliques();
+    vector<Clique> ncliques;
+    ncliques.push_back(cliques[2]);
+    map<string, vector<int>> nCMap;
+    nCMap["smoke1"] = vector<int> ({0});
+    nCMap["smoke2"] = vector<int> ({0});
+    mmln.setCliques(ncliques);
+    mmln.setCMap(nCMap);
+    for (Clique c : mmln.getCliques()) {
+      c.printClique();
+    }
+    
+
     probabilityQuery(mmln, stoi(args["round"]), args["query_name"], "gibbs");
-    varianceTest(mmln, stoi(args["round"]), args["query_name"]);
+    // probabilityQuery(mmln, stoi(args["round"]), args["query_name"], "mtgibbs");
+    // varianceTest(mmln, stoi(args["round"]), args["query_name"]);
     // cout << mmln.getNumberOfCliques() << endl;
     // cout << mmln.toString() << endl;
-    Pruner pruner;
-    // MLN nmln = pruner.prune(mmln, args["query_name"], 0.001);
+    // Pruner pruner;
+    // MLN nmln = pruner.prune(mmln, args["query_name"], 0.01);
+    // saveToFile(nmln, "./data/mln/topic-Student-430.mln");
     // probabilityQuery(nmln, stoi(args["round"]), args["query_name"], "gibbs");
     // cout << nmln.getNumberOfCliques() << endl;
     // cout << nmln.toString() << endl;
@@ -513,14 +555,15 @@ int main(int argc, char* argv[]) {
   // save3DPlot(mln, "./data/record/test1.txt", args["query_name"], stoi(args["round"]), stod(args["delta"]));
 
   if (args.find("influence_name")!=args.end()) {
-    mmln = mln.getMinimalMLN(args["query_name"]);
-    if (args["influence_name"]=="all") {
-      influenceQueryAll(mmln, args["query_name"], stoi(args["round"]), stod(args["delta"]), "gibbs");
-    }
-    else {
-      influenceQuery(mmln, args["query_name"], args["influence_name"], stoi(args["round"]), stod(args["delta"]), "gibbs");
-      // influenceQuery(mln, args["query_name"], args["influence_name"], stoi(args["round"]), stod(args["delta"]), "mcsat");
-    }
+    // mmln = mln.getMinimalMLN(args["query_name"]);
+    influenceTest(mmln, args["query_name"], args["influence_name"], stoi(args["round"]));
+    // if (args["influence_name"]=="all") {
+    //   influenceQueryAll(mmln, args["query_name"], stoi(args["round"]), stod(args["delta"]), "gibbs");
+    // }
+    // else {
+    //   influenceQuery(mmln, args["query_name"], args["influence_name"], stoi(args["round"]), stod(args["delta"]), "gibbs");
+    //   // influenceQuery(mln, args["query_name"], args["influence_name"], stoi(args["round"]), stod(args["delta"]), "mcsat");
+    // }
   }
 
   if (args.find("target_name")!=args.end()) {

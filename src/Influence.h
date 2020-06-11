@@ -17,19 +17,22 @@ using namespace std;
 class Influence {
 public:
   Influence();
-  Influence(MLN mln);
+  Influence(MLN& mln);
 
-  void computeObsInfluence(string& target, vector<double>& probs);
-  void generateInfluenceMap();
-  vector<double> getProbs(string& query);
+  double getPartialDeriv(string& query, string& infl);
+  vector<string> getQueries();
+  vector<vector<double>> getPartialDeriv();
+
+  void computePartialDerivatives(MLN& mln, string& infl);
  
   ~Influence();
 
 private:
-  MLN mln;
-  unordered_map<string, vector<double>> pm;
-  unordered_map<string, unordered_set<string>> influMap;
+  vector<string> queries;
+  vector<vector<double>> partialDerivs;
+  unordered_map<string, int> l_index;
 
+  double getAccuPotential(string& numerator, string& denominator, map<string, double>& probs, vector<Clique>& cliques, map<string, vector<int>> c_map);
 };
 
 

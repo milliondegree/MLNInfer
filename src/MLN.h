@@ -14,6 +14,7 @@
 #include <fstream>
 #include <string>
 #include <queue>
+#include <thread>
 #include <map>
 #include <unordered_map>
 #include <unordered_set>
@@ -55,6 +56,7 @@ public:
   int numberCliques(string literal);
   vector<Clique> getCliques();
   vector<Clique> getCliques(string literal);
+  map<string, vector<int>> getCMap();
   map<string, double> getProb();
   unordered_set<string> getObsLiterals();
   unordered_set<string> getQueryLiterals();
@@ -66,6 +68,11 @@ public:
   void gibbsSampling_v2(int round);
   void gibbsSampling_v3(int round);
   void gibbsSampling_v4(int round, string query);
+  // void multithread_gibbsSampling(int round, string query);
+  // static void singlethread_gibbsSampling(int r, int round, int qi, MLN& mln,
+  //                                 vector<string>& v_query, vector<unordered_map<string, double>>& truth_tables,
+  //                                 unordered_map<string, vector<double>>& potentials_0s, unordered_map<string, vector<double>>& potentials_1s,
+  //                                 unordered_map<string, int>& samples, unordered_map<string, int>& assignments);
   double queryProb(string query);
 
   void mcsat(int round, string query);
