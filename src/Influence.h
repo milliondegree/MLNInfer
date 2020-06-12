@@ -23,12 +23,15 @@ public:
   vector<string> getQueries();
   vector<vector<double>> getPartialDeriv();
 
+  double influenceQuery(MLN& mln, string& query, string& infl);
   void computePartialDerivatives(MLN& mln, string& infl);
+  void solveEquations();
  
   ~Influence();
 
 private:
   vector<string> queries;
+  vector<double> influences;
   vector<vector<double>> partialDerivs;
   unordered_map<string, int> l_index;
 

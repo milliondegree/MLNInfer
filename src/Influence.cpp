@@ -16,6 +16,17 @@ Influence::Influence(MLN& mln) {
 }
 
 
+double Influence::influenceQuery(MLN& mln, string& query, string& infl) {
+  unordered_set<string> queries = mln.getQueryLiterals();
+  unordered_set<string> obs = mln.getObsLiterals();
+  assert(queries.find(query)!=queries.end()&&obs.find(infl)!=obs.end());
+  computePartialDerivatives(mln, infl);
+  solveEquations();
+  int q_i = this->l_index[query];
+  return this->influences[q_i];
+}
+
+
 void Influence::computePartialDerivatives(MLN& mln, string& infl) {
   map<string, double> probs = mln.getProb();
   vector<Clique> cliques = mln.getCliques();
@@ -100,6 +111,45 @@ double Influence::getAccuPotential(string& numerator, string& denominator, map<s
     }
   }
   return accu;
+}
+
+
+void Influence::solveEquations() {
+  int n = this->partialDerivs.size();
+  int m = this->partialDerivs[0].size();
+  vector<vector<double>> equations (this->partialDerivs);
+  vector<double> solutions (n);
+  for (int i=0; i<n; i++) {
+    double base = equations[i][i];
+    assert(abs(base)>1e-10);
+    for (int j=i; j<m; j++) {
+      equations[i][j] /= base;
+    }
+    for (int k=i+1; k<n; k++) {
+      for (int j=i+1; j<m; j++) {
+        equations[k][j] -= equations[k][i]*equations[i][j];
+      }
+      equations[k][i] = 0.0;
+    }
+  }
+  for (int i=n-1; i>=0; i--) {
+    double value = 0.0;
+    for (int k=i+1; k<n; k++) {
+      value += equations[i][k]*solutions[k];
+    }
+    value += equations[i][m-1];
+    solutions[i] = -value;
+  }
+  this->influences = solutions;
+  // for (int i=0; i<n; i++) {
+  //   cout << solutions[i] << endl;
+  // }
+  // for (int i=0; i<n; i++) {
+  //   for (int j=0; j<m; j++) {
+  //     cout << equations[i][j] << ' ';
+  //   }
+  //   cout << endl;
+  // }
 }
 
 

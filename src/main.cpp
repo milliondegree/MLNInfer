@@ -316,20 +316,24 @@ void influenceTest(MLN mln, string target, int n) {
 
 void influenceTest(MLN& mln, string& query, string& infl, int round) {
   Influence influence (mln);
-  influence.computePartialDerivatives(mln, infl);
+  double infValue = influence.influenceQuery(mln, query, infl);
+  cout << "influence of " << infl << " on " << query << " is " << infValue << endl;
+  // influence.computePartialDerivatives(mln, infl);
   // double pd = influence.getPartialDeriv(query, infl);
-  vector<vector<double>> pds = influence.getPartialDeriv();
-  vector<string> queries = influence.getQueries();
-  for (int i=0; i<queries.size(); i++) {
-    cout << queries[i] << ' ';
-  }
-  cout << endl;
-  for (int i=0; i<pds.size(); i++) {
-    for (int j=0; j<pds[i].size(); j++) {
-      cout << pds[i][j] << ' ';
-    }
-    cout << endl;
-  }
+  // vector<vector<double>> pds = influence.getPartialDeriv();
+  // vector<string> queries = influence.getQueries();
+  // cout << endl;
+  // for (int i=0; i<queries.size(); i++) {
+  //   cout << queries[i] << ' ';
+  // }
+  // cout << endl;
+  // for (int i=0; i<pds.size(); i++) {
+  //   for (int j=0; j<pds[i].size(); j++) {
+  //     cout << pds[i][j] << ' ';
+  //   }
+  //   cout << endl;
+  // }
+  // cout << endl;
 }
 
 
@@ -366,14 +370,23 @@ void influenceQuery_mcsat(MLN& mln, string query, int round, double delta) {
 
 
 void influenceQuery(MLN& mln, string query, string infl, int round, double delta, string mode) {
-  Grader grader;
-  clock_t t1 = clock();
-  grader.computeGradient(mln, query, infl, round, delta, mode);
-  // grader.computeGradients(mln, query, round);
-  clock_t t2 = clock();
+  clock_t t1, t2;
+  double infValue;
+  if (mode=="equations") {
+    t1 = clock();
+    Influence influence (mln);
+    infValue = influence.influenceQuery(mln, query, infl);
+    t2 = clock();
+  }
+  else {
+    t1 = clock();
+    Grader grader;
+    grader.computeGradient(mln, query, infl, round, delta, mode);
+    infValue = mln.getInfluence(query)[infl];
+    t2 = clock();
+  }
   cout << "influence compute time (" << mode << "): " << ((double)(t2-t1))/CLOCKS_PER_SEC << " seconds" << endl;
-  double influs = mln.getInfluence(query)[infl];
-  cout << "influence of " << infl << " to " << query << " is " << influs << endl;
+  cout << "influence of " << infl << " on " << query << " is " << infValue << endl;
   cout << endl;
 }
 
@@ -381,10 +394,19 @@ void influenceQuery(MLN& mln, string query, string infl, int round, double delta
 void influenceQueryAll(MLN& mln, string query, int round, double delta, string mode) {
   Grader grader;
   unordered_set<string> observedTuples = grader.getValidObservedTuples(mln, query);
-  for (string observed : observedTuples) {
-    grader.computeGradient(mln, query, observed, round, delta, mode);
-    double influs = mln.getInfluence(query)[observed];
-    cout << "influence of " << observed << " to " << query << " is " << influs << endl;
+  if (mode=="equations") {
+    Influence influence (mln);
+    for (string observed : observedTuples) {
+      double infValue = influence.influenceQuery(mln, query, observed);
+      cout << "influence of " << observed << " to " << query << " is " << infValue << endl;
+    }
+  }
+  else {
+    for (string observed : observedTuples) {
+      grader.computeGradient(mln, query, observed, round, delta, mode);
+      double influs = mln.getInfluence(query)[observed];
+      cout << "influence of " << observed << " to " << query << " is " << influs << endl;
+    }
   }
 }
 
@@ -513,22 +535,21 @@ int main(int argc, char* argv[]) {
     //   c.printClique();
     // }
 
-    // we only need one clique
-  
-    vector<Clique> cliques = mmln.getCliques();
-    vector<Clique> ncliques;
-    ncliques.push_back(cliques[2]);
-    map<string, vector<int>> nCMap;
-    nCMap["smoke1"] = vector<int> ({0});
-    nCMap["smoke2"] = vector<int> ({0});
-    mmln.setCliques(ncliques);
-    mmln.setCMap(nCMap);
-    for (Clique c : mmln.getCliques()) {
-      c.printClique();
-    }
+    // vector<Clique> cliques = mmln.getCliques();
+    // vector<Clique> ncliques;
+    // ncliques.push_back(cliques[2]);
+    // map<string, vector<int>> nCMap;
+    // nCMap["smoke1"] = vector<int> ({0});
+    // nCMap["smoke2"] = vector<int> ({0});
+    // mmln.setCliques(ncliques);
+    // mmln.setCMap(nCMap);
+    // for (Clique c : mmln.getCliques()) {
+    //   c.printClique();
+    // }
     
 
     probabilityQuery(mmln, stoi(args["round"]), args["query_name"], "gibbs");
+
     // probabilityQuery(mmln, stoi(args["round"]), args["query_name"], "mtgibbs");
     // varianceTest(mmln, stoi(args["round"]), args["query_name"]);
     // cout << mmln.getNumberOfCliques() << endl;
@@ -556,14 +577,15 @@ int main(int argc, char* argv[]) {
 
   if (args.find("influence_name")!=args.end()) {
     // mmln = mln.getMinimalMLN(args["query_name"]);
-    influenceTest(mmln, args["query_name"], args["influence_name"], stoi(args["round"]));
-    // if (args["influence_name"]=="all") {
-    //   influenceQueryAll(mmln, args["query_name"], stoi(args["round"]), stod(args["delta"]), "gibbs");
-    // }
-    // else {
-    //   influenceQuery(mmln, args["query_name"], args["influence_name"], stoi(args["round"]), stod(args["delta"]), "gibbs");
-    //   // influenceQuery(mln, args["query_name"], args["influence_name"], stoi(args["round"]), stod(args["delta"]), "mcsat");
-    // }
+    // influenceTest(mmln, args["query_name"], args["influence_name"], stoi(args["round"]));
+    if (args["influence_name"]=="all") {
+      influenceQueryAll(mmln, args["query_name"], stoi(args["round"]), stod(args["delta"]), "gibbs");
+    }
+    else {
+      influenceQuery(mmln, args["query_name"], args["influence_name"], stoi(args["round"]), stod(args["delta"]), "equations");
+      influenceQuery(mmln, args["query_name"], args["influence_name"], stoi(args["round"]), stod(args["delta"]), "gibbs");
+      // influenceQuery(mln, args["query_name"], args["influence_name"], stoi(args["round"]), stod(args["delta"]), "mcsat");
+    }
   }
 
   if (args.find("target_name")!=args.end()) {
