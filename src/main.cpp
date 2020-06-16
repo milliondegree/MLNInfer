@@ -172,6 +172,9 @@ void probabilityQuery(MLN& mln, int round, string query_name, string mode) {
   if (mode=="gibbs") {
     mln.gibbsSampling_v4(round, query_name);
   }
+  else if (mode=="pgibbs") {
+    mln.gibbsSampling_vp(round, query_name, 0.0000001);
+  }
   else if (mode=="mcsat"){
     mln.mcsat(round, query_name);
   }
@@ -186,6 +189,16 @@ void probabilityQuery(MLN& mln, int round, string query_name, string mode) {
   double prob = mln.queryProb(query_name);
   cout << "probability of " << query_name << " is " << prob << endl;
   cout << endl;
+}
+
+
+void verifyProb(MLN& mln) {
+  unordered_set<string> queries = mln.getQueryLiterals();
+  map<string, double> probs = mln.getProb();
+  for (string query : queries) {
+    double p = mln.estimatedProb(query);
+    cout << query << ": " << abs(p-probs[query]) << endl;
+  }
 }
 
 
@@ -385,7 +398,7 @@ void influenceQuery(MLN& mln, string query, string infl, int round, double delta
     infValue = mln.getInfluence(query)[infl];
     t2 = clock();
   }
-  cout << "influence compute time (" << mode << "): " << ((double)(t2-t1))/CLOCKS_PER_SEC << " seconds" << endl;
+  cout << "mode " << mode << ": influence compute time (" << mode << "): " << ((double)(t2-t1))/CLOCKS_PER_SEC << " seconds" << endl;
   cout << "influence of " << infl << " on " << query << " is " << infValue << endl;
   cout << endl;
 }
@@ -394,20 +407,25 @@ void influenceQuery(MLN& mln, string query, string infl, int round, double delta
 void influenceQueryAll(MLN& mln, string query, int round, double delta, string mode) {
   Grader grader;
   unordered_set<string> observedTuples = grader.getValidObservedTuples(mln, query);
+  clock_t t1 = clock();
+  cout << "mode " << mode << endl;
   if (mode=="equations") {
     Influence influence (mln);
     for (string observed : observedTuples) {
       double infValue = influence.influenceQuery(mln, query, observed);
-      cout << "influence of " << observed << " to " << query << " is " << infValue << endl;
+      cout << "influence of " << observed << " on " << query << " is " << infValue << endl;
     }
   }
   else {
     for (string observed : observedTuples) {
       grader.computeGradient(mln, query, observed, round, delta, mode);
       double influs = mln.getInfluence(query)[observed];
-      cout << "influence of " << observed << " to " << query << " is " << influs << endl;
+      cout << "influence of " << observed << " on " << query << " is " << influs << endl;
     }
   }
+  clock_t t2 = clock();
+  cout << "influence compute time (" << mode << "): " << ((double)(t2-t1))/CLOCKS_PER_SEC << " seconds" << endl;
+  cout << endl;
 }
 
 
@@ -548,7 +566,9 @@ int main(int argc, char* argv[]) {
     // }
     
 
-    probabilityQuery(mmln, stoi(args["round"]), args["query_name"], "gibbs");
+    // probabilityQuery(mmln, stoi(args["round"]), args["query_name"], "gibbs");
+    probabilityQuery(mmln, stoi(args["round"]), args["query_name"], "pgibbs");
+    // verifyProb(mmln);
 
     // probabilityQuery(mmln, stoi(args["round"]), args["query_name"], "mtgibbs");
     // varianceTest(mmln, stoi(args["round"]), args["query_name"]);
@@ -579,11 +599,12 @@ int main(int argc, char* argv[]) {
     // mmln = mln.getMinimalMLN(args["query_name"]);
     // influenceTest(mmln, args["query_name"], args["influence_name"], stoi(args["round"]));
     if (args["influence_name"]=="all") {
-      influenceQueryAll(mmln, args["query_name"], stoi(args["round"]), stod(args["delta"]), "gibbs");
+      influenceQueryAll(mmln, args["query_name"], stoi(args["round"]), stod(args["delta"]), "equations");
+      influenceQueryAll(mmln, args["query_name"], stoi(args["round"]), stod(args["delta"]), "pgibbs");
     }
     else {
       influenceQuery(mmln, args["query_name"], args["influence_name"], stoi(args["round"]), stod(args["delta"]), "equations");
-      influenceQuery(mmln, args["query_name"], args["influence_name"], stoi(args["round"]), stod(args["delta"]), "gibbs");
+      influenceQuery(mmln, args["query_name"], args["influence_name"], stoi(args["round"]), stod(args["delta"]), "pgibbs");
       // influenceQuery(mln, args["query_name"], args["influence_name"], stoi(args["round"]), stod(args["delta"]), "mcsat");
     }
   }

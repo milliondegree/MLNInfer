@@ -678,6 +678,135 @@ void MLN::gibbsSampling_v4(int round, string query) {
 
 
 
+void MLN::gibbsSampling_vp(int round, string query, double delta) {
+  unordered_set<string> valid_unknown;
+  valid_unknown = this->queries;
+
+  random_device rd;
+  mt19937 generator(rd());
+  uniform_real_distribution<double> distribution(0.0, 1.0);
+
+  // initialize randomly
+  map<string, double> assignments;
+  for (string query : valid_unknown) {
+    assignments[query] = 0.5;
+  }
+  map<string, double> temp (assignments);
+
+  unordered_set<int> c_idx;
+  for (auto& query_name : valid_unknown) {
+    for (int id : this->c_map[query_name]) {
+      c_idx.insert(id);
+    }
+  }
+
+  vector<unordered_map<string, double>> truth_tables;
+  for (int c_i=0; c_i<this->cliques.size(); c_i++) {
+    Clique c = this->cliques[c_i];
+    unordered_map<string, double> m;
+    vector<string> literals = c.getLiterals();
+    for (string literal : literals) {
+      if (this->obs.find(literal)==this->obs.end()) {
+        m[literal] = assignments[literal];
+      }
+      else {
+        m[literal] = this->prob[literal];
+      }
+    }
+    truth_tables.push_back(m);
+  }
+
+  unordered_map<string, vector<double>> potentials_0s;
+  unordered_map<string, vector<double>> potentials_1s;
+  for (string query : valid_unknown) {
+    potentials_0s[query] = vector<double> (this->c_map[query].size(), 0.0);
+    potentials_1s[query] = vector<double> (this->c_map[query].size(), 0.0);
+  }
+
+  vector<string> v_query;
+  for (string query : valid_unknown) {
+    v_query.push_back(query);
+  }
+  vector<int> q_indices (v_query.size());
+  for (int i=0; i<v_query.size(); i++) {
+    q_indices[i] = i;
+  }
+
+  auto rng = std::default_random_engine {};
+
+  vector<bool> converges (v_query.size(), false);
+  for (int r=0; r<round; r++) {
+    shuffle(q_indices.begin(), q_indices.end(), rng);
+    for (int qi : q_indices) {
+      string query = v_query[qi];
+      for (int i=0; i<this->c_map[query].size(); i++) {
+        int ind = this->c_map[query][i];
+        Clique c = this->cliques[ind];
+        vector<string> literals = c.getLiterals();
+        for (string literal : literals) {
+          if (this->obs.find(literal)==this->obs.end()) {
+            truth_tables[ind][literal] = assignments[literal];
+          }
+        }
+        truth_tables[ind][query] = 1.0;
+        potentials_1s[query][i] = c.getPotential(truth_tables[ind]);
+        truth_tables[ind][query] = 0.0;
+        potentials_0s[query][i] = c.getPotential(truth_tables[ind]);
+      }
+      double sum_1 = 0;
+      for (double p : potentials_1s[query]) {
+        sum_1 += p;
+      }
+      double sum_0 = 0;
+      for (double p : potentials_0s[query]) {
+        sum_0 += p;
+      }
+      // cout << sum_1 << ' ' << sum_0 << endl;
+      double exp_1 = exp(sum_1);
+      double exp_0 = exp(sum_0);
+      double p = exp_1 / (exp_1+exp_0);
+      temp[query] = p;
+      converges[qi] = abs(temp[query]-assignments[query])<delta;
+    }
+    bool converge = true;
+    for (int qi : q_indices) {
+      string query = v_query[qi];
+      assignments[query] = temp[query];
+      converge &= converges[qi];
+    }
+    if (converge) {
+      // cout << "converge at iteration: " << r << endl;
+      break;
+    }
+  }
+
+  for (string query : valid_unknown) {
+    this->prob[query] = assignments[query];
+  }
+}
+
+
+
+double MLN::estimatedProb(string query) {
+  assert(this->queries.find(query)!=this->queries.end());
+  for (string literal : this->queries) {
+    assert(this->prob.find(literal)!=this->prob.end());
+  }
+  map<string, double> truth_table (this->prob);
+  double potential_1 = 0.0, potential_0 = 0.0;
+  for (int c_i : this->c_map[query]) {
+    Clique c = this->cliques[c_i];
+    truth_table[query] = 1;
+    potential_1 += c.getPotential(truth_table);
+    truth_table[query] = 0;
+    potential_0 += c.getPotential(truth_table);
+  }
+  double p = exp(potential_1) / (exp(potential_1)+exp(potential_0));
+  return p;
+}
+
+
+
 // void MLN::multithread_gibbsSampling(int round, string query) {
 //   unordered_set<string> valid_unknown;
 //   valid_unknown = this->queries;

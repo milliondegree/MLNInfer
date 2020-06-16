@@ -68,6 +68,8 @@ public:
   void gibbsSampling_v2(int round);
   void gibbsSampling_v3(int round);
   void gibbsSampling_v4(int round, string query);
+  void gibbsSampling_vp(int round, string query, double delta);
+  double estimatedProb(string query);
   // void multithread_gibbsSampling(int round, string query);
   // static void singlethread_gibbsSampling(int r, int round, int qi, MLN& mln,
   //                                 vector<string>& v_query, vector<unordered_map<string, double>>& truth_tables,
