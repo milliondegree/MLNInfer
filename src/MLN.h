@@ -123,7 +123,7 @@ public:
 
   void parseProvenance(MLN& mln);
   void extendCliques(MLN& mln);
-  void extendR1Cliques(MLN& mln);
+  // void extendR1Cliques(MLN& mln);
 
   ~Parser();
 
@@ -142,7 +142,7 @@ class Grader {
 public:
   Grader();
 
-  void computeGradients(MLN& mln, string query, int round);
+  // void computeGradients(MLN& mln, string query, int round);
   void computeGradients_v2(MLN& mln, string query, int round, double delta);
   void computeGradients_mcsat(MLN& mln, string query, int round, double delta);
   void computeGradient(MLN& mln, string query, string infl, int round, double delta, string mode);
@@ -152,7 +152,7 @@ public:
 
 private:
   string target;
-  void dfsBuild(MLN& mln, vector<bool>& visited, string& query, double grad);
+  // void dfsBuild(MLN& mln, vector<bool>& visited, string& query, double grad);
   void dfsSearch(MLN& mln, unordered_set<string>& valid_obs, vector<bool>& visited, string& query);
 };
 

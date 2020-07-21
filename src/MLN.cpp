@@ -286,6 +286,9 @@ MLN MLN::getMinimalMLN(string& query) {
   for (int i=0; i<this->cliques.size(); i++) {
     if (visited[i]) {
       mcliques.push_back(this->cliques[i]);
+      if (!this->cliques[i].isSingular()) {
+        mobs.insert(this->cliques[i].getRuleName());
+      }
       for (string literal : this->cliques[i].getLiterals()) {
         if (mc_map.find(literal)==mc_map.end()) {
           mc_map[literal] = vector<int> ();
@@ -743,15 +746,19 @@ void MLN::gibbsSampling_vp(int round, string query, double delta) {
         int ind = this->c_map[query][i];
         Clique c = this->cliques[ind];
         vector<string> literals = c.getLiterals();
+        string rule_name = c.getRuleName();
         for (string literal : literals) {
           if (this->obs.find(literal)==this->obs.end()) {
             truth_tables[ind][literal] = assignments[literal];
           }
         }
         truth_tables[ind][query] = 1.0;
-        potentials_1s[query][i] = c.getPotential(truth_tables[ind]);
+        potentials_1s[query][i] = this->prob[rule_name]*c.satisifiablity(truth_tables[ind]);
+        // cout << potentials_1s[query][i] << ' ';
+        // cout << c.getPotential(truth_tables[ind]) << ' ';
+        // cout << c.toString() << ' ' << rule_name << endl;
         truth_tables[ind][query] = 0.0;
-        potentials_0s[query][i] = c.getPotential(truth_tables[ind]);
+        potentials_0s[query][i] = this->prob[rule_name]*c.satisifiablity(truth_tables[ind]);
       }
       double sum_1 = 0;
       for (double p : potentials_1s[query]) {
@@ -767,7 +774,12 @@ void MLN::gibbsSampling_vp(int round, string query, double delta) {
       double p = exp_1 / (exp_1+exp_0);
       temp[query] = p;
       converges[qi] = abs(temp[query]-assignments[query])<delta;
+      // if (!converges[qi]) {
+      //   cout << query << ": " << abs(temp[query]-assignments[query]) << endl;
+      //   cout << query << ": " << assignments[query] << ' ' << temp[query] << endl;
+      // }
     }
+    // cout << endl << "round " << r << " finished " << endl << endl;
     bool converge = true;
     for (int qi : q_indices) {
       string query = v_query[qi];

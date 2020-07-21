@@ -108,6 +108,23 @@ double Influence::getAccuPotential(string& numerator, string& denominator, map<s
         }
         accu += potential;
       }
+      else if (c.isRuleHead(numerator)&&c.isRuleName(denominator)) {
+        double potential = 1.0;
+        for (string literal : c.getRuleBody()) {
+          potential *= probs[literal];
+        }
+        accu += potential;
+      }
+      else if (c.isRuleBody(numerator)&&c.isRuleName(denominator)) {
+        double potential = -1.0;
+        potential *= (1-probs[c.getRuleHead()]);
+        for (string literal : c.getRuleBody()) {
+          if (numerator!=literal) {
+            potential *= probs[literal];
+          }
+        }
+        accu += potential;
+      }
     }
   }
   return accu;

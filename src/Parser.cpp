@@ -37,8 +37,9 @@ void Parser::parseRuleHead(MLN& mln, string& prov, int& i) {
 
   // deal with cliques only contain one literal (single clique)
   string predName = extractName(rule_head);
+  // cout << predName << endl;
   assert(mln.prob.find(predName)!=mln.prob.end());
-  Clique s_c = Clique(rule_head, mln.prob[predName]);
+  Clique s_c = Clique(predName, rule_head, mln.prob[predName]);
   if (!findIn(mln, s_c)) {
     mln.cliques.push_back(s_c);
     mln.c_map[rule_head].push_back(mln.cliques.size()-1);
@@ -106,6 +107,8 @@ vector<string> Parser::parseRule(MLN& mln, string& prov, int& i) {
     i++;
   }
   string rule_name = prov.substr(start, i-start);
+  assert(mln.prob.find(rule_name)!=mln.prob.end());
+  mln.obs.insert(rule_name);
   while (prov[i]!='(') {
     i++;
   }
@@ -140,8 +143,9 @@ vector<string> Parser::parseRuleBody(MLN& mln, string& prov, int& i) {
     }
     else {
       string predName = extractName(body);
+      // cout << predName << endl;
       assert(mln.prob.find(predName)!=mln.prob.end());
-      Clique s_c = Clique(body, mln.prob[predName]);
+      Clique s_c = Clique(predName, body, mln.prob[predName]);
       if (mln.c_map.find(body)==mln.c_map.end()) {
         mln.c_map[body] = vector<int> ();
       }
@@ -161,7 +165,12 @@ vector<string> Parser::parseRuleBody(MLN& mln, string& prov, int& i) {
 
 string Parser::extractName(string& s) {
   int i = 0;
+  /*
   while (!((s[i]>='0' && s[i]<='9')||(s[i]=='_'))) {
+    i++;
+  }
+  */
+  while (s[i]!='_') {
     i++;
   }
   return s.substr(0, i);
@@ -207,27 +216,27 @@ void Parser::extendCliques(MLN& mln) {
 }
 
 
-void Parser::extendR1Cliques(MLN& mln) {
-  for (auto query : mln.queries) {
-    if (extractName(query)=="smoke") {
-      int i=0;
-      while (!(query[i]>='0' && query[i]<='9')) {
-        i++;
-      }
-      string name = query.substr(i, query.size()-i);
-      string cancer = "cancer"+name;
-      mln.queries.insert(cancer);
-      Clique s_c(cancer, mln.prob["cancer"]);
-      if (!findIn(mln, s_c)) {
-        mln.cliques.push_back(s_c);
-        mln.c_map[cancer].push_back(mln.cliques.size());
-      }
-      Clique c("r1", mln.prob["r1"], cancer, vector<string>({query}));
-      if (!findIn(mln, c)) {
-        mln.cliques.push_back(c);
-        mln.c_map[query].push_back(mln.cliques.size());
-        mln.c_map[cancer].push_back(mln.cliques.size());
-      }
-    }
-  }
-}
+// void Parser::extendR1Cliques(MLN& mln) {
+//   for (auto query : mln.queries) {
+//     if (extractName(query)=="smoke") {
+//       int i=0;
+//       while (!(query[i]>='0' && query[i]<='9')) {
+//         i++;
+//       }
+//       string name = query.substr(i, query.size()-i);
+//       string cancer = "cancer"+name;
+//       mln.queries.insert(cancer);
+//       Clique s_c(cancer, mln.prob["cancer"]);
+//       if (!findIn(mln, s_c)) {
+//         mln.cliques.push_back(s_c);
+//         mln.c_map[cancer].push_back(mln.cliques.size());
+//       }
+//       Clique c("r1", mln.prob["r1"], cancer, vector<string>({query}));
+//       if (!findIn(mln, c)) {
+//         mln.cliques.push_back(c);
+//         mln.c_map[query].push_back(mln.cliques.size());
+//         mln.c_map[cancer].push_back(mln.cliques.size());
+//       }
+//     }
+//   }
+// }

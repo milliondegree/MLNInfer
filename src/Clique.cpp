@@ -5,10 +5,19 @@ Clique::Clique() {
 }
 
 
-Clique::Clique(string rule, double weight) {
-  this->rule_name = rule;
+// Clique::Clique(string rule, double weight) {
+//   this->rule_name = rule;
+//   this->rule_weight = weight;
+//   this->literals.push_back(rule);
+//   buildLiterals();
+// }
+
+
+Clique::Clique(string rule_name, string rule_head, double weight) {
+  this->rule_name = rule_name;
+  this->rule_head = rule_head;
   this->rule_weight = weight;
-  this->literals.push_back(rule);
+  this->literals.push_back(rule_head);
   buildLiterals();
 }
 
@@ -33,7 +42,7 @@ bool Clique:: operator == (Clique& c) {
 
 double Clique::getPotential(map<string, int>& truth) {
   if (this->literals.size()==1) {
-    return this->rule_weight * truth[this->rule_name];
+    return this->rule_weight * truth[this->rule_head];
   }
   assert(truth.find(this->rule_head)!=truth.end());
   int rule_head_value = truth[this->rule_head];
@@ -51,7 +60,7 @@ double Clique::getPotential(map<string, int>& truth) {
 
 double Clique::getPotential(map<string, double>& truth) {
   if (this->literals.size()==1) {
-    return this->rule_weight * truth[this->rule_name];
+    return this->rule_weight * truth[this->rule_head];
   }
   assert(truth.find(this->rule_head)!=truth.end());
   for (string rule_b : this->rule_body) {
@@ -69,7 +78,7 @@ double Clique::getPotential(map<string, double>& truth) {
 
 double Clique::getPotential(unordered_map<string, double>& truth) {
   if (this->literals.size()==1) {
-    return this->rule_weight * truth[this->rule_name];
+    return this->rule_weight * truth[this->rule_head];
   }
   double p_head = 1 - truth[this->rule_head];
   if (abs(p_head)<1e-10) {
@@ -87,30 +96,30 @@ double Clique::getPotential(unordered_map<string, double>& truth) {
 }
 
 
-double Clique::getPartialDerivative(map<string, double>& truth, string p_f, string p_v) {
-  assert(p_f!=p_v);
-  double res;
-  if (p_f==this->rule_head || p_v==this->rule_head) {
-    double k = this->rule_weight;
-    for (string body : this->rule_body) {
-      if (body!=p_v) {
-        k *= truth[body];
-      }
-    }
-    res = k * truth[p_f] * (1-truth[p_f]);
-  }
-  else {
-    // when f and v are all rule body
-    double k = this->rule_weight * (1-truth[this->rule_head]);
-    for (string body : this->rule_body) {
-      if (body!=p_f && body!=p_v) {
-        k *= truth[body];
-      }
-    }
-    res = k * truth[p_f] * (1-truth[p_f]);
-  }
-  return res;
-}
+// double Clique::getPartialDerivative(map<string, double>& truth, string p_f, string p_v) {
+//   assert(p_f!=p_v);
+//   double res;
+//   if (p_f==this->rule_head || p_v==this->rule_head) {
+//     double k = this->rule_weight;
+//     for (string body : this->rule_body) {
+//       if (body!=p_v) {
+//         k *= truth[body];
+//       }
+//     }
+//     res = k * truth[p_f] * (1-truth[p_f]);
+//   }
+//   else {
+//     // when f and v are all rule body
+//     double k = this->rule_weight * (1-truth[this->rule_head]);
+//     for (string body : this->rule_body) {
+//       if (body!=p_f && body!=p_v) {
+//         k *= truth[body];
+//       }
+//     }
+//     res = k * truth[p_f] * (1-truth[p_f]);
+//   }
+//   return res;
+// }
 
 
 
@@ -159,7 +168,7 @@ double Clique::satisifiablity(unordered_map<string, double>& truth) {
 string Clique::toString() {
   string res = "";
   if (this->literals.size()==1) {
-    res = res + rule_name;
+    res = res + rule_name + " " + to_string(rule_weight) + " " + rule_head;
   }
   else {
     res += rule_name + " " + rule_head + " :- ";
@@ -176,7 +185,7 @@ string Clique::toString() {
 
 void Clique::printClique() {
   if (this->literals.size()==1) {
-    cout << this->rule_name << ' ' << this->rule_weight << endl;
+    cout << this->rule_name << ' ' << this->rule_weight << ' ' << this->rule_head << endl;
     return;
   }
   cout << this->rule_name << ' ' << this->rule_weight << ' ' << this->rule_head << " :- ";
@@ -266,6 +275,12 @@ bool Clique::isRuleBody(string& literal) {
     }
   }
   return false;
+}
+
+
+bool Clique::isRuleName(string& literal) {
+  assert(!this->isSingular());
+  return literal==this->rule_name;
 }
 
 
