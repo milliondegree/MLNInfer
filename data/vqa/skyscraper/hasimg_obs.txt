@@ -1,0 +1,4 @@
+tall	white	building	1
+sky	is	blue	0.6
+sky	is	clear	0.6
+buildings	in	background	0.33

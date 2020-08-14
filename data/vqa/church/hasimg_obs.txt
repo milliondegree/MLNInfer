@@ -1,0 +1,5 @@
+horse	color	brown	1
+horse	in	field	0.88
+cloud	in	sky	0.85
+building	with	roof	0.5
+cross	on	building	1

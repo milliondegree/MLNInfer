@@ -1,0 +1,5 @@
+building	is	large	1
+building	with	windows	0.87
+grass	on	field	0.37
+building	with	roof	0.29
+people	on	field	0.25

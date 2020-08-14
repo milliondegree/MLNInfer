@@ -1,0 +1,4 @@
+house	0.25
+horse	0.25
+barn	0.25
+hotel	0.25

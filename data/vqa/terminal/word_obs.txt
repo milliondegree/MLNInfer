@@ -1,0 +1,4 @@
+stadium	0.25
+terminal	0.25
+castle	0.25
+hotel	0.25

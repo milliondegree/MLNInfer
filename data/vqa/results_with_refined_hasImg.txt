@@ -1,0 +1,175 @@
+1 station.png
+
+a train station
+train in station
+blue white sign
+
+train on tracks 1
+train in station 0.95
+blue color sign 0.6
+sign on pole 0.05
+
+most possible answer: station
+
+most influential tuples:
+influence of sim_station_train on ans_station is 0.0681984
+influence of simRep1_is_on on ans_station is 0.0627075
+influence of simRep1_is_in on ans_station is 0.0543966
+influence of simRep2_building_tracks on ans_station is 0.0515389
+influence of simRep2_background_station on ans_station is 0.0458481
+influence of simRep2_building_station on ans_station is 0.0297359
+influence of simRep1_building_on on ans_station is 0.0192289
+influence of simRep2_background_tracks on ans_station is 0.0153951
+influence of simRep1_building_in on ans_station is 0.0140774
+influence of hasQ_building_is_WHAT on ans_station is 0.0138364
+influence of word_station on ans_station is 0.0133369
+influence of hasImg_train_on_tracks on ans_station is 0.00957955
+influence of hasImg_train_in_station on ans_station is 0.00703075
+influence of hasImg_sign_on_pole on ans_station is 0.00624417
+influence of sim_station_sign on ans_station is 0.00416723
+influence of hasQ_background_building_WHAT on ans_station is 0.00273468
+
+
+
+
+
+2 factory.png
+
+// large	city	scene	1
+// a	tall	tower	0.5
+// blue	white	sign	0.4
+
+large is city 1
+tall is tower 0.5
+blue in sign 0.4
+white in sign 0.4
+
+most probable answer: factory
+
+most influential tuples:
+influence of sim_factory_large on ans_factory is 0.0813109
+influence of simRep2_building_city on ans_factory is 0.0420644
+influence of sim_factory_tall on ans_factory is 0.0331179
+influence of simRep1_is_is on ans_factory is 0.0164604
+influence of simRep2_building_tower on ans_factory is 0.0134748
+influence of hasImg_large_is_city on ans_factory is 0.0130579
+influence of word_factory on ans_factory is 0.010082
+influence of simRep1_building_is on ans_factory is 0.00906063
+influence of hasImg_tall_is_tower on ans_factory is 0.00680321
+influence of simRep1_is_in on ans_factory is 0.00465354
+influence of sim_factory_white on ans_factory is 0.00437715
+influence of sim_factory_blue on ans_factory is 0.00437651
+influence of simRep2_background_sign on ans_factory is 0.00398812
+influence of r6 on ans_factory is 0.0034475
+influence of simRep1_building_in on ans_factory is 0.00289164
+influence of r2 on ans_factory is 0.00201747
+influence of hasImg_white_in_sign on ans_factory is 0.00159229
+influence of simRep2_building_sign on ans_factory is 0.00143606
+influence of simRep1_building_sign on ans_factory is 0.000570009
+influence of hasImg_blue_in_sign on ans_factory is 0.000407427
+
+
+
+
+
+
+
+3 hotel.png
+
+// building	is	large	1
+// building	many	windows	1
+// house	with	roof	0.54
+// building	is	tall	0.4
+// palm	before	building	0.33
+
+large is building 1
+windows on building 1
+roof with house 0.54
+tall is building 0.4
+palm before building 0.33
+
+most possible answer: house
+
+most influential tuples of house:
+influence of sim_house_large on ans_house is 1.06605
+influence of sim_house_tall on ans_house is 0.42629
+influence of word_house on ans_house is 0.252337
+influence of hasQ_building_is_WHAT on ans_house is 0.173282
+influence of hasImg_tall_is_building on ans_house is 0.172225
+influence of simRep2_building_building on ans_house is 0.141373
+influence of simRep1_is_is on ans_house is 0.127109
+influence of hasImg_large_is_building on ans_house is 0.0835689
+influence of simRep1_is_before on ans_house is 0.0685073
+influence of simRep1_is_with on ans_house is 0.0634242
+influence of sim_house_palm on ans_house is 0.0609988
+influence of hasImg_palm_before_building on ans_house is 0.0432212
+influence of r2 on ans_house is 0.0303169
+influence of simRep2_background_house on ans_house is 0.0224013
+influence of sim_house_roof on ans_house is 0.0210201
+influence of simRep2_building_house on ans_house is 0.0189475
+influence of simRep1_building_is on ans_house is 0.0170589
+influence of hasImg_roof_with_house on ans_house is 0.0151712
+
+most influential tuples of hotel:
+influence of sim_hotel_large on ans_hotel is 1.14511
+influence of sim_hotel_tall on ans_hotel is 0.457848
+influence of word_hotel on ans_hotel is 0.200622
+influence of hasQ_building_is_WHAT on ans_hotel is 0.148447
+influence of hasImg_tall_is_building on ans_hotel is 0.142568
+influence of simRep2_building_building on ans_hotel is 0.121399
+influence of simRep1_is_is on ans_hotel is 0.116426
+influence of hasImg_large_is_building on ans_hotel is 0.0826029
+influence of sim_hotel_palm on ans_hotel is 0.0654854
+influence of simRep1_is_with on ans_hotel is 0.0366145
+influence of r2 on ans_hotel is 0.0241176
+influence of simRep1_is_before on ans_hotel is 0.0238721
+influence of sim_hotel_roof on ans_hotel is 0.0225566
+influence of simRep1_building_is on ans_hotel is 0.015621
+influence of hasImg_palm_before_building on ans_hotel is 0.0150547
+influence of simRep2_background_house on ans_hotel is 0.0129322
+
+
+
+
+
+
+
+
+4 stadium.png
+
+// building	is	large	1
+// building	with	windows	0.87
+// grass	on field 0.37
+// building	with	roof	0.29
+// people	on	field	0.25
+
+large is building
+windows with building 0.87
+grass on field 0.37
+roof with building 0.29
+people on field 0.25
+
+most possible answer: stadium
+
+most influential tuples of stadium:
+influence of sim_stadium_large on ans_stadium is 1.12839
+influence of word_stadium on ans_stadium is 0.220394
+influence of hasQ_building_is_WHAT on ans_stadium is 0.156237
+influence of hasImg_large_is_building on ans_stadium is 0.145389
+influence of simRep2_building_building on ans_stadium is 0.129135
+influence of simRep1_is_is on ans_stadium is 0.121106
+influence of sim_stadium_windows on ans_stadium is 0.0961154
+influence of simRep1_is_with on ans_stadium is 0.0789829
+influence of sim_stadium_roof on ans_stadium is 0.0320288
+influence of r2 on ans_stadium is 0.0258366
+influence of simRep1_is_on on ans_stadium is 0.0195975
+influence of sim_stadium_grass on ans_stadium is 0.0193486
+influence of simRep1_building_on on ans_stadium is 0.0173291
+influence of simRep1_building_is on ans_stadium is 0.0162499
+influence of r6 on ans_stadium is 0.0133843
+influence of sim_stadium_people on ans_stadium is 0.0130633
+influence of r5 on ans_stadium is 0.0120957
+influence of simRep1_building_with on ans_stadium is 0.0106124
+influence of simRep2_background_building on ans_stadium is 0.00965205
+influence of simRep2_building_field on ans_stadium is 0.00930322
+influence of hasImg_windows_with_building on ans_stadium is 0.00837803

@@ -1,0 +1,4 @@
+train	on	tracks	1
+a	train	station	0.95
+blue	white	sign	0.6
+sign	on	pole	0.05

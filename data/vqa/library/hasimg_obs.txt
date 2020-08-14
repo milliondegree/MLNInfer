@@ -1,0 +1,3 @@
+man	wears	pants	1
+a	book	shelf	0.9
+shelf	with	books	0.8

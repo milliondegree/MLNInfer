@@ -536,7 +536,7 @@ int main(int argc, char* argv[]) {
       args["delta"] = argvs[i+1];
     }
     else if (argvs[i]=="-e" || argvs[i]=="-equation") {
-      args["equation"] = stoi(argvs[i+1]);
+      args["equation"] = argvs[i+1];
     }
   }
 
@@ -613,7 +613,8 @@ int main(int argc, char* argv[]) {
   }
 
   if (args.find("save")!=args.end()) {
-    saveToFile(mmln, args["save"]);
+    cout << mmln.toString() << endl;
+    saveToFile(mln, args["save"]);
   }
 
   // boxplotTestSave(mln, "./data/record/cancer8_2.txt", 100);

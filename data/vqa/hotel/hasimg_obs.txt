@@ -1,0 +1,5 @@
+building	is	large	1
+building	many	windows	1
+house	with	roof	0.54
+building	is	tall	0.4
+palm	before	building	0.33

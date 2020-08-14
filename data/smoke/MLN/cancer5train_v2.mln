@@ -1,0 +1,59 @@
+provenance: cancer5(r1@n257(smoke5((r2@n257(friends5_6*smoke6(r3@n257(friends5_6*smoke5))))+(r3@n257(friends2_5*smoke2((r2@n257(friends2_5*smoke5))+(r3@n257(friends1_2*smoke1((r2@n257(friends1_2*smoke2))+(r2@n257(friends1_4*smoke4((r3@n257(friends1_4*smoke1))+(r3@n257(friends3_4*smoke3((r3@n257(friends1_3*smoke1))+(r2@n257(friends3_4*smoke4))))))))+(r3@n257(friends7_1*smoke7((r2@n257(friends7_1*smoke1))+(r2@n257(friends7_8*smoke8(r3@n257(friends7_8*smoke7)))))))+(r2@n257(friends1_3*smoke3((r3@n257(friends1_3*smoke1))+(r2@n257(friends3_4*smoke4((r3@n257(friends3_4*smoke3))+(r3@n257(friends1_4*smoke1)))))))))))))))))
+observed: friends2_5 smoke4 friends1_2 friends7_8 friends1_4 friends3_4 friends5_6 smoke7 friends1_3 friends7_1 smoke1 smoke3 
+queried: smoke2 smoke6 smoke5 smoke8 cancer5 
+clique: cancer5
+clique: smoke5
+clique: friends5_6
+clique: smoke6
+clique: r3 smoke6 friends5_6 smoke5 
+clique: friends2_5
+clique: smoke2
+clique: friends1_2
+clique: smoke1
+clique: friends1_4
+clique: smoke4
+clique: friends3_4
+clique: smoke3
+clique: friends1_3
+clique: r3 smoke3 friends1_3 smoke1 
+clique: r2 smoke3 friends3_4 smoke4 
+clique: r3 smoke4 friends1_4 smoke1 
+clique: r3 smoke4 friends3_4 smoke3 
+clique: friends7_1
+clique: smoke7
+clique: friends7_8
+clique: smoke8
+clique: r3 smoke8 friends7_8 smoke7 
+clique: r2 smoke7 friends7_1 smoke1 
+clique: r2 smoke7 friends7_8 smoke8 
+clique: r2 smoke1 friends1_2 smoke2 
+clique: r2 smoke1 friends1_4 smoke4 
+clique: r3 smoke1 friends7_1 smoke7 
+clique: r2 smoke1 friends1_3 smoke3 
+clique: r2 smoke2 friends2_5 smoke5 
+clique: r3 smoke2 friends1_2 smoke1 
+clique: r2 smoke5 friends5_6 smoke6 
+clique: r3 smoke5 friends2_5 smoke2 
+clique: r1 cancer5 smoke5 
+c_map: cancer5 0 33 
+c_map: friends1_2 7 25 30 
+c_map: friends1_3 13 14 28 
+c_map: friends1_4 9 16 26 
+c_map: friends2_5 5 29 32 
+c_map: friends3_4 11 15 17 
+c_map: friends5_6 2 4 31 
+c_map: friends7_1 18 23 27 
+c_map: friends7_8 20 22 24 
+c_map: smoke1 8 14 16 23 25 26 27 28 30 
+c_map: smoke2 6 25 29 30 32 
+c_map: smoke3 12 14 15 17 28 
+c_map: smoke4 10 15 16 17 26 
+c_map: smoke5 1 4 29 31 32 33 
+c_map: smoke6 3 4 31 
+c_map: smoke7 19 22 23 24 27 
+c_map: smoke8 21 22 24 
+prob: smoke2 0.7289
+prob: smoke6 0.6361
+prob: smoke5 0.55578
+prob: smoke8 0.72487
+prob: cancer5 0.31044

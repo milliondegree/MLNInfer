@@ -1,0 +1,4 @@
+factory	0.25
+library	0.25
+barn	0.25
+college	0.25

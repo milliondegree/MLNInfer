@@ -1,0 +1,25 @@
+1000 times, 1000 rounds
+gibbs sample v1: 85.2993 seconds
+variance of v1: 0.000170477
+gibbs sample v2: 86.6506 seconds
+variance of v2: 0.000157726
+
+
+100 times, 10000 rounds
+gibbs sample v1: 87.6034 seconds
+variance of v1: 2.17e-05
+gibbs sample v2: 84.5801 seconds
+variance of v2: 1.46177e-05
+
+/**************************************/
+
+
+100 times, 10000 rounds
+gibbs sample v1: 83.429 seconds
+variance of v1: 1.96934e-05
+gibbs sample v2: 83.9473 seconds
+variance of v2: 1.6192e-05
+gibbs sample v3: 65.9046 seconds
+variance of v3: 1.50403e-05
+
+1000 times, 10000 rounds

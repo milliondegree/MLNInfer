@@ -1,0 +1,70 @@
+observed: r1 sim_factory_large word_factory hasImg_large_city_scene simRep1_building_sign sim_in_white simRep1_factory_sign hasImg_blue_white_sign sim_factory_a sim_factory_blue hasImg_a_tall_tower simRep1_building_tower simRep1_is_white r6 r3 simRep1_building_tall sim_in_city simRep1_building_scene simRep2_background_tower simRep2_background_large r2 simRep2_background_blue simRep1_factory_scene simRep2_building_scene simRep1_is_tall simRep1_factory_tower sim_in_tall simRep2_background_scene simRep2_background_a simRep1_building_city simRep2_building_tower simRep1_building_white simRep2_building_sign simRep1_is_city simRep2_background_sign 
+queried: hasImgAns_factory_large_city_scene hasQ_building_in_background hasImgAns_factory_blue_white_sign candidate_factory hasImgAns_factory_a_tall_tower hasQ_building_is_WHAT ans_factory hasQ_background_building_WHAT 
+clique: ans
+clique: hasQ
+clique: candidate
+clique: hasQ
+clique: hasImgAns
+clique: r1 hasImgAns_factory_large_city_scene word_factory hasImg_large_city_scene sim_factory_large simRep1_factory_scene 
+clique: hasImgAns
+clique: r1 hasImgAns_factory_blue_white_sign word_factory hasImg_blue_white_sign sim_factory_blue simRep1_factory_sign 
+clique: hasImgAns
+clique: r1 hasImgAns_factory_a_tall_tower word_factory hasImg_a_tall_tower sim_factory_a simRep1_factory_tower 
+clique: r2 candidate_factory word_factory 
+clique: r3 candidate_factory word_factory hasQ_building_in_background sim_in_city simRep1_building_scene simRep2_background_large hasImgAns_factory_large_city_scene 
+clique: r3 candidate_factory word_factory hasQ_building_in_background sim_in_white simRep1_building_sign simRep2_background_blue hasImgAns_factory_blue_white_sign 
+clique: r3 candidate_factory word_factory hasQ_building_in_background sim_in_tall simRep1_building_tower simRep2_background_a hasImgAns_factory_a_tall_tower 
+clique: hasQ
+clique: r6 ans_factory hasQ_background_building_WHAT hasImg_large_city_scene sim_factory_large simRep1_building_city simRep2_background_scene candidate_factory 
+clique: r6 ans_factory hasQ_building_is_WHAT hasImg_large_city_scene sim_factory_large simRep1_is_city simRep2_building_scene candidate_factory 
+clique: r6 ans_factory hasQ_building_is_WHAT hasImg_blue_white_sign sim_factory_blue simRep1_is_white simRep2_building_sign candidate_factory 
+clique: r6 ans_factory hasQ_background_building_WHAT hasImg_blue_white_sign sim_factory_blue simRep1_building_white simRep2_background_sign candidate_factory 
+clique: r6 ans_factory hasQ_building_is_WHAT hasImg_a_tall_tower sim_factory_a simRep1_is_tall simRep2_building_tower candidate_factory 
+clique: r6 ans_factory hasQ_background_building_WHAT hasImg_a_tall_tower sim_factory_a simRep1_building_tall simRep2_background_tower candidate_factory 
+c_map: ans_factory 0 15 16 17 18 19 20 
+c_map: candidate_factory 2 10 11 12 13 15 16 17 18 19 20 
+c_map: hasImgAns_factory_a_tall_tower 8 9 13 
+c_map: hasImgAns_factory_blue_white_sign 6 7 12 
+c_map: hasImgAns_factory_large_city_scene 4 5 11 
+c_map: hasImg_a_tall_tower 9 19 20 
+c_map: hasImg_blue_white_sign 7 17 18 
+c_map: hasImg_large_city_scene 5 15 16 
+c_map: hasQ_background_building_WHAT 1 15 18 20 
+c_map: hasQ_building_in_background 3 11 12 13 
+c_map: hasQ_building_is_WHAT 14 16 17 19 
+c_map: simRep1_building_city 15 
+c_map: simRep1_building_scene 11 
+c_map: simRep1_building_sign 12 
+c_map: simRep1_building_tall 20 
+c_map: simRep1_building_tower 13 
+c_map: simRep1_building_white 18 
+c_map: simRep1_factory_scene 5 
+c_map: simRep1_factory_sign 7 
+c_map: simRep1_factory_tower 9 
+c_map: simRep1_is_city 16 
+c_map: simRep1_is_tall 19 
+c_map: simRep1_is_white 17 
+c_map: simRep2_background_a 13 
+c_map: simRep2_background_blue 12 
+c_map: simRep2_background_large 11 
+c_map: simRep2_background_scene 15 
+c_map: simRep2_background_sign 18 
+c_map: simRep2_background_tower 20 
+c_map: simRep2_building_scene 16 
+c_map: simRep2_building_sign 17 
+c_map: simRep2_building_tower 19 
+c_map: sim_factory_a 9 19 20 
+c_map: sim_factory_blue 7 17 18 
+c_map: sim_factory_large 5 15 16 
+c_map: sim_in_city 11 
+c_map: sim_in_tall 13 
+c_map: sim_in_white 12 
+c_map: word_factory 5 7 9 10 11 12 13 
+prob: hasImgAns_factory_large_city_scene 0.500806
+prob: hasQ_building_in_background 0.499803
+prob: hasImgAns_factory_blue_white_sign 0.500082
+prob: candidate_factory 0.561399
+prob: hasImgAns_factory_a_tall_tower 0.500107
+prob: hasQ_building_is_WHAT 0.499616
+prob: ans_factory 0.501141
+prob: hasQ_background_building_WHAT 0.499244

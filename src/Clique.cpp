@@ -171,7 +171,7 @@ string Clique::toString() {
     res = res + rule_name + " " + to_string(rule_weight) + " " + rule_head;
   }
   else {
-    res += rule_name + " " + rule_head + " :- ";
+    res += rule_name + " " + to_string(rule_weight) + " " + rule_head + " :- ";
     for (int i=1; i<literals.size(); i++) {
       res += literals[i];
       if (i!=literals.size()-1) {

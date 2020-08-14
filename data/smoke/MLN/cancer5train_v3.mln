@@ -1,0 +1,93 @@
+provenance: cancer5(r1@n257(smoke5((r4@n257(cancer5))+(r2@n257(friends5_6*smoke6((r3@n257(friends5_6*smoke5))+(r4@n257(cancer6(r1@n257(smoke6)))))))+(r3@n257(friends2_5*smoke2((r2@n257(friends2_5*smoke5))+(r4@n257(cancer2(r1@n257(smoke2))))+(r3@n257(friends1_2*smoke1((r2@n257(friends1_2*smoke2))+(r4@n257(cancer1(r1@n257(smoke1))))+(r2@n257(friends1_4*smoke4((r3@n257(friends1_4*smoke1))+(r4@n257(cancer4(r1@n257(smoke4))))+(r3@n257(friends3_4*smoke3((r3@n257(friends1_3*smoke1))+(r2@n257(friends3_4*smoke4))+(r4@n257(cancer3(r1@n257(smoke3))))))))))+(r2@n257(friends1_3*smoke3((r3@n257(friends1_3*smoke1))+(r4@n257(cancer3(r1@n257(smoke3))))+(r2@n257(friends3_4*smoke4((r3@n257(friends3_4*smoke3))+(r3@n257(friends1_4*smoke1))+(r4@n257(cancer4(r1@n257(smoke4))))))))))+(r3@n257(friends7_1*smoke7((r2@n257(friends7_1*smoke1))+(r4@n257(cancer7(r1@n257(smoke7))))+(r2@n257(friends7_8*smoke8((r3@n257(friends7_8*smoke7))+(r4@n257(cancer8(r1@n257(smoke8)))))))))))))))))))
+observed: friends2_5 friends7_1 friends7_8 friends1_4 friends3_4 friends5_6 smoke7 friends1_3 friends1_2 cancer3 smoke4 cancer1 smoke1 smoke3 
+queried: cancer8 cancer2 smoke2 cancer5 smoke6 cancer4 smoke5 smoke8 cancer7 cancer6 
+clique: cancer5
+clique: smoke5
+clique: friends5_6
+clique: smoke6
+clique: cancer6
+clique: r1 cancer6 smoke6 
+clique: r3 smoke6 friends5_6 smoke5 
+clique: r4 smoke6 cancer6 
+clique: friends2_5
+clique: smoke2
+clique: cancer2
+clique: r1 cancer2 smoke2 
+clique: friends1_2
+clique: smoke1
+clique: cancer1
+clique: r1 cancer1 smoke1 
+clique: friends1_4
+clique: smoke4
+clique: cancer4
+clique: r1 cancer4 smoke4 
+clique: friends3_4
+clique: smoke3
+clique: friends1_3
+clique: cancer3
+clique: r1 cancer3 smoke3 
+clique: r3 smoke3 friends1_3 smoke1 
+clique: r2 smoke3 friends3_4 smoke4 
+clique: r4 smoke3 cancer3 
+clique: r3 smoke4 friends1_4 smoke1 
+clique: r4 smoke4 cancer4 
+clique: r3 smoke4 friends3_4 smoke3 
+clique: friends7_1
+clique: smoke7
+clique: cancer7
+clique: r1 cancer7 smoke7 
+clique: friends7_8
+clique: smoke8
+clique: cancer8
+clique: r1 cancer8 smoke8 
+clique: r3 smoke8 friends7_8 smoke7 
+clique: r4 smoke8 cancer8 
+clique: r2 smoke7 friends7_1 smoke1 
+clique: r4 smoke7 cancer7 
+clique: r2 smoke7 friends7_8 smoke8 
+clique: r2 smoke1 friends1_2 smoke2 
+clique: r4 smoke1 cancer1 
+clique: r2 smoke1 friends1_4 smoke4 
+clique: r2 smoke1 friends1_3 smoke3 
+clique: r3 smoke1 friends7_1 smoke7 
+clique: r2 smoke2 friends2_5 smoke5 
+clique: r4 smoke2 cancer2 
+clique: r3 smoke2 friends1_2 smoke1 
+clique: r4 smoke5 cancer5 
+clique: r2 smoke5 friends5_6 smoke6 
+clique: r3 smoke5 friends2_5 smoke2 
+clique: r1 cancer5 smoke5 
+c_map: cancer1 14 15 45 
+c_map: cancer2 10 11 50 
+c_map: cancer3 23 24 27 
+c_map: cancer4 18 19 29 
+c_map: cancer5 0 52 55 
+c_map: cancer6 4 5 7 
+c_map: cancer7 33 34 42 
+c_map: cancer8 37 38 40 
+c_map: friends1_2 12 44 51 
+c_map: friends1_3 22 25 47 
+c_map: friends1_4 16 28 46 
+c_map: friends2_5 8 49 54 
+c_map: friends3_4 20 26 30 
+c_map: friends5_6 2 6 53 
+c_map: friends7_1 31 41 48 
+c_map: friends7_8 35 39 43 
+c_map: smoke1 13 15 25 28 41 44 45 46 47 48 51 
+c_map: smoke2 9 11 44 49 50 51 54 
+c_map: smoke3 21 24 25 26 27 30 47 
+c_map: smoke4 17 19 26 28 29 30 46 
+c_map: smoke5 1 6 49 52 53 54 55 
+c_map: smoke6 3 5 6 7 53 
+c_map: smoke7 32 34 39 41 42 43 48 
+c_map: smoke8 36 38 39 40 43 
+prob: cancer8 0.31713
+prob: cancer2 0.3133
+prob: smoke2 0.58107
+prob: cancer5 0.30014
+prob: smoke6 0.47695
+prob: cancer4 0.39081
+prob: smoke5 0.49249
+prob: smoke8 0.58476
+prob: cancer7 0.39239
+prob: cancer6 0.29539

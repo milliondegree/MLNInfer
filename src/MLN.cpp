@@ -303,15 +303,15 @@ MLN MLN::getMinimalMLN(string& query) {
       }
     }
   }
-  map<string, double> mprob;
-  for (string literal : mobs) {
-    mprob[literal] = this->prob[literal];
-  }
+  // map<string, double> mprob;
+  // for (string literal : mobs) {
+  //   mprob[literal] = this->prob[literal];
+  // }
   mmln.setCliques(mcliques);
   mmln.setObs(mobs);
   mmln.setQueries(mqueries);
   mmln.setCMap(mc_map);
-  mmln.setProb(mprob);
+  mmln.setProb(this->prob);
   return mmln;
 }
 

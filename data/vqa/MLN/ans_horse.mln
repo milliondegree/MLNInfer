@@ -1,0 +1,64 @@
+observed: simRep1_horse_grey hasImg_horse_color_grey simRep2_background_horse simRep2_background_tree r1 simRep1_horse_background hasQ_building_in_background simRep1_is_behind hasImg_horse_in_background simRep1_horse_fence sim_horse_horse simRep2_building_fence simRep1_building_fence hasImg_tree_behind_fence simRep1_is_in sim_in_in r3 r6 hasQ_background_in_WHAT simRep2_background_grey simRep1_building_background simRep2_building_grey sim_in_color word_horse simRep1_building_grey hasQ_building_is_WHAT simRep1_is_color sim_in_behind simRep1_in_behind simRep2_background_background simRep1_in_in r5 r4 simRep2_building_background simRep2_background_fence sim_horse_tree r2 simRep1_in_color 
+queried: hasImgAns_horse_horse_color_grey ans_horse candidate_horse hasImgAns_horse_horse_in_background hasImgAns_horse_tree_behind_fence 
+clique: ans
+clique: candidate
+clique: hasImgAns
+clique: r1 hasImgAns_horse_horse_in_background word_horse hasImg_horse_in_background sim_horse_horse simRep1_horse_background 
+clique: hasImgAns
+clique: r1 hasImgAns_horse_horse_color_grey word_horse hasImg_horse_color_grey sim_horse_horse simRep1_horse_grey 
+clique: hasImgAns
+clique: r1 hasImgAns_horse_tree_behind_fence word_horse hasImg_tree_behind_fence sim_horse_tree simRep1_horse_fence 
+clique: r2 candidate_horse word_horse 
+clique: r3 candidate_horse word_horse hasQ_building_in_background sim_in_in simRep1_building_background simRep2_background_horse hasImgAns_horse_horse_in_background 
+clique: r3 candidate_horse word_horse hasQ_building_in_background sim_in_color simRep1_building_grey simRep2_background_horse hasImgAns_horse_horse_color_grey 
+clique: r3 candidate_horse word_horse hasQ_building_in_background sim_in_behind simRep1_building_fence simRep2_background_tree hasImgAns_horse_tree_behind_fence 
+clique: r6 ans_horse hasQ_building_is_WHAT hasImg_horse_color_grey sim_horse_horse simRep1_is_color simRep2_building_grey candidate_horse 
+clique: r6 ans_horse hasQ_building_is_WHAT hasImg_horse_in_background sim_horse_horse simRep1_is_in simRep2_building_background candidate_horse 
+clique: r6 ans_horse hasQ_background_in_WHAT hasImg_tree_behind_fence sim_horse_tree simRep1_in_behind simRep2_background_fence candidate_horse 
+clique: r5 ans_horse hasQ_background_in_WHAT hasImg_horse_in_background sim_horse_horse candidate_horse 
+clique: r6 ans_horse hasQ_building_is_WHAT hasImg_tree_behind_fence sim_horse_tree simRep1_is_behind simRep2_building_fence candidate_horse 
+clique: r6 ans_horse hasQ_background_in_WHAT hasImg_horse_color_grey sim_horse_horse simRep1_in_color simRep2_background_grey candidate_horse 
+clique: r6 ans_horse hasQ_background_in_WHAT hasImg_horse_in_background sim_horse_horse simRep1_in_in simRep2_background_background candidate_horse 
+clique: r4 ans_horse hasQ_background_in_WHAT hasImg_horse_in_background candidate_horse 
+c_map: ans_horse 0 12 13 14 15 16 17 18 19 
+c_map: candidate_horse 1 8 9 10 11 12 13 14 15 16 17 18 19 
+c_map: hasImgAns_horse_horse_color_grey 4 5 10 
+c_map: hasImgAns_horse_horse_in_background 2 3 9 
+c_map: hasImgAns_horse_tree_behind_fence 6 7 11 
+c_map: hasImg_horse_color_grey 5 12 17 
+c_map: hasImg_horse_in_background 3 13 15 18 19 
+c_map: hasImg_tree_behind_fence 7 14 16 
+c_map: hasQ_background_in_WHAT 14 15 17 18 19 
+c_map: hasQ_building_in_background 9 10 11 
+c_map: hasQ_building_is_WHAT 12 13 16 
+c_map: simRep1_building_background 9 
+c_map: simRep1_building_fence 11 
+c_map: simRep1_building_grey 10 
+c_map: simRep1_horse_background 3 
+c_map: simRep1_horse_fence 7 
+c_map: simRep1_horse_grey 5 
+c_map: simRep1_in_behind 14 
+c_map: simRep1_in_color 17 
+c_map: simRep1_in_in 18 
+c_map: simRep1_is_behind 16 
+c_map: simRep1_is_color 12 
+c_map: simRep1_is_in 13 
+c_map: simRep2_background_background 18 
+c_map: simRep2_background_fence 14 
+c_map: simRep2_background_grey 17 
+c_map: simRep2_background_horse 9 10 
+c_map: simRep2_background_tree 11 
+c_map: simRep2_building_background 13 
+c_map: simRep2_building_fence 16 
+c_map: simRep2_building_grey 12 
+c_map: sim_horse_horse 3 5 12 13 15 17 18 
+c_map: sim_horse_tree 7 14 16 
+c_map: sim_in_behind 11 
+c_map: sim_in_color 10 
+c_map: sim_in_in 9 
+c_map: word_horse 3 5 7 8 9 10 11 
+prob: hasImgAns_horse_horse_color_grey 0.510991
+prob: ans_horse 0.50764
+prob: candidate_horse 0.557794
+prob: hasImgAns_horse_horse_in_background 0.500243
+prob: hasImgAns_horse_tree_behind_fence 0.509655

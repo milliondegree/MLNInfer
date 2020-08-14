@@ -1,0 +1,63 @@
+observed: word_church r1 simRep2_background_tree simRep1_building_background hasQ_background_in_WHAT simRep2_background_grey hasQ_building_in_background simRep1_is_behind hasImg_horse_in_background simRep1_church_background simRep2_building_grey sim_in_color simRep2_background_horse sim_church_horse r2 hasImg_horse_color_grey hasImg_tree_behind_fence simRep1_building_fence simRep1_church_fence sim_in_in simRep1_is_in simRep1_church_grey simRep1_building_grey r6 sim_church_tree r3 hasQ_building_is_WHAT simRep1_is_color sim_in_behind r5 simRep1_in_color simRep1_in_behind simRep2_background_background simRep2_background_fence simRep2_building_background simRep1_in_in simRep2_building_fence 
+queried: ans_church hasImgAns_church_horse_color_grey candidate_church hasImgAns_church_tree_behind_fence hasImgAns_church_horse_in_background 
+clique: ans
+clique: candidate
+clique: hasImgAns
+clique: r1 hasImgAns_church_horse_in_background word_church hasImg_horse_in_background sim_church_horse simRep1_church_background 
+clique: hasImgAns
+clique: r1 hasImgAns_church_horse_color_grey word_church hasImg_horse_color_grey sim_church_horse simRep1_church_grey 
+clique: hasImgAns
+clique: r1 hasImgAns_church_tree_behind_fence word_church hasImg_tree_behind_fence sim_church_tree simRep1_church_fence 
+clique: r2 candidate_church word_church 
+clique: r3 candidate_church word_church hasQ_building_in_background sim_in_in simRep1_building_background simRep2_background_horse hasImgAns_church_horse_in_background 
+clique: r3 candidate_church word_church hasQ_building_in_background sim_in_color simRep1_building_grey simRep2_background_horse hasImgAns_church_horse_color_grey 
+clique: r3 candidate_church word_church hasQ_building_in_background sim_in_behind simRep1_building_fence simRep2_background_tree hasImgAns_church_tree_behind_fence 
+clique: r6 ans_church hasQ_building_is_WHAT hasImg_tree_behind_fence sim_church_tree simRep1_is_behind simRep2_building_fence candidate_church 
+clique: r5 ans_church hasQ_background_in_WHAT hasImg_horse_in_background sim_church_horse candidate_church 
+clique: r6 ans_church hasQ_background_in_WHAT hasImg_horse_color_grey sim_church_horse simRep1_in_color simRep2_background_grey candidate_church 
+clique: r6 ans_church hasQ_building_is_WHAT hasImg_horse_color_grey sim_church_horse simRep1_is_color simRep2_building_grey candidate_church 
+clique: r6 ans_church hasQ_background_in_WHAT hasImg_tree_behind_fence sim_church_tree simRep1_in_behind simRep2_background_fence candidate_church 
+clique: r6 ans_church hasQ_building_is_WHAT hasImg_horse_in_background sim_church_horse simRep1_is_in simRep2_building_background candidate_church 
+clique: r6 ans_church hasQ_background_in_WHAT hasImg_horse_in_background sim_church_horse simRep1_in_in simRep2_background_background candidate_church 
+c_map: ans_church 0 12 13 14 15 16 17 18 
+c_map: candidate_church 1 8 9 10 11 12 13 14 15 16 17 18 
+c_map: hasImgAns_church_horse_color_grey 4 5 10 
+c_map: hasImgAns_church_horse_in_background 2 3 9 
+c_map: hasImgAns_church_tree_behind_fence 6 7 11 
+c_map: hasImg_horse_color_grey 5 14 15 
+c_map: hasImg_horse_in_background 3 13 17 18 
+c_map: hasImg_tree_behind_fence 7 12 16 
+c_map: hasQ_background_in_WHAT 13 14 16 18 
+c_map: hasQ_building_in_background 9 10 11 
+c_map: hasQ_building_is_WHAT 12 15 17 
+c_map: simRep1_building_background 9 
+c_map: simRep1_building_fence 11 
+c_map: simRep1_building_grey 10 
+c_map: simRep1_church_background 3 
+c_map: simRep1_church_fence 7 
+c_map: simRep1_church_grey 5 
+c_map: simRep1_in_behind 16 
+c_map: simRep1_in_color 14 
+c_map: simRep1_in_in 18 
+c_map: simRep1_is_behind 12 
+c_map: simRep1_is_color 15 
+c_map: simRep1_is_in 17 
+c_map: simRep2_background_background 18 
+c_map: simRep2_background_fence 16 
+c_map: simRep2_background_grey 14 
+c_map: simRep2_background_horse 9 10 
+c_map: simRep2_background_tree 11 
+c_map: simRep2_building_background 17 
+c_map: simRep2_building_fence 12 
+c_map: simRep2_building_grey 15 
+c_map: sim_church_horse 3 5 13 14 15 17 18 
+c_map: sim_church_tree 7 12 16 
+c_map: sim_in_behind 11 
+c_map: sim_in_color 10 
+c_map: sim_in_in 9 
+c_map: word_church 3 5 7 8 9 10 11 
+prob: ans_church 0.547253
+prob: hasImgAns_church_horse_color_grey 0.501321
+prob: candidate_church 0.540561
+prob: hasImgAns_church_tree_behind_fence 0.49981
+prob: hasImgAns_church_horse_in_background 0.502472

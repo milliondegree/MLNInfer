@@ -1,0 +1,28 @@
+provenance: topic_ResearchProject_427(rl@n257(links_427_13*topic_ResearchProject_13((r457@n257(hasword_answer_13))+(rl@n257(links_13_37*topic_ResearchProject_37(r168@n257(hasword_cern_37)))))))
+observed: 
+queried: links_427_13 hasword_cern_37 hasword_answer_13 topic_ResearchProject_37 links_13_37 topic_ResearchProject_13 topic_ResearchProject_427 
+clique: topic_ResearchProject_427
+clique: links_427_13
+clique: topic_ResearchProject_13
+clique: hasword_answer_13
+clique: links_13_37
+clique: topic_ResearchProject_37
+clique: hasword_cern_37
+clique: r168 topic_ResearchProject_37 hasword_cern_37 
+clique: r457 topic_ResearchProject_13 hasword_answer_13 
+clique: rl topic_ResearchProject_13 links_13_37 topic_ResearchProject_37 
+clique: rl topic_ResearchProject_427 links_427_13 topic_ResearchProject_13 
+c_map: hasword_answer_13 3 8 
+c_map: hasword_cern_37 6 7 
+c_map: links_13_37 4 9 
+c_map: links_427_13 1 10 
+c_map: topic_ResearchProject_13 2 8 9 10 
+c_map: topic_ResearchProject_37 5 7 9 
+c_map: topic_ResearchProject_427 0 10 
+
+
+
+
+
+
+

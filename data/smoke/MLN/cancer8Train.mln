@@ -1,0 +1,12 @@
+observed: friends8_7 smoke7 
+queried: cancer8 smoke8 
+clique: cancer8
+clique: smoke8
+clique: r2 smoke8 friends8_7 smoke7 
+clique: r1 cancer8 smoke8 
+c_map: cancer8 0 3 
+c_map: friends8_7 2 
+c_map: smoke7 2 
+c_map: smoke8 1 2 3 
+prob: cancer8 0.315909
+prob: smoke8 0.587808

@@ -1,0 +1,77 @@
+observed: simRep1_station_tracks r3 hasQ_background_building_WHAT r1 simRep1_station_station hasImg_train_on_tracks simRep2_building_sign simRep1_is_train simRep1_building_pole simRep1_is_on simRep2_building_tracks sim_station_sign sim_station_a hasImg_sign_on_pole simRep1_building_tracks word_station hasImg_a_train_station simRep1_building_station hasImg_blue_white_sign sim_station_blue simRep2_building_pole simRep1_station_sign hasQ_building_in_background simRep1_station_pole r2 sim_in_on sim_in_train sim_station_train simRep2_background_sign simRep2_background_a sim_in_white simRep2_building_station simRep1_building_on simRep1_building_train simRep1_building_white simRep2_background_train r6 simRep1_is_white simRep2_background_station simRep2_background_pole hasQ_building_is_WHAT simRep1_building_sign simRep2_background_blue simRep2_background_tracks 
+queried: ans_station hasImgAns_station_train_on_tracks candidate_station hasImgAns_station_a_train_station hasImgAns_station_blue_white_sign hasImgAns_station_sign_on_pole 
+clique: ans
+clique: candidate
+clique: hasImgAns
+clique: r1 hasImgAns_station_train_on_tracks word_station hasImg_train_on_tracks sim_station_train simRep1_station_tracks 
+clique: hasImgAns
+clique: r1 hasImgAns_station_sign_on_pole word_station hasImg_sign_on_pole sim_station_sign simRep1_station_pole 
+clique: hasImgAns
+clique: r1 hasImgAns_station_a_train_station word_station hasImg_a_train_station sim_station_a simRep1_station_station 
+clique: hasImgAns
+clique: r1 hasImgAns_station_blue_white_sign word_station hasImg_blue_white_sign sim_station_blue simRep1_station_sign 
+clique: r2 candidate_station word_station 
+clique: r3 candidate_station word_station hasQ_building_in_background sim_in_on simRep1_building_tracks simRep2_background_train hasImgAns_station_train_on_tracks 
+clique: r3 candidate_station word_station hasQ_building_in_background sim_in_on simRep1_building_pole simRep2_background_sign hasImgAns_station_sign_on_pole 
+clique: r3 candidate_station word_station hasQ_building_in_background sim_in_train simRep1_building_station simRep2_background_a hasImgAns_station_a_train_station 
+clique: r3 candidate_station word_station hasQ_building_in_background sim_in_white simRep1_building_sign simRep2_background_blue hasImgAns_station_blue_white_sign 
+clique: r6 ans_station hasQ_building_is_WHAT hasImg_blue_white_sign sim_station_blue simRep1_is_white simRep2_building_sign candidate_station 
+clique: r6 ans_station hasQ_building_is_WHAT hasImg_a_train_station sim_station_a simRep1_is_train simRep2_building_station candidate_station 
+clique: r6 ans_station hasQ_background_building_WHAT hasImg_a_train_station sim_station_a simRep1_building_train simRep2_background_station candidate_station 
+clique: r6 ans_station hasQ_background_building_WHAT hasImg_blue_white_sign sim_station_blue simRep1_building_white simRep2_background_sign candidate_station 
+clique: r6 ans_station hasQ_building_is_WHAT hasImg_train_on_tracks sim_station_train simRep1_is_on simRep2_building_tracks candidate_station 
+clique: r6 ans_station hasQ_building_is_WHAT hasImg_sign_on_pole sim_station_sign simRep1_is_on simRep2_building_pole candidate_station 
+clique: r6 ans_station hasQ_background_building_WHAT hasImg_sign_on_pole sim_station_sign simRep1_building_on simRep2_background_pole candidate_station 
+clique: r6 ans_station hasQ_background_building_WHAT hasImg_train_on_tracks sim_station_train simRep1_building_on simRep2_background_tracks candidate_station 
+c_map: ans_station 0 15 16 17 18 19 20 21 22 
+c_map: candidate_station 1 10 11 12 13 14 15 16 17 18 19 20 21 22 
+c_map: hasImgAns_station_a_train_station 6 7 13 
+c_map: hasImgAns_station_blue_white_sign 8 9 14 
+c_map: hasImgAns_station_sign_on_pole 4 5 12 
+c_map: hasImgAns_station_train_on_tracks 2 3 11 
+c_map: hasImg_a_train_station 7 16 17 
+c_map: hasImg_blue_white_sign 9 15 18 
+c_map: hasImg_sign_on_pole 5 20 21 
+c_map: hasImg_train_on_tracks 3 19 22 
+c_map: hasQ_background_building_WHAT 17 18 21 22 
+c_map: hasQ_building_in_background 11 12 13 14 
+c_map: hasQ_building_is_WHAT 15 16 19 20 
+c_map: simRep1_building_on 21 22 
+c_map: simRep1_building_pole 12 
+c_map: simRep1_building_sign 14 
+c_map: simRep1_building_station 13 
+c_map: simRep1_building_tracks 11 
+c_map: simRep1_building_train 17 
+c_map: simRep1_building_white 18 
+c_map: simRep1_is_on 19 20 
+c_map: simRep1_is_train 16 
+c_map: simRep1_is_white 15 
+c_map: simRep1_station_pole 5 
+c_map: simRep1_station_sign 9 
+c_map: simRep1_station_station 7 
+c_map: simRep1_station_tracks 3 
+c_map: simRep2_background_a 13 
+c_map: simRep2_background_blue 14 
+c_map: simRep2_background_pole 21 
+c_map: simRep2_background_sign 12 18 
+c_map: simRep2_background_station 17 
+c_map: simRep2_background_tracks 22 
+c_map: simRep2_background_train 11 
+c_map: simRep2_building_pole 20 
+c_map: simRep2_building_sign 15 
+c_map: simRep2_building_station 16 
+c_map: simRep2_building_tracks 19 
+c_map: sim_in_on 11 12 
+c_map: sim_in_train 13 
+c_map: sim_in_white 14 
+c_map: sim_station_a 7 16 17 
+c_map: sim_station_blue 9 15 18 
+c_map: sim_station_sign 5 20 21 
+c_map: sim_station_train 3 19 22 
+c_map: word_station 3 5 7 9 10 11 12 13 14 
+prob: ans_station 0.520372
+prob: hasImgAns_station_train_on_tracks 0.508228
+prob: candidate_station 0.608691
+prob: hasImgAns_station_a_train_station 0.512852
+prob: hasImgAns_station_blue_white_sign 0.499741
+prob: hasImgAns_station_sign_on_pole 0.499614

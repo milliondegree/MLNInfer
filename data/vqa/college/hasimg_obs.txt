@@ -1,0 +1,4 @@
+man	ride	bicycle	1
+girl	with	shirt	0.95
+large	green	tree	0.6
+tree	before	building	0.5

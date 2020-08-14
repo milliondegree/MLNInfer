@@ -1,0 +1,36 @@
+provenance: cancer4(r1@n257(smoke4((r2@n257(friends4_1*smoke1((r2@n257(friends1_3*smoke3))+(r2@n257(friends1_7*smoke7((r2@n257(friends7_8*smoke8)))))+(r2@n257(friends1_2*smoke2((r2@n257(friends2_5*smoke5((r2@n257(friends5_6*smoke6)))))))))))+(r2@n257(friends4_3*smoke3((r2@n257(friends3_1*smoke1((r2@n257(friends1_7*smoke7((r2@n257(friends7_8*smoke8)))))+(r2@n257(friends1_2*smoke2((r2@n257(friends2_5*smoke5((r2@n257(friends5_6*smoke6)))))))))))))))))
+observed: friends1_2 friends1_3 friends1_7 friends2_5 friends3_1 friends4_1 friends4_3 friends5_6 friends7_8 smoke1 smoke3 smoke4 smoke7 
+queried: cancer4 smoke2 smoke5 smoke6 smoke8 
+clique: r2 smoke7 friends7_8 smoke8 
+clique: r2 smoke5 friends5_6 smoke6 
+clique: r2 smoke2 friends2_5 smoke5 
+clique: r2 smoke1 friends1_3 smoke3 
+clique: r2 smoke1 friends1_7 smoke7 
+clique: r2 smoke1 friends1_2 smoke2 
+clique: r2 smoke7 friends7_8 smoke8 
+clique: r2 smoke5 friends5_6 smoke6 
+clique: r2 smoke2 friends2_5 smoke5 
+clique: r2 smoke1 friends1_7 smoke7 
+clique: r2 smoke1 friends1_2 smoke2 
+clique: r2 smoke3 friends3_1 smoke1 
+clique: r2 smoke4 friends4_1 smoke1 
+clique: r2 smoke4 friends4_3 smoke3 
+clique: r1 cancer4 smoke4 
+c_map: cancer4 14 
+c_map: friends1_2 5 10 
+c_map: friends1_3 3 
+c_map: friends1_7 4 9 
+c_map: friends2_5 2 8 
+c_map: friends3_1 11 
+c_map: friends4_1 12 
+c_map: friends4_3 13 
+c_map: friends5_6 1 7 
+c_map: friends7_8 0 6 
+c_map: smoke1 3 4 5 9 10 11 12 
+c_map: smoke2 2 5 8 10 
+c_map: smoke3 3 11 13 
+c_map: smoke4 12 13 14 
+c_map: smoke5 1 2 7 8 
+c_map: smoke6 1 7 
+c_map: smoke7 0 4 6 9 
+c_map: smoke8 0 6 

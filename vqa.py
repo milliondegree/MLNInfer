@@ -3,17 +3,17 @@ import os
 
 if __name__=="__main__":
 
-  sims = open("data/vqa/eval/sim_obs.txt", "r")
-  hasImg = open("data/vqa/eval/hasimg_obs.txt", "r")
-  hasQ = open("data/vqa/eval/hasq_obs.txt", "r")
-  word = open("data/vqa/eval/word_obs.txt", "r")
-  obs = open("data/vqa/observe/eval.db", "w")
+  sims = open("data/vqa/hotel/sim_obs.txt", "r")
+  hasImg = open("data/vqa/hotel/hasimg_obs.txt", "r")
+  hasQ = open("data/vqa/hotel/hasq_obs.txt", "r")
+  word = open("data/vqa/hotel/word_obs.txt", "r")
+  obs = open("data/vqa/observe/hotel.db", "w")
 
   tuples = ["word", "hasImg", "hasQ", "sim", "simRep1", "simRep2", "candidate",
             "hasImgAns", "ans", "ra", "rb", "r1", "r2", "r3", "r4", "r5", "r6"]
 
   weights = [0, 0, 0, 0, 0, 0, 0,
-             0, 0, 0, 0, 2, 2, 2, 2, 2, 2]
+             0, 0, 0, 0, 2, 2, 2, 2, 2, 10]
 
   for line in sims.readlines():
     l = line.strip().split("\t")

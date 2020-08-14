@@ -1,0 +1,5 @@
+cars	on	road	1
+planes	are	parked	0.72
+white	color	plane	0.32
+large	train	station	0.2
+white	color	truck	0.15

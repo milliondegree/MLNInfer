@@ -1,0 +1,63 @@
+observed: hasImg_horse_color_grey simRep2_background_horse simRep2_background_tree r1 simRep1_is_behind hasImg_horse_in_background hasQ_building_in_background r2 word_barn sim_barn_horse simRep1_building_fence hasImg_tree_behind_fence sim_in_behind sim_barn_tree simRep1_barn_grey simRep2_building_fence simRep1_is_in simRep1_barn_fence sim_in_in simRep1_barn_background r3 r6 simRep2_building_grey sim_in_color simRep1_building_grey simRep2_background_fence simRep1_in_in simRep2_building_background simRep1_building_background simRep2_background_grey hasQ_background_in_WHAT simRep2_background_background r5 hasQ_building_is_WHAT simRep1_is_color simRep1_in_behind simRep1_in_color 
+queried: hasImgAns_barn_tree_behind_fence ans_barn candidate_barn hasImgAns_barn_horse_in_background hasImgAns_barn_horse_color_grey 
+clique: ans
+clique: candidate
+clique: hasImgAns
+clique: r1 hasImgAns_barn_horse_color_grey word_barn hasImg_horse_color_grey sim_barn_horse simRep1_barn_grey 
+clique: hasImgAns
+clique: r1 hasImgAns_barn_tree_behind_fence word_barn hasImg_tree_behind_fence sim_barn_tree simRep1_barn_fence 
+clique: hasImgAns
+clique: r1 hasImgAns_barn_horse_in_background word_barn hasImg_horse_in_background sim_barn_horse simRep1_barn_background 
+clique: r2 candidate_barn word_barn 
+clique: r3 candidate_barn word_barn hasQ_building_in_background sim_in_color simRep1_building_grey simRep2_background_horse hasImgAns_barn_horse_color_grey 
+clique: r3 candidate_barn word_barn hasQ_building_in_background sim_in_behind simRep1_building_fence simRep2_background_tree hasImgAns_barn_tree_behind_fence 
+clique: r3 candidate_barn word_barn hasQ_building_in_background sim_in_in simRep1_building_background simRep2_background_horse hasImgAns_barn_horse_in_background 
+clique: r6 ans_barn hasQ_background_in_WHAT hasImg_horse_in_background sim_barn_horse simRep1_in_in simRep2_background_background candidate_barn 
+clique: r5 ans_barn hasQ_background_in_WHAT hasImg_horse_in_background sim_barn_horse candidate_barn 
+clique: r6 ans_barn hasQ_building_is_WHAT hasImg_horse_color_grey sim_barn_horse simRep1_is_color simRep2_building_grey candidate_barn 
+clique: r6 ans_barn hasQ_building_is_WHAT hasImg_horse_in_background sim_barn_horse simRep1_is_in simRep2_building_background candidate_barn 
+clique: r6 ans_barn hasQ_background_in_WHAT hasImg_tree_behind_fence sim_barn_tree simRep1_in_behind simRep2_background_fence candidate_barn 
+clique: r6 ans_barn hasQ_building_is_WHAT hasImg_tree_behind_fence sim_barn_tree simRep1_is_behind simRep2_building_fence candidate_barn 
+clique: r6 ans_barn hasQ_background_in_WHAT hasImg_horse_color_grey sim_barn_horse simRep1_in_color simRep2_background_grey candidate_barn 
+c_map: ans_barn 0 12 13 14 15 16 17 18 
+c_map: candidate_barn 1 8 9 10 11 12 13 14 15 16 17 18 
+c_map: hasImgAns_barn_horse_color_grey 2 3 9 
+c_map: hasImgAns_barn_horse_in_background 6 7 11 
+c_map: hasImgAns_barn_tree_behind_fence 4 5 10 
+c_map: hasImg_horse_color_grey 3 14 18 
+c_map: hasImg_horse_in_background 7 12 13 15 
+c_map: hasImg_tree_behind_fence 5 16 17 
+c_map: hasQ_background_in_WHAT 12 13 16 18 
+c_map: hasQ_building_in_background 9 10 11 
+c_map: hasQ_building_is_WHAT 14 15 17 
+c_map: simRep1_barn_background 7 
+c_map: simRep1_barn_fence 5 
+c_map: simRep1_barn_grey 3 
+c_map: simRep1_building_background 11 
+c_map: simRep1_building_fence 10 
+c_map: simRep1_building_grey 9 
+c_map: simRep1_in_behind 16 
+c_map: simRep1_in_color 18 
+c_map: simRep1_in_in 12 
+c_map: simRep1_is_behind 17 
+c_map: simRep1_is_color 14 
+c_map: simRep1_is_in 15 
+c_map: simRep2_background_background 12 
+c_map: simRep2_background_fence 16 
+c_map: simRep2_background_grey 18 
+c_map: simRep2_background_horse 9 11 
+c_map: simRep2_background_tree 10 
+c_map: simRep2_building_background 15 
+c_map: simRep2_building_fence 17 
+c_map: simRep2_building_grey 14 
+c_map: sim_barn_horse 3 7 12 13 14 15 18 
+c_map: sim_barn_tree 5 16 17 
+c_map: sim_in_behind 10 
+c_map: sim_in_color 9 
+c_map: sim_in_in 11 
+c_map: word_barn 3 5 7 8 9 10 11 
+prob: hasImgAns_barn_tree_behind_fence 0.511934
+prob: ans_barn 0.681862
+prob: candidate_barn 0.426024
+prob: hasImgAns_barn_horse_in_background 0.502111
+prob: hasImgAns_barn_horse_color_grey 0.51721

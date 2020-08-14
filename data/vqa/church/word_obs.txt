@@ -1,0 +1,4 @@
+barn	0.25
+hotel	0.25
+house	0.25
+church	0.25
