@@ -1,8 +1,8 @@
 1 station.png
 
-a train station
-train in station
-blue white sign
+// a train station
+// train in station
+// blue white sign
 
 train on tracks 1
 train in station 0.95

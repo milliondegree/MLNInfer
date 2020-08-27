@@ -91,9 +91,9 @@ void printLiterals(MLN mln) {
   unordered_set<string> obs = mln.getObsLiterals();
   unordered_set<string> queries = mln.getQueryLiterals();
   cout << "observed tuples: ";
-  // for (string s : obs) {
-  //   cout << s << ' ';
-  // }
+  for (string s : obs) {
+    cout << s << ' ';
+  }
   // cout << endl;
   // cout << "unknown tuples: ";
   // for (string s : queries) {
@@ -102,6 +102,10 @@ void printLiterals(MLN mln) {
   cout << endl;
   cout << "size of observed tuples: " << obs.size() << endl;
   cout << "size of unobserved tuples: " << queries.size() << endl;
+  cout << endl;
+  for (Clique c : mln.getCliques()) {
+    cout << c.toString() << endl;
+  }
   cout << endl;
 }
 
@@ -188,13 +192,37 @@ void probabilityQuery(MLN& mln, int round, string query_name, string mode) {
   else if (mode=="pmcsat") {
     mln.pmcsat(round, query_name);
   }
-  // else if (mode=="mtgibbs") {
-  //   mln.multithread_gibbsSampling(round, query_name);
-  // }
   clock_t t2 = clock();
   cout << mode+" sample time: " << ((double)(t2-t1))/CLOCKS_PER_SEC << " seconds" << endl;
   double prob = mln.queryProb(query_name);
   cout << "probability of " << query_name << " is " << prob << endl;
+  cout << endl;
+}
+
+
+void probabilityQueryAll(MLN& mln, int round, string mode) {
+  clock_t t1 = clock();
+  // mln.gibbsSampling_v3(round);
+  unordered_set<string> queries = mln.getQueryLiterals();
+  for (string query : queries) {
+    MLN mmln = mln.getMinimalMLN(query);
+    if (mode=="gibbs") {
+      mmln.gibbsSampling_v4(round, query);
+    }
+    else if (mode=="pgibbs") {
+      mmln.gibbsSampling_vp(round, query, 0.000001);
+    }
+    else if (mode=="mcsat"){
+      mmln.mcsat(round, query);
+    }
+    else if (mode=="pmcsat") {
+      mmln.pmcsat(round, query);
+    }
+    double prob = mmln.queryProb(query);
+    cout << "probability of " << query << " is " << prob << endl;
+  }
+  clock_t t2 = clock();
+  cout << mode+" sample time: " << ((double)(t2-t1))/CLOCKS_PER_SEC << " seconds" << endl;
   cout << endl;
 }
 
@@ -452,6 +480,7 @@ void setDefaultArgs(unordered_map<string, string>& args) {
   args["round"] = "100000";
   args["delta"] = "0.01";
   args["equation"] = "0";
+  args["mode"] = "pgibbs";
 }
 
 
@@ -538,6 +567,9 @@ int main(int argc, char* argv[]) {
     else if (argvs[i]=="-e" || argvs[i]=="-equation") {
       args["equation"] = argvs[i+1];
     }
+    else if (argvs[i]=="-m" || argvs[i]=="-mode") {
+      args["mode"] = argvs[i+1];
+    }
   }
 
   Load l(args["provenance_file"], args["observe_file"]);
@@ -558,58 +590,21 @@ int main(int argc, char* argv[]) {
   }
   */
 
-  printLiterals(mln);
+  // printLiterals(mln);
   
   MLN mmln;
 
   if (args.find("query_name")!=args.end()) {
-    // cliqueTest(mln, args["query_name"]);
-    // probabilityQuery_mcsat(mln, stoi(args["round"]), args["query_name"]);
-    // cout << endl;
-    // probabilityQuery(mln, stoi(args["round"]), args["query_name"]);
-    // cout << endl;
-    // gibbsTest(mln, 10000, args["query_name"]);
-    mmln = mln.getMinimalMLN(args["query_name"]);
-    printLiterals(mmln);
-    // for (Clique c : mmln.getCliques()) {
-    //   c.printClique();
-    // }
+    if (args["query_name"]!="all") {
+      mmln = mln.getMinimalMLN(args["query_name"]);
+      // printLiterals(mmln);
+      probabilityQuery(mmln, stoi(args["round"]), args["query_name"], args["mode"]);
+      // verifyProb(mmln);
+    }
+    else {
+      probabilityQueryAll(mln, stoi(args["round"]), args["mode"]);
+    }
 
-    // vector<Clique> cliques = mmln.getCliques();
-    // vector<Clique> ncliques;
-    // ncliques.push_back(cliques[2]);
-    // map<string, vector<int>> nCMap;
-    // nCMap["smoke1"] = vector<int> ({0});
-    // nCMap["smoke2"] = vector<int> ({0});
-    // mmln.setCliques(ncliques);
-    // mmln.setCMap(nCMap);
-    // for (Clique c : mmln.getCliques()) {
-    //   c.printClique();
-    // }
-    
-
-    // probabilityQuery(mmln, stoi(args["round"]), args["query_name"], "gibbs");
-    // probabilityQuery(mmln, stoi(args["round"]), args["query_name"], "mcsat");
-    // probabilityQuery(mln, stoi(args["round"]), args["query_name"], "pgibbs");
-    probabilityQuery(mmln, stoi(args["round"]), args["query_name"], "pgibbs");
-    // verifyProb(mmln);
-
-    // probabilityQuery(mmln, stoi(args["round"]), args["query_name"], "mtgibbs");
-    // varianceTest(mmln, stoi(args["round"]), args["query_name"]);
-    // cout << mmln.getNumberOfCliques() << endl;
-    // cout << mmln.toString() << endl;
-    // Pruner pruner;
-    // MLN nmln = pruner.prune(mmln, args["query_name"], 0.01);
-    // saveToFile(nmln, "./data/mln/topic-Student-430.mln");
-    // probabilityQuery(nmln, stoi(args["round"]), args["query_name"], "gibbs");
-    // cout << nmln.getNumberOfCliques() << endl;
-    // cout << nmln.toString() << endl;
-
-    // probabilityQuery(mln, stoi(args["round"]), args["query_name"], "mcsat");
-    // probabilityQuery(mln, stoi(args["round"]), args["query_name"], "pmcsat");
-    // MLN mmln = mln.getMinimalMLN(args["query_name"]);
-    // unordered_set<string> obs = mmln.getObsLiterals();
-    // saveToFile(mmln, args["save"]);
   }
 
   if (args.find("save")!=args.end()) {

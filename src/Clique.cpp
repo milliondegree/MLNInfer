@@ -158,9 +158,9 @@ double Clique::satisifiablity(unordered_map<string, double>& truth) {
     }
   }
   res = 1-res;
-  if (this->rule_weight<0) {
-    res = (1-res);
-  }
+  // if (this->rule_weight<0) {
+  //   res = (1-res);
+  // }
   return res;
 }
 

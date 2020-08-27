@@ -676,6 +676,7 @@ void MLN::gibbsSampling_v4(int round, string query) {
   int denominator = round>=10000 ? round-1000 : round;
   for (string query : valid_unknown) {
     this->prob[query] = ((double)samples[query]) / denominator;
+    // cout << query << ": " << this->prob[query] << endl;
   }
 }
 
@@ -742,6 +743,7 @@ void MLN::gibbsSampling_vp(int round, string query, double delta) {
     shuffle(q_indices.begin(), q_indices.end(), rng);
     for (int qi : q_indices) {
       string query = v_query[qi];
+      // cout << query << endl;
       for (int i=0; i<this->c_map[query].size(); i++) {
         int ind = this->c_map[query][i];
         Clique c = this->cliques[ind];
@@ -754,11 +756,17 @@ void MLN::gibbsSampling_vp(int round, string query, double delta) {
         }
         truth_tables[ind][query] = 1.0;
         potentials_1s[query][i] = this->prob[rule_name]*c.satisifiablity(truth_tables[ind]);
+        // cout << rule_name << this->prob[rule_name] << endl;
+        // potentials_1s[query][i] = c.getPotential(truth_tables[ind]);
         // cout << potentials_1s[query][i] << ' ';
         // cout << c.getPotential(truth_tables[ind]) << ' ';
+        // cout << c.satisifiablity(truth_tables[ind]) << ' ';
         // cout << c.toString() << ' ' << rule_name << endl;
         truth_tables[ind][query] = 0.0;
         potentials_0s[query][i] = this->prob[rule_name]*c.satisifiablity(truth_tables[ind]);
+        // cout << potentials_0s[query][i] << ' ';
+        // cout << c.getPotential(truth_tables[ind]) << ' ';
+        // cout << c.toString() << ' ' << rule_name << endl;
       }
       double sum_1 = 0;
       for (double p : potentials_1s[query]) {
@@ -780,6 +788,9 @@ void MLN::gibbsSampling_vp(int round, string query, double delta) {
       // }
     }
     // cout << endl << "round " << r << " finished " << endl << endl;
+    // for (string query : this->queries) {
+    //   cout << query << ": " << temp[query] << endl;
+    // }
     bool converge = true;
     for (int qi : q_indices) {
       string query = v_query[qi];
