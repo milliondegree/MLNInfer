@@ -1,21 +1,40 @@
+import os
 import argparse
 import random
 import numpy as np
 
 
 parser = argparse.ArgumentParser()
-parser.add_argument("--mfile", type=str)
-parser.add_argument("--ofile", type=str)
-parser.add_argument("--mapfile", type=str)
-parser.add_argument("--dfile", type=str)
-parser.add_argument("-rm", type=float)
-parser.add_argument("-ro", type=float)
+parser.add_argument("-dir", type=str, help="target directory for one time sample")
+# parser.add_argument("--mfile", type=str, help="olg file to write")
+# parser.add_argument("--ofile", type=str, help="observe file to write")
+# parser.add_argument("--mapfile", type=str, "map file to write, it maps document links to id numbers")
+# parser.add_argument("--dfile", type=str, help="")
+# parser.add_argument("-rm", type=float)
+# parser.add_argument("-ro", type=float)
+parser.add_argument("-nr", type=int, help="number of rules to sample")
+parser.add_argument("-nh", type=int, help="number of hasword tuples to sample")
+parser.add_argument("-nl", type=int, help="number of link tuples to sample")
 args = parser.parse_args()
 
-mf = open(args.mfile, "w")
-of = open(args.ofile, "w")
-mapf = open(args.mapfile, "w")
-df = open(args.dfile, "w")
+if not os.path.exists(args.dir):
+  os.makedirs(args.dir)
+else:
+  print(args.dir+" already exists")
+
+name = args.dir.split("/")[-1]
+
+mfile = os.path.join(args.dir, name+".olg")
+ofile = os.path.join(args.dir, name+".obs")
+mapfile = os.path.join(args.dir, name+".map")
+dfile = os.path.join(args.dir, name+".db")
+sfile = os.path.join(args.dir, name+".txt")
+
+mf = open(mfile, "w")
+of = open(ofile, "w")
+mapf = open(mapfile, "w")
+df = open(dfile, "w")
+sf = open(sfile, "w")
 
 mf.write("materialize(hasword, infinity, infinity, keys(1, 2:str, 3:int32)).\n")
 mf.write("materialize(topic, infinity, infinity, keys(1, 2:str, 3:int32)).\n")
@@ -44,7 +63,8 @@ for line in mlnFile.readlines():
 
 indices = [i for i in range(len(mlnList))]
 random.shuffle(indices)
-mlnList = np.array(mlnList)[indices[:int(len(indices)*args.rm)]].tolist()
+# mlnList = np.array(mlnList)[indices[:int(len(indices)*args.rm)]].tolist()
+mlnList = np.array(mlnList)[indices[:min(len(mlnList), args.nr)]].tolist()
 
 for i, l in enumerate(mlnList):
   try:
@@ -82,8 +102,8 @@ for line in obsFile.readlines():
   obsList.append(line)
 
 m = {}
-counth = 0
-countl = 0
+hl = []
+ll = []
 for i, line in enumerate(obsList):
   p = 0
   while line[p]!='(':
@@ -100,30 +120,59 @@ for i, line in enumerate(obsList):
     p3 += 1
   a2 = line[p2:p3]
   if predicate=="hasword":
-    if random.random()<args.ro:
-      counth += 1
-      if not a2 in m:
-        m[a2] = len(m)+1
-        mapf.write(str(m[a2])+" "+a2+"\n")
-      of.write(predicate+"_"+a1+"_"+str(m[a2])+" 1\n")
-      df.write(predicate+" "+a1+" "+str(m[a2])+"\n")
+    hl.append([predicate, a1, a2])
+    # if random.random()<args.ro:
+    #   counth += 1
+    #   if not a2 in m:
+    #     m[a2] = len(m)+1
+    #     mapf.write(str(m[a2])+" "+a2+"\n")
+    #   of.write(predicate+"_"+a1+"_"+str(m[a2])+" 1\n")
+    #   df.write(predicate+" "+a1+" "+str(m[a2])+"\n")
   elif predicate=="links":
-    if random.random()<0.2:
-    # if True:
-      countl += 1
-      if not a1 in m:
-        m[a1] = len(m)+1
-        mapf.write(str(m[a1])+" "+a1+"\n")
-      if not a2 in m:
-        m[a2] = len(m)+1
-        mapf.write(str(m[a2])+" "+a2+"\n")
-      of.write(predicate+"_"+str(m[a1])+"_"+str(m[a2])+" 1\n")
-      df.write(predicate+" "+str(m[a1])+" "+str(m[a2])+"\n")
+    ll.append([predicate, a1, a2])
+    # if random.random()<0.2:
+    # # if True:
+    #   countl += 1
+    #   if not a1 in m:
+    #     m[a1] = len(m)+1
+    #     mapf.write(str(m[a1])+" "+a1+"\n")
+    #   if not a2 in m:
+    #     m[a2] = len(m)+1
+    #     mapf.write(str(m[a2])+" "+a2+"\n")
+    #   of.write(predicate+"_"+str(m[a1])+"_"+str(m[a2])+" 1\n")
+    #   df.write(predicate+" "+str(m[a1])+" "+str(m[a2])+"\n")
 
+random.shuffle(hl)
+hl = hl[:min(len(hl), args.nh)]
+for predicate, a1, a2 in hl:
+  if not a2 in m:
+    m[a2] = len(m)+1
+    mapf.write(str(m[a2])+" "+a2+"\n")
+  of.write(predicate+"_"+a1+"_"+str(m[a2])+" 1\n")
+  df.write(predicate+" "+a1+" "+str(m[a2])+"\n")
+
+
+random.shuffle(ll)
+ll = ll[:min(len(ll), args.nl)]
+for predicate, a1, a2 in ll:
+  if not a1 in m:
+    m[a1] = len(m)+1
+    mapf.write(str(m[a1])+" "+a1+"\n")
+  if not a2 in m:
+    m[a2] = len(m)+1
+    mapf.write(str(m[a2])+" "+a2+"\n")
+  of.write(predicate+"_"+str(m[a1])+"_"+str(m[a2])+" 1\n")
+  df.write(predicate+" "+str(m[a1])+" "+str(m[a2])+"\n")
+
+counth = len(hl)
+countl = len(ll)
 print(counth, countl)
-
+sf.write("rule numbers: "+str(args.nr)+"\n")
+sf.write("rule numbers: "+str(args.nh)+"\n")
+sf.write("rule numbers: "+str(args.nl)+"\n")
 
 mf.close()
 of.close()
 mapf.close()
 df.close()
+sf.close()

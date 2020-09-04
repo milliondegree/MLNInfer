@@ -1,0 +1,22 @@
+materialize(hasword, infinity, infinity, keys(1, 2:str, 3:int32)).
+materialize(topic, infinity, infinity, keys(1, 2:str, 3:int32)).
+materialize(links, infinity, infinity, keys(1, 2:int32, 3:int32)).
+materialize(shaResult, infinity, infinity, keys(1, 2:cid, 3:str)).
+
+
+rl topic(@Local, T, P1) :- links(@Local, P1, P2), topic(@Local, T, P2), P1!=P2.
+
+r0 topic(@Local, T, P) :- hasword(@Local, W, P), T:="Person", W=="environ".
+r1 topic(@Local, T, P) :- hasword(@Local, W, P), T:="Student", W=="book".
+r2 topic(@Local, T, P) :- hasword(@Local, W, P), T:="Course", W=="semant".
+r3 topic(@Local, T, P) :- hasword(@Local, W, P), T:="Faculty", W=="kernel".
+r4 topic(@Local, T, P) :- hasword(@Local, W, P), T:="Person", W=="professor".
+r5 topic(@Local, T, P) :- hasword(@Local, W, P), T:="Faculty", W=="queue".
+r6 topic(@Local, T, P) :- hasword(@Local, W, P), T:="Student", W=="nov".
+r7 topic(@Local, T, P) :- hasword(@Local, W, P), T:="Course", W=="summari".
+r8 topic(@Local, T, P) :- hasword(@Local, W, P), T:="Faculty", W=="read".
+r9 topic(@Local, T, P) :- hasword(@Local, W, P), T:="Faculty", W=="paper".
+
+rs1 shaResult(@Local, VID, Content) :- topic(@Local, T, P), VID:=f_sha1("topic"+Local+T+P), Name:="topic", Content:=Name+"_"+T+"_"+P.
+rs2 shaResult(@Local, VID, Content) :- hasword(@Local, W, P), VID:=f_sha1("hasword"+Local+W+P), Name:="hasword", Content:=Name+"_"+W+"_"+P.
+rs3 shaResult(@Local, VID, Content) :- links(@Local, P1, P2), VID:=f_sha1("links"+Local+P1+P2), Name:="links", Content:=Name+"_"+P1+"_"+P2.
