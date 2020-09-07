@@ -128,21 +128,20 @@ for i, line in enumerate(obsList):
 
 
 for i in range(10):
-
   of = ofList[i]
   df = dfList[i]
   m = {}
   random.shuffle(hl)
-  hl = hl[:min(len(hl), (i+1)*100)]
-  for predicate, a1, a2 in hl:
+  hll = hl[:min(len(hl), (i+1)*100)]
+  for predicate, a1, a2 in hll:
     if not a2 in m:
       m[a2] = len(m)+1
     of.write(predicate+"_"+a1+"_"+str(m[a2])+" 1\n")
     df.write(predicate+" "+a1+" "+str(m[a2])+"\n")
 
   random.shuffle(ll)
-  ll = ll[:min(len(hl), (i+1)*100)]
-  for predicate, a1, a2 in ll:
+  lll = ll[:min(len(hl), (i+1)*100)]
+  for predicate, a1, a2 in lll:
     if not a1 in m:
       m[a1] = len(m)+1
     if not a2 in m:
