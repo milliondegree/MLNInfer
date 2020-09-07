@@ -6,15 +6,9 @@ import numpy as np
 
 parser = argparse.ArgumentParser()
 parser.add_argument("-dir", type=str, help="target directory for one time sample")
-# parser.add_argument("--mfile", type=str, help="olg file to write")
-# parser.add_argument("--ofile", type=str, help="observe file to write")
-# parser.add_argument("--mapfile", type=str, "map file to write, it maps document links to id numbers")
-# parser.add_argument("--dfile", type=str, help="")
-# parser.add_argument("-rm", type=float)
-# parser.add_argument("-ro", type=float)
-parser.add_argument("-nr", type=int, help="number of rules to sample")
-parser.add_argument("-nh", type=int, help="number of hasword tuples to sample")
-parser.add_argument("-nl", type=int, help="number of link tuples to sample")
+# parser.add_argument("-nr", type=int, help="number of rules to sample")
+# parser.add_argument("-nh", type=int, help="number of hasword tuples to sample")
+# parser.add_argument("-nl", type=int, help="number of link tuples to sample")
 args = parser.parse_args()
 
 if not os.path.exists(args.dir):
@@ -25,16 +19,20 @@ else:
 name = args.dir.split("/")[-1]
 
 mfile = os.path.join(args.dir, name+".olg")
-ofile = os.path.join(args.dir, name+".obs")
-mapfile = os.path.join(args.dir, name+".map")
-dfile = os.path.join(args.dir, name+".db")
-sfile = os.path.join(args.dir, name+".txt")
+ofileList = []
+dfileList = []
+for i in range(1, 11):
+  ofileList.append(os.path.join(args.dir, name+str(i)+".obs"))
+  dfileList.append(os.path.join(args.dir, name+str(i)+".db"))
 
 mf = open(mfile, "w")
-of = open(ofile, "w")
-mapf = open(mapfile, "w")
-df = open(dfile, "w")
-sf = open(sfile, "w")
+ofList = []
+dfList = []
+print(ofileList)
+for ele in ofileList:
+  ofList.append(open(ele, 'w'))
+for ele in dfileList:
+  dfList.append(open(ele, 'w'))
 
 mf.write("materialize(hasword, infinity, infinity, keys(1, 2:str, 3:int32)).\n")
 mf.write("materialize(topic, infinity, infinity, keys(1, 2:str, 3:int32)).\n")
@@ -44,10 +42,11 @@ mf.write("\n\n")
 mf.write("rl topic(@Local, T, P1) :- links(@Local, P1, P2), topic(@Local, T, P2), P1!=P2.\n")
 mf.write("\n")
 
-of.write("hasword 0\n")
-of.write("topic -2.04659\n")
-of.write("links 0\n")
-of.write("rl -0.11167\n")
+for of in ofList:
+  of.write("hasword 0\n")
+  of.write("topic -2.04659\n")
+  of.write("links 0\n")
+  of.write("rl -0.11167\n")
 
 
 mlnFile = open("./data/hypertext-class/hypertext-class-out.mln", "r")
@@ -64,7 +63,7 @@ for line in mlnFile.readlines():
 indices = [i for i in range(len(mlnList))]
 random.shuffle(indices)
 # mlnList = np.array(mlnList)[indices[:int(len(indices)*args.rm)]].tolist()
-mlnList = np.array(mlnList)[indices[:min(len(mlnList), args.nr)]].tolist()
+mlnList = np.array(mlnList)[indices[:min(len(mlnList), 500)]].tolist()
 countr = len(mlnList)
 
 for i, l in enumerate(mlnList):
@@ -86,7 +85,8 @@ for i, l in enumerate(mlnList):
       p2 += 1
     T = l[5][p1+1:p2]
     mf.write(rule_name+" topic(@Local, T, P) :- hasword(@Local, W, P), T:=\""+T+"\", W==\""+W+"\".\n")
-    of.write(rule_name+" "+str(rule_weight)+"\n")
+    for of in ofList:
+      of.write(rule_name+" "+str(rule_weight)+"\n")
   except:
     print(l)
 
@@ -102,7 +102,8 @@ for line in obsFile.readlines():
   line = line.strip()
   obsList.append(line)
 
-m = {}
+
+
 hl = []
 ll = []
 for i, line in enumerate(obsList):
@@ -125,37 +126,33 @@ for i, line in enumerate(obsList):
   elif predicate=="links":
     ll.append([predicate, a1, a2])
 
-random.shuffle(hl)
-hl = hl[:min(len(hl), args.nh)]
-for predicate, a1, a2 in hl:
-  if not a2 in m:
-    m[a2] = len(m)+1
-    mapf.write(str(m[a2])+" "+a2+"\n")
-  of.write(predicate+"_"+a1+"_"+str(m[a2])+" 1\n")
-  df.write(predicate+" "+a1+" "+str(m[a2])+"\n")
 
+for i in range(10):
 
-random.shuffle(ll)
-ll = ll[:min(len(ll), args.nl)]
-for predicate, a1, a2 in ll:
-  if not a1 in m:
-    m[a1] = len(m)+1
-    mapf.write(str(m[a1])+" "+a1+"\n")
-  if not a2 in m:
-    m[a2] = len(m)+1
-    mapf.write(str(m[a2])+" "+a2+"\n")
-  of.write(predicate+"_"+str(m[a1])+"_"+str(m[a2])+" 1\n")
-  df.write(predicate+" "+str(m[a1])+" "+str(m[a2])+"\n")
+  of = ofList[i]
+  df = dfList[i]
+  m = {}
+  random.shuffle(hl)
+  hl = hl[:min(len(hl), (i+1)*100)]
+  for predicate, a1, a2 in hl:
+    if not a2 in m:
+      m[a2] = len(m)+1
+    of.write(predicate+"_"+a1+"_"+str(m[a2])+" 1\n")
+    df.write(predicate+" "+a1+" "+str(m[a2])+"\n")
 
-counth = len(hl)
-countl = len(ll)
-print(countr, counth, countl)
-sf.write("rule numbers: "+str(countr)+"\n")
-sf.write("rule numbers: "+str(counth)+"\n")
-sf.write("rule numbers: "+str(countl)+"\n")
+  random.shuffle(ll)
+  ll = ll[:min(len(hl), (i+1)*100)]
+  for predicate, a1, a2 in ll:
+    if not a1 in m:
+      m[a1] = len(m)+1
+    if not a2 in m:
+      m[a2] = len(m)+1
+    of.write(predicate+"_"+str(m[a1])+"_"+str(m[a2])+" 1\n")
+    df.write(predicate+" "+str(m[a1])+" "+str(m[a2])+"\n")
+
 
 mf.close()
-of.close()
-mapf.close()
-df.close()
-sf.close()
+for of in ofList:
+  of.close()
+for df in dfList:
+  df.close()

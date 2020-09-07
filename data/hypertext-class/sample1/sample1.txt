@@ -1,3 +1,0 @@
-rule numbers: 10
-rule numbers: 1000
-rule numbers: 1000

@@ -604,7 +604,6 @@ int main(int argc, char* argv[]) {
     else {
       probabilityQueryAll(mln, stoi(args["round"]), args["mode"]);
     }
-
   }
 
   if (args.find("save")!=args.end()) {
