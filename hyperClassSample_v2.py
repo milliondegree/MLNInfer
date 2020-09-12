@@ -140,7 +140,7 @@ for i in range(10):
     df.write(predicate+" "+a1+" "+str(m[a2])+"\n")
 
   random.shuffle(ll)
-  lll = ll[:min(len(hl), (i+1)*100)]
+  lll = ll[:min(len(hl), 500)]
   for predicate, a1, a2 in lll:
     if not a1 in m:
       m[a1] = len(m)+1
