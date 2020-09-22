@@ -21,7 +21,7 @@ name = args.dir.split("/")[-1]
 mfile = os.path.join(args.dir, name+".olg")
 ofileList = []
 dfileList = []
-for i in range(1, 11):
+for i in range(1, 21):
   ofileList.append(os.path.join(args.dir, name+str(i)+".obs"))
   dfileList.append(os.path.join(args.dir, name+str(i)+".db"))
 
@@ -126,13 +126,14 @@ for i, line in enumerate(obsList):
   elif predicate=="links":
     ll.append([predicate, a1, a2])
 
+print(len(hl), len(ll))
 
-for i in range(10):
+for i in range(20):
   of = ofList[i]
   df = dfList[i]
   m = {}
   random.shuffle(hl)
-  hll = hl[:min(len(hl), (i+1)*100)]
+  hll = hl[:min(len(hl), (i+1)*50)]
   for predicate, a1, a2 in hll:
     if not a2 in m:
       m[a2] = len(m)+1
@@ -140,7 +141,7 @@ for i in range(10):
     df.write(predicate+" "+a1+" "+str(m[a2])+"\n")
 
   random.shuffle(ll)
-  lll = ll[:min(len(hl), 500)]
+  lll = ll[:min(len(hl), (i+1)*50)]
   for predicate, a1, a2 in lll:
     if not a1 in m:
       m[a1] = len(m)+1

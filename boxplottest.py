@@ -42,6 +42,25 @@ def drawBoxPlot(input):
     plt.show()
     
 
+def drawVariancePlot(input):
+  file = open(input, 'r')
+  rounds = []
+  stds = []
+  for line in file.readlines():
+    line = line.strip()
+    if len(line)==0:
+      continue
+    splits = line.split(' ')
+    if splits[0]=="rounds:":
+      rounds.append(splits[1])
+    else:
+      probs = [float(ele) for ele in splits[1:]]
+      stds.append(np.std(probs))
+  plt.bar(rounds, stds, color="blue")
+  plt.xlabel("gibbs sampling rounds")
+  plt.ylabel("standard derivation of 100 results")
+  plt.show()
+
 if __name__ == '__main__':
   parser = argparse.ArgumentParser()
   parser.add_argument("--input", type=str)
@@ -49,3 +68,4 @@ if __name__ == '__main__':
   args = parser.parse_args()
 
   drawBoxPlot(args.input)
+  drawVariancePlot(args.input)

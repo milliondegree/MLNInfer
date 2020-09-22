@@ -1,0 +1,17 @@
+24691
+Student
+Faculty
+Staff
+ResearchProject
+Course
+Department
+Person
+49764527
+49821000
+51298811
+51355839
+51421264
+51481047
+51535746
+time=999 node=10.1.1.4 tuple=records records_attr1=10.1.1.4 records_attr2=c2a4094e6ff0bf81cefefebaf9941cfebbf9aa70 records_attr3=534d178bdd925116f684bb8de9f04a1c672480e9 records_attr4=topic_Faculty_8((rl@n257(links_8_383*topic_Faculty_383(r182@n257(hasword_date_383))))+(rl@n257(links_8_498*topic_Faculty_498(rl@n257(links_498_392*topic_Faculty_392((rl@n257(links_392_498*topic_Faculty_498))+(rl@n257(links_392_9*topic_Faculty_9((r182@n257(hasword_date_9))+(rl@n257(links_9_498*topic_Faculty_498))+(rl@n257(links_9_392*topic_Faculty_392))))))))))) 
+time cost: 58.1494 seconds

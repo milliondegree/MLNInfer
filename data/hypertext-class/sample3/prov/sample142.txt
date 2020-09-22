@@ -1,0 +1,1 @@
+topic_Faculty_8((rl@n257(links_8_383*topic_Faculty_383(r182@n257(hasword_date_383))))+(rl@n257(links_8_498*topic_Faculty_498(rl@n257(links_498_392*topic_Faculty_392((rl@n257(links_392_498*topic_Faculty_498))+(rl@n257(links_392_9*topic_Faculty_9((r182@n257(hasword_date_9))+(rl@n257(links_9_498*topic_Faculty_498))+(rl@n257(links_9_392*topic_Faculty_392)))))))))))

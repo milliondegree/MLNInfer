@@ -693,7 +693,10 @@ void MLN::gibbsSampling_vp(int round, string query, double delta) {
   // initialize randomly
   map<string, double> assignments;
   for (string query : valid_unknown) {
-    assignments[query] = 0.5;
+    // assignments[query] = 0.5;
+    // assignments[query] = static_cast <float> (rand()) / static_cast <float> (RAND_MAX);
+    assignments[query] = distribution(generator);
+    // cout << query << ' ' << assignments[query] << endl;
   }
   map<string, double> temp (assignments);
 
@@ -787,10 +790,11 @@ void MLN::gibbsSampling_vp(int round, string query, double delta) {
       //   cout << query << ": " << assignments[query] << ' ' << temp[query] << endl;
       // }
     }
-    // cout << endl << "round " << r << " finished " << endl << endl;
+    // cout << endl << "round " << r << " finished " << endl;
     // for (string query : this->queries) {
     //   cout << query << ": " << temp[query] << endl;
     // }
+    // cout << endl;
     bool converge = true;
     for (int qi : q_indices) {
       string query = v_query[qi];
@@ -798,7 +802,7 @@ void MLN::gibbsSampling_vp(int round, string query, double delta) {
       converge &= converges[qi];
     }
     if (converge) {
-      // cout << "converge at iteration: " << r << endl;
+      cout << "converge at iteration: " << r << endl;
       break;
     }
   }

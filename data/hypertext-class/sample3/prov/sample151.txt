@@ -1,0 +1,4 @@
+topic_ResearchProject_4(r40@n257(hasword_solv_4))
+topic_Student_3((r451@n257(hasword_access_3))+(rl@n257(links_3_117*topic_Student_117(r26@n257(hasword_background_117)))))
+topic_Faculty_3(rl@n257(links_3_117*topic_Faculty_117(r93@n257(hasword_type_117))))
+topic_Person_3(rl@n257(links_3_117*topic_Person_117(r397@n257(hasword_background_117))))

@@ -103,10 +103,10 @@ void printLiterals(MLN mln) {
   cout << "size of observed tuples: " << obs.size() << endl;
   cout << "size of unobserved tuples: " << queries.size() << endl;
   cout << endl;
-  for (Clique c : mln.getCliques()) {
-    cout << c.toString() << endl;
-  }
-  cout << endl;
+  // for (Clique c : mln.getCliques()) {
+  //   cout << c.toString() << endl;
+  // }
+  // cout << endl;
 }
 
 
@@ -177,14 +177,14 @@ void probabilityQuery_mcsat(MLN& mln, int round, string query_name) {
 }
 
 
-void probabilityQuery(MLN& mln, int round, string query_name, string mode) {
+void probabilityQuery(MLN& mln, int round, string query_name, string mode, double delta) {
   clock_t t1 = clock();
   // mln.gibbsSampling_v3(round);
   if (mode=="gibbs") {
     mln.gibbsSampling_v4(round, query_name);
   }
   else if (mode=="pgibbs") {
-    mln.gibbsSampling_vp(round, query_name, 0.000001);
+    mln.gibbsSampling_vp(round, query_name, delta);
   }
   else if (mode=="mcsat"){
     mln.mcsat(round, query_name);
@@ -206,6 +206,7 @@ void probabilityQueryAll(MLN& mln, int round, string mode) {
   unordered_set<string> queries = mln.getQueryLiterals();
   for (string query : queries) {
     MLN mmln = mln.getMinimalMLN(query);
+    printLiterals(mmln);
     if (mode=="gibbs") {
       mmln.gibbsSampling_v4(round, query);
     }
@@ -314,22 +315,21 @@ map<string, vector<double>> boxplotTest(MLN& mln, int round, int times) {
 }
 
 
-void boxplotTestSave(MLN mln, string file_name, int times) {
+void boxplotTestSave(MLN& mln, string query_name, string file_name, int times) {
   ofstream file;
   file.open(file_name);
-  vector<int> rounds = {1000, 2000, 5000, 10000, 50000, 100000};
+  vector<int> rounds = {1, 2, 4, 6, 8, 10};
   unordered_set<string> queries = mln.getQueryLiterals();
   for (int round : rounds) {
     // cout << round << endl;
     file << "rounds: " << round << ' ' << "times: " << times << endl;
-    // map<string, vector<double>> values = boxplotTest(mln, round, times);
-    map<string, vector<double>> values = mln.getAllProbs(round, times);
-    for (string s : queries) {
-      file << s << ": ";
-      for (double v : values[s]) {
-        file << v << ' ';
-      }
-      file << endl;
+    file << query_name << ": ";
+    for (int i=0; i<times; i++) {
+      cout << round << ' ' << i << endl;
+      // mln.gibbsSampling_v4(round, query_name);
+      mln.gibbsSampling_vp(round, query_name, 1e-10);
+      double prob = mln.queryProb(query_name);
+      file << prob << ' ';
     }
     file << endl;
   }
@@ -590,15 +590,16 @@ int main(int argc, char* argv[]) {
   }
   */
 
-  // printLiterals(mln);
+  printLiterals(mln);
   
   MLN mmln;
 
   if (args.find("query_name")!=args.end()) {
     if (args["query_name"]!="all") {
       mmln = mln.getMinimalMLN(args["query_name"]);
-      // printLiterals(mmln);
-      probabilityQuery(mmln, stoi(args["round"]), args["query_name"], args["mode"]);
+      // mmln = mln;
+      printLiterals(mmln);
+      probabilityQuery(mmln, stoi(args["round"]), args["query_name"], args["mode"], stod(args["delta"]));
       // verifyProb(mmln);
     }
     else {
@@ -611,7 +612,7 @@ int main(int argc, char* argv[]) {
     saveToFile(mln, args["save"]);
   }
 
-  // boxplotTestSave(mln, "./data/record/cancer8_2.txt", 100);
+  boxplotTestSave(mmln, args["query_name"], "./data/hypertext-class/sample3/record/topic_Faculty_8_pgibbs.txt", 100);
   // save3DPlot(mln, "./data/record/test1.txt", args["query_name"], stoi(args["round"]), stod(args["delta"]));
 
   if (args.find("influence_name")!=args.end()) {
