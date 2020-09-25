@@ -6,6 +6,7 @@ import numpy as np
 
 parser = argparse.ArgumentParser()
 parser.add_argument("-dir", type=str, help="target directory for one time sample")
+parser.add_argument("-n", type=int, help="number of samples")
 # parser.add_argument("-nr", type=int, help="number of rules to sample")
 # parser.add_argument("-nh", type=int, help="number of hasword tuples to sample")
 # parser.add_argument("-nl", type=int, help="number of link tuples to sample")
@@ -21,7 +22,7 @@ name = args.dir.split("/")[-1]
 mfile = os.path.join(args.dir, name+".olg")
 ofileList = []
 dfileList = []
-for i in range(1, 21):
+for i in range(1, args.n+1):
   ofileList.append(os.path.join(args.dir, name+str(i)+".obs"))
   dfileList.append(os.path.join(args.dir, name+str(i)+".db"))
 
@@ -128,27 +129,40 @@ for i, line in enumerate(obsList):
 
 print(len(hl), len(ll))
 
-for i in range(20):
+for i in range(args.n):
   of = ofList[i]
   df = dfList[i]
   m = {}
   random.shuffle(hl)
-  hll = hl[:min(len(hl), (i+1)*50)]
+  hll = hl[:min(len(hl), (i+1)*70)]
   for predicate, a1, a2 in hll:
     if not a2 in m:
       m[a2] = len(m)+1
     of.write(predicate+"_"+a1+"_"+str(m[a2])+" 1\n")
     df.write(predicate+" "+a1+" "+str(m[a2])+"\n")
 
+  # random.shuffle(ll)
+  # lll = ll[:min(len(hl), (i+1)*50)]
+  # for predicate, a1, a2 in lll:
+  #   if not a1 in m:
+  #     m[a1] = len(m)+1
+  #   if not a2 in m:
+  #     m[a2] = len(m)+1
+  #   of.write(predicate+"_"+str(m[a1])+"_"+str(m[a2])+" 1\n")
+  #   df.write(predicate+" "+str(m[a1])+" "+str(m[a2])+"\n")
+
   random.shuffle(ll)
-  lll = ll[:min(len(hl), (i+1)*50)]
-  for predicate, a1, a2 in lll:
-    if not a1 in m:
-      m[a1] = len(m)+1
-    if not a2 in m:
-      m[a2] = len(m)+1
-    of.write(predicate+"_"+str(m[a1])+"_"+str(m[a2])+" 1\n")
-    df.write(predicate+" "+str(m[a1])+" "+str(m[a2])+"\n")
+  lcount = 0
+  for j in range(len(ll)):
+    predicate, a1, a2 = ll[j]
+    if a1 in m and a2 in m:
+      of.write(predicate+"_"+str(m[a1])+"_"+str(m[a2])+" 1\n")
+      df.write(predicate+" "+str(m[a1])+" "+str(m[a2])+"\n")
+      lcount += 1
+    if lcount >= (i+1)*30:
+      break
+  print(i, (i+1)*40, lcount)
+
 
 
 mf.close()
