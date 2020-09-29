@@ -24,8 +24,8 @@ for line in infile.readlines():
     toWrite = split[6][14:]
     outfile.write(toWrite+'\n')
 
-
-print(((times[-1]-times[1])/count)/1000000)
+print("maintenance time:", (times[1]-times[0])/1000000, "s")
+print("average query time:", ((times[-1]-times[1])/count)/1000000, "s")
 
 
 infile.close()

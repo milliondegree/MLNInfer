@@ -6,7 +6,47 @@ def drawQueryTimes():
 
   plt.bar(xList, queryList, color="blue")
   plt.xlabel("number of tuples")
-  plt.ylabel("average time of query")
+  plt.ylabel("average time of provenance query")
+  plt.show()
+
+
+def drawQueryTimes_4():
+  xList = ["100", "200", "300", "400", "500", "600", "700", "800", "900", "1000"]
+  queryList = [0.162, 0.236, 0.447, 0.777, 1.216, 2.22, 2.18, 2.19, 1.03, 6.47]
+
+  plt.bar(xList, queryList, color="blue")
+  plt.xlabel("number of tuples")
+  plt.ylabel("average time of provenance query")
+  plt.show()
+
+
+def drawQueryTimes_5():
+  xList = ["100", "200", "300", "400", "500", "600", "700", "800", "900", "1000"]
+  queryList = [0.126, 0.136, 0.216, 0.27, 0.364, 0.398, 0.623, 0.634, 0.712, 0.866]
+
+  plt.bar(xList, queryList, color="blue")
+  plt.xlabel("number of tuples")
+  plt.ylabel("average time of provenance query")
+  plt.show()
+
+
+def drawQueryTimes_7():
+  xList = ["100", "200", "300", "400", "500", "600", "700", "800", "900", "1000"]
+  queryList = [0.196, 0.343, 0.567, 0.834, 1.136, 1.778, 2.14, 2.66, 4.56, 7.18]
+
+  plt.bar(xList, queryList, color="blue")
+  plt.xlabel("number of tuples")
+  plt.ylabel("average time of provenance query")
+  plt.show()
+
+
+def drawQueryTimes_7():
+  xList = ["100", "200", "300", "400", "500", "600", "700", "800", "900", "1000"]
+  queryList = [0.196, 0.343, 0.567, 0.834, 1.136, 1.778, 2.14, 2.66, 4.56, 7.18]
+
+  plt.bar(xList, queryList, color="blue")
+  plt.xlabel("number of tuples")
+  plt.ylabel("probability query time")
   plt.show()
 
 
@@ -20,5 +60,8 @@ def drawProbTimes():
 
 
 if __name__ == '__main__':
-  drawQueryTimes()
-  drawProbTimes()
+  # drawQueryTimes()
+  # drawProbTimes()
+  drawQueryTimes_4()
+  drawQueryTimes_5()
+  drawQueryTimes_7()

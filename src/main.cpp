@@ -479,6 +479,7 @@ void setDefaultArgs(unordered_map<string, string>& args) {
   args["provenance_file"] = "./data/prov/cancer2.txt";
   args["round"] = "100000";
   args["delta"] = "0.01";
+  args["approx"] = "1e-7";
   args["equation"] = "0";
   args["mode"] = "pgibbs";
 }
@@ -561,6 +562,9 @@ int main(int argc, char* argv[]) {
     else if (argvs[i]=="-r" || argvs[i]=="-round") {
       args["round"] = argvs[i+1];
     }
+    else if (argvs[i]=="-a") {
+      args["approx"] = argvs[i+1];
+    }
     else if (argvs[i]=="-d" || argvs[i]=="-delta") {
       args["delta"] = argvs[i+1];
     }
@@ -599,7 +603,7 @@ int main(int argc, char* argv[]) {
       mmln = mln.getMinimalMLN(args["query_name"]);
       // mmln = mln;
       printLiterals(mmln);
-      probabilityQuery(mmln, stoi(args["round"]), args["query_name"], args["mode"], stod(args["delta"]));
+      probabilityQuery(mmln, stoi(args["round"]), args["query_name"], args["mode"], stod(args["approx"]));
       // verifyProb(mmln);
     }
     else {
@@ -612,7 +616,7 @@ int main(int argc, char* argv[]) {
     saveToFile(mln, args["save"]);
   }
 
-  boxplotTestSave(mmln, args["query_name"], "./data/hypertext-class/sample3/record/topic_Faculty_8_pgibbs.txt", 100);
+  // boxplotTestSave(mmln, args["query_name"], "./data/hypertext-class/sample3/record/topic_Faculty_8_pgibbs.txt", 100);
   // save3DPlot(mln, "./data/record/test1.txt", args["query_name"], stoi(args["round"]), stod(args["delta"]));
 
   if (args.find("influence_name")!=args.end()) {

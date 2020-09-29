@@ -802,7 +802,7 @@ void MLN::gibbsSampling_vp(int round, string query, double delta) {
       converge &= converges[qi];
     }
     if (converge) {
-      cout << "converge at iteration: " << r << endl;
+      // cout << "converge at iteration: " << r << endl;
       break;
     }
   }

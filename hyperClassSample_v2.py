@@ -64,7 +64,7 @@ for line in mlnFile.readlines():
 indices = [i for i in range(len(mlnList))]
 random.shuffle(indices)
 # mlnList = np.array(mlnList)[indices[:int(len(indices)*args.rm)]].tolist()
-mlnList = np.array(mlnList)[indices[:min(len(mlnList), 500)]].tolist()
+mlnList = np.array(mlnList)[indices[:min(len(mlnList), 5000)]].tolist()
 countr = len(mlnList)
 
 for i, l in enumerate(mlnList):
@@ -129,40 +129,77 @@ for i, line in enumerate(obsList):
 
 print(len(hl), len(ll))
 
+# for i in range(args.n):
+#   of = ofList[i]
+#   df = dfList[i]
+#   m = {}
+#   random.shuffle(hl)
+#   hll = hl[:min(len(hl), (i+1)*70)]
+#   for predicate, a1, a2 in hll:
+#     if not a2 in m:
+#       m[a2] = len(m)+1
+#     of.write(predicate+"_"+a1+"_"+str(m[a2])+" 1\n")
+#     df.write(predicate+" "+a1+" "+str(m[a2])+"\n")
+
+#   # random.shuffle(ll)
+#   # lll = ll[:min(len(hl), (i+1)*50)]
+#   # for predicate, a1, a2 in lll:
+#   #   if not a1 in m:
+#   #     m[a1] = len(m)+1
+#   #   if not a2 in m:
+#   #     m[a2] = len(m)+1
+#   #   of.write(predicate+"_"+str(m[a1])+"_"+str(m[a2])+" 1\n")
+#   #   df.write(predicate+" "+str(m[a1])+" "+str(m[a2])+"\n")
+
+#   random.shuffle(ll)
+#   lcount = 0
+#   for j in range(len(ll)):
+#     predicate, a1, a2 = ll[j]
+#     if a1 in m and a2 in m:
+#       of.write(predicate+"_"+str(m[a1])+"_"+str(m[a2])+" 1\n")
+#       df.write(predicate+" "+str(m[a1])+" "+str(m[a2])+"\n")
+#       lcount += 1
+#     if lcount >= (i+1)*30:
+#       break
+#   print(i, (i+1)*40, lcount)
+
+
+m = {}
+olist = []
+dlist = []
+ih = 0
+il = 0
+random.shuffle(hl)
+random.shuffle(ll)
 for i in range(args.n):
   of = ofList[i]
   df = dfList[i]
-  m = {}
-  random.shuffle(hl)
-  hll = hl[:min(len(hl), (i+1)*70)]
-  for predicate, a1, a2 in hll:
-    if not a2 in m:
-      m[a2] = len(m)+1
-    of.write(predicate+"_"+a1+"_"+str(m[a2])+" 1\n")
-    df.write(predicate+" "+a1+" "+str(m[a2])+"\n")
-
-  # random.shuffle(ll)
-  # lll = ll[:min(len(hl), (i+1)*50)]
-  # for predicate, a1, a2 in lll:
-  #   if not a1 in m:
-  #     m[a1] = len(m)+1
-  #   if not a2 in m:
-  #     m[a2] = len(m)+1
-  #   of.write(predicate+"_"+str(m[a1])+"_"+str(m[a2])+" 1\n")
-  #   df.write(predicate+" "+str(m[a1])+" "+str(m[a2])+"\n")
-
-  random.shuffle(ll)
+  hcount = 0
   lcount = 0
-  for j in range(len(ll)):
-    predicate, a1, a2 = ll[j]
+  while hcount < 70:
+    predicate, a1, a2 = hl[ih]
+    if a2 not in m:
+      m[a2] = len(m)+1
+    olist.append(predicate+"_"+a1+"_"+str(m[a2])+" 1\n")
+    dlist.append(predicate+" "+a1+" "+str(m[a2])+"\n")
+    hcount += 1
+    ih += 1
+    if ih == len(hl):
+      ih = 0
+  while lcount < 30:
+    predicate, a1, a2 = ll[il]
     if a1 in m and a2 in m:
-      of.write(predicate+"_"+str(m[a1])+"_"+str(m[a2])+" 1\n")
-      df.write(predicate+" "+str(m[a1])+" "+str(m[a2])+"\n")
+      olist.append(predicate+"_"+str(m[a1])+"_"+str(m[a2])+" 1\n")
+      dlist.append(predicate+" "+str(m[a1])+" "+str(m[a2])+"\n")
       lcount += 1
-    if lcount >= (i+1)*30:
-      break
-  print(i, (i+1)*40, lcount)
+    il += 1
+    if il == len(ll):
+      il = 0
+  for j in range(len(olist)):
+    of.write(olist[j])
+    df.write(dlist[j])
 
+  
 
 
 mf.close()
