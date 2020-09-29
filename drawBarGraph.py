@@ -40,13 +40,23 @@ def drawQueryTimes_7():
   plt.show()
 
 
-def drawQueryTimes_7():
+def drawProbQueryTimes_7():
   xList = ["100", "200", "300", "400", "500", "600", "700", "800", "900", "1000"]
-  queryList = [0.196, 0.343, 0.567, 0.834, 1.136, 1.778, 2.14, 2.66, 4.56, 7.18]
+  queryList = [0.0003, 0.0003, 0.0004, 0.0004, 0.0044, 0.0046, 0.0056, 0.0058, 0.0086, 0.0168]
 
   plt.bar(xList, queryList, color="blue")
   plt.xlabel("number of tuples")
   plt.ylabel("probability query time")
+  plt.show()
+
+
+def drawInflQueryTimes_7():
+  xList = ["100", "200", "300", "400", "500", "600", "700", "800", "900", "1000"]
+  queryList = [0.0025, 0.0026, 0.006, 0.006, 0.39, 0.52, 0.74, 0.926, 1.736, 8.17]
+
+  plt.bar(xList, queryList, color="blue")
+  plt.xlabel("number of tuples")
+  plt.ylabel("influence query time of all related tuples")
   plt.show()
 
 
@@ -62,6 +72,8 @@ def drawProbTimes():
 if __name__ == '__main__':
   # drawQueryTimes()
   # drawProbTimes()
-  drawQueryTimes_4()
-  drawQueryTimes_5()
-  drawQueryTimes_7()
+  # drawQueryTimes_4()
+  # drawQueryTimes_5()
+  # drawQueryTimes_7()
+  drawProbQueryTimes_7()
+  drawInflQueryTimes_7()

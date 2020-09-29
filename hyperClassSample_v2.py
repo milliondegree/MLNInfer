@@ -14,17 +14,19 @@ args = parser.parse_args()
 
 if not os.path.exists(args.dir):
   os.makedirs(args.dir)
+  os.makedirs(os.path.join(args.dir, "prov"))
+  os.makedirs(os.path.join(args.dir, "images"))
 else:
   print(args.dir+" already exists")
 
 name = args.dir.split("/")[-1]
 
-mfile = os.path.join(args.dir, name+".olg")
+mfile = os.path.join(args.dir, "sample"+".olg")
 ofileList = []
 dfileList = []
 for i in range(1, args.n+1):
-  ofileList.append(os.path.join(args.dir, name+str(i)+".obs"))
-  dfileList.append(os.path.join(args.dir, name+str(i)+".db"))
+  ofileList.append(os.path.join(args.dir, "sample"+str(i)+".obs"))
+  dfileList.append(os.path.join(args.dir, "sample"+str(i)+".db"))
 
 mf = open(mfile, "w")
 ofList = []
