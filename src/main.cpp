@@ -607,7 +607,12 @@ int main(int argc, char* argv[]) {
       // verifyProb(mmln);
     }
     else {
-      probabilityQueryAll(mln, stoi(args["round"]), args["mode"]);
+      // probabilityQueryAll(mln, stoi(args["round"]), args["mode"]);
+      unordered_set<string> queries = mln.getQueryLiterals();
+      for (string query : queries) {
+        mmln = mln.getMinimalMLN(query);
+        probabilityQuery(mmln, stoi(args["round"]), query, args["mode"], stod(args["approx"]));
+      }
     }
   }
 

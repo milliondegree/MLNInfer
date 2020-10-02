@@ -32,7 +32,8 @@ def drawQueryTimes_5():
 
 def drawQueryTimes_7():
   xList = ["100", "200", "300", "400", "500", "600", "700", "800", "900", "1000"]
-  queryList = [0.196, 0.343, 0.567, 0.834, 1.136, 1.778, 2.14, 2.66, 4.56, 7.18]
+  queryList1 = [0.196, 0.343, 0.567, 0.834, 1.136, 1.778, 2.14, 2.66, 4.56, 7.18]
+  queryList2 = [0.274, 0.58, 0.94, 1.637, 2.174, 2.68, 3.2, 4.05, 5.3, 6.37]
 
   plt.bar(xList, queryList, color="blue")
   plt.xlabel("number of tuples")
