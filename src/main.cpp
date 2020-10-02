@@ -625,6 +625,7 @@ int main(int argc, char* argv[]) {
   // save3DPlot(mln, "./data/record/test1.txt", args["query_name"], stoi(args["round"]), stod(args["delta"]));
 
   if (args.find("influence_name")!=args.end()) {
+    assert(args["query_name"]!="all");
     if (args["influence_name"]=="all") {
       if (stoi(args["equation"])) {
         influenceQueryAll(mmln, args["query_name"], stoi(args["round"]), stod(args["delta"]), "equations");
