@@ -51,6 +51,18 @@ def drawProbQueryTimes_7():
   plt.show()
 
 
+
+def drawProbQueryTimes_7AVG():
+  xList = ["100", "200", "300", "400", "500", "600", "700", "800", "900", "1000"]
+  queryList = [9.44847775175644e-05, 0.00012698594847775175, 0.0002488618266978923, 0.00044092974238875876, 0.0008102927400468384, 0.001057814988290398, 0.0014867072599531617, 0.001601480093676815, 0.0025454028103044494, 0.005299372365339579]
+
+  plt.bar(xList, queryList, color="blue")
+  plt.xlabel("number of tuples")
+  plt.ylabel("probability query time")
+  plt.show()
+
+
+
 def drawInflQueryTimes_7():
   xList = ["100", "200", "300", "400", "500", "600", "700", "800", "900", "1000"]
   queryList = [0.0025, 0.0026, 0.006, 0.006, 0.39, 0.52, 0.74, 0.926, 1.736, 8.17]
@@ -76,5 +88,5 @@ if __name__ == '__main__':
   # drawQueryTimes_4()
   # drawQueryTimes_5()
   # drawQueryTimes_7()
-  drawProbQueryTimes_7()
-  drawInflQueryTimes_7()
+  drawProbQueryTimes_7AVG()
+  # drawInflQueryTimes_7()

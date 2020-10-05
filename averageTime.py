@@ -45,6 +45,6 @@ if __name__=="__main__":
     file = open(file_name, "r")
     dic = parseFile(file)
     dics.append(dic)
-    dics[-1] = selectDict(dics[-1], dics[0].keys)
-    avg_times.append(np.array(dics[i]).mean())
-  print avg_times
+    dics[-1] = selectDict(dics[-1], list(dics[0].keys()))
+    avg_times.append(np.mean(np.array(list(dics[-1].values()))))
+  print(avg_times)
