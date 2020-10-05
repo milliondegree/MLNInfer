@@ -27,17 +27,18 @@ def selectDict(dic, l):
 
 
 if __name__=="__main__":
+  dire = "sample8"
   file_names = [
-            "./data/hypertext-class/sample7/records/sample1.log",
-            "./data/hypertext-class/sample7/records/sample2.log",
-            "./data/hypertext-class/sample7/records/sample3.log",
-            "./data/hypertext-class/sample7/records/sample4.log",
-            "./data/hypertext-class/sample7/records/sample5.log",
-            "./data/hypertext-class/sample7/records/sample6.log",
-            "./data/hypertext-class/sample7/records/sample7.log",
-            "./data/hypertext-class/sample7/records/sample8.log",
-            "./data/hypertext-class/sample7/records/sample9.log",
-            "./data/hypertext-class/sample7/records/sample10.log"
+            "./data/hypertext-class/"+dire+"/records/sample1.log",
+            "./data/hypertext-class/"+dire+"/records/sample2.log",
+            "./data/hypertext-class/"+dire+"/records/sample3.log",
+            "./data/hypertext-class/"+dire+"/records/sample4.log",
+            "./data/hypertext-class/"+dire+"/records/sample5.log",
+            "./data/hypertext-class/"+dire+"/records/sample6.log",
+            "./data/hypertext-class/"+dire+"/records/sample7.log",
+            "./data/hypertext-class/"+dire+"/records/sample8.log",
+            "./data/hypertext-class/"+dire+"/records/sample9.log",
+            "./data/hypertext-class/"+dire+"/records/sample10.log"
           ]
   dics = []
   avg_times = []
