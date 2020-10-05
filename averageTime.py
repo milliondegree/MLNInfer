@@ -18,12 +18,12 @@ def parseFile(f):
 
 
 
-  def selectDict(dic, l):
-    ndic = {}
-    for key in dic:
-      if key in l:
-        ndic[key] = dic[key]
-    return ndic
+def selectDict(dic, l):
+  ndic = {}
+  for key in dic:
+    if key in l:
+      ndic[key] = dic[key]
+  return ndic
 
 
 if __name__=="__main__":
@@ -47,4 +47,4 @@ if __name__=="__main__":
     dics.append(dic)
     dics[i] = selectDict(dics[i], dics[0].keys)
     avg_times.append(np.array(dics[i]).mean())
-  print(avg_times)
+  print avg_times
