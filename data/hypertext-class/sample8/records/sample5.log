@@ -2,2616 +2,2616 @@ observed tuples: r3380 r465 r4745 r3898 r511 r3157 r1907 r258 r4130 r3362 r3969 
 size of observed tuples: 1274
 size of unobserved tuples: 871
 
-pgibbs sample time: 0.001006 seconds
-probability of topic_Faculty_91 is 0.101412
+pgibbs sample time: 0.001137 seconds
+probability of topic_Faculty_91 is 0.445545
 
-pgibbs sample time: 0.001037 seconds
-probability of topic_Student_174 is 0.109885
+pgibbs sample time: 0.001178 seconds
+probability of topic_Student_174 is 0.481071
 
-pgibbs sample time: 0.001101 seconds
-probability of topic_Student_115 is 0.102889
+pgibbs sample time: 0.001242 seconds
+probability of topic_Student_115 is 0.462727
 
-pgibbs sample time: 0.001101 seconds
-probability of topic_Student_41 is 0.0856052
-
-pgibbs sample time: 7.3e-05 seconds
-probability of topic_Faculty_23 is 0.0700277
-
-pgibbs sample time: 5.6e-05 seconds
-probability of topic_Faculty_34 is 0.105926
-
-pgibbs sample time: 5.7e-05 seconds
-probability of topic_Department_74 is 0.106577
-
-pgibbs sample time: 0.001418 seconds
-probability of topic_Staff_155 is 0.115598
-
-pgibbs sample time: 5.8e-05 seconds
-probability of topic_Student_16 is 0.0844266
-
-pgibbs sample time: 5.7e-05 seconds
-probability of topic_Department_71 is 0.0982748
-
-pgibbs sample time: 5.7e-05 seconds
-probability of topic_Faculty_84 is 0.132199
-
-pgibbs sample time: 0.000205 seconds
-probability of topic_Course_119 is 0.113431
-
-pgibbs sample time: 5.8e-05 seconds
-probability of topic_ResearchProject_43 is 0.112396
-
-pgibbs sample time: 0.000197 seconds
-probability of topic_Staff_145 is 0.108891
-
-pgibbs sample time: 0.000197 seconds
-probability of topic_Staff_17 is 0.150893
-
-pgibbs sample time: 5.7e-05 seconds
-probability of topic_Staff_13 is 0.116535
-
-pgibbs sample time: 5.6e-05 seconds
-probability of topic_Course_82 is 0.0802121
-
-pgibbs sample time: 0.000209 seconds
-probability of topic_Department_187 is 0.119863
-
-pgibbs sample time: 0.000208 seconds
-probability of topic_Department_13 is 0.16134
-
-pgibbs sample time: 0.000447 seconds
-probability of topic_ResearchProject_136 is 0.0969696
-
-pgibbs sample time: 6.9e-05 seconds
-probability of topic_Staff_23 is 0.080591
-
-pgibbs sample time: 5.6e-05 seconds
-probability of topic_Course_66 is 0.0853862
-
-pgibbs sample time: 0.00093 seconds
-probability of topic_Person_106 is 0.195691
-
-pgibbs sample time: 0.00093 seconds
-probability of topic_Person_41 is 0.0888281
-
-pgibbs sample time: 0.001636 seconds
-probability of topic_Person_12 is 0.166823
-
-pgibbs sample time: 0.001489 seconds
-probability of topic_Student_3 is 0.0438655
-
-pgibbs sample time: 0.001626 seconds
-probability of topic_ResearchProject_199 is 0.087788
-
-pgibbs sample time: 0.001625 seconds
-probability of topic_ResearchProject_169 is 0.154163
-
-pgibbs sample time: 5.7e-05 seconds
-probability of topic_Person_98 is 0.143162
-
-pgibbs sample time: 5.7e-05 seconds
-probability of topic_Department_85 is 0.107789
-
-pgibbs sample time: 0.000381 seconds
-probability of topic_Student_87 is 0.155957
-
-pgibbs sample time: 6.9e-05 seconds
-probability of topic_Person_63 is 0.0683341
-
-pgibbs sample time: 0.000432 seconds
-probability of topic_Student_111 is 0.168673
-
-pgibbs sample time: 5.6e-05 seconds
-probability of topic_Staff_34 is 0.15723
-
-pgibbs sample time: 0.000108 seconds
-probability of topic_Course_42 is 0.0360935
-
-pgibbs sample time: 0.000612 seconds
-probability of topic_Faculty_209 is 0.109795
-
-pgibbs sample time: 0.000614 seconds
-probability of topic_Faculty_33 is 0.174691
-
-pgibbs sample time: 0.001553 seconds
-probability of topic_Staff_133 is 0.134386
-
-pgibbs sample time: 0.000631 seconds
-probability of topic_Department_33 is 0.352987
-
-pgibbs sample time: 0.000377 seconds
-probability of topic_Course_31 is 0.0800749
-
-pgibbs sample time: 5.7e-05 seconds
-probability of topic_Faculty_37 is 0.0854832
-
-pgibbs sample time: 0.000432 seconds
-probability of topic_Faculty_4 is 0.151454
-
-pgibbs sample time: 5.8e-05 seconds
-probability of topic_Faculty_46 is 0.0755157
-
-pgibbs sample time: 5.6e-05 seconds
-probability of topic_ResearchProject_80 is 0.0931433
-
-pgibbs sample time: 0.001054 seconds
-probability of topic_Faculty_48 is 0.105964
-
-pgibbs sample time: 0.000633 seconds
-probability of topic_Department_209 is 0.107078
-
-pgibbs sample time: 0.001693 seconds
-probability of topic_Course_157 is 0.0857502
-
-pgibbs sample time: 0.000937 seconds
-probability of topic_Person_72 is 0.143658
+pgibbs sample time: 0.001239 seconds
+probability of topic_Student_41 is 0.358082
 
 pgibbs sample time: 7.3e-05 seconds
-probability of topic_Faculty_14 is 0.0992434
+probability of topic_Faculty_23 is 0.368263
 
-pgibbs sample time: 5.6e-05 seconds
-probability of topic_Staff_16 is 0.138436
+pgibbs sample time: 5.7e-05 seconds
+probability of topic_Faculty_34 is 0.478399
 
-pgibbs sample time: 0.00149 seconds
-probability of topic_Student_114 is 0.13696
+pgibbs sample time: 5.8e-05 seconds
+probability of topic_Department_74 is 0.480109
 
-pgibbs sample time: 0.001041 seconds
-probability of topic_Course_48 is 0.0966315
-
-pgibbs sample time: 0.000223 seconds
-probability of topic_Person_49 is 0.134469
-
-pgibbs sample time: 5.5e-05 seconds
-probability of topic_Course_9 is 0.0967018
-
-pgibbs sample time: 0.000361 seconds
-probability of topic_Faculty_92 is 0.118765
-
-pgibbs sample time: 0.001713 seconds
-probability of topic_Faculty_133 is 0.126882
+pgibbs sample time: 0.001689 seconds
+probability of topic_Staff_155 is 0.447404
 
 pgibbs sample time: 5.9e-05 seconds
-probability of topic_Department_84 is 0.0857344
-
-pgibbs sample time: 5.6e-05 seconds
-probability of topic_Faculty_83 is 0.11006
-
-pgibbs sample time: 5.6e-05 seconds
-probability of topic_Staff_63 is 0.0813221
-
-pgibbs sample time: 0.000263 seconds
-probability of topic_Faculty_25 is 0.0688121
-
-pgibbs sample time: 0.001492 seconds
-probability of topic_Student_54 is 0.120526
-
-pgibbs sample time: 7.2e-05 seconds
-probability of topic_Course_14 is 0.160244
-
-pgibbs sample time: 0.00062 seconds
-probability of topic_Person_36 is 0.0785205
-
-pgibbs sample time: 5.8e-05 seconds
-probability of topic_ResearchProject_99 is 0.138305
-
-pgibbs sample time: 0.000417 seconds
-probability of topic_Department_4 is 0.0916364
-
-pgibbs sample time: 7.3e-05 seconds
-probability of topic_ResearchProject_63 is 0.18956
-
-pgibbs sample time: 0.00133 seconds
-probability of topic_Student_156 is 0.10286
-
-pgibbs sample time: 0.001152 seconds
-probability of topic_ResearchProject_29 is 0.0854391
-
-pgibbs sample time: 0.00131 seconds
-probability of topic_Course_54 is 0.124042
-
-pgibbs sample time: 0.001307 seconds
-probability of topic_Faculty_29 is 0.0940613
-
-pgibbs sample time: 0.00039 seconds
-probability of topic_Course_30 is 0.160468
-
-pgibbs sample time: 0.001559 seconds
-probability of topic_Staff_2 is 0.100553
-
-pgibbs sample time: 0.001289 seconds
-probability of topic_Student_28 is 0.125006
-
-pgibbs sample time: 0.000263 seconds
-probability of topic_Faculty_20 is 0.132973
-
-pgibbs sample time: 0.000415 seconds
-probability of topic_Person_10 is 0.129875
-
-pgibbs sample time: 0.001072 seconds
-probability of topic_ResearchProject_48 is 0.396677
-
-pgibbs sample time: 7.2e-05 seconds
-probability of topic_Faculty_69 is 0.0939579
-
-pgibbs sample time: 7.3e-05 seconds
-probability of topic_Faculty_63 is 0.0907347
-
-pgibbs sample time: 0.000445 seconds
-probability of topic_Course_125 is 0.0992074
-
-pgibbs sample time: 9.6e-05 seconds
-probability of topic_Staff_32 is 0.0707103
-
-pgibbs sample time: 0.001078 seconds
-probability of topic_Course_106 is 0.11763
-
-pgibbs sample time: 0.00108 seconds
-probability of topic_Course_118 is 0.0926203
-
-pgibbs sample time: 5.8e-05 seconds
-probability of topic_Faculty_38 is 0.101237
-
-pgibbs sample time: 0.001081 seconds
-probability of topic_Course_41 is 0.0680319
-
-pgibbs sample time: 0.000232 seconds
-probability of topic_Student_145 is 0.117725
-
-pgibbs sample time: 0.001554 seconds
-probability of topic_Staff_12 is 0.110704
-
-pgibbs sample time: 5.5e-05 seconds
-probability of topic_Staff_79 is 0.149378
-
-pgibbs sample time: 5.6e-05 seconds
-probability of topic_Person_39 is 0.0813615
-
-pgibbs sample time: 0.000171 seconds
-probability of topic_Staff_55 is 0.112555
-
-pgibbs sample time: 0.000632 seconds
-probability of topic_Department_36 is 0.095665
-
-pgibbs sample time: 0.000445 seconds
-probability of topic_ResearchProject_125 is 0.115072
+probability of topic_Student_16 is 0.416519
 
 pgibbs sample time: 5.7e-05 seconds
-probability of topic_Person_80 is 0.113662
-
-pgibbs sample time: 5.5e-05 seconds
-probability of topic_Person_40 is 0.108938
-
-pgibbs sample time: 5.5e-05 seconds
-probability of topic_Person_70 is 0.0970152
-
-pgibbs sample time: 0.000299 seconds
-probability of topic_Person_136 is 0.117896
-
-pgibbs sample time: 0.001733 seconds
-probability of topic_Department_12 is 0.164296
-
-pgibbs sample time: 9.9e-05 seconds
-probability of topic_Course_52 is 0.0858677
-
-pgibbs sample time: 0.001735 seconds
-probability of topic_Department_24 is 0.125435
-
-pgibbs sample time: 0.000264 seconds
-probability of topic_Faculty_81 is 0.102006
-
-pgibbs sample time: 0.000137 seconds
-probability of topic_Student_94 is 0.185041
-
-pgibbs sample time: 0.001737 seconds
-probability of topic_Department_199 is 0.0802558
-
-pgibbs sample time: 9.7e-05 seconds
-probability of topic_Course_94 is 0.0353004
-
-pgibbs sample time: 0.001057 seconds
-probability of topic_Department_89 is 0.0978009
-
-pgibbs sample time: 0.000935 seconds
-probability of topic_Person_115 is 0.0901214
+probability of topic_Department_71 is 0.457614
 
 pgibbs sample time: 5.8e-05 seconds
-probability of topic_Course_43 is 0.100844
-
-pgibbs sample time: 5.5e-05 seconds
-probability of topic_Person_34 is 0.19909
-
-pgibbs sample time: 0.00028 seconds
-probability of topic_Student_116 is 0.0926925
-
-pgibbs sample time: 0.000266 seconds
-probability of topic_Department_20 is 0.114369
-
-pgibbs sample time: 0.001712 seconds
-probability of topic_Person_199 is 0.134952
-
-pgibbs sample time: 0.00037 seconds
-probability of topic_Course_87 is 0.0710556
-
-pgibbs sample time: 0.001717 seconds
-probability of topic_Faculty_24 is 0.115284
-
-pgibbs sample time: 0.000261 seconds
-probability of topic_Staff_116 is 0.10819
-
-pgibbs sample time: 0.000299 seconds
-probability of topic_Staff_93 is 0.127052
-
-pgibbs sample time: 7.2e-05 seconds
-probability of topic_Student_88 is 0.213097
-
-pgibbs sample time: 0.000344 seconds
-probability of topic_Staff_120 is 0.162442
-
-pgibbs sample time: 5.5e-05 seconds
-probability of topic_Student_6 is 0.126224
-
-pgibbs sample time: 0.001511 seconds
-probability of topic_Person_114 is 0.129664
-
-pgibbs sample time: 0.001516 seconds
-probability of topic_Person_156 is 0.125453
-
-pgibbs sample time: 0.000624 seconds
-probability of topic_ResearchProject_172 is 0.102106
-
-pgibbs sample time: 9.9e-05 seconds
-probability of topic_Department_94 is 0.24492
-
-pgibbs sample time: 0.001512 seconds
-probability of topic_Person_126 is 0.178324
-
-pgibbs sample time: 0.001336 seconds
-probability of topic_Faculty_59 is 0.107765
-
-pgibbs sample time: 0.001068 seconds
-probability of topic_ResearchProject_72 is 0.089113
-
-pgibbs sample time: 0.00048 seconds
-probability of topic_Student_67 is 0.121899
-
-pgibbs sample time: 0.000223 seconds
-probability of topic_Course_145 is 0.136014
-
-pgibbs sample time: 0.000117 seconds
-probability of topic_Staff_42 is 0.179413
-
-pgibbs sample time: 0.000688 seconds
-probability of topic_Student_209 is 0.155784
-
-pgibbs sample time: 0.00012 seconds
-probability of topic_Faculty_52 is 0.185607
-
-pgibbs sample time: 0.001079 seconds
-probability of topic_Staff_78 is 0.0984967
-
-pgibbs sample time: 0.000284 seconds
-probability of topic_Faculty_116 is 0.0965373
-
-pgibbs sample time: 0.000439 seconds
-probability of topic_Department_134 is 0.0847092
-
-pgibbs sample time: 5.9e-05 seconds
-probability of topic_Person_84 is 0.0971429
-
-pgibbs sample time: 5.6e-05 seconds
-probability of topic_Student_1 is 0.0679965
-
-pgibbs sample time: 0.000478 seconds
-probability of topic_Department_61 is 0.0607233
-
-pgibbs sample time: 0.001404 seconds
-probability of topic_Faculty_50 is 0.120196
-
-pgibbs sample time: 0.001621 seconds
-probability of topic_Student_126 is 0.189935
-
-pgibbs sample time: 0.000104 seconds
-probability of topic_Student_52 is 0.0862561
-
-pgibbs sample time: 0.000474 seconds
-probability of topic_Course_61 is 0.0985688
-
-pgibbs sample time: 0.000222 seconds
-probability of topic_Department_17 is 0.0774147
-
-pgibbs sample time: 0.001837 seconds
-probability of topic_Faculty_12 is 0.144911
-
-pgibbs sample time: 0.000219 seconds
-probability of topic_Course_65 is 0.106912
-
-pgibbs sample time: 0.001638 seconds
-probability of topic_Person_59 is 0.144012
-
-pgibbs sample time: 0.000205 seconds
-probability of topic_Person_119 is 0.113506
-
-pgibbs sample time: 7.2e-05 seconds
-probability of topic_Person_53 is 0.125778
-
-pgibbs sample time: 0.000384 seconds
-probability of topic_Department_87 is 0.107054
-
-pgibbs sample time: 5.7e-05 seconds
-probability of topic_Faculty_71 is 0.123567
-
-pgibbs sample time: 5.7e-05 seconds
-probability of topic_Course_44 is 0.115773
-
-pgibbs sample time: 7.2e-05 seconds
-probability of topic_Department_69 is 0.0607513
-
-pgibbs sample time: 0.000436 seconds
-probability of topic_Student_58 is 0.0836182
-
-pgibbs sample time: 0.001743 seconds
-probability of topic_Department_2 is 0.108137
-
-pgibbs sample time: 0.001123 seconds
-probability of topic_Faculty_72 is 0.162846
-
-pgibbs sample time: 0.000508 seconds
-probability of topic_Student_8 is 0.13391
-
-pgibbs sample time: 5.8e-05 seconds
-probability of topic_Department_95 is 0.117157
-
-pgibbs sample time: 0.000561 seconds
-probability of topic_Staff_36 is 0.0745403
-
-pgibbs sample time: 5.7e-05 seconds
-probability of topic_Student_96 is 0.0934493
-
-pgibbs sample time: 5.6e-05 seconds
-probability of topic_Faculty_96 is 0.105459
-
-pgibbs sample time: 0.001254 seconds
-probability of topic_Course_29 is 0.232355
-
-pgibbs sample time: 7e-05 seconds
-probability of topic_Person_51 is 0.113927
-
-pgibbs sample time: 0.000195 seconds
-probability of topic_Course_55 is 0.106871
-
-pgibbs sample time: 7.2e-05 seconds
-probability of topic_Student_64 is 0.0845405
-
-pgibbs sample time: 0.000614 seconds
-probability of topic_Faculty_36 is 0.0943895
-
-pgibbs sample time: 5.8e-05 seconds
-probability of topic_Student_40 is 0.109533
-
-pgibbs sample time: 7.1e-05 seconds
-probability of topic_Student_68 is 0.0661826
-
-pgibbs sample time: 0.000206 seconds
-probability of topic_Course_187 is 0.126046
-
-pgibbs sample time: 0.001081 seconds
-probability of topic_Course_72 is 0.0796137
-
-pgibbs sample time: 0.000206 seconds
-probability of topic_Course_13 is 0.103284
-
-pgibbs sample time: 0.000508 seconds
-probability of topic_Course_110 is 0.106992
-
-pgibbs sample time: 7.3e-05 seconds
-probability of topic_Department_21 is 0.0973049
-
-pgibbs sample time: 6.9e-05 seconds
-probability of topic_Course_97 is 0.140724
-
-pgibbs sample time: 0.001637 seconds
-probability of topic_ResearchProject_18 is 0.113584
-
-pgibbs sample time: 0.001643 seconds
-probability of topic_ResearchProject_157 is 0.13416
-
-pgibbs sample time: 5.6e-05 seconds
-probability of topic_Staff_99 is 0.096097
-
-pgibbs sample time: 0.000206 seconds
-probability of topic_ResearchProject_55 is 0.0797653
-
-pgibbs sample time: 0.000428 seconds
-probability of topic_Staff_125 is 0.130014
-
-pgibbs sample time: 0.000449 seconds
-probability of topic_Department_168 is 0.113277
-
-pgibbs sample time: 0.000382 seconds
-probability of topic_ResearchProject_87 is 0.0877373
-
-pgibbs sample time: 5.8e-05 seconds
-probability of topic_Department_99 is 0.0873436
-
-pgibbs sample time: 0.000195 seconds
-probability of topic_Course_73 is 0.086989
-
-pgibbs sample time: 0.000101 seconds
-probability of topic_Student_32 is 0.232068
-
-pgibbs sample time: 0.000455 seconds
-probability of topic_ResearchProject_168 is 0.0978239
-
-pgibbs sample time: 0.000389 seconds
-probability of topic_ResearchProject_11 is 0.0750954
-
-pgibbs sample time: 5.7e-05 seconds
-probability of topic_Course_40 is 0.0854307
-
-pgibbs sample time: 5.8e-05 seconds
-probability of topic_Faculty_39 is 0.103209
-
-pgibbs sample time: 5.6e-05 seconds
-probability of topic_Staff_90 is 0.171014
-
-pgibbs sample time: 0.000983 seconds
-probability of topic_Student_78 is 0.112894
-
-pgibbs sample time: 9.9e-05 seconds
-probability of topic_Course_32 is 0.101313
-
-pgibbs sample time: 0.001737 seconds
-probability of topic_Department_169 is 0.332648
-
-pgibbs sample time: 5.7e-05 seconds
-probability of topic_Staff_83 is 0.108321
-
-pgibbs sample time: 5.7e-05 seconds
-probability of topic_ResearchProject_34 is 0.0829609
-
-pgibbs sample time: 6.9e-05 seconds
-probability of topic_Student_5 is 0.122128
-
-pgibbs sample time: 0.000939 seconds
-probability of topic_Person_118 is 0.166954
-
-pgibbs sample time: 0.000965 seconds
-probability of topic_Person_48 is 0.12271
-
-pgibbs sample time: 5.9e-05 seconds
-probability of topic_Department_86 is 0.0886948
-
-pgibbs sample time: 0.000445 seconds
-probability of topic_ResearchProject_30 is 0.110376
-
-pgibbs sample time: 0.00062 seconds
-probability of topic_Person_172 is 0.123673
-
-pgibbs sample time: 7.2e-05 seconds
-probability of topic_ResearchProject_53 is 0.114964
-
-pgibbs sample time: 0.001145 seconds
-probability of topic_ResearchProject_50 is 0.0921414
-
-pgibbs sample time: 0.001261 seconds
-probability of topic_Course_102 is 0.103584
-
-pgibbs sample time: 5.8e-05 seconds
-probability of topic_Faculty_62 is 0.116539
-
-pgibbs sample time: 0.000264 seconds
-probability of topic_Person_116 is 0.0742613
-
-pgibbs sample time: 0.00107 seconds
-probability of topic_Faculty_180 is 0.219258
-
-pgibbs sample time: 0.000275 seconds
-probability of topic_Student_93 is 0.0376121
-
-pgibbs sample time: 7.2e-05 seconds
-probability of topic_ResearchProject_22 is 0.0664064
-
-pgibbs sample time: 0.001118 seconds
-probability of topic_Faculty_115 is 0.108084
-
-pgibbs sample time: 7.3e-05 seconds
-probability of topic_Department_64 is 0.0758747
-
-pgibbs sample time: 0.001639 seconds
-probability of topic_ResearchProject_12 is 0.0607439
-
-pgibbs sample time: 0.000448 seconds
-probability of topic_Course_136 is 0.090583
-
-pgibbs sample time: 7e-05 seconds
-probability of topic_Staff_69 is 0.0941726
-
-pgibbs sample time: 5.8e-05 seconds
-probability of topic_ResearchProject_75 is 0.117541
-
-pgibbs sample time: 0.00125 seconds
-probability of topic_Staff_28 is 0.118073
-
-pgibbs sample time: 0.000418 seconds
-probability of topic_Department_111 is 0.0588399
-
-pgibbs sample time: 7.2e-05 seconds
-probability of topic_ResearchProject_68 is 0.0500277
-
-pgibbs sample time: 5.7e-05 seconds
-probability of topic_Student_85 is 0.118354
-
-pgibbs sample time: 5.6e-05 seconds
-probability of topic_Person_38 is 0.0693648
-
-pgibbs sample time: 0.001716 seconds
-probability of topic_Faculty_169 is 0.161177
-
-pgibbs sample time: 0.000269 seconds
-probability of topic_ResearchProject_93 is 0.0942936
-
-pgibbs sample time: 0.00045 seconds
-probability of topic_Faculty_168 is 0.0868743
-
-pgibbs sample time: 5.7e-05 seconds
-probability of topic_Staff_82 is 0.0802927
-
-pgibbs sample time: 0.001556 seconds
-probability of topic_Staff_199 is 0.10575
-
-pgibbs sample time: 7.4e-05 seconds
-probability of topic_ResearchProject_64 is 0.0838679
-
-pgibbs sample time: 0.00163 seconds
-probability of topic_ResearchProject_155 is 0.128776
-
-pgibbs sample time: 0.000508 seconds
-probability of topic_Course_8 is 0.113777
-
-pgibbs sample time: 7e-05 seconds
-probability of topic_Course_79 is 0.13128
-
-pgibbs sample time: 0.00171 seconds
-probability of topic_Student_169 is 0.0731038
-
-pgibbs sample time: 0.0001 seconds
-probability of topic_ResearchProject_94 is 0.0308505
-
-pgibbs sample time: 0.001765 seconds
-probability of topic_Course_24 is 0.158121
-
-pgibbs sample time: 0.000221 seconds
-probability of topic_Staff_49 is 0.122559
-
-pgibbs sample time: 0.00045 seconds
-probability of topic_Faculty_11 is 0.158246
-
-pgibbs sample time: 0.000441 seconds
-probability of topic_Department_125 is 0.105416
-
-pgibbs sample time: 6.9e-05 seconds
-probability of topic_Person_15 is 0.127201
-
-pgibbs sample time: 0.00038 seconds
-probability of topic_Department_35 is 0.076093
-
-pgibbs sample time: 0.000197 seconds
-probability of topic_Person_55 is 0.159489
-
-pgibbs sample time: 0.000204 seconds
-probability of topic_Person_65 is 0.11711
-
-pgibbs sample time: 0.001572 seconds
-probability of topic_Staff_3 is 0.132622
-
-pgibbs sample time: 0.000244 seconds
-probability of topic_Faculty_145 is 0.115741
-
-pgibbs sample time: 7.1e-05 seconds
-probability of topic_Staff_15 is 0.0907919
-
-pgibbs sample time: 0.000121 seconds
-probability of topic_Department_42 is 0.197806
-
-pgibbs sample time: 0.001846 seconds
-probability of topic_Student_12 is 0.161957
-
-pgibbs sample time: 0.001352 seconds
-probability of topic_Course_50 is 0.101427
-
-pgibbs sample time: 0.001182 seconds
-probability of topic_Staff_50 is 0.104055
-
-pgibbs sample time: 0.001233 seconds
-probability of topic_Department_29 is 0.0753669
-
-pgibbs sample time: 0.00043 seconds
-probability of topic_Person_57 is 0.121618
-
-pgibbs sample time: 0.000105 seconds
-probability of topic_ResearchProject_25 is 0.133772
-
-pgibbs sample time: 7.5e-05 seconds
-probability of topic_Faculty_27 is 0.118691
-
-pgibbs sample time: 0.00069 seconds
-probability of topic_Student_33 is 0.0647407
-
-pgibbs sample time: 0.000665 seconds
-probability of topic_Course_209 is 0.215362
-
-pgibbs sample time: 5.7e-05 seconds
-probability of topic_Course_6 is 0.11351
-
-pgibbs sample time: 0.00028 seconds
-probability of topic_ResearchProject_81 is 0.101823
-
-pgibbs sample time: 0.000215 seconds
-probability of topic_Person_13 is 0.0761731
-
-pgibbs sample time: 0.001055 seconds
-probability of topic_Student_48 is 0.0490805
-
-pgibbs sample time: 5.9e-05 seconds
-probability of topic_Course_39 is 0.167675
-
-pgibbs sample time: 0.000664 seconds
-probability of topic_Course_172 is 0.0945158
-
-pgibbs sample time: 0.001328 seconds
-probability of topic_Staff_29 is 0.128005
-
-pgibbs sample time: 5.8e-05 seconds
-probability of topic_Student_62 is 0.242094
-
-pgibbs sample time: 0.001723 seconds
-probability of topic_Person_2 is 0.0549044
-
-pgibbs sample time: 0.000613 seconds
-probability of topic_Course_36 is 0.0585704
-
-pgibbs sample time: 0.001024 seconds
-probability of topic_Staff_180 is 0.179331
-
-pgibbs sample time: 0.001079 seconds
-probability of topic_Staff_41 is 0.0871988
-
-pgibbs sample time: 0.000512 seconds
-probability of topic_Faculty_110 is 0.103391
-
-pgibbs sample time: 0.000278 seconds
-probability of topic_Person_25 is 0.0938703
-
-pgibbs sample time: 0.000285 seconds
-probability of topic_Student_231 is 0.13996
-
-pgibbs sample time: 7e-05 seconds
-probability of topic_Person_22 is 0.151959
-
-pgibbs sample time: 5.7e-05 seconds
-probability of topic_ResearchProject_66 is 0.0906498
-
-pgibbs sample time: 0.001069 seconds
-probability of topic_Faculty_45 is 0.08658
-
-pgibbs sample time: 0.000202 seconds
-probability of topic_Staff_65 is 0.109671
-
-pgibbs sample time: 0.000561 seconds
-probability of topic_Staff_172 is 0.103311
-
-pgibbs sample time: 0.000414 seconds
-probability of topic_Department_11 is 0.122731
-
-pgibbs sample time: 0.000113 seconds
-probability of topic_Student_42 is 0.143364
-
-pgibbs sample time: 0.001127 seconds
-probability of topic_Faculty_174 is 0.18412
-
-pgibbs sample time: 0.000171 seconds
-probability of topic_Staff_73 is 0.164028
-
-pgibbs sample time: 5.5e-05 seconds
-probability of topic_Staff_98 is 0.0945649
-
-pgibbs sample time: 0.000383 seconds
-probability of topic_Student_35 is 0.361255
-
-pgibbs sample time: 5.6e-05 seconds
-probability of topic_Course_74 is 0.0872788
-
-pgibbs sample time: 5.7e-05 seconds
-probability of topic_Course_84 is 0.11049
-
-pgibbs sample time: 0.000442 seconds
-probability of topic_Student_125 is 0.156677
-
-pgibbs sample time: 5.5e-05 seconds
-probability of topic_Course_71 is 0.0991188
-
-pgibbs sample time: 0.001083 seconds
-probability of topic_ResearchProject_180 is 0.220827
-
-pgibbs sample time: 0.001393 seconds
-probability of topic_Department_126 is 0.0912263
-
-pgibbs sample time: 0.000179 seconds
-probability of topic_Department_55 is 0.0799597
-
-pgibbs sample time: 7.2e-05 seconds
-probability of topic_ResearchProject_69 is 0.0939213
-
-pgibbs sample time: 7e-05 seconds
-probability of topic_Department_5 is 0.180984
-
-pgibbs sample time: 6.8e-05 seconds
-probability of topic_Staff_14 is 0.122535
-
-pgibbs sample time: 7e-05 seconds
-probability of topic_Course_63 is 0.113223
-
-pgibbs sample time: 5.9e-05 seconds
-probability of topic_Department_80 is 0.106577
-
-pgibbs sample time: 5.5e-05 seconds
-probability of topic_Person_44 is 0.139832
-
-pgibbs sample time: 0.000456 seconds
-probability of topic_ResearchProject_61 is 0.114991
-
-pgibbs sample time: 5.6e-05 seconds
-probability of topic_Course_51 is 0.0854307
-
-pgibbs sample time: 0.001064 seconds
-probability of topic_Department_48 is 0.127142
-
-pgibbs sample time: 0.000299 seconds
-probability of topic_Person_30 is 0.103553
-
-pgibbs sample time: 0.000443 seconds
-probability of topic_Student_136 is 0.116762
-
-pgibbs sample time: 0.0001 seconds
-probability of topic_ResearchProject_52 is 0.096784
-
-pgibbs sample time: 0.000285 seconds
-probability of topic_Student_25 is 0.0832152
-
-pgibbs sample time: 7e-05 seconds
-probability of topic_Staff_27 is 0.157171
-
-pgibbs sample time: 0.000431 seconds
-probability of topic_Staff_136 is 0.0954692
-
-pgibbs sample time: 0.000507 seconds
-probability of topic_Person_130 is 0.11817
-
-pgibbs sample time: 0.000401 seconds
-probability of topic_Person_61 is 0.14359
-
-pgibbs sample time: 0.000446 seconds
-probability of topic_ResearchProject_58 is 0.16076
-
-pgibbs sample time: 0.001065 seconds
-probability of topic_Department_180 is 0.238588
-
-pgibbs sample time: 0.00056 seconds
-probability of topic_Staff_209 is 0.149709
-
-pgibbs sample time: 5.7e-05 seconds
-probability of topic_ResearchProject_74 is 0.0931433
-
-pgibbs sample time: 0.001081 seconds
-probability of topic_Staff_118 is 0.0968134
-
-pgibbs sample time: 0.000385 seconds
-probability of topic_Department_120 is 0.209193
-
-pgibbs sample time: 5.8e-05 seconds
-probability of topic_Student_43 is 0.104502
-
-pgibbs sample time: 0.000444 seconds
-probability of topic_Course_57 is 0.129178
-
-pgibbs sample time: 0.001719 seconds
-probability of topic_Person_18 is 0.0808748
-
-pgibbs sample time: 7.3e-05 seconds
-probability of topic_ResearchProject_5 is 0.0812616
-
-pgibbs sample time: 0.000207 seconds
-probability of topic_Department_73 is 0.102544
-
-pgibbs sample time: 5.8e-05 seconds
-probability of topic_ResearchProject_46 is 0.0867993
-
-pgibbs sample time: 9.8e-05 seconds
-probability of topic_Staff_52 is 0.111287
-
-pgibbs sample time: 0.000445 seconds
-probability of topic_ResearchProject_111 is 0.0983423
-
-pgibbs sample time: 0.001124 seconds
-probability of topic_Faculty_118 is 0.0876984
-
-pgibbs sample time: 0.001054 seconds
-probability of topic_Course_89 is 0.1234
-
-pgibbs sample time: 0.000447 seconds
-probability of topic_Person_11 is 0.148659
-
-pgibbs sample time: 5.5e-05 seconds
-probability of topic_Course_27 is 0.105222
-
-pgibbs sample time: 0.000445 seconds
-probability of topic_ResearchProject_4 is 0.0733386
-
-pgibbs sample time: 0.001287 seconds
-probability of topic_Student_50 is 0.195058
-
-pgibbs sample time: 0.000379 seconds
-probability of topic_Department_10 is 0.0966653
-
-pgibbs sample time: 0.001389 seconds
-probability of topic_Department_156 is 0.120913
-
-pgibbs sample time: 5.7e-05 seconds
-probability of topic_Person_83 is 0.124497
-
-pgibbs sample time: 0.001125 seconds
-probability of topic_Student_106 is 0.122834
-
-pgibbs sample time: 5.7e-05 seconds
-probability of topic_Person_16 is 0.113162
-
-pgibbs sample time: 8.6e-05 seconds
-probability of topic_Department_76 is 0.091908
-
-pgibbs sample time: 0.000371 seconds
-probability of topic_Course_10 is 0.108434
-
-pgibbs sample time: 7.2e-05 seconds
-probability of topic_Department_27 is 0.197282
-
-pgibbs sample time: 7.1e-05 seconds
-probability of topic_Student_27 is 0.114586
-
-pgibbs sample time: 0.001135 seconds
-probability of topic_Department_115 is 0.097506
-
-pgibbs sample time: 0.000229 seconds
-probability of topic_Faculty_19 is 0.0759946
-
-pgibbs sample time: 0.000514 seconds
-probability of topic_Faculty_8 is 0.119334
-
-pgibbs sample time: 0.001726 seconds
-probability of topic_Faculty_2 is 0.0714713
-
-pgibbs sample time: 5.7e-05 seconds
-probability of topic_Course_96 is 0.0823311
-
-pgibbs sample time: 7.3e-05 seconds
-probability of topic_ResearchProject_88 is 0.0691382
-
-pgibbs sample time: 5.8e-05 seconds
-probability of topic_Staff_40 is 0.0900833
-
-pgibbs sample time: 7e-05 seconds
-probability of topic_Course_64 is 0.0648578
-
-pgibbs sample time: 7.2e-05 seconds
-probability of topic_Faculty_79 is 0.111487
-
-pgibbs sample time: 9.8e-05 seconds
-probability of topic_Staff_94 is 0.0124764
-
-pgibbs sample time: 5.8e-05 seconds
-probability of topic_Student_56 is 0.0801102
-
-pgibbs sample time: 6.1e-05 seconds
-probability of topic_Department_14 is 0.108893
-
-pgibbs sample time: 7e-05 seconds
-probability of topic_Person_69 is 0.0858193
-
-pgibbs sample time: 0.000345 seconds
-probability of topic_Staff_31 is 0.110603
-
-pgibbs sample time: 0.000234 seconds
-probability of topic_Student_17 is 0.134128
-
-pgibbs sample time: 0.000381 seconds
-probability of topic_Course_120 is 0.115294
-
-pgibbs sample time: 0.000209 seconds
-probability of topic_Department_145 is 0.0931379
-
-pgibbs sample time: 5.8e-05 seconds
-probability of topic_ResearchProject_70 is 0.0827269
-
-pgibbs sample time: 0.001341 seconds
-probability of topic_Faculty_126 is 0.102552
-
-pgibbs sample time: 0.001731 seconds
-probability of topic_Faculty_199 is 0.109338
-
-pgibbs sample time: 7.2e-05 seconds
-probability of topic_Student_76 is 0.12253
-
-pgibbs sample time: 7e-05 seconds
-probability of topic_Person_79 is 0.132402
-
-pgibbs sample time: 7e-05 seconds
-probability of topic_Department_88 is 0.138107
-
-pgibbs sample time: 0.001394 seconds
-probability of topic_Department_3 is 0.110758
-
-pgibbs sample time: 0.000252 seconds
-probability of topic_Staff_35 is 0.112163
-
-pgibbs sample time: 5.8e-05 seconds
-probability of topic_Department_82 is 0.0858202
-
-pgibbs sample time: 0.001254 seconds
-probability of topic_Staff_102 is 0.138423
-
-pgibbs sample time: 7.2e-05 seconds
-probability of topic_Student_79 is 0.0795277
-
-pgibbs sample time: 0.001074 seconds
-probability of topic_ResearchProject_156 is 0.104872
-
-pgibbs sample time: 5.6e-05 seconds
-probability of topic_Course_80 is 0.0872788
-
-pgibbs sample time: 5.5e-05 seconds
-probability of topic_Person_95 is 0.105599
-
-pgibbs sample time: 0.000444 seconds
-probability of topic_Department_57 is 0.140108
-
-pgibbs sample time: 0.000628 seconds
-probability of topic_ResearchProject_36 is 0.113217
-
-pgibbs sample time: 5.5e-05 seconds
-probability of topic_Course_98 is 0.0708754
-
-pgibbs sample time: 0.000513 seconds
-probability of topic_Faculty_130 is 0.123644
-
-pgibbs sample time: 0.000377 seconds
-probability of topic_Person_31 is 0.180469
-
-pgibbs sample time: 0.000457 seconds
-probability of topic_ResearchProject_57 is 0.124402
-
-pgibbs sample time: 0.001282 seconds
-probability of topic_Person_29 is 0.147954
-
-pgibbs sample time: 5.6e-05 seconds
-probability of topic_Staff_37 is 0.0948402
-
-pgibbs sample time: 5.5e-05 seconds
-probability of topic_Course_99 is 0.167675
-
-pgibbs sample time: 0.000233 seconds
-probability of topic_ResearchProject_19 is 0.132914
-
-pgibbs sample time: 0.001502 seconds
-probability of topic_Student_59 is 0.174397
-
-pgibbs sample time: 5.8e-05 seconds
-probability of topic_Staff_9 is 0.11146
-
-pgibbs sample time: 0.001076 seconds
-probability of topic_ResearchProject_59 is 0.108283
-
-pgibbs sample time: 0.001152 seconds
-probability of topic_ResearchProject_28 is 0.10765
-
-pgibbs sample time: 0.001644 seconds
-probability of topic_ResearchProject_133 is 0.123664
-
-pgibbs sample time: 0.000446 seconds
-probability of topic_Faculty_61 is 0.105002
-
-pgibbs sample time: 0.000111 seconds
-probability of topic_Course_7 is 0.111824
-
-pgibbs sample time: 0.001052 seconds
-probability of topic_Course_45 is 0.09216
-
-pgibbs sample time: 0.000435 seconds
-probability of topic_Course_67 is 0.0953916
-
-pgibbs sample time: 0.000204 seconds
-probability of topic_Course_17 is 0.0930711
-
-pgibbs sample time: 0.00036 seconds
-probability of topic_Faculty_31 is 0.131771
-
-pgibbs sample time: 0.000115 seconds
-probability of topic_Department_7 is 0.108818
-
-pgibbs sample time: 7.2e-05 seconds
-probability of topic_Department_68 is 0.0790022
-
-pgibbs sample time: 6.9e-05 seconds
-probability of topic_Person_64 is 0.0858528
-
-pgibbs sample time: 5.8e-05 seconds
-probability of topic_ResearchProject_83 is 0.107837
-
-pgibbs sample time: 0.000999 seconds
-probability of topic_Student_91 is 0.0845731
-
-pgibbs sample time: 0.000388 seconds
-probability of topic_ResearchProject_35 is 0.0790691
-
-pgibbs sample time: 0.000255 seconds
-probability of topic_Student_20 is 0.0925456
-
-pgibbs sample time: 0.001092 seconds
-probability of topic_Course_115 is 0.214976
-
-pgibbs sample time: 7.3e-05 seconds
-probability of topic_ResearchProject_51 is 0.0926599
-
-pgibbs sample time: 0.000377 seconds
-probability of topic_Faculty_35 is 0.126327
-
-pgibbs sample time: 7.1e-05 seconds
-probability of topic_Staff_68 is 0.0637812
-
-pgibbs sample time: 0.001084 seconds
-probability of topic_Staff_174 is 0.102692
-
-pgibbs sample time: 0.001079 seconds
-probability of topic_ResearchProject_118 is 0.0970461
-
-pgibbs sample time: 0.000229 seconds
-probability of topic_Faculty_49 is 0.126495
-
-pgibbs sample time: 5.6e-05 seconds
-probability of topic_Course_21 is 0.0854307
-
-pgibbs sample time: 0.001078 seconds
-probability of topic_Staff_72 is 0.057594
-
-pgibbs sample time: 0.000382 seconds
-probability of topic_Department_136 is 0.113119
-
-pgibbs sample time: 0.001362 seconds
-probability of topic_Faculty_28 is 0.123984
-
-pgibbs sample time: 8.3e-05 seconds
-probability of topic_Person_7 is 0.122427
-
-pgibbs sample time: 0.001074 seconds
-probability of topic_ResearchProject_41 is 0.0995341
-
-pgibbs sample time: 0.001651 seconds
-probability of topic_ResearchProject_24 is 0.114272
-
-pgibbs sample time: 0.000376 seconds
-probability of topic_Faculty_87 is 0.133033
-
-pgibbs sample time: 0.000377 seconds
-probability of topic_Course_92 is 0.0914139
-
-pgibbs sample time: 5.9e-05 seconds
-probability of topic_Student_21 is 0.0997967
-
-pgibbs sample time: 0.000308 seconds
-probability of topic_ResearchProject_116 is 0.127783
-
-pgibbs sample time: 5.8e-05 seconds
-probability of topic_Department_43 is 0.105792
-
-pgibbs sample time: 5.7e-05 seconds
-probability of topic_Faculty_86 is 0.0895212
-
-pgibbs sample time: 0.000203 seconds
-probability of topic_Staff_119 is 0.157601
-
-pgibbs sample time: 5.7e-05 seconds
-probability of topic_Department_40 is 0.105436
-
-pgibbs sample time: 0.001026 seconds
-probability of topic_Staff_48 is 0.165399
-
-pgibbs sample time: 0.000509 seconds
-probability of topic_Course_130 is 0.12357
-
-pgibbs sample time: 0.001341 seconds
-probability of topic_Faculty_54 is 0.123722
-
-pgibbs sample time: 0.001349 seconds
-probability of topic_Faculty_3 is 0.152125
-
-pgibbs sample time: 0.000445 seconds
-probability of topic_Student_11 is 0.137873
-
-pgibbs sample time: 0.001019 seconds
-probability of topic_Staff_89 is 0.125672
-
-pgibbs sample time: 0.001773 seconds
-probability of topic_Course_133 is 0.133388
-
-pgibbs sample time: 0.00045 seconds
-probability of topic_ResearchProject_134 is 0.11348
-
-pgibbs sample time: 0.001149 seconds
-probability of topic_ResearchProject_102 is 0.103897
-
-pgibbs sample time: 0.000279 seconds
-probability of topic_Staff_25 is 0.0717204
-
-pgibbs sample time: 5.8e-05 seconds
-probability of topic_Department_46 is 0.107018
-
-pgibbs sample time: 0.001136 seconds
-probability of topic_Department_106 is 0.109641
-
-pgibbs sample time: 9.8e-05 seconds
-probability of topic_Staff_7 is 0.10911
-
-pgibbs sample time: 0.000227 seconds
-probability of topic_Person_17 is 0.144017
-
-pgibbs sample time: 5.8e-05 seconds
-probability of topic_Student_44 is 0.129772
-
-pgibbs sample time: 0.000271 seconds
-probability of topic_Course_116 is 0.113999
-
-pgibbs sample time: 7.3e-05 seconds
-probability of topic_ResearchProject_27 is 0.0851449
-
-pgibbs sample time: 0.000234 seconds
-probability of topic_Student_49 is 0.154937
-
-pgibbs sample time: 5.6e-05 seconds
-probability of topic_Staff_95 is 0.0987521
-
-pgibbs sample time: 0.00064 seconds
-probability of topic_Student_172 is 0.121685
-
-pgibbs sample time: 0.00108 seconds
-probability of topic_Staff_115 is 0.136104
-
-pgibbs sample time: 5.6e-05 seconds
-probability of topic_Course_53 is 0.0872788
-
-pgibbs sample time: 0.000201 seconds
-probability of topic_Student_73 is 0.199242
-
-pgibbs sample time: 9.7e-05 seconds
-probability of topic_Course_47 is 0.135448
-
-pgibbs sample time: 5.5e-05 seconds
-probability of topic_Course_60 is 0.105158
-
-pgibbs sample time: 0.000413 seconds
-probability of topic_Department_67 is 0.116271
-
-pgibbs sample time: 5.6e-05 seconds
-probability of topic_Course_70 is 0.15042
-
-pgibbs sample time: 7.1e-05 seconds
-probability of topic_Faculty_21 is 0.0682181
-
-pgibbs sample time: 0.000511 seconds
-probability of topic_Student_110 is 0.135734
-
-pgibbs sample time: 0.000435 seconds
-probability of topic_Course_11 is 0.124098
-
-pgibbs sample time: 5.8e-05 seconds
-probability of topic_ResearchProject_21 is 0.0913892
-
-pgibbs sample time: 0.000362 seconds
-probability of topic_Person_35 is 0.291288
-
-pgibbs sample time: 0.000617 seconds
-probability of topic_Faculty_172 is 0.0935816
-
-pgibbs sample time: 5.7e-05 seconds
-probability of topic_Department_70 is 0.146444
-
-pgibbs sample time: 0.001079 seconds
-probability of topic_ResearchProject_106 is 0.123776
-
-pgibbs sample time: 5.7e-05 seconds
-probability of topic_Department_16 is 0.0843164
-
-pgibbs sample time: 0.000484 seconds
-probability of topic_ResearchProject_130 is 0.123246
-
-pgibbs sample time: 5.8e-05 seconds
-probability of topic_Faculty_74 is 0.0854832
-
-pgibbs sample time: 5.5e-05 seconds
-probability of topic_Person_56 is 0.0663138
-
-pgibbs sample time: 0.000487 seconds
-probability of topic_Staff_130 is 0.121724
-
-pgibbs sample time: 0.000382 seconds
-probability of topic_Student_10 is 0.14306
-
-pgibbs sample time: 0.000208 seconds
-probability of topic_ResearchProject_119 is 0.13737
-
-pgibbs sample time: 7.1e-05 seconds
-probability of topic_Person_88 is 0.291681
-
-pgibbs sample time: 6.8e-05 seconds
-probability of topic_Person_23 is 0.041354
-
-pgibbs sample time: 0.000487 seconds
-probability of topic_ResearchProject_8 is 0.107982
-
-pgibbs sample time: 0.001917 seconds
-probability of topic_Course_2 is 0.146785
-
-pgibbs sample time: 6e-05 seconds
-probability of topic_Department_34 is 0.0720754
-
-pgibbs sample time: 5.8e-05 seconds
-probability of topic_Department_37 is 0.106577
-
-pgibbs sample time: 0.000997 seconds
-probability of topic_Student_180 is 0.13367
-
-pgibbs sample time: 0.000997 seconds
-probability of topic_Student_45 is 0.12457
-
-pgibbs sample time: 0.000377 seconds
-probability of topic_Person_120 is 0.126619
-
-pgibbs sample time: 0.001748 seconds
-probability of topic_Department_133 is 0.13357
-
-pgibbs sample time: 7.1e-05 seconds
-probability of topic_Person_76 is 0.124554
-
-pgibbs sample time: 5.5e-05 seconds
-probability of topic_Person_46 is 0.108347
-
-pgibbs sample time: 5.4e-05 seconds
-probability of topic_Staff_74 is 0.0948402
-
-pgibbs sample time: 6.8e-05 seconds
-probability of topic_Faculty_5 is 0.0823515
-
-pgibbs sample time: 7.2e-05 seconds
-probability of topic_ResearchProject_14 is 0.077179
-
-pgibbs sample time: 0.000197 seconds
-probability of topic_Person_73 is 0.206128
-
-pgibbs sample time: 0.000225 seconds
-probability of topic_Faculty_231 is 0.138206
-
-pgibbs sample time: 5.6e-05 seconds
-probability of topic_Staff_39 is 0.096097
-
-pgibbs sample time: 0.000487 seconds
-probability of topic_ResearchProject_110 is 0.121438
-
-pgibbs sample time: 0.00177 seconds
-probability of topic_Course_169 is 0.12188
-
-pgibbs sample time: 5.9e-05 seconds
-probability of topic_Faculty_40 is 0.0798315
-
-pgibbs sample time: 5.7e-05 seconds
-probability of topic_Faculty_90 is 0.137056
-
-pgibbs sample time: 0.001058 seconds
-probability of topic_Course_91 is 0.158271
-
-pgibbs sample time: 7.3e-05 seconds
-probability of topic_Faculty_64 is 0.0735381
-
-pgibbs sample time: 8.5e-05 seconds
-probability of topic_ResearchProject_76 is 0.0954422
-
-pgibbs sample time: 7e-05 seconds
-probability of topic_Student_97 is 0.178446
-
-pgibbs sample time: 7e-05 seconds
-probability of topic_Faculty_15 is 0.0999374
-
-pgibbs sample time: 0.001452 seconds
-probability of topic_Faculty_114 is 0.0978239
-
-pgibbs sample time: 0.000229 seconds
-probability of topic_Person_145 is 0.0982657
-
-pgibbs sample time: 0.000634 seconds
-probability of topic_Department_172 is 0.11645
-
-pgibbs sample time: 7.2e-05 seconds
-probability of topic_Student_69 is 0.115717
-
-pgibbs sample time: 0.001053 seconds
-probability of topic_Course_78 is 0.132062
-
-pgibbs sample time: 0.000325 seconds
-probability of topic_ResearchProject_120 is 0.109685
-
-pgibbs sample time: 0.001087 seconds
-probability of topic_Staff_106 is 0.219635
-
-pgibbs sample time: 0.000436 seconds
-probability of topic_Faculty_58 is 0.146108
-
-pgibbs sample time: 0.001299 seconds
-probability of topic_Student_29 is 0.151042
-
-pgibbs sample time: 7.2e-05 seconds
-probability of topic_Department_63 is 0.0792741
-
-pgibbs sample time: 7.2e-05 seconds
-probability of topic_ResearchProject_79 is 0.0893678
-
-pgibbs sample time: 0.000383 seconds
-probability of topic_Department_30 is 0.094454
-
-pgibbs sample time: 0.001314 seconds
-probability of topic_Staff_59 is 0.115348
-
-pgibbs sample time: 7.3e-05 seconds
-probability of topic_Department_15 is 0.075943
-
-pgibbs sample time: 0.001528 seconds
-probability of topic_Person_3 is 0.072505
-
-pgibbs sample time: 5.8e-05 seconds
-probability of topic_Student_37 is 0.111963
-
-pgibbs sample time: 7e-05 seconds
-probability of topic_Staff_21 is 0.095026
-
-pgibbs sample time: 5.8e-05 seconds
-probability of topic_ResearchProject_39 is 0.138305
-
-pgibbs sample time: 0.000397 seconds
-probability of topic_Faculty_120 is 0.120217
-
-pgibbs sample time: 7.2e-05 seconds
-probability of topic_Person_68 is 0.0524671
-
-pgibbs sample time: 5.9e-05 seconds
-probability of topic_Faculty_75 is 0.112565
-
-pgibbs sample time: 0.000414 seconds
-probability of topic_ResearchProject_10 is 0.135389
-
-pgibbs sample time: 0.000973 seconds
-probability of topic_Person_78 is 0.0694775
+probability of topic_Faculty_84 is 0.541141
 
 pgibbs sample time: 0.000239 seconds
-probability of topic_Department_19 is 0.167968
-
-pgibbs sample time: 0.000697 seconds
-probability of topic_Course_33 is 0.166884
-
-pgibbs sample time: 0.001075 seconds
-probability of topic_ResearchProject_174 is 0.114689
+probability of topic_Course_119 is 0.487457
 
 pgibbs sample time: 5.8e-05 seconds
-probability of topic_Student_66 is 0.109458
+probability of topic_ResearchProject_43 is 0.495024
+
+pgibbs sample time: 0.000225 seconds
+probability of topic_Staff_145 is 0.474465
+
+pgibbs sample time: 0.000197 seconds
+probability of topic_Staff_17 is 0.569092
 
 pgibbs sample time: 5.7e-05 seconds
-probability of topic_Person_86 is 0.118943
-
-pgibbs sample time: 0.000444 seconds
-probability of topic_Course_168 is 0.0920823
-
-pgibbs sample time: 0.00106 seconds
-probability of topic_Course_180 is 0.113442
-
-pgibbs sample time: 0.001082 seconds
-probability of topic_ResearchProject_115 is 0.209279
-
-pgibbs sample time: 0.000279 seconds
-probability of topic_Person_231 is 0.146716
-
-pgibbs sample time: 0.000403 seconds
-probability of topic_Person_58 is 0.111725
+probability of topic_Staff_13 is 0.505232
 
 pgibbs sample time: 5.7e-05 seconds
-probability of topic_Student_9 is 0.101492
+probability of topic_Course_82 is 0.403024
 
-pgibbs sample time: 0.000428 seconds
-probability of topic_Staff_30 is 0.133579
+pgibbs sample time: 0.000238 seconds
+probability of topic_Department_187 is 0.501304
 
-pgibbs sample time: 0.000209 seconds
-probability of topic_Faculty_65 is 0.0891772
+pgibbs sample time: 0.000237 seconds
+probability of topic_Department_13 is 0.588
 
-pgibbs sample time: 0.001346 seconds
-probability of topic_Faculty_156 is 0.129757
+pgibbs sample time: 0.000504 seconds
+probability of topic_ResearchProject_136 is 0.423696
 
-pgibbs sample time: 5.8e-05 seconds
-probability of topic_ResearchProject_82 is 0.103724
-
-pgibbs sample time: 0.000969 seconds
-probability of topic_Person_89 is 0.112867
-
-pgibbs sample time: 0.001727 seconds
-probability of topic_Person_169 is 0.173457
-
-pgibbs sample time: 6.9e-05 seconds
-probability of topic_Person_77 is 0.185975
-
-pgibbs sample time: 0.000968 seconds
-probability of topic_Person_180 is 0.16944
-
-pgibbs sample time: 9.9e-05 seconds
-probability of topic_Person_47 is 0.0323841
-
-pgibbs sample time: 0.00128 seconds
-probability of topic_Person_28 is 0.098035
-
-pgibbs sample time: 7.3e-05 seconds
-probability of topic_Student_53 is 0.0953338
-
-pgibbs sample time: 0.000636 seconds
-probability of topic_Student_36 is 0.0800588
-
-pgibbs sample time: 0.001735 seconds
-probability of topic_Person_155 is 0.0810511
-
-pgibbs sample time: 0.001736 seconds
-probability of topic_Person_157 is 0.14937
+pgibbs sample time: 7.1e-05 seconds
+probability of topic_Staff_23 is 0.404258
 
 pgibbs sample time: 5.7e-05 seconds
-probability of topic_Course_46 is 0.0842368
-
-pgibbs sample time: 0.001129 seconds
-probability of topic_Faculty_41 is 0.0902223
+probability of topic_Course_66 is 0.419524
 
 pgibbs sample time: 0.001047 seconds
-probability of topic_Person_45 is 0.117924
+probability of topic_Person_106 is 0.638605
 
-pgibbs sample time: 0.000253 seconds
-probability of topic_Student_19 is 0.229047
+pgibbs sample time: 0.00105 seconds
+probability of topic_Person_41 is 0.374616
 
-pgibbs sample time: 6e-05 seconds
-probability of topic_ResearchProject_26 is 0.173515
+pgibbs sample time: 0.001872 seconds
+probability of topic_Person_12 is 0.600622
 
-pgibbs sample time: 0.000267 seconds
-probability of topic_Staff_87 is 0.135038
+pgibbs sample time: 0.001662 seconds
+probability of topic_Student_3 is 0.246437
 
-pgibbs sample time: 6e-05 seconds
-probability of topic_ResearchProject_23 is 0.0931433
+pgibbs sample time: 0.002049 seconds
+probability of topic_ResearchProject_199 is 0.396873
 
-pgibbs sample time: 5.9e-05 seconds
-probability of topic_Department_83 is 0.100008
-
-pgibbs sample time: 9.9e-05 seconds
-probability of topic_Person_32 is 0.122308
-
-pgibbs sample time: 5.6e-05 seconds
-probability of topic_Staff_26 is 0.126833
-
-pgibbs sample time: 5.7e-05 seconds
-probability of topic_Faculty_22 is 0.0798315
-
-pgibbs sample time: 5.7e-05 seconds
-probability of topic_Department_98 is 0.0616931
-
-pgibbs sample time: 0.000101 seconds
-probability of topic_Student_47 is 0.0398588
-
-pgibbs sample time: 7.1e-05 seconds
-probability of topic_Department_23 is 0.137829
-
-pgibbs sample time: 7.2e-05 seconds
-probability of topic_Department_53 is 0.0932549
-
-pgibbs sample time: 0.001087 seconds
-probability of topic_ResearchProject_45 is 0.09566
-
-pgibbs sample time: 0.000113 seconds
-probability of topic_Faculty_42 is 0.125236
-
-pgibbs sample time: 0.000511 seconds
-probability of topic_Person_110 is 0.127695
-
-pgibbs sample time: 5.6e-05 seconds
-probability of topic_Staff_75 is 0.123974
-
-pgibbs sample time: 5.6e-05 seconds
-probability of topic_Course_83 is 0.17098
+pgibbs sample time: 0.001837 seconds
+probability of topic_ResearchProject_169 is 0.565149
 
 pgibbs sample time: 5.8e-05 seconds
-probability of topic_Student_86 is 0.12576
-
-pgibbs sample time: 5.5e-05 seconds
-probability of topic_Person_96 is 0.101016
-
-pgibbs sample time: 0.0001 seconds
-probability of topic_Faculty_32 is 0.117703
-
-pgibbs sample time: 0.000258 seconds
-probability of topic_Course_231 is 0.115645
-
-pgibbs sample time: 7.1e-05 seconds
-probability of topic_Faculty_97 is 0.0976395
-
-pgibbs sample time: 0.001485 seconds
-probability of topic_Staff_156 is 0.159447
-
-pgibbs sample time: 0.001484 seconds
-probability of topic_Staff_126 is 0.148961
-
-pgibbs sample time: 0.001485 seconds
-probability of topic_Staff_114 is 0.0910376
-
-pgibbs sample time: 5.7e-05 seconds
-probability of topic_Staff_43 is 0.111413
-
-pgibbs sample time: 0.000259 seconds
-probability of topic_ResearchProject_20 is 0.17701
+probability of topic_Person_98 is 0.563978
 
 pgibbs sample time: 5.8e-05 seconds
-probability of topic_Department_38 is 0.14735
-
-pgibbs sample time: 0.000378 seconds
-probability of topic_Faculty_10 is 0.14619
-
-pgibbs sample time: 0.001568 seconds
-probability of topic_Staff_157 is 0.190343
-
-pgibbs sample time: 5.6e-05 seconds
-probability of topic_Staff_71 is 0.153806
-
-pgibbs sample time: 5.8e-05 seconds
-probability of topic_ResearchProject_38 is 0.105362
-
-pgibbs sample time: 5.7e-05 seconds
-probability of topic_Staff_60 is 0.111758
-
-pgibbs sample time: 0.000309 seconds
-probability of topic_Course_93 is 0.0972297
-
-pgibbs sample time: 5.7e-05 seconds
-probability of topic_ResearchProject_56 is 0.145229
+probability of topic_Department_85 is 0.483273
 
 pgibbs sample time: 0.000438 seconds
-probability of topic_Student_61 is 0.156872
-
-pgibbs sample time: 0.000112 seconds
-probability of topic_Faculty_7 is 0.118896
-
-pgibbs sample time: 0.001283 seconds
-probability of topic_Person_50 is 0.190734
+probability of topic_Student_87 is 0.565241
 
 pgibbs sample time: 7.1e-05 seconds
-probability of topic_Course_69 is 0.16344
+probability of topic_Person_63 is 0.362166
 
-pgibbs sample time: 0.00107 seconds
-probability of topic_Department_91 is 0.130656
-
-pgibbs sample time: 0.000231 seconds
-probability of topic_Staff_81 is 0.0995954
-
-pgibbs sample time: 0.001075 seconds
-probability of topic_Department_45 is 0.113513
-
-pgibbs sample time: 0.000994 seconds
-probability of topic_Student_89 is 0.121407
-
-pgibbs sample time: 0.00045 seconds
-probability of topic_Staff_57 is 0.1079
-
-pgibbs sample time: 0.000449 seconds
-probability of topic_Staff_61 is 0.116966
-
-pgibbs sample time: 0.001749 seconds
-probability of topic_Department_157 is 0.120355
-
-pgibbs sample time: 5.7e-05 seconds
-probability of topic_Staff_1 is 0.0811437
-
-pgibbs sample time: 0.001393 seconds
-probability of topic_Department_59 is 0.138474
-
-pgibbs sample time: 0.001526 seconds
-probability of topic_Person_54 is 0.11756
-
-pgibbs sample time: 0.000451 seconds
-probability of topic_Staff_168 is 0.0972326
-
-pgibbs sample time: 5.7e-05 seconds
-probability of topic_Staff_6 is 0.100623
-
-pgibbs sample time: 0.001122 seconds
-probability of topic_Student_72 is 0.148959
-
-pgibbs sample time: 7.2e-05 seconds
-probability of topic_Faculty_68 is 0.0642363
-
-pgibbs sample time: 0.000417 seconds
-probability of topic_Department_58 is 0.0985704
-
-pgibbs sample time: 0.000263 seconds
-probability of topic_Faculty_30 is 0.113633
-
-pgibbs sample time: 0.000561 seconds
-probability of topic_Staff_33 is 0.122566
-
-pgibbs sample time: 5.8e-05 seconds
-probability of topic_Department_9 is 0.113727
+pgibbs sample time: 0.000499 seconds
+probability of topic_Student_111 is 0.593158
 
 pgibbs sample time: 5.6e-05 seconds
-probability of topic_Student_39 is 0.10325
-
-pgibbs sample time: 5.6e-05 seconds
-probability of topic_Faculty_1 is 0.152963
-
-pgibbs sample time: 0.001094 seconds
-probability of topic_Course_174 is 0.125646
-
-pgibbs sample time: 0.001297 seconds
-probability of topic_Student_102 is 0.167264
-
-pgibbs sample time: 5.6e-05 seconds
-probability of topic_Person_75 is 0.107077
-
-pgibbs sample time: 5.7e-05 seconds
-probability of topic_ResearchProject_15 is 0.11691
-
-pgibbs sample time: 0.000258 seconds
-probability of topic_Course_25 is 0.0638602
-
-pgibbs sample time: 5.8e-05 seconds
-probability of topic_Department_26 is 0.120005
-
-pgibbs sample time: 6.9e-05 seconds
-probability of topic_Staff_5 is 0.124683
-
-pgibbs sample time: 0.000219 seconds
-probability of topic_Person_19 is 0.229716
-
-pgibbs sample time: 5.8e-05 seconds
-probability of topic_Faculty_99 is 0.103209
-
-pgibbs sample time: 0.00043 seconds
-probability of topic_Staff_67 is 0.103886
-
-pgibbs sample time: 6.1e-05 seconds
-probability of topic_Student_46 is 0.108926
-
-pgibbs sample time: 5.8e-05 seconds
-probability of topic_Student_70 is 0.0876746
-
-pgibbs sample time: 6.9e-05 seconds
-probability of topic_Staff_22 is 0.110544
-
-pgibbs sample time: 8.1e-05 seconds
-probability of topic_Staff_76 is 0.0863981
-
-pgibbs sample time: 5.6e-05 seconds
-probability of topic_Student_90 is 0.117158
-
-pgibbs sample time: 5.6e-05 seconds
-probability of topic_Student_74 is 0.111963
-
-pgibbs sample time: 5.7e-05 seconds
-probability of topic_Department_56 is 0.109957
-
-pgibbs sample time: 0.000625 seconds
-probability of topic_ResearchProject_33 is 0.108217
-
-pgibbs sample time: 0.000433 seconds
-probability of topic_Faculty_111 is 0.129395
-
-pgibbs sample time: 0.000256 seconds
-probability of topic_Student_81 is 0.152037
-
-pgibbs sample time: 0.00041 seconds
-probability of topic_Course_111 is 0.0966515
-
-pgibbs sample time: 0.001285 seconds
-probability of topic_Person_102 is 0.155902
-
-pgibbs sample time: 5.7e-05 seconds
-probability of topic_Person_9 is 0.0834132
-
-pgibbs sample time: 0.000442 seconds
-probability of topic_Person_67 is 0.123597
-
-pgibbs sample time: 0.001269 seconds
-probability of topic_Course_28 is 0.121614
-
-pgibbs sample time: 0.001727 seconds
-probability of topic_Person_133 is 0.136759
-
-pgibbs sample time: 5.5e-05 seconds
-probability of topic_Person_6 is 0.10676
-
-pgibbs sample time: 0.000208 seconds
-probability of topic_Faculty_119 is 0.114412
-
-pgibbs sample time: 7.2e-05 seconds
-probability of topic_Course_22 is 0.0783993
-
-pgibbs sample time: 0.000234 seconds
-probability of topic_ResearchProject_145 is 0.122391
-
-pgibbs sample time: 7.2e-05 seconds
-probability of topic_Student_15 is 0.127456
-
-pgibbs sample time: 0.001122 seconds
-probability of topic_Student_118 is 0.161708
-
-pgibbs sample time: 0.000221 seconds
-probability of topic_Staff_19 is 0.083191
-
-pgibbs sample time: 0.001025 seconds
-probability of topic_Staff_91 is 0.105854
-
-pgibbs sample time: 0.000235 seconds
-probability of topic_ResearchProject_17 is 0.103569
-
-pgibbs sample time: 6e-05 seconds
-probability of topic_Person_90 is 0.189912
-
-pgibbs sample time: 5.7e-05 seconds
-probability of topic_Student_60 is 0.117873
-
-pgibbs sample time: 7e-05 seconds
-probability of topic_Staff_77 is 0.0810908
-
-pgibbs sample time: 0.000626 seconds
-probability of topic_ResearchProject_209 is 0.0883878
-
-pgibbs sample time: 0.001644 seconds
-probability of topic_ResearchProject_2 is 0.12498
-
-pgibbs sample time: 5.8e-05 seconds
-probability of topic_Faculty_51 is 0.0798315
-
-pgibbs sample time: 5.7e-05 seconds
-probability of topic_Faculty_85 is 0.110889
-
-pgibbs sample time: 0.0001 seconds
-probability of topic_Department_47 is 0.039609
-
-pgibbs sample time: 5.5e-05 seconds
-probability of topic_Staff_62 is 0.111338
-
-pgibbs sample time: 0.000375 seconds
-probability of topic_Course_35 is 0.111575
-
-pgibbs sample time: 0.000228 seconds
-probability of topic_Staff_20 is 0.0930989
-
-pgibbs sample time: 0.000264 seconds
-probability of topic_Faculty_136 is 0.086936
-
-pgibbs sample time: 0.000175 seconds
-probability of topic_Faculty_55 is 0.1129
-
-pgibbs sample time: 0.000174 seconds
-probability of topic_Faculty_73 is 0.13311
-
-pgibbs sample time: 5.6e-05 seconds
-probability of topic_Staff_38 is 0.0873167
-
-pgibbs sample time: 0.000387 seconds
-probability of topic_Department_92 is 0.0958011
-
-pgibbs sample time: 0.000452 seconds
-probability of topic_Faculty_67 is 0.0931237
-
-pgibbs sample time: 6.3e-05 seconds
-probability of topic_Department_22 is 0.105436
-
-pgibbs sample time: 0.000452 seconds
-probability of topic_Faculty_134 is 0.0951037
-
-pgibbs sample time: 5.5e-05 seconds
-probability of topic_Course_37 is 0.0872788
-
-pgibbs sample time: 0.001567 seconds
-probability of topic_Staff_24 is 0.118937
-
-pgibbs sample time: 0.000266 seconds
-probability of topic_Department_81 is 0.167898
-
-pgibbs sample time: 9.9e-05 seconds
-probability of topic_Person_52 is 0.109776
-
-pgibbs sample time: 0.001404 seconds
-probability of topic_Department_54 is 0.123271
-
-pgibbs sample time: 0.001403 seconds
-probability of topic_Department_114 is 0.0969334
-
-pgibbs sample time: 0.001031 seconds
-probability of topic_Staff_45 is 0.0969801
-
-pgibbs sample time: 0.000209 seconds
-probability of topic_ResearchProject_187 is 0.0997326
-
-pgibbs sample time: 0.000206 seconds
-probability of topic_ResearchProject_13 is 0.132061
-
-pgibbs sample time: 0.000259 seconds
-probability of topic_Staff_4 is 0.0880002
-
-pgibbs sample time: 8.3e-05 seconds
-probability of topic_Course_76 is 0.0920289
-
-pgibbs sample time: 0.001077 seconds
-probability of topic_ResearchProject_126 is 0.113296
-
-pgibbs sample time: 6.9e-05 seconds
-probability of topic_Course_15 is 0.0878773
-
-pgibbs sample time: 0.001077 seconds
-probability of topic_Faculty_78 is 0.0949905
-
-pgibbs sample time: 5.8e-05 seconds
-probability of topic_ResearchProject_71 is 0.108601
-
-pgibbs sample time: 7.2e-05 seconds
-probability of topic_Staff_64 is 0.0797388
-
-pgibbs sample time: 0.000116 seconds
-probability of topic_ResearchProject_42 is 0.0851791
-
-pgibbs sample time: 0.00026 seconds
-probability of topic_Person_93 is 0.035844
-
-pgibbs sample time: 5.6e-05 seconds
-probability of topic_Staff_66 is 0.0895899
-
-pgibbs sample time: 0.001768 seconds
-probability of topic_Course_18 is 0.0741844
-
-pgibbs sample time: 0.000303 seconds
-probability of topic_Staff_111 is 0.157091
-
-pgibbs sample time: 0.001478 seconds
-probability of topic_Staff_54 is 0.120994
-
-pgibbs sample time: 0.000101 seconds
-probability of topic_Faculty_94 is 0.0293955
-
-pgibbs sample time: 7e-05 seconds
-probability of topic_Person_97 is 0.175232
-
-pgibbs sample time: 5.7e-05 seconds
-probability of topic_ResearchProject_96 is 0.112931
-
-pgibbs sample time: 5.7e-05 seconds
-probability of topic_Department_75 is 0.101285
-
-pgibbs sample time: 5.6e-05 seconds
-probability of topic_Faculty_6 is 0.106035
-
-pgibbs sample time: 0.001324 seconds
-probability of topic_Faculty_102 is 0.14778
-
-pgibbs sample time: 7.3e-05 seconds
-probability of topic_Faculty_76 is 0.115803
-
-pgibbs sample time: 7.3e-05 seconds
-probability of topic_Staff_53 is 0.0926435
-
-pgibbs sample time: 0.000259 seconds
-probability of topic_Course_20 is 0.103659
-
-pgibbs sample time: 0.000446 seconds
-probability of topic_Student_134 is 0.126014
-
-pgibbs sample time: 5.7e-05 seconds
-probability of topic_ResearchProject_95 is 0.10342
-
-pgibbs sample time: 0.001759 seconds
-probability of topic_Department_18 is 0.081946
-
-pgibbs sample time: 0.001082 seconds
-probability of topic_Department_78 is 0.101751
-
-pgibbs sample time: 0.001082 seconds
-probability of topic_Faculty_89 is 0.101549
-
-pgibbs sample time: 0.000249 seconds
-probability of topic_Person_81 is 0.11793
-
-pgibbs sample time: 5.8e-05 seconds
-probability of topic_Department_66 is 0.105425
-
-pgibbs sample time: 5.7e-05 seconds
-probability of topic_Faculty_95 is 0.107831
-
-pgibbs sample time: 0.000249 seconds
-probability of topic_Person_20 is 0.113637
-
-pgibbs sample time: 0.000113 seconds
-probability of topic_Department_52 is 0.100946
-
-pgibbs sample time: 5.9e-05 seconds
-probability of topic_ResearchProject_84 is 0.0796257
-
-pgibbs sample time: 8.4e-05 seconds
-probability of topic_ResearchProject_32 is 0.112782
-
-pgibbs sample time: 5.7e-05 seconds
-probability of topic_ResearchProject_40 is 0.0913892
-
-pgibbs sample time: 0.00023 seconds
-probability of topic_Faculty_17 is 0.155315
-
-pgibbs sample time: 5.8e-05 seconds
-probability of topic_Student_22 is 0.174619
-
-pgibbs sample time: 5.6e-05 seconds
-probability of topic_Staff_84 is 0.101301
-
-pgibbs sample time: 5.4e-05 seconds
-probability of topic_Staff_80 is 0.0948402
-
-pgibbs sample time: 5.8e-05 seconds
-probability of topic_Student_38 is 0.0956805
-
-pgibbs sample time: 9.6e-05 seconds
-probability of topic_Staff_47 is 0.0604554
-
-pgibbs sample time: 5.4e-05 seconds
-probability of topic_Staff_44 is 0.0874999
-
-pgibbs sample time: 0.000233 seconds
-probability of topic_ResearchProject_49 is 0.119376
-
-pgibbs sample time: 0.001085 seconds
-probability of topic_ResearchProject_78 is 0.125238
-
-pgibbs sample time: 7.2e-05 seconds
-probability of topic_Faculty_53 is 0.108402
-
-pgibbs sample time: 5.5e-05 seconds
-probability of topic_Staff_86 is 0.0832345
-
-pgibbs sample time: 0.001167 seconds
-probability of topic_Department_50 is 0.100546
-
-pgibbs sample time: 0.001171 seconds
-probability of topic_Department_102 is 0.0816584
-
-pgibbs sample time: 0.001169 seconds
-probability of topic_Department_28 is 0.11638
-
-pgibbs sample time: 5.6e-05 seconds
-probability of topic_Course_38 is 0.105285
-
-pgibbs sample time: 5.7e-05 seconds
-probability of topic_Person_66 is 0.1089
-
-pgibbs sample time: 5.6e-05 seconds
-probability of topic_Course_68 is 0.113941
-
-pgibbs sample time: 0.001773 seconds
-probability of topic_Course_12 is 0.129048
-
-pgibbs sample time: 0.001776 seconds
-probability of topic_Course_155 is 0.113532
-
-pgibbs sample time: 5.8e-05 seconds
-probability of topic_Faculty_44 is 0.147875
-
-pgibbs sample time: 5.6e-05 seconds
-probability of topic_Course_75 is 0.0834726
-
-pgibbs sample time: 0.001723 seconds
-probability of topic_Student_133 is 0.153118
-
-pgibbs sample time: 0.000325 seconds
-probability of topic_ResearchProject_31 is 0.085649
-
-pgibbs sample time: 0.000324 seconds
-probability of topic_ResearchProject_92 is 0.120738
-
-pgibbs sample time: 5.9e-05 seconds
-probability of topic_Department_60 is 0.122427
-
-pgibbs sample time: 0.000509 seconds
-probability of topic_Department_130 is 0.123372
-
-pgibbs sample time: 0.000452 seconds
-probability of topic_Faculty_57 is 0.117115
-
-pgibbs sample time: 0.000196 seconds
-probability of topic_Course_19 is 0.0834186
-
-pgibbs sample time: 0.000195 seconds
-probability of topic_Course_49 is 0.0953961
-
-pgibbs sample time: 5.9e-05 seconds
-probability of topic_Faculty_16 is 0.122699
-
-pgibbs sample time: 7.1e-05 seconds
-probability of topic_Student_63 is 0.0943436
-
-pgibbs sample time: 0.001758 seconds
-probability of topic_Department_155 is 0.157226
-
-pgibbs sample time: 6.9e-05 seconds
-probability of topic_Course_5 is 0.080082
-
-pgibbs sample time: 0.000236 seconds
-probability of topic_Department_49 is 0.11008
-
-pgibbs sample time: 0.000278 seconds
-probability of topic_Staff_231 is 0.10174
-
-pgibbs sample time: 0.000619 seconds
-probability of topic_Person_33 is 0.0737533
-
-pgibbs sample time: 0.000618 seconds
-probability of topic_Person_209 is 0.142314
-
-pgibbs sample time: 0.000207 seconds
-probability of topic_Student_13 is 0.0573275
-
-pgibbs sample time: 0.000207 seconds
-probability of topic_Student_187 is 0.122149
-
-pgibbs sample time: 0.000402 seconds
-probability of topic_Person_4 is 0.114826
-
-pgibbs sample time: 0.001735 seconds
-probability of topic_Faculty_18 is 0.0943633
-
-pgibbs sample time: 5.8e-05 seconds
-probability of topic_Faculty_82 is 0.0833607
-
-pgibbs sample time: 6.8e-05 seconds
-probability of topic_Staff_97 is 0.149585
-
-pgibbs sample time: 7e-05 seconds
-probability of topic_Student_77 is 0.269081
-
-pgibbs sample time: 0.000207 seconds
-probability of topic_ResearchProject_73 is 0.114128
-
-pgibbs sample time: 5.6e-05 seconds
-probability of topic_Course_95 is 0.118193
-
-pgibbs sample time: 0.00051 seconds
-probability of topic_Student_130 is 0.121183
-
-pgibbs sample time: 7e-05 seconds
-probability of topic_ResearchProject_97 is 0.105789
-
-pgibbs sample time: 7e-05 seconds
-probability of topic_Department_77 is 0.182096
-
-pgibbs sample time: 0.00114 seconds
-probability of topic_Department_174 is 0.37063
-
-pgibbs sample time: 0.00018 seconds
-probability of topic_Student_65 is 0.113195
-
-pgibbs sample time: 0.000113 seconds
-probability of topic_Person_42 is 0.164165
-
-pgibbs sample time: 5.5e-05 seconds
-probability of topic_Course_34 is 0.101594
-
-pgibbs sample time: 0.000258 seconds
-probability of topic_Course_81 is 0.136955
-
-pgibbs sample time: 0.00039 seconds
-probability of topic_ResearchProject_67 is 0.102242
-
-pgibbs sample time: 0.000203 seconds
-probability of topic_Student_55 is 0.136984
-
-pgibbs sample time: 5.6e-05 seconds
-probability of topic_ResearchProject_90 is 0.1508
-
-pgibbs sample time: 7.1e-05 seconds
-probability of topic_Department_79 is 0.145098
-
-pgibbs sample time: 5.6e-05 seconds
-probability of topic_Staff_56 is 0.0930899
-
-pgibbs sample time: 5.7e-05 seconds
-probability of topic_Student_82 is 0.123171
-
-pgibbs sample time: 0.000417 seconds
-probability of topic_Person_87 is 0.173572
-
-pgibbs sample time: 5.8e-05 seconds
-probability of topic_Department_90 is 0.139866
-
-pgibbs sample time: 0.000382 seconds
-probability of topic_Student_31 is 0.152226
-
-pgibbs sample time: 5.7e-05 seconds
-probability of topic_Faculty_26 is 0.156856
-
-pgibbs sample time: 0.001129 seconds
-probability of topic_Faculty_106 is 0.128958
-
-pgibbs sample time: 5.8e-05 seconds
-probability of topic_Student_83 is 0.126211
-
-pgibbs sample time: 0.001086 seconds
-probability of topic_ResearchProject_89 is 0.107076
-
-pgibbs sample time: 5.8e-05 seconds
-probability of topic_ResearchProject_60 is 0.110987
-
-pgibbs sample time: 0.000391 seconds
-probability of topic_Department_31 is 0.101904
-
-pgibbs sample time: 7e-05 seconds
-probability of topic_Person_21 is 0.0975907
-
-pgibbs sample time: 5.6e-05 seconds
-probability of topic_Course_56 is 0.0891904
-
-pgibbs sample time: 0.00038 seconds
-probability of topic_Course_134 is 0.0990147
-
-pgibbs sample time: 5.5e-05 seconds
-probability of topic_Course_90 is 0.0820452
-
-pgibbs sample time: 7.1e-05 seconds
-probability of topic_Person_14 is 0.0940298
-
-pgibbs sample time: 5.7e-05 seconds
-probability of topic_ResearchProject_44 is 0.0700553
-
-pgibbs sample time: 0.001047 seconds
-probability of topic_Person_91 is 0.0767023
-
-pgibbs sample time: 0.001217 seconds
-probability of topic_Department_118 is 0.109322
-
-pgibbs sample time: 6e-05 seconds
-probability of topic_ResearchProject_6 is 0.10165
-
-pgibbs sample time: 0.001322 seconds
-probability of topic_Course_114 is 0.090479
-
-pgibbs sample time: 7.3e-05 seconds
-probability of topic_Student_23 is 0.0510201
-
-pgibbs sample time: 5.7e-05 seconds
-probability of topic_Course_85 is 0.133704
-
-pgibbs sample time: 5.5e-05 seconds
-probability of topic_Person_71 is 0.201808
-
-pgibbs sample time: 5.7e-05 seconds
-probability of topic_Faculty_66 is 0.079707
-
-pgibbs sample time: 0.001141 seconds
-probability of topic_Department_41 is 0.0857384
-
-pgibbs sample time: 0.001144 seconds
-probability of topic_Department_72 is 0.0633231
-
-pgibbs sample time: 0.000507 seconds
-probability of topic_Department_8 is 0.207758
-
-pgibbs sample time: 0.000508 seconds
-probability of topic_Department_110 is 0.0898971
-
-pgibbs sample time: 0.000404 seconds
-probability of topic_Person_111 is 0.215873
-
-pgibbs sample time: 0.00132 seconds
-probability of topic_Course_59 is 0.196348
-
-pgibbs sample time: 6.9e-05 seconds
-probability of topic_Person_5 is 0.11609
-
-pgibbs sample time: 6.9e-05 seconds
-probability of topic_Course_88 is 0.121482
-
-pgibbs sample time: 0.001326 seconds
-probability of topic_Course_126 is 0.0845715
-
-pgibbs sample time: 0.001327 seconds
-probability of topic_Course_156 is 0.135073
-
-pgibbs sample time: 5.8e-05 seconds
-probability of topic_Faculty_80 is 0.0854832
-
-pgibbs sample time: 0.00132 seconds
-probability of topic_Course_3 is 0.0986731
-
-pgibbs sample time: 7.1e-05 seconds
-probability of topic_Faculty_77 is 0.0723861
-
-pgibbs sample time: 0.000435 seconds
-probability of topic_Student_4 is 0.0985991
-
-pgibbs sample time: 5.7e-05 seconds
-probability of topic_Course_26 is 0.141758
-
-pgibbs sample time: 5.6e-05 seconds
-probability of topic_Person_26 is 0.11794
-
-pgibbs sample time: 0.000209 seconds
-probability of topic_ResearchProject_65 is 0.124084
-
-pgibbs sample time: 0.000377 seconds
-probability of topic_Person_92 is 0.102485
-
-pgibbs sample time: 0.000265 seconds
-probability of topic_Department_116 is 0.0987621
-
-pgibbs sample time: 0.00178 seconds
-probability of topic_Course_199 is 0.109417
-
-pgibbs sample time: 7.3e-05 seconds
-probability of topic_Department_51 is 0.0995726
-
-pgibbs sample time: 0.000443 seconds
-probability of topic_Person_134 is 0.117959
-
-pgibbs sample time: 5.8e-05 seconds
-probability of topic_Person_99 is 0.0813615
-
-pgibbs sample time: 0.000345 seconds
-probability of topic_Staff_92 is 0.0952778
-
-pgibbs sample time: 7.5e-05 seconds
-probability of topic_Faculty_88 is 0.140824
-
-pgibbs sample time: 5.7e-05 seconds
-probability of topic_ResearchProject_85 is 0.118853
-
-pgibbs sample time: 0.000372 seconds
-probability of topic_Staff_11 is 0.0942164
-
-pgibbs sample time: 0.000372 seconds
-probability of topic_Staff_134 is 0.083835
-
-pgibbs sample time: 5.7e-05 seconds
-probability of topic_Faculty_98 is 0.087534
-
-pgibbs sample time: 5.6e-05 seconds
-probability of topic_ResearchProject_9 is 0.188793
-
-pgibbs sample time: 5.8e-05 seconds
-probability of topic_Student_34 is 0.159601
-
-pgibbs sample time: 0.000246 seconds
-probability of topic_Department_231 is 0.0996346
-
-pgibbs sample time: 5.7e-05 seconds
-probability of topic_ResearchProject_16 is 0.109777
-
-pgibbs sample time: 5.7e-05 seconds
-probability of topic_Person_43 is 0.108171
-
-pgibbs sample time: 0.001732 seconds
-probability of topic_Faculty_155 is 0.204906
-
-pgibbs sample time: 5.7e-05 seconds
-probability of topic_Student_95 is 0.119245
-
-pgibbs sample time: 0.000286 seconds
-probability of topic_Department_25 is 0.0493549
-
-pgibbs sample time: 0.001735 seconds
-probability of topic_Faculty_157 is 0.102336
-
-pgibbs sample time: 5.8e-05 seconds
-probability of topic_Faculty_60 is 0.0981916
-
-pgibbs sample time: 5.7e-05 seconds
-probability of topic_Staff_96 is 0.114578
-
-pgibbs sample time: 5.7e-05 seconds
-probability of topic_Department_39 is 0.0873436
-
-pgibbs sample time: 0.00157 seconds
-probability of topic_Staff_169 is 0.314465
-
-pgibbs sample time: 0.001574 seconds
-probability of topic_Staff_18 is 0.0765177
-
-pgibbs sample time: 0.000174 seconds
-probability of topic_Person_187 is 0.10862
-
-pgibbs sample time: 5.8e-05 seconds
-probability of topic_Student_98 is 0.180909
-
-pgibbs sample time: 0.001722 seconds
-probability of topic_Student_24 is 0.151796
-
-pgibbs sample time: 7.3e-05 seconds
-probability of topic_ResearchProject_77 is 0.136578
-
-pgibbs sample time: 7e-05 seconds
-probability of topic_Person_27 is 0.118117
-
-pgibbs sample time: 5.8e-05 seconds
-probability of topic_ResearchProject_62 is 0.174317
-
-pgibbs sample time: 0.000485 seconds
-probability of topic_Staff_8 is 0.161411
-
-pgibbs sample time: 7.2e-05 seconds
-probability of topic_Student_14 is 0.100423
-
-pgibbs sample time: 6.8e-05 seconds
-probability of topic_Staff_51 is 0.0775693
-
-pgibbs sample time: 0.000484 seconds
-probability of topic_Staff_110 is 0.0893279
-
-pgibbs sample time: 5.6e-05 seconds
-probability of topic_Course_77 is 0.0597345
-
-pgibbs sample time: 0.000304 seconds
-probability of topic_Department_93 is 0.101962
-
-pgibbs sample time: 5.6e-05 seconds
-probability of topic_Staff_46 is 0.0866285
-
-pgibbs sample time: 5.7e-05 seconds
-probability of topic_Student_75 is 0.10162
-
-pgibbs sample time: 0.000115 seconds
-probability of topic_ResearchProject_7 is 0.094216
-
-pgibbs sample time: 5.6e-05 seconds
-probability of topic_ResearchProject_37 is 0.0931433
-
-pgibbs sample time: 0.001092 seconds
-probability of topic_ResearchProject_91 is 0.15214
-
-pgibbs sample time: 5.7e-05 seconds
-probability of topic_Course_86 is 0.0827452
-
-pgibbs sample time: 5.6e-05 seconds
-probability of topic_Person_60 is 0.10465
-
-pgibbs sample time: 0.001723 seconds
-probability of topic_Student_2 is 0.106374
-
-pgibbs sample time: 0.000444 seconds
-probability of topic_Student_30 is 0.0956144
-
-pgibbs sample time: 0.001723 seconds
-probability of topic_Student_199 is 0.17952
-
-pgibbs sample time: 0.001724 seconds
-probability of topic_Student_18 is 0.105143
-
-pgibbs sample time: 0.00018 seconds
-probability of topic_Student_119 is 0.106801
-
-pgibbs sample time: 0.000208 seconds
-probability of topic_Faculty_13 is 0.144979
-
-pgibbs sample time: 0.000207 seconds
-probability of topic_Faculty_187 is 0.159248
-
-pgibbs sample time: 0.000399 seconds
-probability of topic_Person_168 is 0.117477
-
-pgibbs sample time: 5.7e-05 seconds
-probability of topic_Staff_85 is 0.0851116
-
-pgibbs sample time: 0.00041 seconds
-probability of topic_Course_4 is 0.115084
-
-pgibbs sample time: 0.000384 seconds
-probability of topic_Student_92 is 0.118646
-
-pgibbs sample time: 0.000409 seconds
-probability of topic_Course_58 is 0.129961
-
-pgibbs sample time: 0.000382 seconds
-probability of topic_Student_120 is 0.135462
-
-pgibbs sample time: 5.8e-05 seconds
-probability of topic_Faculty_56 is 0.0960443
-
-pgibbs sample time: 0.000269 seconds
-probability of topic_Faculty_93 is 0.0920432
-
-pgibbs sample time: 0.000101 seconds
-probability of topic_Department_32 is 0.0778895
-
-pgibbs sample time: 5.7e-05 seconds
-probability of topic_Faculty_43 is 0.1354
-
-pgibbs sample time: 7.2e-05 seconds
-probability of topic_Department_97 is 0.227962
-
-pgibbs sample time: 6.1e-05 seconds
-probability of topic_Student_99 is 0.10325
-
-pgibbs sample time: 0.001088 seconds
-probability of topic_ResearchProject_3 is 0.102304
-
-pgibbs sample time: 5.6e-05 seconds
-probability of topic_Staff_88 is 0.186528
-
-pgibbs sample time: 5.7e-05 seconds
-probability of topic_Student_80 is 0.111963
-
-pgibbs sample time: 9.6e-05 seconds
-probability of topic_Person_94 is 0.0364547
-
-pgibbs sample time: 5.6e-05 seconds
-probability of topic_Student_71 is 0.159663
-
-pgibbs sample time: 0.001729 seconds
-probability of topic_Student_155 is 0.0374362
-
-pgibbs sample time: 0.001736 seconds
-probability of topic_Student_157 is 0.144558
-
-pgibbs sample time: 5.8e-05 seconds
-probability of topic_Department_62 is 0.18052
-
-pgibbs sample time: 5.7e-05 seconds
-probability of topic_Department_6 is 0.092868
-
-pgibbs sample time: 5.5e-05 seconds
-probability of topic_Person_62 is 0.243469
-
-pgibbs sample time: 0.0001 seconds
-probability of topic_Faculty_47 is 0.136514
-
-pgibbs sample time: 5.5e-05 seconds
-probability of topic_Person_74 is 0.113662
+probability of topic_Staff_34 is 0.59088
 
 pgibbs sample time: 0.000109 seconds
-probability of topic_Student_7 is 0.134583
+probability of topic_Course_42 is 0.224734
 
-pgibbs sample time: 0.001733 seconds
-probability of topic_Person_24 is 0.125287
+pgibbs sample time: 0.000697 seconds
+probability of topic_Faculty_209 is 0.445624
+
+pgibbs sample time: 0.000697 seconds
+probability of topic_Faculty_33 is 0.603207
+
+pgibbs sample time: 0.001755 seconds
+probability of topic_Staff_133 is 0.515996
+
+pgibbs sample time: 0.00072 seconds
+probability of topic_Department_33 is 0.7969
+
+pgibbs sample time: 0.000435 seconds
+probability of topic_Course_31 is 0.383491
 
 pgibbs sample time: 5.8e-05 seconds
-probability of topic_Person_85 is 0.0933286
+probability of topic_Faculty_37 is 0.419826
+
+pgibbs sample time: 0.000497 seconds
+probability of topic_Faculty_4 is 0.569703
+
+pgibbs sample time: 5.8e-05 seconds
+probability of topic_Faculty_46 is 0.387388
 
 pgibbs sample time: 5.7e-05 seconds
-probability of topic_Department_96 is 0.0967174
+probability of topic_ResearchProject_80 is 0.442936
+
+pgibbs sample time: 0.001188 seconds
+probability of topic_Faculty_48 is 0.457676
+
+pgibbs sample time: 0.000723 seconds
+probability of topic_Department_209 is 0.436732
+
+pgibbs sample time: 0.001922 seconds
+probability of topic_Course_157 is 0.411607
+
+pgibbs sample time: 0.001052 seconds
+probability of topic_Person_72 is 0.557111
+
+pgibbs sample time: 7.2e-05 seconds
+probability of topic_Faculty_14 is 0.460316
+
+pgibbs sample time: 5.7e-05 seconds
+probability of topic_Staff_16 is 0.554346
+
+pgibbs sample time: 0.00166 seconds
+probability of topic_Student_114 is 0.540982
+
+pgibbs sample time: 0.001168 seconds
+probability of topic_Course_48 is 0.434555
+
+pgibbs sample time: 0.000249 seconds
+probability of topic_Person_49 is 0.533295
+
+pgibbs sample time: 5.5e-05 seconds
+probability of topic_Course_9 is 0.45318
+
+pgibbs sample time: 0.000415 seconds
+probability of topic_Faculty_92 is 0.499795
+
+pgibbs sample time: 0.001938 seconds
+probability of topic_Faculty_133 is 0.497484
 
 pgibbs sample time: 5.8e-05 seconds
-probability of topic_Student_84 is 0.092035
+probability of topic_Department_84 is 0.420608
 
-pgibbs sample time: 0.000507 seconds
-probability of topic_Person_8 is 0.125697
+pgibbs sample time: 5.8e-05 seconds
+probability of topic_Faculty_83 is 0.489116
 
-pgibbs sample time: 6e-05 seconds
-probability of topic_Student_26 is 0.0839271
+pgibbs sample time: 5.7e-05 seconds
+probability of topic_Staff_63 is 0.406627
 
-pgibbs sample time: 0.00038 seconds
-probability of topic_Student_57 is 0.126717
+pgibbs sample time: 0.0003 seconds
+probability of topic_Faculty_25 is 0.353422
 
-pgibbs sample time: 0.000438 seconds
-probability of topic_Student_168 is 0.117854
-
-pgibbs sample time: 8.6e-05 seconds
-probability of topic_ResearchProject_47 is 0.104219
+pgibbs sample time: 0.001665 seconds
+probability of topic_Student_54 is 0.492353
 
 pgibbs sample time: 7e-05 seconds
-probability of topic_Course_23 is 0.232371
+probability of topic_Course_14 is 0.596325
+
+pgibbs sample time: 0.0007 seconds
+probability of topic_Person_36 is 0.387224
+
+pgibbs sample time: 5.8e-05 seconds
+probability of topic_ResearchProject_99 is 0.554075
+
+pgibbs sample time: 0.00048 seconds
+probability of topic_Department_4 is 0.43163
+
+pgibbs sample time: 7.2e-05 seconds
+probability of topic_ResearchProject_63 is 0.644218
+
+pgibbs sample time: 0.001661 seconds
+probability of topic_Student_156 is 0.442485
+
+pgibbs sample time: 0.001436 seconds
+probability of topic_ResearchProject_29 is 0.385693
+
+pgibbs sample time: 0.001474 seconds
+probability of topic_Course_54 is 0.506125
+
+pgibbs sample time: 0.001456 seconds
+probability of topic_Faculty_29 is 0.406898
+
+pgibbs sample time: 0.000502 seconds
+probability of topic_Course_30 is 0.579827
+
+pgibbs sample time: 0.001764 seconds
+probability of topic_Staff_2 is 0.441868
+
+pgibbs sample time: 0.001568 seconds
+probability of topic_Student_28 is 0.481076
+
+pgibbs sample time: 0.000308 seconds
+probability of topic_Faculty_20 is 0.532963
+
+pgibbs sample time: 0.000418 seconds
+probability of topic_Person_10 is 0.524308
+
+pgibbs sample time: 0.001208 seconds
+probability of topic_ResearchProject_48 is 0.823838
+
+pgibbs sample time: 7.2e-05 seconds
+probability of topic_Faculty_69 is 0.445308
+
+pgibbs sample time: 7.3e-05 seconds
+probability of topic_Faculty_63 is 0.435829
+
+pgibbs sample time: 0.000509 seconds
+probability of topic_Course_125 is 0.451562
+
+pgibbs sample time: 9.7e-05 seconds
+probability of topic_Staff_32 is 0.370694
+
+pgibbs sample time: 0.001212 seconds
+probability of topic_Course_106 is 0.49465
+
+pgibbs sample time: 0.001213 seconds
+probability of topic_Course_118 is 0.434891
+
+pgibbs sample time: 5.8e-05 seconds
+probability of topic_Faculty_38 is 0.465813
+
+pgibbs sample time: 0.001208 seconds
+probability of topic_Course_41 is 0.304998
+
+pgibbs sample time: 0.000234 seconds
+probability of topic_Student_145 is 0.496925
+
+pgibbs sample time: 0.001765 seconds
+probability of topic_Staff_12 is 0.4815
+
+pgibbs sample time: 5.5e-05 seconds
+probability of topic_Staff_79 is 0.576178
+
+pgibbs sample time: 5.6e-05 seconds
+probability of topic_Person_39 is 0.406754
+
+pgibbs sample time: 0.000193 seconds
+probability of topic_Staff_55 is 0.483449
+
+pgibbs sample time: 0.000719 seconds
+probability of topic_Department_36 is 0.441132
+
+pgibbs sample time: 0.00045 seconds
+probability of topic_ResearchProject_125 is 0.49254
+
+pgibbs sample time: 5.5e-05 seconds
+probability of topic_Person_80 is 0.498179
+
+pgibbs sample time: 5.5e-05 seconds
+probability of topic_Person_40 is 0.486242
+
+pgibbs sample time: 5.7e-05 seconds
+probability of topic_Person_70 is 0.454068
+
+pgibbs sample time: 0.000336 seconds
+probability of topic_Person_136 is 0.489095
+
+pgibbs sample time: 0.001961 seconds
+probability of topic_Department_12 is 0.593266
+
+pgibbs sample time: 9.7e-05 seconds
+probability of topic_Course_52 is 0.421022
+
+pgibbs sample time: 0.001958 seconds
+probability of topic_Department_24 is 0.505012
+
+pgibbs sample time: 0.000302 seconds
+probability of topic_Faculty_81 is 0.456805
+
+pgibbs sample time: 0.0001 seconds
+probability of topic_Student_94 is 0.637384
+
+pgibbs sample time: 0.001955 seconds
+probability of topic_Department_199 is 0.375178
+
+pgibbs sample time: 9.7e-05 seconds
+probability of topic_Course_94 is 0.220745
+
+pgibbs sample time: 0.001183 seconds
+probability of topic_Department_89 is 0.444273
+
+pgibbs sample time: 0.001051 seconds
+probability of topic_Person_115 is 0.426174
+
+pgibbs sample time: 5.9e-05 seconds
+probability of topic_Course_43 is 0.464736
+
+pgibbs sample time: 5.5e-05 seconds
+probability of topic_Person_34 is 0.658047
+
+pgibbs sample time: 0.000316 seconds
+probability of topic_Student_116 is 0.431649
+
+pgibbs sample time: 0.000306 seconds
+probability of topic_Department_20 is 0.487876
+
+pgibbs sample time: 0.001938 seconds
+probability of topic_Person_199 is 0.524254
+
+pgibbs sample time: 0.000427 seconds
+probability of topic_Course_87 is 0.352772
+
+pgibbs sample time: 0.001937 seconds
+probability of topic_Faculty_24 is 0.481497
+
+pgibbs sample time: 0.000338 seconds
+probability of topic_Staff_116 is 0.462992
+
+pgibbs sample time: 0.000337 seconds
+probability of topic_Staff_93 is 0.510017
+
+pgibbs sample time: 7.2e-05 seconds
+probability of topic_Student_88 is 0.677047
+
+pgibbs sample time: 0.000397 seconds
+probability of topic_Staff_120 is 0.590589
+
+pgibbs sample time: 5.6e-05 seconds
+probability of topic_Student_6 is 0.527927
+
+pgibbs sample time: 0.001679 seconds
+probability of topic_Person_114 is 0.525363
+
+pgibbs sample time: 0.001517 seconds
+probability of topic_Person_156 is 0.496497
+
+pgibbs sample time: 0.00071 seconds
+probability of topic_ResearchProject_172 is 0.459814
+
+pgibbs sample time: 9.9e-05 seconds
+probability of topic_Department_94 is 0.715184
+
+pgibbs sample time: 0.001684 seconds
+probability of topic_Person_126 is 0.567996
+
+pgibbs sample time: 0.001666 seconds
+probability of topic_Faculty_59 is 0.466242
+
+pgibbs sample time: 0.001202 seconds
+probability of topic_ResearchProject_72 is 0.422786
+
+pgibbs sample time: 0.000445 seconds
+probability of topic_Student_67 is 0.507298
+
+pgibbs sample time: 0.000232 seconds
+probability of topic_Course_145 is 0.53991
+
+pgibbs sample time: 0.000111 seconds
+probability of topic_Staff_42 is 0.62861
+
+pgibbs sample time: 0.000722 seconds
+probability of topic_Student_209 is 0.554747
+
+pgibbs sample time: 0.000115 seconds
+probability of topic_Faculty_52 is 0.63825
+
+pgibbs sample time: 0.001135 seconds
+probability of topic_Staff_78 is 0.446919
+
+pgibbs sample time: 0.000349 seconds
+probability of topic_Faculty_116 is 0.43457
+
+pgibbs sample time: 0.000413 seconds
+probability of topic_Department_134 is 0.397502
+
+pgibbs sample time: 5.7e-05 seconds
+probability of topic_Person_84 is 0.454429
+
+pgibbs sample time: 5.5e-05 seconds
+probability of topic_Student_1 is 0.360939
+
+pgibbs sample time: 0.000506 seconds
+probability of topic_Department_61 is 0.323927
+
+pgibbs sample time: 0.001313 seconds
+probability of topic_Faculty_50 is 0.454846
+
+pgibbs sample time: 0.001682 seconds
+probability of topic_Student_126 is 0.589346
+
+pgibbs sample time: 0.0001 seconds
+probability of topic_Student_52 is 0.422227
+
+pgibbs sample time: 0.000504 seconds
+probability of topic_Course_61 is 0.447993
+
+pgibbs sample time: 0.000238 seconds
+probability of topic_Department_17 is 0.384727
+
+pgibbs sample time: 0.00194 seconds
+probability of topic_Faculty_12 is 0.556126
+
+pgibbs sample time: 0.000234 seconds
+probability of topic_Course_65 is 0.470571
+
+pgibbs sample time: 0.001687 seconds
+probability of topic_Person_59 is 0.544185
+
+pgibbs sample time: 0.000233 seconds
+probability of topic_Person_119 is 0.487213
+
+pgibbs sample time: 7.1e-05 seconds
+probability of topic_Person_53 is 0.526919
+
+pgibbs sample time: 0.000437 seconds
+probability of topic_Department_87 is 0.463257
+
+pgibbs sample time: 5.8e-05 seconds
+probability of topic_Faculty_71 is 0.521865
+
+pgibbs sample time: 5.6e-05 seconds
+probability of topic_Course_44 is 0.503376
+
+pgibbs sample time: 7.2e-05 seconds
+probability of topic_Department_69 is 0.333655
+
+pgibbs sample time: 0.0005 seconds
+probability of topic_Student_58 is 0.402518
+
+pgibbs sample time: 0.001969 seconds
+probability of topic_Department_2 is 0.463499
+
+pgibbs sample time: 0.001264 seconds
+probability of topic_Faculty_72 is 0.593393
+
+pgibbs sample time: 0.000576 seconds
+probability of topic_Student_8 is 0.524241
+
+pgibbs sample time: 5.9e-05 seconds
+probability of topic_Department_95 is 0.506738
+
+pgibbs sample time: 0.000635 seconds
+probability of topic_Staff_36 is 0.373852
+
+pgibbs sample time: 5.8e-05 seconds
+probability of topic_Student_96 is 0.443829
+
+pgibbs sample time: 5.7e-05 seconds
+probability of topic_Faculty_96 is 0.477167
+
+pgibbs sample time: 0.001395 seconds
+probability of topic_Course_29 is 0.669751
+
+pgibbs sample time: 7.1e-05 seconds
+probability of topic_Person_51 is 0.498837
+
+pgibbs sample time: 0.000223 seconds
+probability of topic_Course_55 is 0.471756
+
+pgibbs sample time: 7.2e-05 seconds
+probability of topic_Student_64 is 0.416877
+
+pgibbs sample time: 0.000699 seconds
+probability of topic_Faculty_36 is 0.437309
+
+pgibbs sample time: 5.8e-05 seconds
+probability of topic_Student_40 is 0.48777
+
+pgibbs sample time: 7.1e-05 seconds
+probability of topic_Student_68 is 0.354281
+
+pgibbs sample time: 0.000235 seconds
+probability of topic_Course_187 is 0.517573
+
+pgibbs sample time: 0.00122 seconds
+probability of topic_Course_72 is 0.394728
+
+pgibbs sample time: 0.000236 seconds
+probability of topic_Course_13 is 0.460486
+
+pgibbs sample time: 0.000576 seconds
+probability of topic_Course_110 is 0.439835
+
+pgibbs sample time: 7.3e-05 seconds
+probability of topic_Department_21 is 0.454887
+
+pgibbs sample time: 6.9e-05 seconds
+probability of topic_Course_97 is 0.559047
+
+pgibbs sample time: 0.001851 seconds
+probability of topic_ResearchProject_18 is 0.489358
+
+pgibbs sample time: 0.001856 seconds
+probability of topic_ResearchProject_157 is 0.535484
+
+pgibbs sample time: 6.1e-05 seconds
+probability of topic_Staff_99 is 0.45146
+
+pgibbs sample time: 0.000236 seconds
+probability of topic_ResearchProject_55 is 0.391504
+
+pgibbs sample time: 0.000484 seconds
+probability of topic_Staff_125 is 0.527427
+
+pgibbs sample time: 0.000502 seconds
+probability of topic_Department_168 is 0.475449
+
+pgibbs sample time: 0.000442 seconds
+probability of topic_ResearchProject_87 is 0.407362
+
+pgibbs sample time: 5.8e-05 seconds
+probability of topic_Department_99 is 0.425577
+
+pgibbs sample time: 0.000222 seconds
+probability of topic_Course_73 is 0.414566
+
+pgibbs sample time: 0.000101 seconds
+probability of topic_Student_32 is 0.70055
+
+pgibbs sample time: 0.000519 seconds
+probability of topic_ResearchProject_168 is 0.435931
+
+pgibbs sample time: 0.000515 seconds
+probability of topic_ResearchProject_11 is 0.357399
+
+pgibbs sample time: 5.7e-05 seconds
+probability of topic_Course_40 is 0.419663
+
+pgibbs sample time: 5.7e-05 seconds
+probability of topic_Faculty_39 is 0.471164
+
+pgibbs sample time: 5.5e-05 seconds
+probability of topic_Staff_90 is 0.614941
+
+pgibbs sample time: 0.001108 seconds
+probability of topic_Student_78 is 0.48581
+
+pgibbs sample time: 9.8e-05 seconds
+probability of topic_Course_32 is 0.466019
+
+pgibbs sample time: 0.001967 seconds
+probability of topic_Department_169 is 0.78043
+
+pgibbs sample time: 5.7e-05 seconds
+probability of topic_Staff_83 is 0.484651
+
+pgibbs sample time: 5.7e-05 seconds
+probability of topic_ResearchProject_34 is 0.411882
+
+pgibbs sample time: 6.8e-05 seconds
+probability of topic_Student_5 is 0.518531
+
+pgibbs sample time: 0.000947 seconds
+probability of topic_Person_118 is 0.600441
+
+pgibbs sample time: 0.001085 seconds
+probability of topic_Person_48 is 0.498144
+
+pgibbs sample time: 5.8e-05 seconds
+probability of topic_Department_86 is 0.429697
+
+pgibbs sample time: 0.000504 seconds
+probability of topic_ResearchProject_30 is 0.471709
+
+pgibbs sample time: 0.000702 seconds
+probability of topic_Person_172 is 0.51138
+
+pgibbs sample time: 7.2e-05 seconds
+probability of topic_ResearchProject_53 is 0.501396
+
+pgibbs sample time: 0.00144 seconds
+probability of topic_ResearchProject_50 is 0.38716
+
+pgibbs sample time: 0.001547 seconds
+probability of topic_Course_102 is 0.433419
+
+pgibbs sample time: 5.7e-05 seconds
+probability of topic_Faculty_62 is 0.505241
+
+pgibbs sample time: 0.000337 seconds
+probability of topic_Person_116 is 0.373841
+
+pgibbs sample time: 0.001195 seconds
+probability of topic_Faculty_180 is 0.65052
+
+pgibbs sample time: 0.000354 seconds
+probability of topic_Student_93 is 0.219051
+
+pgibbs sample time: 7.2e-05 seconds
+probability of topic_ResearchProject_22 is 0.355109
+
+pgibbs sample time: 0.001258 seconds
+probability of topic_Faculty_115 is 0.476206
+
+pgibbs sample time: 7.6e-05 seconds
+probability of topic_Department_64 is 0.388606
+
+pgibbs sample time: 0.001855 seconds
+probability of topic_ResearchProject_12 is 0.324848
+
+pgibbs sample time: 0.000508 seconds
+probability of topic_Course_136 is 0.403006
+
+pgibbs sample time: 7e-05 seconds
+probability of topic_Staff_69 is 0.44593
+
+pgibbs sample time: 5.7e-05 seconds
+probability of topic_ResearchProject_75 is 0.507665
+
+pgibbs sample time: 0.001527 seconds
+probability of topic_Staff_28 is 0.470929
+
+pgibbs sample time: 0.000482 seconds
+probability of topic_Department_111 is 0.309367
+
+pgibbs sample time: 7.3e-05 seconds
+probability of topic_ResearchProject_68 is 0.289613
+
+pgibbs sample time: 5.8e-05 seconds
+probability of topic_Student_85 is 0.509618
+
+pgibbs sample time: 5.6e-05 seconds
+probability of topic_Person_38 is 0.365888
+
+pgibbs sample time: 0.001948 seconds
+probability of topic_Faculty_169 is 0.579212
+
+pgibbs sample time: 0.000349 seconds
+probability of topic_ResearchProject_93 is 0.425131
+
+pgibbs sample time: 0.000507 seconds
+probability of topic_Faculty_168 is 0.404534
+
+pgibbs sample time: 5.7e-05 seconds
+probability of topic_Staff_82 is 0.403287
+
+pgibbs sample time: 0.00177 seconds
+probability of topic_Staff_199 is 0.45077
+
+pgibbs sample time: 7.3e-05 seconds
+probability of topic_ResearchProject_64 is 0.414759
+
+pgibbs sample time: 0.001859 seconds
+probability of topic_ResearchProject_155 is 0.484739
+
+pgibbs sample time: 0.000575 seconds
+probability of topic_Course_8 is 0.479893
+
+pgibbs sample time: 7e-05 seconds
+probability of topic_Course_79 is 0.539145
+
+pgibbs sample time: 0.001934 seconds
+probability of topic_Student_169 is 0.365781
+
+pgibbs sample time: 0.000101 seconds
+probability of topic_ResearchProject_94 is 0.197709
+
+pgibbs sample time: 0.001991 seconds
+probability of topic_Course_24 is 0.571969
+
+pgibbs sample time: 0.000252 seconds
+probability of topic_Staff_49 is 0.510638
+
+pgibbs sample time: 0.000513 seconds
+probability of topic_Faculty_11 is 0.565494
+
+pgibbs sample time: 0.000504 seconds
+probability of topic_Department_125 is 0.46717
+
+pgibbs sample time: 6.9e-05 seconds
+probability of topic_Person_15 is 0.530126
+
+pgibbs sample time: 0.000437 seconds
+probability of topic_Department_35 is 0.379931
+
+pgibbs sample time: 0.000225 seconds
+probability of topic_Person_55 is 0.582777
+
+pgibbs sample time: 0.000232 seconds
+probability of topic_Person_65 is 0.496193
+
+pgibbs sample time: 0.001639 seconds
+probability of topic_Staff_3 is 0.520709
+
+pgibbs sample time: 0.000263 seconds
+probability of topic_Faculty_145 is 0.491523
+
+pgibbs sample time: 6.8e-05 seconds
+probability of topic_Staff_15 is 0.436
+
+pgibbs sample time: 0.000115 seconds
+probability of topic_Department_42 is 0.656228
+
+pgibbs sample time: 0.001937 seconds
+probability of topic_Student_12 is 0.595153
+
+pgibbs sample time: 0.001543 seconds
+probability of topic_Course_50 is 0.404667
+
+pgibbs sample time: 0.001396 seconds
+probability of topic_Staff_50 is 0.413
+
+pgibbs sample time: 0.001588 seconds
+probability of topic_Department_29 is 0.353758
+
+pgibbs sample time: 0.000452 seconds
+probability of topic_Person_57 is 0.485229
+
+pgibbs sample time: 0.000102 seconds
+probability of topic_ResearchProject_25 is 0.544527
+
+pgibbs sample time: 7.2e-05 seconds
+probability of topic_Faculty_27 is 0.510426
+
+pgibbs sample time: 0.000729 seconds
+probability of topic_Student_33 is 0.328948
+
+pgibbs sample time: 0.0007 seconds
+probability of topic_Course_209 is 0.644212
+
+pgibbs sample time: 5.6e-05 seconds
+probability of topic_Course_6 is 0.497804
+
+pgibbs sample time: 0.000298 seconds
+probability of topic_ResearchProject_81 is 0.455244
+
+pgibbs sample time: 0.00023 seconds
+probability of topic_Person_13 is 0.37988
+
+pgibbs sample time: 0.001105 seconds
+probability of topic_Student_48 is 0.26851
+
+pgibbs sample time: 5.7e-05 seconds
+probability of topic_Course_39 is 0.609306
+
+pgibbs sample time: 0.000695 seconds
+probability of topic_Course_172 is 0.435117
+
+pgibbs sample time: 0.001535 seconds
+probability of topic_Staff_29 is 0.494293
+
+pgibbs sample time: 5.8e-05 seconds
+probability of topic_Student_62 is 0.712049
+
+pgibbs sample time: 0.001942 seconds
+probability of topic_Person_2 is 0.290939
+
+pgibbs sample time: 0.000696 seconds
+probability of topic_Course_36 is 0.31465
+
+pgibbs sample time: 0.001142 seconds
+probability of topic_Staff_180 is 0.588343
+
+pgibbs sample time: 0.001204 seconds
+probability of topic_Staff_41 is 0.36451
+
+pgibbs sample time: 0.000583 seconds
+probability of topic_Faculty_110 is 0.429953
+
+pgibbs sample time: 0.000318 seconds
+probability of topic_Person_25 is 0.433639
+
+pgibbs sample time: 0.000327 seconds
+probability of topic_Student_231 is 0.548696
+
+pgibbs sample time: 7.1e-05 seconds
+probability of topic_Person_22 is 0.581096
+
+pgibbs sample time: 5.8e-05 seconds
+probability of topic_ResearchProject_66 is 0.435576
+
+pgibbs sample time: 0.001197 seconds
+probability of topic_Faculty_45 is 0.404382
+
+pgibbs sample time: 0.00023 seconds
+probability of topic_Staff_65 is 0.476301
+
+pgibbs sample time: 0.000635 seconds
+probability of topic_Staff_172 is 0.460646
+
+pgibbs sample time: 0.00047 seconds
+probability of topic_Department_11 is 0.491925
+
+pgibbs sample time: 0.000114 seconds
+probability of topic_Student_42 is 0.564382
+
+pgibbs sample time: 0.001256 seconds
+probability of topic_Faculty_174 is 0.628674
+
+pgibbs sample time: 0.000172 seconds
+probability of topic_Staff_73 is 0.593056
+
+pgibbs sample time: 5.5e-05 seconds
+probability of topic_Staff_98 is 0.447064
+
+pgibbs sample time: 0.000439 seconds
+probability of topic_Student_35 is 0.807052
+
+pgibbs sample time: 5.6e-05 seconds
+probability of topic_Course_74 is 0.425378
+
+pgibbs sample time: 5.7e-05 seconds
+probability of topic_Course_84 is 0.490213
+
+pgibbs sample time: 0.000503 seconds
+probability of topic_Student_125 is 0.580151
+
+pgibbs sample time: 5.5e-05 seconds
+probability of topic_Course_71 is 0.45997
+
+pgibbs sample time: 0.001093 seconds
+probability of topic_ResearchProject_180 is 0.647609
+
+pgibbs sample time: 0.001742 seconds
+probability of topic_Department_126 is 0.375946
+
+pgibbs sample time: 0.000237 seconds
+probability of topic_Department_55 is 0.392623
+
+pgibbs sample time: 7.2e-05 seconds
+probability of topic_ResearchProject_69 is 0.445201
+
+pgibbs sample time: 7e-05 seconds
+probability of topic_Department_5 is 0.631091
+
+pgibbs sample time: 6.9e-05 seconds
+probability of topic_Staff_14 is 0.519477
+
+pgibbs sample time: 7e-05 seconds
+probability of topic_Course_63 is 0.49709
+
+pgibbs sample time: 5.8e-05 seconds
+probability of topic_Department_80 is 0.480109
+
+pgibbs sample time: 5.5e-05 seconds
+probability of topic_Person_44 is 0.557225
+
+pgibbs sample time: 0.000519 seconds
+probability of topic_ResearchProject_61 is 0.491132
+
+pgibbs sample time: 5.6e-05 seconds
+probability of topic_Course_51 is 0.419663
+
+pgibbs sample time: 0.001192 seconds
+probability of topic_Department_48 is 0.507766
+
+pgibbs sample time: 0.0003 seconds
+probability of topic_Person_30 is 0.451486
+
+pgibbs sample time: 0.000502 seconds
+probability of topic_Student_136 is 0.47529
+
+pgibbs sample time: 9.9e-05 seconds
+probability of topic_ResearchProject_52 is 0.453413
+
+pgibbs sample time: 0.000327 seconds
+probability of topic_Student_25 is 0.401674
+
+pgibbs sample time: 7e-05 seconds
+probability of topic_Staff_27 is 0.590772
+
+pgibbs sample time: 0.000484 seconds
+probability of topic_Staff_136 is 0.417244
+
+pgibbs sample time: 0.00058 seconds
+probability of topic_Person_130 is 0.488991
+
+pgibbs sample time: 0.000453 seconds
+probability of topic_Person_61 is 0.554829
+
+pgibbs sample time: 0.000513 seconds
+probability of topic_ResearchProject_58 is 0.588095
+
+pgibbs sample time: 0.001195 seconds
+probability of topic_Department_180 is 0.673159
+
+pgibbs sample time: 0.000634 seconds
+probability of topic_Staff_209 is 0.538066
+
+pgibbs sample time: 5.8e-05 seconds
+probability of topic_ResearchProject_74 is 0.442936
+
+pgibbs sample time: 0.001209 seconds
+probability of topic_Staff_118 is 0.445833
+
+pgibbs sample time: 0.000443 seconds
+probability of topic_Department_120 is 0.663388
+
+pgibbs sample time: 5.7e-05 seconds
+probability of topic_Student_43 is 0.474627
+
+pgibbs sample time: 0.000503 seconds
+probability of topic_Course_57 is 0.506567
+
+pgibbs sample time: 0.001944 seconds
+probability of topic_Person_18 is 0.394747
+
+pgibbs sample time: 7.3e-05 seconds
+probability of topic_ResearchProject_5 is 0.406431
+
+pgibbs sample time: 0.000236 seconds
+probability of topic_Department_73 is 0.460681
+
+pgibbs sample time: 5.9e-05 seconds
+probability of topic_ResearchProject_46 is 0.423904
+
+pgibbs sample time: 9.8e-05 seconds
+probability of topic_Staff_52 is 0.492233
+
+pgibbs sample time: 0.000512 seconds
+probability of topic_ResearchProject_111 is 0.437786
+
+pgibbs sample time: 0.001259 seconds
+probability of topic_Faculty_118 is 0.419007
+
+pgibbs sample time: 0.001175 seconds
+probability of topic_Course_89 is 0.511962
+
+pgibbs sample time: 0.000503 seconds
+probability of topic_Person_11 is 0.543848
+
+pgibbs sample time: 5.6e-05 seconds
+probability of topic_Course_27 is 0.47654
+
+pgibbs sample time: 0.000518 seconds
+probability of topic_ResearchProject_4 is 0.371026
+
+pgibbs sample time: 0.001437 seconds
+probability of topic_Student_50 is 0.592467
+
+pgibbs sample time: 0.00038 seconds
+probability of topic_Department_10 is 0.443239
+
+pgibbs sample time: 0.001569 seconds
+probability of topic_Department_156 is 0.489694
+
+pgibbs sample time: 5.7e-05 seconds
+probability of topic_Person_83 is 0.524
+
+pgibbs sample time: 0.001256 seconds
+probability of topic_Student_106 is 0.504968
+
+pgibbs sample time: 5.7e-05 seconds
+probability of topic_Person_16 is 0.496938
+
+pgibbs sample time: 8.6e-05 seconds
+probability of topic_Department_76 is 0.439309
+
+pgibbs sample time: 0.000434 seconds
+probability of topic_Course_10 is 0.477088
+
+pgibbs sample time: 7.2e-05 seconds
+probability of topic_Department_27 is 0.655481
+
+pgibbs sample time: 7.2e-05 seconds
+probability of topic_Student_27 is 0.500465
+
+pgibbs sample time: 0.00127 seconds
+probability of topic_Department_115 is 0.447783
+
+pgibbs sample time: 0.000262 seconds
+probability of topic_Faculty_19 is 0.378617
+
+pgibbs sample time: 0.000586 seconds
+probability of topic_Faculty_8 is 0.493726
+
+pgibbs sample time: 0.001957 seconds
+probability of topic_Faculty_2 is 0.353571
+
+pgibbs sample time: 5.7e-05 seconds
+probability of topic_Course_96 is 0.409871
+
+pgibbs sample time: 7.2e-05 seconds
+probability of topic_ResearchProject_88 is 0.365073
+
+pgibbs sample time: 5.7e-05 seconds
+probability of topic_Staff_40 is 0.433882
+
+pgibbs sample time: 6.9e-05 seconds
+probability of topic_Course_64 is 0.349347
+
+pgibbs sample time: 7.1e-05 seconds
+probability of topic_Faculty_79 is 0.492738
+
+pgibbs sample time: 9.8e-05 seconds
+probability of topic_Staff_94 is 0.0890924
+
+pgibbs sample time: 5.8e-05 seconds
+probability of topic_Student_56 is 0.402692
+
+pgibbs sample time: 5.6e-05 seconds
+probability of topic_Department_14 is 0.486126
+
+pgibbs sample time: 7e-05 seconds
+probability of topic_Person_69 is 0.420872
+
+pgibbs sample time: 0.000398 seconds
+probability of topic_Staff_31 is 0.468984
+
+pgibbs sample time: 0.000266 seconds
+probability of topic_Student_17 is 0.534769
+
+pgibbs sample time: 0.000435 seconds
+probability of topic_Course_120 is 0.493734
+
+pgibbs sample time: 0.000208 seconds
+probability of topic_Department_145 is 0.43447
+
+pgibbs sample time: 5.7e-05 seconds
+probability of topic_ResearchProject_70 is 0.411136
+
+pgibbs sample time: 0.001675 seconds
+probability of topic_Faculty_126 is 0.407256
+
+pgibbs sample time: 0.001955 seconds
+probability of topic_Faculty_199 is 0.458414
+
+pgibbs sample time: 7.3e-05 seconds
+probability of topic_Student_76 is 0.519467
+
+pgibbs sample time: 7e-05 seconds
+probability of topic_Person_79 is 0.54158
+
+pgibbs sample time: 7.1e-05 seconds
+probability of topic_Department_88 is 0.553665
+
+pgibbs sample time: 0.001741 seconds
+probability of topic_Department_3 is 0.472675
+
+pgibbs sample time: 0.000288 seconds
+probability of topic_Staff_35 is 0.483225
+
+pgibbs sample time: 5.7e-05 seconds
+probability of topic_Department_82 is 0.420875
+
+pgibbs sample time: 0.001394 seconds
+probability of topic_Staff_102 is 0.517202
+
+pgibbs sample time: 7.3e-05 seconds
+probability of topic_Student_79 is 0.400786
+
+pgibbs sample time: 0.001206 seconds
+probability of topic_ResearchProject_156 is 0.447357
+
+pgibbs sample time: 5.7e-05 seconds
+probability of topic_Course_80 is 0.425378
+
+pgibbs sample time: 5.5e-05 seconds
+probability of topic_Person_95 is 0.477535
+
+pgibbs sample time: 0.000445 seconds
+probability of topic_Department_57 is 0.530442
+
+pgibbs sample time: 0.000711 seconds
+probability of topic_ResearchProject_36 is 0.488668
+
+pgibbs sample time: 5.6e-05 seconds
+probability of topic_Course_98 is 0.37128
+
+pgibbs sample time: 0.000583 seconds
+probability of topic_Faculty_130 is 0.503823
+
+pgibbs sample time: 0.000434 seconds
+probability of topic_Person_31 is 0.610693
+
+pgibbs sample time: 0.00052 seconds
+probability of topic_ResearchProject_57 is 0.494421
+
+pgibbs sample time: 0.001422 seconds
+probability of topic_Person_29 is 0.531963
+
+pgibbs sample time: 5.7e-05 seconds
+probability of topic_Staff_37 is 0.447858
+
+pgibbs sample time: 5.6e-05 seconds
+probability of topic_Course_99 is 0.609306
+
+pgibbs sample time: 0.000267 seconds
+probability of topic_ResearchProject_19 is 0.532093
+
+pgibbs sample time: 0.001683 seconds
+probability of topic_Student_59 is 0.599314
+
+pgibbs sample time: 5.8e-05 seconds
+probability of topic_Staff_9 is 0.49267
+
+pgibbs sample time: 0.001334 seconds
+probability of topic_ResearchProject_59 is 0.465877
+
+pgibbs sample time: 0.001438 seconds
+probability of topic_ResearchProject_28 is 0.448875
+
+pgibbs sample time: 0.001858 seconds
+probability of topic_ResearchProject_133 is 0.491792
+
+pgibbs sample time: 0.000507 seconds
+probability of topic_Faculty_61 is 0.465892
+
+pgibbs sample time: 0.000112 seconds
+probability of topic_Course_7 is 0.493587
+
+pgibbs sample time: 0.001176 seconds
+probability of topic_Course_45 is 0.419413
+
+pgibbs sample time: 0.000495 seconds
+probability of topic_Course_67 is 0.439231
+
+pgibbs sample time: 0.000233 seconds
+probability of topic_Course_17 is 0.431628
+
+pgibbs sample time: 0.000415 seconds
+probability of topic_Faculty_31 is 0.51896
+
+pgibbs sample time: 0.000114 seconds
+probability of topic_Department_7 is 0.485932
+
+pgibbs sample time: 7.5e-05 seconds
+probability of topic_Department_68 is 0.399058
+
+pgibbs sample time: 7e-05 seconds
+probability of topic_Person_64 is 0.420976
+
+pgibbs sample time: 5.7e-05 seconds
+probability of topic_ResearchProject_83 is 0.483395
+
+pgibbs sample time: 0.001112 seconds
+probability of topic_Student_91 is 0.396516
+
+pgibbs sample time: 0.000442 seconds
+probability of topic_ResearchProject_35 is 0.390749
+
+pgibbs sample time: 0.000292 seconds
+probability of topic_Student_20 is 0.429656
+
+pgibbs sample time: 0.001226 seconds
+probability of topic_Course_115 is 0.673695
+
+pgibbs sample time: 7.4e-05 seconds
+probability of topic_ResearchProject_51 is 0.441521
+
+pgibbs sample time: 0.000438 seconds
+probability of topic_Faculty_35 is 0.517364
+
+pgibbs sample time: 7.2e-05 seconds
+probability of topic_Staff_68 is 0.345292
+
+pgibbs sample time: 0.00121 seconds
+probability of topic_Staff_174 is 0.462062
+
+pgibbs sample time: 0.001209 seconds
+probability of topic_ResearchProject_118 is 0.445884
+
+pgibbs sample time: 0.000263 seconds
+probability of topic_Faculty_49 is 0.52011
+
+pgibbs sample time: 5.6e-05 seconds
+probability of topic_Course_21 is 0.419663
+
+pgibbs sample time: 0.001213 seconds
+probability of topic_Staff_72 is 0.31445
+
+pgibbs sample time: 0.000506 seconds
+probability of topic_Department_136 is 0.468193
+
+pgibbs sample time: 0.001465 seconds
+probability of topic_Faculty_28 is 0.484586
+
+pgibbs sample time: 8.3e-05 seconds
+probability of topic_Person_7 is 0.519227
+
+pgibbs sample time: 0.001201 seconds
+probability of topic_ResearchProject_41 is 0.398829
+
+pgibbs sample time: 0.001863 seconds
+probability of topic_ResearchProject_24 is 0.479149
+
+pgibbs sample time: 0.000433 seconds
+probability of topic_Faculty_87 is 0.520584
+
+pgibbs sample time: 0.000436 seconds
+probability of topic_Course_92 is 0.429526
+
+pgibbs sample time: 5.9e-05 seconds
+probability of topic_Student_21 is 0.461851
+
+pgibbs sample time: 0.000349 seconds
+probability of topic_ResearchProject_116 is 0.512996
+
+pgibbs sample time: 5.9e-05 seconds
+probability of topic_Department_43 is 0.478045
+
+pgibbs sample time: 5.8e-05 seconds
+probability of topic_Faculty_86 is 0.432194
+
+pgibbs sample time: 0.000231 seconds
+probability of topic_Staff_119 is 0.581628
+
+pgibbs sample time: 5.8e-05 seconds
+probability of topic_Department_40 is 0.477106
+
+pgibbs sample time: 0.001149 seconds
+probability of topic_Staff_48 is 0.585364
+
+pgibbs sample time: 0.000576 seconds
+probability of topic_Course_130 is 0.503302
+
+pgibbs sample time: 0.001685 seconds
+probability of topic_Faculty_54 is 0.504013
+
+pgibbs sample time: 0.001687 seconds
+probability of topic_Faculty_3 is 0.562757
+
+pgibbs sample time: 0.000507 seconds
+probability of topic_Student_11 is 0.521389
+
+pgibbs sample time: 0.001148 seconds
+probability of topic_Staff_89 is 0.515279
+
+pgibbs sample time: 0.001999 seconds
+probability of topic_Course_133 is 0.511394
+
+pgibbs sample time: 0.000511 seconds
+probability of topic_ResearchProject_134 is 0.481973
+
+pgibbs sample time: 0.001442 seconds
+probability of topic_ResearchProject_102 is 0.438908
+
+pgibbs sample time: 0.000319 seconds
+probability of topic_Staff_25 is 0.364967
+
+pgibbs sample time: 5.8e-05 seconds
+probability of topic_Department_46 is 0.481264
+
+pgibbs sample time: 0.001272 seconds
+probability of topic_Department_106 is 0.472586
+
+pgibbs sample time: 9.9e-05 seconds
+probability of topic_Staff_7 is 0.486683
+
+pgibbs sample time: 0.00026 seconds
+probability of topic_Person_17 is 0.556118
+
+pgibbs sample time: 5.7e-05 seconds
+probability of topic_Student_44 is 0.535841
+
+pgibbs sample time: 0.000349 seconds
+probability of topic_Course_116 is 0.480195
+
+pgibbs sample time: 7.5e-05 seconds
+probability of topic_ResearchProject_27 is 0.418771
+
+pgibbs sample time: 0.000268 seconds
+probability of topic_Student_49 is 0.574212
+
+pgibbs sample time: 5.5e-05 seconds
+probability of topic_Staff_95 is 0.458948
+
+pgibbs sample time: 0.000726 seconds
+probability of topic_Student_172 is 0.506367
+
+pgibbs sample time: 0.00121 seconds
+probability of topic_Staff_115 is 0.541799
+
+pgibbs sample time: 5.6e-05 seconds
+probability of topic_Course_53 is 0.425378
+
+pgibbs sample time: 0.00023 seconds
+probability of topic_Student_73 is 0.648093
+
+pgibbs sample time: 9.8e-05 seconds
+probability of topic_Course_47 is 0.548093
+
+pgibbs sample time: 5.5e-05 seconds
+probability of topic_Course_60 is 0.476368
+
+pgibbs sample time: 0.000469 seconds
+probability of topic_Department_67 is 0.494283
+
+pgibbs sample time: 5.6e-05 seconds
+probability of topic_Course_70 is 0.578174
+
+pgibbs sample time: 7.1e-05 seconds
+probability of topic_Faculty_21 is 0.361745
+
+pgibbs sample time: 0.000579 seconds
+probability of topic_Student_110 is 0.50615
+
+pgibbs sample time: 0.000438 seconds
+probability of topic_Course_11 is 0.494508
+
+pgibbs sample time: 5.8e-05 seconds
+probability of topic_ResearchProject_21 is 0.437775
+
+pgibbs sample time: 0.000419 seconds
+probability of topic_Person_35 is 0.752173
+
+pgibbs sample time: 0.000706 seconds
+probability of topic_Faculty_172 is 0.434976
+
+pgibbs sample time: 5.7e-05 seconds
+probability of topic_Department_70 is 0.570483
+
+pgibbs sample time: 0.001206 seconds
+probability of topic_ResearchProject_106 is 0.505649
+
+pgibbs sample time: 5.9e-05 seconds
+probability of topic_Department_16 is 0.416173
+
+pgibbs sample time: 0.000551 seconds
+probability of topic_ResearchProject_130 is 0.501343
+
+pgibbs sample time: 5.7e-05 seconds
+probability of topic_Faculty_74 is 0.419826
 
 pgibbs sample time: 5.4e-05 seconds
-probability of topic_Person_37 is 0.113662
+probability of topic_Person_56 is 0.354767
+
+pgibbs sample time: 0.000553 seconds
+probability of topic_Staff_130 is 0.500896
+
+pgibbs sample time: 0.00044 seconds
+probability of topic_Student_10 is 0.552501
+
+pgibbs sample time: 0.000239 seconds
+probability of topic_ResearchProject_119 is 0.541402
+
+pgibbs sample time: 7.1e-05 seconds
+probability of topic_Person_88 is 0.761215
+
+pgibbs sample time: 7e-05 seconds
+probability of topic_Person_23 is 0.250347
+
+pgibbs sample time: 0.00055 seconds
+probability of topic_ResearchProject_8 is 0.464034
+
+pgibbs sample time: 0.002 seconds
+probability of topic_Course_2 is 0.551226
+
+pgibbs sample time: 5.8e-05 seconds
+probability of topic_Department_34 is 0.375511
+
+pgibbs sample time: 5.8e-05 seconds
+probability of topic_Department_37 is 0.480109
+
+pgibbs sample time: 0.001113 seconds
+probability of topic_Student_180 is 0.508431
+
+pgibbs sample time: 0.001115 seconds
+probability of topic_Student_45 is 0.509351
+
+pgibbs sample time: 0.000434 seconds
+probability of topic_Person_120 is 0.516834
+
+pgibbs sample time: 0.001975 seconds
+probability of topic_Department_133 is 0.512387
+
+pgibbs sample time: 7.1e-05 seconds
+probability of topic_Person_76 is 0.524131
+
+pgibbs sample time: 5.5e-05 seconds
+probability of topic_Person_46 is 0.484718
+
+pgibbs sample time: 5.5e-05 seconds
+probability of topic_Staff_74 is 0.447858
+
+pgibbs sample time: 6.8e-05 seconds
+probability of topic_Faculty_5 is 0.409937
+
+pgibbs sample time: 7.2e-05 seconds
+probability of topic_ResearchProject_14 is 0.393
+
+pgibbs sample time: 0.000198 seconds
+probability of topic_Person_73 is 0.657212
+
+pgibbs sample time: 0.000301 seconds
+probability of topic_Faculty_231 is 0.546003
+
+pgibbs sample time: 5.6e-05 seconds
+probability of topic_Staff_39 is 0.45146
+
+pgibbs sample time: 0.000618 seconds
+probability of topic_ResearchProject_110 is 0.475955
+
+pgibbs sample time: 0.002002 seconds
+probability of topic_Course_169 is 0.497357
+
+pgibbs sample time: 5.8e-05 seconds
+probability of topic_Faculty_40 is 0.401781
+
+pgibbs sample time: 5.6e-05 seconds
+probability of topic_Faculty_90 is 0.551474
+
+pgibbs sample time: 0.001175 seconds
+probability of topic_Course_91 is 0.574635
+
+pgibbs sample time: 7.4e-05 seconds
+probability of topic_Faculty_64 is 0.380606
+
+pgibbs sample time: 8.5e-05 seconds
+probability of topic_ResearchProject_76 is 0.449588
+
+pgibbs sample time: 7.1e-05 seconds
+probability of topic_Student_97 is 0.627072
+
+pgibbs sample time: 7.1e-05 seconds
+probability of topic_Faculty_15 is 0.46224
+
+pgibbs sample time: 0.001683 seconds
+probability of topic_Faculty_114 is 0.445834
+
+pgibbs sample time: 0.000264 seconds
+probability of topic_Person_145 is 0.446191
+
+pgibbs sample time: 0.000723 seconds
+probability of topic_Department_172 is 0.495824
+
+pgibbs sample time: 7.2e-05 seconds
+probability of topic_Student_69 is 0.50324
+
+pgibbs sample time: 0.001181 seconds
+probability of topic_Course_78 is 0.531367
+
+pgibbs sample time: 0.000375 seconds
+probability of topic_ResearchProject_120 is 0.479393
+
+pgibbs sample time: 0.001208 seconds
+probability of topic_Staff_106 is 0.671915
+
+pgibbs sample time: 0.000498 seconds
+probability of topic_Faculty_58 is 0.559324
+
+pgibbs sample time: 0.001576 seconds
+probability of topic_Student_29 is 0.536678
+
+pgibbs sample time: 7.3e-05 seconds
+probability of topic_Department_63 is 0.399953
+
+pgibbs sample time: 7.1e-05 seconds
+probability of topic_ResearchProject_79 is 0.431732
+
+pgibbs sample time: 0.000499 seconds
+probability of topic_Department_30 is 0.427236
+
+pgibbs sample time: 0.001645 seconds
+probability of topic_Staff_59 is 0.4821
+
+pgibbs sample time: 7.4e-05 seconds
+probability of topic_Department_15 is 0.388838
+
+pgibbs sample time: 0.001694 seconds
+probability of topic_Person_3 is 0.35728
+
+pgibbs sample time: 5.9e-05 seconds
+probability of topic_Student_37 is 0.493937
+
+pgibbs sample time: 7.1e-05 seconds
+probability of topic_Staff_21 is 0.448393
+
+pgibbs sample time: 5.8e-05 seconds
+probability of topic_ResearchProject_39 is 0.554075
+
+pgibbs sample time: 0.000415 seconds
+probability of topic_Faculty_120 is 0.503244
+
+pgibbs sample time: 7.1e-05 seconds
+probability of topic_Person_68 is 0.300045
+
+pgibbs sample time: 5.7e-05 seconds
+probability of topic_Faculty_75 is 0.495447
+
+pgibbs sample time: 0.000443 seconds
+probability of topic_ResearchProject_10 is 0.539112
+
+pgibbs sample time: 0.001084 seconds
+probability of topic_Person_78 is 0.355805
+
+pgibbs sample time: 0.000268 seconds
+probability of topic_Department_19 is 0.600009
+
+pgibbs sample time: 0.000697 seconds
+probability of topic_Course_33 is 0.584904
+
+pgibbs sample time: 0.001076 seconds
+probability of topic_ResearchProject_174 is 0.492363
+
+pgibbs sample time: 5.7e-05 seconds
+probability of topic_Student_66 is 0.487579
+
+pgibbs sample time: 5.6e-05 seconds
+probability of topic_Person_86 is 0.511027
+
+pgibbs sample time: 0.000503 seconds
+probability of topic_Course_168 is 0.419174
+
+pgibbs sample time: 0.001182 seconds
+probability of topic_Course_180 is 0.454706
+
+pgibbs sample time: 0.001207 seconds
+probability of topic_ResearchProject_115 is 0.664607
+
+pgibbs sample time: 0.00032 seconds
+probability of topic_Person_231 is 0.561697
+
+pgibbs sample time: 0.000462 seconds
+probability of topic_Person_58 is 0.480882
+
+pgibbs sample time: 5.7e-05 seconds
+probability of topic_Student_9 is 0.46651
+
+pgibbs sample time: 0.000483 seconds
+probability of topic_Staff_30 is 0.526237
+
+pgibbs sample time: 0.000238 seconds
+probability of topic_Faculty_65 is 0.42088
+
+pgibbs sample time: 0.001682 seconds
+probability of topic_Faculty_156 is 0.507394
+
+pgibbs sample time: 5.8e-05 seconds
+probability of topic_ResearchProject_82 is 0.472546
+
+pgibbs sample time: 0.001084 seconds
+probability of topic_Person_89 is 0.484839
+
+pgibbs sample time: 0.001949 seconds
+probability of topic_Person_169 is 0.60556
+
+pgibbs sample time: 7e-05 seconds
+probability of topic_Person_77 is 0.638812
+
+pgibbs sample time: 0.001084 seconds
+probability of topic_Person_180 is 0.576569
+
+pgibbs sample time: 9.9e-05 seconds
+probability of topic_Person_47 is 0.205776
+
+pgibbs sample time: 0.001427 seconds
+probability of topic_Person_28 is 0.413843
+
+pgibbs sample time: 7.4e-05 seconds
+probability of topic_Student_53 is 0.449277
+
+pgibbs sample time: 0.000726 seconds
+probability of topic_Student_36 is 0.391858
+
+pgibbs sample time: 0.001958 seconds
+probability of topic_Person_155 is 0.351691
+
+pgibbs sample time: 0.001958 seconds
+probability of topic_Person_157 is 0.568766
+
+pgibbs sample time: 5.7e-05 seconds
+probability of topic_Course_46 is 0.415922
+
+pgibbs sample time: 0.001265 seconds
+probability of topic_Faculty_41 is 0.371184
+
+pgibbs sample time: 0.001099 seconds
+probability of topic_Person_45 is 0.489896
+
+pgibbs sample time: 0.000268 seconds
+probability of topic_Student_19 is 0.686986
+
+pgibbs sample time: 5.8e-05 seconds
+probability of topic_ResearchProject_26 is 0.619086
+
+pgibbs sample time: 0.000288 seconds
+probability of topic_Staff_87 is 0.53694
+
+pgibbs sample time: 5.8e-05 seconds
+probability of topic_ResearchProject_23 is 0.442936
+
+pgibbs sample time: 5.7e-05 seconds
+probability of topic_Department_83 is 0.462433
+
+pgibbs sample time: 9.9e-05 seconds
+probability of topic_Person_32 is 0.51895
+
+pgibbs sample time: 5.6e-05 seconds
+probability of topic_Staff_26 is 0.529301
+
+pgibbs sample time: 5.7e-05 seconds
+probability of topic_Faculty_22 is 0.401781
+
+pgibbs sample time: 5.7e-05 seconds
+probability of topic_Department_98 is 0.337308
+
+pgibbs sample time: 0.000101 seconds
+probability of topic_Student_47 is 0.243213
+
+pgibbs sample time: 7.1e-05 seconds
+probability of topic_Department_23 is 0.553087
+
+pgibbs sample time: 7.2e-05 seconds
+probability of topic_Department_53 is 0.443262
+
+pgibbs sample time: 0.001225 seconds
+probability of topic_ResearchProject_45 is 0.427235
+
+pgibbs sample time: 0.000114 seconds
+probability of topic_Faculty_42 is 0.525687
+
+pgibbs sample time: 0.000574 seconds
+probability of topic_Person_110 is 0.489304
+
+pgibbs sample time: 6e-05 seconds
+probability of topic_Staff_75 is 0.5228
+
+pgibbs sample time: 5.6e-05 seconds
+probability of topic_Course_83 is 0.614884
+
+pgibbs sample time: 5.8e-05 seconds
+probability of topic_Student_86 is 0.526876
+
+pgibbs sample time: 6e-05 seconds
+probability of topic_Person_96 is 0.465207
+
+pgibbs sample time: 9.9e-05 seconds
+probability of topic_Faculty_32 is 0.508056
+
+pgibbs sample time: 0.000295 seconds
+probability of topic_Course_231 is 0.495466
+
+pgibbs sample time: 7.1e-05 seconds
+probability of topic_Faculty_97 is 0.45583
+
+pgibbs sample time: 0.001484 seconds
+probability of topic_Staff_156 is 0.564618
+
+pgibbs sample time: 0.001644 seconds
+probability of topic_Staff_126 is 0.511537
+
+pgibbs sample time: 0.001641 seconds
+probability of topic_Staff_114 is 0.426447
+
+pgibbs sample time: 5.7e-05 seconds
+probability of topic_Staff_43 is 0.492552
+
+pgibbs sample time: 0.000297 seconds
+probability of topic_ResearchProject_20 is 0.615475
+
+pgibbs sample time: 5.7e-05 seconds
+probability of topic_Department_38 is 0.572254
+
+pgibbs sample time: 0.000435 seconds
+probability of topic_Faculty_10 is 0.559346
+
+pgibbs sample time: 0.001772 seconds
+probability of topic_Staff_157 is 0.636859
+
+pgibbs sample time: 5.7e-05 seconds
+probability of topic_Staff_71 is 0.584563
+
+pgibbs sample time: 5.8e-05 seconds
+probability of topic_ResearchProject_38 is 0.47691
+
+pgibbs sample time: 5.7e-05 seconds
+probability of topic_Staff_60 is 0.493421
+
+pgibbs sample time: 0.00031 seconds
+probability of topic_Course_93 is 0.434482
+
+pgibbs sample time: 5.8e-05 seconds
+probability of topic_ResearchProject_56 is 0.568092
+
+pgibbs sample time: 0.000498 seconds
+probability of topic_Student_61 is 0.580201
+
+pgibbs sample time: 0.000113 seconds
+probability of topic_Faculty_7 is 0.510915
+
+pgibbs sample time: 0.001573 seconds
+probability of topic_Person_50 is 0.588456
+
+pgibbs sample time: 7.2e-05 seconds
+probability of topic_Course_69 is 0.601984
+
+pgibbs sample time: 0.001201 seconds
+probability of topic_Department_91 is 0.515586
+
+pgibbs sample time: 0.000259 seconds
+probability of topic_Staff_81 is 0.451872
+
+pgibbs sample time: 0.001201 seconds
+probability of topic_Department_45 is 0.476455
+
+pgibbs sample time: 0.000996 seconds
+probability of topic_Student_89 is 0.506391
+
+pgibbs sample time: 0.000511 seconds
+probability of topic_Staff_57 is 0.454193
+
+pgibbs sample time: 0.000509 seconds
+probability of topic_Staff_61 is 0.496609
+
+pgibbs sample time: 0.001981 seconds
+probability of topic_Department_157 is 0.503754
+
+pgibbs sample time: 5.7e-05 seconds
+probability of topic_Staff_1 is 0.40605
+
+pgibbs sample time: 0.001744 seconds
+probability of topic_Department_59 is 0.538668
+
+pgibbs sample time: 0.001529 seconds
+probability of topic_Person_54 is 0.485789
+
+pgibbs sample time: 0.000528 seconds
+probability of topic_Staff_168 is 0.435583
+
+pgibbs sample time: 5.7e-05 seconds
+probability of topic_Staff_6 is 0.464129
+
+pgibbs sample time: 0.001267 seconds
+probability of topic_Student_72 is 0.56792
+
+pgibbs sample time: 7.3e-05 seconds
+probability of topic_Faculty_68 is 0.347011
+
+pgibbs sample time: 0.000481 seconds
+probability of topic_Department_58 is 0.451504
+
+pgibbs sample time: 0.000341 seconds
+probability of topic_Faculty_30 is 0.480391
+
+pgibbs sample time: 0.000636 seconds
+probability of topic_Staff_33 is 0.497875
+
+pgibbs sample time: 5.7e-05 seconds
+probability of topic_Department_9 is 0.498341
+
+pgibbs sample time: 5.7e-05 seconds
+probability of topic_Student_39 is 0.471272
+
+pgibbs sample time: 5.6e-05 seconds
+probability of topic_Faculty_1 is 0.582985
+
+pgibbs sample time: 0.001098 seconds
+probability of topic_Course_174 is 0.520018
+
+pgibbs sample time: 0.001585 seconds
+probability of topic_Student_102 is 0.56706
+
+pgibbs sample time: 5.6e-05 seconds
+probability of topic_Person_75 is 0.481417
+
+pgibbs sample time: 5.8e-05 seconds
+probability of topic_ResearchProject_15 is 0.506142
+
+pgibbs sample time: 0.000258 seconds
+probability of topic_Course_25 is 0.336062
+
+pgibbs sample time: 5.8e-05 seconds
+probability of topic_Department_26 is 0.513549
+
+pgibbs sample time: 6.9e-05 seconds
+probability of topic_Staff_5 is 0.524425
+
+pgibbs sample time: 0.000221 seconds
+probability of topic_Person_19 is 0.688291
+
+pgibbs sample time: 5.9e-05 seconds
+probability of topic_Faculty_99 is 0.471164
+
+pgibbs sample time: 0.000486 seconds
+probability of topic_Staff_67 is 0.46395
+
+pgibbs sample time: 5.9e-05 seconds
+probability of topic_Student_46 is 0.486212
+
+pgibbs sample time: 5.7e-05 seconds
+probability of topic_Student_70 is 0.426591
+
+pgibbs sample time: 6.9e-05 seconds
+probability of topic_Staff_22 is 0.49035
+
+pgibbs sample time: 8.3e-05 seconds
+probability of topic_Staff_76 is 0.422666
+
+pgibbs sample time: 5.7e-05 seconds
+probability of topic_Student_90 is 0.506741
+
+pgibbs sample time: 5.6e-05 seconds
+probability of topic_Student_74 is 0.493937
+
+pgibbs sample time: 5.6e-05 seconds
+probability of topic_Department_56 is 0.488853
+
+pgibbs sample time: 0.000715 seconds
+probability of topic_ResearchProject_33 is 0.467605
+
+pgibbs sample time: 0.000499 seconds
+probability of topic_Faculty_111 is 0.511852
+
+pgibbs sample time: 0.000293 seconds
+probability of topic_Student_81 is 0.572054
+
+pgibbs sample time: 0.000471 seconds
+probability of topic_Course_111 is 0.431713
+
+pgibbs sample time: 0.001571 seconds
+probability of topic_Person_102 is 0.547499
+
+pgibbs sample time: 5.7e-05 seconds
+probability of topic_Person_9 is 0.413319
+
+pgibbs sample time: 0.000501 seconds
+probability of topic_Person_67 is 0.510912
+
+pgibbs sample time: 0.00141 seconds
+probability of topic_Course_28 is 0.479001
+
+pgibbs sample time: 0.001951 seconds
+probability of topic_Person_133 is 0.522296
+
+pgibbs sample time: 5.6e-05 seconds
+probability of topic_Person_6 is 0.48059
+
+pgibbs sample time: 0.000209 seconds
+probability of topic_Faculty_119 is 0.490776
+
+pgibbs sample time: 7.1e-05 seconds
+probability of topic_Course_22 is 0.397066
+
+pgibbs sample time: 0.000269 seconds
+probability of topic_ResearchProject_145 is 0.509162
+
+pgibbs sample time: 7.4e-05 seconds
+probability of topic_Student_15 is 0.530699
+
+pgibbs sample time: 0.001268 seconds
+probability of topic_Student_118 is 0.591602
+
+pgibbs sample time: 0.000252 seconds
+probability of topic_Staff_19 is 0.402152
+
+pgibbs sample time: 0.001026 seconds
+probability of topic_Staff_91 is 0.457506
+
+pgibbs sample time: 0.000268 seconds
+probability of topic_ResearchProject_17 is 0.461381
+
+pgibbs sample time: 5.7e-05 seconds
+probability of topic_Person_90 is 0.644742
+
+pgibbs sample time: 5.7e-05 seconds
+probability of topic_Student_60 is 0.508464
+
+pgibbs sample time: 6.9e-05 seconds
+probability of topic_Staff_77 is 0.405879
+
+pgibbs sample time: 0.000714 seconds
+probability of topic_ResearchProject_209 is 0.389592
+
+pgibbs sample time: 0.001857 seconds
+probability of topic_ResearchProject_2 is 0.505022
+
+pgibbs sample time: 5.9e-05 seconds
+probability of topic_Faculty_51 is 0.401781
+
+pgibbs sample time: 5.7e-05 seconds
+probability of topic_Faculty_85 is 0.491225
+
+pgibbs sample time: 0.0001 seconds
+probability of topic_Department_47 is 0.242009
+
+pgibbs sample time: 5.5e-05 seconds
+probability of topic_Staff_62 is 0.492361
+
+pgibbs sample time: 0.000429 seconds
+probability of topic_Course_35 is 0.4851
+
+pgibbs sample time: 0.000261 seconds
+probability of topic_Staff_20 is 0.433123
+
+pgibbs sample time: 0.00034 seconds
+probability of topic_Faculty_136 is 0.40445
+
+pgibbs sample time: 0.000199 seconds
+probability of topic_Faculty_55 is 0.485131
+
+pgibbs sample time: 0.000198 seconds
+probability of topic_Faculty_73 is 0.532775
+
+pgibbs sample time: 5.7e-05 seconds
+probability of topic_Staff_38 is 0.425495
+
+pgibbs sample time: 0.000449 seconds
+probability of topic_Department_92 is 0.441136
+
+pgibbs sample time: 0.000511 seconds
+probability of topic_Faculty_67 is 0.431689
+
+pgibbs sample time: 5.9e-05 seconds
+probability of topic_Department_22 is 0.477106
+
+pgibbs sample time: 0.000511 seconds
+probability of topic_Faculty_134 is 0.426238
+
+pgibbs sample time: 5.7e-05 seconds
+probability of topic_Course_37 is 0.425378
+
+pgibbs sample time: 0.001777 seconds
+probability of topic_Staff_24 is 0.489708
+
+pgibbs sample time: 0.000306 seconds
+probability of topic_Department_81 is 0.599716
+
+pgibbs sample time: 9.8e-05 seconds
+probability of topic_Person_52 is 0.488392
+
+pgibbs sample time: 0.001745 seconds
+probability of topic_Department_54 is 0.503576
+
+pgibbs sample time: 0.001749 seconds
+probability of topic_Department_114 is 0.443332
+
+pgibbs sample time: 0.001155 seconds
+probability of topic_Staff_45 is 0.432707
+
+pgibbs sample time: 0.000237 seconds
+probability of topic_ResearchProject_187 is 0.450619
+
+pgibbs sample time: 0.000236 seconds
+probability of topic_ResearchProject_13 is 0.531097
+
+pgibbs sample time: 0.000349 seconds
+probability of topic_Staff_4 is 0.41602
+
+pgibbs sample time: 8.3e-05 seconds
+probability of topic_Course_76 is 0.439665
+
+pgibbs sample time: 0.001211 seconds
+probability of topic_ResearchProject_126 is 0.448659
+
+pgibbs sample time: 6.9e-05 seconds
+probability of topic_Course_15 is 0.42721
+
+pgibbs sample time: 0.001205 seconds
+probability of topic_Faculty_78 is 0.436412
+
+pgibbs sample time: 5.8e-05 seconds
+probability of topic_ResearchProject_71 is 0.485375
+
+pgibbs sample time: 7.2e-05 seconds
+probability of topic_Staff_64 is 0.401478
+
+pgibbs sample time: 0.000116 seconds
+probability of topic_ResearchProject_42 is 0.418878
+
+pgibbs sample time: 0.00034 seconds
+probability of topic_Person_93 is 0.212087
+
+pgibbs sample time: 5.7e-05 seconds
+probability of topic_Staff_66 is 0.432401
+
+pgibbs sample time: 0.002002 seconds
+probability of topic_Course_18 is 0.373665
+
+pgibbs sample time: 0.000349 seconds
+probability of topic_Staff_111 is 0.581742
+
+pgibbs sample time: 0.001646 seconds
+probability of topic_Staff_54 is 0.496398
+
+pgibbs sample time: 0.000101 seconds
+probability of topic_Faculty_94 is 0.189926
+
+pgibbs sample time: 7e-05 seconds
+probability of topic_Person_97 is 0.621894
+
+pgibbs sample time: 6.1e-05 seconds
+probability of topic_ResearchProject_96 is 0.496361
+
+pgibbs sample time: 5.7e-05 seconds
+probability of topic_Department_75 is 0.465943
+
+pgibbs sample time: 5.5e-05 seconds
+probability of topic_Faculty_6 is 0.478687
+
+pgibbs sample time: 0.001467 seconds
+probability of topic_Faculty_102 is 0.536069
+
+pgibbs sample time: 7.3e-05 seconds
+probability of topic_Faculty_76 is 0.50345
+
+pgibbs sample time: 7e-05 seconds
+probability of topic_Staff_53 is 0.441473
+
+pgibbs sample time: 0.000296 seconds
+probability of topic_Course_20 is 0.461131
+
+pgibbs sample time: 0.000506 seconds
+probability of topic_Student_134 is 0.506066
+
+pgibbs sample time: 5.9e-05 seconds
+probability of topic_ResearchProject_95 is 0.471731
+
+pgibbs sample time: 0.001986 seconds
+probability of topic_Department_18 is 0.400702
+
+pgibbs sample time: 0.001207 seconds
+probability of topic_Department_78 is 0.455158
+
+pgibbs sample time: 0.001209 seconds
+probability of topic_Faculty_89 is 0.454698
+
+pgibbs sample time: 0.000287 seconds
+probability of topic_Person_81 is 0.498165
+
+pgibbs sample time: 5.8e-05 seconds
+probability of topic_Department_66 is 0.477077
+
+pgibbs sample time: 5.7e-05 seconds
+probability of topic_Faculty_95 is 0.48338
+
+pgibbs sample time: 0.000291 seconds
+probability of topic_Person_20 is 0.487504
+
+pgibbs sample time: 0.000114 seconds
+probability of topic_Department_52 is 0.465015
+
+pgibbs sample time: 5.9e-05 seconds
+probability of topic_ResearchProject_84 is 0.401107
+
+pgibbs sample time: 8.4e-05 seconds
+probability of topic_ResearchProject_32 is 0.49599
+
+pgibbs sample time: 5.7e-05 seconds
+probability of topic_ResearchProject_40 is 0.437775
+
+pgibbs sample time: 0.000281 seconds
+probability of topic_Faculty_17 is 0.577158
+
+pgibbs sample time: 5.8e-05 seconds
+probability of topic_Student_22 is 0.620895
+
+pgibbs sample time: 5.7e-05 seconds
+probability of topic_Staff_84 is 0.465986
+
+pgibbs sample time: 5.4e-05 seconds
+probability of topic_Staff_80 is 0.447858
+
+pgibbs sample time: 5.8e-05 seconds
+probability of topic_Student_38 is 0.45027
+
+pgibbs sample time: 9.7e-05 seconds
+probability of topic_Staff_47 is 0.3325
+
+pgibbs sample time: 5.5e-05 seconds
+probability of topic_Staff_44 is 0.426056
+
+pgibbs sample time: 0.000272 seconds
+probability of topic_ResearchProject_49 is 0.500915
+
+pgibbs sample time: 0.001234 seconds
+probability of topic_ResearchProject_78 is 0.513796
+
+pgibbs sample time: 7.2e-05 seconds
+probability of topic_Faculty_53 is 0.48486
+
+pgibbs sample time: 5.6e-05 seconds
+probability of topic_Staff_86 is 0.412752
+
+pgibbs sample time: 0.001454 seconds
+probability of topic_Department_50 is 0.413038
+
+pgibbs sample time: 0.001453 seconds
+probability of topic_Department_102 is 0.374263
+
+pgibbs sample time: 0.001595 seconds
+probability of topic_Department_28 is 0.471498
+
+pgibbs sample time: 5.8e-05 seconds
+probability of topic_Course_38 is 0.476705
+
+pgibbs sample time: 5.6e-05 seconds
+probability of topic_Person_66 is 0.486143
+
+pgibbs sample time: 5.5e-05 seconds
+probability of topic_Course_68 is 0.498873
+
+pgibbs sample time: 0.002006 seconds
+probability of topic_Course_12 is 0.524963
+
+pgibbs sample time: 0.002011 seconds
+probability of topic_Course_155 is 0.447122
+
+pgibbs sample time: 5.8e-05 seconds
+probability of topic_Faculty_44 is 0.573274
+
+pgibbs sample time: 5.6e-05 seconds
+probability of topic_Course_75 is 0.413508
+
+pgibbs sample time: 0.001956 seconds
+probability of topic_Student_133 is 0.556709
+
+pgibbs sample time: 0.000372 seconds
+probability of topic_ResearchProject_31 is 0.399936
+
+pgibbs sample time: 0.000374 seconds
+probability of topic_ResearchProject_92 is 0.506508
+
+pgibbs sample time: 5.9e-05 seconds
+probability of topic_Department_60 is 0.519227
+
+pgibbs sample time: 0.000578 seconds
+probability of topic_Department_130 is 0.504753
+
+pgibbs sample time: 0.000511 seconds
+probability of topic_Faculty_57 is 0.478838
+
+pgibbs sample time: 0.000224 seconds
+probability of topic_Course_19 is 0.404021
+
+pgibbs sample time: 0.000196 seconds
+probability of topic_Course_49 is 0.440614
+
+pgibbs sample time: 5.8e-05 seconds
+probability of topic_Faculty_16 is 0.519859
+
+pgibbs sample time: 7.1e-05 seconds
+probability of topic_Student_63 is 0.446425
+
+pgibbs sample time: 0.001982 seconds
+probability of topic_Department_155 is 0.537833
+
+pgibbs sample time: 7e-05 seconds
+probability of topic_Course_5 is 0.4026
+
+pgibbs sample time: 0.000268 seconds
+probability of topic_Department_49 is 0.477121
+
+pgibbs sample time: 0.000318 seconds
+probability of topic_Staff_231 is 0.459043
+
+pgibbs sample time: 0.000702 seconds
+probability of topic_Person_33 is 0.361293
+
+pgibbs sample time: 0.000703 seconds
+probability of topic_Person_209 is 0.527075
+
+pgibbs sample time: 0.000237 seconds
+probability of topic_Student_13 is 0.310704
+
+pgibbs sample time: 0.000236 seconds
+probability of topic_Student_187 is 0.511513
+
+pgibbs sample time: 0.000462 seconds
+probability of topic_Person_4 is 0.488593
+
+pgibbs sample time: 0.001964 seconds
+probability of topic_Faculty_18 is 0.436869
+
+pgibbs sample time: 5.8e-05 seconds
+probability of topic_Faculty_82 is 0.413153
+
+pgibbs sample time: 6.9e-05 seconds
+probability of topic_Staff_97 is 0.576575
+
+pgibbs sample time: 7.2e-05 seconds
+probability of topic_Student_77 is 0.740256
+
+pgibbs sample time: 0.000209 seconds
+probability of topic_ResearchProject_73 is 0.490632
+
+pgibbs sample time: 5.7e-05 seconds
+probability of topic_Course_95 is 0.509234
+
+pgibbs sample time: 0.00058 seconds
+probability of topic_Student_130 is 0.495647
+
+pgibbs sample time: 7.2e-05 seconds
+probability of topic_ResearchProject_97 is 0.478038
+
+pgibbs sample time: 7e-05 seconds
+probability of topic_Department_77 is 0.632831
+
+pgibbs sample time: 0.001281 seconds
+probability of topic_Department_174 is 0.815493
+
+pgibbs sample time: 0.000205 seconds
+probability of topic_Student_65 is 0.486874
+
+pgibbs sample time: 0.00011 seconds
+probability of topic_Person_42 is 0.603252
+
+pgibbs sample time: 5.7e-05 seconds
+probability of topic_Course_34 is 0.466787
+
+pgibbs sample time: 0.000297 seconds
+probability of topic_Course_81 is 0.541369
+
+pgibbs sample time: 0.000512 seconds
+probability of topic_ResearchProject_67 is 0.460707
+
+pgibbs sample time: 0.00023 seconds
+probability of topic_Student_55 is 0.538897
+
+pgibbs sample time: 5.8e-05 seconds
+probability of topic_ResearchProject_90 is 0.578898
+
+pgibbs sample time: 7.1e-05 seconds
+probability of topic_Department_79 is 0.567833
+
+pgibbs sample time: 5.6e-05 seconds
+probability of topic_Staff_56 is 0.44278
+
+pgibbs sample time: 5.8e-05 seconds
+probability of topic_Student_82 is 0.52095
+
+pgibbs sample time: 0.000422 seconds
+probability of topic_Person_87 is 0.596417
+
+pgibbs sample time: 5.7e-05 seconds
+probability of topic_Department_90 is 0.557293
+
+pgibbs sample time: 0.000439 seconds
+probability of topic_Student_31 is 0.56022
+
+pgibbs sample time: 5.8e-05 seconds
+probability of topic_Faculty_26 is 0.590197
+
+pgibbs sample time: 0.001271 seconds
+probability of topic_Faculty_106 is 0.5184
+
+pgibbs sample time: 5.9e-05 seconds
+probability of topic_Student_83 is 0.527898
+
+pgibbs sample time: 0.001229 seconds
+probability of topic_ResearchProject_89 is 0.469529
+
+pgibbs sample time: 5.9e-05 seconds
+probability of topic_ResearchProject_60 is 0.491475
+
+pgibbs sample time: 0.000446 seconds
+probability of topic_Department_31 is 0.445483
+
+pgibbs sample time: 7.1e-05 seconds
+probability of topic_Person_21 is 0.455693
+
+pgibbs sample time: 5.6e-05 seconds
+probability of topic_Course_56 is 0.431197
+
+pgibbs sample time: 0.000496 seconds
+probability of topic_Course_134 is 0.439213
+
+pgibbs sample time: 5.6e-05 seconds
+probability of topic_Course_90 is 0.408955
+
+pgibbs sample time: 7e-05 seconds
+probability of topic_Person_14 is 0.445516
+
+pgibbs sample time: 5.7e-05 seconds
+probability of topic_ResearchProject_44 is 0.368362
+
+pgibbs sample time: 0.001091 seconds
+probability of topic_Person_91 is 0.370883
+
+pgibbs sample time: 0.001284 seconds
+probability of topic_Department_118 is 0.479495
+
+pgibbs sample time: 5.8e-05 seconds
+probability of topic_ResearchProject_6 is 0.46694
+
+pgibbs sample time: 0.001647 seconds
+probability of topic_Course_114 is 0.42461
+
+pgibbs sample time: 7.3e-05 seconds
+probability of topic_Student_23 is 0.293887
+
+pgibbs sample time: 5.7e-05 seconds
+probability of topic_Course_85 is 0.544381
+
+pgibbs sample time: 5.4e-05 seconds
+probability of topic_Person_71 is 0.661852
+
+pgibbs sample time: 5.8e-05 seconds
+probability of topic_Faculty_66 is 0.401374
+
+pgibbs sample time: 0.001278 seconds
+probability of topic_Department_41 is 0.3631
+
+pgibbs sample time: 0.001283 seconds
+probability of topic_Department_72 is 0.336603
+
+pgibbs sample time: 0.000578 seconds
+probability of topic_Department_8 is 0.655068
+
+pgibbs sample time: 0.000577 seconds
+probability of topic_Department_110 is 0.388557
+
+pgibbs sample time: 0.000463 seconds
+probability of topic_Person_111 is 0.662342
+
+pgibbs sample time: 0.001654 seconds
+probability of topic_Course_59 is 0.640413
+
+pgibbs sample time: 7e-05 seconds
+probability of topic_Person_5 is 0.504151
+
+pgibbs sample time: 7e-05 seconds
+probability of topic_Course_88 is 0.517024
+
+pgibbs sample time: 0.001488 seconds
+probability of topic_Course_126 is 0.353925
+
+pgibbs sample time: 0.001494 seconds
+probability of topic_Course_156 is 0.52284
+
+pgibbs sample time: 5.8e-05 seconds
+probability of topic_Faculty_80 is 0.419826
+
+pgibbs sample time: 0.001649 seconds
+probability of topic_Course_3 is 0.440571
+
+pgibbs sample time: 7.2e-05 seconds
+probability of topic_Faculty_77 is 0.376598
+
+pgibbs sample time: 0.000501 seconds
+probability of topic_Student_4 is 0.446777
+
+pgibbs sample time: 5.7e-05 seconds
+probability of topic_Course_26 is 0.561148
+
+pgibbs sample time: 5.6e-05 seconds
+probability of topic_Person_26 is 0.508625
+
+pgibbs sample time: 0.000238 seconds
+probability of topic_ResearchProject_65 is 0.511789
+
+pgibbs sample time: 0.000434 seconds
+probability of topic_Person_92 is 0.457264
+
+pgibbs sample time: 0.000342 seconds
+probability of topic_Department_116 is 0.439807
+
+pgibbs sample time: 0.002008 seconds
+probability of topic_Course_199 is 0.458601
+
+pgibbs sample time: 7.3e-05 seconds
+probability of topic_Department_51 is 0.46123
+
+pgibbs sample time: 0.000506 seconds
+probability of topic_Person_134 is 0.48661
+
+pgibbs sample time: 5.7e-05 seconds
+probability of topic_Person_99 is 0.406754
+
+pgibbs sample time: 0.000399 seconds
+probability of topic_Staff_92 is 0.439236
+
+pgibbs sample time: 7.5e-05 seconds
+probability of topic_Faculty_88 is 0.559251
+
+pgibbs sample time: 5.7e-05 seconds
+probability of topic_ResearchProject_85 is 0.510812
+
+pgibbs sample time: 0.000485 seconds
+probability of topic_Staff_11 is 0.419019
+
+pgibbs sample time: 0.000485 seconds
+probability of topic_Staff_134 is 0.397164
+
+pgibbs sample time: 5.8e-05 seconds
+probability of topic_Faculty_98 is 0.42616
+
+pgibbs sample time: 5.7e-05 seconds
+probability of topic_ResearchProject_9 is 0.64307
+
+pgibbs sample time: 5.8e-05 seconds
+probability of topic_Student_34 is 0.595173
+
+pgibbs sample time: 0.000328 seconds
+probability of topic_Department_231 is 0.455045
+
+pgibbs sample time: 5.8e-05 seconds
+probability of topic_ResearchProject_16 is 0.488395
+
+pgibbs sample time: 5.6e-05 seconds
+probability of topic_Person_43 is 0.484264
+
+pgibbs sample time: 0.001965 seconds
+probability of topic_Faculty_155 is 0.617291
+
+pgibbs sample time: 5.8e-05 seconds
+probability of topic_Student_95 is 0.511746
+
+pgibbs sample time: 0.000328 seconds
+probability of topic_Department_25 is 0.278643
+
+pgibbs sample time: 0.001959 seconds
+probability of topic_Faculty_157 is 0.457356
+
+pgibbs sample time: 5.9e-05 seconds
+probability of topic_Faculty_60 is 0.457381
+
+pgibbs sample time: 5.7e-05 seconds
+probability of topic_Staff_96 is 0.500444
+
+pgibbs sample time: 5.8e-05 seconds
+probability of topic_Department_39 is 0.425577
+
+pgibbs sample time: 0.001778 seconds
+probability of topic_Staff_169 is 0.767116
+
+pgibbs sample time: 0.001784 seconds
+probability of topic_Staff_18 is 0.381646
+
+pgibbs sample time: 0.000231 seconds
+probability of topic_Person_187 is 0.476957
+
+pgibbs sample time: 5.7e-05 seconds
+probability of topic_Student_98 is 0.630971
+
+pgibbs sample time: 0.001955 seconds
+probability of topic_Student_24 is 0.558696
+
+pgibbs sample time: 7.3e-05 seconds
+probability of topic_ResearchProject_77 is 0.550473
+
+pgibbs sample time: 7.1e-05 seconds
+probability of topic_Person_27 is 0.509051
+
+pgibbs sample time: 5.8e-05 seconds
+probability of topic_ResearchProject_62 is 0.620402
+
+pgibbs sample time: 0.000554 seconds
+probability of topic_Staff_8 is 0.582252
+
+pgibbs sample time: 7.1e-05 seconds
+probability of topic_Student_14 is 0.463578
+
+pgibbs sample time: 6.9e-05 seconds
+probability of topic_Staff_51 is 0.394305
+
+pgibbs sample time: 0.000552 seconds
+probability of topic_Staff_110 is 0.388421
+
+pgibbs sample time: 5.6e-05 seconds
+probability of topic_Course_77 is 0.329674
+
+pgibbs sample time: 0.000342 seconds
+probability of topic_Department_93 is 0.448881
+
+pgibbs sample time: 5.7e-05 seconds
+probability of topic_Staff_46 is 0.423377
+
+pgibbs sample time: 5.7e-05 seconds
+probability of topic_Student_75 is 0.466858
+
+pgibbs sample time: 0.000116 seconds
+probability of topic_ResearchProject_7 is 0.446056
+
+pgibbs sample time: 5.7e-05 seconds
+probability of topic_ResearchProject_37 is 0.442936
+
+pgibbs sample time: 0.001095 seconds
+probability of topic_ResearchProject_91 is 0.560696
+
+pgibbs sample time: 5.7e-05 seconds
+probability of topic_Course_86 is 0.411195
+
+pgibbs sample time: 6.1e-05 seconds
+probability of topic_Person_60 is 0.475019
+
+pgibbs sample time: 0.002032 seconds
+probability of topic_Student_2 is 0.459581
+
+pgibbs sample time: 0.000504 seconds
+probability of topic_Student_30 is 0.430352
+
+pgibbs sample time: 0.001986 seconds
+probability of topic_Student_199 is 0.605844
+
+pgibbs sample time: 0.001958 seconds
+probability of topic_Student_18 is 0.46447
+
+pgibbs sample time: 0.000206 seconds
+probability of topic_Student_119 is 0.470291
+
+pgibbs sample time: 0.000237 seconds
+probability of topic_Faculty_13 is 0.555936
+
+pgibbs sample time: 0.000261 seconds
+probability of topic_Faculty_187 is 0.583429
+
+pgibbs sample time: 0.000452 seconds
+probability of topic_Person_168 is 0.487212
+
+pgibbs sample time: 5.7e-05 seconds
+probability of topic_Staff_85 is 0.418667
+
+pgibbs sample time: 0.000472 seconds
+probability of topic_Course_4 is 0.492335
+
+pgibbs sample time: 0.00044 seconds
+probability of topic_Student_92 is 0.498928
+
+pgibbs sample time: 0.000472 seconds
+probability of topic_Course_58 is 0.526942
+
+pgibbs sample time: 0.000442 seconds
+probability of topic_Student_120 is 0.536814
+
+pgibbs sample time: 5.8e-05 seconds
+probability of topic_Faculty_56 is 0.45131
+
+pgibbs sample time: 0.000347 seconds
+probability of topic_Faculty_93 is 0.421201
+
+pgibbs sample time: 0.000103 seconds
+probability of topic_Department_32 is 0.395372
+
+pgibbs sample time: 5.7e-05 seconds
+probability of topic_Faculty_43 is 0.547991
+
+pgibbs sample time: 7.2e-05 seconds
+probability of topic_Department_97 is 0.695665
+
+pgibbs sample time: 5.7e-05 seconds
+probability of topic_Student_99 is 0.471272
+
+pgibbs sample time: 0.001342 seconds
+probability of topic_ResearchProject_3 is 0.449922
+
+pgibbs sample time: 5.8e-05 seconds
+probability of topic_Staff_88 is 0.639653
+
+pgibbs sample time: 5.6e-05 seconds
+probability of topic_Student_80 is 0.493937
+
+pgibbs sample time: 9.8e-05 seconds
+probability of topic_Person_94 is 0.226539
+
+pgibbs sample time: 5.8e-05 seconds
+probability of topic_Student_71 is 0.595284
+
+pgibbs sample time: 0.00196 seconds
+probability of topic_Student_155 is 0.19454
+
+pgibbs sample time: 0.001961 seconds
+probability of topic_Student_157 is 0.56245
+
+pgibbs sample time: 5.8e-05 seconds
+probability of topic_Department_62 is 0.63036
+
+pgibbs sample time: 5.8e-05 seconds
+probability of topic_Department_6 is 0.442131
+
+pgibbs sample time: 5.4e-05 seconds
+probability of topic_Person_62 is 0.713581
+
+pgibbs sample time: 0.000101 seconds
+probability of topic_Faculty_47 is 0.550338
+
+pgibbs sample time: 5.6e-05 seconds
+probability of topic_Person_74 is 0.498179
+
+pgibbs sample time: 0.00011 seconds
+probability of topic_Student_7 is 0.546257
+
+pgibbs sample time: 0.002099 seconds
+probability of topic_Person_24 is 0.504298
+
+pgibbs sample time: 6e-05 seconds
+probability of topic_Person_85 is 0.443477
+
+pgibbs sample time: 5.8e-05 seconds
+probability of topic_Department_96 is 0.453224
+
+pgibbs sample time: 5.9e-05 seconds
+probability of topic_Student_84 is 0.439683
+
+pgibbs sample time: 0.000574 seconds
+probability of topic_Person_8 is 0.506569
+
+pgibbs sample time: 5.9e-05 seconds
+probability of topic_Student_26 is 0.414946
+
+pgibbs sample time: 0.000496 seconds
+probability of topic_Student_57 is 0.496599
+
+pgibbs sample time: 0.000498 seconds
+probability of topic_Student_168 is 0.48777
+
+pgibbs sample time: 8.6e-05 seconds
+probability of topic_ResearchProject_47 is 0.473872
+
+pgibbs sample time: 7e-05 seconds
+probability of topic_Course_23 is 0.700906
+
+pgibbs sample time: 5.5e-05 seconds
+probability of topic_Person_37 is 0.498179
 
