@@ -96,6 +96,7 @@ void Grader::computeGradient(MLN& mln, string query, string infl, int round, dou
   // vector<bool> visited (mln.cliques.size(), false);
   // dfsSearch(mln, valid_obs, visited, query);
   if (mln.obs.find(infl)==mln.obs.end()) {
+    cout << infl << endl;
     mln.pd[query][infl] = 0.0;
     return;
     // consider rule tuple
