@@ -8,10 +8,10 @@ probability of topic_Course_3 is 0.490213
 mode pgibbs: influence compute time (pgibbs): 9.8e-05 seconds
 influence of hasword_algorithm_3 on topic_Course_3 is -0.00978459
 
-pgibbs sample time: 6.5e-05 seconds
+pgibbs sample time: 6.6e-05 seconds
 probability of topic_ResearchProject_49 is 0.221396
 
-mode pgibbs: influence compute time (pgibbs): 0.000121 seconds
+mode pgibbs: influence compute time (pgibbs): 0.000124 seconds
 influence of r1794 on topic_ResearchProject_49 is 0.17238
 
 pgibbs sample time: 5.2e-05 seconds
@@ -23,13 +23,13 @@ influence of hasword_interest_41 on topic_Student_41 is 0.216349
 pgibbs sample time: 5.2e-05 seconds
 probability of topic_Student_16 is 0.493937
 
-mode pgibbs: influence compute time (pgibbs): 9.7e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 9.8e-05 seconds
 influence of hasword_gmt_16 on topic_Student_16 is -0.00606229
 
-pgibbs sample time: 4.9e-05 seconds
+pgibbs sample time: 6.5e-05 seconds
 probability of topic_Student_5 is 0.486212
 
-mode pgibbs: influence compute time (pgibbs): 9.3e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 0.000113 seconds
 influence of hasword_html_5 on topic_Student_5 is -0.0137816
 
 pgibbs sample time: 5.1e-05 seconds
@@ -38,10 +38,10 @@ probability of topic_Department_96 is 0.395175
 mode pgibbs: influence compute time (pgibbs): 9.7e-05 seconds
 influence of hasword_oct_96 on topic_Department_96 is -0.101771
 
-pgibbs sample time: 5.1e-05 seconds
+pgibbs sample time: 5e-05 seconds
 probability of topic_Department_98 is 0.63036
 
-mode pgibbs: influence compute time (pgibbs): 9.7e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 9.6e-05 seconds
 influence of hasword_nov_98 on topic_Department_98 is 0.124456
 
 pgibbs sample time: 5.1e-05 seconds
@@ -53,10 +53,10 @@ influence of hasword_format_95 on topic_ResearchProject_95 is -0.0472718
 pgibbs sample time: 4.9e-05 seconds
 probability of topic_Course_82 is 0.495167
 
-mode pgibbs: influence compute time (pgibbs): 9.3e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 9.4e-05 seconds
 influence of hasword_kei_82 on topic_Course_82 is -0.00483223
 
-pgibbs sample time: 4.8e-05 seconds
+pgibbs sample time: 4.9e-05 seconds
 probability of topic_Person_10 is 0.505972
 
 mode pgibbs: influence compute time (pgibbs): 9.3e-05 seconds
@@ -65,58 +65,58 @@ influence of hasword_jan_10 on topic_Person_10 is 0.00597113
 pgibbs sample time: 4.8e-05 seconds
 probability of topic_Staff_23 is 0.464129
 
-mode pgibbs: influence compute time (pgibbs): 9.2e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 9.1e-05 seconds
 influence of hasword_texa_23 on topic_Staff_23 is -0.0357499
 
-pgibbs sample time: 0.000201 seconds
+pgibbs sample time: 0.0002 seconds
 probability of topic_Student_119 is 0.527335
 
-mode pgibbs: influence compute time (pgibbs): 0.00039 seconds
+mode pgibbs: influence compute time (pgibbs): 0.000389 seconds
 influence of links_34_119 on topic_Student_119 is 0.0164371
 
-pgibbs sample time: 0.000364 seconds
+pgibbs sample time: 0.000363 seconds
 probability of topic_Student_18 is 0.474907
 
-mode pgibbs: influence compute time (pgibbs): 0.000714 seconds
+mode pgibbs: influence compute time (pgibbs): 0.000716 seconds
 influence of links_20_102 on topic_Student_18 is -0.000396831
 
 pgibbs sample time: 5.1e-05 seconds
 probability of topic_ResearchProject_23 is 0.46694
 
-mode pgibbs: influence compute time (pgibbs): 9.6e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 9.5e-05 seconds
 influence of hasword_texa_23 on topic_ResearchProject_23 is -0.0329654
 
-pgibbs sample time: 5e-05 seconds
+pgibbs sample time: 5.2e-05 seconds
 probability of topic_Person_37 is 0.463107
 
-mode pgibbs: influence compute time (pgibbs): 9.6e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 9.5e-05 seconds
 influence of hasword_austin_37 on topic_Person_37 is -0.0367608
 
 pgibbs sample time: 6.7e-05 seconds
 probability of topic_ResearchProject_47 is 0.410996
 
-mode pgibbs: influence compute time (pgibbs): 0.000125 seconds
+mode pgibbs: influence compute time (pgibbs): 0.000124 seconds
 influence of r86 on topic_ResearchProject_47 is 0.242076
 
-pgibbs sample time: 5.5e-05 seconds
+pgibbs sample time: 5.2e-05 seconds
 probability of topic_Department_32 is 0.376874
 
-mode pgibbs: influence compute time (pgibbs): 9.9e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 9.8e-05 seconds
 influence of hasword_softwar_32 on topic_Department_32 is -0.118159
 
-pgibbs sample time: 0.000295 seconds
+pgibbs sample time: 0.000296 seconds
 probability of topic_Department_108 is 0.478285
 
-mode pgibbs: influence compute time (pgibbs): 0.000581 seconds
+mode pgibbs: influence compute time (pgibbs): 0.000586 seconds
 influence of links_94_108 on topic_Department_108 is 0.0153226
 
-pgibbs sample time: 0.000294 seconds
+pgibbs sample time: 0.000295 seconds
 probability of topic_Department_94 is 0.478316
 
-mode pgibbs: influence compute time (pgibbs): 0.000582 seconds
+mode pgibbs: influence compute time (pgibbs): 0.000581 seconds
 influence of links_94_108 on topic_Department_94 is -0.0141772
 
-pgibbs sample time: 5.2e-05 seconds
+pgibbs sample time: 5.1e-05 seconds
 probability of topic_ResearchProject_5 is 0.423904
 
 mode pgibbs: influence compute time (pgibbs): 9.7e-05 seconds
@@ -125,37 +125,37 @@ influence of hasword_html_5 on topic_ResearchProject_5 is -0.0749328
 pgibbs sample time: 0.000253 seconds
 probability of topic_Staff_108 is 0.432193
 
-mode pgibbs: influence compute time (pgibbs): 0.000498 seconds
+mode pgibbs: influence compute time (pgibbs): 0.000497 seconds
 influence of links_94_108 on topic_Staff_108 is 0.014299
 
-pgibbs sample time: 5.3e-05 seconds
+pgibbs sample time: 5.2e-05 seconds
 probability of topic_Student_84 is 0.480142
 
-mode pgibbs: influence compute time (pgibbs): 0.0001 seconds
+mode pgibbs: influence compute time (pgibbs): 9.9e-05 seconds
 influence of hasword_person_84 on topic_Student_84 is -0.0198376
 
 pgibbs sample time: 5.1e-05 seconds
 probability of topic_ResearchProject_30 is 0.496069
 
-mode pgibbs: influence compute time (pgibbs): 9.5e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 9.6e-05 seconds
 influence of hasword_tree_30 on topic_ResearchProject_30 is -0.00393086
 
-pgibbs sample time: 0.000363 seconds
+pgibbs sample time: 0.000364 seconds
 probability of topic_Student_102 is 0.405554
 
 mode pgibbs: influence compute time (pgibbs): 0.000715 seconds
 influence of links_20_102 on topic_Student_102 is 0.0142503
 
-pgibbs sample time: 5.2e-05 seconds
+pgibbs sample time: 5.1e-05 seconds
 probability of topic_Faculty_79 is 0.489675
 
 mode pgibbs: influence compute time (pgibbs): 9.7e-05 seconds
 influence of hasword_produc_79 on topic_Faculty_79 is -0.0103217
 
-pgibbs sample time: 5e-05 seconds
+pgibbs sample time: 5.1e-05 seconds
 probability of topic_ResearchProject_92 is 0.484864
 
-mode pgibbs: influence compute time (pgibbs): 9.7e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 9.6e-05 seconds
 influence of hasword_back_92 on topic_ResearchProject_92 is -0.0151274
 
 pgibbs sample time: 5.1e-05 seconds
@@ -164,10 +164,10 @@ probability of topic_Person_74 is 0.486143
 mode pgibbs: influence compute time (pgibbs): 9.6e-05 seconds
 influence of hasword_server_74 on topic_Person_74 is -0.0138496
 
-pgibbs sample time: 5.1e-05 seconds
+pgibbs sample time: 5e-05 seconds
 probability of topic_Faculty_47 is 0.650745
 
-mode pgibbs: influence compute time (pgibbs): 9.7e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 9.8e-05 seconds
 influence of hasword_fall_47 on topic_Faculty_47 is 0.14157
 
 pgibbs sample time: 4.9e-05 seconds
@@ -179,7 +179,7 @@ influence of hasword_robert_67 on topic_Staff_67 is -0.017101
 pgibbs sample time: 5e-05 seconds
 probability of topic_Person_62 is 0.482416
 
-mode pgibbs: influence compute time (pgibbs): 9.4e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 9.5e-05 seconds
 influence of hasword_length_62 on topic_Person_62 is -0.0175697
 
 pgibbs sample time: 5.1e-05 seconds
@@ -188,16 +188,16 @@ probability of topic_Faculty_67 is 0.47323
 mode pgibbs: influence compute time (pgibbs): 9.9e-05 seconds
 influence of hasword_robert_67 on topic_Faculty_67 is -0.0267197
 
-pgibbs sample time: 0.000198 seconds
+pgibbs sample time: 0.000199 seconds
 probability of topic_Department_22 is 0.728317
 
-mode pgibbs: influence compute time (pgibbs): 0.000388 seconds
+mode pgibbs: influence compute time (pgibbs): 0.000387 seconds
 influence of links_22_35 on topic_Department_22 is -0.0115462
 
-pgibbs sample time: 6.5e-05 seconds
+pgibbs sample time: 6.6e-05 seconds
 probability of topic_Faculty_73 is 0.362342
 
-mode pgibbs: influence compute time (pgibbs): 0.000125 seconds
+mode pgibbs: influence compute time (pgibbs): 0.000126 seconds
 influence of hasword_group_73 on topic_Faculty_73 is -0.0382401
 
 pgibbs sample time: 4.9e-05 seconds
@@ -206,13 +206,13 @@ probability of topic_Staff_38 is 0.45716
 mode pgibbs: influence compute time (pgibbs): 9.3e-05 seconds
 influence of hasword_data_38 on topic_Staff_38 is -0.0426334
 
-pgibbs sample time: 0.000292 seconds
+pgibbs sample time: 0.000345 seconds
 probability of topic_Person_94 is 0.486974
 
 mode pgibbs: influence compute time (pgibbs): 0.000574 seconds
 influence of links_94_108 on topic_Person_94 is -0.0144221
 
-pgibbs sample time: 5.5e-05 seconds
+pgibbs sample time: 5.4e-05 seconds
 probability of topic_Student_95 is 0.372561
 
 mode pgibbs: influence compute time (pgibbs): 9.9e-05 seconds
@@ -221,10 +221,10 @@ influence of hasword_format_95 on topic_Student_95 is -0.121927
 pgibbs sample time: 0.000362 seconds
 probability of topic_Staff_18 is 0.410203
 
-mode pgibbs: influence compute time (pgibbs): 0.000711 seconds
+mode pgibbs: influence compute time (pgibbs): 0.000713 seconds
 influence of links_18_102 on topic_Staff_18 is -0.0135648
 
-pgibbs sample time: 5.2e-05 seconds
+pgibbs sample time: 5.1e-05 seconds
 probability of topic_Student_99 is 0.635863
 
 mode pgibbs: influence compute time (pgibbs): 9.6e-05 seconds
@@ -239,55 +239,55 @@ influence of hasword_research_24 on topic_Staff_24 is 0.130375
 pgibbs sample time: 4.9e-05 seconds
 probability of topic_Course_37 is 0.498392
 
-mode pgibbs: influence compute time (pgibbs): 9.5e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 9.4e-05 seconds
 influence of hasword_austin_37 on topic_Course_37 is -0.00160777
 
 pgibbs sample time: 0.000569 seconds
 probability of topic_Faculty_68 is 0.418873
 
-mode pgibbs: influence compute time (pgibbs): 0.001121 seconds
+mode pgibbs: influence compute time (pgibbs): 0.00112 seconds
 influence of links_43_40 on topic_Faculty_68 is 0.000449701
 
 pgibbs sample time: 0.000567 seconds
 probability of topic_Faculty_43 is 0.427462
 
-mode pgibbs: influence compute time (pgibbs): 0.001234 seconds
+mode pgibbs: influence compute time (pgibbs): 0.001118 seconds
 influence of links_43_40 on topic_Faculty_43 is -0.0165438
 
-pgibbs sample time: 0.000375 seconds
+pgibbs sample time: 0.000376 seconds
 probability of topic_Department_20 is 0.46812
 
-mode pgibbs: influence compute time (pgibbs): 0.000738 seconds
+mode pgibbs: influence compute time (pgibbs): 0.000852 seconds
 influence of hasword_date_20 on topic_Department_20 is -0.0198362
 
-pgibbs sample time: 5e-05 seconds
+pgibbs sample time: 5.1e-05 seconds
 probability of topic_Staff_96 is 0.426056
 
-mode pgibbs: influence compute time (pgibbs): 9.4e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 9.3e-05 seconds
 influence of hasword_oct_96 on topic_Staff_96 is -0.0728771
 
-pgibbs sample time: 5.1e-05 seconds
+pgibbs sample time: 5.2e-05 seconds
 probability of topic_Department_67 is 0.459988
 
-mode pgibbs: influence compute time (pgibbs): 9.9e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 9.8e-05 seconds
 influence of hasword_robert_67 on topic_Department_67 is -0.0398438
 
-pgibbs sample time: 5.1e-05 seconds
+pgibbs sample time: 5e-05 seconds
 probability of topic_Faculty_28 is 0.419826
 
-mode pgibbs: influence compute time (pgibbs): 9.6e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 9.5e-05 seconds
 influence of hasword_gmt_28 on topic_Faculty_28 is -0.0788126
 
-pgibbs sample time: 4.9e-05 seconds
+pgibbs sample time: 5e-05 seconds
 probability of topic_Course_58 is 0.47654
 
-mode pgibbs: influence compute time (pgibbs): 9.4e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 9.3e-05 seconds
 influence of hasword_jan_58 on topic_Course_58 is -0.0234264
 
-pgibbs sample time: 0.000296 seconds
+pgibbs sample time: 0.000295 seconds
 probability of topic_Faculty_93 is 0.433334
 
-mode pgibbs: influence compute time (pgibbs): 0.000582 seconds
+mode pgibbs: influence compute time (pgibbs): 0.000641 seconds
 influence of links_93_71 on topic_Faculty_93 is -0.0128393
 
 pgibbs sample time: 5.2e-05 seconds
@@ -305,13 +305,13 @@ influence of hasword_includ_56 on topic_Faculty_56 is 0.0709735
 pgibbs sample time: 5.1e-05 seconds
 probability of topic_Course_4 is 0.475249
 
-mode pgibbs: influence compute time (pgibbs): 9.6e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 9.5e-05 seconds
 influence of hasword_represent_4 on topic_Course_4 is -0.0247113
 
 pgibbs sample time: 0.000191 seconds
 probability of topic_Staff_85 is 0.396641
 
-mode pgibbs: influence compute time (pgibbs): 0.000368 seconds
+mode pgibbs: influence compute time (pgibbs): 0.00037 seconds
 influence of rl on topic_Staff_85 is 0.147309
 
 pgibbs sample time: 5.3e-05 seconds
@@ -320,31 +320,31 @@ probability of topic_Faculty_13 is 0.546112
 mode pgibbs: influence compute time (pgibbs): 9.9e-05 seconds
 influence of hasword_develop_13 on topic_Faculty_13 is 0.0458538
 
-pgibbs sample time: 4.9e-05 seconds
+pgibbs sample time: 5e-05 seconds
 probability of topic_Person_24 is 0.488201
 
 mode pgibbs: influence compute time (pgibbs): 9.5e-05 seconds
 influence of hasword_research_24 on topic_Person_24 is -0.0117943
 
-pgibbs sample time: 0.000331 seconds
+pgibbs sample time: 0.000332 seconds
 probability of topic_Person_20 is 0.48666
 
-mode pgibbs: influence compute time (pgibbs): 0.000645 seconds
+mode pgibbs: influence compute time (pgibbs): 0.000646 seconds
 influence of links_20_102 on topic_Person_20 is -0.0119074
 
-pgibbs sample time: 4.9e-05 seconds
+pgibbs sample time: 5e-05 seconds
 probability of topic_Student_2 is 0.425061
 
-mode pgibbs: influence compute time (pgibbs): 9.2e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 9.3e-05 seconds
 influence of hasword_phone_2 on topic_Student_2 is -0.0738282
 
 pgibbs sample time: 4.9e-05 seconds
 probability of topic_Course_86 is 0.403024
 
-mode pgibbs: influence compute time (pgibbs): 9.4e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 9.3e-05 seconds
 influence of hasword_version_86 on topic_Course_86 is -0.0945609
 
-pgibbs sample time: 5.2e-05 seconds
+pgibbs sample time: 5.1e-05 seconds
 probability of topic_ResearchProject_91 is 0.441232
 
 mode pgibbs: influence compute time (pgibbs): 9.8e-05 seconds
@@ -359,7 +359,7 @@ influence of hasword_austin_37 on topic_ResearchProject_37 is -0.0063701
 pgibbs sample time: 5.1e-05 seconds
 probability of topic_ResearchProject_7 is 0.442936
 
-mode pgibbs: influence compute time (pgibbs): 9.8e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 0.000102 seconds
 influence of hasword_date_7 on topic_ResearchProject_7 is -0.0565746
 
 pgibbs sample time: 0.000292 seconds
@@ -371,19 +371,19 @@ influence of links_93_71 on topic_Department_71 is 0.0171403
 pgibbs sample time: 5.1e-05 seconds
 probability of topic_Department_13 is 0.428502
 
-mode pgibbs: influence compute time (pgibbs): 9.8e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 9.7e-05 seconds
 influence of hasword_develop_13 on topic_Department_13 is -0.0705334
 
-pgibbs sample time: 0.000292 seconds
+pgibbs sample time: 0.000343 seconds
 probability of topic_Department_93 is 0.400543
 
-mode pgibbs: influence compute time (pgibbs): 0.000575 seconds
+mode pgibbs: influence compute time (pgibbs): 0.000636 seconds
 influence of links_93_71 on topic_Department_93 is -0.0125828
 
-pgibbs sample time: 5e-05 seconds
+pgibbs sample time: 5.4e-05 seconds
 probability of topic_Course_77 is 0.499328
 
-mode pgibbs: influence compute time (pgibbs): 9.5e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 9.4e-05 seconds
 influence of hasword_statem_77 on topic_Course_77 is -0.000671834
 
 pgibbs sample time: 4.9e-05 seconds
@@ -395,67 +395,67 @@ influence of hasword_implement_8 on topic_Staff_8 is 0.0545785
 pgibbs sample time: 5.1e-05 seconds
 probability of topic_ResearchProject_62 is 0.470989
 
-mode pgibbs: influence compute time (pgibbs): 9.8e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 9.7e-05 seconds
 influence of hasword_length_62 on topic_ResearchProject_62 is -0.0289472
 
-pgibbs sample time: 5e-05 seconds
+pgibbs sample time: 4.9e-05 seconds
 probability of topic_ResearchProject_77 is 0.508503
 
 mode pgibbs: influence compute time (pgibbs): 9.5e-05 seconds
 influence of hasword_statem_77 on topic_ResearchProject_77 is 0.00850149
 
-pgibbs sample time: 5e-05 seconds
+pgibbs sample time: 5.1e-05 seconds
 probability of topic_Student_98 is 0.712049
 
-mode pgibbs: influence compute time (pgibbs): 9.6e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 9.5e-05 seconds
 influence of hasword_nov_98 on topic_Student_98 is 0.185986
 
-pgibbs sample time: 6.3e-05 seconds
+pgibbs sample time: 6.4e-05 seconds
 probability of topic_Course_49 is 0.475949
 
-mode pgibbs: influence compute time (pgibbs): 0.000121 seconds
+mode pgibbs: influence compute time (pgibbs): 0.000119 seconds
 influence of r2520 on topic_Course_49 is 0.249419
 
-pgibbs sample time: 0.000226 seconds
+pgibbs sample time: 0.000225 seconds
 probability of topic_Student_124 is 0.517422
 
-mode pgibbs: influence compute time (pgibbs): 0.000438 seconds
+mode pgibbs: influence compute time (pgibbs): 0.000442 seconds
 influence of links_44_124 on topic_Student_124 is 0.0147735
 
 pgibbs sample time: 5.2e-05 seconds
 probability of topic_Department_28 is 0.480109
 
-mode pgibbs: influence compute time (pgibbs): 9.8e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 9.7e-05 seconds
 influence of hasword_gmt_28 on topic_Department_28 is -0.0198703
 
-pgibbs sample time: 0.000546 seconds
+pgibbs sample time: 0.000544 seconds
 probability of topic_Person_43 is 0.358197
 
-mode pgibbs: influence compute time (pgibbs): 0.001077 seconds
+mode pgibbs: influence compute time (pgibbs): 0.001071 seconds
 influence of links_43_40 on topic_Person_43 is -0.0169971
 
-pgibbs sample time: 5.1e-05 seconds
+pgibbs sample time: 5.2e-05 seconds
 probability of topic_Department_25 is 0.649423
 
-mode pgibbs: influence compute time (pgibbs): 9.8e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 9.7e-05 seconds
 influence of hasword_jan_25 on topic_Department_25 is 0.14049
 
-pgibbs sample time: 6.6e-05 seconds
+pgibbs sample time: 7e-05 seconds
 probability of topic_ResearchProject_9 is 0.365006
 
 mode pgibbs: influence compute time (pgibbs): 0.000126 seconds
 influence of hasword_servic_9 on topic_ResearchProject_9 is -0.0964982
 
-pgibbs sample time: 5.2e-05 seconds
+pgibbs sample time: 5.1e-05 seconds
 probability of topic_Student_75 is 0.749624
 
-mode pgibbs: influence compute time (pgibbs): 0.0001 seconds
+mode pgibbs: influence compute time (pgibbs): 9.8e-05 seconds
 influence of hasword_student_75 on topic_Student_75 is 0.206383
 
 pgibbs sample time: 5e-05 seconds
 probability of topic_Faculty_98 is 0.505241
 
-mode pgibbs: influence compute time (pgibbs): 9.7e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 9.5e-05 seconds
 influence of hasword_nov_98 on topic_Faculty_98 is 0.00524095
 
 pgibbs sample time: 5e-05 seconds
@@ -464,19 +464,19 @@ probability of topic_Staff_11 is 0.280067
 mode pgibbs: influence compute time (pgibbs): 9.4e-05 seconds
 influence of hasword_dec_11 on topic_Staff_11 is -0.190759
 
-pgibbs sample time: 5e-05 seconds
+pgibbs sample time: 7.5e-05 seconds
 probability of topic_ResearchProject_85 is 0.490687
 
-mode pgibbs: influence compute time (pgibbs): 9.7e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 0.00016 seconds
 influence of hasword_mime_85 on topic_ResearchProject_85 is -0.0093107
 
-pgibbs sample time: 4.9e-05 seconds
+pgibbs sample time: 5e-05 seconds
 probability of topic_Course_48 is 0.519589
 
 mode pgibbs: influence compute time (pgibbs): 9.3e-05 seconds
 influence of hasword_apr_48 on topic_Course_48 is 0.0195692
 
-pgibbs sample time: 5e-05 seconds
+pgibbs sample time: 5.1e-05 seconds
 probability of topic_ResearchProject_81 is 0.435576
 
 mode pgibbs: influence compute time (pgibbs): 9.7e-05 seconds
@@ -488,16 +488,16 @@ probability of topic_Course_29 is 0.487672
 mode pgibbs: influence compute time (pgibbs): 9.5e-05 seconds
 influence of hasword_depart_29 on topic_Course_29 is -0.0123229
 
-pgibbs sample time: 5.2e-05 seconds
+pgibbs sample time: 5.1e-05 seconds
 probability of topic_Department_80 is 0.491353
 
-mode pgibbs: influence compute time (pgibbs): 9.8e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 9.7e-05 seconds
 influence of hasword_task_80 on topic_Department_80 is -0.00864549
 
-pgibbs sample time: 5e-05 seconds
+pgibbs sample time: 4.9e-05 seconds
 probability of topic_Person_99 is 0.626929
 
-mode pgibbs: influence compute time (pgibbs): 9.5e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 9.4e-05 seconds
 influence of hasword_read_99 on topic_Person_99 is 0.121483
 
 pgibbs sample time: 4.8e-05 seconds
@@ -512,16 +512,16 @@ probability of topic_Person_73 is 0.395858
 mode pgibbs: influence compute time (pgibbs): 0.00012 seconds
 influence of hasword_server_73 on topic_Person_73 is -0.0132596
 
-pgibbs sample time: 5.1e-05 seconds
+pgibbs sample time: 5e-05 seconds
 probability of topic_Department_97 is 0.336359
 
-mode pgibbs: influence compute time (pgibbs): 9.7e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 9.6e-05 seconds
 influence of hasword_link_97 on topic_Department_97 is -0.151861
 
-pgibbs sample time: 4.9e-05 seconds
+pgibbs sample time: 4.8e-05 seconds
 probability of topic_Person_92 is 0.476547
 
-mode pgibbs: influence compute time (pgibbs): 9.3e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 9.2e-05 seconds
 influence of hasword_back_92 on topic_Person_92 is -0.023419
 
 pgibbs sample time: 4.9e-05 seconds
@@ -536,7 +536,7 @@ probability of topic_Person_11 is 0.0568886
 mode pgibbs: influence compute time (pgibbs): 9.3e-05 seconds
 influence of hasword_dec_11 on topic_Person_11 is -0.152549
 
-pgibbs sample time: 0.000378 seconds
+pgibbs sample time: 0.000379 seconds
 probability of topic_Department_113 is 0.27985
 
 mode pgibbs: influence compute time (pgibbs): 0.000744 seconds
@@ -545,16 +545,16 @@ influence of links_51_21 on topic_Department_113 is 0.00027446
 pgibbs sample time: 0.000376 seconds
 probability of topic_Department_51 is 0.63044
 
-mode pgibbs: influence compute time (pgibbs): 0.000742 seconds
+mode pgibbs: influence compute time (pgibbs): 0.000741 seconds
 influence of links_51_21 on topic_Department_51 is -0.0121953
 
 pgibbs sample time: 5.1e-05 seconds
 probability of topic_Student_4 is 0.534022
 
-mode pgibbs: influence compute time (pgibbs): 9.5e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 9.4e-05 seconds
 influence of hasword_represent_4 on topic_Student_4 is 0.0339186
 
-pgibbs sample time: 0.000372 seconds
+pgibbs sample time: 0.000502 seconds
 probability of topic_Student_113 is 0.341652
 
 mode pgibbs: influence compute time (pgibbs): 0.000738 seconds
@@ -563,19 +563,19 @@ influence of links_51_21 on topic_Student_113 is 0.000345108
 pgibbs sample time: 5.1e-05 seconds
 probability of topic_Department_63 is 0.649423
 
-mode pgibbs: influence compute time (pgibbs): 9.8e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 9.6e-05 seconds
 influence of hasword_jan_63 on topic_Department_63 is 0.14049
 
 pgibbs sample time: 5.1e-05 seconds
 probability of topic_Faculty_77 is 0.465007
 
-mode pgibbs: influence compute time (pgibbs): 9.7e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 9.6e-05 seconds
 influence of hasword_statem_77 on topic_Faculty_77 is -0.0348803
 
 pgibbs sample time: 5e-05 seconds
 probability of topic_ResearchProject_24 is 0.602294
 
-mode pgibbs: influence compute time (pgibbs): 9.8e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 0.000104 seconds
 influence of hasword_research_24 on topic_ResearchProject_24 is 0.0994572
 
 pgibbs sample time: 5.2e-05 seconds
@@ -584,25 +584,25 @@ probability of topic_Department_8 is 0.477736
 mode pgibbs: influence compute time (pgibbs): 9.8e-05 seconds
 influence of hasword_implement_8 on topic_Department_8 is -0.0222352
 
-pgibbs sample time: 0.000252 seconds
+pgibbs sample time: 0.000291 seconds
 probability of topic_Staff_94 is 0.503786
 
 mode pgibbs: influence compute time (pgibbs): 0.000498 seconds
 influence of links_94_108 on topic_Staff_94 is -0.0128594
 
-pgibbs sample time: 5.4e-05 seconds
+pgibbs sample time: 5.1e-05 seconds
 probability of topic_Course_36 is 0.687328
 
 mode pgibbs: influence compute time (pgibbs): 9.5e-05 seconds
 influence of hasword_system_36 on topic_Course_36 is 0.169524
 
-pgibbs sample time: 5.1e-05 seconds
+pgibbs sample time: 5.2e-05 seconds
 probability of topic_Student_76 is 0.578996
 
-mode pgibbs: influence compute time (pgibbs): 9.8e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 9.7e-05 seconds
 influence of hasword_onlin_76 on topic_Student_76 is 0.077694
 
-pgibbs sample time: 5.1e-05 seconds
+pgibbs sample time: 5.2e-05 seconds
 probability of topic_Department_41 is 0.424289
 
 mode pgibbs: influence compute time (pgibbs): 9.8e-05 seconds
@@ -611,37 +611,37 @@ influence of hasword_interest_41 on topic_Department_41 is -0.0745653
 pgibbs sample time: 5.2e-05 seconds
 probability of topic_ResearchProject_6 is 0.442936
 
-mode pgibbs: influence compute time (pgibbs): 9.9e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 0.000102 seconds
 influence of hasword_date_6 on topic_ResearchProject_6 is -0.0565746
 
 pgibbs sample time: 4.9e-05 seconds
 probability of topic_Person_91 is 0.45713
 
-mode pgibbs: influence compute time (pgibbs): 9.4e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 9.3e-05 seconds
 influence of hasword_due_91 on topic_Person_91 is -0.0426625
 
 pgibbs sample time: 5e-05 seconds
 probability of topic_Faculty_82 is 0.471343
 
-mode pgibbs: influence compute time (pgibbs): 9.6e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 9.5e-05 seconds
 influence of hasword_kei_82 on topic_Faculty_82 is -0.0285952
 
 pgibbs sample time: 5e-05 seconds
 probability of topic_Student_50 is 0.603735
 
-mode pgibbs: influence compute time (pgibbs): 9.5e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 9.4e-05 seconds
 influence of hasword_art_50 on topic_Student_50 is 0.100776
 
 pgibbs sample time: 0.000229 seconds
 probability of topic_Department_124 is 0.515679
 
-mode pgibbs: influence compute time (pgibbs): 0.000447 seconds
+mode pgibbs: influence compute time (pgibbs): 0.000446 seconds
 influence of links_44_124 on topic_Department_124 is 0.0182351
 
 pgibbs sample time: 0.000227 seconds
 probability of topic_Department_44 is 0.359779
 
-mode pgibbs: influence compute time (pgibbs): 0.000443 seconds
+mode pgibbs: influence compute time (pgibbs): 0.000445 seconds
 influence of links_44_124 on topic_Department_44 is -0.0137297
 
 pgibbs sample time: 5.2e-05 seconds
@@ -653,37 +653,37 @@ influence of hasword_kei_82 on topic_Student_82 is 0.0618837
 pgibbs sample time: 0.000293 seconds
 probability of topic_Person_108 is 0.48687
 
-mode pgibbs: influence compute time (pgibbs): 0.000582 seconds
+mode pgibbs: influence compute time (pgibbs): 0.000579 seconds
 influence of links_94_108 on topic_Person_108 is 0.0151131
 
 pgibbs sample time: 5.1e-05 seconds
 probability of topic_Person_54 is 0.374065
 
-mode pgibbs: influence compute time (pgibbs): 9.6e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 9.5e-05 seconds
 influence of hasword_syllabu_54 on topic_Person_54 is -0.120617
 
 pgibbs sample time: 6.7e-05 seconds
 probability of topic_Department_49 is 0.49983
 
-mode pgibbs: influence compute time (pgibbs): 0.000128 seconds
+mode pgibbs: influence compute time (pgibbs): 0.000126 seconds
 influence of r3055 on topic_Department_49 is 0.249998
 
-pgibbs sample time: 5e-05 seconds
+pgibbs sample time: 4.9e-05 seconds
 probability of topic_Staff_56 is 0.505232
 
-mode pgibbs: influence compute time (pgibbs): 9.5e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 9.8e-05 seconds
 influence of hasword_includ_56 on topic_Staff_56 is 0.00523206
 
-pgibbs sample time: 5.2e-05 seconds
+pgibbs sample time: 5.1e-05 seconds
 probability of topic_Department_79 is 0.470447
 
-mode pgibbs: influence compute time (pgibbs): 9.8e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 9.6e-05 seconds
 influence of hasword_produc_79 on topic_Department_79 is -0.0294854
 
 pgibbs sample time: 6.6e-05 seconds
 probability of topic_Student_55 is 0.473561
 
-mode pgibbs: influence compute time (pgibbs): 0.000125 seconds
+mode pgibbs: influence compute time (pgibbs): 0.000123 seconds
 influence of r823 on topic_Student_55 is 0.249299
 
 pgibbs sample time: 5.1e-05 seconds
@@ -692,100 +692,100 @@ probability of topic_Course_81 is 0.419524
 mode pgibbs: influence compute time (pgibbs): 9.7e-05 seconds
 influence of hasword_server_81 on topic_Course_81 is -0.0790993
 
-pgibbs sample time: 0.0002 seconds
+pgibbs sample time: 0.000199 seconds
 probability of topic_Course_119 is 0.51303
 
-mode pgibbs: influence compute time (pgibbs): 0.000388 seconds
+mode pgibbs: influence compute time (pgibbs): 0.000386 seconds
 influence of links_34_119 on topic_Course_119 is 0.0150371
 
-pgibbs sample time: 0.000199 seconds
+pgibbs sample time: 0.000198 seconds
 probability of topic_Course_34 is 0.475569
 
-mode pgibbs: influence compute time (pgibbs): 0.000386 seconds
+mode pgibbs: influence compute time (pgibbs): 0.000385 seconds
 influence of links_34_119 on topic_Course_34 is -0.0147031
 
-pgibbs sample time: 5.1e-05 seconds
+pgibbs sample time: 5.2e-05 seconds
 probability of topic_Person_42 is 0.661866
 
-mode pgibbs: influence compute time (pgibbs): 9.6e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 9.5e-05 seconds
 influence of hasword_scienc_42 on topic_Person_42 is 0.150472
 
-pgibbs sample time: 5.2e-05 seconds
+pgibbs sample time: 5.1e-05 seconds
 probability of topic_Student_65 is 0.541661
 
-mode pgibbs: influence compute time (pgibbs): 9.8e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 9.7e-05 seconds
 influence of hasword_high_65 on topic_Student_65 is 0.0414707
 
-pgibbs sample time: 5.2e-05 seconds
+pgibbs sample time: 5.1e-05 seconds
 probability of topic_ResearchProject_97 is 0.397012
 
-mode pgibbs: influence compute time (pgibbs): 9.8e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 9.7e-05 seconds
 influence of hasword_link_97 on topic_ResearchProject_97 is -0.100093
 
 pgibbs sample time: 5.1e-05 seconds
 probability of topic_Course_95 is 0.475394
 
-mode pgibbs: influence compute time (pgibbs): 0.000101 seconds
+mode pgibbs: influence compute time (pgibbs): 9.6e-05 seconds
 influence of hasword_format_95 on topic_Course_95 is -0.024567
 
 pgibbs sample time: 5e-05 seconds
 probability of topic_Staff_97 is 0.462623
 
-mode pgibbs: influence compute time (pgibbs): 9.7e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 9.5e-05 seconds
 influence of hasword_link_97 on topic_Staff_97 is -0.0372401
 
 pgibbs sample time: 5.1e-05 seconds
 probability of topic_Student_13 is 0.540469
 
-mode pgibbs: influence compute time (pgibbs): 9.9e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 9.8e-05 seconds
 influence of hasword_develop_13 on topic_Student_13 is 0.0402947
 
 pgibbs sample time: 5e-05 seconds
 probability of topic_Faculty_23 is 0.478687
 
-mode pgibbs: influence compute time (pgibbs): 9.7e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 9.9e-05 seconds
 influence of hasword_texa_23 on topic_Faculty_23 is -0.0212873
 
-pgibbs sample time: 0.000578 seconds
+pgibbs sample time: 0.000575 seconds
 probability of topic_ResearchProject_43 is 0.314894
 
-mode pgibbs: influence compute time (pgibbs): 0.001148 seconds
+mode pgibbs: influence compute time (pgibbs): 0.001142 seconds
 influence of links_43_68 on topic_ResearchProject_43 is -0.011426
 
-pgibbs sample time: 0.000191 seconds
+pgibbs sample time: 0.000192 seconds
 probability of topic_Person_33 is 0.68996
 
-mode pgibbs: influence compute time (pgibbs): 0.000481 seconds
+mode pgibbs: influence compute time (pgibbs): 0.000371 seconds
 influence of links_33_19 on topic_Person_33 is -0.0093705
 
 pgibbs sample time: 5.1e-05 seconds
 probability of topic_Faculty_20 is 0.419826
 
-mode pgibbs: influence compute time (pgibbs): 9.6e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 9.5e-05 seconds
 influence of hasword_date_20 on topic_Faculty_20 is -0.0788126
 
-pgibbs sample time: 0.000296 seconds
+pgibbs sample time: 0.000297 seconds
 probability of topic_Faculty_71 is 0.435852
 
-mode pgibbs: influence compute time (pgibbs): 0.000583 seconds
+mode pgibbs: influence compute time (pgibbs): 0.000581 seconds
 influence of links_93_71 on topic_Faculty_71 is 0.0162604
 
-pgibbs sample time: 5.2e-05 seconds
+pgibbs sample time: 5.1e-05 seconds
 probability of topic_Student_29 is 0.538624
 
-mode pgibbs: influence compute time (pgibbs): 9.7e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 9.6e-05 seconds
 influence of hasword_depart_29 on topic_Student_29 is 0.0384728
 
-pgibbs sample time: 5e-05 seconds
+pgibbs sample time: 4.9e-05 seconds
 probability of topic_Course_23 is 0.497804
 
-mode pgibbs: influence compute time (pgibbs): 9.4e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 9.3e-05 seconds
 influence of hasword_texa_23 on topic_Course_23 is -0.00219608
 
-pgibbs sample time: 5.7e-05 seconds
+pgibbs sample time: 5.1e-05 seconds
 probability of topic_Staff_13 is 0.457572
 
-mode pgibbs: influence compute time (pgibbs): 0.00013 seconds
+mode pgibbs: influence compute time (pgibbs): 9.7e-05 seconds
 influence of hasword_develop_13 on topic_Staff_13 is -0.0422275
 
 pgibbs sample time: 5.1e-05 seconds
@@ -794,13 +794,13 @@ probability of topic_Department_36 is 0.371091
 mode pgibbs: influence compute time (pgibbs): 9.8e-05 seconds
 influence of hasword_system_36 on topic_Department_36 is -0.123202
 
-pgibbs sample time: 0.000373 seconds
+pgibbs sample time: 0.000371 seconds
 probability of topic_ResearchProject_18 is 0.410013
 
-mode pgibbs: influence compute time (pgibbs): 0.000733 seconds
+mode pgibbs: influence compute time (pgibbs): 0.000732 seconds
 influence of links_18_102 on topic_ResearchProject_18 is -0.0142756
 
-pgibbs sample time: 5e-05 seconds
+pgibbs sample time: 5.1e-05 seconds
 probability of topic_Course_5 is 0.415922
 
 mode pgibbs: influence compute time (pgibbs): 9.4e-05 seconds
@@ -809,67 +809,67 @@ influence of hasword_html_5 on topic_Course_5 is -0.0825073
 pgibbs sample time: 5.1e-05 seconds
 probability of topic_Student_63 is 0.524583
 
-mode pgibbs: influence compute time (pgibbs): 9.7e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 9.6e-05 seconds
 influence of hasword_jan_63 on topic_Student_63 is 0.0245443
 
 pgibbs sample time: 0.000191 seconds
 probability of topic_Staff_128 is 0.598915
 
-mode pgibbs: influence compute time (pgibbs): 0.000371 seconds
+mode pgibbs: influence compute time (pgibbs): 0.000369 seconds
 influence of rl on topic_Staff_128 is -0.148888
 
 pgibbs sample time: 5.2e-05 seconds
 probability of topic_ResearchProject_3 is 0.401107
 
-mode pgibbs: influence compute time (pgibbs): 9.9e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 9.8e-05 seconds
 influence of hasword_algorithm_3 on topic_ResearchProject_3 is -0.0963311
 
-pgibbs sample time: 5.1e-05 seconds
+pgibbs sample time: 5.2e-05 seconds
 probability of topic_Faculty_60 is 0.432194
 
-mode pgibbs: influence compute time (pgibbs): 9.7e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 9.6e-05 seconds
 influence of hasword_mime_60 on topic_Faculty_60 is -0.0669839
 
-pgibbs sample time: 5e-05 seconds
+pgibbs sample time: 4.9e-05 seconds
 probability of topic_Faculty_16 is 0.419826
 
 mode pgibbs: influence compute time (pgibbs): 9.5e-05 seconds
 influence of hasword_gmt_16 on topic_Faculty_16 is -0.0788126
 
-pgibbs sample time: 5e-05 seconds
+pgibbs sample time: 5.1e-05 seconds
 probability of topic_Faculty_57 is 0.490698
 
-mode pgibbs: influence compute time (pgibbs): 9.6e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 9.7e-05 seconds
 influence of hasword_separ_57 on topic_Faculty_57 is -0.00929991
 
-pgibbs sample time: 5.6e-05 seconds
+pgibbs sample time: 5.1e-05 seconds
 probability of topic_Department_58 is 0.649423
 
-mode pgibbs: influence compute time (pgibbs): 0.000149 seconds
+mode pgibbs: influence compute time (pgibbs): 9.4e-05 seconds
 influence of hasword_jan_58 on topic_Department_58 is 0.14049
 
 pgibbs sample time: 4.9e-05 seconds
 probability of topic_Staff_70 is 0.497347
 
-mode pgibbs: influence compute time (pgibbs): 9.3e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 9.2e-05 seconds
 influence of hasword_net_70 on topic_Staff_70 is -0.00265265
 
-pgibbs sample time: 4.9e-05 seconds
+pgibbs sample time: 5e-05 seconds
 probability of topic_Person_3 is 0.454429
 
-mode pgibbs: influence compute time (pgibbs): 9.5e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 9.4e-05 seconds
 influence of hasword_algorithm_3 on topic_Person_3 is -0.0453219
 
-pgibbs sample time: 0.000361 seconds
+pgibbs sample time: 0.000362 seconds
 probability of topic_Staff_102 is 0.485386
 
-mode pgibbs: influence compute time (pgibbs): 0.000712 seconds
+mode pgibbs: influence compute time (pgibbs): 0.000713 seconds
 influence of links_18_102 on topic_Staff_102 is 0.0168389
 
-pgibbs sample time: 0.000365 seconds
+pgibbs sample time: 0.000361 seconds
 probability of topic_Staff_20 is 0.434496
 
-mode pgibbs: influence compute time (pgibbs): 0.000713 seconds
+mode pgibbs: influence compute time (pgibbs): 0.000709 seconds
 influence of links_18_102 on topic_Staff_20 is -0.000462032
 
 pgibbs sample time: 6.6e-05 seconds
@@ -878,10 +878,10 @@ probability of topic_ResearchProject_31 is 0.498826
 mode pgibbs: influence compute time (pgibbs): 0.000124 seconds
 influence of hasword_effici_31 on topic_ResearchProject_31 is 0.003802
 
-pgibbs sample time: 0.0002 seconds
+pgibbs sample time: 0.000243 seconds
 probability of topic_Faculty_44 is 0.467003
 
-mode pgibbs: influence compute time (pgibbs): 0.000391 seconds
+mode pgibbs: influence compute time (pgibbs): 0.00039 seconds
 influence of links_44_124 on topic_Faculty_44 is -0.0136694
 
 pgibbs sample time: 5.2e-05 seconds
@@ -890,7 +890,7 @@ probability of topic_Department_50 is 0.476935
 mode pgibbs: influence compute time (pgibbs): 9.8e-05 seconds
 influence of hasword_art_50 on topic_Department_50 is -0.0230332
 
-pgibbs sample time: 6.4e-05 seconds
+pgibbs sample time: 6.5e-05 seconds
 probability of topic_Staff_73 is 0.456252
 
 mode pgibbs: influence compute time (pgibbs): 0.000122 seconds
@@ -899,106 +899,106 @@ influence of hasword_server_73 on topic_Staff_73 is -0.0675028
 pgibbs sample time: 0.000375 seconds
 probability of topic_Department_102 is 0.430624
 
-mode pgibbs: influence compute time (pgibbs): 0.000788 seconds
+mode pgibbs: influence compute time (pgibbs): 0.000737 seconds
 influence of hasword_date_20 on topic_Department_102 is 0.000543528
 
-pgibbs sample time: 4.9e-05 seconds
+pgibbs sample time: 5e-05 seconds
 probability of topic_Staff_25 is 0.576178
 
-mode pgibbs: influence compute time (pgibbs): 9.3e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 9.2e-05 seconds
 influence of hasword_jan_25 on topic_Staff_25 is 0.0750113
 
 pgibbs sample time: 5.2e-05 seconds
 probability of topic_ResearchProject_2 is 0.437523
 
-mode pgibbs: influence compute time (pgibbs): 9.9e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 9.8e-05 seconds
 influence of hasword_phone_2 on topic_ResearchProject_2 is -0.0618343
 
-pgibbs sample time: 0.000375 seconds
+pgibbs sample time: 0.000378 seconds
 probability of topic_Department_18 is 0.469272
 
-mode pgibbs: influence compute time (pgibbs): 0.000744 seconds
+mode pgibbs: influence compute time (pgibbs): 0.000739 seconds
 influence of hasword_date_20 on topic_Department_18 is -1.51166e-05
 
 pgibbs sample time: 5.2e-05 seconds
 probability of topic_ResearchProject_64 is 0.470243
 
-mode pgibbs: influence compute time (pgibbs): 9.9e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 9.8e-05 seconds
 influence of hasword_laboratori_64 on topic_ResearchProject_64 is -0.029688
 
-pgibbs sample time: 5e-05 seconds
+pgibbs sample time: 4.9e-05 seconds
 probability of topic_Person_66 is 0.486242
 
 mode pgibbs: influence compute time (pgibbs): 9.3e-05 seconds
 influence of hasword_text_66 on topic_Person_66 is -0.0137515
 
-pgibbs sample time: 4.9e-05 seconds
+pgibbs sample time: 5e-05 seconds
 probability of topic_Course_38 is 0.409805
 
-mode pgibbs: influence compute time (pgibbs): 9.3e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 9.2e-05 seconds
 influence of hasword_data_38 on topic_Course_38 is -0.0882542
 
-pgibbs sample time: 5e-05 seconds
+pgibbs sample time: 4.9e-05 seconds
 probability of topic_Faculty_53 is 0.419826
 
-mode pgibbs: influence compute time (pgibbs): 9.6e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 9.5e-05 seconds
 influence of hasword_date_53 on topic_Faculty_53 is -0.0788126
 
-pgibbs sample time: 0.000195 seconds
+pgibbs sample time: 0.000194 seconds
 probability of topic_ResearchProject_78 is 0.28423
 
-mode pgibbs: influence compute time (pgibbs): 0.000378 seconds
+mode pgibbs: influence compute time (pgibbs): 0.000376 seconds
 influence of r525 on topic_ResearchProject_78 is -0.00522653
 
-pgibbs sample time: 6.4e-05 seconds
+pgibbs sample time: 6.5e-05 seconds
 probability of topic_Staff_44 is 0.447579
 
-mode pgibbs: influence compute time (pgibbs): 0.000121 seconds
+mode pgibbs: influence compute time (pgibbs): 0.00012 seconds
 influence of hasword_formal_44 on topic_Staff_44 is -0.00931207
 
-pgibbs sample time: 0.000223 seconds
+pgibbs sample time: 0.000189 seconds
 probability of topic_Staff_12 is 0.505254
 
-mode pgibbs: influence compute time (pgibbs): 0.000371 seconds
+mode pgibbs: influence compute time (pgibbs): 0.000375 seconds
 influence of links_47_12 on topic_Staff_12 is 0.0175498
 
-pgibbs sample time: 0.00019 seconds
+pgibbs sample time: 0.000189 seconds
 probability of topic_Staff_47 is 0.384983
 
-mode pgibbs: influence compute time (pgibbs): 0.000373 seconds
+mode pgibbs: influence compute time (pgibbs): 0.00037 seconds
 influence of links_47_12 on topic_Staff_47 is -0.0138193
 
 pgibbs sample time: 5.1e-05 seconds
 probability of topic_Student_38 is 0.3807
 
-mode pgibbs: influence compute time (pgibbs): 9.6e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 9.5e-05 seconds
 influence of hasword_data_38 on topic_Student_38 is -0.114786
 
 pgibbs sample time: 5e-05 seconds
 probability of topic_Person_86 is 0.503183
 
-mode pgibbs: influence compute time (pgibbs): 9.9e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 9.4e-05 seconds
 influence of hasword_version_86 on topic_Person_86 is 0.00318255
 
 pgibbs sample time: 5.1e-05 seconds
 probability of topic_Student_66 is 0.48777
 
-mode pgibbs: influence compute time (pgibbs): 9.7e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 9.6e-05 seconds
 influence of hasword_text_66 on topic_Student_66 is -0.0122252
 
 pgibbs sample time: 5.1e-05 seconds
 probability of topic_Faculty_70 is 0.423657
 
-mode pgibbs: influence compute time (pgibbs): 9.7e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 9.6e-05 seconds
 influence of hasword_net_70 on topic_Faculty_70 is -0.0751681
 
-pgibbs sample time: 4.8e-05 seconds
+pgibbs sample time: 4.9e-05 seconds
 probability of topic_Staff_80 is 0.470664
 
-mode pgibbs: influence compute time (pgibbs): 9.2e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 9.1e-05 seconds
 influence of hasword_task_80 on topic_Staff_80 is -0.0292697
 
-pgibbs sample time: 5.2e-05 seconds
+pgibbs sample time: 5.1e-05 seconds
 probability of topic_Student_22 is 0.43523
 
 mode pgibbs: influence compute time (pgibbs): 9.7e-05 seconds
@@ -1007,22 +1007,22 @@ influence of hasword_gener_22 on topic_Student_22 is -0.0640533
 pgibbs sample time: 5e-05 seconds
 probability of topic_Faculty_17 is 0.446163
 
-mode pgibbs: influence compute time (pgibbs): 9.7e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 9.8e-05 seconds
 influence of hasword_materi_17 on topic_Faculty_17 is -0.0534266
 
-pgibbs sample time: 0.00033 seconds
+pgibbs sample time: 0.000335 seconds
 probability of topic_Course_18 is 0.399705
 
-mode pgibbs: influence compute time (pgibbs): 0.000653 seconds
+mode pgibbs: influence compute time (pgibbs): 0.000647 seconds
 influence of links_20_102 on topic_Course_18 is -0.000383157
 
-pgibbs sample time: 0.000292 seconds
+pgibbs sample time: 0.000291 seconds
 probability of topic_Course_94 is 0.42382
 
-mode pgibbs: influence compute time (pgibbs): 0.000577 seconds
+mode pgibbs: influence compute time (pgibbs): 0.000575 seconds
 influence of links_94_108 on topic_Course_94 is -0.012443
 
-pgibbs sample time: 5.1e-05 seconds
+pgibbs sample time: 5e-05 seconds
 probability of topic_Staff_48 is 0.459677
 
 mode pgibbs: influence compute time (pgibbs): 9.4e-05 seconds
@@ -1031,91 +1031,91 @@ influence of hasword_apr_48 on topic_Staff_48 is -0.0401503
 pgibbs sample time: 5.2e-05 seconds
 probability of topic_Faculty_54 is 0.486159
 
-mode pgibbs: influence compute time (pgibbs): 9.8e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 9.7e-05 seconds
 influence of hasword_syllabu_54 on topic_Faculty_54 is -0.013834
 
 pgibbs sample time: 5e-05 seconds
 probability of topic_Department_16 is 0.480109
 
-mode pgibbs: influence compute time (pgibbs): 9.6e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 9.4e-05 seconds
 influence of hasword_gmt_16 on topic_Department_16 is -0.0198703
 
-pgibbs sample time: 0.000198 seconds
+pgibbs sample time: 0.000199 seconds
 probability of topic_ResearchProject_119 is 0.506537
 
-mode pgibbs: influence compute time (pgibbs): 0.000386 seconds
+mode pgibbs: influence compute time (pgibbs): 0.000387 seconds
 influence of links_34_119 on topic_ResearchProject_119 is 0.013305
 
-pgibbs sample time: 5.1e-05 seconds
+pgibbs sample time: 5e-05 seconds
 probability of topic_Staff_2 is 0.729589
 
-mode pgibbs: influence compute time (pgibbs): 9.5e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 9.4e-05 seconds
 influence of hasword_phone_2 on topic_Staff_2 is 0.196263
 
-pgibbs sample time: 5.2e-05 seconds
+pgibbs sample time: 5.1e-05 seconds
 probability of topic_Faculty_75 is 0.4273
 
-mode pgibbs: influence compute time (pgibbs): 0.000103 seconds
+mode pgibbs: influence compute time (pgibbs): 9.8e-05 seconds
 influence of hasword_student_75 on topic_Faculty_75 is -0.071686
 
 pgibbs sample time: 0.000196 seconds
 probability of topic_Faculty_128 is 0.415572
 
-mode pgibbs: influence compute time (pgibbs): 0.000383 seconds
+mode pgibbs: influence compute time (pgibbs): 0.000381 seconds
 influence of rl on topic_Faculty_128 is -0.143515
 
 pgibbs sample time: 5e-05 seconds
 probability of topic_Staff_16 is 0.447858
 
-mode pgibbs: influence compute time (pgibbs): 0.000154 seconds
+mode pgibbs: influence compute time (pgibbs): 9.3e-05 seconds
 influence of hasword_gmt_16 on topic_Staff_16 is -0.0517685
 
-pgibbs sample time: 6.8e-05 seconds
+pgibbs sample time: 6.7e-05 seconds
 probability of topic_ResearchProject_55 is 0.627797
 
-mode pgibbs: influence compute time (pgibbs): 0.000128 seconds
+mode pgibbs: influence compute time (pgibbs): 0.000127 seconds
 influence of hasword_modifi_55 on topic_ResearchProject_55 is -0.0242954
 
 pgibbs sample time: 5e-05 seconds
 probability of topic_Person_53 is 0.498179
 
-mode pgibbs: influence compute time (pgibbs): 9.4e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 9.3e-05 seconds
 influence of hasword_date_53 on topic_Person_53 is -0.00182059
 
 pgibbs sample time: 5.1e-05 seconds
 probability of topic_Staff_69 is 0.432401
 
-mode pgibbs: influence compute time (pgibbs): 9.5e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 9.6e-05 seconds
 influence of hasword_server_69 on topic_Staff_69 is -0.0667845
 
 pgibbs sample time: 5.1e-05 seconds
 probability of topic_ResearchProject_75 is 0.370876
 
-mode pgibbs: influence compute time (pgibbs): 9.8e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 9.7e-05 seconds
 influence of hasword_student_75 on topic_ResearchProject_75 is -0.123388
 
 pgibbs sample time: 5e-05 seconds
 probability of topic_Student_58 is 0.524583
 
-mode pgibbs: influence compute time (pgibbs): 9.7e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 9.6e-05 seconds
 influence of hasword_jan_58 on topic_Student_58 is 0.0245443
 
 pgibbs sample time: 0.0002 seconds
 probability of topic_Student_34 is 0.424151
 
-mode pgibbs: influence compute time (pgibbs): 0.000391 seconds
+mode pgibbs: influence compute time (pgibbs): 0.00039 seconds
 influence of links_34_119 on topic_Student_34 is -0.0148276
 
-pgibbs sample time: 5.3e-05 seconds
+pgibbs sample time: 5.2e-05 seconds
 probability of topic_Department_2 is 0.492523
 
-mode pgibbs: influence compute time (pgibbs): 0.0001 seconds
+mode pgibbs: influence compute time (pgibbs): 9.9e-05 seconds
 influence of hasword_phone_2 on topic_Department_2 is -0.00747604
 
 pgibbs sample time: 5e-05 seconds
 probability of topic_Faculty_1 is 0.517145
 
-mode pgibbs: influence compute time (pgibbs): 9.5e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 9.4e-05 seconds
 influence of hasword_model_1 on topic_Faculty_1 is 0.0171316
 
 pgibbs sample time: 5e-05 seconds
@@ -1124,34 +1124,34 @@ probability of topic_Staff_36 is 0.517015
 mode pgibbs: influence compute time (pgibbs): 9.4e-05 seconds
 influence of hasword_system_36 on topic_Staff_36 is 0.0170017
 
-pgibbs sample time: 0.000356 seconds
+pgibbs sample time: 0.000357 seconds
 probability of topic_Staff_51 is 0.547759
 
-mode pgibbs: influence compute time (pgibbs): 0.0007 seconds
+mode pgibbs: influence compute time (pgibbs): 0.000702 seconds
 influence of links_51_113 on topic_Staff_51 is -0.0148787
 
 pgibbs sample time: 0.000373 seconds
 probability of topic_Student_21 is 0.477699
 
-mode pgibbs: influence compute time (pgibbs): 0.00073 seconds
+mode pgibbs: influence compute time (pgibbs): 0.000731 seconds
 influence of links_51_21 on topic_Student_21 is 0.0142616
 
-pgibbs sample time: 4.9e-05 seconds
+pgibbs sample time: 5e-05 seconds
 probability of topic_Course_92 is 0.344213
 
-mode pgibbs: influence compute time (pgibbs): 9.5e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 9.4e-05 seconds
 influence of hasword_back_92 on topic_Course_92 is -0.145646
 
-pgibbs sample time: 5.1e-05 seconds
+pgibbs sample time: 5.2e-05 seconds
 probability of topic_Department_48 is 0.405568
 
 mode pgibbs: influence compute time (pgibbs): 9.7e-05 seconds
 influence of hasword_apr_48 on topic_Department_48 is -0.0922034
 
-pgibbs sample time: 0.000171 seconds
+pgibbs sample time: 0.00017 seconds
 probability of topic_Department_39 is 0.385255
 
-mode pgibbs: influence compute time (pgibbs): 0.000336 seconds
+mode pgibbs: influence compute time (pgibbs): 0.000335 seconds
 influence of links_61_39 on topic_Department_39 is 0.0137985
 
 pgibbs sample time: 5.1e-05 seconds
@@ -1160,13 +1160,13 @@ probability of topic_Faculty_95 is 0.586438
 mode pgibbs: influence compute time (pgibbs): 9.7e-05 seconds
 influence of hasword_format_95 on topic_Faculty_95 is 0.0847308
 
-pgibbs sample time: 0.000371 seconds
+pgibbs sample time: 0.000372 seconds
 probability of topic_ResearchProject_102 is 0.511739
 
-mode pgibbs: influence compute time (pgibbs): 0.000847 seconds
+mode pgibbs: influence compute time (pgibbs): 0.000733 seconds
 influence of links_18_102 on topic_ResearchProject_102 is 0.0168692
 
-pgibbs sample time: 5.2e-05 seconds
+pgibbs sample time: 5.3e-05 seconds
 probability of topic_Student_64 is 0.469789
 
 mode pgibbs: influence compute time (pgibbs): 9.9e-05 seconds
@@ -1178,34 +1178,34 @@ probability of topic_Course_55 is 0.366909
 mode pgibbs: influence compute time (pgibbs): 0.000119 seconds
 influence of hasword_softwar_55 on topic_Course_55 is -0.0696945
 
-pgibbs sample time: 0.000595 seconds
+pgibbs sample time: 0.000593 seconds
 probability of topic_Student_40 is 0.618761
 
-mode pgibbs: influence compute time (pgibbs): 0.001164 seconds
+mode pgibbs: influence compute time (pgibbs): 0.001163 seconds
 influence of links_43_40 on topic_Student_40 is 0.015249
 
 pgibbs sample time: 5e-05 seconds
 probability of topic_Course_66 is 0.419663
 
-mode pgibbs: influence compute time (pgibbs): 9.4e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 9.3e-05 seconds
 influence of hasword_text_66 on topic_Course_66 is -0.0789676
 
-pgibbs sample time: 5.2e-05 seconds
+pgibbs sample time: 5.1e-05 seconds
 probability of topic_Department_66 is 0.477106
 
 mode pgibbs: influence compute time (pgibbs): 9.7e-05 seconds
 influence of hasword_text_66 on topic_Department_66 is -0.0228628
 
-pgibbs sample time: 5e-05 seconds
+pgibbs sample time: 4.9e-05 seconds
 probability of topic_Person_81 is 0.486143
 
-mode pgibbs: influence compute time (pgibbs): 9.5e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 9.4e-05 seconds
 influence of hasword_server_81 on topic_Person_81 is -0.0138496
 
 pgibbs sample time: 4.9e-05 seconds
 probability of topic_Person_8 is 0.54974
 
-mode pgibbs: influence compute time (pgibbs): 9.5e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 9.4e-05 seconds
 influence of hasword_implement_8 on topic_Person_8 is 0.0494163
 
 pgibbs sample time: 0.0003 seconds
@@ -1214,22 +1214,22 @@ probability of topic_ResearchProject_108 is 0.438811
 mode pgibbs: influence compute time (pgibbs): 0.000586 seconds
 influence of hasword_text_94 on topic_ResearchProject_108 is 0.00340327
 
-pgibbs sample time: 0.000568 seconds
+pgibbs sample time: 0.00057 seconds
 probability of topic_Department_43 is 0.305172
 
-mode pgibbs: influence compute time (pgibbs): 0.001224 seconds
+mode pgibbs: influence compute time (pgibbs): 0.001125 seconds
 influence of links_43_40 on topic_Department_43 is -0.015458
 
 pgibbs sample time: 5e-05 seconds
 probability of topic_Course_8 is 0.615754
 
-mode pgibbs: influence compute time (pgibbs): 9.6e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 9.5e-05 seconds
 influence of hasword_implement_8 on topic_Course_8 is 0.111633
 
-pgibbs sample time: 0.000378 seconds
+pgibbs sample time: 0.000379 seconds
 probability of topic_Department_21 is 0.458021
 
-mode pgibbs: influence compute time (pgibbs): 0.000743 seconds
+mode pgibbs: influence compute time (pgibbs): 0.000744 seconds
 influence of links_51_21 on topic_Department_21 is 0.010579
 
 pgibbs sample time: 5e-05 seconds
@@ -1238,19 +1238,19 @@ probability of topic_Course_97 is 0.593732
 mode pgibbs: influence compute time (pgibbs): 9.3e-05 seconds
 influence of hasword_link_97 on topic_Course_97 is 0.0915526
 
-pgibbs sample time: 0.000223 seconds
+pgibbs sample time: 0.000221 seconds
 probability of topic_Course_26 is 0.530798
 
-mode pgibbs: influence compute time (pgibbs): 0.000464 seconds
+mode pgibbs: influence compute time (pgibbs): 0.000463 seconds
 influence of rl on topic_Course_26 is -0.0792101
 
-pgibbs sample time: 0.000216 seconds
+pgibbs sample time: 0.000215 seconds
 probability of topic_Person_26 is 0.601098
 
-mode pgibbs: influence compute time (pgibbs): 0.000419 seconds
+mode pgibbs: influence compute time (pgibbs): 0.00042 seconds
 influence of rl on topic_Person_26 is -0.144778
 
-pgibbs sample time: 0.000216 seconds
+pgibbs sample time: 0.000214 seconds
 probability of topic_Person_89 is 0.412911
 
 mode pgibbs: influence compute time (pgibbs): 0.000419 seconds
@@ -1259,10 +1259,10 @@ influence of rl on topic_Person_89 is 0.149634
 pgibbs sample time: 5.1e-05 seconds
 probability of topic_ResearchProject_82 is 0.478567
 
-mode pgibbs: influence compute time (pgibbs): 9.7e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 9.5e-05 seconds
 influence of hasword_kei_82 on topic_ResearchProject_82 is -0.0214073
 
-pgibbs sample time: 0.000298 seconds
+pgibbs sample time: 0.000299 seconds
 probability of topic_ResearchProject_94 is 0.441141
 
 mode pgibbs: influence compute time (pgibbs): 0.000593 seconds
@@ -1271,19 +1271,19 @@ influence of hasword_text_94 on topic_ResearchProject_94 is -0.0618795
 pgibbs sample time: 0.000233 seconds
 probability of topic_Department_89 is 0.668143
 
-mode pgibbs: influence compute time (pgibbs): 0.000489 seconds
+mode pgibbs: influence compute time (pgibbs): 0.000486 seconds
 influence of rl on topic_Department_89 is 0.137314
 
 pgibbs sample time: 5.1e-05 seconds
 probability of topic_Faculty_65 is 0.449955
 
-mode pgibbs: influence compute time (pgibbs): 9.6e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 9.5e-05 seconds
 influence of hasword_high_65 on topic_Faculty_65 is -0.0497152
 
-pgibbs sample time: 0.000589 seconds
+pgibbs sample time: 0.000588 seconds
 probability of topic_Student_43 is 0.438451
 
-mode pgibbs: influence compute time (pgibbs): 0.001164 seconds
+mode pgibbs: influence compute time (pgibbs): 0.001161 seconds
 influence of links_43_40 on topic_Student_43 is -0.0174551
 
 pgibbs sample time: 5.1e-05 seconds
@@ -1292,13 +1292,13 @@ probability of topic_Department_27 is 0.649423
 mode pgibbs: influence compute time (pgibbs): 9.6e-05 seconds
 influence of hasword_jan_27 on topic_Department_27 is 0.14049
 
-pgibbs sample time: 0.000101 seconds
+pgibbs sample time: 6.4e-05 seconds
 probability of topic_Student_9 is 0.425073
 
-mode pgibbs: influence compute time (pgibbs): 0.000136 seconds
+mode pgibbs: influence compute time (pgibbs): 0.000124 seconds
 influence of hasword_facil_9 on topic_Student_9 is -0.0559471
 
-pgibbs sample time: 4.9e-05 seconds
+pgibbs sample time: 4.8e-05 seconds
 probability of topic_Person_58 is 0.505972
 
 mode pgibbs: influence compute time (pgibbs): 9.3e-05 seconds
@@ -1307,61 +1307,61 @@ influence of hasword_jan_58 on topic_Person_58 is 0.00597113
 pgibbs sample time: 5.1e-05 seconds
 probability of topic_Staff_15 is 0.392841
 
-mode pgibbs: influence compute time (pgibbs): 9.7e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 9.6e-05 seconds
 influence of hasword_modifi_15 on topic_Staff_15 is -0.103895
 
-pgibbs sample time: 4.9e-05 seconds
+pgibbs sample time: 4.8e-05 seconds
 probability of topic_Course_16 is 0.425378
 
-mode pgibbs: influence compute time (pgibbs): 9.3e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 9.2e-05 seconds
 influence of hasword_gmt_16 on topic_Course_16 is -0.0735251
 
-pgibbs sample time: 5e-05 seconds
+pgibbs sample time: 5.1e-05 seconds
 probability of topic_Faculty_80 is 0.45178
 
-mode pgibbs: influence compute time (pgibbs): 9.6e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 9.5e-05 seconds
 influence of hasword_task_80 on topic_Faculty_80 is -0.0479253
 
-pgibbs sample time: 5.1e-05 seconds
+pgibbs sample time: 5e-05 seconds
 probability of topic_Person_76 is 0.653984
 
-mode pgibbs: influence compute time (pgibbs): 9.5e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 9.6e-05 seconds
 influence of hasword_onlin_76 on topic_Person_76 is 0.144196
 
-pgibbs sample time: 4.8e-05 seconds
+pgibbs sample time: 4.9e-05 seconds
 probability of topic_Person_6 is 0.498179
 
 mode pgibbs: influence compute time (pgibbs): 9.2e-05 seconds
 influence of hasword_date_6 on topic_Person_6 is -0.00182059
 
-pgibbs sample time: 0.000189 seconds
+pgibbs sample time: 0.000253 seconds
 probability of topic_Course_33 is 0.558595
 
-mode pgibbs: influence compute time (pgibbs): 0.000367 seconds
+mode pgibbs: influence compute time (pgibbs): 0.000366 seconds
 influence of links_33_19 on topic_Course_33 is -0.0194384
 
-pgibbs sample time: 5e-05 seconds
+pgibbs sample time: 4.9e-05 seconds
 probability of topic_Person_2 is 0.620991
 
-mode pgibbs: influence compute time (pgibbs): 9.3e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 9.2e-05 seconds
 influence of hasword_phone_2 on topic_Person_2 is 0.11628
 
-pgibbs sample time: 0.000548 seconds
+pgibbs sample time: 0.000543 seconds
 probability of topic_Person_68 is 0.504302
 
 mode pgibbs: influence compute time (pgibbs): 0.001074 seconds
 influence of links_43_40 on topic_Person_68 is 0.00047448
 
-pgibbs sample time: 0.000189 seconds
+pgibbs sample time: 0.000188 seconds
 probability of topic_Course_61 is 0.330837
 
-mode pgibbs: influence compute time (pgibbs): 0.000368 seconds
+mode pgibbs: influence compute time (pgibbs): 0.000367 seconds
 influence of links_61_39 on topic_Course_61 is -0.0167325
 
-pgibbs sample time: 0.000203 seconds
+pgibbs sample time: 0.000202 seconds
 probability of topic_ResearchProject_39 is 0.579445
 
-mode pgibbs: influence compute time (pgibbs): 0.000396 seconds
+mode pgibbs: influence compute time (pgibbs): 0.000464 seconds
 influence of links_61_39 on topic_ResearchProject_39 is 0.00884488
 
 pgibbs sample time: 4.9e-05 seconds
@@ -1370,7 +1370,7 @@ probability of topic_Student_1 is 0.468158
 mode pgibbs: influence compute time (pgibbs): 9.3e-05 seconds
 influence of hasword_model_1 on topic_Student_1 is -0.031757
 
-pgibbs sample time: 5e-05 seconds
+pgibbs sample time: 5.1e-05 seconds
 probability of topic_Faculty_50 is 0.518346
 
 mode pgibbs: influence compute time (pgibbs): 9.6e-05 seconds
@@ -1379,13 +1379,13 @@ influence of hasword_art_50 on topic_Faculty_50 is 0.0183294
 pgibbs sample time: 0.000171 seconds
 probability of topic_Department_61 is 0.489246
 
-mode pgibbs: influence compute time (pgibbs): 0.000335 seconds
+mode pgibbs: influence compute time (pgibbs): 0.000343 seconds
 influence of links_61_39 on topic_Department_61 is -0.0111316
 
-pgibbs sample time: 0.000225 seconds
+pgibbs sample time: 0.000226 seconds
 probability of topic_Student_44 is 0.484869
 
-mode pgibbs: influence compute time (pgibbs): 0.00044 seconds
+mode pgibbs: influence compute time (pgibbs): 0.000439 seconds
 influence of links_44_124 on topic_Student_44 is -0.01484
 
 pgibbs sample time: 5.2e-05 seconds
@@ -1394,49 +1394,49 @@ probability of topic_Department_29 is 0.692524
 mode pgibbs: influence compute time (pgibbs): 9.9e-05 seconds
 influence of hasword_depart_29 on topic_Department_29 is 0.173161
 
-pgibbs sample time: 5e-05 seconds
+pgibbs sample time: 5.1e-05 seconds
 probability of topic_Course_50 is 0.427222
 
-mode pgibbs: influence compute time (pgibbs): 9.6e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 9.5e-05 seconds
 influence of hasword_art_50 on topic_Course_50 is -0.0717608
 
-pgibbs sample time: 4.9e-05 seconds
+pgibbs sample time: 5e-05 seconds
 probability of topic_Course_28 is 0.425378
 
-mode pgibbs: influence compute time (pgibbs): 9.4e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 9.3e-05 seconds
 influence of hasword_gmt_28 on topic_Course_28 is -0.0735251
 
-pgibbs sample time: 0.000357 seconds
+pgibbs sample time: 0.000358 seconds
 probability of topic_Staff_21 is 0.509554
 
-mode pgibbs: influence compute time (pgibbs): 0.000734 seconds
+mode pgibbs: influence compute time (pgibbs): 0.000702 seconds
 influence of links_51_113 on topic_Staff_21 is 0.000415226
 
-pgibbs sample time: 5.3e-05 seconds
+pgibbs sample time: 5.2e-05 seconds
 probability of topic_ResearchProject_14 is 0.510441
 
-mode pgibbs: influence compute time (pgibbs): 9.9e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 9.8e-05 seconds
 influence of hasword_scienc_14 on topic_ResearchProject_14 is 0.0104382
 
-pgibbs sample time: 5.1e-05 seconds
+pgibbs sample time: 5.4e-05 seconds
 probability of topic_Staff_74 is 0.432401
 
-mode pgibbs: influence compute time (pgibbs): 9.6e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 9.7e-05 seconds
 influence of hasword_server_74 on topic_Staff_74 is -0.0667845
 
 pgibbs sample time: 5e-05 seconds
 probability of topic_Faculty_5 is 0.387388
 
-mode pgibbs: influence compute time (pgibbs): 9.6e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 9.5e-05 seconds
 influence of hasword_html_5 on topic_Faculty_5 is -0.10882
 
 pgibbs sample time: 5.1e-05 seconds
 probability of topic_Department_15 is 0.39707
 
-mode pgibbs: influence compute time (pgibbs): 9.8e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 9.7e-05 seconds
 influence of hasword_modifi_15 on topic_Department_15 is -0.100039
 
-pgibbs sample time: 5e-05 seconds
+pgibbs sample time: 5.1e-05 seconds
 probability of topic_Faculty_58 is 0.489816
 
 mode pgibbs: influence compute time (pgibbs): 9.6e-05 seconds
@@ -1445,43 +1445,43 @@ influence of hasword_jan_58 on topic_Faculty_58 is -0.0101812
 pgibbs sample time: 5.1e-05 seconds
 probability of topic_Faculty_41 is 0.694037
 
-mode pgibbs: influence compute time (pgibbs): 9.8e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 9.7e-05 seconds
 influence of hasword_interest_41 on topic_Faculty_41 is 0.174203
 
-pgibbs sample time: 0.000299 seconds
+pgibbs sample time: 0.000377 seconds
 probability of topic_Student_94 is 0.488427
 
-mode pgibbs: influence compute time (pgibbs): 0.000584 seconds
+mode pgibbs: influence compute time (pgibbs): 0.000585 seconds
 influence of hasword_text_94 on topic_Student_94 is -0.0122642
 
 pgibbs sample time: 0.000192 seconds
 probability of topic_Course_78 is 0.56683
 
-mode pgibbs: influence compute time (pgibbs): 0.000374 seconds
+mode pgibbs: influence compute time (pgibbs): 0.000373 seconds
 influence of links_78_90 on topic_Course_78 is -0.0111658
 
 pgibbs sample time: 0.000218 seconds
 probability of topic_Course_12 is 0.621417
 
-mode pgibbs: influence compute time (pgibbs): 0.00043 seconds
+mode pgibbs: influence compute time (pgibbs): 0.000428 seconds
 influence of links_47_12 on topic_Course_12 is 0.00667979
 
 pgibbs sample time: 0.000221 seconds
 probability of topic_Course_89 is 0.694736
 
-mode pgibbs: influence compute time (pgibbs): 0.000465 seconds
+mode pgibbs: influence compute time (pgibbs): 0.000464 seconds
 influence of rl on topic_Course_89 is 0.114447
 
-pgibbs sample time: 5.4e-05 seconds
+pgibbs sample time: 5.3e-05 seconds
 probability of topic_Student_69 is 0.487579
 
-mode pgibbs: influence compute time (pgibbs): 0.000101 seconds
+mode pgibbs: influence compute time (pgibbs): 0.0001 seconds
 influence of hasword_server_69 on topic_Student_69 is -0.0124161
 
 pgibbs sample time: 6.6e-05 seconds
 probability of topic_Faculty_31 is 0.556957
 
-mode pgibbs: influence compute time (pgibbs): 0.000126 seconds
+mode pgibbs: influence compute time (pgibbs): 0.000124 seconds
 influence of hasword_effici_31 on topic_Faculty_31 is 0.00894817
 
 pgibbs sample time: 5e-05 seconds
@@ -1490,7 +1490,7 @@ probability of topic_Course_17 is 0.75994
 mode pgibbs: influence compute time (pgibbs): 9.5e-05 seconds
 influence of hasword_materi_17 on topic_Course_17 is 0.210854
 
-pgibbs sample time: 6.5e-05 seconds
+pgibbs sample time: 6.4e-05 seconds
 probability of topic_Department_73 is 0.407934
 
 mode pgibbs: influence compute time (pgibbs): 0.000123 seconds
@@ -1502,28 +1502,28 @@ probability of topic_ResearchProject_46 is 0.435427
 mode pgibbs: influence compute time (pgibbs): 0.000508 seconds
 influence of links_59_46 on topic_ResearchProject_46 is 0.014334
 
-pgibbs sample time: 5.2e-05 seconds
+pgibbs sample time: 5.3e-05 seconds
 probability of topic_Department_7 is 0.480109
 
-mode pgibbs: influence compute time (pgibbs): 9.9e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 0.000103 seconds
 influence of hasword_date_7 on topic_Department_7 is -0.0198703
 
-pgibbs sample time: 5e-05 seconds
+pgibbs sample time: 5.1e-05 seconds
 probability of topic_Faculty_30 is 0.519036
 
-mode pgibbs: influence compute time (pgibbs): 9.7e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 9.6e-05 seconds
 influence of hasword_tree_30 on topic_Faculty_30 is 0.0190176
 
-pgibbs sample time: 5.1e-05 seconds
+pgibbs sample time: 5e-05 seconds
 probability of topic_Faculty_66 is 0.401781
 
 mode pgibbs: influence compute time (pgibbs): 9.6e-05 seconds
 influence of hasword_text_66 on topic_Faculty_66 is -0.0957096
 
-pgibbs sample time: 5e-05 seconds
+pgibbs sample time: 4.9e-05 seconds
 probability of topic_ResearchProject_52 is 0.476468
 
-mode pgibbs: influence compute time (pgibbs): 9.6e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 9.5e-05 seconds
 influence of hasword_test_52 on topic_ResearchProject_52 is -0.023498
 
 pgibbs sample time: 6.4e-05 seconds
@@ -1535,7 +1535,7 @@ influence of hasword_server_73 on topic_ResearchProject_73 is -0.0627416
 pgibbs sample time: 4.9e-05 seconds
 probability of topic_Staff_28 is 0.447858
 
-mode pgibbs: influence compute time (pgibbs): 9.3e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 9.2e-05 seconds
 influence of hasword_gmt_28 on topic_Staff_28 is -0.0517685
 
 pgibbs sample time: 4.9e-05 seconds
@@ -1547,16 +1547,16 @@ influence of hasword_year_87 on topic_Course_87 is -0.0347706
 pgibbs sample time: 0.000289 seconds
 probability of topic_Student_93 is 0.505778
 
-mode pgibbs: influence compute time (pgibbs): 0.00057 seconds
+mode pgibbs: influence compute time (pgibbs): 0.000567 seconds
 influence of links_93_71 on topic_Student_93 is -0.0155101
 
-pgibbs sample time: 6.7e-05 seconds
+pgibbs sample time: 6.6e-05 seconds
 probability of topic_Department_9 is 0.581249
 
-mode pgibbs: influence compute time (pgibbs): 0.000127 seconds
+mode pgibbs: influence compute time (pgibbs): 0.000126 seconds
 influence of hasword_facil_9 on topic_Department_9 is 0.0540574
 
-pgibbs sample time: 0.000196 seconds
+pgibbs sample time: 0.000193 seconds
 probability of topic_Staff_33 is 0.448652
 
 mode pgibbs: influence compute time (pgibbs): 0.000377 seconds
@@ -1565,34 +1565,34 @@ influence of links_33_19 on topic_Staff_33 is -0.0145335
 pgibbs sample time: 5e-05 seconds
 probability of topic_Staff_84 is 0.538363
 
-mode pgibbs: influence compute time (pgibbs): 9.6e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 9.5e-05 seconds
 influence of hasword_person_84 on topic_Staff_84 is 0.0382147
 
 pgibbs sample time: 5.2e-05 seconds
 probability of topic_Faculty_74 is 0.401374
 
-mode pgibbs: influence compute time (pgibbs): 9.9e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 9.7e-05 seconds
 influence of hasword_server_74 on topic_Faculty_74 is -0.0960854
 
 pgibbs sample time: 0.000228 seconds
 probability of topic_Faculty_89 is 0.46201
 
-mode pgibbs: influence compute time (pgibbs): 0.000445 seconds
+mode pgibbs: influence compute time (pgibbs): 0.000444 seconds
 influence of rl on topic_Faculty_89 is 0.151654
 
-pgibbs sample time: 5.2e-05 seconds
+pgibbs sample time: 5.3e-05 seconds
 probability of topic_Faculty_15 is 0.429819
 
-mode pgibbs: influence compute time (pgibbs): 9.9e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 0.000103 seconds
 influence of hasword_modifi_15 on topic_Faculty_15 is -0.0692693
 
-pgibbs sample time: 5.1e-05 seconds
+pgibbs sample time: 5e-05 seconds
 probability of topic_Student_97 is 0.439022
 
-mode pgibbs: influence compute time (pgibbs): 9.7e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 9.5e-05 seconds
 influence of hasword_link_97 on topic_Student_97 is -0.060381
 
-pgibbs sample time: 5.1e-05 seconds
+pgibbs sample time: 5.2e-05 seconds
 probability of topic_ResearchProject_76 is 0.478169
 
 mode pgibbs: influence compute time (pgibbs): 9.8e-05 seconds
@@ -1604,7 +1604,7 @@ probability of topic_Faculty_64 is 0.53041
 mode pgibbs: influence compute time (pgibbs): 9.9e-05 seconds
 influence of hasword_laboratori_64 on topic_Faculty_64 is 0.0303357
 
-pgibbs sample time: 5e-05 seconds
+pgibbs sample time: 5.1e-05 seconds
 probability of topic_ResearchProject_80 is 0.533481
 
 mode pgibbs: influence compute time (pgibbs): 9.6e-05 seconds
@@ -1613,13 +1613,13 @@ influence of hasword_task_80 on topic_ResearchProject_80 is 0.0333826
 pgibbs sample time: 0.000198 seconds
 probability of topic_Department_119 is 0.462741
 
-mode pgibbs: influence compute time (pgibbs): 0.000389 seconds
+mode pgibbs: influence compute time (pgibbs): 0.000388 seconds
 influence of links_34_119 on topic_Department_119 is 0.0148959
 
 pgibbs sample time: 5.5e-05 seconds
 probability of topic_Student_25 is 0.524583
 
-mode pgibbs: influence compute time (pgibbs): 9.7e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 9.6e-05 seconds
 influence of hasword_jan_25 on topic_Student_25 is 0.0245443
 
 pgibbs sample time: 6.2e-05 seconds
@@ -1628,7 +1628,7 @@ probability of topic_Faculty_9 is 0.464437
 mode pgibbs: influence compute time (pgibbs): 0.000118 seconds
 influence of hasword_servic_9 on topic_Faculty_9 is -0.0208849
 
-pgibbs sample time: 4.9e-05 seconds
+pgibbs sample time: 5e-05 seconds
 probability of topic_Course_72 is 0.381758
 
 mode pgibbs: influence compute time (pgibbs): 9.5e-05 seconds
@@ -1643,37 +1643,37 @@ influence of hasword_server_74 on topic_Department_74 is -0.0228915
 pgibbs sample time: 4.9e-05 seconds
 probability of topic_Person_17 is 0.251716
 
-mode pgibbs: influence compute time (pgibbs): 9.4e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 9.3e-05 seconds
 influence of hasword_materi_17 on topic_Person_17 is -0.205764
 
-pgibbs sample time: 8.4e-05 seconds
+pgibbs sample time: 5.1e-05 seconds
 probability of topic_Student_92 is 0.503814
 
-mode pgibbs: influence compute time (pgibbs): 9.8e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 9.7e-05 seconds
 influence of hasword_back_92 on topic_Student_92 is 0.00381381
 
-pgibbs sample time: 0.000564 seconds
+pgibbs sample time: 0.000566 seconds
 probability of topic_Staff_40 is 0.559106
 
-mode pgibbs: influence compute time (pgibbs): 0.001105 seconds
+mode pgibbs: influence compute time (pgibbs): 0.001204 seconds
 influence of links_43_68 on topic_Staff_40 is 0.000331725
 
-pgibbs sample time: 0.000302 seconds
+pgibbs sample time: 0.000298 seconds
 probability of topic_Student_108 is 0.488225
 
-mode pgibbs: influence compute time (pgibbs): 0.000584 seconds
+mode pgibbs: influence compute time (pgibbs): 0.000582 seconds
 influence of hasword_text_94 on topic_Student_108 is 0.000684391
 
-pgibbs sample time: 5e-05 seconds
+pgibbs sample time: 4.9e-05 seconds
 probability of topic_Person_52 is 0.535638
 
 mode pgibbs: influence compute time (pgibbs): 9.3e-05 seconds
 influence of hasword_test_52 on topic_Person_52 is 0.0355192
 
-pgibbs sample time: 5.1e-05 seconds
+pgibbs sample time: 5.3e-05 seconds
 probability of topic_Department_81 is 0.477077
 
-mode pgibbs: influence compute time (pgibbs): 9.8e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 9.7e-05 seconds
 influence of hasword_server_81 on topic_Department_81 is -0.0228915
 
 pgibbs sample time: 5.1e-05 seconds
@@ -1682,148 +1682,148 @@ probability of topic_Department_11 is 0.378791
 mode pgibbs: influence compute time (pgibbs): 9.7e-05 seconds
 influence of hasword_dec_11 on topic_Department_11 is -0.116472
 
-pgibbs sample time: 0.000542 seconds
+pgibbs sample time: 0.000548 seconds
 probability of topic_Course_88 is 0.455808
 
-mode pgibbs: influence compute time (pgibbs): 0.001074 seconds
+mode pgibbs: influence compute time (pgibbs): 0.001072 seconds
 influence of links_43_40 on topic_Course_88 is 0.000368347
 
-pgibbs sample time: 0.000293 seconds
+pgibbs sample time: 0.000296 seconds
 probability of topic_ResearchProject_71 is 0.492112
 
-mode pgibbs: influence compute time (pgibbs): 0.000579 seconds
+mode pgibbs: influence compute time (pgibbs): 0.000573 seconds
 influence of links_71_93 on topic_ResearchProject_71 is -0.0140714
 
 pgibbs sample time: 5e-05 seconds
 probability of topic_ResearchProject_16 is 0.442936
 
-mode pgibbs: influence compute time (pgibbs): 9.6e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 9.5e-05 seconds
 influence of hasword_gmt_16 on topic_ResearchProject_16 is -0.0565746
 
-pgibbs sample time: 5.2e-05 seconds
+pgibbs sample time: 5.1e-05 seconds
 probability of topic_Student_79 is 0.483019
 
-mode pgibbs: influence compute time (pgibbs): 9.7e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 9.6e-05 seconds
 influence of hasword_produc_79 on topic_Student_79 is -0.016968
 
-pgibbs sample time: 5e-05 seconds
+pgibbs sample time: 5.1e-05 seconds
 probability of topic_Faculty_27 is 0.489816
 
-mode pgibbs: influence compute time (pgibbs): 9.7e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 9.6e-05 seconds
 influence of hasword_jan_27 on topic_Faculty_27 is -0.0101812
 
 pgibbs sample time: 5.1e-05 seconds
 probability of topic_Person_57 is 0.476931
 
-mode pgibbs: influence compute time (pgibbs): 9.6e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 9.5e-05 seconds
 influence of hasword_separ_57 on topic_Person_57 is -0.0230362
 
 pgibbs sample time: 4.9e-05 seconds
 probability of topic_Course_32 is 0.425578
 
-mode pgibbs: influence compute time (pgibbs): 9.4e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 9.3e-05 seconds
 influence of hasword_softwar_32 on topic_Course_32 is -0.0733344
 
 pgibbs sample time: 0.00019 seconds
 probability of topic_Staff_90 is 0.573157
 
-mode pgibbs: influence compute time (pgibbs): 0.000369 seconds
+mode pgibbs: influence compute time (pgibbs): 0.000367 seconds
 influence of links_78_90 on topic_Staff_90 is 0.0155502
 
-pgibbs sample time: 0.000247 seconds
+pgibbs sample time: 0.000245 seconds
 probability of topic_Person_93 is 0.489022
 
-mode pgibbs: influence compute time (pgibbs): 0.000489 seconds
+mode pgibbs: influence compute time (pgibbs): 0.000483 seconds
 influence of links_93_71 on topic_Person_93 is -0.014807
 
-pgibbs sample time: 0.000318 seconds
+pgibbs sample time: 0.000319 seconds
 probability of topic_Faculty_51 is 0.464213
 
-mode pgibbs: influence compute time (pgibbs): 0.000626 seconds
+mode pgibbs: influence compute time (pgibbs): 0.000624 seconds
 influence of links_51_21 on topic_Faculty_51 is -0.0142279
 
-pgibbs sample time: 5.2e-05 seconds
+pgibbs sample time: 5e-05 seconds
 probability of topic_Person_4 is 0.544751
 
-mode pgibbs: influence compute time (pgibbs): 9.6e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 9.5e-05 seconds
 influence of hasword_represent_4 on topic_Person_4 is 0.0445154
 
 pgibbs sample time: 6.4e-05 seconds
 probability of topic_Staff_83 is 0.551996
 
-mode pgibbs: influence compute time (pgibbs): 0.000123 seconds
+mode pgibbs: influence compute time (pgibbs): 0.000122 seconds
 influence of hasword_offic_83 on topic_Staff_83 is 0.0665896
 
-pgibbs sample time: 0.000235 seconds
+pgibbs sample time: 0.000188 seconds
 probability of topic_Staff_78 is 0.446921
 
-mode pgibbs: influence compute time (pgibbs): 0.000436 seconds
+mode pgibbs: influence compute time (pgibbs): 0.000371 seconds
 influence of links_78_90 on topic_Staff_78 is -0.0162463
 
-pgibbs sample time: 5.1e-05 seconds
+pgibbs sample time: 5.2e-05 seconds
 probability of topic_Student_96 is 0.535841
 
 mode pgibbs: influence compute time (pgibbs): 9.8e-05 seconds
 influence of hasword_oct_96 on topic_Student_96 is 0.0357201
 
-pgibbs sample time: 5e-05 seconds
+pgibbs sample time: 5.1e-05 seconds
 probability of topic_Faculty_96 is 0.573274
 
-mode pgibbs: influence compute time (pgibbs): 9.6e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 9.5e-05 seconds
 influence of hasword_oct_96 on topic_Faculty_96 is 0.072236
 
-pgibbs sample time: 5.1e-05 seconds
+pgibbs sample time: 5e-05 seconds
 probability of topic_Person_64 is 0.497282
 
-mode pgibbs: influence compute time (pgibbs): 9.8e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 9.7e-05 seconds
 influence of hasword_laboratori_64 on topic_Person_64 is -0.00271792
 
-pgibbs sample time: 0.00057 seconds
+pgibbs sample time: 0.000572 seconds
 probability of topic_Department_68 is 0.496527
 
-mode pgibbs: influence compute time (pgibbs): 0.001133 seconds
+mode pgibbs: influence compute time (pgibbs): 0.001132 seconds
 influence of links_43_40 on topic_Department_68 is 0.000431526
 
-pgibbs sample time: 5.2e-05 seconds
+pgibbs sample time: 5.3e-05 seconds
 probability of topic_Department_17 is 0.572671
 
-mode pgibbs: influence compute time (pgibbs): 0.0001 seconds
+mode pgibbs: influence compute time (pgibbs): 9.9e-05 seconds
 influence of hasword_materi_17 on topic_Department_17 is 0.0716584
 
-pgibbs sample time: 0.000292 seconds
+pgibbs sample time: 0.00034 seconds
 probability of topic_Course_59 is 0.452114
 
-mode pgibbs: influence compute time (pgibbs): 0.000573 seconds
+mode pgibbs: influence compute time (pgibbs): 0.000635 seconds
 influence of links_46_59 on topic_Course_59 is 0.0167118
 
-pgibbs sample time: 0.000364 seconds
+pgibbs sample time: 0.000365 seconds
 probability of topic_Student_20 is 0.482622
 
-mode pgibbs: influence compute time (pgibbs): 0.00072 seconds
+mode pgibbs: influence compute time (pgibbs): 0.000715 seconds
 influence of links_20_102 on topic_Student_20 is -0.0117019
 
-pgibbs sample time: 5.2e-05 seconds
+pgibbs sample time: 5.1e-05 seconds
 probability of topic_Student_91 is 0.440213
 
-mode pgibbs: influence compute time (pgibbs): 9.7e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 9.6e-05 seconds
 influence of hasword_due_91 on topic_Student_91 is -0.0592236
 
-pgibbs sample time: 0.000189 seconds
+pgibbs sample time: 0.000188 seconds
 probability of topic_Course_19 is 0.695218
 
-mode pgibbs: influence compute time (pgibbs): 0.000375 seconds
+mode pgibbs: influence compute time (pgibbs): 0.000366 seconds
 influence of links_33_19 on topic_Course_19 is 0.0109009
 
-pgibbs sample time: 0.0002 seconds
+pgibbs sample time: 0.000199 seconds
 probability of topic_Student_85 is 0.51224
 
-mode pgibbs: influence compute time (pgibbs): 0.000389 seconds
+mode pgibbs: influence compute time (pgibbs): 0.000388 seconds
 influence of rl on topic_Student_85 is 0.134694
 
-pgibbs sample time: 0.000577 seconds
+pgibbs sample time: 0.000576 seconds
 probability of topic_ResearchProject_68 is 0.454518
 
-mode pgibbs: influence compute time (pgibbs): 0.001145 seconds
+mode pgibbs: influence compute time (pgibbs): 0.001138 seconds
 influence of links_43_68 on topic_ResearchProject_68 is 0.0192807
 
 pgibbs sample time: 5.2e-05 seconds
@@ -1832,7 +1832,7 @@ probability of topic_ResearchProject_15 is 0.474026
 mode pgibbs: influence compute time (pgibbs): 9.8e-05 seconds
 influence of hasword_modifi_15 on topic_ResearchProject_15 is -0.0259275
 
-pgibbs sample time: 0.000335 seconds
+pgibbs sample time: 0.000281 seconds
 probability of topic_Course_71 is 0.414246
 
 mode pgibbs: influence compute time (pgibbs): 0.000552 seconds
@@ -1847,82 +1847,82 @@ influence of hasword_separ_57 on topic_Student_57 is -0.0128788
 pgibbs sample time: 4.9e-05 seconds
 probability of topic_Staff_10 is 0.576178
 
-mode pgibbs: influence compute time (pgibbs): 9.4e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 9.2e-05 seconds
 influence of hasword_jan_10 on topic_Staff_10 is 0.0750113
 
-pgibbs sample time: 0.000545 seconds
+pgibbs sample time: 0.000544 seconds
 probability of topic_Course_43 is 0.280934
 
-mode pgibbs: influence compute time (pgibbs): 0.001073 seconds
+mode pgibbs: influence compute time (pgibbs): 0.001074 seconds
 influence of links_43_40 on topic_Course_43 is -0.013298
 
-pgibbs sample time: 0.000217 seconds
+pgibbs sample time: 0.000216 seconds
 probability of topic_Person_47 is 0.473317
 
-mode pgibbs: influence compute time (pgibbs): 0.000565 seconds
+mode pgibbs: influence compute time (pgibbs): 0.00042 seconds
 influence of links_47_12 on topic_Person_47 is -0.0129954
 
-pgibbs sample time: 6.5e-05 seconds
+pgibbs sample time: 6.4e-05 seconds
 probability of topic_Person_83 is 0.516439
 
-mode pgibbs: influence compute time (pgibbs): 0.000123 seconds
+mode pgibbs: influence compute time (pgibbs): 0.000122 seconds
 influence of hasword_offic_83 on topic_Person_83 is 0.0152092
 
 pgibbs sample time: 5e-05 seconds
 probability of topic_Department_10 is 0.649423
 
-mode pgibbs: influence compute time (pgibbs): 9.6e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 9.5e-05 seconds
 influence of hasword_jan_10 on topic_Department_10 is 0.14049
 
 pgibbs sample time: 5.1e-05 seconds
 probability of topic_Staff_37 is 0.472063
 
-mode pgibbs: influence compute time (pgibbs): 9.7e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 9.6e-05 seconds
 influence of hasword_austin_37 on topic_Staff_37 is -0.0278796
 
-pgibbs sample time: 0.000196 seconds
+pgibbs sample time: 0.000195 seconds
 probability of topic_ResearchProject_90 is 0.641692
 
 mode pgibbs: influence compute time (pgibbs): 0.000378 seconds
 influence of r525 on topic_ResearchProject_90 is 0.230056
 
-pgibbs sample time: 7.1e-05 seconds
+pgibbs sample time: 6.7e-05 seconds
 probability of topic_Person_31 is 0.496857
 
-mode pgibbs: influence compute time (pgibbs): 0.000152 seconds
+mode pgibbs: influence compute time (pgibbs): 0.000122 seconds
 influence of hasword_effici_31 on topic_Person_31 is 0.012598
 
 pgibbs sample time: 0.00033 seconds
 probability of topic_Person_102 is 0.41274
 
-mode pgibbs: influence compute time (pgibbs): 0.000651 seconds
+mode pgibbs: influence compute time (pgibbs): 0.000646 seconds
 influence of links_20_102 on topic_Person_102 is 0.0142238
 
 pgibbs sample time: 0.000227 seconds
 probability of topic_Student_26 is 0.644196
 
-mode pgibbs: influence compute time (pgibbs): 0.000444 seconds
+mode pgibbs: influence compute time (pgibbs): 0.000442 seconds
 influence of hasword_web_89 on topic_Student_26 is 0.00243948
 
-pgibbs sample time: 5.1e-05 seconds
+pgibbs sample time: 5.2e-05 seconds
 probability of topic_Course_98 is 0.480991
 
-mode pgibbs: influence compute time (pgibbs): 9.6e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 9.5e-05 seconds
 influence of hasword_nov_98 on topic_Course_98 is -0.0189908
 
-pgibbs sample time: 0.000233 seconds
+pgibbs sample time: 0.000232 seconds
 probability of topic_ResearchProject_89 is 0.407037
 
-mode pgibbs: influence compute time (pgibbs): 0.000451 seconds
+mode pgibbs: influence compute time (pgibbs): 0.000452 seconds
 influence of rl on topic_ResearchProject_89 is 0.139262
 
-pgibbs sample time: 6.4e-05 seconds
+pgibbs sample time: 6.5e-05 seconds
 probability of topic_Student_83 is 0.529084
 
-mode pgibbs: influence compute time (pgibbs): 0.000127 seconds
+mode pgibbs: influence compute time (pgibbs): 0.000121 seconds
 influence of hasword_offic_83 on topic_Student_83 is 0.0711361
 
-pgibbs sample time: 0.000366 seconds
+pgibbs sample time: 0.000447 seconds
 probability of topic_Person_21 is 0.398001
 
 mode pgibbs: influence compute time (pgibbs): 0.000716 seconds
@@ -1931,37 +1931,37 @@ influence of links_51_21 on topic_Person_21 is 0.0140614
 pgibbs sample time: 5.2e-05 seconds
 probability of topic_Student_56 is 0.323068
 
-mode pgibbs: influence compute time (pgibbs): 9.9e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 9.8e-05 seconds
 influence of hasword_includ_56 on topic_Student_56 is -0.161982
 
-pgibbs sample time: 0.000257 seconds
+pgibbs sample time: 0.000258 seconds
 probability of topic_ResearchProject_59 is 0.503605
 
 mode pgibbs: influence compute time (pgibbs): 0.000508 seconds
 influence of links_59_46 on topic_ResearchProject_59 is -0.0129517
 
-pgibbs sample time: 5.2e-05 seconds
+pgibbs sample time: 5.1e-05 seconds
 probability of topic_ResearchProject_4 is 0.479583
 
-mode pgibbs: influence compute time (pgibbs): 9.9e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 0.000102 seconds
 influence of hasword_represent_4 on topic_ResearchProject_4 is -0.020395
 
 pgibbs sample time: 5.2e-05 seconds
 probability of topic_ResearchProject_29 is 0.386627
 
-mode pgibbs: influence compute time (pgibbs): 9.9e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 9.8e-05 seconds
 influence of hasword_depart_29 on topic_ResearchProject_29 is -0.109503
 
-pgibbs sample time: 5e-05 seconds
+pgibbs sample time: 5.1e-05 seconds
 probability of topic_Course_54 is 0.598444
 
-mode pgibbs: influence compute time (pgibbs): 9.6e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 9.4e-05 seconds
 influence of hasword_syllabu_54 on topic_Course_54 is 0.0959178
 
 pgibbs sample time: 4.9e-05 seconds
 probability of topic_Person_84 is 0.551746
 
-mode pgibbs: influence compute time (pgibbs): 9.9e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 9.5e-05 seconds
 influence of hasword_person_84 on topic_Person_84 is 0.0513808
 
 pgibbs sample time: 5.1e-05 seconds
@@ -1982,19 +1982,19 @@ probability of topic_Staff_72 is 0.370987
 mode pgibbs: influence compute time (pgibbs): 9.5e-05 seconds
 influence of hasword_graduat_72 on topic_Staff_72 is -0.123292
 
-pgibbs sample time: 0.0002 seconds
+pgibbs sample time: 0.000201 seconds
 probability of topic_Faculty_34 is 0.474542
 
-mode pgibbs: influence compute time (pgibbs): 0.00039 seconds
+mode pgibbs: influence compute time (pgibbs): 0.000391 seconds
 influence of links_34_119 on topic_Faculty_34 is -0.0138971
 
-pgibbs sample time: 5.1e-05 seconds
+pgibbs sample time: 5e-05 seconds
 probability of topic_Course_60 is 0.411195
 
-mode pgibbs: influence compute time (pgibbs): 9.4e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 9.3e-05 seconds
 influence of hasword_mime_60 on topic_Course_60 is -0.0869534
 
-pgibbs sample time: 0.000218 seconds
+pgibbs sample time: 0.000219 seconds
 probability of topic_Course_47 is 0.758464
 
 mode pgibbs: influence compute time (pgibbs): 0.000426 seconds
@@ -2003,13 +2003,13 @@ influence of links_47_12 on topic_Course_47 is -0.0128456
 pgibbs sample time: 5.2e-05 seconds
 probability of topic_ResearchProject_50 is 0.482183
 
-mode pgibbs: influence compute time (pgibbs): 9.8e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 9.7e-05 seconds
 influence of hasword_art_50 on topic_ResearchProject_50 is -0.0178024
 
-pgibbs sample time: 0.00033 seconds
+pgibbs sample time: 0.000329 seconds
 probability of topic_Course_102 is 0.601399
 
-mode pgibbs: influence compute time (pgibbs): 0.000647 seconds
+mode pgibbs: influence compute time (pgibbs): 0.000646 seconds
 influence of links_20_102 on topic_Course_102 is 0.0143
 
 pgibbs sample time: 4.9e-05 seconds
@@ -2018,10 +2018,10 @@ probability of topic_Course_70 is 0.457571
 mode pgibbs: influence compute time (pgibbs): 9.2e-05 seconds
 influence of hasword_net_70 on topic_Course_70 is -0.0422283
 
-pgibbs sample time: 4.9e-05 seconds
+pgibbs sample time: 5.3e-05 seconds
 probability of topic_Staff_52 is 0.511184
 
-mode pgibbs: influence compute time (pgibbs): 9.3e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 9.2e-05 seconds
 influence of hasword_test_52 on topic_Staff_52 is 0.0111804
 
 pgibbs sample time: 4.9e-05 seconds
@@ -2042,64 +2042,64 @@ probability of topic_Person_16 is 0.498179
 mode pgibbs: influence compute time (pgibbs): 9.2e-05 seconds
 influence of hasword_gmt_16 on topic_Person_16 is -0.00182059
 
-pgibbs sample time: 4.8e-05 seconds
+pgibbs sample time: 4.9e-05 seconds
 probability of topic_Course_96 is 0.503376
 
-mode pgibbs: influence compute time (pgibbs): 9.2e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 9.3e-05 seconds
 influence of hasword_oct_96 on topic_Course_96 is 0.00337575
 
 pgibbs sample time: 0.000193 seconds
 probability of topic_Course_90 is 0.395504
 
-mode pgibbs: influence compute time (pgibbs): 0.000375 seconds
+mode pgibbs: influence compute time (pgibbs): 0.000376 seconds
 influence of links_78_90 on topic_Course_90 is 0.0118593
 
-pgibbs sample time: 5.1e-05 seconds
+pgibbs sample time: 5.2e-05 seconds
 probability of topic_Student_86 is 0.52095
 
-mode pgibbs: influence compute time (pgibbs): 9.8e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 9.7e-05 seconds
 influence of hasword_version_86 on topic_Student_86 is 0.0209257
 
 pgibbs sample time: 4.9e-05 seconds
 probability of topic_Faculty_8 is 0.467878
 
-mode pgibbs: influence compute time (pgibbs): 9.4e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 9.3e-05 seconds
 influence of hasword_implement_8 on topic_Faculty_8 is -0.0320351
 
-pgibbs sample time: 6.5e-05 seconds
+pgibbs sample time: 6.6e-05 seconds
 probability of topic_ResearchProject_44 is 0.498634
 
 mode pgibbs: influence compute time (pgibbs): 0.000123 seconds
 influence of hasword_formal_44 on topic_ResearchProject_44 is -0.0398715
 
-pgibbs sample time: 4.9e-05 seconds
+pgibbs sample time: 5.4e-05 seconds
 probability of topic_Person_14 is 0.661866
 
-mode pgibbs: influence compute time (pgibbs): 9.5e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 9.4e-05 seconds
 influence of hasword_scienc_14 on topic_Person_14 is 0.150472
 
-pgibbs sample time: 0.000318 seconds
+pgibbs sample time: 0.000319 seconds
 probability of topic_Faculty_113 is 0.422586
 
 mode pgibbs: influence compute time (pgibbs): 0.000624 seconds
 influence of links_51_21 on topic_Faculty_113 is 0.000387679
 
-pgibbs sample time: 5e-05 seconds
+pgibbs sample time: 5.1e-05 seconds
 probability of topic_Course_62 is 0.435971
 
-mode pgibbs: influence compute time (pgibbs): 9.8e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 9.6e-05 seconds
 influence of hasword_length_62 on topic_Course_62 is -0.0633366
 
-pgibbs sample time: 5.1e-05 seconds
+pgibbs sample time: 5.2e-05 seconds
 probability of topic_Department_60 is 0.429697
 
 mode pgibbs: influence compute time (pgibbs): 9.7e-05 seconds
 influence of hasword_mime_60 on topic_Department_60 is -0.0693861
 
-pgibbs sample time: 0.000234 seconds
+pgibbs sample time: 0.00023 seconds
 probability of topic_Department_47 is 0.335329
 
-mode pgibbs: influence compute time (pgibbs): 0.000483 seconds
+mode pgibbs: influence compute time (pgibbs): 0.000487 seconds
 influence of rl on topic_Department_47 is 0.11413
 
 pgibbs sample time: 5.1e-05 seconds
@@ -2111,13 +2111,13 @@ influence of hasword_scienc_42 on topic_Faculty_42 is 0.124016
 pgibbs sample time: 5.1e-05 seconds
 probability of topic_Student_27 is 0.524583
 
-mode pgibbs: influence compute time (pgibbs): 9.8e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 9.7e-05 seconds
 influence of hasword_jan_27 on topic_Student_27 is 0.0245443
 
-pgibbs sample time: 0.000202 seconds
+pgibbs sample time: 0.000201 seconds
 probability of topic_Faculty_19 is 0.493586
 
-mode pgibbs: influence compute time (pgibbs): 0.000393 seconds
+mode pgibbs: influence compute time (pgibbs): 0.000392 seconds
 influence of links_33_19 on topic_Faculty_19 is 0.0155218
 
 pgibbs sample time: 5.1e-05 seconds
@@ -2126,67 +2126,67 @@ probability of topic_ResearchProject_67 is 0.609436
 mode pgibbs: influence compute time (pgibbs): 9.6e-05 seconds
 influence of hasword_robert_67 on topic_ResearchProject_67 is 0.105958
 
-pgibbs sample time: 5.1e-05 seconds
+pgibbs sample time: 5.2e-05 seconds
 probability of topic_Department_53 is 0.480109
 
-mode pgibbs: influence compute time (pgibbs): 9.8e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 9.6e-05 seconds
 influence of hasword_date_53 on topic_Department_53 is -0.0198703
 
 pgibbs sample time: 5e-05 seconds
 probability of topic_Course_24 is 0.419802
 
-mode pgibbs: influence compute time (pgibbs): 9.5e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 9.4e-05 seconds
 influence of hasword_research_24 on topic_Course_24 is -0.0788354
 
-pgibbs sample time: 0.000227 seconds
+pgibbs sample time: 0.000228 seconds
 probability of topic_Student_12 is 0.501461
 
-mode pgibbs: influence compute time (pgibbs): 0.000448 seconds
+mode pgibbs: influence compute time (pgibbs): 0.000442 seconds
 influence of links_47_12 on topic_Student_12 is 0.0155884
 
-pgibbs sample time: 5e-05 seconds
+pgibbs sample time: 5.1e-05 seconds
 probability of topic_Department_42 is 0.412026
 
-mode pgibbs: influence compute time (pgibbs): 9.5e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 9.6e-05 seconds
 influence of hasword_scienc_42 on topic_Department_42 is -0.0861742
 
 pgibbs sample time: 0.000299 seconds
 probability of topic_Department_46 is 0.475353
 
-mode pgibbs: influence compute time (pgibbs): 0.000589 seconds
+mode pgibbs: influence compute time (pgibbs): 0.000587 seconds
 influence of links_46_59 on topic_Department_46 is -0.0156777
 
-pgibbs sample time: 4.9e-05 seconds
+pgibbs sample time: 5.6e-05 seconds
 probability of topic_Staff_7 is 0.447858
 
-mode pgibbs: influence compute time (pgibbs): 9.3e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 0.000124 seconds
 influence of hasword_date_7 on topic_Staff_7 is -0.0517685
 
-pgibbs sample time: 5.2e-05 seconds
+pgibbs sample time: 5.1e-05 seconds
 probability of topic_Student_77 is 0.580474
 
-mode pgibbs: influence compute time (pgibbs): 9.8e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 9.7e-05 seconds
 influence of hasword_statem_77 on topic_Student_77 is 0.0790972
 
 pgibbs sample time: 5.1e-05 seconds
 probability of topic_Student_67 is 0.432953
 
-mode pgibbs: influence compute time (pgibbs): 9.8e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 9.7e-05 seconds
 influence of hasword_robert_67 on topic_Student_67 is -0.0662518
 
 pgibbs sample time: 5e-05 seconds
 probability of topic_Department_38 is 0.535473
 
-mode pgibbs: influence compute time (pgibbs): 9.6e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 9.5e-05 seconds
 influence of hasword_data_38 on topic_Department_38 is 0.0353552
 
-pgibbs sample time: 5.1e-05 seconds
+pgibbs sample time: 5e-05 seconds
 probability of topic_Faculty_84 is 0.569009
 
-mode pgibbs: influence compute time (pgibbs): 9.8e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 9.7e-05 seconds
 influence of hasword_person_84 on topic_Faculty_84 is 0.0681427
 
-pgibbs sample time: 5.1e-05 seconds
+pgibbs sample time: 5e-05 seconds
 probability of topic_Student_10 is 0.524583
 
 mode pgibbs: influence compute time (pgibbs): 9.6e-05 seconds
@@ -2201,13 +2201,13 @@ influence of links_51_113 on topic_Course_51 is -0.0121604
 pgibbs sample time: 5.1e-05 seconds
 probability of topic_ResearchProject_98 is 0.620402
 
-mode pgibbs: influence compute time (pgibbs): 0.000101 seconds
+mode pgibbs: influence compute time (pgibbs): 9.7e-05 seconds
 influence of hasword_nov_98 on topic_ResearchProject_98 is 0.11576
 
-pgibbs sample time: 5e-05 seconds
+pgibbs sample time: 5.1e-05 seconds
 probability of topic_Faculty_38 is 0.477852
 
-mode pgibbs: influence compute time (pgibbs): 9.5e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 9.4e-05 seconds
 influence of hasword_data_38 on topic_Faculty_38 is -0.0221194
 
 pgibbs sample time: 0.000293 seconds
@@ -2219,19 +2219,19 @@ influence of links_46_59 on topic_Course_46 is -0.0132223
 pgibbs sample time: 0.000203 seconds
 probability of topic_ResearchProject_61 is 0.688916
 
-mode pgibbs: influence compute time (pgibbs): 0.000397 seconds
+mode pgibbs: influence compute time (pgibbs): 0.000396 seconds
 influence of links_61_39 on topic_ResearchProject_61 is -0.0140751
 
 pgibbs sample time: 5e-05 seconds
 probability of topic_Staff_50 is 0.470018
 
-mode pgibbs: influence compute time (pgibbs): 9.8e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 9.4e-05 seconds
 influence of hasword_art_50 on topic_Staff_50 is -0.0299109
 
 pgibbs sample time: 0.000284 seconds
 probability of topic_Staff_93 is 0.397201
 
-mode pgibbs: influence compute time (pgibbs): 0.000559 seconds
+mode pgibbs: influence compute time (pgibbs): 0.000557 seconds
 influence of links_93_71 on topic_Staff_93 is -0.0120919
 
 pgibbs sample time: 5.2e-05 seconds
@@ -2249,34 +2249,34 @@ influence of hasword_format_95 on topic_Person_95 is -0.0694245
 pgibbs sample time: 5.1e-05 seconds
 probability of topic_Faculty_18 is 0.387388
 
-mode pgibbs: influence compute time (pgibbs): 9.8e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 9.7e-05 seconds
 influence of hasword_html_18 on topic_Faculty_18 is -0.10882
 
 pgibbs sample time: 0.000193 seconds
 probability of topic_Person_39 is 0.450608
 
-mode pgibbs: influence compute time (pgibbs): 0.000375 seconds
+mode pgibbs: influence compute time (pgibbs): 0.000374 seconds
 influence of rl on topic_Person_39 is -0.127226
 
 pgibbs sample time: 0.000571 seconds
 probability of topic_Department_88 is 0.501493
 
-mode pgibbs: influence compute time (pgibbs): 0.001187 seconds
+mode pgibbs: influence compute time (pgibbs): 0.001126 seconds
 influence of links_43_40 on topic_Department_88 is 0.000431543
 
-pgibbs sample time: 5e-05 seconds
+pgibbs sample time: 5.1e-05 seconds
 probability of topic_Person_13 is 0.513057
 
 mode pgibbs: influence compute time (pgibbs): 9.5e-05 seconds
 influence of hasword_develop_13 on topic_Person_13 is 0.0130511
 
-pgibbs sample time: 0.000191 seconds
+pgibbs sample time: 0.000195 seconds
 probability of topic_Staff_39 is 0.694554
 
-mode pgibbs: influence compute time (pgibbs): 0.000396 seconds
+mode pgibbs: influence compute time (pgibbs): 0.000398 seconds
 influence of rl on topic_Staff_39 is -0.109697
 
-pgibbs sample time: 5.3e-05 seconds
+pgibbs sample time: 5.2e-05 seconds
 probability of topic_Department_3 is 0.420608
 
 mode pgibbs: influence compute time (pgibbs): 9.8e-05 seconds
@@ -2285,16 +2285,16 @@ influence of hasword_algorithm_3 on topic_Department_3 is -0.0780703
 pgibbs sample time: 5e-05 seconds
 probability of topic_Person_79 is 0.465191
 
-mode pgibbs: influence compute time (pgibbs): 9.5e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 9.3e-05 seconds
 influence of hasword_produc_79 on topic_Person_79 is -0.0346979
 
-pgibbs sample time: 5e-05 seconds
+pgibbs sample time: 4.9e-05 seconds
 probability of topic_Person_67 is 0.381565
 
-mode pgibbs: influence compute time (pgibbs): 0.000106 seconds
+mode pgibbs: influence compute time (pgibbs): 9.4e-05 seconds
 influence of hasword_robert_67 on topic_Person_67 is -0.114019
 
-pgibbs sample time: 6.3e-05 seconds
+pgibbs sample time: 6.2e-05 seconds
 probability of topic_Person_9 is 0.385403
 
 mode pgibbs: influence compute time (pgibbs): 0.000118 seconds
@@ -2303,25 +2303,25 @@ influence of hasword_servic_9 on topic_Person_9 is -0.0409687
 pgibbs sample time: 5.2e-05 seconds
 probability of topic_Student_42 is 0.602305
 
-mode pgibbs: influence compute time (pgibbs): 9.8e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 9.9e-05 seconds
 influence of hasword_scienc_42 on topic_Student_42 is 0.0994675
 
 pgibbs sample time: 6.4e-05 seconds
 probability of topic_Staff_9 is 0.458123
 
-mode pgibbs: influence compute time (pgibbs): 0.000121 seconds
+mode pgibbs: influence compute time (pgibbs): 0.000125 seconds
 influence of r4004 on topic_Staff_9 is 0.248244
 
-pgibbs sample time: 0.000292 seconds
+pgibbs sample time: 0.000291 seconds
 probability of topic_Student_59 is 0.417729
 
-mode pgibbs: influence compute time (pgibbs): 0.000574 seconds
+mode pgibbs: influence compute time (pgibbs): 0.000573 seconds
 influence of hasword_type_46 on topic_Student_59 is 0.000676734
 
-pgibbs sample time: 5.6e-05 seconds
+pgibbs sample time: 5.1e-05 seconds
 probability of topic_Course_13 is 0.459095
 
-mode pgibbs: influence compute time (pgibbs): 0.000143 seconds
+mode pgibbs: influence compute time (pgibbs): 9.5e-05 seconds
 influence of hasword_develop_13 on topic_Course_13 is -0.0407251
 
 pgibbs sample time: 5.2e-05 seconds
@@ -2339,25 +2339,25 @@ influence of hasword_due_91 on topic_Staff_91 is -0.0267286
 pgibbs sample time: 0.000193 seconds
 probability of topic_Staff_19 is 0.510492
 
-mode pgibbs: influence compute time (pgibbs): 0.000377 seconds
+mode pgibbs: influence compute time (pgibbs): 0.000375 seconds
 influence of links_33_19 on topic_Staff_19 is 0.0157871
 
-pgibbs sample time: 0.0002 seconds
+pgibbs sample time: 0.000199 seconds
 probability of topic_ResearchProject_22 is 0.607869
 
-mode pgibbs: influence compute time (pgibbs): 0.000389 seconds
+mode pgibbs: influence compute time (pgibbs): 0.000388 seconds
 influence of links_22_35 on topic_ResearchProject_22 is -0.0152014
 
 pgibbs sample time: 6.5e-05 seconds
 probability of topic_Student_49 is 0.760226
 
-mode pgibbs: influence compute time (pgibbs): 0.000123 seconds
+mode pgibbs: influence compute time (pgibbs): 0.000122 seconds
 influence of r411 on topic_Student_49 is 0.182282
 
-pgibbs sample time: 4.9e-05 seconds
+pgibbs sample time: 5e-05 seconds
 probability of topic_Staff_95 is 0.47193
 
-mode pgibbs: influence compute time (pgibbs): 9.5e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 9.4e-05 seconds
 influence of hasword_format_95 on topic_Staff_95 is -0.0280116
 
 pgibbs sample time: 5.1e-05 seconds
@@ -2366,22 +2366,22 @@ probability of topic_ResearchProject_27 is 0.462699
 mode pgibbs: influence compute time (pgibbs): 9.7e-05 seconds
 influence of hasword_jan_27 on topic_ResearchProject_27 is -0.0371648
 
-pgibbs sample time: 5e-05 seconds
+pgibbs sample time: 5.1e-05 seconds
 probability of topic_Faculty_62 is 0.431532
 
 mode pgibbs: influence compute time (pgibbs): 9.7e-05 seconds
 influence of hasword_length_62 on topic_Faculty_62 is -0.0676217
 
-pgibbs sample time: 5e-05 seconds
+pgibbs sample time: 5.1e-05 seconds
 probability of topic_ResearchProject_53 is 0.442936
 
-mode pgibbs: influence compute time (pgibbs): 9.7e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 9.6e-05 seconds
 influence of hasword_date_53 on topic_ResearchProject_53 is -0.0565746
 
 pgibbs sample time: 5.1e-05 seconds
 probability of topic_Department_86 is 0.420875
 
-mode pgibbs: influence compute time (pgibbs): 0.000138 seconds
+mode pgibbs: influence compute time (pgibbs): 9.8e-05 seconds
 influence of hasword_version_86 on topic_Department_86 is -0.077817
 
 pgibbs sample time: 4.9e-05 seconds
@@ -2390,25 +2390,25 @@ probability of topic_Person_15 is 0.489056
 mode pgibbs: influence compute time (pgibbs): 9.4e-05 seconds
 influence of hasword_modifi_15 on topic_Person_15 is -0.0109402
 
-pgibbs sample time: 0.000198 seconds
+pgibbs sample time: 0.000199 seconds
 probability of topic_ResearchProject_34 is 0.537618
 
-mode pgibbs: influence compute time (pgibbs): 0.000388 seconds
+mode pgibbs: influence compute time (pgibbs): 0.000389 seconds
 influence of links_34_119 on topic_ResearchProject_34 is -0.0144265
 
-pgibbs sample time: 0.000358 seconds
+pgibbs sample time: 0.000359 seconds
 probability of topic_Course_21 is 0.517667
 
-mode pgibbs: influence compute time (pgibbs): 0.000702 seconds
+mode pgibbs: influence compute time (pgibbs): 0.0007 seconds
 influence of links_51_113 on topic_Course_21 is 0.000339063
 
-pgibbs sample time: 5e-05 seconds
+pgibbs sample time: 5.1e-05 seconds
 probability of topic_Person_27 is 0.505972
 
 mode pgibbs: influence compute time (pgibbs): 9.4e-05 seconds
 influence of hasword_jan_27 on topic_Person_27 is 0.00597113
 
-pgibbs sample time: 6.5e-05 seconds
+pgibbs sample time: 7e-05 seconds
 probability of topic_Faculty_49 is 0.503529
 
 mode pgibbs: influence compute time (pgibbs): 0.000124 seconds
@@ -2423,7 +2423,7 @@ influence of hasword_austin_37 on topic_Department_37 is -0.051389
 pgibbs sample time: 0.000199 seconds
 probability of topic_Department_34 is 0.476607
 
-mode pgibbs: influence compute time (pgibbs): 0.000388 seconds
+mode pgibbs: influence compute time (pgibbs): 0.000386 seconds
 influence of links_34_119 on topic_Department_34 is -0.0133013
 
 pgibbs sample time: 5.1e-05 seconds
@@ -2432,25 +2432,25 @@ probability of topic_Person_25 is 0.505972
 mode pgibbs: influence compute time (pgibbs): 9.5e-05 seconds
 influence of hasword_jan_25 on topic_Person_25 is 0.00597113
 
-pgibbs sample time: 0.000197 seconds
+pgibbs sample time: 0.000198 seconds
 probability of topic_Course_85 is 0.397526
 
-mode pgibbs: influence compute time (pgibbs): 0.000385 seconds
+mode pgibbs: influence compute time (pgibbs): 0.000379 seconds
 influence of rl on topic_Course_85 is 0.125842
 
-pgibbs sample time: 5e-05 seconds
+pgibbs sample time: 5.1e-05 seconds
 probability of topic_Staff_99 is 0.491937
 
-mode pgibbs: influence compute time (pgibbs): 9.6e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 9.4e-05 seconds
 influence of hasword_read_99 on topic_Staff_99 is -0.00806205
 
-pgibbs sample time: 4.9e-05 seconds
+pgibbs sample time: 5e-05 seconds
 probability of topic_Person_30 is 0.490523
 
 mode pgibbs: influence compute time (pgibbs): 9.3e-05 seconds
 influence of hasword_tree_30 on topic_Person_30 is -0.00947468
 
-pgibbs sample time: 4.9e-05 seconds
+pgibbs sample time: 4.8e-05 seconds
 probability of topic_Staff_58 is 0.576178
 
 mode pgibbs: influence compute time (pgibbs): 9.2e-05 seconds
@@ -2459,37 +2459,37 @@ influence of hasword_jan_58 on topic_Staff_58 is 0.0750113
 pgibbs sample time: 5.2e-05 seconds
 probability of topic_Student_33 is 0.701025
 
-mode pgibbs: influence compute time (pgibbs): 9.8e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 9.7e-05 seconds
 influence of hasword_home_33 on topic_Student_33 is 0.178913
 
 pgibbs sample time: 5.1e-05 seconds
 probability of topic_ResearchProject_11 is 0.210008
 
-mode pgibbs: influence compute time (pgibbs): 9.6e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 9.5e-05 seconds
 influence of hasword_dec_11 on topic_ResearchProject_11 is -0.220648
 
 pgibbs sample time: 5.1e-05 seconds
 probability of topic_Student_32 is 0.466327
 
-mode pgibbs: influence compute time (pgibbs): 9.8e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 9.7e-05 seconds
 influence of hasword_softwar_32 on topic_Student_32 is -0.0335731
 
 pgibbs sample time: 5.1e-05 seconds
 probability of topic_Department_99 is 0.445427
 
-mode pgibbs: influence compute time (pgibbs): 9.8e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 9.7e-05 seconds
 influence of hasword_read_99 on topic_Department_99 is -0.0541447
 
-pgibbs sample time: 0.000358 seconds
+pgibbs sample time: 0.000359 seconds
 probability of topic_Staff_113 is 0.524586
 
 mode pgibbs: influence compute time (pgibbs): 0.000702 seconds
 influence of links_51_113 on topic_Staff_113 is 0.0130053
 
-pgibbs sample time: 5e-05 seconds
+pgibbs sample time: 4.9e-05 seconds
 probability of topic_Faculty_2 is 0.52117
 
-mode pgibbs: influence compute time (pgibbs): 9.3e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 9.2e-05 seconds
 influence of hasword_phone_2 on topic_Faculty_2 is 0.0211452
 
 pgibbs sample time: 5.2e-05 seconds
@@ -2504,7 +2504,7 @@ probability of topic_Person_59 is 0.492999
 mode pgibbs: influence compute time (pgibbs): 0.000563 seconds
 influence of links_46_59 on topic_Person_59 is 0.0151356
 
-pgibbs sample time: 0.000288 seconds
+pgibbs sample time: 0.000347 seconds
 probability of topic_Faculty_59 is 0.570501
 
 mode pgibbs: influence compute time (pgibbs): 0.000567 seconds
@@ -2513,28 +2513,28 @@ influence of links_59_46 on topic_Faculty_59 is -0.0115942
 pgibbs sample time: 5.1e-05 seconds
 probability of topic_ResearchProject_87 is 0.446075
 
-mode pgibbs: influence compute time (pgibbs): 9.7e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 9.6e-05 seconds
 influence of hasword_year_87 on topic_ResearchProject_87 is -0.0535123
 
 pgibbs sample time: 4.9e-05 seconds
 probability of topic_Staff_65 is 0.443048
 
-mode pgibbs: influence compute time (pgibbs): 9.4e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 9.3e-05 seconds
 influence of hasword_high_65 on topic_Staff_65 is -0.056465
 
-pgibbs sample time: 4.9e-05 seconds
+pgibbs sample time: 5e-05 seconds
 probability of topic_ResearchProject_66 is 0.437775
 
-mode pgibbs: influence compute time (pgibbs): 9.5e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 9.4e-05 seconds
 influence of hasword_text_66 on topic_ResearchProject_66 is -0.0615905
 
-pgibbs sample time: 0.000293 seconds
+pgibbs sample time: 0.000292 seconds
 probability of topic_Faculty_108 is 0.406384
 
-mode pgibbs: influence compute time (pgibbs): 0.000576 seconds
+mode pgibbs: influence compute time (pgibbs): 0.000574 seconds
 influence of links_94_108 on topic_Faculty_108 is 0.0166135
 
-pgibbs sample time: 0.0002 seconds
+pgibbs sample time: 0.000205 seconds
 probability of topic_Student_90 is 0.492252
 
 mode pgibbs: influence compute time (pgibbs): 0.000391 seconds
@@ -2555,16 +2555,16 @@ influence of hasword_research_24 on topic_Department_24 is 0.125773
 pgibbs sample time: 5.1e-05 seconds
 probability of topic_Faculty_81 is 0.401374
 
-mode pgibbs: influence compute time (pgibbs): 9.8e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 9.7e-05 seconds
 influence of hasword_server_81 on topic_Faculty_81 is -0.0960854
 
-pgibbs sample time: 5.2e-05 seconds
+pgibbs sample time: 5.1e-05 seconds
 probability of topic_Staff_29 is 0.553711
 
-mode pgibbs: influence compute time (pgibbs): 9.7e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 9.6e-05 seconds
 influence of hasword_depart_29 on topic_Staff_29 is 0.0533034
 
-pgibbs sample time: 0.00019 seconds
+pgibbs sample time: 0.000191 seconds
 probability of topic_Course_22 is 0.55126
 
 mode pgibbs: influence compute time (pgibbs): 0.000371 seconds
@@ -2576,34 +2576,34 @@ probability of topic_Staff_89 is 0.562112
 mode pgibbs: influence compute time (pgibbs): 0.000416 seconds
 influence of rl on topic_Staff_89 is 0.108917
 
-pgibbs sample time: 5.1e-05 seconds
+pgibbs sample time: 5e-05 seconds
 probability of topic_Staff_54 is 0.497096
 
-mode pgibbs: influence compute time (pgibbs): 9.6e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 9.5e-05 seconds
 influence of hasword_syllabu_54 on topic_Staff_54 is -0.002904
 
-pgibbs sample time: 5.1e-05 seconds
+pgibbs sample time: 5.2e-05 seconds
 probability of topic_ResearchProject_32 is 0.651756
 
-mode pgibbs: influence compute time (pgibbs): 9.7e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 9.8e-05 seconds
 influence of hasword_softwar_32 on topic_ResearchProject_32 is 0.142392
 
 pgibbs sample time: 4.9e-05 seconds
 probability of topic_Course_99 is 0.643291
 
-mode pgibbs: influence compute time (pgibbs): 9.3e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 9.2e-05 seconds
 influence of hasword_read_99 on topic_Course_99 is 0.135426
 
-pgibbs sample time: 0.000287 seconds
+pgibbs sample time: 0.00029 seconds
 probability of topic_Person_46 is 0.486778
 
 mode pgibbs: influence compute time (pgibbs): 0.000564 seconds
 influence of links_46_59 on topic_Person_46 is -0.0145941
 
-pgibbs sample time: 0.00019 seconds
+pgibbs sample time: 0.000189 seconds
 probability of topic_Person_35 is 0.50009
 
-mode pgibbs: influence compute time (pgibbs): 0.000374 seconds
+mode pgibbs: influence compute time (pgibbs): 0.000371 seconds
 influence of links_22_35 on topic_Person_35 is 0.017331
 
 pgibbs sample time: 0.000199 seconds
@@ -2612,16 +2612,16 @@ probability of topic_Faculty_61 is 0.648704
 mode pgibbs: influence compute time (pgibbs): 0.00039 seconds
 influence of links_61_39 on topic_Faculty_61 is -0.0107539
 
-pgibbs sample time: 5.1e-05 seconds
+pgibbs sample time: 5.2e-05 seconds
 probability of topic_Staff_45 is 0.494667
 
-mode pgibbs: influence compute time (pgibbs): 9.5e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 9.7e-05 seconds
 influence of hasword_utexa_45 on topic_Staff_45 is -0.005333
 
-pgibbs sample time: 5e-05 seconds
+pgibbs sample time: 5.7e-05 seconds
 probability of topic_Course_67 is 0.577589
 
-mode pgibbs: influence compute time (pgibbs): 9.7e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 0.000152 seconds
 influence of hasword_robert_67 on topic_Course_67 is 0.0763559
 
 pgibbs sample time: 4.9e-05 seconds
@@ -2633,13 +2633,13 @@ influence of hasword_date_7 on topic_Student_7 is -0.00606229
 pgibbs sample time: 5e-05 seconds
 probability of topic_Course_45 is 0.499943
 
-mode pgibbs: influence compute time (pgibbs): 9.6e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 9.5e-05 seconds
 influence of hasword_utexa_45 on topic_Course_45 is -5.73072e-05
 
-pgibbs sample time: 0.000572 seconds
+pgibbs sample time: 0.00057 seconds
 probability of topic_Department_40 is 0.633638
 
-mode pgibbs: influence compute time (pgibbs): 0.001237 seconds
+mode pgibbs: influence compute time (pgibbs): 0.001126 seconds
 influence of links_43_40 on topic_Department_40 is 0.0184108
 
 pgibbs sample time: 5.1e-05 seconds
@@ -2648,10 +2648,10 @@ probability of topic_Course_79 is 0.46343
 mode pgibbs: influence compute time (pgibbs): 9.6e-05 seconds
 influence of hasword_produc_79 on topic_Course_79 is -0.0364415
 
-pgibbs sample time: 5e-05 seconds
+pgibbs sample time: 4.9e-05 seconds
 probability of topic_Staff_22 is 0.552182
 
-mode pgibbs: influence compute time (pgibbs): 9.5e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 9.4e-05 seconds
 influence of hasword_gener_22 on topic_Staff_22 is 0.051808
 
 pgibbs sample time: 5e-05 seconds
@@ -2663,49 +2663,49 @@ influence of hasword_dec_11 on topic_Course_11 is -0.170429
 pgibbs sample time: 0.000369 seconds
 probability of topic_ResearchProject_21 is 0.5454
 
-mode pgibbs: influence compute time (pgibbs): 0.000726 seconds
+mode pgibbs: influence compute time (pgibbs): 0.000724 seconds
 influence of links_51_113 on topic_ResearchProject_21 is 0.000489965
 
-pgibbs sample time: 0.000318 seconds
+pgibbs sample time: 0.000316 seconds
 probability of topic_Faculty_21 is 0.496669
 
-mode pgibbs: influence compute time (pgibbs): 0.000624 seconds
+mode pgibbs: influence compute time (pgibbs): 0.000621 seconds
 influence of links_51_21 on topic_Faculty_21 is 0.0153504
 
-pgibbs sample time: 5e-05 seconds
+pgibbs sample time: 5.7e-05 seconds
 probability of topic_Person_56 is 0.392505
 
-mode pgibbs: influence compute time (pgibbs): 9.6e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 0.000107 seconds
 influence of hasword_includ_56 on topic_Person_56 is -0.1042
 
-pgibbs sample time: 6.3e-05 seconds
+pgibbs sample time: 6.2e-05 seconds
 probability of topic_Person_55 is 0.470207
 
-mode pgibbs: influence compute time (pgibbs): 0.00012 seconds
+mode pgibbs: influence compute time (pgibbs): 0.000119 seconds
 influence of hasword_softwar_55 on topic_Person_55 is -0.0188167
 
 pgibbs sample time: 0.0002 seconds
 probability of topic_ResearchProject_35 is 0.560039
 
-mode pgibbs: influence compute time (pgibbs): 0.000388 seconds
+mode pgibbs: influence compute time (pgibbs): 0.000389 seconds
 influence of links_22_35 on topic_ResearchProject_35 is 0.0112039
 
-pgibbs sample time: 0.000228 seconds
+pgibbs sample time: 0.000192 seconds
 probability of topic_Person_61 is 0.499062
 
-mode pgibbs: influence compute time (pgibbs): 0.000443 seconds
+mode pgibbs: influence compute time (pgibbs): 0.000371 seconds
 influence of rl on topic_Person_61 is 0.116204
 
-pgibbs sample time: 0.000199 seconds
+pgibbs sample time: 0.000198 seconds
 probability of topic_Department_35 is 0.514794
 
-mode pgibbs: influence compute time (pgibbs): 0.000394 seconds
+mode pgibbs: influence compute time (pgibbs): 0.000387 seconds
 influence of links_22_35 on topic_Department_35 is 0.00789694
 
-pgibbs sample time: 0.000293 seconds
+pgibbs sample time: 0.000292 seconds
 probability of topic_ResearchProject_93 is 0.474466
 
-mode pgibbs: influence compute time (pgibbs): 0.000575 seconds
+mode pgibbs: influence compute time (pgibbs): 0.000573 seconds
 influence of links_71_93 on topic_ResearchProject_93 is 0.0149215
 
 pgibbs sample time: 5.1e-05 seconds
@@ -2717,25 +2717,25 @@ influence of hasword_data_38 on topic_Person_38 is -0.143093
 pgibbs sample time: 4.9e-05 seconds
 probability of topic_Staff_27 is 0.576178
 
-mode pgibbs: influence compute time (pgibbs): 9.2e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 9.1e-05 seconds
 influence of hasword_jan_27 on topic_Staff_27 is 0.0750113
 
-pgibbs sample time: 4.8e-05 seconds
+pgibbs sample time: 4.9e-05 seconds
 probability of topic_Course_52 is 0.435111
 
-mode pgibbs: influence compute time (pgibbs): 9.3e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 9.2e-05 seconds
 influence of hasword_test_52 on topic_Course_52 is -0.0641685
 
-pgibbs sample time: 4.9e-05 seconds
+pgibbs sample time: 4.8e-05 seconds
 probability of topic_Person_70 is 0.366619
 
-mode pgibbs: influence compute time (pgibbs): 9.3e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 9.2e-05 seconds
 influence of hasword_net_70 on topic_Person_70 is -0.127053
 
 pgibbs sample time: 5.2e-05 seconds
 probability of topic_Department_77 is 0.474402
 
-mode pgibbs: influence compute time (pgibbs): 9.8e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 9.7e-05 seconds
 influence of hasword_statem_77 on topic_Department_77 is -0.0255538
 
 pgibbs sample time: 5e-05 seconds
@@ -2750,13 +2750,13 @@ probability of topic_Person_40 is 0.64438
 mode pgibbs: influence compute time (pgibbs): 0.001074 seconds
 influence of links_43_40 on topic_Person_40 is 0.0168559
 
-pgibbs sample time: 0.000191 seconds
+pgibbs sample time: 0.00019 seconds
 probability of topic_Person_22 is 0.392847
 
-mode pgibbs: influence compute time (pgibbs): 0.000372 seconds
+mode pgibbs: influence compute time (pgibbs): 0.00037 seconds
 influence of links_22_35 on topic_Person_22 is -0.0137779
 
-pgibbs sample time: 6.5e-05 seconds
+pgibbs sample time: 6.6e-05 seconds
 probability of topic_Staff_55 is 0.48688
 
 mode pgibbs: influence compute time (pgibbs): 0.000124 seconds
@@ -2765,10 +2765,10 @@ influence of r3031 on topic_Staff_55 is 0.249826
 pgibbs sample time: 5.1e-05 seconds
 probability of topic_Student_15 is 0.50726
 
-mode pgibbs: influence compute time (pgibbs): 0.000102 seconds
+mode pgibbs: influence compute time (pgibbs): 9.6e-05 seconds
 influence of hasword_modifi_15 on topic_Student_15 is 0.00725901
 
-pgibbs sample time: 4.9e-05 seconds
+pgibbs sample time: 5e-05 seconds
 probability of topic_Staff_79 is 0.494994
 
 mode pgibbs: influence compute time (pgibbs): 9.3e-05 seconds
@@ -2777,10 +2777,10 @@ influence of hasword_produc_79 on topic_Staff_79 is -0.00500575
 pgibbs sample time: 5e-05 seconds
 probability of topic_Course_84 is 0.420283
 
-mode pgibbs: influence compute time (pgibbs): 9.6e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 9.5e-05 seconds
 influence of hasword_person_84 on topic_Course_84 is -0.0783795
 
-pgibbs sample time: 5e-05 seconds
+pgibbs sample time: 4.9e-05 seconds
 probability of topic_Course_74 is 0.419524
 
 mode pgibbs: influence compute time (pgibbs): 9.5e-05 seconds
@@ -2789,13 +2789,13 @@ influence of hasword_server_74 on topic_Course_74 is -0.0790993
 pgibbs sample time: 4.9e-05 seconds
 probability of topic_Staff_98 is 0.492361
 
-mode pgibbs: influence compute time (pgibbs): 9.3e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 9.2e-05 seconds
 influence of hasword_nov_98 on topic_Staff_98 is -0.00763811
 
-pgibbs sample time: 5e-05 seconds
+pgibbs sample time: 5.1e-05 seconds
 probability of topic_Student_36 is 0.570691
 
-mode pgibbs: influence compute time (pgibbs): 9.6e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 9.7e-05 seconds
 influence of hasword_system_36 on topic_Student_36 is 0.0697596
 
 pgibbs sample time: 5.1e-05 seconds
@@ -2804,34 +2804,34 @@ probability of topic_ResearchProject_74 is 0.435576
 mode pgibbs: influence compute time (pgibbs): 9.7e-05 seconds
 influence of hasword_server_74 on topic_ResearchProject_74 is -0.0637191
 
-pgibbs sample time: 5e-05 seconds
+pgibbs sample time: 5.1e-05 seconds
 probability of topic_Student_14 is 0.602305
 
-mode pgibbs: influence compute time (pgibbs): 9.8e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 9.7e-05 seconds
 influence of hasword_scienc_14 on topic_Student_14 is 0.0994675
 
-pgibbs sample time: 0.000202 seconds
+pgibbs sample time: 0.000214 seconds
 probability of topic_Student_61 is 0.400758
 
-mode pgibbs: influence compute time (pgibbs): 0.000397 seconds
+mode pgibbs: influence compute time (pgibbs): 0.000421 seconds
 influence of links_61_39 on topic_Student_61 is -0.00899542
 
-pgibbs sample time: 5e-05 seconds
+pgibbs sample time: 5.2e-05 seconds
 probability of topic_Staff_57 is 0.479842
 
-mode pgibbs: influence compute time (pgibbs): 9.8e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 0.0001 seconds
 influence of hasword_separ_57 on topic_Staff_57 is -0.0201368
 
-pgibbs sample time: 0.000373 seconds
+pgibbs sample time: 0.000374 seconds
 probability of topic_Student_51 is 0.501729
 
 mode pgibbs: influence compute time (pgibbs): 0.000733 seconds
 influence of links_51_21 on topic_Student_51 is -0.0137398
 
-pgibbs sample time: 0.000203 seconds
+pgibbs sample time: 0.000202 seconds
 probability of topic_Student_39 is 0.32077
 
-mode pgibbs: influence compute time (pgibbs): 0.000396 seconds
+mode pgibbs: influence compute time (pgibbs): 0.000395 seconds
 influence of links_61_39 on topic_Student_39 is 0.0147946
 
 pgibbs sample time: 5.1e-05 seconds
@@ -2840,28 +2840,28 @@ probability of topic_Person_36 is 0.56344
 mode pgibbs: influence compute time (pgibbs): 9.5e-05 seconds
 influence of hasword_system_36 on topic_Person_36 is 0.0627671
 
-pgibbs sample time: 4.9e-05 seconds
+pgibbs sample time: 5.2e-05 seconds
 probability of topic_Course_14 is 0.523905
 
 mode pgibbs: influence compute time (pgibbs): 9.4e-05 seconds
 influence of hasword_scienc_14 on topic_Course_14 is 0.0238688
 
-pgibbs sample time: 0.000198 seconds
+pgibbs sample time: 0.000199 seconds
 probability of topic_ResearchProject_19 is 0.503998
 
-mode pgibbs: influence compute time (pgibbs): 0.000387 seconds
+mode pgibbs: influence compute time (pgibbs): 0.000386 seconds
 influence of links_33_19 on topic_ResearchProject_19 is 0.0202249
 
 pgibbs sample time: 0.000222 seconds
 probability of topic_Person_44 is 0.535426
 
-mode pgibbs: influence compute time (pgibbs): 0.000431 seconds
+mode pgibbs: influence compute time (pgibbs): 0.00043 seconds
 influence of links_44_124 on topic_Person_44 is -0.013773
 
-pgibbs sample time: 0.0002 seconds
+pgibbs sample time: 0.000199 seconds
 probability of topic_Faculty_124 is 0.476697
 
-mode pgibbs: influence compute time (pgibbs): 0.00039 seconds
+mode pgibbs: influence compute time (pgibbs): 0.000389 seconds
 influence of links_44_124 on topic_Faculty_124 is 0.0152244
 
 pgibbs sample time: 0.00022 seconds
@@ -2870,16 +2870,16 @@ probability of topic_Person_124 is 0.482645
 mode pgibbs: influence compute time (pgibbs): 0.00043 seconds
 influence of links_44_124 on topic_Person_124 is 0.0133342
 
-pgibbs sample time: 5.1e-05 seconds
+pgibbs sample time: 5.8e-05 seconds
 probability of topic_Student_23 is 0.527927
 
-mode pgibbs: influence compute time (pgibbs): 9.5e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 0.000108 seconds
 influence of hasword_texa_23 on topic_Student_23 is 0.0278699
 
 pgibbs sample time: 0.000247 seconds
 probability of topic_Person_71 is 0.500613
 
-mode pgibbs: influence compute time (pgibbs): 0.000486 seconds
+mode pgibbs: influence compute time (pgibbs): 0.000484 seconds
 influence of links_93_71 on topic_Person_71 is 0.0150878
 
 pgibbs sample time: 5.2e-05 seconds
@@ -2888,61 +2888,61 @@ probability of topic_Student_17 is 0.298945
 mode pgibbs: influence compute time (pgibbs): 9.8e-05 seconds
 influence of hasword_materi_17 on topic_Student_17 is -0.178933
 
-pgibbs sample time: 4.9e-05 seconds
+pgibbs sample time: 5e-05 seconds
 probability of topic_Course_41 is 0.404836
 
 mode pgibbs: influence compute time (pgibbs): 9.5e-05 seconds
 influence of hasword_interest_41 on topic_Course_41 is -0.0928824
 
-pgibbs sample time: 5e-05 seconds
+pgibbs sample time: 5.1e-05 seconds
 probability of topic_Staff_32 is 0.59457
 
-mode pgibbs: influence compute time (pgibbs): 9.6e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 9.5e-05 seconds
 influence of hasword_softwar_32 on topic_Staff_32 is 0.0923317
 
-pgibbs sample time: 5e-05 seconds
+pgibbs sample time: 5.7e-05 seconds
 probability of topic_Faculty_3 is 0.541141
 
-mode pgibbs: influence compute time (pgibbs): 9.6e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 0.000136 seconds
 influence of hasword_algorithm_3 on topic_Faculty_3 is 0.0409581
 
 pgibbs sample time: 5.1e-05 seconds
 probability of topic_Student_11 is 0.0545471
 
-mode pgibbs: influence compute time (pgibbs): 9.7e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 9.6e-05 seconds
 influence of hasword_dec_11 on topic_Student_11 is -0.148997
 
 pgibbs sample time: 5.1e-05 seconds
 probability of topic_Faculty_63 is 0.489816
 
-mode pgibbs: influence compute time (pgibbs): 9.6e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 9.8e-05 seconds
 influence of hasword_jan_63 on topic_Faculty_63 is -0.0101812
 
 pgibbs sample time: 5.1e-05 seconds
 probability of topic_Faculty_69 is 0.401374
 
-mode pgibbs: influence compute time (pgibbs): 9.8e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 9.7e-05 seconds
 influence of hasword_server_69 on topic_Faculty_69 is -0.0960854
 
 pgibbs sample time: 5.1e-05 seconds
 probability of topic_ResearchProject_48 is 0.374853
 
-mode pgibbs: influence compute time (pgibbs): 0.000101 seconds
+mode pgibbs: influence compute time (pgibbs): 9.7e-05 seconds
 influence of hasword_apr_48 on topic_ResearchProject_48 is -0.119929
 
-pgibbs sample time: 5e-05 seconds
+pgibbs sample time: 5.1e-05 seconds
 probability of topic_Faculty_87 is 0.504936
 
-mode pgibbs: influence compute time (pgibbs): 9.7e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 9.6e-05 seconds
 influence of hasword_year_87 on topic_Faculty_87 is 0.00493587
 
-pgibbs sample time: 5.1e-05 seconds
+pgibbs sample time: 5.2e-05 seconds
 probability of topic_ResearchProject_41 is 0.379861
 
-mode pgibbs: influence compute time (pgibbs): 9.9e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 9.7e-05 seconds
 influence of hasword_interest_41 on topic_ResearchProject_41 is -0.115528
 
-pgibbs sample time: 4.9e-05 seconds
+pgibbs sample time: 4.8e-05 seconds
 probability of topic_Person_7 is 0.498179
 
 mode pgibbs: influence compute time (pgibbs): 9.2e-05 seconds
@@ -2951,46 +2951,46 @@ influence of hasword_date_7 on topic_Person_7 is -0.00182059
 pgibbs sample time: 5.2e-05 seconds
 probability of topic_Student_28 is 0.493937
 
-mode pgibbs: influence compute time (pgibbs): 9.7e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 9.6e-05 seconds
 influence of hasword_gmt_28 on topic_Student_28 is -0.00606229
 
 pgibbs sample time: 0.000196 seconds
 probability of topic_Person_34 is 0.414641
 
-mode pgibbs: influence compute time (pgibbs): 0.000379 seconds
+mode pgibbs: influence compute time (pgibbs): 0.00038 seconds
 influence of links_34_119 on topic_Person_34 is -0.0134417
 
-pgibbs sample time: 0.000195 seconds
+pgibbs sample time: 0.000194 seconds
 probability of topic_Person_119 is 0.479393
 
-mode pgibbs: influence compute time (pgibbs): 0.000379 seconds
+mode pgibbs: influence compute time (pgibbs): 0.000419 seconds
 influence of links_34_119 on topic_Person_119 is 0.0166847
 
-pgibbs sample time: 0.000221 seconds
+pgibbs sample time: 0.000222 seconds
 probability of topic_Course_124 is 0.492499
 
 mode pgibbs: influence compute time (pgibbs): 0.000435 seconds
 influence of links_44_124 on topic_Course_124 is 0.0195871
 
-pgibbs sample time: 5e-05 seconds
+pgibbs sample time: 4.9e-05 seconds
 probability of topic_Staff_77 is 0.474394
 
 mode pgibbs: influence compute time (pgibbs): 9.4e-05 seconds
 influence of hasword_statem_77 on topic_Staff_77 is -0.0255617
 
-pgibbs sample time: 4.9e-05 seconds
+pgibbs sample time: 5e-05 seconds
 probability of topic_Person_82 is 0.589601
 
-mode pgibbs: influence compute time (pgibbs): 9.3e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 9.2e-05 seconds
 influence of hasword_kei_82 on topic_Person_82 is 0.0876988
 
 pgibbs sample time: 6.5e-05 seconds
 probability of topic_Faculty_55 is 0.340902
 
-mode pgibbs: influence compute time (pgibbs): 0.000128 seconds
+mode pgibbs: influence compute time (pgibbs): 0.000123 seconds
 influence of hasword_modifi_55 on topic_Faculty_55 is -0.0635231
 
-pgibbs sample time: 0.000189 seconds
+pgibbs sample time: 0.000256 seconds
 probability of topic_Course_39 is 0.65972
 
 mode pgibbs: influence compute time (pgibbs): 0.00037 seconds
@@ -3008,40 +3008,40 @@ probability of topic_ResearchProject_63 is 0.462699
 mode pgibbs: influence compute time (pgibbs): 9.5e-05 seconds
 influence of hasword_jan_63 on topic_ResearchProject_63 is -0.0371648
 
-pgibbs sample time: 5e-05 seconds
+pgibbs sample time: 4.9e-05 seconds
 probability of topic_Staff_60 is 0.412752
 
-mode pgibbs: influence compute time (pgibbs): 9.5e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 9.4e-05 seconds
 influence of hasword_mime_60 on topic_Staff_60 is -0.0854922
 
-pgibbs sample time: 5.1e-05 seconds
+pgibbs sample time: 5e-05 seconds
 probability of topic_Course_57 is 0.52745
 
-mode pgibbs: influence compute time (pgibbs): 9.6e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 9.5e-05 seconds
 influence of hasword_separ_57 on topic_Course_57 is 0.0273958
 
-pgibbs sample time: 5e-05 seconds
+pgibbs sample time: 4.9e-05 seconds
 probability of topic_Course_63 is 0.47654
 
-mode pgibbs: influence compute time (pgibbs): 9.4e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 9.7e-05 seconds
 influence of hasword_jan_63 on topic_Course_63 is -0.0234264
 
-pgibbs sample time: 0.000292 seconds
+pgibbs sample time: 0.000291 seconds
 probability of topic_Student_46 is 0.492171
 
-mode pgibbs: influence compute time (pgibbs): 0.000575 seconds
+mode pgibbs: influence compute time (pgibbs): 0.000573 seconds
 influence of hasword_type_46 on topic_Student_46 is -0.0124576
 
 pgibbs sample time: 5.2e-05 seconds
 probability of topic_Department_85 is 0.429697
 
-mode pgibbs: influence compute time (pgibbs): 9.9e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 9.7e-05 seconds
 influence of hasword_mime_85 on topic_Department_85 is -0.0693861
 
 pgibbs sample time: 5e-05 seconds
 probability of topic_Person_98 is 0.713581
 
-mode pgibbs: influence compute time (pgibbs): 9.4e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 9.3e-05 seconds
 influence of hasword_nov_98 on topic_Person_98 is 0.186932
 
 pgibbs sample time: 0.00023 seconds
@@ -3050,55 +3050,55 @@ probability of topic_Department_12 is 0.493154
 mode pgibbs: influence compute time (pgibbs): 0.000486 seconds
 influence of rl on topic_Department_12 is -0.169322
 
-pgibbs sample time: 5.1e-05 seconds
+pgibbs sample time: 5e-05 seconds
 probability of topic_Course_69 is 0.419524
 
 mode pgibbs: influence compute time (pgibbs): 9.6e-05 seconds
 influence of hasword_server_69 on topic_Course_69 is -0.0790993
 
-pgibbs sample time: 4.9e-05 seconds
+pgibbs sample time: 4.8e-05 seconds
 probability of topic_Staff_63 is 0.576178
 
-mode pgibbs: influence compute time (pgibbs): 9.3e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 9.2e-05 seconds
 influence of hasword_jan_63 on topic_Staff_63 is 0.0750113
 
-pgibbs sample time: 4.9e-05 seconds
+pgibbs sample time: 4.8e-05 seconds
 probability of topic_Staff_30 is 0.501153
 
-mode pgibbs: influence compute time (pgibbs): 9.5e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 9.6e-05 seconds
 influence of hasword_tree_30 on topic_Staff_30 is 0.0011532
 
-pgibbs sample time: 0.000236 seconds
+pgibbs sample time: 0.0002 seconds
 probability of topic_Student_128 is 0.525097
 
-mode pgibbs: influence compute time (pgibbs): 0.00045 seconds
+mode pgibbs: influence compute time (pgibbs): 0.000388 seconds
 influence of rl on topic_Student_128 is -0.125384
 
-pgibbs sample time: 0.000571 seconds
+pgibbs sample time: 0.000569 seconds
 probability of topic_Faculty_88 is 0.44728
 
-mode pgibbs: influence compute time (pgibbs): 0.001125 seconds
+mode pgibbs: influence compute time (pgibbs): 0.00116 seconds
 influence of links_43_40 on topic_Faculty_88 is 0.000456726
 
 pgibbs sample time: 6.7e-05 seconds
 probability of topic_Faculty_83 is 0.518471
 
-mode pgibbs: influence compute time (pgibbs): 0.000127 seconds
+mode pgibbs: influence compute time (pgibbs): 0.000126 seconds
 influence of hasword_offic_83 on topic_Faculty_83 is -0.0457217
 
-pgibbs sample time: 5.2e-05 seconds
+pgibbs sample time: 5.1e-05 seconds
 probability of topic_Department_84 is 0.557287
 
-mode pgibbs: influence compute time (pgibbs): 9.9e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 9.8e-05 seconds
 influence of hasword_person_84 on topic_Department_84 is 0.0567914
 
 pgibbs sample time: 0.000288 seconds
 probability of topic_Student_71 is 0.526554
 
-mode pgibbs: influence compute time (pgibbs): 0.000572 seconds
+mode pgibbs: influence compute time (pgibbs): 0.000573 seconds
 influence of links_93_71 on topic_Student_71 is 0.014618
 
-pgibbs sample time: 5.3e-05 seconds
+pgibbs sample time: 5.2e-05 seconds
 probability of topic_Faculty_92 is 0.40832
 
 mode pgibbs: influence compute time (pgibbs): 9.9e-05 seconds
@@ -3107,31 +3107,31 @@ influence of hasword_back_92 on topic_Faculty_92 is -0.0896413
 pgibbs sample time: 0.00059 seconds
 probability of topic_Student_68 is 0.503254
 
-mode pgibbs: influence compute time (pgibbs): 0.001168 seconds
+mode pgibbs: influence compute time (pgibbs): 0.001167 seconds
 influence of links_43_40 on topic_Student_68 is 0.000487281
 
-pgibbs sample time: 6.3e-05 seconds
+pgibbs sample time: 6.4e-05 seconds
 probability of topic_Course_9 is 0.462346
 
-mode pgibbs: influence compute time (pgibbs): 0.000121 seconds
+mode pgibbs: influence compute time (pgibbs): 0.00012 seconds
 influence of hasword_facil_9 on topic_Course_9 is 0.0186937
 
-pgibbs sample time: 6.1e-05 seconds
+pgibbs sample time: 6.2e-05 seconds
 probability of topic_Person_49 is 0.737925
 
 mode pgibbs: influence compute time (pgibbs): 0.000116 seconds
 influence of hasword_home_49 on topic_Person_49 is 0.163319
 
-pgibbs sample time: 0.000216 seconds
+pgibbs sample time: 0.000215 seconds
 probability of topic_Person_12 is 0.452042
 
-mode pgibbs: influence compute time (pgibbs): 0.000427 seconds
+mode pgibbs: influence compute time (pgibbs): 0.000426 seconds
 influence of links_47_12 on topic_Person_12 is 0.0149238
 
-pgibbs sample time: 5.1e-05 seconds
+pgibbs sample time: 5e-05 seconds
 probability of topic_Student_3 is 0.439683
 
-mode pgibbs: influence compute time (pgibbs): 9.7e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 9.6e-05 seconds
 influence of hasword_algorithm_3 on topic_Student_3 is -0.0597384
 
 pgibbs sample time: 5.2e-05 seconds
@@ -3140,10 +3140,10 @@ probability of topic_Faculty_14 is 0.62985
 mode pgibbs: influence compute time (pgibbs): 9.8e-05 seconds
 influence of hasword_scienc_14 on topic_Faculty_14 is 0.124016
 
-pgibbs sample time: 4.9e-05 seconds
+pgibbs sample time: 5e-05 seconds
 probability of topic_Person_72 is 0.485746
 
-mode pgibbs: influence compute time (pgibbs): 9.7e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 9.9e-05 seconds
 influence of hasword_graduat_72 on topic_Person_72 is -0.014246
 
 pgibbs sample time: 6.6e-05 seconds
@@ -3155,7 +3155,7 @@ influence of hasword_effici_31 on topic_Student_31 is 0.154989
 pgibbs sample time: 5.1e-05 seconds
 probability of topic_ResearchProject_36 is 0.403352
 
-mode pgibbs: influence compute time (pgibbs): 9.8e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 9.6e-05 seconds
 influence of hasword_system_36 on topic_ResearchProject_36 is -0.0942579
 
 pgibbs sample time: 5e-05 seconds
@@ -3164,16 +3164,16 @@ probability of topic_Department_30 is 0.495797
 mode pgibbs: influence compute time (pgibbs): 9.5e-05 seconds
 influence of hasword_tree_30 on topic_Department_30 is -0.00420323
 
-pgibbs sample time: 5.2e-05 seconds
+pgibbs sample time: 5.1e-05 seconds
 probability of topic_Faculty_45 is 0.499912
 
-mode pgibbs: influence compute time (pgibbs): 9.8e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 9.9e-05 seconds
 influence of hasword_utexa_45 on topic_Faculty_45 is -8.8213e-05
 
 pgibbs sample time: 5e-05 seconds
 probability of topic_Department_23 is 0.442131
 
-mode pgibbs: influence compute time (pgibbs): 9.6e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 9.5e-05 seconds
 influence of hasword_texa_23 on topic_Department_23 is -0.0573588
 
 pgibbs sample time: 6.4e-05 seconds
@@ -3182,19 +3182,19 @@ probability of topic_Student_73 is 0.432723
 mode pgibbs: influence compute time (pgibbs): 0.000124 seconds
 influence of hasword_group_73 on topic_Student_73 is -0.0542708
 
-pgibbs sample time: 5.2e-05 seconds
+pgibbs sample time: 5.1e-05 seconds
 probability of topic_Student_54 is 0.386345
 
-mode pgibbs: influence compute time (pgibbs): 9.8e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 9.7e-05 seconds
 influence of hasword_syllabu_54 on topic_Student_54 is -0.109756
 
-pgibbs sample time: 5.1e-05 seconds
+pgibbs sample time: 5e-05 seconds
 probability of topic_ResearchProject_13 is 0.522631
 
-mode pgibbs: influence compute time (pgibbs): 9.7e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 9.6e-05 seconds
 influence of hasword_develop_13 on topic_ResearchProject_13 is 0.0226009
 
-pgibbs sample time: 4.9e-05 seconds
+pgibbs sample time: 5e-05 seconds
 probability of topic_Staff_82 is 0.536626
 
 mode pgibbs: influence compute time (pgibbs): 9.4e-05 seconds
@@ -3203,25 +3203,25 @@ influence of hasword_kei_82 on topic_Staff_82 is 0.0364968
 pgibbs sample time: 5e-05 seconds
 probability of topic_Person_41 is 0.796164
 
-mode pgibbs: influence compute time (pgibbs): 9.7e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 9.6e-05 seconds
 influence of hasword_interest_41 on topic_Person_41 is 0.222007
 
-pgibbs sample time: 5e-05 seconds
+pgibbs sample time: 4.9e-05 seconds
 probability of topic_Faculty_4 is 0.531785
 
-mode pgibbs: influence compute time (pgibbs): 9.3e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 9.4e-05 seconds
 influence of hasword_represent_4 on topic_Faculty_4 is 0.0317007
 
-pgibbs sample time: 0.000336 seconds
+pgibbs sample time: 0.000288 seconds
 probability of topic_Faculty_46 is 0.399612
 
-mode pgibbs: influence compute time (pgibbs): 0.000622 seconds
+mode pgibbs: influence compute time (pgibbs): 0.000571 seconds
 influence of links_59_46 on topic_Faculty_46 is 0.0121247
 
 pgibbs sample time: 5.2e-05 seconds
 probability of topic_Faculty_37 is 0.469554
 
-mode pgibbs: influence compute time (pgibbs): 9.9e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 9.8e-05 seconds
 influence of hasword_austin_37 on topic_Faculty_37 is -0.0303721
 
 pgibbs sample time: 6.4e-05 seconds
@@ -3233,91 +3233,91 @@ influence of hasword_sequenc_31 on topic_Course_31 is -0.0351873
 pgibbs sample time: 5e-05 seconds
 probability of topic_Department_69 is 0.477077
 
-mode pgibbs: influence compute time (pgibbs): 9.8e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 0.000101 seconds
 influence of hasword_server_69 on topic_Department_69 is -0.0228915
 
-pgibbs sample time: 5.1e-05 seconds
+pgibbs sample time: 5e-05 seconds
 probability of topic_Department_87 is 0.366359
 
-mode pgibbs: influence compute time (pgibbs): 9.8e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 9.7e-05 seconds
 influence of hasword_year_87 on topic_Department_87 is -0.127275
 
-pgibbs sample time: 0.000295 seconds
+pgibbs sample time: 0.000225 seconds
 probability of topic_Course_44 is 0.310345
 
-mode pgibbs: influence compute time (pgibbs): 0.000431 seconds
+mode pgibbs: influence compute time (pgibbs): 0.000433 seconds
 influence of links_44_124 on topic_Course_44 is -0.0122359
 
 pgibbs sample time: 0.000292 seconds
 probability of topic_Course_108 is 0.423673
 
-mode pgibbs: influence compute time (pgibbs): 0.000573 seconds
+mode pgibbs: influence compute time (pgibbs): 0.000571 seconds
 influence of links_94_108 on topic_Course_108 is 0.016385
 
-pgibbs sample time: 5.1e-05 seconds
+pgibbs sample time: 5.5e-05 seconds
 probability of topic_Department_33 is 0.643413
 
 mode pgibbs: influence compute time (pgibbs): 9.7e-05 seconds
 influence of hasword_home_33 on topic_Department_33 is 0.135527
 
-pgibbs sample time: 0.000203 seconds
+pgibbs sample time: 0.000202 seconds
 probability of topic_Faculty_33 is 0.457887
 
-mode pgibbs: influence compute time (pgibbs): 0.000396 seconds
+mode pgibbs: influence compute time (pgibbs): 0.000394 seconds
 influence of links_33_19 on topic_Faculty_33 is -0.0141082
 
 pgibbs sample time: 5.2e-05 seconds
 probability of topic_Student_62 is 0.501822
 
-mode pgibbs: influence compute time (pgibbs): 9.8e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 9.7e-05 seconds
 influence of hasword_length_62 on topic_Student_62 is 0.00182246
 
-pgibbs sample time: 5.1e-05 seconds
+pgibbs sample time: 5e-05 seconds
 probability of topic_Course_76 is 0.467894
 
 mode pgibbs: influence compute time (pgibbs): 9.5e-05 seconds
 influence of hasword_onlin_76 on topic_Course_76 is -0.0320193
 
-pgibbs sample time: 0.000331 seconds
+pgibbs sample time: 0.00033 seconds
 probability of topic_Course_20 is 0.483217
 
-mode pgibbs: influence compute time (pgibbs): 0.000652 seconds
+mode pgibbs: influence compute time (pgibbs): 0.000764 seconds
 influence of links_20_102 on topic_Course_20 is -0.0171656
 
 pgibbs sample time: 5.1e-05 seconds
 probability of topic_Course_42 is 0.523905
 
-mode pgibbs: influence compute time (pgibbs): 9.5e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 9.3e-05 seconds
 influence of hasword_scienc_42 on topic_Course_42 is 0.0238688
 
-pgibbs sample time: 0.000201 seconds
+pgibbs sample time: 0.0002 seconds
 probability of topic_Faculty_119 is 0.484191
 
-mode pgibbs: influence compute time (pgibbs): 0.00039 seconds
+mode pgibbs: influence compute time (pgibbs): 0.000389 seconds
 influence of links_34_119 on topic_Faculty_119 is 0.0150384
 
-pgibbs sample time: 0.000242 seconds
+pgibbs sample time: 0.00019 seconds
 probability of topic_Staff_34 is 0.480365
 
-mode pgibbs: influence compute time (pgibbs): 0.000413 seconds
+mode pgibbs: influence compute time (pgibbs): 0.000369 seconds
 influence of links_34_119 on topic_Staff_34 is -0.013973
 
 pgibbs sample time: 5.1e-05 seconds
 probability of topic_Faculty_86 is 0.413153
 
-mode pgibbs: influence compute time (pgibbs): 0.000101 seconds
+mode pgibbs: influence compute time (pgibbs): 9.7e-05 seconds
 influence of hasword_version_86 on topic_Faculty_86 is -0.0851156
 
-pgibbs sample time: 0.00019 seconds
+pgibbs sample time: 0.000191 seconds
 probability of topic_Staff_119 is 0.486544
 
 mode pgibbs: influence compute time (pgibbs): 0.000369 seconds
 influence of links_34_119 on topic_Staff_119 is 0.0148822
 
-pgibbs sample time: 0.000187 seconds
+pgibbs sample time: 0.000188 seconds
 probability of topic_Person_78 is 0.686653
 
-mode pgibbs: influence compute time (pgibbs): 0.000365 seconds
+mode pgibbs: influence compute time (pgibbs): 0.000364 seconds
 influence of links_78_90 on topic_Person_78 is -0.012756
 
 pgibbs sample time: 5.1e-05 seconds
@@ -3326,13 +3326,13 @@ probability of topic_ResearchProject_10 is 0.462699
 mode pgibbs: influence compute time (pgibbs): 9.6e-05 seconds
 influence of hasword_jan_10 on topic_ResearchProject_10 is -0.0371648
 
-pgibbs sample time: 0.000549 seconds
+pgibbs sample time: 0.000548 seconds
 probability of topic_Course_40 is 0.568817
 
 mode pgibbs: influence compute time (pgibbs): 0.001075 seconds
 influence of links_43_40 on topic_Course_40 is 0.020056
 
-pgibbs sample time: 5e-05 seconds
+pgibbs sample time: 5.1e-05 seconds
 probability of topic_Student_80 is 0.501701
 
 mode pgibbs: influence compute time (pgibbs): 9.6e-05 seconds
@@ -3341,43 +3341,43 @@ influence of hasword_task_80 on topic_Student_80 is 0.00170105
 pgibbs sample time: 0.000199 seconds
 probability of topic_Faculty_39 is 0.412909
 
-mode pgibbs: influence compute time (pgibbs): 0.000391 seconds
+mode pgibbs: influence compute time (pgibbs): 0.00039 seconds
 influence of links_61_39 on topic_Faculty_39 is 0.00979762
 
-pgibbs sample time: 5.1e-05 seconds
+pgibbs sample time: 5.2e-05 seconds
 probability of topic_Faculty_25 is 0.489816
 
-mode pgibbs: influence compute time (pgibbs): 9.6e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 9.7e-05 seconds
 influence of hasword_jan_25 on topic_Faculty_25 is -0.0101812
 
-pgibbs sample time: 0.000375 seconds
+pgibbs sample time: 0.000331 seconds
 probability of topic_Person_18 is 0.488479
 
 mode pgibbs: influence compute time (pgibbs): 0.000647 seconds
 influence of links_20_102 on topic_Person_18 is -0.000396881
 
-pgibbs sample time: 0.000569 seconds
+pgibbs sample time: 0.000571 seconds
 probability of topic_Faculty_40 is 0.588634
 
-mode pgibbs: influence compute time (pgibbs): 0.001125 seconds
+mode pgibbs: influence compute time (pgibbs): 0.001237 seconds
 influence of links_43_40 on topic_Faculty_40 is 0.0159254
 
 pgibbs sample time: 0.000198 seconds
 probability of topic_Faculty_90 is 0.59117
 
-mode pgibbs: influence compute time (pgibbs): 0.000387 seconds
+mode pgibbs: influence compute time (pgibbs): 0.000386 seconds
 influence of links_78_90 on topic_Faculty_90 is 0.0151536
 
 pgibbs sample time: 4.9e-05 seconds
 probability of topic_Course_30 is 0.576832
 
-mode pgibbs: influence compute time (pgibbs): 9.3e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 9.2e-05 seconds
 influence of hasword_tree_30 on topic_Course_30 is 0.0756343
 
-pgibbs sample time: 5.8e-05 seconds
+pgibbs sample time: 5.1e-05 seconds
 probability of topic_Faculty_29 is 0.662028
 
-mode pgibbs: influence compute time (pgibbs): 0.000125 seconds
+mode pgibbs: influence compute time (pgibbs): 9.8e-05 seconds
 influence of hasword_depart_29 on topic_Faculty_29 is 0.150599
 
 pgibbs sample time: 5e-05 seconds
@@ -3392,31 +3392,31 @@ probability of topic_Student_87 is 0.629144
 mode pgibbs: influence compute time (pgibbs): 9.6e-05 seconds
 influence of hasword_year_87 on topic_Student_87 is 0.123406
 
-pgibbs sample time: 0.000199 seconds
+pgibbs sample time: 0.000198 seconds
 probability of topic_Faculty_78 is 0.455183
 
-mode pgibbs: influence compute time (pgibbs): 0.000386 seconds
+mode pgibbs: influence compute time (pgibbs): 0.000387 seconds
 influence of links_78_90 on topic_Faculty_78 is -0.0167873
 
 pgibbs sample time: 5.2e-05 seconds
 probability of topic_Department_5 is 0.481264
 
-mode pgibbs: influence compute time (pgibbs): 9.9e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 9.8e-05 seconds
 influence of hasword_html_5 on topic_Department_5 is -0.0187186
 
-pgibbs sample time: 7.3e-05 seconds
+pgibbs sample time: 6.5e-05 seconds
 probability of topic_Department_83 is 0.413138
 
-mode pgibbs: influence compute time (pgibbs): 0.000146 seconds
+mode pgibbs: influence compute time (pgibbs): 0.000122 seconds
 influence of hasword_offic_83 on topic_Department_83 is -0.068839
 
-pgibbs sample time: 5e-05 seconds
+pgibbs sample time: 5.1e-05 seconds
 probability of topic_Person_32 is 0.481126
 
 mode pgibbs: influence compute time (pgibbs): 9.7e-05 seconds
 influence of hasword_softwar_32 on topic_Person_32 is -0.0188566
 
-pgibbs sample time: 0.000216 seconds
+pgibbs sample time: 0.000215 seconds
 probability of topic_Staff_26 is 0.430176
 
 mode pgibbs: influence compute time (pgibbs): 0.000418 seconds
@@ -3431,19 +3431,19 @@ influence of hasword_materi_17 on topic_ResearchProject_17 is -0.0205957
 pgibbs sample time: 0.000198 seconds
 probability of topic_Faculty_22 is 0.373109
 
-mode pgibbs: influence compute time (pgibbs): 0.000387 seconds
+mode pgibbs: influence compute time (pgibbs): 0.000389 seconds
 influence of links_22_35 on topic_Faculty_22 is -0.0161594
 
-pgibbs sample time: 0.000228 seconds
+pgibbs sample time: 0.000226 seconds
 probability of topic_Student_47 is 0.455797
 
-mode pgibbs: influence compute time (pgibbs): 0.000444 seconds
+mode pgibbs: influence compute time (pgibbs): 0.000443 seconds
 influence of links_47_12 on topic_Student_47 is -0.014318
 
-pgibbs sample time: 0.000294 seconds
+pgibbs sample time: 0.000293 seconds
 probability of topic_Faculty_94 is 0.406817
 
-mode pgibbs: influence compute time (pgibbs): 0.000577 seconds
+mode pgibbs: influence compute time (pgibbs): 0.000657 seconds
 influence of links_94_108 on topic_Faculty_94 is -0.0118426
 
 pgibbs sample time: 5.1e-05 seconds
@@ -3455,10 +3455,10 @@ influence of hasword_utexa_45 on topic_ResearchProject_45 is -0.00038101
 pgibbs sample time: 5e-05 seconds
 probability of topic_Person_96 is 0.557225
 
-mode pgibbs: influence compute time (pgibbs): 9.5e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 9.4e-05 seconds
 influence of hasword_oct_96 on topic_Person_96 is 0.0567313
 
-pgibbs sample time: 5e-05 seconds
+pgibbs sample time: 5.1e-05 seconds
 probability of topic_Course_73 is 0.419524
 
 mode pgibbs: influence compute time (pgibbs): 9.7e-05 seconds
@@ -3467,13 +3467,13 @@ influence of hasword_server_73 on topic_Course_73 is -0.0790993
 pgibbs sample time: 0.000366 seconds
 probability of topic_Person_51 is 0.485804
 
-mode pgibbs: influence compute time (pgibbs): 0.000716 seconds
+mode pgibbs: influence compute time (pgibbs): 0.000718 seconds
 influence of links_51_21 on topic_Person_51 is -0.0114985
 
-pgibbs sample time: 0.000365 seconds
+pgibbs sample time: 0.000366 seconds
 probability of topic_Person_113 is 0.324542
 
-mode pgibbs: influence compute time (pgibbs): 0.000717 seconds
+mode pgibbs: influence compute time (pgibbs): 0.000716 seconds
 influence of links_51_21 on topic_Person_113 is 0.00028148
 
 pgibbs sample time: 5.2e-05 seconds
@@ -3485,28 +3485,28 @@ influence of hasword_link_97 on topic_Faculty_97 is -0.0168895
 pgibbs sample time: 5.1e-05 seconds
 probability of topic_Department_6 is 0.480109
 
-mode pgibbs: influence compute time (pgibbs): 9.8e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 9.7e-05 seconds
 influence of hasword_date_6 on topic_Department_6 is -0.0198703
 
-pgibbs sample time: 5e-05 seconds
+pgibbs sample time: 5.1e-05 seconds
 probability of topic_Department_91 is 0.42341
 
-mode pgibbs: influence compute time (pgibbs): 9.7e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 9.6e-05 seconds
 influence of hasword_due_91 on topic_Department_91 is -0.0754039
 
 pgibbs sample time: 0.000201 seconds
 probability of topic_Student_78 is 0.689378
 
-mode pgibbs: influence compute time (pgibbs): 0.000393 seconds
+mode pgibbs: influence compute time (pgibbs): 0.000391 seconds
 influence of hasword_www_90 on topic_Student_78 is 0.000392828
 
-pgibbs sample time: 4.9e-05 seconds
+pgibbs sample time: 5e-05 seconds
 probability of topic_Person_65 is 0.524409
 
-mode pgibbs: influence compute time (pgibbs): 9.3e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 9.4e-05 seconds
 influence of hasword_high_65 on topic_Person_65 is 0.0243704
 
-pgibbs sample time: 5.1e-05 seconds
+pgibbs sample time: 5.2e-05 seconds
 probability of topic_Staff_3 is 0.465986
 
 mode pgibbs: influence compute time (pgibbs): 9.8e-05 seconds
@@ -3518,28 +3518,28 @@ probability of topic_Course_128 is 0.50823
 mode pgibbs: influence compute time (pgibbs): 0.00038 seconds
 influence of rl on topic_Course_128 is -0.15409
 
-pgibbs sample time: 0.000562 seconds
+pgibbs sample time: 0.00056 seconds
 probability of topic_Staff_43 is 0.358358
 
-mode pgibbs: influence compute time (pgibbs): 0.001107 seconds
+mode pgibbs: influence compute time (pgibbs): 0.001106 seconds
 influence of links_43_68 on topic_Staff_43 is -0.0120507
 
-pgibbs sample time: 5.1e-05 seconds
+pgibbs sample time: 5.2e-05 seconds
 probability of topic_Department_65 is 0.409874
 
 mode pgibbs: influence compute time (pgibbs): 9.6e-05 seconds
 influence of hasword_high_65 on topic_Department_65 is -0.0881902
 
-pgibbs sample time: 0.000196 seconds
+pgibbs sample time: 0.000195 seconds
 probability of topic_Department_78 is 0.627352
 
-mode pgibbs: influence compute time (pgibbs): 0.000382 seconds
+mode pgibbs: influence compute time (pgibbs): 0.000379 seconds
 influence of links_78_90 on topic_Department_78 is -0.0164719
 
-pgibbs sample time: 0.000562 seconds
+pgibbs sample time: 0.000561 seconds
 probability of topic_Staff_88 is 0.406416
 
-mode pgibbs: influence compute time (pgibbs): 0.001111 seconds
+mode pgibbs: influence compute time (pgibbs): 0.001106 seconds
 influence of links_43_68 on topic_Staff_88 is 0.00032464
 
 pgibbs sample time: 0.000198 seconds
@@ -3548,16 +3548,16 @@ probability of topic_Faculty_35 is 0.601582
 mode pgibbs: influence compute time (pgibbs): 0.000385 seconds
 influence of links_22_35 on topic_Faculty_35 is 0.0172083
 
-pgibbs sample time: 0.00056 seconds
+pgibbs sample time: 0.000561 seconds
 probability of topic_Staff_68 is 0.450738
 
-mode pgibbs: influence compute time (pgibbs): 0.001105 seconds
+mode pgibbs: influence compute time (pgibbs): 0.001107 seconds
 influence of links_43_68 on topic_Staff_68 is 0.0180684
 
 pgibbs sample time: 5e-05 seconds
 probability of topic_Course_80 is 0.486579
 
-mode pgibbs: influence compute time (pgibbs): 9.4e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 9.3e-05 seconds
 influence of hasword_task_80 on topic_Course_80 is -0.0134148
 
 pgibbs sample time: 5.2e-05 seconds
@@ -3569,7 +3569,7 @@ influence of hasword_separ_57 on topic_Department_57 is -0.0014964
 pgibbs sample time: 0.000192 seconds
 probability of topic_Course_35 is 0.621655
 
-mode pgibbs: influence compute time (pgibbs): 0.000376 seconds
+mode pgibbs: influence compute time (pgibbs): 0.000371 seconds
 influence of links_22_35 on topic_Course_35 is 0.0122421
 
 pgibbs sample time: 5e-05 seconds
@@ -3587,13 +3587,13 @@ influence of hasword_student_75 on topic_Course_75 is 0.0393107
 pgibbs sample time: 4.9e-05 seconds
 probability of topic_Staff_75 is 0.353688
 
-mode pgibbs: influence compute time (pgibbs): 9.5e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 9.4e-05 seconds
 influence of hasword_student_75 on topic_Staff_75 is -0.137932
 
 pgibbs sample time: 6.3e-05 seconds
 probability of topic_Course_83 is 0.673088
 
-mode pgibbs: influence compute time (pgibbs): 0.000119 seconds
+mode pgibbs: influence compute time (pgibbs): 0.00012 seconds
 influence of hasword_appoint_83 on topic_Course_83 is 0.0501485
 
 pgibbs sample time: 0.000373 seconds
@@ -3602,52 +3602,52 @@ probability of topic_ResearchProject_20 is 0.428885
 mode pgibbs: influence compute time (pgibbs): 0.000731 seconds
 influence of links_18_102 on topic_ResearchProject_20 is -0.00046142
 
-pgibbs sample time: 5.1e-05 seconds
+pgibbs sample time: 5.7e-05 seconds
 probability of topic_Staff_86 is 0.403287
 
-mode pgibbs: influence compute time (pgibbs): 9.6e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 0.000149 seconds
 influence of hasword_version_86 on topic_Staff_86 is -0.0943176
 
-pgibbs sample time: 5.1e-05 seconds
+pgibbs sample time: 5e-05 seconds
 probability of topic_ResearchProject_38 is 0.541454
 
-mode pgibbs: influence compute time (pgibbs): 9.7e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 9.6e-05 seconds
 influence of hasword_data_38 on topic_ResearchProject_38 is 0.0412662
 
 pgibbs sample time: 0.000284 seconds
 probability of topic_Staff_71 is 0.418328
 
-mode pgibbs: influence compute time (pgibbs): 0.000558 seconds
+mode pgibbs: influence compute time (pgibbs): 0.000557 seconds
 influence of links_93_71 on topic_Staff_71 is 0.0170325
 
 pgibbs sample time: 5.2e-05 seconds
 probability of topic_Faculty_10 is 0.489816
 
-mode pgibbs: influence compute time (pgibbs): 0.000135 seconds
+mode pgibbs: influence compute time (pgibbs): 9.7e-05 seconds
 influence of hasword_jan_10 on topic_Faculty_10 is -0.0101812
 
-pgibbs sample time: 5.1e-05 seconds
+pgibbs sample time: 5e-05 seconds
 probability of topic_Student_53 is 0.493937
 
-mode pgibbs: influence compute time (pgibbs): 9.8e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 9.7e-05 seconds
 influence of hasword_date_53 on topic_Student_53 is -0.00606229
 
 pgibbs sample time: 4.9e-05 seconds
 probability of topic_Person_28 is 0.498179
 
-mode pgibbs: influence compute time (pgibbs): 9.4e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 9.2e-05 seconds
 influence of hasword_gmt_28 on topic_Person_28 is -0.00182059
 
-pgibbs sample time: 5.1e-05 seconds
+pgibbs sample time: 5.2e-05 seconds
 probability of topic_ResearchProject_60 is 0.490687
 
-mode pgibbs: influence compute time (pgibbs): 9.7e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 9.6e-05 seconds
 influence of hasword_mime_60 on topic_ResearchProject_60 is -0.0093107
 
-pgibbs sample time: 5e-05 seconds
+pgibbs sample time: 4.9e-05 seconds
 probability of topic_Person_50 is 0.585637
 
-mode pgibbs: influence compute time (pgibbs): 9.5e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 9.8e-05 seconds
 influence of hasword_art_50 on topic_Person_50 is 0.0839767
 
 pgibbs sample time: 4.8e-05 seconds
@@ -3659,73 +3659,73 @@ influence of hasword_date_7 on topic_Faculty_7 is -0.0788126
 pgibbs sample time: 4.9e-05 seconds
 probability of topic_Staff_6 is 0.447858
 
-mode pgibbs: influence compute time (pgibbs): 9.4e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 9.2e-05 seconds
 influence of hasword_date_6 on topic_Staff_6 is -0.0517685
 
-pgibbs sample time: 5.1e-05 seconds
+pgibbs sample time: 5e-05 seconds
 probability of topic_Student_72 is 0.675257
 
-mode pgibbs: influence compute time (pgibbs): 9.8e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 9.6e-05 seconds
 influence of hasword_graduat_72 on topic_Student_72 is 0.160735
 
-pgibbs sample time: 5.2e-05 seconds
+pgibbs sample time: 5.1e-05 seconds
 probability of topic_Faculty_76 is 0.485938
 
-mode pgibbs: influence compute time (pgibbs): 9.8e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 9.7e-05 seconds
 influence of hasword_onlin_76 on topic_Faculty_76 is -0.0140546
 
 pgibbs sample time: 5e-05 seconds
 probability of topic_ResearchProject_99 is 0.47182
 
-mode pgibbs: influence compute time (pgibbs): 9.5e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 9.4e-05 seconds
 influence of hasword_read_99 on topic_ResearchProject_99 is -0.028121
 
-pgibbs sample time: 0.000198 seconds
+pgibbs sample time: 0.000197 seconds
 probability of topic_Faculty_85 is 0.420843
 
-mode pgibbs: influence compute time (pgibbs): 0.000389 seconds
+mode pgibbs: influence compute time (pgibbs): 0.000388 seconds
 influence of rl on topic_Faculty_85 is 0.105196
 
 pgibbs sample time: 5.1e-05 seconds
 probability of topic_Department_4 is 0.48277
 
-mode pgibbs: influence compute time (pgibbs): 9.8e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 9.7e-05 seconds
 influence of hasword_represent_4 on topic_Department_4 is -0.0172165
 
 pgibbs sample time: 5e-05 seconds
 probability of topic_Course_25 is 0.47654
 
-mode pgibbs: influence compute time (pgibbs): 9.4e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 9.3e-05 seconds
 influence of hasword_jan_25 on topic_Course_25 is -0.0234264
 
 pgibbs sample time: 5e-05 seconds
 probability of topic_Person_75 is 0.637727
 
-mode pgibbs: influence compute time (pgibbs): 0.0001 seconds
+mode pgibbs: influence compute time (pgibbs): 9.9e-05 seconds
 influence of hasword_student_75 on topic_Person_75 is 0.130753
 
 pgibbs sample time: 0.000192 seconds
 probability of topic_Person_19 is 0.383952
 
-mode pgibbs: influence compute time (pgibbs): 0.000373 seconds
+mode pgibbs: influence compute time (pgibbs): 0.000372 seconds
 influence of links_33_19 on topic_Person_19 is 0.00843398
 
-pgibbs sample time: 4.9e-05 seconds
+pgibbs sample time: 5e-05 seconds
 probability of topic_Staff_5 is 0.423377
 
 mode pgibbs: influence compute time (pgibbs): 9.4e-05 seconds
 influence of hasword_html_5 on topic_Staff_5 is -0.0754351
 
-pgibbs sample time: 0.000234 seconds
+pgibbs sample time: 0.000233 seconds
 probability of topic_ResearchProject_26 is 0.560254
 
-mode pgibbs: influence compute time (pgibbs): 0.000452 seconds
+mode pgibbs: influence compute time (pgibbs): 0.00045 seconds
 influence of rl on topic_ResearchProject_26 is -0.149919
 
-pgibbs sample time: 5e-05 seconds
+pgibbs sample time: 5.7e-05 seconds
 probability of topic_Staff_87 is 0.467612
 
-mode pgibbs: influence compute time (pgibbs): 9.5e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 0.000108 seconds
 influence of hasword_year_87 on topic_Staff_87 is -0.0322988
 
 pgibbs sample time: 5e-05 seconds
@@ -3743,13 +3743,13 @@ influence of hasword_net_70 on topic_Student_70 is -0.0415381
 pgibbs sample time: 0.000583 seconds
 probability of topic_ResearchProject_88 is 0.490084
 
-mode pgibbs: influence compute time (pgibbs): 0.001258 seconds
+mode pgibbs: influence compute time (pgibbs): 0.001142 seconds
 influence of links_43_68 on topic_ResearchProject_88 is 0.000318859
 
 pgibbs sample time: 5.2e-05 seconds
 probability of topic_Faculty_72 is 0.44287
 
-mode pgibbs: influence compute time (pgibbs): 0.0001 seconds
+mode pgibbs: influence compute time (pgibbs): 0.000103 seconds
 influence of hasword_graduat_72 on topic_Faculty_72 is -0.0566385
 
 pgibbs sample time: 5.1e-05 seconds
@@ -3758,10 +3758,10 @@ probability of topic_Department_95 is 0.467383
 mode pgibbs: influence compute time (pgibbs): 9.7e-05 seconds
 influence of hasword_format_95 on topic_Department_95 is -0.0325261
 
-pgibbs sample time: 5.2e-05 seconds
+pgibbs sample time: 5.1e-05 seconds
 probability of topic_Department_56 is 0.601492
 
-mode pgibbs: influence compute time (pgibbs): 0.0001 seconds
+mode pgibbs: influence compute time (pgibbs): 9.9e-05 seconds
 influence of hasword_includ_56 on topic_Department_56 is 0.0987218
 
 pgibbs sample time: 5.1e-05 seconds
@@ -3770,94 +3770,94 @@ probability of topic_Student_74 is 0.487579
 mode pgibbs: influence compute time (pgibbs): 9.8e-05 seconds
 influence of hasword_server_74 on topic_Student_74 is -0.0124161
 
-pgibbs sample time: 5.5e-05 seconds
+pgibbs sample time: 4.9e-05 seconds
 probability of topic_Person_80 is 0.422215
 
-mode pgibbs: influence compute time (pgibbs): 0.000104 seconds
+mode pgibbs: influence compute time (pgibbs): 9.2e-05 seconds
 influence of hasword_task_80 on topic_Person_80 is -0.0765426
 
 pgibbs sample time: 5.1e-05 seconds
 probability of topic_Department_62 is 0.482103
 
-mode pgibbs: influence compute time (pgibbs): 9.7e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 9.6e-05 seconds
 influence of hasword_length_62 on topic_Department_62 is -0.0178822
 
-pgibbs sample time: 0.000202 seconds
+pgibbs sample time: 0.000199 seconds
 probability of topic_ResearchProject_33 is 0.287368
 
-mode pgibbs: influence compute time (pgibbs): 0.000433 seconds
+mode pgibbs: influence compute time (pgibbs): 0.00039 seconds
 influence of links_33_19 on topic_ResearchProject_33 is -0.0119851
 
-pgibbs sample time: 0.000546 seconds
+pgibbs sample time: 0.000544 seconds
 probability of topic_Person_88 is 0.500326
 
-mode pgibbs: influence compute time (pgibbs): 0.00108 seconds
+mode pgibbs: influence compute time (pgibbs): 0.001081 seconds
 influence of links_43_40 on topic_Person_88 is 0.000474515
 
-pgibbs sample time: 5e-05 seconds
+pgibbs sample time: 4.9e-05 seconds
 probability of topic_Course_2 is 0.464953
 
-mode pgibbs: influence compute time (pgibbs): 9.4e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 9.3e-05 seconds
 influence of hasword_phone_2 on topic_Course_2 is -0.0349337
 
-pgibbs sample time: 5.3e-05 seconds
+pgibbs sample time: 5.2e-05 seconds
 probability of topic_Student_45 is 0.495991
 
-mode pgibbs: influence compute time (pgibbs): 9.8e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 9.9e-05 seconds
 influence of hasword_utexa_45 on topic_Student_45 is -0.00400899
 
 pgibbs sample time: 5.1e-05 seconds
 probability of topic_ResearchProject_57 is 0.489022
 
-mode pgibbs: influence compute time (pgibbs): 9.7e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 9.8e-05 seconds
 influence of hasword_separ_57 on topic_ResearchProject_57 is -0.0109745
 
 pgibbs sample time: 5e-05 seconds
 probability of topic_Person_29 is 0.615632
 
-mode pgibbs: influence compute time (pgibbs): 9.4e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 9.5e-05 seconds
 influence of hasword_depart_29 on topic_Person_29 is 0.111524
 
 pgibbs sample time: 5.1e-05 seconds
 probability of topic_Student_37 is 0.511284
 
-mode pgibbs: influence compute time (pgibbs): 9.8e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 9.7e-05 seconds
 influence of hasword_austin_37 on topic_Student_37 is 0.0112801
 
 pgibbs sample time: 6.7e-05 seconds
 probability of topic_ResearchProject_83 is 0.435929
 
-mode pgibbs: influence compute time (pgibbs): 0.000129 seconds
+mode pgibbs: influence compute time (pgibbs): 0.000128 seconds
 influence of hasword_appoint_83 on topic_ResearchProject_83 is -0.0092037
 
-pgibbs sample time: 0.000189 seconds
+pgibbs sample time: 0.000187 seconds
 probability of topic_Person_90 is 0.521969
 
 mode pgibbs: influence compute time (pgibbs): 0.000365 seconds
 influence of links_78_90 on topic_Person_90 is 0.00908292
 
-pgibbs sample time: 5.3e-05 seconds
+pgibbs sample time: 5.2e-05 seconds
 probability of topic_Student_81 is 0.487579
 
-mode pgibbs: influence compute time (pgibbs): 0.0001 seconds
+mode pgibbs: influence compute time (pgibbs): 9.9e-05 seconds
 influence of hasword_server_81 on topic_Student_81 is -0.0124161
 
-pgibbs sample time: 5.2e-05 seconds
+pgibbs sample time: 5.1e-05 seconds
 probability of topic_ResearchProject_79 is 0.450673
 
 mode pgibbs: influence compute time (pgibbs): 9.7e-05 seconds
 influence of hasword_produc_79 on topic_ResearchProject_79 is -0.0490106
 
-pgibbs sample time: 0.000278 seconds
+pgibbs sample time: 0.000279 seconds
 probability of topic_Staff_59 is 0.4983
 
-mode pgibbs: influence compute time (pgibbs): 0.000549 seconds
+mode pgibbs: influence compute time (pgibbs): 0.00055 seconds
 influence of links_59_46 on topic_Staff_59 is -0.012896
 
-pgibbs sample time: 0.000278 seconds
+pgibbs sample time: 0.000277 seconds
 probability of topic_Staff_46 is 0.433162
 
-mode pgibbs: influence compute time (pgibbs): 0.000692 seconds
+mode pgibbs: influence compute time (pgibbs): 0.000547 seconds
 influence of links_59_46 on topic_Staff_46 is 0.014459
 
 pgibbs sample time: 5.2e-05 seconds
@@ -3866,19 +3866,19 @@ probability of topic_Student_60 is 0.526876
 mode pgibbs: influence compute time (pgibbs): 9.8e-05 seconds
 influence of hasword_mime_60 on topic_Student_60 is 0.0268246
 
-pgibbs sample time: 5.1e-05 seconds
+pgibbs sample time: 5e-05 seconds
 probability of topic_Person_45 is 0.488394
 
-mode pgibbs: influence compute time (pgibbs): 9.7e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 9.6e-05 seconds
 influence of hasword_utexa_45 on topic_Person_45 is -0.0116018
 
-pgibbs sample time: 0.000285 seconds
+pgibbs sample time: 0.00028 seconds
 probability of topic_Course_93 is 0.443632
 
-mode pgibbs: influence compute time (pgibbs): 0.000554 seconds
+mode pgibbs: influence compute time (pgibbs): 0.000557 seconds
 influence of links_93_71 on topic_Course_93 is -0.0122812
 
-pgibbs sample time: 5.1e-05 seconds
+pgibbs sample time: 5.2e-05 seconds
 probability of topic_ResearchProject_56 is 0.543606
 
 mode pgibbs: influence compute time (pgibbs): 9.7e-05 seconds
@@ -3887,13 +3887,13 @@ influence of hasword_includ_56 on topic_ResearchProject_56 is 0.0433883
 pgibbs sample time: 5.1e-05 seconds
 probability of topic_Faculty_32 is 0.406926
 
-mode pgibbs: influence compute time (pgibbs): 9.8e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 9.6e-05 seconds
 influence of hasword_softwar_32 on topic_Faculty_32 is -0.0909402
 
 pgibbs sample time: 5.1e-05 seconds
 probability of topic_Staff_81 is 0.432401
 
-mode pgibbs: influence compute time (pgibbs): 9.5e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 9.4e-05 seconds
 influence of hasword_server_81 on topic_Staff_81 is -0.0667845
 
 pgibbs sample time: 4.9e-05 seconds
@@ -3905,40 +3905,40 @@ influence of hasword_date_6 on topic_Student_6 is -0.00606229
 pgibbs sample time: 0.00059 seconds
 probability of topic_Student_88 is 0.517492
 
-mode pgibbs: influence compute time (pgibbs): 0.001166 seconds
+mode pgibbs: influence compute time (pgibbs): 0.001164 seconds
 influence of links_43_40 on topic_Student_88 is 0.000486705
 
-pgibbs sample time: 0.000369 seconds
+pgibbs sample time: 0.000368 seconds
 probability of topic_ResearchProject_51 is 0.43025
 
-mode pgibbs: influence compute time (pgibbs): 0.000839 seconds
+mode pgibbs: influence compute time (pgibbs): 0.000723 seconds
 influence of links_51_113 on topic_ResearchProject_51 is -0.0176964
 
-pgibbs sample time: 0.000368 seconds
+pgibbs sample time: 0.000367 seconds
 probability of topic_ResearchProject_113 is 0.630818
 
-mode pgibbs: influence compute time (pgibbs): 0.000725 seconds
+mode pgibbs: influence compute time (pgibbs): 0.000724 seconds
 influence of links_51_113 on topic_ResearchProject_113 is 0.0152741
 
-pgibbs sample time: 6.7e-05 seconds
+pgibbs sample time: 6.6e-05 seconds
 probability of topic_Department_31 is 0.462165
 
-mode pgibbs: influence compute time (pgibbs): 0.000126 seconds
+mode pgibbs: influence compute time (pgibbs): 0.000125 seconds
 influence of hasword_sequenc_31 on topic_Department_31 is -0.0218446
 
-pgibbs sample time: 6.6e-05 seconds
+pgibbs sample time: 6.1e-05 seconds
 probability of topic_Staff_49 is 0.455196
 
-mode pgibbs: influence compute time (pgibbs): 0.000136 seconds
+mode pgibbs: influence compute time (pgibbs): 0.000116 seconds
 influence of hasword_home_49 on topic_Staff_49 is -0.0369814
 
 pgibbs sample time: 5.1e-05 seconds
 probability of topic_ResearchProject_65 is 0.529164
 
-mode pgibbs: influence compute time (pgibbs): 9.8e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 9.6e-05 seconds
 influence of hasword_high_65 on topic_ResearchProject_65 is 0.0290989
 
-pgibbs sample time: 5e-05 seconds
+pgibbs sample time: 4.9e-05 seconds
 probability of topic_ResearchProject_25 is 0.462699
 
 mode pgibbs: influence compute time (pgibbs): 9.5e-05 seconds
@@ -3947,55 +3947,55 @@ influence of hasword_jan_25 on topic_ResearchProject_25 is -0.0371648
 pgibbs sample time: 5e-05 seconds
 probability of topic_Faculty_11 is 0.312406
 
-mode pgibbs: influence compute time (pgibbs): 9.6e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 9.5e-05 seconds
 influence of hasword_dec_11 on topic_Faculty_11 is -0.169712
 
-pgibbs sample time: 0.0003 seconds
+pgibbs sample time: 0.000299 seconds
 probability of topic_Department_59 is 0.53218
 
-mode pgibbs: influence compute time (pgibbs): 0.000588 seconds
+mode pgibbs: influence compute time (pgibbs): 0.000589 seconds
 influence of links_46_59 on topic_Department_59 is 0.0154539
 
-pgibbs sample time: 0.000191 seconds
+pgibbs sample time: 0.000192 seconds
 probability of topic_Staff_61 is 0.502656
 
-mode pgibbs: influence compute time (pgibbs): 0.000396 seconds
+mode pgibbs: influence compute time (pgibbs): 0.000397 seconds
 influence of rl on topic_Staff_61 is 0.176696
 
-pgibbs sample time: 5.3e-05 seconds
+pgibbs sample time: 5.2e-05 seconds
 probability of topic_ResearchProject_96 is 0.368362
 
 mode pgibbs: influence compute time (pgibbs): 9.8e-05 seconds
 influence of hasword_oct_96 on topic_ResearchProject_96 is -0.125557
 
-pgibbs sample time: 5.1e-05 seconds
+pgibbs sample time: 5e-05 seconds
 probability of topic_ResearchProject_42 is 0.510441
 
-mode pgibbs: influence compute time (pgibbs): 9.7e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 0.000101 seconds
 influence of hasword_scienc_42 on topic_ResearchProject_42 is 0.0104382
 
-pgibbs sample time: 5.1e-05 seconds
+pgibbs sample time: 5e-05 seconds
 probability of topic_Staff_64 is 0.503992
 
-mode pgibbs: influence compute time (pgibbs): 9.6e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 9.5e-05 seconds
 influence of hasword_laboratori_64 on topic_Staff_64 is 0.00399165
 
-pgibbs sample time: 0.000546 seconds
+pgibbs sample time: 0.000543 seconds
 probability of topic_Course_68 is 0.439202
 
-mode pgibbs: influence compute time (pgibbs): 0.001077 seconds
+mode pgibbs: influence compute time (pgibbs): 0.001074 seconds
 influence of links_43_40 on topic_Course_68 is 0.000365757
 
 pgibbs sample time: 5.1e-05 seconds
 probability of topic_Staff_4 is 0.46839
 
-mode pgibbs: influence compute time (pgibbs): 9.6e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 9.5e-05 seconds
 influence of hasword_represent_4 on topic_Staff_4 is -0.0315265
 
-pgibbs sample time: 5.7e-05 seconds
+pgibbs sample time: 4.9e-05 seconds
 probability of topic_Course_15 is 0.43891
 
-mode pgibbs: influence compute time (pgibbs): 0.00011 seconds
+mode pgibbs: influence compute time (pgibbs): 9.4e-05 seconds
 influence of hasword_modifi_15 on topic_Course_15 is -0.0604888
 
 pgibbs sample time: 4.9e-05 seconds
@@ -4004,40 +4004,40 @@ probability of topic_Faculty_6 is 0.419826
 mode pgibbs: influence compute time (pgibbs): 9.2e-05 seconds
 influence of hasword_date_6 on topic_Faculty_6 is -0.0788126
 
-pgibbs sample time: 5.2e-05 seconds
+pgibbs sample time: 5.1e-05 seconds
 probability of topic_Department_75 is 0.793067
 
-mode pgibbs: influence compute time (pgibbs): 9.8e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 9.7e-05 seconds
 influence of hasword_student_75 on topic_Department_75 is 0.221354
 
 pgibbs sample time: 5e-05 seconds
 probability of topic_Faculty_48 is 0.417515
 
-mode pgibbs: influence compute time (pgibbs): 9.5e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 9.9e-05 seconds
 influence of hasword_apr_48 on topic_Faculty_48 is -0.0810028
 
 pgibbs sample time: 4.9e-05 seconds
 probability of topic_ResearchProject_58 is 0.462699
 
-mode pgibbs: influence compute time (pgibbs): 9.6e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 9.5e-05 seconds
 influence of hasword_jan_58 on topic_ResearchProject_58 is -0.0371648
 
 pgibbs sample time: 4.9e-05 seconds
 probability of topic_Staff_1 is 0.521778
 
-mode pgibbs: influence compute time (pgibbs): 9.4e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 9.2e-05 seconds
 influence of hasword_model_1 on topic_Staff_1 is 0.0217507
 
 pgibbs sample time: 5e-05 seconds
 probability of topic_Staff_31 is 0.459285
 
-mode pgibbs: influence compute time (pgibbs): 0.0001 seconds
+mode pgibbs: influence compute time (pgibbs): 9.5e-05 seconds
 influence of hasword_effici_31 on topic_Staff_31 is -0.0405379
 
 pgibbs sample time: 5.2e-05 seconds
 probability of topic_Department_14 is 0.412026
 
-mode pgibbs: influence compute time (pgibbs): 9.7e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 9.6e-05 seconds
 influence of hasword_scienc_14 on topic_Department_14 is -0.0861742
 
 pgibbs sample time: 5e-05 seconds
@@ -4049,34 +4049,34 @@ influence of hasword_server_69 on topic_Person_69 is -0.0138496
 pgibbs sample time: 5.1e-05 seconds
 probability of topic_Staff_17 is 0.455511
 
-mode pgibbs: influence compute time (pgibbs): 9.7e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 9.6e-05 seconds
 influence of hasword_materi_17 on topic_Staff_17 is -0.0442569
 
 pgibbs sample time: 5.2e-05 seconds
 probability of topic_Department_45 is 0.498531
 
-mode pgibbs: influence compute time (pgibbs): 9.8e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 9.7e-05 seconds
 influence of hasword_utexa_45 on topic_Department_45 is -0.00146926
 
 pgibbs sample time: 0.000235 seconds
 probability of topic_Department_26 is 0.610064
 
-mode pgibbs: influence compute time (pgibbs): 0.00049 seconds
+mode pgibbs: influence compute time (pgibbs): 0.000489 seconds
 influence of rl on topic_Department_26 is -0.0825922
 
-pgibbs sample time: 0.000227 seconds
+pgibbs sample time: 0.000275 seconds
 probability of topic_Student_89 is 0.383534
 
-mode pgibbs: influence compute time (pgibbs): 0.000445 seconds
+mode pgibbs: influence compute time (pgibbs): 0.000508 seconds
 influence of hasword_web_89 on topic_Student_89 is -0.0953072
 
-pgibbs sample time: 0.000363 seconds
+pgibbs sample time: 0.000361 seconds
 probability of topic_Course_113 is 0.424396
 
-mode pgibbs: influence compute time (pgibbs): 0.000704 seconds
+mode pgibbs: influence compute time (pgibbs): 0.000702 seconds
 influence of links_51_113 on topic_Course_113 is 0.0153207
 
-pgibbs sample time: 5e-05 seconds
+pgibbs sample time: 4.9e-05 seconds
 probability of topic_Staff_53 is 0.447858
 
 mode pgibbs: influence compute time (pgibbs): 9.4e-05 seconds
@@ -4085,13 +4085,13 @@ influence of hasword_date_53 on topic_Staff_53 is -0.0517685
 pgibbs sample time: 0.000229 seconds
 probability of topic_Faculty_26 is 0.595209
 
-mode pgibbs: influence compute time (pgibbs): 0.000447 seconds
+mode pgibbs: influence compute time (pgibbs): 0.000445 seconds
 influence of rl on topic_Faculty_26 is -0.133701
 
-pgibbs sample time: 0.000196 seconds
+pgibbs sample time: 0.000195 seconds
 probability of topic_Department_90 is 0.620886
 
-mode pgibbs: influence compute time (pgibbs): 0.000382 seconds
+mode pgibbs: influence compute time (pgibbs): 0.00038 seconds
 influence of links_78_90 on topic_Department_90 is 0.0102245
 
 pgibbs sample time: 5.2e-05 seconds
@@ -4103,12 +4103,12 @@ influence of hasword_person_84 on topic_ResearchProject_84 is -0.0600054
 pgibbs sample time: 5.1e-05 seconds
 probability of topic_Department_52 is 0.452421
 
-mode pgibbs: influence compute time (pgibbs): 9.6e-05 seconds
+mode pgibbs: influence compute time (pgibbs): 9.5e-05 seconds
 influence of hasword_test_52 on topic_Department_52 is -0.0472959
 
-pgibbs sample time: 0.000579 seconds
+pgibbs sample time: 0.000578 seconds
 probability of topic_ResearchProject_40 is 0.403831
 
-mode pgibbs: influence compute time (pgibbs): 0.001247 seconds
+mode pgibbs: influence compute time (pgibbs): 0.001142 seconds
 influence of links_43_68 on topic_ResearchProject_40 is 0.000307184
 
