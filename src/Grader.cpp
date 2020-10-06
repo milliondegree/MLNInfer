@@ -119,7 +119,7 @@ void Grader::computeGradient(MLN& mln, string query, string infl, int round, dou
     mln.gibbsSampling_v4(round, query);
   }
   else if (mode=="pgibbs") {
-    mln.gibbsSampling_vp(round, query, 0.000001);
+    mln.gibbsSampling_vp(round, query, 1e-7);
   }
   double upper_prob = mln.queryProb(query);
   mln.setObsProb(infl, lower);
@@ -130,7 +130,7 @@ void Grader::computeGradient(MLN& mln, string query, string infl, int round, dou
     mln.gibbsSampling_v4(round, query);
   }
   else if (mode=="pgibbs") {
-    mln.gibbsSampling_vp(round, query, 0.000001);
+    mln.gibbsSampling_vp(round, query, 1e-7);
   }
   double lower_prob = mln.queryProb(query);
   mln.setObsProb(infl, prev);
