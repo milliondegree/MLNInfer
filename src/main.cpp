@@ -612,6 +612,9 @@ int main(int argc, char* argv[]) {
       for (string query : queries) {
         mmln = mln.getMinimalMLN(query);
         probabilityQuery(mmln, stoi(args["round"]), query, args["mode"], stod(args["approx"]));
+        unordered_set<string> obs = mmln.getObsLiterals();
+        string obs_tuple = *(obs.begin());
+        influenceQuery(mmln, query, obs_tuple, stoi(args["round"]), stod(args["delta"]), "pggibs");
       }
     }
   }
@@ -625,7 +628,6 @@ int main(int argc, char* argv[]) {
   // save3DPlot(mln, "./data/record/test1.txt", args["query_name"], stoi(args["round"]), stod(args["delta"]));
 
   if (args.find("influence_name")!=args.end()) {
-    assert(args["query_name"]!="all");
     if (args["influence_name"]=="all") {
       if (stoi(args["equation"])) {
         influenceQueryAll(mmln, args["query_name"], stoi(args["round"]), stod(args["delta"]), "equations");

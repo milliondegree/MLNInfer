@@ -27,7 +27,7 @@ def selectDict(dic, l):
 
 
 if __name__=="__main__":
-  dire = "sample8"
+  dire = "sample7"
   file_names = [
             "./data/hypertext-class/"+dire+"/records/sample1.log",
             "./data/hypertext-class/"+dire+"/records/sample2.log",
@@ -46,6 +46,6 @@ if __name__=="__main__":
     file = open(file_name, "r")
     dic = parseFile(file)
     dics.append(dic)
-    dics[-1] = selectDict(dics[-1], list(dics[0].keys()))
+    # dics[-1] = selectDict(dics[-1], list(dics[0].keys()))
     avg_times.append(np.mean(np.array(list(dics[-1].values()))))
   print(avg_times)
