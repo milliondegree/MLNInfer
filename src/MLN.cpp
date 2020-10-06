@@ -693,9 +693,9 @@ void MLN::gibbsSampling_vp(int round, string query, double delta) {
   // initialize randomly
   map<string, double> assignments;
   for (string query : valid_unknown) {
-    // assignments[query] = 0.5;
+    assignments[query] = 0.5;
     // assignments[query] = static_cast <float> (rand()) / static_cast <float> (RAND_MAX);
-    assignments[query] = distribution(generator);
+    // assignments[query] = distribution(generator);
     // cout << query << ' ' << assignments[query] << endl;
   }
   map<string, double> temp (assignments);
