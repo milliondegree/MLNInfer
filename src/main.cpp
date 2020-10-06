@@ -614,7 +614,7 @@ int main(int argc, char* argv[]) {
         probabilityQuery(mmln, stoi(args["round"]), query, args["mode"], stod(args["approx"]));
         unordered_set<string> obs = mmln.getObsLiterals();
         string obs_tuple = *(obs.begin());
-        influenceQuery(mmln, query, obs_tuple, stoi(args["round"]), stod(args["delta"]), "pggibs");
+        influenceQuery(mmln, query, obs_tuple, stoi(args["round"]), stod(args["delta"]), "pgibbs");
       }
     }
   }
