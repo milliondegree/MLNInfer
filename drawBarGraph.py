@@ -80,6 +80,16 @@ def drawInflQueryTimes_7():
   plt.show()
 
 
+def drawInflQueryTimes_7AVG():
+  xList = ["100", "200", "300", "400", "500", "600", "700", "800", "900", "1000"]
+  queryList = [0.00016599063231850116, 0.00025002773722627736, 0.00048640080971659917, 0.0008574796854521624, 0.0013845469543147207, 0.0019340989399293286, 0.002450624, 0.003119818181818182, 0.00518013880126183, 0.011620722279792745]
+
+  plt.bar(xList, queryList, color="blue")
+  plt.xlabel("number of tuples")
+  plt.ylabel("influence query time of all related tuples")
+  plt.show()
+
+
 def drawProbTimes():
   errors = ["1e-1", "1e-2", "1e-3", "1e-4", "1e-5", "1e-6", "1e-7"]
   iterations = [2, 7, 13, 20, 26, 33, 39]
@@ -95,6 +105,7 @@ if __name__ == '__main__':
   # drawQueryTimes_4()
   # drawQueryTimes_5()
   # drawQueryTimes_7()
-  drawProbQueryTimes_7AVG()
+  # drawProbQueryTimes_7AVG()
   # drawProbQueryTimes_8AVG()
   # drawInflQueryTimes_7()
+  drawInflQueryTimes_7AVG()
