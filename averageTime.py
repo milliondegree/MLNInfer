@@ -45,7 +45,7 @@ def selectDict(dic, l):
 
 if __name__=="__main__":
   dire = "sample7"
-  name = "influ"
+  name = "influEquation"
   file_names = [
             "./data/hypertext-class/"+dire+"/records/"+name+"1.log",
             "./data/hypertext-class/"+dire+"/records/"+name+"2.log",

@@ -38,7 +38,9 @@ def drawBoxPlot(input):
     labels = v.keys()
     data = v.values()
     plt.boxplot(data, labels=labels)
-    plt.title(k)
+    plt.title("Probabilities using iterative approximate inference")
+    plt.ylabel("Probability")
+    plt.xlabel("Number of Iteration")
     plt.show()
     
 
