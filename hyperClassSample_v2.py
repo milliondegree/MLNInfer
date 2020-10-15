@@ -63,6 +63,8 @@ for line in mlnFile.readlines():
   if len(l)>5:
     mlnList.append(l)
 
+print(len(mlnList))
+
 indices = [i for i in range(len(mlnList))]
 random.shuffle(indices)
 # mlnList = np.array(mlnList)[indices[:int(len(indices)*args.rm)]].tolist()

@@ -75,6 +75,24 @@ def drawProbQueryTimes_7AVG():
   plt.show()
 
 
+def drawProbQueryTimes_7AVG_Logscale():
+  ax = plt.subplot(111)
+  xList = ["100", "200", "300", "400", "500", "600", "700", "800", "900", "1000"]
+  queryList1 = [9.44847775175644e-05, 0.00013946569343065694, 0.0002791524966261808, 0.0004687876802096986, 0.0007806840101522842, 0.0010874110718492344, 0.0012913897142857143, 0.0017384758698092031, 0.002800705573080968, 0.0061624632124352334]
+  queryList2 = [0.095999131147541, 0.13945208905109488, 0.24944783130904186, 0.41301451245085186, 0.6425268667512689, 0.9123236230859836, 1.333311952, 1.4630163928170594, 2.2927532260778127, 4.74799883626943]
+  x = np.arange(len(xList))
+  w = 0.3
+  ax.bar(x-0.5*w, queryList1, w, label='iterative', color='b')
+  ax.bar(x+0.5*w, queryList2, w, label='sampling', color='r')
+  ax.set_ylabel('Probability query time')
+  ax.set_yscale("log")
+  ax.set_title('Sample size')
+  ax.set_xticks(x)
+  ax.set_xticklabels(xList)
+  ax.legend()
+  plt.show()
+
+
 def drawProbQueryTimes_8AVG():
   xList = ["100", "200", "300", "400", "500", "600", "700", "800", "900", "1000"]
   queryList = [0.000104622009569378, 0.00015262409288824383, 0.00025469005102040813, 0.00043397136038186157, 0.0005348886337543054, 0.0005971962513781698, 0.0006366638115631691, 0.0010169098360655738, 0.001502379207920792, 0.0018038508287292817]
@@ -147,9 +165,10 @@ if __name__ == '__main__':
   # drawProbTimes()
   # drawQueryTimes_4()
   # drawQueryTimes_5()
-  # drawQueryTimes_7()
-  drawMaintenanceTime_7()
+  drawQueryTimes_7()
+  # drawMaintenanceTime_7()
   # drawProbQueryTimes_7AVG()
+  # drawProbQueryTimes_7AVG_Logscale()
   # drawProbQueryTimes_8AVG()
   # drawInflQueryTimes_7()
   # drawInflQueryTimes_7AVG()

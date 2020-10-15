@@ -18,6 +18,23 @@ def parseFile(f):
 
 
 
+def parseGibbsFile(f):
+  dic = {}
+  times = []
+  tuples = []
+  for line in f.readlines():
+    line = line.strip()
+    splits = line.split(" ")
+    if splits[0]=="gibbs":
+      times.append(float(splits[3]))
+    elif splits[0]=="probability":
+      tuples.append(splits[2])
+  for t, time in zip(tuples, times):
+    dic[t] = time
+  return dic
+
+
+
 def parseInfluFile(f):
   dic = {}
   times = []
@@ -45,7 +62,7 @@ def selectDict(dic, l):
 
 if __name__=="__main__":
   dire = "sample7"
-  name = "influEquation"
+  name = "Gibbssample"
   file_names = [
             "./data/hypertext-class/"+dire+"/records/"+name+"1.log",
             "./data/hypertext-class/"+dire+"/records/"+name+"2.log",
@@ -62,7 +79,7 @@ if __name__=="__main__":
   avg_times = []
   for file_name in file_names:
     file = open(file_name, "r")
-    dic = parseInfluFile(file)
+    dic = parseGibbsFile(file)
     dics.append(dic)
     # dics[-1] = selectDict(dics[-1], list(dics[0].keys()))
     avg_times.append(np.mean(np.array(list(dics[-1].values()))))

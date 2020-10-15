@@ -58,6 +58,7 @@ def drawVariancePlot(input):
     else:
       probs = [float(ele) for ele in splits[1:]]
       stds.append(np.std(probs))
+  print(stds)
   plt.bar(rounds, stds, color="blue")
   plt.xlabel("gibbs sampling rounds")
   plt.ylabel("standard derivation of 100 results")
