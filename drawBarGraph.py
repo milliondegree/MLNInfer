@@ -32,18 +32,31 @@ def drawQueryTimes_5():
 
 
 def drawMaintenanceTime_7():
+  ax = plt.subplot(111)
   xList = ["100", "200", "300", "400", "500", "600", "700", "800", "900", "1000"]
-  queryList = [29.8, 59.1, 90.07, 120.8, 150.5, 186, 206.3, 237.3, 268.6, 296.1]
-  plt.bar(xList, queryList, width=0.3, color="blue")
-  plt.xlabel("number of tuples")
-  plt.ylabel("average time of provenance query")
+  queryList1 = [29.8, 59.1, 90.07, 120.8, 150.5, 186, 206.3, 237.3, 268.6, 296.1]
+  queryList2 = [7.70942, 15.3306, 23.4762, 29.7336, 39.1901, 46.2846, 54.4626, 60.7309, 67.4802, 75.6743]
+  x = np.arange(len(xList))
+  w = 0.3
+  ax.bar(x-0.5*w, queryList2, w, label='maintenance without provenance', color='b')
+  ax.bar(x+0.5*w, queryList1, w, label='maintenance with provenance', color='r')
+  ax.set_ylabel('maintenance time')
+  ax.set_yscale("linear")
+  ax.set_xlabel('sample size')
+  ax.set_xticks(x)
+  ax.set_xticklabels(xList)
+  ax.legend()
   plt.show()
 
 
 def drawQueryTimes_7():
   xList = ["100", "200", "300", "400", "500", "600", "700", "800", "900", "1000"]
-  queryList1 = [0.196, 0.343, 0.567, 0.834, 1.136, 1.778, 2.14, 2.66, 4.56, 7.18]
-  queryList2 = [0.274, 0.58, 0.94, 1.637, 2.174, 2.68, 3.2, 4.05, 5.3, 6.37]
+  # queryList1 = [0.196, 0.343, 0.567, 0.834, 1.136, 1.778, 2.14, 2.66, 4.56, 7.18]
+  queryList1 = [0.1617900351288056, 0.29600839753466873, 0.4953646528417818, 0.7535317385321101, 1.0699165395136778,
+                1.6836761851289834, 2.0418132129909368, 2.5484677601809955, 4.498209130434782, 7.109328710644677]
+  # queryList2 = [0.274, 0.58, 0.94, 1.637, 2.174, 2.68, 3.2, 4.05, 5.3, 6.37]
+  queryList2 = [0.23808514354066984, 0.5371160580152672, 0.8954505701357466, 1.5968827611940297, 2.140646583703704,
+                2.6401818698224853, 3.1556854452662724, 4.0063278197932055, 5.25113364844904, 6.307514858197933]
   ql1 = np.array(queryList1)
   ql2 = np.array(queryList2)
   ql = (ql1+ql2)/2
@@ -86,7 +99,7 @@ def drawProbQueryTimes_7AVG_Logscale():
   ax.bar(x+0.5*w, queryList2, w, label='sampling', color='r')
   ax.set_ylabel('Probability query time')
   ax.set_yscale("log")
-  ax.set_title('Sample size')
+  ax.set_xlabel('sample size')
   ax.set_xticks(x)
   ax.set_xticklabels(xList)
   ax.legend()
@@ -144,7 +157,7 @@ def drawInflQueryTimes_7AVG_Logscale():
   ax.bar(x+0.5*w, queryList2, w, label='exact', color='r')
   ax.set_ylabel('Influence query time')
   ax.set_yscale("log")
-  ax.set_title('Sample size')
+  ax.set_xlabel('sample size')
   ax.set_xticks(x)
   ax.set_xticklabels(xList)
   ax.legend()
@@ -165,12 +178,12 @@ if __name__ == '__main__':
   # drawProbTimes()
   # drawQueryTimes_4()
   # drawQueryTimes_5()
-  drawQueryTimes_7()
-  # drawMaintenanceTime_7()
+  # drawQueryTimes_7()
+  drawMaintenanceTime_7()
   # drawProbQueryTimes_7AVG()
-  # drawProbQueryTimes_7AVG_Logscale()
+  drawProbQueryTimes_7AVG_Logscale()
   # drawProbQueryTimes_8AVG()
   # drawInflQueryTimes_7()
   # drawInflQueryTimes_7AVG()
   # drawInflQueryTimes_7AVG_equa()
-  # drawInflQueryTimes_7AVG_Logscale()
+  drawInflQueryTimes_7AVG_Logscale()

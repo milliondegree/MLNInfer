@@ -24,16 +24,14 @@ for line in infile.readlines():
     toWrite = split[6][14:]
     outfile.write(toWrite+'\n')
 
-time = 0
-tcount = 0
+intervals = []
 for i in range(2, len(times)):
-  if times[i]-times[i-1]>=131:
-    time += times[i]-times[i-1]
-    tcount += 1
+  intervals.append(times[i]-times[i-1])
+sorted(intervals, reverse=True)
+time = sum(intervals[:count])
 
 print("maintenance time:", (times[1]-times[0])/1000000, "s")
-# print(tcount, count)
-print("average query time:", (time/tcount)/1000000, "s")
+print("average query time:", (time/count)/1000000, "s")
 
 
 infile.close()
