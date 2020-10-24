@@ -3,11 +3,11 @@ import os
 
 if __name__=="__main__":
 
-  sims = open("data/vqa/hotel/sim_obs.txt", "r")
-  hasImg = open("data/vqa/hotel/hasimg_obs.txt", "r")
-  hasQ = open("data/vqa/hotel/hasq_obs.txt", "r")
-  word = open("data/vqa/hotel/word_obs.txt", "r")
-  obs = open("data/vqa/observe/hotel.db", "w")
+  sims = open("data/vqa/church/sim_obs.txt", "r")
+  hasImg = open("data/vqa/church/hasimg_obs.txt", "r")
+  hasQ = open("data/vqa/church/hasq_obs.txt", "r")
+  word = open("data/vqa/church/word_obs.txt", "r")
+  obs = open("data/vqa/observe/church.db", "w")
 
   tuples = ["word", "hasImg", "hasQ", "sim", "simRep1", "simRep2", "candidate",
             "hasImgAns", "ans", "ra", "rb", "r1", "r2", "r3", "r4", "r5", "r6"]

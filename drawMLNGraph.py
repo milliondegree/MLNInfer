@@ -38,6 +38,19 @@ def setQueNode(G, node_name):
   n.attr['color'] = 'red'
 
 
+def replaceNodeName(node):
+  words =  node.split("_")
+  t = words[0]
+  attrs = words[1:]
+  res = t+"("
+  for i in range(len(attrs)):
+    res += attrs[i]
+    if i!=len(attrs)-1:
+      res += ","
+  res += ")"
+  return res
+
+
 def drawMLNGraph(obs, que, cliques, c_map, save_name):
   G = pgv.AGraph(strict=True, directed=False)
   # G.graph_attr['rankdir'] = 'BT'
@@ -57,13 +70,13 @@ def drawMLNGraph(obs, que, cliques, c_map, save_name):
     for node in c[1:]:
       if not node in used:
         if node in obs:
-          setObsNode(G, node)
+          setObsNode(G, replaceNodeName(node))
         elif node in que:
-          setQueNode(G, node)
+          setQueNode(G, replaceNodeName(node))
         used.append(node)
     for i in range(1, len(c)):
       for j in range(i+1, len(c)):
-        G.add_edge(c[i], c[j])
+        G.add_edge(replaceNodeName(c[i]), replaceNodeName(c[j]))
   G.layout()
   G.draw(save_name)
 

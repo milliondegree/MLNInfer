@@ -334,7 +334,7 @@ simRep2_barn_palm 0.328654
 sim_barn_before 0.149482
 simRep1_barn_before 0.149482
 simRep2_barn_before 0.149482
-sim_hotel_building 0.197366
+sim_hotel_building 1
 simRep1_hotel_building 0.197366
 simRep2_hotel_building 0.197366
 sim_hotel_is 0.209067
@@ -768,12 +768,8 @@ simRep1_before_before 1.000000
 simRep2_before_before 1.000000
 hasImg_building_is_large 1
 hasImg_building_many_windows 1
-hasImg_large_is_building 1
-hasImg_window_on_building 1
 hasImg_house_with_roof 0.54
-hasImg_roof_with_house 0.54
 hasImg_building_is_tall 0.4
-hasImg_tall_is_building 0.4
 hasImg_palm_before_building 0.33
 hasQ_building_is_WHAT 1
 hasQ_building_in_background 0.878330704857

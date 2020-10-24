@@ -245,3 +245,46 @@ influence of simRep2_background_windows on ans_stadium is 0.0218516
 influence of sim_stadium_people on ans_stadium is 0.0199379
 influence of simRep2_building_windows on ans_stadium is 0.0184826
 influence of hasImg_building_is_large on ans_stadium is 0.0152782
+
+
+
+7. church
+
+candidate answers (in descending order by their probabilities): barn, house, hotel, church
+
+most influential tuples of hotel:
+influence of simRep1_is_on on ans_barn is 0.32689
+influence of simRep1_building_in on ans_barn is 0.193131
+influence of simRep1_is_in on ans_barn is 0.190844
+influence of sim_barn_cross on ans_barn is 0.163047
+influence of word_barn on ans_barn is 0.133186
+influence of sim_barn_horse on ans_barn is 0.0973426
+influence of simRep1_building_color on ans_barn is 0.0923342
+influence of simRep1_is_color on ans_barn is 0.0722645
+influence of hasQ_building_is_WHAT on ans_barn is 0.0714702
+influence of simRep1_is_with on ans_barn is 0.068677
+influence of sim_barn_cloud on ans_barn is 0.0664076
+influence of simRep2_background_brown on ans_barn is 0.0512638
+influence of hasImg_cross_on_building on ans_barn is 0.0491643
+influence of simRep2_building_building on ans_barn is 0.0472606
+influence of simRep2_background_field on ans_barn is 0.0451135
+influence of simRep1_building_on on ans_barn is 0.0439204
+influence of hasQ_background_building_WHAT on ans_barn is 0.0422349
+
+most influential tuples of church:
+influence of sim_church_cross on ans_church is 0.203505
+influence of simRep1_is_on on ans_church is 0.131296
+influence of sim_church_horse on ans_church is 0.121504
+influence of sim_church_cloud on ans_church is 0.0828497
+influence of simRep1_is_in on ans_church is 0.0720046
+influence of simRep1_is_with on ans_church is 0.0706361
+influence of simRep1_building_in on ans_church is 0.0647302
+influence of simRep1_building_color on ans_church is 0.0619749
+influence of simRep1_is_color on ans_church is 0.0485097
+influence of word_church on ans_church is 0.048332
+influence of simRep2_background_brown on ans_church is 0.0344084
+influence of sim_church_building on ans_church is 0.0339303
+influence of hasQ_building_is_WHAT on ans_church is 0.0327754
+influence of simRep2_background_field on ans_church is 0.0302803
+influence of simRep2_background_roof on ans_church is 0.0212987
+
