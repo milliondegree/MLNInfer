@@ -2,2070 +2,2070 @@ observed tuples: r3927 r3363 r3380 r4745 r2823 r258 r1989 r3656 r1678 r3152 r255
 size of observed tuples: 774
 size of unobserved tuples: 689
 
-pgibbs sample time: 7.9e-05 seconds
+pgibbs sample time: 7.1e-05 seconds
 probability of topic_Course_3 is 0.428183
 
-pgibbs sample time: 0.000379 seconds
+pgibbs sample time: 0.000336 seconds
 probability of topic_Student_115 is 0.458986
 
-pgibbs sample time: 0.000372 seconds
+pgibbs sample time: 0.00033 seconds
 probability of topic_Student_41 is 0.492901
 
-pgibbs sample time: 5.8e-05 seconds
+pgibbs sample time: 5.1e-05 seconds
 probability of topic_Staff_12 is 0.493983
 
-pgibbs sample time: 5.9e-05 seconds
+pgibbs sample time: 5.3e-05 seconds
 probability of topic_Student_16 is 0.416519
 
-pgibbs sample time: 5.6e-05 seconds
+pgibbs sample time: 5.3e-05 seconds
 probability of topic_Department_71 is 0.457614
 
-pgibbs sample time: 5.7e-05 seconds
+pgibbs sample time: 5.1e-05 seconds
 probability of topic_Course_65 is 0.484151
 
-pgibbs sample time: 5.4e-05 seconds
+pgibbs sample time: 4.8e-05 seconds
 probability of topic_Student_5 is 0.524583
 
-pgibbs sample time: 5.7e-05 seconds
+pgibbs sample time: 5.2e-05 seconds
 probability of topic_Department_96 is 0.453224
 
-pgibbs sample time: 5.7e-05 seconds
+pgibbs sample time: 5.2e-05 seconds
 probability of topic_Department_98 is 0.337308
 
-pgibbs sample time: 5.6e-05 seconds
+pgibbs sample time: 7.1e-05 seconds
 probability of topic_ResearchProject_95 is 0.471731
 
-pgibbs sample time: 7.2e-05 seconds
+pgibbs sample time: 6.7e-05 seconds
 probability of topic_ResearchProject_35 is 0.443406
 
-pgibbs sample time: 5.7e-05 seconds
+pgibbs sample time: 5.1e-05 seconds
 probability of topic_Course_82 is 0.403024
 
-pgibbs sample time: 5.6e-05 seconds
+pgibbs sample time: 5.2e-05 seconds
 probability of topic_Staff_23 is 0.455511
 
-pgibbs sample time: 5.4e-05 seconds
+pgibbs sample time: 4.8e-05 seconds
 probability of topic_Student_8 is 0.524583
 
-pgibbs sample time: 7.2e-05 seconds
+pgibbs sample time: 6.7e-05 seconds
 probability of topic_Student_18 is 0.453541
 
-pgibbs sample time: 7.1e-05 seconds
+pgibbs sample time: 6.7e-05 seconds
 probability of topic_Faculty_68 is 0.347011
 
-pgibbs sample time: 5.5e-05 seconds
+pgibbs sample time: 5e-05 seconds
 probability of topic_Person_37 is 0.498179
 
-pgibbs sample time: 7.2e-05 seconds
+pgibbs sample time: 6.7e-05 seconds
 probability of topic_ResearchProject_47 is 0.47757
 
-pgibbs sample time: 5.7e-05 seconds
+pgibbs sample time: 5.2e-05 seconds
 probability of topic_Student_59 is 0.604096
 
 pgibbs sample time: 0.000198 seconds
 probability of topic_Student_57 is 0.495916
 
-pgibbs sample time: 5.9e-05 seconds
+pgibbs sample time: 5.5e-05 seconds
 probability of topic_Student_26 is 0.414946
 
-pgibbs sample time: 5.7e-05 seconds
+pgibbs sample time: 5.1e-05 seconds
 probability of topic_Person_22 is 0.594433
 
-pgibbs sample time: 5.6e-05 seconds
+pgibbs sample time: 5.1e-05 seconds
 probability of topic_Department_94 is 0.481264
 
-pgibbs sample time: 5.8e-05 seconds
+pgibbs sample time: 7.8e-05 seconds
 probability of topic_ResearchProject_5 is 0.462699
 
-pgibbs sample time: 5.5e-05 seconds
+pgibbs sample time: 5.3e-05 seconds
 probability of topic_Person_8 is 0.505972
 
-pgibbs sample time: 5.8e-05 seconds
+pgibbs sample time: 5.3e-05 seconds
 probability of topic_Student_84 is 0.439683
 
-pgibbs sample time: 5.7e-05 seconds
+pgibbs sample time: 9.3e-05 seconds
 probability of topic_Person_85 is 0.443477
 
-pgibbs sample time: 5.4e-05 seconds
+pgibbs sample time: 9.3e-05 seconds
 probability of topic_Person_74 is 0.498179
 
-pgibbs sample time: 8.6e-05 seconds
+pgibbs sample time: 0.000152 seconds
 probability of topic_Faculty_47 is 0.466798
 
-pgibbs sample time: 5.5e-05 seconds
+pgibbs sample time: 7.6e-05 seconds
 probability of topic_Person_62 is 0.713581
 
-pgibbs sample time: 5.8e-05 seconds
+pgibbs sample time: 8.2e-05 seconds
 probability of topic_Faculty_73 is 0.518439
 
-pgibbs sample time: 5.6e-05 seconds
+pgibbs sample time: 7.8e-05 seconds
 probability of topic_Staff_38 is 0.425495
 
-pgibbs sample time: 5.6e-05 seconds
+pgibbs sample time: 8e-05 seconds
 probability of topic_Student_71 is 0.595284
 
-pgibbs sample time: 5.6e-05 seconds
+pgibbs sample time: 8e-05 seconds
 probability of topic_Person_94 is 0.484718
 
-pgibbs sample time: 5.8e-05 seconds
+pgibbs sample time: 8.4e-05 seconds
 probability of topic_Student_95 is 0.511746
 
-pgibbs sample time: 5.6e-05 seconds
+pgibbs sample time: 8.2e-05 seconds
 probability of topic_Staff_88 is 0.639653
 
-pgibbs sample time: 6.8e-05 seconds
+pgibbs sample time: 0.000111 seconds
 probability of topic_Staff_18 is 0.367281
 
-pgibbs sample time: 6e-05 seconds
+pgibbs sample time: 8e-05 seconds
 probability of topic_Student_99 is 0.471272
 
-pgibbs sample time: 5.7e-05 seconds
+pgibbs sample time: 8.2e-05 seconds
 probability of topic_Staff_24 is 0.4906
 
-pgibbs sample time: 5.5e-05 seconds
+pgibbs sample time: 7.7e-05 seconds
 probability of topic_Course_37 is 0.425378
 
-pgibbs sample time: 5.6e-05 seconds
+pgibbs sample time: 7.9e-05 seconds
 probability of topic_Faculty_43 is 0.547991
 
-pgibbs sample time: 5.7e-05 seconds
+pgibbs sample time: 8.5e-05 seconds
 probability of topic_Staff_96 is 0.500444
 
-pgibbs sample time: 5.5e-05 seconds
+pgibbs sample time: 0.000108 seconds
 probability of topic_Course_58 is 0.511101
 
-pgibbs sample time: 0.000346 seconds
+pgibbs sample time: 0.000596 seconds
 probability of topic_Faculty_93 is 0.421201
 
-pgibbs sample time: 0.000236 seconds
+pgibbs sample time: 0.000269 seconds
 probability of topic_Department_114 is 0.443812
 
-pgibbs sample time: 0.000234 seconds
+pgibbs sample time: 0.000241 seconds
 probability of topic_Department_54 is 0.486144
 
-pgibbs sample time: 5.8e-05 seconds
+pgibbs sample time: 6.2e-05 seconds
 probability of topic_Faculty_56 is 0.45131
 
-pgibbs sample time: 5.6e-05 seconds
+pgibbs sample time: 6e-05 seconds
 probability of topic_Staff_85 is 0.418667
 
-pgibbs sample time: 5.7e-05 seconds
+pgibbs sample time: 6.8e-05 seconds
 probability of topic_Faculty_13 is 0.571956
 
-pgibbs sample time: 5.7e-05 seconds
+pgibbs sample time: 7.5e-05 seconds
 probability of topic_Student_85 is 0.509618
 
-pgibbs sample time: 7.1e-05 seconds
+pgibbs sample time: 8.7e-05 seconds
 probability of topic_ResearchProject_68 is 0.289613
 
-pgibbs sample time: 5.4e-05 seconds
+pgibbs sample time: 6.5e-05 seconds
 probability of topic_Person_24 is 0.505543
 
-pgibbs sample time: 5.6e-05 seconds
+pgibbs sample time: 6.5e-05 seconds
 probability of topic_Person_60 is 0.475019
 
-pgibbs sample time: 5.4e-05 seconds
+pgibbs sample time: 6.4e-05 seconds
 probability of topic_Course_86 is 0.411195
 
-pgibbs sample time: 5.8e-05 seconds
+pgibbs sample time: 6.9e-05 seconds
 probability of topic_Department_9 is 0.498341
 
-pgibbs sample time: 0.000377 seconds
+pgibbs sample time: 0.000517 seconds
 probability of topic_ResearchProject_91 is 0.578444
 
-pgibbs sample time: 5.6e-05 seconds
+pgibbs sample time: 6.7e-05 seconds
 probability of topic_ResearchProject_37 is 0.442936
 
-pgibbs sample time: 7.2e-05 seconds
+pgibbs sample time: 8.8e-05 seconds
 probability of topic_ResearchProject_7 is 0.525628
 
-pgibbs sample time: 5.7e-05 seconds
+pgibbs sample time: 6.2e-05 seconds
 probability of topic_Staff_46 is 0.423377
 
-pgibbs sample time: 5.7e-05 seconds
+pgibbs sample time: 6.6e-05 seconds
 probability of topic_Department_13 is 0.601492
 
-pgibbs sample time: 0.00034 seconds
+pgibbs sample time: 0.000406 seconds
 probability of topic_Department_93 is 0.448881
 
-pgibbs sample time: 6e-05 seconds
+pgibbs sample time: 6.1e-05 seconds
 probability of topic_Staff_8 is 0.576178
 
-pgibbs sample time: 5.7e-05 seconds
+pgibbs sample time: 6.5e-05 seconds
 probability of topic_ResearchProject_62 is 0.620402
 
-pgibbs sample time: 5.7e-05 seconds
+pgibbs sample time: 6.4e-05 seconds
 probability of topic_ResearchProject_77 is 0.620402
 
-pgibbs sample time: 5.6e-05 seconds
+pgibbs sample time: 6.4e-05 seconds
 probability of topic_Student_24 is 0.561816
 
-pgibbs sample time: 5.7e-05 seconds
+pgibbs sample time: 8.9e-05 seconds
 probability of topic_Student_98 is 0.630971
 
-pgibbs sample time: 5.7e-05 seconds
+pgibbs sample time: 6.3e-05 seconds
 probability of topic_Person_43 is 0.484264
 
-pgibbs sample time: 0.000224 seconds
+pgibbs sample time: 0.000269 seconds
 probability of topic_Staff_114 is 0.426819
 
-pgibbs sample time: 5.5e-05 seconds
+pgibbs sample time: 6e-05 seconds
 probability of topic_Course_90 is 0.408955
 
-pgibbs sample time: 5.7e-05 seconds
+pgibbs sample time: 6.4e-05 seconds
 probability of topic_ResearchProject_9 is 0.64307
 
-pgibbs sample time: 5.8e-05 seconds
+pgibbs sample time: 6.3e-05 seconds
 probability of topic_Student_75 is 0.466858
 
-pgibbs sample time: 5.7e-05 seconds
+pgibbs sample time: 6.2e-05 seconds
 probability of topic_Faculty_98 is 0.42616
 
-pgibbs sample time: 0.000221 seconds
+pgibbs sample time: 0.000249 seconds
 probability of topic_Staff_11 is 0.413434
 
-pgibbs sample time: 5.7e-05 seconds
+pgibbs sample time: 6.9e-05 seconds
 probability of topic_ResearchProject_85 is 0.510812
 
-pgibbs sample time: 0.000261 seconds
+pgibbs sample time: 0.000292 seconds
 probability of topic_ResearchProject_81 is 0.455082
 
-pgibbs sample time: 0.000359 seconds
+pgibbs sample time: 0.000395 seconds
 probability of topic_Staff_92 is 0.477831
 
-pgibbs sample time: 5.8e-05 seconds
+pgibbs sample time: 6.6e-05 seconds
 probability of topic_Person_99 is 0.406754
 
-pgibbs sample time: 5.5e-05 seconds
+pgibbs sample time: 6.2e-05 seconds
 probability of topic_Person_97 is 0.616261
 
-pgibbs sample time: 5.5e-05 seconds
+pgibbs sample time: 6.9e-05 seconds
 probability of topic_Person_73 is 0.64664
 
-pgibbs sample time: 5.7e-05 seconds
+pgibbs sample time: 8.4e-05 seconds
 probability of topic_Department_51 is 0.484068
 
-pgibbs sample time: 0.000341 seconds
+pgibbs sample time: 0.0004 seconds
 probability of topic_Department_116 is 0.439807
 
-pgibbs sample time: 5.7e-05 seconds
+pgibbs sample time: 7.3e-05 seconds
 probability of topic_Person_26 is 0.508625
 
-pgibbs sample time: 5.5e-05 seconds
+pgibbs sample time: 6.4e-05 seconds
 probability of topic_Course_26 is 0.561148
 
-pgibbs sample time: 5.5e-05 seconds
+pgibbs sample time: 6.4e-05 seconds
 probability of topic_Student_4 is 0.415944
 
-pgibbs sample time: 5.6e-05 seconds
+pgibbs sample time: 6.4e-05 seconds
 probability of topic_Course_56 is 0.431197
 
-pgibbs sample time: 5.8e-05 seconds
+pgibbs sample time: 6.9e-05 seconds
 probability of topic_Department_63 is 0.419932
 
-pgibbs sample time: 5.7e-05 seconds
+pgibbs sample time: 6.3e-05 seconds
 probability of topic_Faculty_77 is 0.505241
 
-pgibbs sample time: 5.6e-05 seconds
+pgibbs sample time: 6.2e-05 seconds
 probability of topic_ResearchProject_24 is 0.478691
 
-pgibbs sample time: 5.5e-05 seconds
+pgibbs sample time: 6.1e-05 seconds
 probability of topic_Person_5 is 0.505972
 
-pgibbs sample time: 5.6e-05 seconds
+pgibbs sample time: 6.6e-05 seconds
 probability of topic_Course_59 is 0.632866
 
-pgibbs sample time: 5.7e-05 seconds
+pgibbs sample time: 6.7e-05 seconds
 probability of topic_Department_8 is 0.649423
 
-pgibbs sample time: 5.5e-05 seconds
+pgibbs sample time: 6.4e-05 seconds
 probability of topic_Staff_94 is 0.423377
 
-pgibbs sample time: 5.6e-05 seconds
+pgibbs sample time: 6.4e-05 seconds
 probability of topic_Course_36 is 0.419663
 
-pgibbs sample time: 7.1e-05 seconds
+pgibbs sample time: 8.7e-05 seconds
 probability of topic_Student_76 is 0.519467
 
-pgibbs sample time: 5.6e-05 seconds
+pgibbs sample time: 6.5e-05 seconds
 probability of topic_Department_97 is 0.552366
 
-pgibbs sample time: 0.000375 seconds
+pgibbs sample time: 0.000498 seconds
 probability of topic_Department_72 is 0.45178
 
-pgibbs sample time: 0.000373 seconds
+pgibbs sample time: 0.000476 seconds
 probability of topic_Department_41 is 0.396628
 
-pgibbs sample time: 5.5e-05 seconds
+pgibbs sample time: 6.6e-05 seconds
 probability of topic_Person_71 is 0.661852
 
-pgibbs sample time: 5.8e-05 seconds
+pgibbs sample time: 7.2e-05 seconds
 probability of topic_Student_23 is 0.298945
 
-pgibbs sample time: 5.6e-05 seconds
+pgibbs sample time: 6.6e-05 seconds
 probability of topic_ResearchProject_6 is 0.46694
 
-pgibbs sample time: 0.000221 seconds
+pgibbs sample time: 0.000233 seconds
 probability of topic_Person_91 is 0.385669
 
-pgibbs sample time: 5.8e-05 seconds
+pgibbs sample time: 6.6e-05 seconds
 probability of topic_ResearchProject_44 is 0.368362
 
-pgibbs sample time: 7e-05 seconds
+pgibbs sample time: 8.5e-05 seconds
 probability of topic_Person_14 is 0.445516
 
-pgibbs sample time: 5.8e-05 seconds
+pgibbs sample time: 7.1e-05 seconds
 probability of topic_Faculty_82 is 0.413153
 
-pgibbs sample time: 5.7e-05 seconds
+pgibbs sample time: 6.4e-05 seconds
 probability of topic_Person_21 is 0.469376
 
-pgibbs sample time: 5.7e-05 seconds
+pgibbs sample time: 7.8e-05 seconds
 probability of topic_ResearchProject_89 is 0.487573
 
-pgibbs sample time: 5.7e-05 seconds
+pgibbs sample time: 8.1e-05 seconds
 probability of topic_Student_83 is 0.527898
 
-pgibbs sample time: 5.6e-05 seconds
+pgibbs sample time: 8.7e-05 seconds
 probability of topic_Faculty_26 is 0.590197
 
-pgibbs sample time: 5.6e-05 seconds
+pgibbs sample time: 8.4e-05 seconds
 probability of topic_Department_90 is 0.557293
 
-pgibbs sample time: 0.000227 seconds
+pgibbs sample time: 0.000203 seconds
 probability of topic_Person_10 is 0.523749
 
-pgibbs sample time: 0.000224 seconds
+pgibbs sample time: 0.000193 seconds
 probability of topic_Person_87 is 0.616475
 
-pgibbs sample time: 5.8e-05 seconds
+pgibbs sample time: 5.3e-05 seconds
 probability of topic_Student_82 is 0.52095
 
-pgibbs sample time: 5.6e-05 seconds
+pgibbs sample time: 6.2e-05 seconds
 probability of topic_Staff_39 is 0.45146
 
-pgibbs sample time: 0.00023 seconds
+pgibbs sample time: 0.000221 seconds
 probability of topic_Person_54 is 0.47374
 
-pgibbs sample time: 5.6e-05 seconds
+pgibbs sample time: 5e-05 seconds
 probability of topic_Staff_56 is 0.44278
 
-pgibbs sample time: 5.7e-05 seconds
+pgibbs sample time: 7.2e-05 seconds
 probability of topic_Department_79 is 0.649423
 
-pgibbs sample time: 5.7e-05 seconds
+pgibbs sample time: 5.2e-05 seconds
 probability of topic_Student_55 is 0.556822
 
-pgibbs sample time: 0.000264 seconds
+pgibbs sample time: 0.000228 seconds
 probability of topic_Course_81 is 0.542103
 
-pgibbs sample time: 5.6e-05 seconds
+pgibbs sample time: 5e-05 seconds
 probability of topic_Course_34 is 0.466787
 
-pgibbs sample time: 5.5e-05 seconds
+pgibbs sample time: 4.9e-05 seconds
 probability of topic_Person_42 is 0.533634
 
-pgibbs sample time: 5.8e-05 seconds
+pgibbs sample time: 5.3e-05 seconds
 probability of topic_ResearchProject_97 is 0.51539
 
-pgibbs sample time: 5.5e-05 seconds
+pgibbs sample time: 5e-05 seconds
 probability of topic_Course_95 is 0.509234
 
-pgibbs sample time: 5.5e-05 seconds
+pgibbs sample time: 4.9e-05 seconds
 probability of topic_Staff_97 is 0.500406
 
-pgibbs sample time: 5.7e-05 seconds
+pgibbs sample time: 5.3e-05 seconds
 probability of topic_Student_13 is 0.323068
 
-pgibbs sample time: 5.6e-05 seconds
+pgibbs sample time: 5.2e-05 seconds
 probability of topic_Faculty_23 is 0.446163
 
-pgibbs sample time: 5.7e-05 seconds
+pgibbs sample time: 5.2e-05 seconds
 probability of topic_ResearchProject_43 is 0.495024
 
-pgibbs sample time: 5.6e-05 seconds
+pgibbs sample time: 5.2e-05 seconds
 probability of topic_Person_33 is 0.362689
 
-pgibbs sample time: 5.5e-05 seconds
+pgibbs sample time: 5e-05 seconds
 probability of topic_Course_23 is 0.75994
 
-pgibbs sample time: 5.7e-05 seconds
+pgibbs sample time: 5.1e-05 seconds
 probability of topic_Staff_13 is 0.505232
 
-pgibbs sample time: 5.6e-05 seconds
+pgibbs sample time: 5.1e-05 seconds
 probability of topic_Department_36 is 0.477106
 
-pgibbs sample time: 0.000256 seconds
+pgibbs sample time: 0.000237 seconds
 probability of topic_Department_49 is 0.477121
 
-pgibbs sample time: 5.8e-05 seconds
+pgibbs sample time: 5.3e-05 seconds
 probability of topic_ResearchProject_18 is 0.472546
 
-pgibbs sample time: 5.5e-05 seconds
+pgibbs sample time: 5e-05 seconds
 probability of topic_Course_5 is 0.47654
 
-pgibbs sample time: 5.8e-05 seconds
+pgibbs sample time: 5.3e-05 seconds
 probability of topic_Student_63 is 0.459782
 
-pgibbs sample time: 7.3e-05 seconds
+pgibbs sample time: 7e-05 seconds
 probability of topic_ResearchProject_3 is 0.469493
 
-pgibbs sample time: 5.7e-05 seconds
+pgibbs sample time: 5.2e-05 seconds
 probability of topic_Faculty_60 is 0.457381
 
-pgibbs sample time: 5.7e-05 seconds
+pgibbs sample time: 5.2e-05 seconds
 probability of topic_Faculty_16 is 0.519859
 
-pgibbs sample time: 0.00024 seconds
+pgibbs sample time: 0.000192 seconds
 probability of topic_Course_49 is 0.440614
 
-pgibbs sample time: 0.000222 seconds
+pgibbs sample time: 0.00019 seconds
 probability of topic_Course_19 is 0.404021
 
-pgibbs sample time: 0.000228 seconds
+pgibbs sample time: 0.000201 seconds
 probability of topic_Faculty_57 is 0.473516
 
-pgibbs sample time: 5.7e-05 seconds
+pgibbs sample time: 5.3e-05 seconds
 probability of topic_Department_58 is 0.432485
 
-pgibbs sample time: 7.2e-05 seconds
+pgibbs sample time: 6.6e-05 seconds
 probability of topic_Person_3 is 0.465517
 
-pgibbs sample time: 0.000234 seconds
+pgibbs sample time: 0.000205 seconds
 probability of topic_ResearchProject_31 is 0.413594
 
-pgibbs sample time: 5.7e-05 seconds
+pgibbs sample time: 5.2e-05 seconds
 probability of topic_Faculty_90 is 0.551474
 
-pgibbs sample time: 5.8e-05 seconds
+pgibbs sample time: 5.3e-05 seconds
 probability of topic_Faculty_40 is 0.401781
 
-pgibbs sample time: 6e-05 seconds
+pgibbs sample time: 5.2e-05 seconds
 probability of topic_Faculty_44 is 0.573274
 
-pgibbs sample time: 6.9e-05 seconds
+pgibbs sample time: 6.4e-05 seconds
 probability of topic_Course_12 is 0.537396
 
-pgibbs sample time: 5.6e-05 seconds
+pgibbs sample time: 5.2e-05 seconds
 probability of topic_Staff_73 is 0.579064
 
-pgibbs sample time: 5.5e-05 seconds
+pgibbs sample time: 5.1e-05 seconds
 probability of topic_Staff_25 is 0.392841
 
-pgibbs sample time: 5.7e-05 seconds
+pgibbs sample time: 5.2e-05 seconds
 probability of topic_ResearchProject_2 is 0.531836
 
-pgibbs sample time: 6.9e-05 seconds
+pgibbs sample time: 6.6e-05 seconds
 probability of topic_Department_18 is 0.384069
 
-pgibbs sample time: 5.6e-05 seconds
+pgibbs sample time: 5.5e-05 seconds
 probability of topic_ResearchProject_64 is 0.478715
 
-pgibbs sample time: 5.7e-05 seconds
+pgibbs sample time: 5e-05 seconds
 probability of topic_Person_66 is 0.486143
 
-pgibbs sample time: 5.4e-05 seconds
+pgibbs sample time: 5e-05 seconds
 probability of topic_Course_38 is 0.476705
 
-pgibbs sample time: 0.001123 seconds
+pgibbs sample time: 0.001143 seconds
 probability of topic_Department_28 is 0.466784
 
-pgibbs sample time: 0.001118 seconds
+pgibbs sample time: 0.001226 seconds
 probability of topic_Department_102 is 0.370357
 
-pgibbs sample time: 0.001241 seconds
+pgibbs sample time: 0.001146 seconds
 probability of topic_Department_50 is 0.497056
 
-pgibbs sample time: 7.2e-05 seconds
+pgibbs sample time: 6.7e-05 seconds
 probability of topic_Faculty_53 is 0.48486
 
-pgibbs sample time: 5.7e-05 seconds
+pgibbs sample time: 5.3e-05 seconds
 probability of topic_ResearchProject_78 is 0.531836
 
-pgibbs sample time: 5.5e-05 seconds
+pgibbs sample time: 5e-05 seconds
 probability of topic_Staff_44 is 0.426056
 
-pgibbs sample time: 8.1e-05 seconds
+pgibbs sample time: 7.6e-05 seconds
 probability of topic_Staff_47 is 0.421509
 
-pgibbs sample time: 5.7e-05 seconds
+pgibbs sample time: 5.3e-05 seconds
 probability of topic_Student_38 is 0.45027
 
-pgibbs sample time: 5.6e-05 seconds
+pgibbs sample time: 4.9e-05 seconds
 probability of topic_Person_86 is 0.511027
 
-pgibbs sample time: 5.7e-05 seconds
+pgibbs sample time: 5.3e-05 seconds
 probability of topic_Student_66 is 0.487579
 
-pgibbs sample time: 0.001099 seconds
+pgibbs sample time: 0.000978 seconds
 probability of topic_Course_28 is 0.478248
 
-pgibbs sample time: 5.8e-05 seconds
+pgibbs sample time: 5.3e-05 seconds
 probability of topic_Student_44 is 0.535841
 
-pgibbs sample time: 0.001119 seconds
+pgibbs sample time: 0.001146 seconds
 probability of topic_Department_29 is 0.359161
 
-pgibbs sample time: 0.001094 seconds
+pgibbs sample time: 0.00098 seconds
 probability of topic_Course_50 is 0.421278
 
-pgibbs sample time: 5.7e-05 seconds
+pgibbs sample time: 5.1e-05 seconds
 probability of topic_Course_52 is 0.474801
 
-pgibbs sample time: 0.00034 seconds
+pgibbs sample time: 0.000297 seconds
 probability of topic_Person_115 is 0.423502
 
-pgibbs sample time: 7.1e-05 seconds
+pgibbs sample time: 6.6e-05 seconds
 probability of topic_Course_18 is 0.359627
 
-pgibbs sample time: 5.6e-05 seconds
+pgibbs sample time: 4.9e-05 seconds
 probability of topic_Course_27 is 0.47654
 
-pgibbs sample time: 0.000219 seconds
+pgibbs sample time: 0.000187 seconds
 probability of topic_Person_11 is 0.543106
 
-pgibbs sample time: 5.7e-05 seconds
+pgibbs sample time: 5.2e-05 seconds
 probability of topic_Student_30 is 0.428999
 
-pgibbs sample time: 5.5e-05 seconds
+pgibbs sample time: 5e-05 seconds
 probability of topic_Course_94 is 0.415922
 
-pgibbs sample time: 5.7e-05 seconds
+pgibbs sample time: 5.2e-05 seconds
 probability of topic_Student_69 is 0.511284
 
-pgibbs sample time: 5.8e-05 seconds
+pgibbs sample time: 5.2e-05 seconds
 probability of topic_Student_94 is 0.486212
 
-pgibbs sample time: 0.000235 seconds
+pgibbs sample time: 0.000204 seconds
 probability of topic_ResearchProject_120 is 0.479013
 
-pgibbs sample time: 5.8e-05 seconds
+pgibbs sample time: 5.3e-05 seconds
 probability of topic_Course_78 is 0.543988
 
-pgibbs sample time: 5.7e-05 seconds
+pgibbs sample time: 5e-05 seconds
 probability of topic_Course_89 is 0.524639
 
-pgibbs sample time: 0.00035 seconds
+pgibbs sample time: 0.000312 seconds
 probability of topic_Faculty_116 is 0.43457
 
-pgibbs sample time: 5.8e-05 seconds
+pgibbs sample time: 5.4e-05 seconds
 probability of topic_Department_16 is 0.416173
 
-pgibbs sample time: 5.8e-05 seconds
+pgibbs sample time: 5.3e-05 seconds
 probability of topic_Faculty_12 is 0.57307
 
-pgibbs sample time: 5.6e-05 seconds
+pgibbs sample time: 5.3e-05 seconds
 probability of topic_Department_17 is 0.396274
 
-pgibbs sample time: 0.000223 seconds
+pgibbs sample time: 0.000191 seconds
 probability of topic_Staff_67 is 0.464105
 
-pgibbs sample time: 5.5e-05 seconds
+pgibbs sample time: 4.9e-05 seconds
 probability of topic_Course_6 is 0.497804
 
-pgibbs sample time: 5.7e-05 seconds
+pgibbs sample time: 5.3e-05 seconds
 probability of topic_Student_33 is 0.331652
 
-pgibbs sample time: 7.1e-05 seconds
+pgibbs sample time: 6.5e-05 seconds
 probability of topic_Person_53 is 0.526919
 
-pgibbs sample time: 5.5e-05 seconds
+pgibbs sample time: 5e-05 seconds
 probability of topic_Staff_69 is 0.472063
 
-pgibbs sample time: 5.6e-05 seconds
+pgibbs sample time: 5.3e-05 seconds
 probability of topic_ResearchProject_75 is 0.507665
 
-pgibbs sample time: 5.6e-05 seconds
+pgibbs sample time: 5.1e-05 seconds
 probability of topic_Student_58 is 0.391642
 
-pgibbs sample time: 5.7e-05 seconds
+pgibbs sample time: 5.3e-05 seconds
 probability of topic_Student_34 is 0.595173
 
-pgibbs sample time: 5.7e-05 seconds
+pgibbs sample time: 5.2e-05 seconds
 probability of topic_Department_2 is 0.473854
 
-pgibbs sample time: 5.5e-05 seconds
+pgibbs sample time: 4.9e-05 seconds
 probability of topic_Faculty_1 is 0.582985
 
-pgibbs sample time: 5.5e-05 seconds
+pgibbs sample time: 5e-05 seconds
 probability of topic_Staff_36 is 0.433882
 
-pgibbs sample time: 5.5e-05 seconds
+pgibbs sample time: 4.9e-05 seconds
 probability of topic_Staff_51 is 0.459285
 
-pgibbs sample time: 5.7e-05 seconds
+pgibbs sample time: 5.4e-05 seconds
 probability of topic_Student_21 is 0.461851
 
 pgibbs sample time: 0.000374 seconds
 probability of topic_Course_92 is 0.490761
 
-pgibbs sample time: 5.8e-05 seconds
+pgibbs sample time: 5.2e-05 seconds
 probability of topic_Student_64 is 0.429005
 
-pgibbs sample time: 5.6e-05 seconds
+pgibbs sample time: 5.2e-05 seconds
 probability of topic_Course_55 is 0.483306
 
-pgibbs sample time: 5.7e-05 seconds
+pgibbs sample time: 5.3e-05 seconds
 probability of topic_Student_40 is 0.48777
 
-pgibbs sample time: 5.6e-05 seconds
+pgibbs sample time: 5e-05 seconds
 probability of topic_Course_66 is 0.419524
 
-pgibbs sample time: 5.7e-05 seconds
+pgibbs sample time: 5.2e-05 seconds
 probability of topic_Department_66 is 0.477077
 
-pgibbs sample time: 0.000255 seconds
+pgibbs sample time: 0.000226 seconds
 probability of topic_Person_81 is 0.495705
 
-pgibbs sample time: 5.5e-05 seconds
+pgibbs sample time: 5e-05 seconds
 probability of topic_Course_8 is 0.47654
 
-pgibbs sample time: 5.7e-05 seconds
+pgibbs sample time: 5.3e-05 seconds
 probability of topic_Department_21 is 0.477689
 
-pgibbs sample time: 5.6e-05 seconds
+pgibbs sample time: 5e-05 seconds
 probability of topic_Course_97 is 0.582053
 
-pgibbs sample time: 5.4e-05 seconds
+pgibbs sample time: 4.9e-05 seconds
 probability of topic_Person_77 is 0.713581
 
-pgibbs sample time: 5.6e-05 seconds
+pgibbs sample time: 5.1e-05 seconds
 probability of topic_Person_89 is 0.500931
 
-pgibbs sample time: 0.000224 seconds
+pgibbs sample time: 0.000194 seconds
 probability of topic_Staff_20 is 0.486765
 
-pgibbs sample time: 5.7e-05 seconds
+pgibbs sample time: 5.3e-05 seconds
 probability of topic_ResearchProject_82 is 0.472546
 
-pgibbs sample time: 5.8e-05 seconds
+pgibbs sample time: 5.2e-05 seconds
 probability of topic_ResearchProject_94 is 0.423904
 
-pgibbs sample time: 5.8e-05 seconds
+pgibbs sample time: 5.2e-05 seconds
 probability of topic_Department_89 is 0.462901
 
-pgibbs sample time: 5.7e-05 seconds
+pgibbs sample time: 5.3e-05 seconds
 probability of topic_Faculty_65 is 0.434293
 
-pgibbs sample time: 5.6e-05 seconds
+pgibbs sample time: 5e-05 seconds
 probability of topic_Student_9 is 0.46651
 
-pgibbs sample time: 5.9e-05 seconds
+pgibbs sample time: 5e-05 seconds
 probability of topic_Person_58 is 0.471477
 
-pgibbs sample time: 5.5e-05 seconds
+pgibbs sample time: 4.9e-05 seconds
 probability of topic_Person_76 is 0.498179
 
-pgibbs sample time: 5.6e-05 seconds
+pgibbs sample time: 4.8e-05 seconds
 probability of topic_Person_6 is 0.48059
 
-pgibbs sample time: 0.000231 seconds
+pgibbs sample time: 0.000204 seconds
 probability of topic_ResearchProject_115 is 0.663229
 
-pgibbs sample time: 0.000251 seconds
+pgibbs sample time: 0.000303 seconds
 probability of topic_Person_19 is 0.688291
 
-pgibbs sample time: 5.7e-05 seconds
+pgibbs sample time: 5e-05 seconds
 probability of topic_Staff_5 is 0.576178
 
-pgibbs sample time: 5.6e-05 seconds
+pgibbs sample time: 5e-05 seconds
 probability of topic_Course_33 is 0.592702
 
-pgibbs sample time: 5.6e-05 seconds
+pgibbs sample time: 5.1e-05 seconds
 probability of topic_Person_2 is 0.370696
 
-pgibbs sample time: 0.000234 seconds
+pgibbs sample time: 0.000293 seconds
 probability of topic_Course_114 is 0.425102
 
-pgibbs sample time: 5.7e-05 seconds
+pgibbs sample time: 5.3e-05 seconds
 probability of topic_Faculty_30 is 0.475067
 
-pgibbs sample time: 7.1e-05 seconds
+pgibbs sample time: 6.5e-05 seconds
 probability of topic_Person_68 is 0.300045
 
-pgibbs sample time: 0.000216 seconds
+pgibbs sample time: 0.000187 seconds
 probability of topic_Course_61 is 0.448118
 
-pgibbs sample time: 0.000353 seconds
+pgibbs sample time: 0.000311 seconds
 probability of topic_Faculty_120 is 0.504577
 
-pgibbs sample time: 5.7e-05 seconds
+pgibbs sample time: 5.3e-05 seconds
 probability of topic_ResearchProject_39 is 0.554075
 
-pgibbs sample time: 5.7e-05 seconds
+pgibbs sample time: 5.1e-05 seconds
 probability of topic_Department_69 is 0.448246
 
-pgibbs sample time: 0.000235 seconds
+pgibbs sample time: 0.000206 seconds
 probability of topic_Department_87 is 0.47383
 
-pgibbs sample time: 5.6e-05 seconds
+pgibbs sample time: 5.1e-05 seconds
 probability of topic_Course_44 is 0.503376
 
-pgibbs sample time: 5.9e-05 seconds
+pgibbs sample time: 5.2e-05 seconds
 probability of topic_Student_43 is 0.474627
 
-pgibbs sample time: 5.6e-05 seconds
+pgibbs sample time: 5.2e-05 seconds
 probability of topic_Department_27 is 0.649423
 
-pgibbs sample time: 0.000381 seconds
+pgibbs sample time: 0.000387 seconds
 probability of topic_Department_120 is 0.663281
 
-pgibbs sample time: 5.8e-05 seconds
+pgibbs sample time: 5.2e-05 seconds
 probability of topic_Staff_21 is 0.514711
 
-pgibbs sample time: 7.1e-05 seconds
+pgibbs sample time: 6.7e-05 seconds
 probability of topic_ResearchProject_14 is 0.393
 
-pgibbs sample time: 5.6e-05 seconds
+pgibbs sample time: 4.9e-05 seconds
 probability of topic_Staff_74 is 0.447858
 
-pgibbs sample time: 5.5e-05 seconds
+pgibbs sample time: 5e-05 seconds
 probability of topic_Faculty_5 is 0.489816
 
-pgibbs sample time: 5.7e-05 seconds
+pgibbs sample time: 5.2e-05 seconds
 probability of topic_Department_15 is 0.499992
 
-pgibbs sample time: 5.7e-05 seconds
+pgibbs sample time: 5.1e-05 seconds
 probability of topic_Faculty_71 is 0.521865
 
-pgibbs sample time: 0.001092 seconds
+pgibbs sample time: 0.000993 seconds
 probability of topic_Student_29 is 0.558098
 
-pgibbs sample time: 5.7e-05 seconds
+pgibbs sample time: 5.4e-05 seconds
 probability of topic_Faculty_58 is 0.545848
 
-pgibbs sample time: 0.00038 seconds
+pgibbs sample time: 0.000387 seconds
 probability of topic_Faculty_41 is 0.385812
 
-pgibbs sample time: 0.000354 seconds
+pgibbs sample time: 0.000314 seconds
 probability of topic_Faculty_31 is 0.471192
 
-pgibbs sample time: 5.5e-05 seconds
+pgibbs sample time: 5e-05 seconds
 probability of topic_Course_17 is 0.446475
 
-pgibbs sample time: 5.9e-05 seconds
+pgibbs sample time: 5.3e-05 seconds
 probability of topic_Department_73 is 0.443881
 
-pgibbs sample time: 5.8e-05 seconds
+pgibbs sample time: 5.1e-05 seconds
 probability of topic_ResearchProject_46 is 0.423904
 
-pgibbs sample time: 7e-05 seconds
+pgibbs sample time: 6.6e-05 seconds
 probability of topic_Department_7 is 0.488446
 
-pgibbs sample time: 5.6e-05 seconds
+pgibbs sample time: 5.1e-05 seconds
 probability of topic_Staff_84 is 0.465986
 
-pgibbs sample time: 5.7e-05 seconds
+pgibbs sample time: 5.2e-05 seconds
 probability of topic_Faculty_74 is 0.419826
 
-pgibbs sample time: 5.8e-05 seconds
+pgibbs sample time: 5.3e-05 seconds
 probability of topic_Faculty_89 is 0.472762
 
-pgibbs sample time: 5.7e-05 seconds
+pgibbs sample time: 5.5e-05 seconds
 probability of topic_Faculty_15 is 0.499986
 
-pgibbs sample time: 5.6e-05 seconds
+pgibbs sample time: 5.1e-05 seconds
 probability of topic_Student_97 is 0.603786
 
-pgibbs sample time: 7.2e-05 seconds
+pgibbs sample time: 6.6e-05 seconds
 probability of topic_ResearchProject_76 is 0.469044
 
-pgibbs sample time: 5.7e-05 seconds
+pgibbs sample time: 5.1e-05 seconds
 probability of topic_Faculty_64 is 0.478205
 
-pgibbs sample time: 5.5e-05 seconds
+pgibbs sample time: 5.1e-05 seconds
 probability of topic_ResearchProject_80 is 0.442936
 
-pgibbs sample time: 0.000233 seconds
+pgibbs sample time: 0.000204 seconds
 probability of topic_ResearchProject_67 is 0.460733
 
-pgibbs sample time: 7.5e-05 seconds
+pgibbs sample time: 6.7e-05 seconds
 probability of topic_Department_53 is 0.443262
 
 pgibbs sample time: 0.000371 seconds
 probability of topic_Person_120 is 0.517243
 
-pgibbs sample time: 0.000335 seconds
+pgibbs sample time: 0.000341 seconds
 probability of topic_Student_45 is 0.508653
 
-pgibbs sample time: 5.6e-05 seconds
+pgibbs sample time: 5e-05 seconds
 probability of topic_Student_1 is 0.360939
 
-pgibbs sample time: 0.001142 seconds
+pgibbs sample time: 0.001157 seconds
 probability of topic_Faculty_50 is 0.422045
 
-pgibbs sample time: 0.000204 seconds
+pgibbs sample time: 0.000201 seconds
 probability of topic_Department_61 is 0.323961
 
-pgibbs sample time: 7.1e-05 seconds
+pgibbs sample time: 6.5e-05 seconds
 probability of topic_Person_52 is 0.424075
 
-pgibbs sample time: 0.000273 seconds
+pgibbs sample time: 0.000246 seconds
 probability of topic_Department_81 is 0.598125
 
-pgibbs sample time: 0.000199 seconds
+pgibbs sample time: 0.000175 seconds
 probability of topic_Department_11 is 0.4862
 
-pgibbs sample time: 7e-05 seconds
+pgibbs sample time: 6.4e-05 seconds
 probability of topic_Course_88 is 0.517024
 
-pgibbs sample time: 5.8e-05 seconds
+pgibbs sample time: 5.2e-05 seconds
 probability of topic_ResearchProject_71 is 0.485375
 
-pgibbs sample time: 5.6e-05 seconds
+pgibbs sample time: 5.1e-05 seconds
 probability of topic_Student_79 is 0.524583
 
-pgibbs sample time: 0.00027 seconds
+pgibbs sample time: 0.000237 seconds
 probability of topic_Department_19 is 0.600009
 
-pgibbs sample time: 5.8e-05 seconds
+pgibbs sample time: 5.3e-05 seconds
 probability of topic_Faculty_27 is 0.489816
 
-pgibbs sample time: 0.000193 seconds
+pgibbs sample time: 0.000165 seconds
 probability of topic_Person_57 is 0.484515
 
-pgibbs sample time: 0.000267 seconds
+pgibbs sample time: 0.000235 seconds
 probability of topic_ResearchProject_49 is 0.500915
 
-pgibbs sample time: 5.6e-05 seconds
+pgibbs sample time: 5.2e-05 seconds
 probability of topic_ResearchProject_70 is 0.411136
 
-pgibbs sample time: 7.2e-05 seconds
+pgibbs sample time: 6.8e-05 seconds
 probability of topic_Student_17 is 0.548544
 
-pgibbs sample time: 0.000371 seconds
+pgibbs sample time: 0.000379 seconds
 probability of topic_Student_120 is 0.53523
 
-pgibbs sample time: 5.7e-05 seconds
+pgibbs sample time: 5.1e-05 seconds
 probability of topic_Department_77 is 0.63036
 
-pgibbs sample time: 0.000985 seconds
+pgibbs sample time: 0.001132 seconds
 probability of topic_ResearchProject_28 is 0.445427
 
-pgibbs sample time: 5.9e-05 seconds
+pgibbs sample time: 5.4e-05 seconds
 probability of topic_Department_38 is 0.572254
 
-pgibbs sample time: 5.8e-05 seconds
+pgibbs sample time: 5.3e-05 seconds
 probability of topic_ResearchProject_16 is 0.488395
 
-pgibbs sample time: 5.5e-05 seconds
+pgibbs sample time: 4.9e-05 seconds
 probability of topic_Course_53 is 0.425378
 
 pgibbs sample time: 0.000363 seconds
 probability of topic_Staff_115 is 0.54146
 
-pgibbs sample time: 5.8e-05 seconds
+pgibbs sample time: 5.4e-05 seconds
 probability of topic_ResearchProject_30 is 0.467464
 
-pgibbs sample time: 5.7e-05 seconds
+pgibbs sample time: 5.2e-05 seconds
 probability of topic_Faculty_79 is 0.489816
 
-pgibbs sample time: 0.000972 seconds
+pgibbs sample time: 0.000993 seconds
 probability of topic_Student_102 is 0.589567
 
-pgibbs sample time: 5.8e-05 seconds
+pgibbs sample time: 5.4e-05 seconds
 probability of topic_Student_56 is 0.402692
 
 pgibbs sample time: 5.7e-05 seconds
 probability of topic_ResearchProject_59 is 0.463025
 
-pgibbs sample time: 5.8e-05 seconds
+pgibbs sample time: 5.2e-05 seconds
 probability of topic_Staff_9 is 0.49267
 
-pgibbs sample time: 5.7e-05 seconds
+pgibbs sample time: 4.9e-05 seconds
 probability of topic_Staff_37 is 0.447858
 
-pgibbs sample time: 5.7e-05 seconds
+pgibbs sample time: 5.2e-05 seconds
 probability of topic_ResearchProject_90 is 0.578898
 
-pgibbs sample time: 0.000371 seconds
+pgibbs sample time: 0.00037 seconds
 probability of topic_Person_31 is 0.59602
 
-pgibbs sample time: 0.001103 seconds
+pgibbs sample time: 0.000987 seconds
 probability of topic_Person_102 is 0.564205
 
-pgibbs sample time: 5.5e-05 seconds
+pgibbs sample time: 5e-05 seconds
 probability of topic_Course_98 is 0.37128
 
-pgibbs sample time: 0.000231 seconds
+pgibbs sample time: 0.000201 seconds
 probability of topic_Person_114 is 0.525698
 
-pgibbs sample time: 5.8e-05 seconds
+pgibbs sample time: 5.4e-05 seconds
 probability of topic_Department_70 is 0.570483
 
-pgibbs sample time: 5.7e-05 seconds
+pgibbs sample time: 5.3e-05 seconds
 probability of topic_Faculty_84 is 0.541141
 
-pgibbs sample time: 0.000203 seconds
+pgibbs sample time: 0.000206 seconds
 probability of topic_Student_10 is 0.551893
 
-pgibbs sample time: 5.7e-05 seconds
+pgibbs sample time: 5.2e-05 seconds
 probability of topic_Staff_42 is 0.525784
 
-pgibbs sample time: 0.00023 seconds
+pgibbs sample time: 0.000202 seconds
 probability of topic_Student_67 is 0.507289
 
-pgibbs sample time: 5.7e-05 seconds
+pgibbs sample time: 5.3e-05 seconds
 probability of topic_Student_77 is 0.712049
 
-pgibbs sample time: 7.2e-05 seconds
+pgibbs sample time: 6.8e-05 seconds
 probability of topic_Student_12 is 0.600376
 
-pgibbs sample time: 5.6e-05 seconds
+pgibbs sample time: 5.2e-05 seconds
 probability of topic_Department_42 is 0.498238
 
-pgibbs sample time: 0.001081 seconds
+pgibbs sample time: 0.000969 seconds
 probability of topic_Staff_102 is 0.51005
 
-pgibbs sample time: 7.3e-05 seconds
+pgibbs sample time: 6.8e-05 seconds
 probability of topic_Department_3 is 0.530013
 
-pgibbs sample time: 5.6e-05 seconds
+pgibbs sample time: 5e-05 seconds
 probability of topic_Person_79 is 0.505972
 
-pgibbs sample time: 0.000219 seconds
+pgibbs sample time: 0.000223 seconds
 probability of topic_Person_67 is 0.510933
 
-pgibbs sample time: 5.6e-05 seconds
+pgibbs sample time: 5.1e-05 seconds
 probability of topic_Person_9 is 0.413319
 
-pgibbs sample time: 7.2e-05 seconds
+pgibbs sample time: 6.8e-05 seconds
 probability of topic_Faculty_52 is 0.510023
 
-pgibbs sample time: 5.7e-05 seconds
+pgibbs sample time: 5.2e-05 seconds
 probability of topic_Staff_78 is 0.46321
 
-pgibbs sample time: 5.8e-05 seconds
+pgibbs sample time: 5.3e-05 seconds
 probability of topic_Student_96 is 0.443829
 
-pgibbs sample time: 5.7e-05 seconds
+pgibbs sample time: 5.2e-05 seconds
 probability of topic_Faculty_96 is 0.477167
 
-pgibbs sample time: 5.6e-05 seconds
+pgibbs sample time: 5.1e-05 seconds
 probability of topic_Student_52 is 0.461627
 
-pgibbs sample time: 5.7e-05 seconds
+pgibbs sample time: 5.2e-05 seconds
 probability of topic_Department_37 is 0.480109
 
-pgibbs sample time: 5.5e-05 seconds
+pgibbs sample time: 5.1e-05 seconds
 probability of topic_Department_34 is 0.375511
 
-pgibbs sample time: 0.000255 seconds
+pgibbs sample time: 0.000221 seconds
 probability of topic_Person_20 is 0.575623
 
-pgibbs sample time: 5.6e-05 seconds
+pgibbs sample time: 5e-05 seconds
 probability of topic_Person_25 is 0.489056
 
-pgibbs sample time: 0.000353 seconds
+pgibbs sample time: 0.000351 seconds
 probability of topic_Staff_91 is 0.473877
 
-pgibbs sample time: 0.000252 seconds
+pgibbs sample time: 0.000217 seconds
 probability of topic_Staff_19 is 0.402152
 
-pgibbs sample time: 0.000381 seconds
+pgibbs sample time: 0.000386 seconds
 probability of topic_Faculty_115 is 0.475799
 
-pgibbs sample time: 5.7e-05 seconds
+pgibbs sample time: 5.4e-05 seconds
 probability of topic_ResearchProject_22 is 0.414241
 
-pgibbs sample time: 0.000205 seconds
+pgibbs sample time: 0.000206 seconds
 probability of topic_Department_10 is 0.442948
 
-pgibbs sample time: 0.001089 seconds
+pgibbs sample time: 0.000993 seconds
 probability of topic_Student_50 is 0.48649
 
-pgibbs sample time: 0.001107 seconds
+pgibbs sample time: 0.001132 seconds
 probability of topic_ResearchProject_29 is 0.393763
 
-pgibbs sample time: 0.000205 seconds
+pgibbs sample time: 0.000206 seconds
 probability of topic_Course_54 is 0.488077
 
-pgibbs sample time: 5.6e-05 seconds
+pgibbs sample time: 5.1e-05 seconds
 probability of topic_Person_84 is 0.454429
 
-pgibbs sample time: 5.8e-05 seconds
+pgibbs sample time: 5.2e-05 seconds
 probability of topic_ResearchProject_4 is 0.42633
 
-pgibbs sample time: 0.0002 seconds
+pgibbs sample time: 0.000175 seconds
 probability of topic_Department_67 is 0.494443
 
-pgibbs sample time: 5.6e-05 seconds
+pgibbs sample time: 5.2e-05 seconds
 probability of topic_Course_96 is 0.409871
 
-pgibbs sample time: 5.8e-05 seconds
+pgibbs sample time: 5.3e-05 seconds
 probability of topic_Department_25 is 0.39707
 
-pgibbs sample time: 0.000338 seconds
+pgibbs sample time: 0.000298 seconds
 probability of topic_Staff_116 is 0.462992
 
-pgibbs sample time: 5.7e-05 seconds
+pgibbs sample time: 5.2e-05 seconds
 probability of topic_Faculty_24 is 0.481357
 
-pgibbs sample time: 5.8e-05 seconds
+pgibbs sample time: 5.2e-05 seconds
 probability of topic_Department_82 is 0.420875
 
-pgibbs sample time: 5.6e-05 seconds
+pgibbs sample time: 5.1e-05 seconds
 probability of topic_Course_64 is 0.426246
 
-pgibbs sample time: 5.6e-05 seconds
+pgibbs sample time: 5.1e-05 seconds
 probability of topic_Staff_40 is 0.433882
 
-pgibbs sample time: 0.000372 seconds
+pgibbs sample time: 0.000379 seconds
 probability of topic_Student_92 is 0.499834
 
-pgibbs sample time: 5.7e-05 seconds
+pgibbs sample time: 5.1e-05 seconds
 probability of topic_Person_55 is 0.600506
 
-pgibbs sample time: 0.000192 seconds
+pgibbs sample time: 0.00017 seconds
 probability of topic_Person_61 is 0.554849
 
-pgibbs sample time: 7.2e-05 seconds
+pgibbs sample time: 6.7e-05 seconds
 probability of topic_Department_35 is 0.436178
 
-pgibbs sample time: 5.8e-05 seconds
+pgibbs sample time: 5.3e-05 seconds
 probability of topic_Faculty_66 is 0.401374
 
-pgibbs sample time: 5.7e-05 seconds
+pgibbs sample time: 5.2e-05 seconds
 probability of topic_ResearchProject_52 is 0.492954
 
-pgibbs sample time: 5.8e-05 seconds
+pgibbs sample time: 5.2e-05 seconds
 probability of topic_ResearchProject_73 is 0.473668
 
-pgibbs sample time: 0.00111 seconds
+pgibbs sample time: 0.001131 seconds
 probability of topic_ResearchProject_102 is 0.417276
 
-pgibbs sample time: 5.7e-05 seconds
+pgibbs sample time: 5.3e-05 seconds
 probability of topic_Faculty_95 is 0.48338
 
-pgibbs sample time: 0.00038 seconds
+pgibbs sample time: 0.000334 seconds
 probability of topic_Department_48 is 0.526564
 
-pgibbs sample time: 5.8e-05 seconds
+pgibbs sample time: 5.3e-05 seconds
 probability of topic_Department_39 is 0.425577
 
-pgibbs sample time: 5.6e-05 seconds
+pgibbs sample time: 5.2e-05 seconds
 probability of topic_ResearchProject_69 is 0.493629
 
-pgibbs sample time: 5.8e-05 seconds
+pgibbs sample time: 5.3e-05 seconds
 probability of topic_Department_55 is 0.404957
 
-pgibbs sample time: 5.7e-05 seconds
+pgibbs sample time: 5e-05 seconds
 probability of topic_Person_23 is 0.251716
 
-pgibbs sample time: 0.000231 seconds
+pgibbs sample time: 0.000204 seconds
 probability of topic_Faculty_87 is 0.534993
 
 pgibbs sample time: 0.000203 seconds
 probability of topic_ResearchProject_41 is 0.454132
 
-pgibbs sample time: 5.7e-05 seconds
+pgibbs sample time: 5.1e-05 seconds
 probability of topic_Person_7 is 0.478904
 
-pgibbs sample time: 0.001143 seconds
+pgibbs sample time: 0.00116 seconds
 probability of topic_Faculty_28 is 0.485559
 
-pgibbs sample time: 0.000363 seconds
+pgibbs sample time: 0.000362 seconds
 probability of topic_Staff_72 is 0.458717
 
-pgibbs sample time: 0.000373 seconds
+pgibbs sample time: 0.000381 seconds
 probability of topic_Faculty_91 is 0.46358
 
-pgibbs sample time: 5.8e-05 seconds
+pgibbs sample time: 5.3e-05 seconds
 probability of topic_Department_5 is 0.649423
 
-pgibbs sample time: 6.8e-05 seconds
+pgibbs sample time: 6.4e-05 seconds
 probability of topic_Staff_52 is 0.482584
 
-pgibbs sample time: 0.00023 seconds
+pgibbs sample time: 0.00022 seconds
 probability of topic_Course_10 is 0.476741
 
-pgibbs sample time: 7.2e-05 seconds
+pgibbs sample time: 6.7e-05 seconds
 probability of topic_Department_76 is 0.462328
 
-pgibbs sample time: 5.6e-05 seconds
+pgibbs sample time: 5.1e-05 seconds
 probability of topic_Person_16 is 0.496938
 
-pgibbs sample time: 5.8e-05 seconds
+pgibbs sample time: 5.2e-05 seconds
 probability of topic_Faculty_34 is 0.478399
 
-pgibbs sample time: 5.9e-05 seconds
+pgibbs sample time: 5.1e-05 seconds
 probability of topic_Course_60 is 0.476368
 
-pgibbs sample time: 8.1e-05 seconds
+pgibbs sample time: 7.7e-05 seconds
 probability of topic_Course_47 is 0.479144
 
-pgibbs sample time: 5.6e-05 seconds
+pgibbs sample time: 4.9e-05 seconds
 probability of topic_Course_70 is 0.578174
 
-pgibbs sample time: 5.4e-05 seconds
+pgibbs sample time: 5e-05 seconds
 probability of topic_Person_30 is 0.450883
 
-pgibbs sample time: 5.5e-05 seconds
+pgibbs sample time: 5e-05 seconds
 probability of topic_Course_73 is 0.400325
 
-pgibbs sample time: 5.4e-05 seconds
+pgibbs sample time: 4.9e-05 seconds
 probability of topic_Person_51 is 0.512596
 
-pgibbs sample time: 5.3e-05 seconds
+pgibbs sample time: 4.8e-05 seconds
 probability of topic_Person_95 is 0.477535
 
-pgibbs sample time: 0.000264 seconds
+pgibbs sample time: 0.000235 seconds
 probability of topic_Student_20 is 0.568778
 
-pgibbs sample time: 0.000333 seconds
+pgibbs sample time: 0.000339 seconds
 probability of topic_Student_91 is 0.410198
 
-pgibbs sample time: 5.8e-05 seconds
+pgibbs sample time: 5.4e-05 seconds
 probability of topic_Department_43 is 0.478045
 
-pgibbs sample time: 0.000348 seconds
+pgibbs sample time: 0.000315 seconds
 probability of topic_ResearchProject_116 is 0.512996
 
-pgibbs sample time: 5.6e-05 seconds
+pgibbs sample time: 4.9e-05 seconds
 probability of topic_Staff_15 is 0.49999
 
-pgibbs sample time: 5.6e-05 seconds
+pgibbs sample time: 5e-05 seconds
 probability of topic_Faculty_2 is 0.454354
 
-pgibbs sample time: 5.7e-05 seconds
+pgibbs sample time: 5.2e-05 seconds
 probability of topic_Person_59 is 0.54795
 
-pgibbs sample time: 6.1e-05 seconds
+pgibbs sample time: 5.3e-05 seconds
 probability of topic_Faculty_59 is 0.461091
 
-pgibbs sample time: 5.6e-05 seconds
+pgibbs sample time: 5.2e-05 seconds
 probability of topic_Faculty_42 is 0.496983
 
-pgibbs sample time: 0.000261 seconds
+pgibbs sample time: 0.000229 seconds
 probability of topic_Faculty_19 is 0.378617
 
-pgibbs sample time: 0.000376 seconds
+pgibbs sample time: 0.000381 seconds
 probability of topic_Department_115 is 0.446858
 
-pgibbs sample time: 5.7e-05 seconds
+pgibbs sample time: 5.3e-05 seconds
 probability of topic_Student_27 is 0.524583
 
-pgibbs sample time: 5.7e-05 seconds
+pgibbs sample time: 5e-05 seconds
 probability of topic_Faculty_8 is 0.489816
 
-pgibbs sample time: 5.7e-05 seconds
+pgibbs sample time: 5.1e-05 seconds
 probability of topic_Staff_99 is 0.45146
 
-pgibbs sample time: 5.5e-05 seconds
+pgibbs sample time: 5e-05 seconds
 probability of topic_Course_85 is 0.544381
 
-pgibbs sample time: 5.8e-05 seconds
+pgibbs sample time: 5.2e-05 seconds
 probability of topic_ResearchProject_55 is 0.404631
 
-pgibbs sample time: 7e-05 seconds
+pgibbs sample time: 6.7e-05 seconds
 probability of topic_Faculty_18 is 0.422052
 
-pgibbs sample time: 7e-05 seconds
+pgibbs sample time: 6.5e-05 seconds
 probability of topic_Staff_7 is 0.497697
 
-pgibbs sample time: 5.8e-05 seconds
+pgibbs sample time: 5.2e-05 seconds
 probability of topic_Department_46 is 0.481264
 
-pgibbs sample time: 5.6e-05 seconds
+pgibbs sample time: 5.1e-05 seconds
 probability of topic_Department_74 is 0.480109
 
-pgibbs sample time: 0.000352 seconds
+pgibbs sample time: 0.00031 seconds
 probability of topic_Course_116 is 0.480195
 
-pgibbs sample time: 7.1e-05 seconds
+pgibbs sample time: 6.4e-05 seconds
 probability of topic_Person_17 is 0.568381
 
-pgibbs sample time: 0.000234 seconds
+pgibbs sample time: 0.000207 seconds
 probability of topic_Faculty_67 is 0.4318
 
-pgibbs sample time: 5.6e-05 seconds
+pgibbs sample time: 0.000104 seconds
 probability of topic_Course_24 is 0.572592
 
-pgibbs sample time: 0.000338 seconds
+pgibbs sample time: 0.000298 seconds
 probability of topic_Staff_93 is 0.510017
 
 pgibbs sample time: 0.000968 seconds
 probability of topic_Staff_50 is 0.448651
 
-pgibbs sample time: 0.001086 seconds
+pgibbs sample time: 0.000968 seconds
 probability of topic_Staff_28 is 0.468797
 
-pgibbs sample time: 0.000201 seconds
+pgibbs sample time: 0.000199 seconds
 probability of topic_Course_87 is 0.365246
 
-pgibbs sample time: 0.000356 seconds
+pgibbs sample time: 0.000321 seconds
 probability of topic_Student_93 is 0.219051
 
-pgibbs sample time: 0.001202 seconds
+pgibbs sample time: 0.000973 seconds
 probability of topic_Staff_29 is 0.5068
 
-pgibbs sample time: 5.7e-05 seconds
+pgibbs sample time: 5.2e-05 seconds
 probability of topic_Course_22 is 0.47663
 
-pgibbs sample time: 5.5e-05 seconds
+pgibbs sample time: 5.1e-05 seconds
 probability of topic_Course_13 is 0.474874
 
-pgibbs sample time: 0.00097 seconds
+pgibbs sample time: 0.000995 seconds
 probability of topic_Course_102 is 0.417383
 
-pgibbs sample time: 0.001104 seconds
+pgibbs sample time: 0.001245 seconds
 probability of topic_ResearchProject_50 is 0.456395
 
-pgibbs sample time: 7.3e-05 seconds
+pgibbs sample time: 6.7e-05 seconds
 probability of topic_ResearchProject_53 is 0.501396
 
-pgibbs sample time: 5.7e-05 seconds
+pgibbs sample time: 5.3e-05 seconds
 probability of topic_Department_86 is 0.429697
 
-pgibbs sample time: 5.5e-05 seconds
+pgibbs sample time: 5e-05 seconds
 probability of topic_Person_15 is 0.499978
 
-pgibbs sample time: 5.6e-05 seconds
+pgibbs sample time: 5.1e-05 seconds
 probability of topic_ResearchProject_34 is 0.411882
 
-pgibbs sample time: 5.4e-05 seconds
+pgibbs sample time: 4.9e-05 seconds
 probability of topic_Person_4 is 0.480595
 
-pgibbs sample time: 5.5e-05 seconds
+pgibbs sample time: 6.1e-05 seconds
 probability of topic_Staff_83 is 0.484651
 
-pgibbs sample time: 5.6e-05 seconds
+pgibbs sample time: 5e-05 seconds
 probability of topic_Person_83 is 0.524
 
-pgibbs sample time: 8.1e-05 seconds
+pgibbs sample time: 7.8e-05 seconds
 probability of topic_Person_47 is 0.287174
 
-pgibbs sample time: 5.9e-05 seconds
+pgibbs sample time: 5.3e-05 seconds
 probability of topic_Student_22 is 0.620895
 
-pgibbs sample time: 7.1e-05 seconds
+pgibbs sample time: 6.7e-05 seconds
 probability of topic_Faculty_17 is 0.590494
 
-pgibbs sample time: 7.1e-05 seconds
+pgibbs sample time: 6.6e-05 seconds
 probability of topic_Course_32 is 0.499518
 
-pgibbs sample time: 5.5e-05 seconds
+pgibbs sample time: 4.9e-05 seconds
 probability of topic_Staff_90 is 0.614941
 
-pgibbs sample time: 0.000297 seconds
+pgibbs sample time: 0.000331 seconds
 probability of topic_Person_93 is 0.212087
 
-pgibbs sample time: 5.8e-05 seconds
+pgibbs sample time: 5.4e-05 seconds
 probability of topic_Faculty_39 is 0.471164
 
-pgibbs sample time: 5.8e-05 seconds
+pgibbs sample time: 5.1e-05 seconds
 probability of topic_Course_40 is 0.419663
 
-pgibbs sample time: 5.7e-05 seconds
+pgibbs sample time: 5.4e-05 seconds
 probability of topic_Faculty_99 is 0.471164
 
-pgibbs sample time: 5.7e-05 seconds
+pgibbs sample time: 5.1e-05 seconds
 probability of topic_Student_80 is 0.493937
 
-pgibbs sample time: 0.000234 seconds
+pgibbs sample time: 0.000228 seconds
 probability of topic_ResearchProject_11 is 0.356474
 
-pgibbs sample time: 0.000236 seconds
+pgibbs sample time: 0.000206 seconds
 probability of topic_ResearchProject_87 is 0.417946
 
-pgibbs sample time: 0.000353 seconds
+pgibbs sample time: 0.000385 seconds
 probability of topic_Staff_48 is 0.601239
 
-pgibbs sample time: 7.4e-05 seconds
+pgibbs sample time: 6.9e-05 seconds
 probability of topic_Department_68 is 0.399058
 
-pgibbs sample time: 5.5e-05 seconds
+pgibbs sample time: 4.9e-05 seconds
 probability of topic_Person_64 is 0.434546
 
-pgibbs sample time: 5.7e-05 seconds
+pgibbs sample time: 5.3e-05 seconds
 probability of topic_Faculty_86 is 0.432194
 
-pgibbs sample time: 0.00024 seconds
+pgibbs sample time: 0.000211 seconds
 probability of topic_Faculty_54 is 0.487455
 
-pgibbs sample time: 5.8e-05 seconds
+pgibbs sample time: 5.3e-05 seconds
 probability of topic_Student_42 is 0.477555
 
-pgibbs sample time: 5.8e-05 seconds
+pgibbs sample time: 5.2e-05 seconds
 probability of topic_Person_78 is 0.370696
 
-pgibbs sample time: 0.000237 seconds
+pgibbs sample time: 0.000206 seconds
 probability of topic_ResearchProject_10 is 0.538818
 
-pgibbs sample time: 5.7e-05 seconds
+pgibbs sample time: 5.2e-05 seconds
 probability of topic_Staff_65 is 0.492522
 
-pgibbs sample time: 5.8e-05 seconds
+pgibbs sample time: 5.4e-05 seconds
 probability of topic_ResearchProject_66 is 0.435576
 
-pgibbs sample time: 5.7e-05 seconds
+pgibbs sample time: 5.1e-05 seconds
 probability of topic_Student_90 is 0.506741
 
-pgibbs sample time: 5.9e-05 seconds
+pgibbs sample time: 5.3e-05 seconds
 probability of topic_Department_60 is 0.519227
 
-pgibbs sample time: 0.000335 seconds
+pgibbs sample time: 0.000342 seconds
 probability of topic_Student_48 is 0.279823
 
-pgibbs sample time: 5.6e-05 seconds
+pgibbs sample time: 5.1e-05 seconds
 probability of topic_Course_39 is 0.609306
 
-pgibbs sample time: 8.5e-05 seconds
+pgibbs sample time: 8.1e-05 seconds
 probability of topic_Department_47 is 0.336032
 
-pgibbs sample time: 5.7e-05 seconds
+pgibbs sample time: 5.2e-05 seconds
 probability of topic_Course_43 is 0.464736
 
-pgibbs sample time: 5.7e-05 seconds
+pgibbs sample time: 5.3e-05 seconds
 probability of topic_Department_99 is 0.425577
 
-pgibbs sample time: 7.1e-05 seconds
+pgibbs sample time: 6.6e-05 seconds
 probability of topic_Student_32 is 0.498083
 
-pgibbs sample time: 0.000365 seconds
+pgibbs sample time: 0.000394 seconds
 probability of topic_Staff_41 is 0.376724
 
-pgibbs sample time: 5.7e-05 seconds
+pgibbs sample time: 5.2e-05 seconds
 probability of topic_Department_24 is 0.505703
 
 pgibbs sample time: 0.00024 seconds
 probability of topic_Faculty_81 is 0.457221
 
-pgibbs sample time: 0.000221 seconds
+pgibbs sample time: 0.000188 seconds
 probability of topic_Course_67 is 0.439324
 
-pgibbs sample time: 0.000355 seconds
+pgibbs sample time: 0.000353 seconds
 probability of topic_Course_45 is 0.418736
 
-pgibbs sample time: 7e-05 seconds
+pgibbs sample time: 6.6e-05 seconds
 probability of topic_Student_7 is 0.469437
 
-pgibbs sample time: 5.8e-05 seconds
+pgibbs sample time: 5.3e-05 seconds
 probability of topic_Department_40 is 0.477106
 
-pgibbs sample time: 5.5e-05 seconds
+pgibbs sample time: 5e-05 seconds
 probability of topic_Staff_89 is 0.531667
 
-pgibbs sample time: 0.000225 seconds
+pgibbs sample time: 0.000243 seconds
 probability of topic_Staff_54 is 0.482758
 
-pgibbs sample time: 7.2e-05 seconds
+pgibbs sample time: 6.8e-05 seconds
 probability of topic_ResearchProject_32 is 0.482794
 
-pgibbs sample time: 5.6e-05 seconds
+pgibbs sample time: 5e-05 seconds
 probability of topic_Course_99 is 0.609306
 
-pgibbs sample time: 5.4e-05 seconds
+pgibbs sample time: 4.9e-05 seconds
 probability of topic_Person_46 is 0.484718
 
-pgibbs sample time: 6.9e-05 seconds
+pgibbs sample time: 6.4e-05 seconds
 probability of topic_Person_35 is 0.54342
 
-pgibbs sample time: 6.9e-05 seconds
+pgibbs sample time: 6.4e-05 seconds
 probability of topic_Course_7 is 0.467042
 
-pgibbs sample time: 0.000201 seconds
+pgibbs sample time: 0.000202 seconds
 probability of topic_Faculty_61 is 0.46604
 
-pgibbs sample time: 0.000353 seconds
+pgibbs sample time: 0.00035 seconds
 probability of topic_Staff_45 is 0.431823
 
-pgibbs sample time: 5.5e-05 seconds
+pgibbs sample time: 4.9e-05 seconds
 probability of topic_Staff_95 is 0.458948
 
-pgibbs sample time: 0.000268 seconds
+pgibbs sample time: 0.000236 seconds
 probability of topic_Student_49 is 0.574212
 
-pgibbs sample time: 5.8e-05 seconds
+pgibbs sample time: 5.3e-05 seconds
 probability of topic_ResearchProject_27 is 0.462699
 
-pgibbs sample time: 5.4e-05 seconds
+pgibbs sample time: 4.9e-05 seconds
 probability of topic_Course_79 is 0.47654
 
-pgibbs sample time: 5.6e-05 seconds
+pgibbs sample time: 6.9e-05 seconds
 probability of topic_Staff_22 is 0.556612
 
-pgibbs sample time: 0.00022 seconds
+pgibbs sample time: 0.000189 seconds
 probability of topic_Course_11 is 0.491112
 
-pgibbs sample time: 5.7e-05 seconds
+pgibbs sample time: 5.2e-05 seconds
 probability of topic_Faculty_21 is 0.457664
 
-pgibbs sample time: 5.6e-05 seconds
+pgibbs sample time: 4.9e-05 seconds
 probability of topic_Person_56 is 0.354767
 
-pgibbs sample time: 5.6e-05 seconds
+pgibbs sample time: 5.2e-05 seconds
 probability of topic_Faculty_80 is 0.419826
 
-pgibbs sample time: 5.5e-05 seconds
+pgibbs sample time: 4.8e-05 seconds
 probability of topic_Course_46 is 0.415922
 
-pgibbs sample time: 0.000236 seconds
+pgibbs sample time: 0.000207 seconds
 probability of topic_ResearchProject_61 is 0.491231
 
-pgibbs sample time: 5.7e-05 seconds
+pgibbs sample time: 5.3e-05 seconds
 probability of topic_Faculty_38 is 0.465813
 
-pgibbs sample time: 5.8e-05 seconds
+pgibbs sample time: 5.2e-05 seconds
 probability of topic_Department_80 is 0.480109
 
-pgibbs sample time: 0.000374 seconds
+pgibbs sample time: 0.000375 seconds
 probability of topic_Course_120 is 0.493207
 
-pgibbs sample time: 5.6e-05 seconds
+pgibbs sample time: 5.1e-05 seconds
 probability of topic_Person_27 is 0.505972
 
-pgibbs sample time: 0.000262 seconds
+pgibbs sample time: 0.00023 seconds
 probability of topic_Faculty_49 is 0.52011
 
-pgibbs sample time: 0.000368 seconds
+pgibbs sample time: 0.000369 seconds
 probability of topic_Course_72 is 0.494459
 
-pgibbs sample time: 5.6e-05 seconds
+pgibbs sample time: 5e-05 seconds
 probability of topic_Staff_27 is 0.576178
 
-pgibbs sample time: 0.001096 seconds
+pgibbs sample time: 0.000981 seconds
 probability of topic_Course_29 is 0.679578
 
-pgibbs sample time: 5.8e-05 seconds
+pgibbs sample time: 5.1e-05 seconds
 probability of topic_Person_70 is 0.454068
 
-pgibbs sample time: 5.6e-05 seconds
+pgibbs sample time: 5e-05 seconds
 probability of topic_Person_40 is 0.486242
 
-pgibbs sample time: 5.5e-05 seconds
+pgibbs sample time: 5.6e-05 seconds
 probability of topic_Person_39 is 0.406754
 
-pgibbs sample time: 5.5e-05 seconds
+pgibbs sample time: 4.8e-05 seconds
 probability of topic_Staff_79 is 0.576178
 
-pgibbs sample time: 5.7e-05 seconds
+pgibbs sample time: 5.1e-05 seconds
 probability of topic_Course_84 is 0.490213
 
-pgibbs sample time: 5.4e-05 seconds
+pgibbs sample time: 4.9e-05 seconds
 probability of topic_Course_74 is 0.425378
 
 pgibbs sample time: 5.5e-05 seconds
 probability of topic_Staff_98 is 0.447064
 
-pgibbs sample time: 5.7e-05 seconds
+pgibbs sample time: 5.3e-05 seconds
 probability of topic_Student_36 is 0.48777
 
-pgibbs sample time: 5.7e-05 seconds
+pgibbs sample time: 5.2e-05 seconds
 probability of topic_ResearchProject_74 is 0.442936
 
-pgibbs sample time: 7.1e-05 seconds
+pgibbs sample time: 6.7e-05 seconds
 probability of topic_Student_14 is 0.463578
 
-pgibbs sample time: 0.000225 seconds
+pgibbs sample time: 0.000201 seconds
 probability of topic_Student_61 is 0.58022
 
-pgibbs sample time: 0.000231 seconds
+pgibbs sample time: 0.000198 seconds
 probability of topic_Staff_57 is 0.450627
 
-pgibbs sample time: 0.000369 seconds
+pgibbs sample time: 0.00037 seconds
 probability of topic_Person_92 is 0.485612
 
-pgibbs sample time: 0.000267 seconds
+pgibbs sample time: 0.000235 seconds
 probability of topic_ResearchProject_19 is 0.532093
 
-pgibbs sample time: 5.6e-05 seconds
+pgibbs sample time: 5e-05 seconds
 probability of topic_Person_44 is 0.557225
 
-pgibbs sample time: 0.000367 seconds
+pgibbs sample time: 0.000368 seconds
 probability of topic_Course_41 is 0.372118
 
-pgibbs sample time: 7.2e-05 seconds
+pgibbs sample time: 6.7e-05 seconds
 probability of topic_Staff_68 is 0.345292
 
-pgibbs sample time: 7.1e-05 seconds
+pgibbs sample time: 6.7e-05 seconds
 probability of topic_Faculty_35 is 0.508726
 
-pgibbs sample time: 0.000368 seconds
+pgibbs sample time: 0.000406 seconds
 probability of topic_Course_115 is 0.672045
 
-pgibbs sample time: 0.000377 seconds
+pgibbs sample time: 0.000331 seconds
 probability of topic_Student_72 is 0.546173
 
-pgibbs sample time: 5.7e-05 seconds
+pgibbs sample time: 5.3e-05 seconds
 probability of topic_Faculty_76 is 0.419826
 
-pgibbs sample time: 5.8e-05 seconds
+pgibbs sample time: 5.1e-05 seconds
 probability of topic_Faculty_36 is 0.401781
 
-pgibbs sample time: 7.1e-05 seconds
+pgibbs sample time: 6.5e-05 seconds
 probability of topic_Staff_32 is 0.453653
 
-pgibbs sample time: 7.1e-05 seconds
+pgibbs sample time: 6.6e-05 seconds
 probability of topic_Faculty_3 is 0.537315
 
-pgibbs sample time: 0.000201 seconds
+pgibbs sample time: 0.000202 seconds
 probability of topic_Student_11 is 0.521727
 
-pgibbs sample time: 5.9e-05 seconds
+pgibbs sample time: 5.4e-05 seconds
 probability of topic_Faculty_63 is 0.475786
 
-pgibbs sample time: 5.6e-05 seconds
+pgibbs sample time: 5.2e-05 seconds
 probability of topic_Faculty_69 is 0.469554
 
-pgibbs sample time: 0.000378 seconds
+pgibbs sample time: 0.000382 seconds
 probability of topic_ResearchProject_48 is 0.834101
 
-pgibbs sample time: 0.001092 seconds
+pgibbs sample time: 0.000993 seconds
 probability of topic_Student_28 is 0.485762
 
-pgibbs sample time: 5.7e-05 seconds
+pgibbs sample time: 5.1e-05 seconds
 probability of topic_Person_34 is 0.658047
 
-pgibbs sample time: 5.6e-05 seconds
+pgibbs sample time: 5e-05 seconds
 probability of topic_Staff_2 is 0.46321
 
-pgibbs sample time: 5.7e-05 seconds
+pgibbs sample time: 5.2e-05 seconds
 probability of topic_Faculty_75 is 0.495447
 
-pgibbs sample time: 0.001017 seconds
+pgibbs sample time: 0.00116 seconds
 probability of topic_Faculty_102 is 0.550504
 
-pgibbs sample time: 5.6e-05 seconds
+pgibbs sample time: 5e-05 seconds
 probability of topic_Course_30 is 0.57454
 
-pgibbs sample time: 0.001138 seconds
+pgibbs sample time: 0.001162 seconds
 probability of topic_Faculty_29 is 0.423182
 
-pgibbs sample time: 0.000309 seconds
+pgibbs sample time: 0.000315 seconds
 probability of topic_ResearchProject_93 is 0.425131
 
-pgibbs sample time: 5.7e-05 seconds
+pgibbs sample time: 5.1e-05 seconds
 probability of topic_Person_38 is 0.365888
 
-pgibbs sample time: 5.8e-05 seconds
+pgibbs sample time: 5.5e-05 seconds
 probability of topic_ResearchProject_63 is 0.518497
 
-pgibbs sample time: 5.7e-05 seconds
+pgibbs sample time: 5.1e-05 seconds
 probability of topic_Staff_60 is 0.493421
 
-pgibbs sample time: 5.8e-05 seconds
+pgibbs sample time: 5.3e-05 seconds
 probability of topic_ResearchProject_56 is 0.568092
 
 pgibbs sample time: 0.000311 seconds
 probability of topic_Course_93 is 0.434482
 
-pgibbs sample time: 0.00019 seconds
+pgibbs sample time: 0.000186 seconds
 probability of topic_Course_57 is 0.502051
 
-pgibbs sample time: 6.9e-05 seconds
+pgibbs sample time: 6.4e-05 seconds
 probability of topic_Staff_14 is 0.519477
 
-pgibbs sample time: 5.6e-05 seconds
+pgibbs sample time: 5.1e-05 seconds
 probability of topic_Course_63 is 0.551025
 
-pgibbs sample time: 5.8e-05 seconds
+pgibbs sample time: 5.4e-05 seconds
 probability of topic_Student_46 is 0.486212
 
-pgibbs sample time: 6e-05 seconds
+pgibbs sample time: 5e-05 seconds
 probability of topic_Person_36 is 0.486242
 
-pgibbs sample time: 6.9e-05 seconds
+pgibbs sample time: 6.3e-05 seconds
 probability of topic_Course_14 is 0.596325
 
-pgibbs sample time: 5.8e-05 seconds
+pgibbs sample time: 5.3e-05 seconds
 probability of topic_Student_39 is 0.471272
 
-pgibbs sample time: 5.7e-05 seconds
+pgibbs sample time: 5.2e-05 seconds
 probability of topic_Department_85 is 0.483273
 
-pgibbs sample time: 7.1e-05 seconds
+pgibbs sample time: 7.2e-05 seconds
 probability of topic_Student_35 is 0.595316
 
-pgibbs sample time: 5.6e-05 seconds
+pgibbs sample time: 5e-05 seconds
 probability of topic_Person_98 is 0.563978
 
-pgibbs sample time: 7.1e-05 seconds
+pgibbs sample time: 6.7e-05 seconds
 probability of topic_Department_12 is 0.607674
 
-pgibbs sample time: 5.6e-05 seconds
+pgibbs sample time: 5e-05 seconds
 probability of topic_Course_69 is 0.498392
 
-pgibbs sample time: 5.9e-05 seconds
+pgibbs sample time: 4.9e-05 seconds
 probability of topic_Staff_30 is 0.521627
 
-pgibbs sample time: 7.3e-05 seconds
+pgibbs sample time: 7e-05 seconds
 probability of topic_Faculty_88 is 0.559251
 
-pgibbs sample time: 5.7e-05 seconds
+pgibbs sample time: 5.1e-05 seconds
 probability of topic_Faculty_83 is 0.489116
 
-pgibbs sample time: 5.6e-05 seconds
+pgibbs sample time: 5.2e-05 seconds
 probability of topic_Department_84 is 0.420608
 
-pgibbs sample time: 0.000355 seconds
+pgibbs sample time: 0.00031 seconds
 probability of topic_Faculty_92 is 0.528468
 
-pgibbs sample time: 7.1e-05 seconds
+pgibbs sample time: 6.7e-05 seconds
 probability of topic_Student_68 is 0.354281
 
-pgibbs sample time: 5.6e-05 seconds
+pgibbs sample time: 5.1e-05 seconds
 probability of topic_Course_9 is 0.45318
 
-pgibbs sample time: 0.00025 seconds
+pgibbs sample time: 0.000216 seconds
 probability of topic_Person_49 is 0.533295
 
-pgibbs sample time: 5.7e-05 seconds
+pgibbs sample time: 5e-05 seconds
 probability of topic_Staff_16 is 0.554346
 
-pgibbs sample time: 7.2e-05 seconds
+pgibbs sample time: 6.7e-05 seconds
 probability of topic_Faculty_14 is 0.460316
 
-pgibbs sample time: 0.000272 seconds
+pgibbs sample time: 0.00024 seconds
 probability of topic_Department_20 is 0.547177
 
-pgibbs sample time: 0.000356 seconds
+pgibbs sample time: 0.000321 seconds
 probability of topic_Student_116 is 0.431649
 
-pgibbs sample time: 5.8e-05 seconds
+pgibbs sample time: 5.3e-05 seconds
 probability of topic_Faculty_25 is 0.429819
 
-pgibbs sample time: 5.8e-05 seconds
+pgibbs sample time: 5e-05 seconds
 probability of topic_Person_18 is 0.382127
 
-pgibbs sample time: 0.000341 seconds
+pgibbs sample time: 0.000297 seconds
 probability of topic_Person_72 is 0.560627
 
-pgibbs sample time: 0.000373 seconds
+pgibbs sample time: 0.000379 seconds
 probability of topic_Student_31 is 0.617265
 
-pgibbs sample time: 5.8e-05 seconds
+pgibbs sample time: 5.3e-05 seconds
 probability of topic_ResearchProject_36 is 0.437775
 
-pgibbs sample time: 5.7e-05 seconds
+pgibbs sample time: 5.1e-05 seconds
 probability of topic_Department_30 is 0.425499
 
-pgibbs sample time: 0.000374 seconds
+pgibbs sample time: 0.000381 seconds
 probability of topic_Faculty_45 is 0.40341
 
-pgibbs sample time: 5.8e-05 seconds
+pgibbs sample time: 5.4e-05 seconds
 probability of topic_Department_23 is 0.572671
 
-pgibbs sample time: 5.8e-05 seconds
+pgibbs sample time: 5.2e-05 seconds
 probability of topic_Student_73 is 0.636262
 
-pgibbs sample time: 0.000233 seconds
+pgibbs sample time: 0.000211 seconds
 probability of topic_Student_54 is 0.480888
 
-pgibbs sample time: 0.000374 seconds
+pgibbs sample time: 0.00038 seconds
 probability of topic_Faculty_48 is 0.475781
 
-pgibbs sample time: 5.9e-05 seconds
+pgibbs sample time: 5.3e-05 seconds
 probability of topic_ResearchProject_13 is 0.543606
 
-pgibbs sample time: 7.3e-05 seconds
+pgibbs sample time: 6.9e-05 seconds
 probability of topic_Department_32 is 0.433064
 
-pgibbs sample time: 0.00024 seconds
+pgibbs sample time: 0.000212 seconds
 probability of topic_Faculty_114 is 0.446291
 
-pgibbs sample time: 5.7e-05 seconds
+pgibbs sample time: 5.1e-05 seconds
 probability of topic_Staff_82 is 0.403287
 
-pgibbs sample time: 0.00034 seconds
+pgibbs sample time: 0.000297 seconds
 probability of topic_Person_41 is 0.472553
 
-pgibbs sample time: 5.8e-05 seconds
+pgibbs sample time: 5.3e-05 seconds
 probability of topic_Faculty_46 is 0.387388
 
-pgibbs sample time: 5.7e-05 seconds
+pgibbs sample time: 5.1e-05 seconds
 probability of topic_Faculty_4 is 0.543529
 
-pgibbs sample time: 5.7e-05 seconds
+pgibbs sample time: 5.2e-05 seconds
 probability of topic_Faculty_37 is 0.419826
 
-pgibbs sample time: 0.000374 seconds
+pgibbs sample time: 0.000377 seconds
 probability of topic_Course_31 is 0.402381
 
-pgibbs sample time: 5.8e-05 seconds
+pgibbs sample time: 5.4e-05 seconds
 probability of topic_Department_33 is 0.794603
 
-pgibbs sample time: 5.8e-05 seconds
+pgibbs sample time: 5.3e-05 seconds
 probability of topic_Faculty_33 is 0.600296
 
-pgibbs sample time: 5.6e-05 seconds
+pgibbs sample time: 5.1e-05 seconds
 probability of topic_Student_62 is 0.712049
 
-pgibbs sample time: 7.1e-05 seconds
+pgibbs sample time: 6.5e-05 seconds
 probability of topic_Course_76 is 0.420641
 
-pgibbs sample time: 0.000263 seconds
+pgibbs sample time: 0.000228 seconds
 probability of topic_Course_20 is 0.434637
 
-pgibbs sample time: 0.000272 seconds
+pgibbs sample time: 0.000241 seconds
 probability of topic_Faculty_20 is 0.517968
 
-pgibbs sample time: 5.6e-05 seconds
+pgibbs sample time: 5e-05 seconds
 probability of topic_Course_42 is 0.443602
 
-pgibbs sample time: 5.6e-05 seconds
+pgibbs sample time: 4.9e-05 seconds
 probability of topic_Staff_34 is 0.59088
 
-pgibbs sample time: 5.5e-05 seconds
+pgibbs sample time: 5.1e-05 seconds
 probability of topic_Person_63 is 0.427826
 
-pgibbs sample time: 0.000232 seconds
+pgibbs sample time: 0.000206 seconds
 probability of topic_Student_87 is 0.587261
 
-pgibbs sample time: 5.8e-05 seconds
+pgibbs sample time: 5.2e-05 seconds
 probability of topic_Faculty_78 is 0.454354
 
-pgibbs sample time: 5.6e-05 seconds
+pgibbs sample time: 5.1e-05 seconds
 probability of topic_Department_64 is 0.410617
 
-pgibbs sample time: 7.1e-05 seconds
+pgibbs sample time: 6.7e-05 seconds
 probability of topic_ResearchProject_12 is 0.33683
 
-pgibbs sample time: 7e-05 seconds
+pgibbs sample time: 6.6e-05 seconds
 probability of topic_Student_3 is 0.339562
 
-pgibbs sample time: 7e-05 seconds
+pgibbs sample time: 6.4e-05 seconds
 probability of topic_Person_12 is 0.610004
 
-pgibbs sample time: 5.8e-05 seconds
+pgibbs sample time: 5.2e-05 seconds
 probability of topic_Department_83 is 0.462433
 
-pgibbs sample time: 5.6e-05 seconds
+pgibbs sample time: 5e-05 seconds
 probability of topic_Staff_26 is 0.529301
 
-pgibbs sample time: 7e-05 seconds
+pgibbs sample time: 6.4e-05 seconds
 probability of topic_Person_32 is 0.472247
 
-pgibbs sample time: 7.2e-05 seconds
+pgibbs sample time: 6.7e-05 seconds
 probability of topic_ResearchProject_17 is 0.475538
 
-pgibbs sample time: 8.4e-05 seconds
+pgibbs sample time: 8.1e-05 seconds
 probability of topic_Student_47 is 0.362656
 
-pgibbs sample time: 5.8e-05 seconds
+pgibbs sample time: 6e-05 seconds
 probability of topic_Faculty_94 is 0.387388
 
-pgibbs sample time: 0.000379 seconds
+pgibbs sample time: 0.000383 seconds
 probability of topic_ResearchProject_45 is 0.42647
 
-pgibbs sample time: 5.7e-05 seconds
+pgibbs sample time: 5.3e-05 seconds
 probability of topic_Student_86 is 0.526876
 
-pgibbs sample time: 5.6e-05 seconds
+pgibbs sample time: 5e-05 seconds
 probability of topic_Person_96 is 0.465207
 
-pgibbs sample time: 5.6e-05 seconds
+pgibbs sample time: 5.1e-05 seconds
 probability of topic_Faculty_97 is 0.465953
 
-pgibbs sample time: 5.6e-05 seconds
+pgibbs sample time: 5.2e-05 seconds
 probability of topic_Department_6 is 0.442131
 
-pgibbs sample time: 0.000379 seconds
+pgibbs sample time: 0.000338 seconds
 probability of topic_Department_91 is 0.534359
 
-pgibbs sample time: 5.7e-05 seconds
+pgibbs sample time: 5.2e-05 seconds
 probability of topic_Person_65 is 0.509793
 
-pgibbs sample time: 6.9e-05 seconds
+pgibbs sample time: 6.4e-05 seconds
 probability of topic_Staff_3 is 0.55322
 
-pgibbs sample time: 5.6e-05 seconds
+pgibbs sample time: 5e-05 seconds
 probability of topic_Staff_43 is 0.492552
 
-pgibbs sample time: 5.7e-05 seconds
+pgibbs sample time: 5.3e-05 seconds
 probability of topic_Department_78 is 0.473854
 
-pgibbs sample time: 5.6e-05 seconds
+pgibbs sample time: 5e-05 seconds
 probability of topic_Course_80 is 0.425378
 
-pgibbs sample time: 0.000233 seconds
+pgibbs sample time: 0.000202 seconds
 probability of topic_Department_57 is 0.529075
 
-pgibbs sample time: 7.1e-05 seconds
+pgibbs sample time: 6.6e-05 seconds
 probability of topic_Course_35 is 0.433978
 
-pgibbs sample time: 5.6e-05 seconds
+pgibbs sample time: 4.8e-05 seconds
 probability of topic_Staff_62 is 0.492361
 
-pgibbs sample time: 5.6e-05 seconds
+pgibbs sample time: 5.1e-05 seconds
 probability of topic_Course_75 is 0.413508
 
-pgibbs sample time: 5.4e-05 seconds
+pgibbs sample time: 4.9e-05 seconds
 probability of topic_Staff_75 is 0.5228
 
-pgibbs sample time: 5.7e-05 seconds
+pgibbs sample time: 5e-05 seconds
 probability of topic_Course_83 is 0.614884
 
-pgibbs sample time: 5.7e-05 seconds
+pgibbs sample time: 5.4e-05 seconds
 probability of topic_ResearchProject_38 is 0.47691
 
-pgibbs sample time: 5.6e-05 seconds
+pgibbs sample time: 4.9e-05 seconds
 probability of topic_Staff_71 is 0.584563
 
-pgibbs sample time: 0.000231 seconds
+pgibbs sample time: 0.000205 seconds
 probability of topic_Faculty_10 is 0.55895
 
-pgibbs sample time: 7.2e-05 seconds
+pgibbs sample time: 6.8e-05 seconds
 probability of topic_Student_53 is 0.449277
 
-pgibbs sample time: 0.001103 seconds
+pgibbs sample time: 0.001034 seconds
 probability of topic_Person_28 is 0.417844
 
-pgibbs sample time: 5.9e-05 seconds
+pgibbs sample time: 5.8e-05 seconds
 probability of topic_ResearchProject_60 is 0.491475
 
-pgibbs sample time: 0.001224 seconds
+pgibbs sample time: 0.000987 seconds
 probability of topic_Person_50 is 0.496271
 
-pgibbs sample time: 7.1e-05 seconds
+pgibbs sample time: 6.8e-05 seconds
 probability of topic_Faculty_7 is 0.443607
 
-pgibbs sample time: 5.8e-05 seconds
+pgibbs sample time: 5.3e-05 seconds
 probability of topic_Department_59 is 0.531776
 
-pgibbs sample time: 0.000202 seconds
+pgibbs sample time: 0.000197 seconds
 probability of topic_Staff_61 is 0.496709
 
-pgibbs sample time: 5.7e-05 seconds
+pgibbs sample time: 5.4e-05 seconds
 probability of topic_Staff_6 is 0.464129
 
-pgibbs sample time: 5.6e-05 seconds
+pgibbs sample time: 5.1e-05 seconds
 probability of topic_Person_13 is 0.392505
 
-pgibbs sample time: 7.1e-05 seconds
+pgibbs sample time: 6.7e-05 seconds
 probability of topic_Department_88 is 0.553665
 
 pgibbs sample time: 0.000352 seconds
 probability of topic_Course_48 is 0.44709
 
-pgibbs sample time: 0.000234 seconds
+pgibbs sample time: 0.000206 seconds
 probability of topic_Student_114 is 0.541299
 
-pgibbs sample time: 5.8e-05 seconds
+pgibbs sample time: 5.3e-05 seconds
 probability of topic_ResearchProject_99 is 0.554075
 
-pgibbs sample time: 5.7e-05 seconds
+pgibbs sample time: 7.3e-05 seconds
 probability of topic_Faculty_85 is 0.491225
 
-pgibbs sample time: 5.7e-05 seconds
+pgibbs sample time: 5.3e-05 seconds
 probability of topic_Department_4 is 0.471881
 
-pgibbs sample time: 5.6e-05 seconds
+pgibbs sample time: 4.9e-05 seconds
 probability of topic_Course_71 is 0.45997
 
-pgibbs sample time: 5.6e-05 seconds
+pgibbs sample time: 5e-05 seconds
 probability of topic_Course_25 is 0.43891
 
-pgibbs sample time: 5.5e-05 seconds
+pgibbs sample time: 4.9e-05 seconds
 probability of topic_Person_75 is 0.481417
 
-pgibbs sample time: 5.7e-05 seconds
+pgibbs sample time: 5.2e-05 seconds
 probability of topic_ResearchProject_26 is 0.619086
 
-pgibbs sample time: 5.6e-05 seconds
+pgibbs sample time: 5e-05 seconds
 probability of topic_Staff_87 is 0.550327
 
-pgibbs sample time: 6.9e-05 seconds
+pgibbs sample time: 6.3e-05 seconds
 probability of topic_Staff_76 is 0.421407
 
-pgibbs sample time: 5.9e-05 seconds
+pgibbs sample time: 5.4e-05 seconds
 probability of topic_Student_70 is 0.426591
 
-pgibbs sample time: 7.3e-05 seconds
+pgibbs sample time: 6.8e-05 seconds
 probability of topic_ResearchProject_88 is 0.365073
 
-pgibbs sample time: 0.000381 seconds
+pgibbs sample time: 0.000387 seconds
 probability of topic_Faculty_72 is 0.545106
 
-pgibbs sample time: 5.8e-05 seconds
+pgibbs sample time: 5.3e-05 seconds
 probability of topic_Department_95 is 0.506738
 
-pgibbs sample time: 5.6e-05 seconds
+pgibbs sample time: 5e-05 seconds
 probability of topic_Department_56 is 0.488853
 
-pgibbs sample time: 5.6e-05 seconds
+pgibbs sample time: 5.2e-05 seconds
 probability of topic_Student_74 is 0.493937
 
-pgibbs sample time: 5.5e-05 seconds
+pgibbs sample time: 5e-05 seconds
 probability of topic_Person_80 is 0.498179
 
-pgibbs sample time: 5.7e-05 seconds
+pgibbs sample time: 5.2e-05 seconds
 probability of topic_Department_62 is 0.63036
 
-pgibbs sample time: 5.8e-05 seconds
+pgibbs sample time: 5.3e-05 seconds
 probability of topic_ResearchProject_33 is 0.461472
 
-pgibbs sample time: 5.6e-05 seconds
+pgibbs sample time: 5.1e-05 seconds
 probability of topic_ResearchProject_8 is 0.462699
 
-pgibbs sample time: 7.1e-05 seconds
+pgibbs sample time: 6.6e-05 seconds
 probability of topic_Person_88 is 0.761215
 
-pgibbs sample time: 5.8e-05 seconds
+pgibbs sample time: 5.3e-05 seconds
 probability of topic_Course_2 is 0.543988
 
-pgibbs sample time: 0.000236 seconds
+pgibbs sample time: 0.000207 seconds
 probability of topic_ResearchProject_57 is 0.490842
 
-pgibbs sample time: 0.001104 seconds
+pgibbs sample time: 0.000986 seconds
 probability of topic_Person_29 is 0.552137
 
-pgibbs sample time: 5.8e-05 seconds
+pgibbs sample time: 5.3e-05 seconds
 probability of topic_Student_15 is 0.499987
 
-pgibbs sample time: 5.9e-05 seconds
+pgibbs sample time: 5.1e-05 seconds
 probability of topic_Student_37 is 0.493937
 
-pgibbs sample time: 5.8e-05 seconds
+pgibbs sample time: 5.3e-05 seconds
 probability of topic_ResearchProject_83 is 0.483395
 
-pgibbs sample time: 5.6e-05 seconds
+pgibbs sample time: 5e-05 seconds
 probability of topic_Person_90 is 0.644742
 
-pgibbs sample time: 0.000265 seconds
+pgibbs sample time: 0.000232 seconds
 probability of topic_Student_81 is 0.568246
 
-pgibbs sample time: 5.8e-05 seconds
+pgibbs sample time: 5.2e-05 seconds
 probability of topic_ResearchProject_79 is 0.462699
 
-pgibbs sample time: 5.6e-05 seconds
+pgibbs sample time: 5.2e-05 seconds
 probability of topic_Staff_59 is 0.482744
 
-pgibbs sample time: 5.7e-05 seconds
+pgibbs sample time: 5.2e-05 seconds
 probability of topic_Student_60 is 0.508464
 
-pgibbs sample time: 5.6e-05 seconds
+pgibbs sample time: 5e-05 seconds
 probability of topic_Staff_77 is 0.492361
 
-pgibbs sample time: 0.000269 seconds
+pgibbs sample time: 0.000236 seconds
 probability of topic_Student_19 is 0.686986
 
-pgibbs sample time: 0.000222 seconds
+pgibbs sample time: 0.000191 seconds
 probability of topic_Person_45 is 0.503389
 
-pgibbs sample time: 5.6e-05 seconds
+pgibbs sample time: 4.9e-05 seconds
 probability of topic_Staff_86 is 0.412752
 
 pgibbs sample time: 0.000231 seconds
 probability of topic_ResearchProject_20 is 0.621309
 
-pgibbs sample time: 7.2e-05 seconds
+pgibbs sample time: 6.7e-05 seconds
 probability of topic_Faculty_32 is 0.533168
 
-pgibbs sample time: 0.000226 seconds
+pgibbs sample time: 0.000195 seconds
 probability of topic_Staff_81 is 0.450389
 
-pgibbs sample time: 5.6e-05 seconds
+pgibbs sample time: 5e-05 seconds
 probability of topic_Student_6 is 0.527927
 
-pgibbs sample time: 0.000361 seconds
+pgibbs sample time: 0.000316 seconds
 probability of topic_Staff_120 is 0.590618
 
-pgibbs sample time: 7.3e-05 seconds
+pgibbs sample time: 6.8e-05 seconds
 probability of topic_Student_88 is 0.677047
 
-pgibbs sample time: 5.8e-05 seconds
+pgibbs sample time: 5.3e-05 seconds
 probability of topic_ResearchProject_51 is 0.503802
 
-pgibbs sample time: 0.000386 seconds
+pgibbs sample time: 0.000387 seconds
 probability of topic_Department_31 is 0.449749
 
-pgibbs sample time: 0.000382 seconds
+pgibbs sample time: 0.000385 seconds
 probability of topic_Department_92 is 0.457939
 
-pgibbs sample time: 5.7e-05 seconds
+pgibbs sample time: 5.1e-05 seconds
 probability of topic_Staff_1 is 0.40605
 
-pgibbs sample time: 0.000314 seconds
+pgibbs sample time: 0.000312 seconds
 probability of topic_Staff_31 is 0.46791
 
-pgibbs sample time: 5.8e-05 seconds
+pgibbs sample time: 5.3e-05 seconds
 probability of topic_Department_14 is 0.486126
 
-pgibbs sample time: 5.8e-05 seconds
+pgibbs sample time: 5.2e-05 seconds
 probability of topic_Person_69 is 0.463107
 
-pgibbs sample time: 6.5e-05 seconds
+pgibbs sample time: 5.4e-05 seconds
 probability of topic_ResearchProject_25 is 0.474026
 
-pgibbs sample time: 5.7e-05 seconds
+pgibbs sample time: 5.2e-05 seconds
 probability of topic_ResearchProject_65 is 0.52688
 
-pgibbs sample time: 0.000254 seconds
+pgibbs sample time: 0.000233 seconds
 probability of topic_Staff_49 is 0.510638
 
-pgibbs sample time: 0.000239 seconds
+pgibbs sample time: 0.000206 seconds
 probability of topic_Faculty_11 is 0.561439
 
-pgibbs sample time: 5.8e-05 seconds
+pgibbs sample time: 5.3e-05 seconds
 probability of topic_ResearchProject_96 is 0.496361
 
-pgibbs sample time: 5.6e-05 seconds
+pgibbs sample time: 5.1e-05 seconds
 probability of topic_Course_68 is 0.498873
 
-pgibbs sample time: 5.7e-05 seconds
+pgibbs sample time: 5.2e-05 seconds
 probability of topic_ResearchProject_42 is 0.489998
 
-pgibbs sample time: 5.7e-05 seconds
+pgibbs sample time: 5e-05 seconds
 probability of topic_Staff_64 is 0.468231
 
-pgibbs sample time: 5.5e-05 seconds
+pgibbs sample time: 5e-05 seconds
 probability of topic_Staff_4 is 0.464657
 
-pgibbs sample time: 5.4e-05 seconds
+pgibbs sample time: 5.1e-05 seconds
 probability of topic_Course_15 is 0.499992
 
-pgibbs sample time: 5.5e-05 seconds
+pgibbs sample time: 5e-05 seconds
 probability of topic_Faculty_6 is 0.478687
 
-pgibbs sample time: 5.8e-05 seconds
+pgibbs sample time: 5.4e-05 seconds
 probability of topic_Department_75 is 0.465943
 
-pgibbs sample time: 0.0003 seconds
+pgibbs sample time: 0.000303 seconds
 probability of topic_Person_116 is 0.373841
 
-pgibbs sample time: 5.8e-05 seconds
+pgibbs sample time: 5.3e-05 seconds
 probability of topic_Faculty_62 is 0.505241
 
-pgibbs sample time: 5.7e-05 seconds
+pgibbs sample time: 5.2e-05 seconds
 probability of topic_Staff_66 is 0.432401
 
-pgibbs sample time: 5.8e-05 seconds
+pgibbs sample time: 5.3e-05 seconds
 probability of topic_ResearchProject_58 is 0.572808
 
-pgibbs sample time: 5.6e-05 seconds
+pgibbs sample time: 5.1e-05 seconds
 probability of topic_Staff_17 is 0.582035
 
-pgibbs sample time: 5.8e-05 seconds
+pgibbs sample time: 5.4e-05 seconds
 probability of topic_Department_26 is 0.513549
 
-pgibbs sample time: 0.000381 seconds
+pgibbs sample time: 0.000333 seconds
 probability of topic_Department_45 is 0.475409
 
-pgibbs sample time: 5.9e-05 seconds
+pgibbs sample time: 5.4e-05 seconds
 probability of topic_Student_89 is 0.520574
 
-pgibbs sample time: 6.9e-05 seconds
+pgibbs sample time: 6.5e-05 seconds
 probability of topic_Staff_53 is 0.441473
 
-pgibbs sample time: 0.000352 seconds
+pgibbs sample time: 0.000348 seconds
 probability of topic_Course_91 is 0.587015
 
-pgibbs sample time: 5.9e-05 seconds
+pgibbs sample time: 5.5e-05 seconds
 probability of topic_Student_25 is 0.50726
 
-pgibbs sample time: 6.9e-05 seconds
+pgibbs sample time: 6.4e-05 seconds
 probability of topic_Staff_35 is 0.450619
 
-pgibbs sample time: 5.9e-05 seconds
+pgibbs sample time: 5.4e-05 seconds
 probability of topic_ResearchProject_84 is 0.401107
 
-pgibbs sample time: 7.2e-05 seconds
+pgibbs sample time: 6.8e-05 seconds
 probability of topic_Department_52 is 0.461953
 
-pgibbs sample time: 5.6e-05 seconds
+pgibbs sample time: 5.3e-05 seconds
 probability of topic_ResearchProject_40 is 0.437775
 
-pgibbs sample time: 5.5e-05 seconds
+pgibbs sample time: 4.9e-05 seconds
 probability of topic_Staff_80 is 0.447858
 

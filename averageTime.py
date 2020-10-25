@@ -61,8 +61,8 @@ def selectDict(dic, l):
 
 
 if __name__=="__main__":
-  dire = "sample7"
-  name = "Gibbssample"
+  dire = "sample8"
+  name = "influEquation"
   file_names = [
             "./data/hypertext-class/"+dire+"/records/"+name+"1.log",
             "./data/hypertext-class/"+dire+"/records/"+name+"2.log",
@@ -79,7 +79,9 @@ if __name__=="__main__":
   avg_times = []
   for file_name in file_names:
     file = open(file_name, "r")
-    dic = parseGibbsFile(file)
+    # dic = parseGibbsFile(file)
+    # dic = parseFile(file)
+    dic = parseInfluFile(file)
     dics.append(dic)
     # dics[-1] = selectDict(dics[-1], list(dics[0].keys()))
     avg_times.append(np.mean(np.array(list(dics[-1].values()))))

@@ -2,2565 +2,2565 @@ observed tuples: r1577 r4696 r2400 r3025 r2465 r1621 r2041 r1724 r343 r2829 r298
 size of observed tuples: 443
 size of unobserved tuples: 427
 
-gibbs sample time: 0.060607 seconds
-probability of topic_Course_3 is 0.475556
+gibbs sample time: 0.00613 seconds
+probability of topic_Course_3 is 0.499
 
-mode equations: influence compute time (equations): 0.000835 seconds
-influence of hasword_algorithm_3 on topic_Course_3 is -0.0097649
+mode equations: influence compute time (equations): 0.000842 seconds
+influence of hasword_algorithm_3 on topic_Course_3 is -0.00978826
 
-gibbs sample time: 0.062415 seconds
-probability of topic_ResearchProject_49 is 0.297333
+gibbs sample time: 0.006461 seconds
+probability of topic_ResearchProject_49 is 0.3
 
-mode equations: influence compute time (equations): 0.000834 seconds
-influence of hasword_home_49 on topic_ResearchProject_49 is -0.177988
+mode equations: influence compute time (equations): 0.00084 seconds
+influence of hasword_home_49 on topic_ResearchProject_49 is -0.178903
 
-gibbs sample time: 0.064275 seconds
-probability of topic_Student_41 is 0.773889
+gibbs sample time: 0.006695 seconds
+probability of topic_Student_41 is 0.81
 
 mode equations: influence compute time (equations): 0.000826 seconds
-influence of hasword_interest_41 on topic_Student_41 is 0.216278
+influence of hasword_interest_41 on topic_Student_41 is 0.190217
 
-gibbs sample time: 0.063892 seconds
-probability of topic_Student_16 is 0.490333
+gibbs sample time: 0.006462 seconds
+probability of topic_Student_16 is 0.494
+
+mode equations: influence compute time (equations): 0.000843 seconds
+influence of hasword_gmt_16 on topic_Student_16 is -0.0060623
+
+gibbs sample time: 0.005752 seconds
+probability of topic_Student_5 is 0.485
+
+mode equations: influence compute time (equations): 0.000833 seconds
+influence of hasword_html_5 on topic_Student_5 is -0.0137796
+
+gibbs sample time: 0.006148 seconds
+probability of topic_Student_20 is 0.486
+
+mode equations: influence compute time (equations): 0.000832 seconds
+influence of hasword_date_20 on topic_Student_20 is -0.00605842
+
+gibbs sample time: 0.006487 seconds
+probability of topic_Department_13 is 0.437
+
+mode equations: influence compute time (equations): 0.000826 seconds
+influence of hasword_develop_13 on topic_Department_13 is -0.0708481
+
+gibbs sample time: 0.006151 seconds
+probability of topic_ResearchProject_30 is 0.47
+
+mode equations: influence compute time (equations): 0.000827 seconds
+influence of hasword_tree_30 on topic_ResearchProject_30 is -0.00391695
+
+gibbs sample time: 0.005746 seconds
+probability of topic_Person_10 is 0.477
+
+mode equations: influence compute time (equations): 0.000837 seconds
+influence of hasword_jan_10 on topic_Person_10 is 0.00595934
+
+gibbs sample time: 0.00591 seconds
+probability of topic_Staff_23 is 0.443
+
+mode equations: influence compute time (equations): 0.000863 seconds
+influence of hasword_texa_23 on topic_Staff_23 is -0.035466
+
+gibbs sample time: 0.006396 seconds
+probability of topic_Faculty_47 is 0.653
+
+mode equations: influence compute time (equations): 0.000834 seconds
+influence of hasword_fall_47 on topic_Faculty_47 is 0.141011
+
+gibbs sample time: 0.006318 seconds
+probability of topic_Department_38 is 0.546
+
+mode equations: influence compute time (equations): 0.00083 seconds
+influence of hasword_data_38 on topic_Department_38 is 0.0352315
+
+gibbs sample time: 0.019697 seconds
+probability of topic_Staff_43 is 0.452
+
+mode equations: influence compute time (equations): 0.000864 seconds
+influence of links_43_40 on topic_Staff_43 is -0.0162209
+
+gibbs sample time: 0.021771 seconds
+probability of topic_Department_35 is 0.513
+
+mode equations: influence compute time (equations): 0.00087 seconds
+influence of links_22_35 on topic_Department_35 is 0.00770911
+
+gibbs sample time: 0.020262 seconds
+probability of topic_Person_61 is 0.511
+
+mode equations: influence compute time (equations): 0.000866 seconds
+influence of rl on topic_Person_61 is 0.117923
+
+gibbs sample time: 0.006462 seconds
+probability of topic_ResearchProject_45 is 0.52
+
+mode equations: influence compute time (equations): 0.000824 seconds
+influence of hasword_utexa_45 on topic_ResearchProject_45 is -0.0003804
+
+gibbs sample time: 0.006547 seconds
+probability of topic_ResearchProject_3 is 0.406
+
+mode equations: influence compute time (equations): 0.000828 seconds
+influence of hasword_algorithm_3 on topic_ResearchProject_3 is -0.0966713
+
+gibbs sample time: 0.006227 seconds
+probability of topic_Department_53 is 0.475
+
+mode equations: influence compute time (equations): 0.000833 seconds
+influence of hasword_date_53 on topic_Department_53 is -0.0198517
+
+gibbs sample time: 0.006287 seconds
+probability of topic_Department_23 is 0.432
 
 mode equations: influence compute time (equations): 0.000839 seconds
-influence of hasword_gmt_16 on topic_Student_16 is -0.00606091
+influence of hasword_texa_23 on topic_Department_23 is -0.0570546
 
-gibbs sample time: 0.057374 seconds
-probability of topic_Student_5 is 0.488333
+gibbs sample time: 0.00641 seconds
+probability of topic_Student_54 is 0.401
 
-mode equations: influence compute time (equations): 0.000833 seconds
-influence of hasword_html_5 on topic_Student_5 is -0.0137845
+mode equations: influence compute time (equations): 0.00083 seconds
+influence of hasword_syllabu_54 on topic_Student_54 is -0.11114
 
-gibbs sample time: 0.061311 seconds
-probability of topic_Student_20 is 0.496222
+gibbs sample time: 0.006561 seconds
+probability of topic_Department_5 is 0.487
 
-mode equations: influence compute time (equations): 0.000831 seconds
-influence of hasword_date_20 on topic_Student_20 is -0.00606283
+mode equations: influence compute time (equations): 0.000832 seconds
+influence of hasword_html_5 on topic_Department_5 is -0.018732
 
-gibbs sample time: 0.064689 seconds
-probability of topic_Department_13 is 0.439778
-
-mode equations: influence compute time (equations): 0.000849 seconds
-influence of hasword_develop_13 on topic_Department_13 is -0.0709466
-
-gibbs sample time: 0.061403 seconds
-probability of topic_ResearchProject_30 is 0.498333
-
-mode equations: influence compute time (equations): 0.000879 seconds
-influence of hasword_tree_30 on topic_ResearchProject_30 is -0.00393106
-
-gibbs sample time: 0.057113 seconds
-probability of topic_Person_10 is 0.507111
-
-mode equations: influence compute time (equations): 0.000835 seconds
-influence of hasword_jan_10 on topic_Person_10 is 0.00597077
-
-gibbs sample time: 0.05765 seconds
-probability of topic_Staff_23 is 0.459
-
-mode equations: influence compute time (equations): 0.000833 seconds
-influence of hasword_texa_23 on topic_Staff_23 is -0.0356914
-
-gibbs sample time: 0.065038 seconds
-probability of topic_Faculty_47 is 0.647889
-
-mode equations: influence compute time (equations): 0.000831 seconds
-influence of hasword_fall_47 on topic_Faculty_47 is 0.141968
-
-gibbs sample time: 0.062969 seconds
-probability of topic_Department_38 is 0.530444
-
-mode equations: influence compute time (equations): 0.000907 seconds
-influence of hasword_data_38 on topic_Department_38 is 0.0354005
-
-gibbs sample time: 0.196725 seconds
-probability of topic_Staff_43 is 0.456778
-
-mode equations: influence compute time (equations): 0.000869 seconds
-influence of links_43_40 on topic_Staff_43 is -0.0161542
-
-gibbs sample time: 0.217257 seconds
-probability of topic_Department_35 is 0.518
-
-mode equations: influence compute time (equations): 0.000876 seconds
-influence of links_22_35 on topic_Department_35 is 0.00779971
-
-gibbs sample time: 0.202853 seconds
-probability of topic_Person_61 is 0.506333
+gibbs sample time: 0.005752 seconds
+probability of topic_Person_58 is 0.513
 
 mode equations: influence compute time (equations): 0.000957 seconds
-influence of rl on topic_Person_61 is 0.11587
+influence of hasword_jan_58 on topic_Person_58 is 0.00596794
 
-gibbs sample time: 0.06429 seconds
-probability of topic_ResearchProject_45 is 0.502
+gibbs sample time: 0.008964 seconds
+probability of topic_Student_9 is 0.45
 
-mode equations: influence compute time (equations): 0.000825 seconds
-influence of hasword_utexa_45 on topic_ResearchProject_45 is -0.000381004
+mode equations: influence compute time (equations): 0.000843 seconds
+influence of hasword_facil_9 on topic_Student_9 is -0.0566503
 
-gibbs sample time: 0.065007 seconds
-probability of topic_ResearchProject_3 is 0.405333
+gibbs sample time: 0.019331 seconds
+probability of topic_Staff_21 is 0.48
+
+mode equations: influence compute time (equations): 0.000864 seconds
+influence of links_51_21 on topic_Staff_21 is 0.0126419
+
+gibbs sample time: 0.006084 seconds
+probability of topic_Person_3 is 0.445
 
 mode equations: influence compute time (equations): 0.000828 seconds
-influence of hasword_algorithm_3 on topic_ResearchProject_3 is -0.0966209
+influence of hasword_algorithm_3 on topic_Person_3 is -0.0451448
 
-gibbs sample time: 0.0622 seconds
-probability of topic_Department_53 is 0.478889
+gibbs sample time: 0.024852 seconds
+probability of topic_Student_47 is 0.472
 
-mode equations: influence compute time (equations): 0.001188 seconds
-influence of hasword_date_53 on topic_Department_53 is -0.019866
+mode equations: influence compute time (equations): 0.000885 seconds
+influence of links_47_12 on topic_Student_47 is -0.0145869
 
-gibbs sample time: 0.061844 seconds
-probability of topic_Department_23 is 0.430556
+gibbs sample time: 0.006262 seconds
+probability of topic_Department_33 is 0.638
 
-mode equations: influence compute time (equations): 0.000832 seconds
-influence of hasword_texa_23 on topic_Department_23 is -0.0570084
+mode equations: influence compute time (equations): 0.000824 seconds
+influence of hasword_home_33 on topic_Department_33 is 0.136312
 
-gibbs sample time: 0.064095 seconds
-probability of topic_Student_54 is 0.385
+gibbs sample time: 0.006629 seconds
+probability of topic_Faculty_15 is 0.44
 
-mode equations: influence compute time (equations): 0.000835 seconds
-influence of hasword_syllabu_54 on topic_Student_54 is -0.109556
+mode equations: influence compute time (equations): 0.00093 seconds
+influence of hasword_modifi_15 on topic_Faculty_15 is -0.0696302
 
-gibbs sample time: 0.064675 seconds
-probability of topic_Department_5 is 0.475222
-
-mode equations: influence compute time (equations): 0.000845 seconds
-influence of hasword_html_5 on topic_Department_5 is -0.0186986
-
-gibbs sample time: 0.057368 seconds
-probability of topic_Person_58 is 0.504222
+gibbs sample time: 0.006386 seconds
+probability of topic_Student_37 is 0.497
 
 mode equations: influence compute time (equations): 0.000835 seconds
-influence of hasword_jan_58 on topic_Person_58 is 0.00597155
+influence of hasword_austin_37 on topic_Student_37 is 0.0112854
 
-gibbs sample time: 0.089023 seconds
-probability of topic_Student_9 is 0.424667
-
-mode equations: influence compute time (equations): 0.000838 seconds
-influence of hasword_facil_9 on topic_Student_9 is -0.0559235
-
-gibbs sample time: 0.193601 seconds
-probability of topic_Staff_21 is 0.501889
-
-mode equations: influence compute time (equations): 0.000867 seconds
-influence of links_51_21 on topic_Staff_21 is 0.0126319
-
-gibbs sample time: 0.06098 seconds
-probability of topic_Person_3 is 0.448889
-
-mode equations: influence compute time (equations): 0.000825 seconds
-influence of hasword_algorithm_3 on topic_Person_3 is -0.0452202
-
-gibbs sample time: 0.247699 seconds
-probability of topic_Student_47 is 0.453667
-
-mode equations: influence compute time (equations): 0.00088 seconds
-influence of links_47_12 on topic_Student_47 is -0.014638
-
-gibbs sample time: 0.062186 seconds
-probability of topic_Department_33 is 0.643
-
-mode equations: influence compute time (equations): 0.000825 seconds
-influence of hasword_home_33 on topic_Department_33 is 0.135483
-
-gibbs sample time: 0.066004 seconds
-probability of topic_Faculty_15 is 0.422778
-
-mode equations: influence compute time (equations): 0.000871 seconds
-influence of hasword_modifi_15 on topic_Faculty_15 is -0.0689623
-
-gibbs sample time: 0.064675 seconds
-probability of topic_Student_37 is 0.514333
-
-mode equations: influence compute time (equations): 0.000895 seconds
-influence of hasword_austin_37 on topic_Student_37 is 0.0112765
-
-gibbs sample time: 0.192562 seconds
-probability of topic_Person_21 is 0.392556
-
-mode equations: influence compute time (equations): 0.000871 seconds
-influence of links_51_21 on topic_Person_21 is 0.0139505
-
-gibbs sample time: 0.098525 seconds
-probability of topic_ResearchProject_26 is 0.541222
-
-mode equations: influence compute time (equations): 0.000866 seconds
-influence of hasword_prototyp_26 on topic_ResearchProject_26 is 0.00193943
-
-gibbs sample time: 0.193942 seconds
-probability of topic_Person_51 is 0.488778
+gibbs sample time: 0.019244 seconds
+probability of topic_Person_21 is 0.389
 
 mode equations: influence compute time (equations): 0.000868 seconds
-influence of links_51_21 on topic_Person_51 is -0.0117406
+influence of links_51_21 on topic_Person_21 is 0.0140998
 
-gibbs sample time: 0.057759 seconds
-probability of topic_Person_30 is 0.485
-
-mode equations: influence compute time (equations): 0.000833 seconds
-influence of hasword_tree_30 on topic_Person_30 is -0.00946952
-
-gibbs sample time: 0.056863 seconds
-probability of topic_Person_38 is 0.353778
-
-mode equations: influence compute time (equations): 0.000916 seconds
-influence of hasword_data_38 on topic_Person_38 is -0.144162
-
-gibbs sample time: 0.064635 seconds
-probability of topic_Department_3 is 0.413667
-
-mode equations: influence compute time (equations): 0.000836 seconds
-influence of hasword_algorithm_3 on topic_Department_3 is -0.0776821
-
-gibbs sample time: 0.057619 seconds
-probability of topic_Staff_34 is 0.486
-
-mode equations: influence compute time (equations): 0.000837 seconds
-influence of hasword_man_34 on topic_Staff_34 is -0.00605747
-
-gibbs sample time: 0.059311 seconds
-probability of topic_Staff_16 is 0.446111
-
-mode equations: influence compute time (equations): 0.000835 seconds
-influence of hasword_gmt_16 on topic_Staff_16 is -0.0517241
-
-gibbs sample time: 0.064122 seconds
-probability of topic_Faculty_32 is 0.410889
-
-mode equations: influence compute time (equations): 0.000835 seconds
-influence of hasword_softwar_32 on topic_Faculty_32 is -0.0911803
-
-gibbs sample time: 0.221673 seconds
-probability of topic_ResearchProject_22 is 0.611556
-
-mode equations: influence compute time (equations): 0.000878 seconds
-influence of links_22_35 on topic_ResearchProject_22 is -0.0149477
-
-gibbs sample time: 0.057172 seconds
-probability of topic_Person_49 is 0.706556
-
-mode equations: influence compute time (equations): 0.000825 seconds
-influence of hasword_home_49 on topic_Person_49 is 0.174743
-
-gibbs sample time: 0.064887 seconds
-probability of topic_Department_50 is 0.477778
-
-mode equations: influence compute time (equations): 0.00083 seconds
-influence of hasword_art_50 on topic_Department_50 is -0.0230363
-
-gibbs sample time: 0.088632 seconds
-probability of topic_Course_9 is 0.459
-
-mode equations: influence compute time (equations): 0.000842 seconds
-influence of hasword_facil_9 on topic_Course_9 is 0.0186745
-
-gibbs sample time: 0.060941 seconds
-probability of topic_Course_42 is 0.515
-
-mode equations: influence compute time (equations): 0.000836 seconds
-influence of hasword_scienc_42 on topic_Course_42 is 0.0239014
-
-gibbs sample time: 0.06162 seconds
-probability of topic_Faculty_65 is 0.447778
-
-mode equations: influence compute time (equations): 0.000834 seconds
-influence of hasword_high_65 on topic_Faculty_65 is -0.0496655
-
-gibbs sample time: 0.202548 seconds
-probability of topic_Staff_47 is 0.386222
-
-mode equations: influence compute time (equations): 0.000867 seconds
-influence of links_47_12 on topic_Staff_47 is -0.0136791
-
-gibbs sample time: 0.064434 seconds
-probability of topic_Faculty_54 is 0.495222
-
-mode equations: influence compute time (equations): 0.000827 seconds
-influence of hasword_syllabu_54 on topic_Faculty_54 is -0.0138433
-
-gibbs sample time: 0.061221 seconds
-probability of topic_Person_64 is 0.497
+gibbs sample time: 0.009969 seconds
+probability of topic_ResearchProject_26 is 0.565
 
 mode equations: influence compute time (equations): 0.000831 seconds
-influence of hasword_laboratori_64 on topic_Person_64 is -0.0027179
+influence of hasword_prototyp_26 on topic_ResearchProject_26 is 0.0019197
 
-gibbs sample time: 0.056846 seconds
-probability of topic_Staff_48 is 0.461222
-
-mode equations: influence compute time (equations): 0.000834 seconds
-influence of hasword_apr_48 on topic_Staff_48 is -0.0401674
-
-gibbs sample time: 0.061203 seconds
-probability of topic_ResearchProject_11 is 0.205333
-
-mode equations: influence compute time (equations): 0.000883 seconds
-influence of hasword_dec_11 on topic_ResearchProject_11 is -0.216183
-
-gibbs sample time: 0.069488 seconds
-probability of topic_Student_17 is 0.309889
-
-mode equations: influence compute time (equations): 0.00089 seconds
-influence of hasword_materi_17 on topic_Student_17 is -0.182277
-
-gibbs sample time: 0.09488 seconds
-probability of topic_Person_44 is 0.546444
-
-mode equations: influence compute time (equations): 0.000837 seconds
-influence of r1714 on topic_Person_44 is 0.247843
-
-gibbs sample time: 0.215822 seconds
-probability of topic_ResearchProject_19 is 0.507889
-
-mode equations: influence compute time (equations): 0.000874 seconds
-influence of links_33_19 on topic_ResearchProject_19 is 0.0201039
-
-gibbs sample time: 0.061702 seconds
-probability of topic_Faculty_38 is 0.474
-
-mode equations: influence compute time (equations): 0.000828 seconds
-influence of hasword_data_38 on topic_Faculty_38 is -0.0221026
-
-gibbs sample time: 0.200891 seconds
-probability of topic_Course_51 is 0.453556
-
-mode equations: influence compute time (equations): 0.000868 seconds
-influence of links_51_21 on topic_Course_51 is -0.0151714
-
-gibbs sample time: 0.067968 seconds
-probability of topic_Faculty_64 is 0.521667
-
-mode equations: influence compute time (equations): 0.000828 seconds
-influence of hasword_laboratori_64 on topic_Faculty_64 is 0.0303901
-
-gibbs sample time: 0.061762 seconds
-probability of topic_Person_31 is 0.483444
-
-mode equations: influence compute time (equations): 0.00083 seconds
-influence of hasword_sequenc_31 on topic_Person_31 is -0.0157244
-
-gibbs sample time: 0.063014 seconds
-probability of topic_Staff_37 is 0.472556
-
-mode equations: influence compute time (equations): 0.000835 seconds
-influence of hasword_austin_37 on topic_Staff_37 is -0.0278817
-
-gibbs sample time: 0.096131 seconds
-probability of topic_Student_26 is 0.628
-
-mode equations: influence compute time (equations): 0.000845 seconds
-influence of r3459 on topic_Student_26 is 0.233616
-
-gibbs sample time: 0.064504 seconds
-probability of topic_Student_32 is 0.475556
-
-mode equations: influence compute time (equations): 0.000857 seconds
-influence of hasword_softwar_32 on topic_Student_32 is -0.0336439
-
-gibbs sample time: 0.06162 seconds
-probability of topic_Person_4 is 0.544889
-
-mode equations: influence compute time (equations): 0.000837 seconds
-influence of hasword_represent_4 on topic_Person_4 is 0.0445096
-
-gibbs sample time: 0.064129 seconds
-probability of topic_ResearchProject_28 is 0.439667
-
-mode equations: influence compute time (equations): 0.000964 seconds
-influence of hasword_gmt_28 on topic_ResearchProject_28 is -0.0564792
-
-gibbs sample time: 0.060608 seconds
-probability of topic_Person_63 is 0.500889
-
-mode equations: influence compute time (equations): 0.000839 seconds
-influence of hasword_jan_63 on topic_Person_63 is 0.00597196
-
-gibbs sample time: 0.063758 seconds
-probability of topic_Faculty_14 is 0.625778
-
-mode equations: influence compute time (equations): 0.000843 seconds
-influence of hasword_scienc_14 on topic_Faculty_14 is 0.124484
-
-gibbs sample time: 0.056794 seconds
-probability of topic_Course_52 is 0.425222
-
-mode equations: influence compute time (equations): 0.00084 seconds
-influence of hasword_test_52 on topic_Course_52 is -0.0637972
-
-gibbs sample time: 0.057318 seconds
-probability of topic_Course_23 is 0.5
-
-mode equations: influence compute time (equations): 0.000841 seconds
-influence of hasword_texa_23 on topic_Course_23 is -0.00219612
-
-gibbs sample time: 0.063918 seconds
-probability of topic_Student_15 is 0.508222
-
-mode equations: influence compute time (equations): 0.000847 seconds
-influence of hasword_modifi_15 on topic_Student_15 is 0.00725856
-
-gibbs sample time: 0.057406 seconds
-probability of topic_Course_18 is 0.414222
-
-mode equations: influence compute time (equations): 0.000887 seconds
-influence of hasword_html_18 on topic_Course_18 is -0.0823858
-
-gibbs sample time: 0.056982 seconds
-probability of topic_Staff_58 is 0.568667
-
-mode equations: influence compute time (equations): 0.000842 seconds
-influence of hasword_jan_58 on topic_Staff_58 is 0.075328
-
-gibbs sample time: 0.061848 seconds
-probability of topic_Student_33 is 0.701778
-
-mode equations: influence compute time (equations): 0.000838 seconds
-influence of hasword_home_33 on topic_Student_33 is 0.17835
-
-gibbs sample time: 0.062049 seconds
-probability of topic_Department_16 is 0.478333
-
-mode equations: influence compute time (equations): 0.000846 seconds
-influence of hasword_gmt_16 on topic_Department_16 is -0.0198641
-
-gibbs sample time: 0.061411 seconds
-probability of topic_ResearchProject_16 is 0.444333
-
-mode equations: influence compute time (equations): 0.000837 seconds
-influence of hasword_gmt_16 on topic_ResearchProject_16 is -0.0566033
-
-gibbs sample time: 0.064347 seconds
-probability of topic_Department_32 is 0.38
-
-mode equations: influence compute time (equations): 0.00084 seconds
-influence of hasword_softwar_32 on topic_Department_32 is -0.118468
-
-gibbs sample time: 0.057093 seconds
-probability of topic_Course_63 is 0.479222
-
-mode equations: influence compute time (equations): 0.000838 seconds
-influence of hasword_jan_63 on topic_Course_63 is -0.023437
-
-gibbs sample time: 0.060626 seconds
-probability of topic_Course_57 is 0.525556
-
-mode equations: influence compute time (equations): 0.000872 seconds
-influence of hasword_separ_57 on topic_Course_57 is 0.027406
-
-gibbs sample time: 0.062831 seconds
-probability of topic_Department_11 is 0.378778
-
-mode equations: influence compute time (equations): 0.000843 seconds
-influence of hasword_dec_11 on topic_Department_11 is -0.116401
-
-gibbs sample time: 0.061172 seconds
-probability of topic_Student_23 is 0.525
-
-mode equations: influence compute time (equations): 0.000946 seconds
-influence of hasword_texa_23 on topic_Student_23 is 0.0278864
-
-gibbs sample time: 0.234784 seconds
-probability of topic_Person_47 is 0.468889
-
-mode equations: influence compute time (equations): 0.000885 seconds
-influence of links_47_12 on topic_Person_47 is -0.0128173
-
-gibbs sample time: 0.062191 seconds
-probability of topic_Faculty_25 is 0.490111
-
-mode equations: influence compute time (equations): 0.00083 seconds
-influence of hasword_jan_25 on topic_Faculty_25 is -0.0101814
-
-gibbs sample time: 0.255238 seconds
-probability of topic_Department_12 is 0.496556
-
-mode equations: influence compute time (equations): 0.000887 seconds
-influence of rl on topic_Department_12 is -0.16661
-
-gibbs sample time: 0.060175 seconds
-probability of topic_Person_53 is 0.497889
-
-mode equations: influence compute time (equations): 0.000827 seconds
-influence of hasword_date_53 on topic_Person_53 is -0.00182059
-
-gibbs sample time: 0.061471 seconds
-probability of topic_Student_58 is 0.520111
-
-mode equations: influence compute time (equations): 0.000836 seconds
-influence of hasword_jan_58 on topic_Student_58 is 0.0245633
-
-gibbs sample time: 0.19218 seconds
-probability of topic_Staff_51 is 0.562667
-
-mode equations: influence compute time (equations): 0.000868 seconds
-influence of links_51_21 on topic_Staff_51 is -0.0143912
-
-gibbs sample time: 0.062811 seconds
-probability of topic_Department_48 is 0.404667
-
-mode equations: influence compute time (equations): 0.000856 seconds
-influence of hasword_apr_48 on topic_Department_48 is -0.0921048
-
-gibbs sample time: 0.183167 seconds
-probability of topic_Department_39 is 0.382778
-
-mode equations: influence compute time (equations): 0.000865 seconds
-influence of links_61_39 on topic_Department_39 is 0.0138557
-
-gibbs sample time: 0.061021 seconds
-probability of topic_Faculty_50 is 0.509556
-
-mode equations: influence compute time (equations): 0.000843 seconds
-influence of hasword_art_50 on topic_Faculty_50 is 0.0183472
-
-gibbs sample time: 0.05692 seconds
-probability of topic_Student_1 is 0.468111
-
-mode equations: influence compute time (equations): 0.00085 seconds
-influence of hasword_model_1 on topic_Student_1 is -0.0317553
-
-gibbs sample time: 0.183787 seconds
-probability of topic_Department_61 is 0.495778
-
-mode equations: influence compute time (equations): 0.000865 seconds
-influence of links_61_39 on topic_Department_61 is -0.0110461
-
-gibbs sample time: 0.195151 seconds
-probability of topic_Course_43 is 0.410111
-
-mode equations: influence compute time (equations): 0.00087 seconds
-influence of links_43_40 on topic_Course_43 is -0.0156858
-
-gibbs sample time: 0.062011 seconds
-probability of topic_Department_65 is 0.424111
-
-mode equations: influence compute time (equations): 0.00083 seconds
-influence of hasword_high_65 on topic_Department_65 is -0.0890229
-
-gibbs sample time: 0.057484 seconds
-probability of topic_Course_10 is 0.469222
-
-mode equations: influence compute time (equations): 0.000842 seconds
-influence of hasword_jan_10 on topic_Course_10 is -0.0233886
-
-gibbs sample time: 0.05741 seconds
-probability of topic_Person_16 is 0.482444
-
-mode equations: influence compute time (equations): 0.000835 seconds
-influence of hasword_gmt_16 on topic_Person_16 is -0.00181837
-
-gibbs sample time: 0.224156 seconds
-probability of topic_ResearchProject_61 is 0.687667
-
-mode equations: influence compute time (equations): 0.00088 seconds
-influence of links_61_39 on topic_ResearchProject_61 is -0.0141532
-
-gibbs sample time: 0.289251 seconds
-probability of topic_Course_46 is 0.416333
-
-mode equations: influence compute time (equations): 0.000879 seconds
-influence of links_46_59 on topic_Course_46 is -0.0132883
-
-gibbs sample time: 0.057781 seconds
-probability of topic_Faculty_2 is 0.520111
-
-mode equations: influence compute time (equations): 0.000958 seconds
-influence of hasword_phone_2 on topic_Faculty_2 is 0.0211485
-
-gibbs sample time: 0.287008 seconds
-probability of topic_Person_59 is 0.495667
-
-mode equations: influence compute time (equations): 0.000882 seconds
-influence of links_46_59 on topic_Person_59 is 0.0152235
-
-gibbs sample time: 0.290788 seconds
-probability of topic_Faculty_59 is 0.566333
-
-mode equations: influence compute time (equations): 0.000887 seconds
-influence of links_59_46 on topic_Faculty_59 is -0.011717
-
-gibbs sample time: 0.192756 seconds
-probability of topic_Course_21 is 0.511889
-
-mode equations: influence compute time (equations): 0.000868 seconds
-influence of links_51_21 on topic_Course_21 is 0.0154658
-
-gibbs sample time: 0.063189 seconds
-probability of topic_Staff_45 is 0.491889
-
-mode equations: influence compute time (equations): 0.000833 seconds
-influence of hasword_utexa_45 on topic_Staff_45 is -0.0053322
-
-gibbs sample time: 0.061337 seconds
-probability of topic_Person_15 is 0.498
-
-mode equations: influence compute time (equations): 0.000834 seconds
-influence of hasword_modifi_15 on topic_Person_15 is -0.0109453
-
-gibbs sample time: 0.061671 seconds
-probability of topic_ResearchProject_34 is 0.556444
-
-mode equations: influence compute time (equations): 0.000839 seconds
-influence of hasword_man_34 on topic_ResearchProject_34 is 0.0511702
-
-gibbs sample time: 0.065445 seconds
-probability of topic_ResearchProject_24 is 0.595778
-
-mode equations: influence compute time (equations): 0.000841 seconds
-influence of hasword_research_24 on topic_ResearchProject_24 is 0.0999508
-
-gibbs sample time: 0.065182 seconds
-probability of topic_ResearchProject_13 is 0.520667
-
-mode equations: influence compute time (equations): 0.000868 seconds
-influence of hasword_develop_13 on topic_ResearchProject_13 is 0.0226082
-
-gibbs sample time: 0.069038 seconds
-probability of topic_Department_57 is 0.496778
-
-mode equations: influence compute time (equations): 0.000889 seconds
-influence of hasword_separ_57 on topic_Department_57 is -0.00149635
-
-gibbs sample time: 0.061858 seconds
-probability of topic_Course_8 is 0.616889
-
-mode equations: influence compute time (equations): 0.000888 seconds
-influence of hasword_implement_8 on topic_Course_8 is 0.111448
-
-gibbs sample time: 0.221795 seconds
-probability of topic_Department_21 is 0.453222
-
-mode equations: influence compute time (equations): 0.000965 seconds
-influence of links_51_21 on topic_Department_21 is 0.0103017
-
-gibbs sample time: 0.067473 seconds
-probability of topic_Department_7 is 0.476556
-
-mode equations: influence compute time (equations): 0.00083 seconds
-influence of hasword_date_7 on topic_Department_7 is -0.0198577
-
-gibbs sample time: 0.255959 seconds
-probability of topic_ResearchProject_46 is 0.436444
-
-mode equations: influence compute time (equations): 0.000889 seconds
-influence of links_59_46 on topic_ResearchProject_46 is 0.0144469
-
-gibbs sample time: 0.060689 seconds
-probability of topic_Person_17 is 0.248889
-
-mode equations: influence compute time (equations): 0.000833 seconds
-influence of hasword_materi_17 on topic_Person_17 is -0.203671
-
-gibbs sample time: 0.06118 seconds
-probability of topic_Course_62 is 0.434444
-
-mode equations: influence compute time (equations): 0.000835 seconds
-influence of hasword_length_62 on topic_Course_62 is -0.0632753
-
-gibbs sample time: 0.06282 seconds
-probability of topic_Department_60 is 0.429444
-
-mode equations: influence compute time (equations): 0.00089 seconds
-influence of hasword_mime_60 on topic_Department_60 is -0.0693623
-
-gibbs sample time: 0.257086 seconds
-probability of topic_Department_47 is 0.334333
-
-mode equations: influence compute time (equations): 0.000892 seconds
-influence of rl on topic_Department_47 is 0.114156
-
-gibbs sample time: 0.088571 seconds
-probability of topic_Course_44 is 0.329333
-
-mode equations: influence compute time (equations): 0.000848 seconds
-influence of hasword_call_44 on topic_Course_44 is -0.115726
-
-gibbs sample time: 0.066325 seconds
-probability of topic_Student_42 is 0.591556
-
-mode equations: influence compute time (equations): 0.000833 seconds
-influence of hasword_scienc_42 on topic_Student_42 is 0.10029
-
-gibbs sample time: 0.062457 seconds
-probability of topic_Department_20 is 0.475444
-
-mode equations: influence compute time (equations): 0.000843 seconds
-influence of hasword_date_20 on topic_Department_20 is -0.0198535
-
-gibbs sample time: 0.241251 seconds
-probability of topic_Course_12 is 0.621111
-
-mode equations: influence compute time (equations): 0.000883 seconds
-influence of links_47_12 on topic_Course_12 is 0.00676117
-
-gibbs sample time: 0.060788 seconds
-probability of topic_Course_14 is 0.523111
-
-mode equations: influence compute time (equations): 0.000836 seconds
-influence of hasword_scienc_14 on topic_Course_14 is 0.0238718
-
-gibbs sample time: 0.060788 seconds
-probability of topic_Person_36 is 0.565444
-
-mode equations: influence compute time (equations): 0.00084 seconds
-influence of hasword_system_36 on topic_Person_36 is 0.062691
-
-gibbs sample time: 0.0636 seconds
-probability of topic_Student_31 is 0.474111
-
-mode equations: influence compute time (equations): 0.000839 seconds
-influence of hasword_sequenc_31 on topic_Student_31 is -0.0253269
-
-gibbs sample time: 0.061665 seconds
-probability of topic_Faculty_27 is 0.486111
-
-mode equations: influence compute time (equations): 0.00084 seconds
-influence of hasword_jan_27 on topic_Faculty_27 is -0.0101776
-
-gibbs sample time: 0.061035 seconds
-probability of topic_Person_57 is 0.472778
-
-mode equations: influence compute time (equations): 0.000845 seconds
-influence of hasword_separ_57 on topic_Person_57 is -0.0230165
-
-gibbs sample time: 0.061199 seconds
-probability of topic_Person_13 is 0.512444
-
-mode equations: influence compute time (equations): 0.000842 seconds
-influence of hasword_develop_13 on topic_Person_13 is 0.0130519
-
-gibbs sample time: 0.199244 seconds
-probability of topic_Staff_39 is 0.694778
-
-mode equations: influence compute time (equations): 0.000879 seconds
-influence of rl on topic_Staff_39 is -0.1105
-
-gibbs sample time: 0.198761 seconds
-probability of topic_Course_39 is 0.655
-
-mode equations: influence compute time (equations): 0.000933 seconds
-influence of links_61_39 on topic_Course_39 is 0.0173753
-
-gibbs sample time: 0.065784 seconds
-probability of topic_Student_48 is 0.464667
-
-mode equations: influence compute time (equations): 0.000923 seconds
-influence of hasword_apr_48 on topic_Student_48 is -0.0408057
-
-gibbs sample time: 0.067158 seconds
-probability of topic_Faculty_57 is 0.490889
-
-mode equations: influence compute time (equations): 0.000836 seconds
-influence of hasword_separ_57 on topic_Faculty_57 is -0.00930001
-
-gibbs sample time: 0.063946 seconds
-probability of topic_Student_14 is 0.601889
-
-mode equations: influence compute time (equations): 0.000846 seconds
-influence of hasword_scienc_14 on topic_Student_14 is 0.0994607
-
-gibbs sample time: 0.226256 seconds
-probability of topic_Student_61 is 0.407
-
-mode equations: influence compute time (equations): 0.000876 seconds
-influence of links_61_39 on topic_Student_61 is -0.00908324
-
-gibbs sample time: 0.061543 seconds
-probability of topic_Staff_57 is 0.484222
-
-mode equations: influence compute time (equations): 0.000833 seconds
-influence of hasword_separ_57 on topic_Staff_57 is -0.0201492
-
-gibbs sample time: 0.061657 seconds
-probability of topic_Staff_54 is 0.497444
-
-mode equations: influence compute time (equations): 0.000834 seconds
-influence of hasword_syllabu_54 on topic_Staff_54 is -0.00290402
-
-gibbs sample time: 0.28343 seconds
-probability of topic_Person_46 is 0.483222
-
-mode equations: influence compute time (equations): 0.000883 seconds
-influence of links_46_59 on topic_Person_46 is -0.0144981
-
-gibbs sample time: 0.064583 seconds
-probability of topic_ResearchProject_32 is 0.644333
-
-mode equations: influence compute time (equations): 0.000834 seconds
-influence of hasword_softwar_32 on topic_ResearchProject_32 is 0.143635
-
-gibbs sample time: 0.218157 seconds
-probability of topic_Faculty_43 is 0.465556
-
-mode equations: influence compute time (equations): 0.000882 seconds
-influence of links_43_40 on topic_Faculty_43 is -0.0166724
-
-gibbs sample time: 0.057183 seconds
-probability of topic_Staff_18 is 0.426
-
-mode equations: influence compute time (equations): 0.000943 seconds
-influence of hasword_html_18 on topic_Staff_18 is -0.0755393
-
-gibbs sample time: 0.057097 seconds
-probability of topic_Staff_1 is 0.524667
-
-mode equations: influence compute time (equations): 0.000836 seconds
-influence of hasword_model_1 on topic_Staff_1 is 0.0217386
-
-gibbs sample time: 0.064524 seconds
-probability of topic_Department_14 is 0.415778
-
-mode equations: influence compute time (equations): 0.000855 seconds
-influence of hasword_scienc_14 on topic_Department_14 is -0.0863771
-
-gibbs sample time: 0.061653 seconds
-probability of topic_ResearchProject_23 is 0.476889
-
-mode equations: influence compute time (equations): 0.000839 seconds
-influence of hasword_texa_23 on topic_ResearchProject_23 is -0.033038
-
-gibbs sample time: 0.218814 seconds
-probability of topic_Student_40 is 0.623333
-
-mode equations: influence compute time (equations): 0.00088 seconds
-influence of links_43_40 on topic_Student_40 is 0.0128629
-
-gibbs sample time: 0.064978 seconds
-probability of topic_Department_55 is 0.397
-
-mode equations: influence compute time (equations): 0.000833 seconds
-influence of hasword_modifi_55 on topic_Department_55 is -0.0999905
-
-gibbs sample time: 0.057229 seconds
-probability of topic_Staff_50 is 0.462222
-
-mode equations: influence compute time (equations): 0.00084 seconds
-influence of hasword_art_50 on topic_Staff_50 is -0.0298464
-
-gibbs sample time: 0.057117 seconds
-probability of topic_Course_34 is 0.487333
-
-mode equations: influence compute time (equations): 0.000846 seconds
-influence of hasword_man_34 on topic_Course_34 is -0.0101219
-
-gibbs sample time: 0.196703 seconds
-probability of topic_Course_19 is 0.698556
-
-mode equations: influence compute time (equations): 0.000969 seconds
-influence of links_33_19 on topic_Course_19 is 0.0107897
-
-gibbs sample time: 0.066888 seconds
-probability of topic_Faculty_44 is 0.479222
-
-mode equations: influence compute time (equations): 0.000833 seconds
-influence of hasword_formal_44 on topic_Faculty_44 is -0.0197028
-
-gibbs sample time: 0.065115 seconds
-probability of topic_ResearchProject_15 is 0.473556
-
-mode equations: influence compute time (equations): 0.000836 seconds
-influence of hasword_modifi_15 on topic_ResearchProject_15 is -0.0259243
-
-gibbs sample time: 0.06464 seconds
-probability of topic_Department_17 is 0.574222
-
-mode equations: influence compute time (equations): 0.000843 seconds
-influence of hasword_materi_17 on topic_Department_17 is 0.0715765
-
-gibbs sample time: 0.289926 seconds
-probability of topic_Course_59 is 0.453667
-
-mode equations: influence compute time (equations): 0.000941 seconds
-influence of links_46_59 on topic_Course_59 is 0.0168807
-
-gibbs sample time: 0.061958 seconds
-probability of topic_Staff_32 is 0.589
-
-mode equations: influence compute time (equations): 0.000833 seconds
-influence of hasword_softwar_32 on topic_Staff_32 is 0.0926899
-
-gibbs sample time: 0.061031 seconds
-probability of topic_Faculty_3 is 0.542556
-
-mode equations: influence compute time (equations): 0.000837 seconds
-influence of hasword_algorithm_3 on topic_Faculty_3 is 0.0409358
-
-gibbs sample time: 0.061373 seconds
-probability of topic_Student_11 is 0.0558889
-
-mode equations: influence compute time (equations): 0.000844 seconds
-influence of hasword_dec_11 on topic_Student_11 is -0.150518
-
-gibbs sample time: 0.06557 seconds
-probability of topic_ResearchProject_4 is 0.480222
-
-mode equations: influence compute time (equations): 0.000846 seconds
-influence of hasword_represent_4 on topic_ResearchProject_4 is -0.0203968
-
-gibbs sample time: 0.062221 seconds
-probability of topic_ResearchProject_5 is 0.428667
-
-mode equations: influence compute time (equations): 0.000842 seconds
-influence of hasword_html_5 on topic_ResearchProject_5 is -0.0751308
-
-gibbs sample time: 0.06101 seconds
-probability of topic_Faculty_58 is 0.498111
-
-mode equations: influence compute time (equations): 0.000842 seconds
-influence of hasword_jan_58 on topic_Faculty_58 is -0.0101853
-
-gibbs sample time: 0.200571 seconds
-probability of topic_Person_40 is 0.640111
-
-mode equations: influence compute time (equations): 0.000874 seconds
-influence of links_43_40 on topic_Person_40 is 0.0136149
-
-gibbs sample time: 0.064558 seconds
-probability of topic_Faculty_56 is 0.580111
-
-mode equations: influence compute time (equations): 0.000834 seconds
-influence of hasword_includ_56 on topic_Faculty_56 is 0.0705994
-
-gibbs sample time: 0.057682 seconds
-probability of topic_Staff_10 is 0.573889
-
-mode equations: influence compute time (equations): 0.000836 seconds
-influence of hasword_jan_10 on topic_Staff_10 is 0.0750993
-
-gibbs sample time: 0.064818 seconds
-probability of topic_Student_57 is 0.486222
-
-mode equations: influence compute time (equations): 0.000842 seconds
-influence of hasword_separ_57 on topic_Student_57 is -0.0128775
-
-gibbs sample time: 0.057736 seconds
-probability of topic_Staff_30 is 0.492222
-
-mode equations: influence compute time (equations): 0.000843 seconds
-influence of hasword_tree_30 on topic_Staff_30 is 0.00115293
-
-gibbs sample time: 0.056956 seconds
-probability of topic_Staff_63 is 0.577889
-
-mode equations: influence compute time (equations): 0.000839 seconds
-influence of hasword_jan_63 on topic_Staff_63 is 0.0749129
-
-gibbs sample time: 0.069761 seconds
-probability of topic_Department_64 is 0.484889
-
-mode equations: influence compute time (equations): 0.000918 seconds
-influence of hasword_laboratori_64 on topic_Department_64 is -0.0152841
-
-gibbs sample time: 0.208062 seconds
-probability of topic_Staff_19 is 0.515222
-
-mode equations: influence compute time (equations): 0.000874 seconds
-influence of links_33_19 on topic_Staff_19 is 0.0159346
-
-gibbs sample time: 0.059729 seconds
-probability of topic_Staff_2 is 0.725111
-
-mode equations: influence compute time (equations): 0.000832 seconds
-influence of hasword_phone_2 on topic_Staff_2 is 0.197838
-
-gibbs sample time: 0.062402 seconds
-probability of topic_Department_10 is 0.645667
-
-mode equations: influence compute time (equations): 0.000848 seconds
-influence of hasword_jan_10 on topic_Department_10 is 0.141045
-
-gibbs sample time: 0.061265 seconds
-probability of topic_Student_50 is 0.602111
-
-mode equations: influence compute time (equations): 0.000849 seconds
-influence of hasword_art_50 on topic_Student_50 is 0.100873
-
-gibbs sample time: 0.215216 seconds
-probability of topic_Department_43 is 0.427333
-
-mode equations: influence compute time (equations): 0.00088 seconds
-influence of links_43_40 on topic_Department_43 is -0.0179528
-
-gibbs sample time: 0.092371 seconds
-probability of topic_Person_26 is 0.572222
-
-mode equations: influence compute time (equations): 0.000841 seconds
-influence of r1202 on topic_Person_26 is 0.244784
-
-gibbs sample time: 0.095397 seconds
-probability of topic_Course_26 is 0.521111
-
-mode equations: influence compute time (equations): 0.000841 seconds
-influence of hasword_specif_26 on topic_Course_26 is 0.0165757
-
-gibbs sample time: 0.065495 seconds
-probability of topic_ResearchProject_27 is 0.462778
-
-mode equations: influence compute time (equations): 0.000845 seconds
-influence of hasword_jan_27 on topic_ResearchProject_27 is -0.0371636
-
-gibbs sample time: 0.062191 seconds
-probability of topic_Student_49 is 0.700333
-
-mode equations: influence compute time (equations): 0.000843 seconds
-influence of hasword_home_49 on topic_Student_49 is 0.178844
-
-gibbs sample time: 0.198734 seconds
-probability of topic_Course_61 is 0.331556
-
-mode equations: influence compute time (equations): 0.000875 seconds
-influence of links_61_39 on topic_Course_61 is -0.0168559
-
-gibbs sample time: 0.221131 seconds
-probability of topic_ResearchProject_39 is 0.584
-
-mode equations: influence compute time (equations): 0.000881 seconds
-influence of links_61_39 on topic_ResearchProject_39 is 0.00884378
-
-gibbs sample time: 0.060752 seconds
-probability of topic_Course_24 is 0.418222
+gibbs sample time: 0.01935 seconds
+probability of topic_Person_51 is 0.51
 
 mode equations: influence compute time (equations): 0.000871 seconds
-influence of hasword_research_24 on topic_Course_24 is -0.0787322
+influence of links_51_21 on topic_Person_51 is -0.0119327
 
-gibbs sample time: 0.061801 seconds
-probability of topic_Faculty_28 is 0.421111
+gibbs sample time: 0.005719 seconds
+probability of topic_Person_30 is 0.493
 
-mode equations: influence compute time (equations): 0.000839 seconds
-influence of hasword_gmt_28 on topic_Faculty_28 is -0.0788583
+mode equations: influence compute time (equations): 0.000825 seconds
+influence of hasword_tree_30 on topic_Person_30 is -0.00947619
 
-gibbs sample time: 0.063352 seconds
-probability of topic_Staff_41 is 0.459333
+gibbs sample time: 0.00575 seconds
+probability of topic_Person_38 is 0.331
 
-mode equations: influence compute time (equations): 0.000843 seconds
-influence of hasword_interest_41 on topic_Staff_41 is -0.0385816
+mode equations: influence compute time (equations): 0.00083 seconds
+influence of hasword_data_38 on topic_Person_38 is -0.139634
 
-gibbs sample time: 0.064897 seconds
-probability of topic_Department_56 is 0.598889
+gibbs sample time: 0.006492 seconds
+probability of topic_Department_3 is 0.401
 
-mode equations: influence compute time (equations): 0.000897 seconds
-influence of hasword_includ_56 on topic_Department_56 is 0.0988954
+mode equations: influence compute time (equations): 0.000836 seconds
+influence of hasword_algorithm_3 on topic_Department_3 is -0.0769302
 
-gibbs sample time: 0.063803 seconds
-probability of topic_Faculty_62 is 0.429889
-
-mode equations: influence compute time (equations): 0.000845 seconds
-influence of hasword_length_62 on topic_Faculty_62 is -0.0675463
-
-gibbs sample time: 0.061247 seconds
-probability of topic_ResearchProject_60 is 0.479444
-
-mode equations: influence compute time (equations): 0.000844 seconds
-influence of hasword_mime_60 on topic_ResearchProject_60 is -0.00929816
-
-gibbs sample time: 0.061435 seconds
-probability of topic_Student_53 is 0.494889
-
-mode equations: influence compute time (equations): 0.000846 seconds
-influence of hasword_date_53 on topic_Student_53 is -0.00606254
-
-gibbs sample time: 0.056948 seconds
-probability of topic_Person_28 is 0.509444
-
-mode equations: influence compute time (equations): 0.00085 seconds
-influence of hasword_gmt_28 on topic_Person_28 is -0.00181997
-
-gibbs sample time: 0.061662 seconds
-probability of topic_Student_10 is 0.518556
-
-mode equations: influence compute time (equations): 0.000846 seconds
-influence of hasword_jan_10 on topic_Student_10 is 0.0245693
-
-gibbs sample time: 0.216458 seconds
-probability of topic_Faculty_39 is 0.414778
-
-mode equations: influence compute time (equations): 0.00088 seconds
-influence of links_61_39 on topic_Faculty_39 is 0.00992632
-
-gibbs sample time: 0.194933 seconds
-probability of topic_Course_40 is 0.576667
-
-mode equations: influence compute time (equations): 0.000873 seconds
-influence of links_43_40 on topic_Course_40 is 0.0162991
-
-gibbs sample time: 0.059743 seconds
-probability of topic_Course_28 is 0.431111
-
-mode equations: influence compute time (equations): 0.00084 seconds
-influence of hasword_gmt_28 on topic_Course_28 is -0.0737561
-
-gibbs sample time: 0.064023 seconds
-probability of topic_Faculty_18 is 0.385556
-
-mode equations: influence compute time (equations): 0.000887 seconds
-influence of hasword_html_18 on topic_Faculty_18 is -0.108574
-
-gibbs sample time: 0.06404 seconds
-probability of topic_Course_41 is 0.412667
-
-mode equations: influence compute time (equations): 0.000843 seconds
-influence of hasword_interest_41 on topic_Course_41 is -0.0933991
-
-gibbs sample time: 0.061325 seconds
-probability of topic_ResearchProject_53 is 0.444556
-
-mode equations: influence compute time (equations): 0.000845 seconds
-influence of hasword_date_53 on topic_ResearchProject_53 is -0.056609
-
-gibbs sample time: 0.061683 seconds
-probability of topic_Department_6 is 0.474556
-
-mode equations: influence compute time (equations): 0.000996 seconds
-influence of hasword_date_6 on topic_Department_6 is -0.0198499
-
-gibbs sample time: 0.219848 seconds
-probability of topic_Faculty_33 is 0.461889
-
-mode equations: influence compute time (equations): 0.000886 seconds
-influence of links_33_19 on topic_Faculty_33 is -0.0141853
-
-gibbs sample time: 0.090648 seconds
-probability of topic_Staff_9 is 0.449222
-
-mode equations: influence compute time (equations): 0.000842 seconds
-influence of r4004 on topic_Staff_9 is 0.247422
-
-gibbs sample time: 0.296225 seconds
-probability of topic_Student_59 is 0.421444
-
-mode equations: influence compute time (equations): 0.000899 seconds
-influence of hasword_type_46 on topic_Student_59 is 0.000678541
-
-gibbs sample time: 0.066106 seconds
-probability of topic_Student_56 is 0.324111
+gibbs sample time: 0.005774 seconds
+probability of topic_Staff_34 is 0.485
 
 mode equations: influence compute time (equations): 0.000837 seconds
-influence of hasword_includ_56 on topic_Student_56 is -0.162043
+influence of hasword_man_34 on topic_Staff_34 is -0.00605677
 
-gibbs sample time: 0.062215 seconds
-probability of topic_Department_27 is 0.643111
+gibbs sample time: 0.006116 seconds
+probability of topic_Staff_16 is 0.456
 
-mode equations: influence compute time (equations): 0.000843 seconds
-influence of hasword_jan_27 on topic_Department_27 is 0.1415
+mode equations: influence compute time (equations): 0.000832 seconds
+influence of hasword_gmt_16 on topic_Staff_16 is -0.0519267
 
-gibbs sample time: 0.215241 seconds
-probability of topic_Student_43 is 0.530667
+gibbs sample time: 0.006481 seconds
+probability of topic_Faculty_32 is 0.391
 
-mode equations: influence compute time (equations): 0.00088 seconds
-influence of links_43_40 on topic_Student_43 is -0.0172885
+mode equations: influence compute time (equations): 0.000833 seconds
+influence of hasword_softwar_32 on topic_Faculty_32 is -0.0896961
 
-gibbs sample time: 0.063963 seconds
-probability of topic_Faculty_42 is 0.625222
+gibbs sample time: 0.021951 seconds
+probability of topic_ResearchProject_22 is 0.599
 
-mode equations: influence compute time (equations): 0.00084 seconds
-influence of hasword_scienc_42 on topic_Faculty_42 is 0.124558
+mode equations: influence compute time (equations): 0.000874 seconds
+influence of links_22_35 on topic_ResearchProject_22 is -0.0162077
 
-gibbs sample time: 0.219585 seconds
-probability of topic_Faculty_19 is 0.482222
+gibbs sample time: 0.00574 seconds
+probability of topic_Person_49 is 0.71
 
-mode equations: influence compute time (equations): 0.000973 seconds
-influence of links_33_19 on topic_Faculty_19 is 0.015432
+mode equations: influence compute time (equations): 0.000825 seconds
+influence of hasword_home_49 on topic_Person_49 is 0.173534
 
-gibbs sample time: 0.068679 seconds
-probability of topic_Student_27 is 0.532444
+gibbs sample time: 0.006632 seconds
+probability of topic_Department_50 is 0.495
 
-mode equations: influence compute time (equations): 0.000964 seconds
-influence of hasword_jan_27 on topic_Student_27 is 0.0244996
+mode equations: influence compute time (equations): 0.000829 seconds
+influence of hasword_art_50 on topic_Department_50 is -0.0230796
 
-gibbs sample time: 0.061955 seconds
-probability of topic_Faculty_8 is 0.465111
+gibbs sample time: 0.009496 seconds
+probability of topic_Course_9 is 0.465
 
-mode equations: influence compute time (equations): 0.000841 seconds
-influence of hasword_implement_8 on topic_Faculty_8 is -0.0320099
+mode equations: influence compute time (equations): 0.000895 seconds
+influence of hasword_facil_9 on topic_Course_9 is 0.0187088
 
-gibbs sample time: 0.065069 seconds
-probability of topic_Department_24 is 0.634556
+gibbs sample time: 0.006554 seconds
+probability of topic_Course_42 is 0.515
 
-mode equations: influence compute time (equations): 0.000845 seconds
-influence of hasword_research_24 on topic_Department_24 is 0.1253
+mode equations: influence compute time (equations): 0.00106 seconds
+influence of hasword_scienc_42 on topic_Course_42 is 0.0239014
 
-gibbs sample time: 0.060781 seconds
-probability of topic_Staff_55 is 0.402556
+gibbs sample time: 0.006558 seconds
+probability of topic_Faculty_65 is 0.457
 
-mode equations: influence compute time (equations): 0.000846 seconds
-influence of hasword_modifi_55 on topic_Staff_55 is -0.104712
+mode equations: influence compute time (equations): 0.000925 seconds
+influence of hasword_high_65 on topic_Faculty_65 is -0.0498419
 
-gibbs sample time: 0.205482 seconds
-probability of topic_Person_22 is 0.388667
-
-mode equations: influence compute time (equations): 0.000882 seconds
-influence of links_22_35 on topic_Person_22 is -0.0138712
-
-gibbs sample time: 0.196402 seconds
-probability of topic_Course_33 is 0.553333
-
-mode equations: influence compute time (equations): 0.000892 seconds
-influence of links_33_19 on topic_Course_33 is -0.0193962
-
-gibbs sample time: 0.088247 seconds
-probability of topic_Faculty_9 is 0.477667
-
-mode equations: influence compute time (equations): 0.000842 seconds
-influence of hasword_servic_9 on topic_Faculty_9 is -0.0209486
-
-gibbs sample time: 0.05676 seconds
-probability of topic_Person_7 is 0.500556
-
-mode equations: influence compute time (equations): 0.000837 seconds
-influence of hasword_date_7 on topic_Person_7 is -0.00182062
-
-gibbs sample time: 0.064876 seconds
-probability of topic_ResearchProject_41 is 0.384556
-
-mode equations: influence compute time (equations): 0.000959 seconds
-influence of hasword_interest_41 on topic_ResearchProject_41 is -0.116003
-
-gibbs sample time: 0.063347 seconds
-probability of topic_Staff_29 is 0.555667
-
-mode equations: influence compute time (equations): 0.000845 seconds
-influence of hasword_depart_29 on topic_Staff_29 is 0.0532512
-
-gibbs sample time: 0.195114 seconds
-probability of topic_Course_22 is 0.553333
-
-mode equations: influence compute time (equations): 0.000879 seconds
-influence of links_22_35 on topic_Course_22 is -0.0175156
-
-gibbs sample time: 0.05978 seconds
-probability of topic_Student_7 is 0.492333
-
-mode equations: influence compute time (equations): 0.000844 seconds
-influence of hasword_date_7 on topic_Student_7 is -0.00606175
-
-gibbs sample time: 0.06063 seconds
-probability of topic_Course_45 is 0.504222
-
-mode equations: influence compute time (equations): 0.00099 seconds
-influence of hasword_utexa_45 on topic_Course_45 is -5.73032e-05
-
-gibbs sample time: 0.210983 seconds
-probability of topic_Department_40 is 0.632556
-
-mode equations: influence compute time (equations): 0.000878 seconds
-influence of links_43_40 on topic_Department_40 is 0.0155088
-
-gibbs sample time: 0.066833 seconds
-probability of topic_ResearchProject_55 is 0.476333
-
-mode equations: influence compute time (equations): 0.000841 seconds
-influence of hasword_modifi_55 on topic_ResearchProject_55 is -0.0259388
-
-gibbs sample time: 0.061428 seconds
-probability of topic_ResearchProject_18 is 0.432778
-
-mode equations: influence compute time (equations): 0.000838 seconds
-influence of hasword_html_18 on topic_ResearchProject_18 is -0.0753055
-
-gibbs sample time: 0.061293 seconds
-probability of topic_Person_56 is 0.390111
-
-mode equations: influence compute time (equations): 0.000844 seconds
-influence of hasword_includ_56 on topic_Person_56 is -0.103924
-
-gibbs sample time: 0.216495 seconds
-probability of topic_Faculty_22 is 0.373556
-
-mode equations: influence compute time (equations): 0.000882 seconds
-influence of links_22_35 on topic_Faculty_22 is -0.0161465
-
-gibbs sample time: 0.062013 seconds
-probability of topic_ResearchProject_20 is 0.443556
-
-mode equations: influence compute time (equations): 0.00084 seconds
-influence of hasword_date_20 on topic_ResearchProject_20 is -0.0565834
-
-gibbs sample time: 0.061556 seconds
-probability of topic_Person_55 is 0.487333
-
-mode equations: influence compute time (equations): 0.000853 seconds
-influence of hasword_modifi_55 on topic_Person_55 is -0.0109384
-
-gibbs sample time: 0.223631 seconds
-probability of topic_ResearchProject_35 is 0.555222
-
-mode equations: influence compute time (equations): 0.001151 seconds
-influence of links_22_35 on topic_ResearchProject_35 is 0.0111171
-
-gibbs sample time: 0.227183 seconds
-probability of topic_Student_21 is 0.479444
+gibbs sample time: 0.021073 seconds
+probability of topic_Staff_47 is 0.386
 
 mode equations: influence compute time (equations): 0.000894 seconds
-influence of links_51_21 on topic_Student_21 is 0.0140837
+influence of links_47_12 on topic_Staff_47 is -0.0141466
 
-gibbs sample time: 0.20275 seconds
-probability of topic_Person_39 is 0.447222
+gibbs sample time: 0.006638 seconds
+probability of topic_Faculty_54 is 0.493
 
-mode equations: influence compute time (equations): 0.000882 seconds
-influence of rl on topic_Person_39 is -0.123793
+mode equations: influence compute time (equations): 0.000846 seconds
+influence of hasword_syllabu_54 on topic_Faculty_54 is -0.0138418
 
-gibbs sample time: 0.061425 seconds
-probability of topic_Student_25 is 0.525222
+gibbs sample time: 0.006312 seconds
+probability of topic_Person_64 is 0.488
+
+mode equations: influence compute time (equations): 0.000835 seconds
+influence of hasword_laboratori_64 on topic_Person_64 is -0.00271643
+
+gibbs sample time: 0.005714 seconds
+probability of topic_Staff_48 is 0.447
+
+mode equations: influence compute time (equations): 0.000971 seconds
+influence of hasword_apr_48 on topic_Staff_48 is -0.0399564
+
+gibbs sample time: 0.006264 seconds
+probability of topic_ResearchProject_11 is 0.217
 
 mode equations: influence compute time (equations): 0.000839 seconds
-influence of hasword_jan_25 on topic_Student_25 is 0.0245405
+influence of hasword_dec_11 on topic_ResearchProject_11 is -0.225112
 
-gibbs sample time: 0.056848 seconds
-probability of topic_Staff_27 is 0.572556
+gibbs sample time: 0.006737 seconds
+probability of topic_Student_17 is 0.288
+
+mode equations: influence compute time (equations): 0.000879 seconds
+influence of hasword_materi_17 on topic_Student_17 is -0.174775
+
+gibbs sample time: 0.009487 seconds
+probability of topic_Person_44 is 0.544
+
+mode equations: influence compute time (equations): 0.000905 seconds
+influence of r1714 on topic_Person_44 is 0.248064
+
+gibbs sample time: 0.021763 seconds
+probability of topic_ResearchProject_19 is 0.473
+
+mode equations: influence compute time (equations): 0.000874 seconds
+influence of links_33_19 on topic_ResearchProject_19 is 0.0204327
+
+gibbs sample time: 0.006325 seconds
+probability of topic_Faculty_38 is 0.465
+
+mode equations: influence compute time (equations): 0.000835 seconds
+influence of hasword_data_38 on topic_Faculty_38 is -0.0220539
+
+gibbs sample time: 0.019459 seconds
+probability of topic_Course_51 is 0.467
+
+mode equations: influence compute time (equations): 0.000868 seconds
+influence of links_51_21 on topic_Course_51 is -0.0152111
+
+gibbs sample time: 0.006743 seconds
+probability of topic_Faculty_64 is 0.565
+
+mode equations: influence compute time (equations): 0.000828 seconds
+influence of hasword_laboratori_64 on topic_Faculty_64 is 0.0299327
+
+gibbs sample time: 0.006247 seconds
+probability of topic_Person_31 is 0.483
+
+mode equations: influence compute time (equations): 0.000831 seconds
+influence of hasword_sequenc_31 on topic_Person_31 is -0.0157235
+
+gibbs sample time: 0.006361 seconds
+probability of topic_Staff_37 is 0.455
+
+mode equations: influence compute time (equations): 0.000845 seconds
+influence of hasword_austin_37 on topic_Staff_37 is -0.0277395
+
+gibbs sample time: 0.009764 seconds
+probability of topic_Student_26 is 0.616
+
+mode equations: influence compute time (equations): 0.000845 seconds
+influence of r3459 on topic_Student_26 is 0.236544
+
+gibbs sample time: 0.006385 seconds
+probability of topic_Student_32 is 0.468
+
+mode equations: influence compute time (equations): 0.000835 seconds
+influence of hasword_softwar_32 on topic_Student_32 is -0.0335864
+
+gibbs sample time: 0.006261 seconds
+probability of topic_Person_4 is 0.536
 
 mode equations: influence compute time (equations): 0.00084 seconds
-influence of hasword_jan_27 on topic_Staff_27 is 0.0751593
+influence of hasword_represent_4 on topic_Person_4 is 0.0446386
 
-gibbs sample time: 0.059935 seconds
-probability of topic_Person_25 is 0.509556
-
-mode equations: influence compute time (equations): 0.000859 seconds
-influence of hasword_jan_25 on topic_Person_25 is 0.00596979
-
-gibbs sample time: 0.059554 seconds
-probability of topic_Person_20 is 0.492556
-
-mode equations: influence compute time (equations): 0.000846 seconds
-influence of hasword_date_20 on topic_Person_20 is -0.00182021
-
-gibbs sample time: 0.216928 seconds
-probability of topic_Faculty_35 is 0.603667
-
-mode equations: influence compute time (equations): 0.000887 seconds
-influence of links_22_35 on topic_Faculty_35 is 0.017465
-
-gibbs sample time: 0.057153 seconds
-probability of topic_Staff_28 is 0.451778
+gibbs sample time: 0.006192 seconds
+probability of topic_ResearchProject_28 is 0.447
 
 mode equations: influence compute time (equations): 0.000838 seconds
-influence of hasword_gmt_28 on topic_Staff_28 is -0.0518452
+influence of hasword_gmt_28 on topic_ResearchProject_28 is -0.0566698
 
-gibbs sample time: 0.098181 seconds
-probability of topic_Department_9 is 0.588
+gibbs sample time: 0.005993 seconds
+probability of topic_Person_63 is 0.498
 
-mode equations: influence compute time (equations): 0.000854 seconds
-influence of hasword_facil_9 on topic_Department_9 is 0.0537939
+mode equations: influence compute time (equations): 0.000839 seconds
+influence of hasword_jan_63 on topic_Person_63 is 0.00597188
 
-gibbs sample time: 0.204163 seconds
-probability of topic_Staff_33 is 0.448556
-
-mode equations: influence compute time (equations): 0.000876 seconds
-influence of links_33_19 on topic_Staff_33 is -0.0145756
-
-gibbs sample time: 0.056974 seconds
-probability of topic_Person_65 is 0.531889
-
-mode equations: influence compute time (equations): 0.000838 seconds
-influence of hasword_high_65 on topic_Person_65 is 0.0243287
-
-gibbs sample time: 0.06294 seconds
-probability of topic_Staff_3 is 0.459444
-
-mode equations: influence compute time (equations): 0.000841 seconds
-influence of hasword_algorithm_3 on topic_Staff_3 is -0.0338424
-
-gibbs sample time: 0.061981 seconds
-probability of topic_Faculty_49 is 0.478111
-
-mode equations: influence compute time (equations): 0.000897 seconds
-influence of hasword_home_49 on topic_Faculty_49 is -0.028379
-
-gibbs sample time: 0.060004 seconds
-probability of topic_Person_27 is 0.500444
-
-mode equations: influence compute time (equations): 0.000847 seconds
-influence of hasword_jan_27 on topic_Person_27 is 0.00597197
-
-gibbs sample time: 0.05731 seconds
-probability of topic_Course_25 is 0.459222
-
-mode equations: influence compute time (equations): 0.00085 seconds
-influence of hasword_jan_25 on topic_Course_25 is -0.0233214
-
-gibbs sample time: 0.057569 seconds
-probability of topic_Course_30 is 0.577778
-
-mode equations: influence compute time (equations): 0.000844 seconds
-influence of hasword_tree_30 on topic_Course_30 is 0.075571
-
-gibbs sample time: 0.064378 seconds
-probability of topic_Faculty_29 is 0.664556
-
-mode equations: influence compute time (equations): 0.000854 seconds
-influence of hasword_depart_29 on topic_Faculty_29 is 0.149881
-
-gibbs sample time: 0.099838 seconds
-probability of topic_ResearchProject_47 is 0.409222
-
-mode equations: influence compute time (equations): 0.000855 seconds
-influence of r86 on topic_ResearchProject_47 is 0.241759
-
-gibbs sample time: 0.064016 seconds
-probability of topic_Faculty_41 is 0.691111
-
-mode equations: influence compute time (equations): 0.000851 seconds
-influence of hasword_interest_41 on topic_Faculty_41 is 0.174851
-
-gibbs sample time: 0.095598 seconds
-probability of topic_Faculty_26 is 0.584556
-
-mode equations: influence compute time (equations): 0.000983 seconds
-influence of hasword_specif_26 on topic_Faculty_26 is 0.0994696
-
-gibbs sample time: 0.061026 seconds
-probability of topic_Staff_36 is 0.511444
-
-mode equations: influence compute time (equations): 0.000852 seconds
-influence of hasword_system_36 on topic_Staff_36 is 0.0170123
-
-gibbs sample time: 0.056802 seconds
-probability of topic_Staff_52 is 0.507333
-
-mode equations: influence compute time (equations): 0.000851 seconds
-influence of hasword_test_52 on topic_Staff_52 is 0.0111835
-
-gibbs sample time: 0.05754 seconds
-probability of topic_Person_2 is 0.621333
-
-mode equations: influence compute time (equations): 0.000851 seconds
-influence of hasword_phone_2 on topic_Person_2 is 0.11617
-
-gibbs sample time: 0.064016 seconds
-probability of topic_Student_62 is 0.505667
-
-mode equations: influence compute time (equations): 0.000851 seconds
-influence of hasword_length_62 on topic_Student_62 is 0.00182225
-
-gibbs sample time: 0.060903 seconds
-probability of topic_Course_36 is 0.689111
-
-mode equations: influence compute time (equations): 0.000852 seconds
-influence of hasword_system_36 on topic_Course_36 is 0.168746
-
-gibbs sample time: 0.061578 seconds
-probability of topic_ResearchProject_66 is 0.437111
-
-mode equations: influence compute time (equations): 0.000854 seconds
-influence of hasword_text_66 on topic_ResearchProject_66 is -0.0615602
-
-gibbs sample time: 0.057129 seconds
-probability of topic_Staff_65 is 0.448889
-
-mode equations: influence compute time (equations): 0.000853 seconds
-influence of hasword_high_65 on topic_Staff_65 is -0.056602
-
-gibbs sample time: 0.064467 seconds
-probability of topic_Department_15 is 0.397444
-
-mode equations: influence compute time (equations): 0.000855 seconds
-influence of hasword_modifi_15 on topic_Department_15 is -0.100029
-
-gibbs sample time: 0.064674 seconds
-probability of topic_Department_54 is 0.500556
-
-mode equations: influence compute time (equations): 0.000855 seconds
-influence of hasword_syllabu_54 on topic_Department_54 is -0.00181058
-
-gibbs sample time: 0.255552 seconds
-probability of topic_ResearchProject_59 is 0.497556
-
-mode equations: influence compute time (equations): 0.000887 seconds
-influence of links_59_46 on topic_ResearchProject_59 is -0.0130072
-
-gibbs sample time: 0.19833 seconds
-probability of topic_Staff_40 is 0.550333
-
-mode equations: influence compute time (equations): 0.000884 seconds
-influence of links_43_40 on topic_Staff_40 is 0.015616
-
-gibbs sample time: 0.060695 seconds
-probability of topic_Person_62 is 0.478556
-
-mode equations: influence compute time (equations): 0.000841 seconds
-influence of hasword_length_62 on topic_Person_62 is -0.0175589
-
-gibbs sample time: 0.05705 seconds
-probability of topic_Faculty_1 is 0.526444
-
-mode equations: influence compute time (equations): 0.000846 seconds
-influence of hasword_model_1 on topic_Faculty_1 is 0.0171036
-
-gibbs sample time: 0.064292 seconds
-probability of topic_Student_13 is 0.541889
-
-mode equations: influence compute time (equations): 0.000848 seconds
-influence of hasword_develop_13 on topic_Student_13 is 0.0402731
-
-gibbs sample time: 0.06369 seconds
-probability of topic_Staff_15 is 0.390111
-
-mode equations: influence compute time (equations): 0.00085 seconds
-influence of hasword_modifi_15 on topic_Staff_15 is -0.103588
-
-gibbs sample time: 0.061604 seconds
-probability of topic_ResearchProject_63 is 0.463111
-
-mode equations: influence compute time (equations): 0.000848 seconds
-influence of hasword_jan_63 on topic_ResearchProject_63 is -0.0371673
-
-gibbs sample time: 0.057702 seconds
-probability of topic_Staff_60 is 0.408333
-
-mode equations: influence compute time (equations): 0.000851 seconds
-influence of hasword_mime_60 on topic_Staff_60 is -0.0851872
-
-gibbs sample time: 0.063985 seconds
-probability of topic_Student_28 is 0.489556
-
-mode equations: influence compute time (equations): 0.000854 seconds
-influence of hasword_gmt_28 on topic_Student_28 is -0.00606053
-
-gibbs sample time: 0.057119 seconds
-probability of topic_Person_34 is 0.427333
-
-mode equations: influence compute time (equations): 0.00085 seconds
-influence of hasword_man_34 on topic_Person_34 is -0.0712819
-
-gibbs sample time: 0.063875 seconds
-probability of topic_ResearchProject_29 is 0.381444
-
-mode equations: influence compute time (equations): 0.000851 seconds
-influence of hasword_depart_29 on topic_ResearchProject_29 is -0.108891
-
-gibbs sample time: 0.06088 seconds
-probability of topic_Course_54 is 0.608556
-
-mode equations: influence compute time (equations): 0.00085 seconds
-influence of hasword_syllabu_54 on topic_Course_54 is 0.0950452
-
-gibbs sample time: 0.063693 seconds
-probability of topic_Staff_22 is 0.544111
-
-mode equations: influence compute time (equations): 0.000853 seconds
-influence of hasword_gener_22 on topic_Staff_22 is 0.0519651
-
-gibbs sample time: 0.295717 seconds
-probability of topic_Department_46 is 0.484778
-
-mode equations: influence compute time (equations): 0.000947 seconds
-influence of links_46_59 on topic_Department_46 is -0.0156645
-
-gibbs sample time: 0.056899 seconds
-probability of topic_Staff_7 is 0.447333
-
-mode equations: influence compute time (equations): 0.000857 seconds
-influence of hasword_date_7 on topic_Staff_7 is -0.0517514
-
-gibbs sample time: 0.065222 seconds
-probability of topic_ResearchProject_6 is 0.442333
+gibbs sample time: 0.006422 seconds
+probability of topic_Faculty_14 is 0.634
 
 mode equations: influence compute time (equations): 0.000842 seconds
-influence of hasword_date_6 on topic_ResearchProject_6 is -0.0565514
+influence of hasword_scienc_14 on topic_Faculty_14 is 0.123348
 
-gibbs sample time: 0.06074 seconds
-probability of topic_Course_13 is 0.463778
+gibbs sample time: 0.005725 seconds
+probability of topic_Course_52 is 0.451
 
-mode equations: influence compute time (equations): 0.00085 seconds
-influence of hasword_develop_13 on topic_Course_13 is -0.0407816
+mode equations: influence compute time (equations): 0.000834 seconds
+influence of hasword_test_52 on topic_Course_52 is -0.06463
 
-gibbs sample time: 0.060919 seconds
-probability of topic_Student_3 is 0.423
+gibbs sample time: 0.005715 seconds
+probability of topic_Course_23 is 0.498
 
-mode equations: influence compute time (equations): 0.000851 seconds
-influence of hasword_algorithm_3 on topic_Student_3 is -0.0591743
+mode equations: influence compute time (equations): 0.000837 seconds
+influence of hasword_texa_23 on topic_Course_23 is -0.00219608
 
-gibbs sample time: 0.233706 seconds
-probability of topic_Person_12 is 0.457333
+gibbs sample time: 0.006402 seconds
+probability of topic_Student_15 is 0.488
 
-mode equations: influence compute time (equations): 0.000887 seconds
-influence of links_47_12 on topic_Person_12 is 0.0149298
+mode equations: influence compute time (equations): 0.000842 seconds
+influence of hasword_modifi_15 on topic_Student_15 is 0.00725634
 
-gibbs sample time: 0.066624 seconds
-probability of topic_Student_64 is 0.468333
+gibbs sample time: 0.005731 seconds
+probability of topic_Course_18 is 0.425
 
-mode equations: influence compute time (equations): 0.000841 seconds
-influence of hasword_laboratori_64 on topic_Student_64 is -0.0301264
+mode equations: influence compute time (equations): 0.000834 seconds
+influence of hasword_html_18 on topic_Course_18 is -0.0829741
 
-gibbs sample time: 0.060979 seconds
-probability of topic_Course_55 is 0.431111
+gibbs sample time: 0.005727 seconds
+probability of topic_Staff_58 is 0.569
 
-mode equations: influence compute time (equations): 0.000844 seconds
-influence of hasword_modifi_55 on topic_Course_55 is -0.0602308
+mode equations: influence compute time (equations): 0.000836 seconds
+influence of hasword_jan_58 on topic_Staff_58 is 0.0753139
 
-gibbs sample time: 0.059899 seconds
-probability of topic_Person_50 is 0.591111
+gibbs sample time: 0.006166 seconds
+probability of topic_Student_33 is 0.715
 
-mode equations: influence compute time (equations): 0.000855 seconds
-influence of hasword_art_50 on topic_Person_50 is 0.0836171
+mode equations: influence compute time (equations): 0.000838 seconds
+influence of hasword_home_33 on topic_Student_33 is 0.173653
 
-gibbs sample time: 0.059857 seconds
-probability of topic_Faculty_7 is 0.413444
+gibbs sample time: 0.006231 seconds
+probability of topic_Department_16 is 0.459
 
-mode equations: influence compute time (equations): 0.000849 seconds
-influence of hasword_date_7 on topic_Faculty_7 is -0.078448
+mode equations: influence compute time (equations): 0.000843 seconds
+influence of hasword_gmt_16 on topic_Department_16 is -0.0197677
 
-gibbs sample time: 0.057263 seconds
-probability of topic_Staff_6 is 0.444333
+gibbs sample time: 0.006187 seconds
+probability of topic_ResearchProject_16 is 0.429
 
-mode equations: influence compute time (equations): 0.00087 seconds
-influence of hasword_date_6 on topic_Staff_6 is -0.0516833
+mode equations: influence compute time (equations): 0.000836 seconds
+influence of hasword_gmt_16 on topic_ResearchProject_16 is -0.0561581
 
-gibbs sample time: 0.065191 seconds
-probability of topic_Department_4 is 0.490444
+gibbs sample time: 0.006478 seconds
+probability of topic_Department_32 is 0.358
 
-mode equations: influence compute time (equations): 0.000854 seconds
-influence of hasword_represent_4 on topic_Department_4 is -0.0172305
+mode equations: influence compute time (equations): 0.000839 seconds
+influence of hasword_softwar_32 on topic_Department_32 is -0.11557
 
-gibbs sample time: 0.061232 seconds
-probability of topic_Faculty_30 is 0.522111
+gibbs sample time: 0.00575 seconds
+probability of topic_Course_63 is 0.489
 
-mode equations: influence compute time (equations): 0.000852 seconds
-influence of hasword_tree_30 on topic_Faculty_30 is 0.0190077
+mode equations: influence compute time (equations): 0.000843 seconds
+influence of hasword_jan_63 on topic_Course_63 is -0.0234662
 
-gibbs sample time: 0.294693 seconds
-probability of topic_Student_46 is 0.493333
+gibbs sample time: 0.006134 seconds
+probability of topic_Course_57 is 0.512
 
-mode equations: influence compute time (equations): 0.000898 seconds
-influence of hasword_type_46 on topic_Student_46 is -0.0124583
+mode equations: influence compute time (equations): 0.00084 seconds
+influence of hasword_separ_57 on topic_Course_57 is 0.0274619
 
-gibbs sample time: 0.215562 seconds
-probability of topic_ResearchProject_33 is 0.295556
+gibbs sample time: 0.00627 seconds
+probability of topic_Department_11 is 0.363
+
+mode equations: influence compute time (equations): 0.000838 seconds
+influence of hasword_dec_11 on topic_Department_11 is -0.114386
+
+gibbs sample time: 0.006161 seconds
+probability of topic_Student_23 is 0.542
+
+mode equations: influence compute time (equations): 0.000846 seconds
+influence of hasword_texa_23 on topic_Student_23 is 0.027759
+
+gibbs sample time: 0.023658 seconds
+probability of topic_Person_47 is 0.47
+
+mode equations: influence compute time (equations): 0.000875 seconds
+influence of links_47_12 on topic_Person_47 is -0.0122619
+
+gibbs sample time: 0.006213 seconds
+probability of topic_Faculty_25 is 0.483
+
+mode equations: influence compute time (equations): 0.000828 seconds
+influence of hasword_jan_25 on topic_Faculty_25 is -0.0101737
+
+gibbs sample time: 0.025605 seconds
+probability of topic_Department_12 is 0.481
 
 mode equations: influence compute time (equations): 0.000885 seconds
-influence of links_33_19 on topic_ResearchProject_33 is -0.0122425
+influence of rl on topic_Department_12 is -0.171565
 
-gibbs sample time: 0.056881 seconds
-probability of topic_Course_2 is 0.463556
+gibbs sample time: 0.006011 seconds
+probability of topic_Person_53 is 0.504
 
-mode equations: influence compute time (equations): 0.000842 seconds
-influence of hasword_phone_2 on topic_Course_2 is -0.034918
+mode equations: influence compute time (equations): 0.00083 seconds
+influence of hasword_date_53 on topic_Person_53 is -0.0018205
 
-gibbs sample time: 0.064258 seconds
-probability of topic_Student_45 is 0.499222
+gibbs sample time: 0.006311 seconds
+probability of topic_Student_58 is 0.516
 
-mode equations: influence compute time (equations): 0.000845 seconds
-influence of hasword_utexa_45 on topic_Student_45 is -0.00400924
+mode equations: influence compute time (equations): 0.00083 seconds
+influence of hasword_jan_58 on topic_Student_58 is 0.024578
 
-gibbs sample time: 0.06414 seconds
-probability of topic_ResearchProject_57 is 0.489556
-
-mode equations: influence compute time (equations): 0.000851 seconds
-influence of hasword_separ_57 on topic_ResearchProject_57 is -0.010975
-
-gibbs sample time: 0.060888 seconds
-probability of topic_Person_29 is 0.623778
-
-mode equations: influence compute time (equations): 0.000861 seconds
-influence of hasword_depart_29 on topic_Person_29 is 0.110545
-
-gibbs sample time: 0.089539 seconds
-probability of topic_Person_9 is 0.372111
-
-mode equations: influence compute time (equations): 0.000853 seconds
-influence of hasword_servic_9 on topic_Person_9 is -0.0404032
-
-gibbs sample time: 0.067122 seconds
-probability of topic_ResearchProject_31 is 0.489556
+gibbs sample time: 0.019261 seconds
+probability of topic_Staff_51 is 0.582
 
 mode equations: influence compute time (equations): 0.000868 seconds
-influence of hasword_sequenc_31 on topic_ResearchProject_31 is -0.00497353
+influence of links_51_21 on topic_Staff_51 is -0.0144812
 
-gibbs sample time: 0.056833 seconds
-probability of topic_Person_6 is 0.501556
+gibbs sample time: 0.00626 seconds
+probability of topic_Department_48 is 0.417
 
-mode equations: influence compute time (equations): 0.000855 seconds
-influence of hasword_date_6 on topic_Person_6 is -0.0018206
+mode equations: influence compute time (equations): 0.000827 seconds
+influence of hasword_apr_48 on topic_Department_48 is -0.0929457
 
-gibbs sample time: 0.060575 seconds
-probability of topic_Staff_62 is 0.389556
-
-mode equations: influence compute time (equations): 0.000856 seconds
-influence of hasword_length_62 on topic_Staff_62 is -0.107119
-
-gibbs sample time: 0.194539 seconds
-probability of topic_Course_35 is 0.623778
-
-mode equations: influence compute time (equations): 0.000883 seconds
-influence of links_22_35 on topic_Course_35 is 0.0122625
-
-gibbs sample time: 0.0637 seconds
-probability of topic_Faculty_17 is 0.437111
-
-mode equations: influence compute time (equations): 0.000853 seconds
-influence of hasword_materi_17 on topic_Faculty_17 is -0.053192
-
-gibbs sample time: 0.063911 seconds
-probability of topic_Student_22 is 0.439778
-
-mode equations: influence compute time (equations): 0.000933 seconds
-influence of hasword_gener_22 on topic_Student_22 is -0.0641906
-
-gibbs sample time: 0.267015 seconds
-probability of topic_Staff_59 is 0.496222
-
-mode equations: influence compute time (equations): 0.00089 seconds
-influence of links_59_46 on topic_Staff_59 is -0.0128792
-
-gibbs sample time: 0.267408 seconds
-probability of topic_Staff_46 is 0.433667
-
-mode equations: influence compute time (equations): 0.000891 seconds
-influence of links_59_46 on topic_Staff_46 is 0.0144702
-
-gibbs sample time: 0.061372 seconds
-probability of topic_Student_60 is 0.526778
-
-mode equations: influence compute time (equations): 0.000846 seconds
-influence of hasword_mime_60 on topic_Student_60 is 0.0268243
-
-gibbs sample time: 0.211544 seconds
-probability of topic_Faculty_51 is 0.48
-
-mode equations: influence compute time (equations): 0.000889 seconds
-influence of links_51_21 on topic_Faculty_51 is -0.014315
-
-gibbs sample time: 0.060801 seconds
-probability of topic_Person_45 is 0.491333
-
-mode equations: influence compute time (equations): 0.000842 seconds
-influence of hasword_utexa_45 on topic_Person_45 is -0.0116045
-
-gibbs sample time: 0.06385 seconds
-probability of topic_ResearchProject_56 is 0.546444
-
-mode equations: influence compute time (equations): 0.000847 seconds
-influence of hasword_includ_56 on topic_ResearchProject_56 is 0.0433403
-
-gibbs sample time: 0.060814 seconds
-probability of topic_Course_29 is 0.484778
-
-mode equations: influence compute time (equations): 0.000854 seconds
-influence of hasword_depart_29 on topic_Course_29 is -0.0123189
-
-gibbs sample time: 0.063823 seconds
-probability of topic_Student_36 is 0.570667
-
-mode equations: influence compute time (equations): 0.000856 seconds
-influence of hasword_system_36 on topic_Student_36 is 0.0697467
-
-gibbs sample time: 0.06364 seconds
-probability of topic_Faculty_55 is 0.437222
-
-mode equations: influence compute time (equations): 0.000848 seconds
-influence of hasword_modifi_55 on topic_Faculty_55 is -0.0695338
-
-gibbs sample time: 0.064641 seconds
-probability of topic_Department_31 is 0.485111
-
-mode equations: influence compute time (equations): 0.000848 seconds
-influence of hasword_sequenc_31 on topic_Department_31 is -0.0219501
-
-gibbs sample time: 0.064543 seconds
-probability of topic_Department_62 is 0.474778
-
-mode equations: influence compute time (equations): 0.000855 seconds
-influence of hasword_length_62 on topic_Department_62 is -0.0178593
-
-gibbs sample time: 0.297223 seconds
-probability of topic_Department_59 is 0.525778
+gibbs sample time: 0.0197 seconds
+probability of topic_Department_39 is 0.396
 
 mode equations: influence compute time (equations): 0.000912 seconds
-influence of links_46_59 on topic_Department_59 is 0.015132
+influence of links_61_39 on topic_Department_39 is 0.0145943
 
-gibbs sample time: 0.199541 seconds
-probability of topic_Staff_61 is 0.507111
+gibbs sample time: 0.006865 seconds
+probability of topic_Faculty_50 is 0.504
 
-mode equations: influence compute time (equations): 0.000885 seconds
-influence of rl on topic_Staff_61 is 0.176096
+mode equations: influence compute time (equations): 0.000914 seconds
+influence of hasword_art_50 on topic_Faculty_50 is 0.0183527
 
-gibbs sample time: 0.06136 seconds
-probability of topic_Faculty_48 is 0.421333
+gibbs sample time: 0.006281 seconds
+probability of topic_Student_1 is 0.478
 
-mode equations: influence compute time (equations): 0.000845 seconds
-influence of hasword_apr_48 on topic_Faculty_48 is -0.0811856
+mode equations: influence compute time (equations): 0.000915 seconds
+influence of hasword_model_1 on topic_Student_1 is -0.0318233
 
-gibbs sample time: 0.061531 seconds
-probability of topic_ResearchProject_58 is 0.460222
+gibbs sample time: 0.020115 seconds
+probability of topic_Department_61 is 0.509
 
-mode equations: influence compute time (equations): 0.000845 seconds
-influence of hasword_jan_58 on topic_ResearchProject_58 is -0.0371342
+mode equations: influence compute time (equations): 0.000943 seconds
+influence of links_61_39 on topic_Department_61 is -0.0110587
 
-gibbs sample time: 0.057011 seconds
-probability of topic_Staff_53 is 0.449778
+gibbs sample time: 0.021383 seconds
+probability of topic_Course_43 is 0.406
 
-mode equations: influence compute time (equations): 0.000848 seconds
-influence of hasword_date_53 on topic_Staff_53 is -0.051804
+mode equations: influence compute time (equations): 0.000999 seconds
+influence of links_43_40 on topic_Course_43 is -0.0156932
 
-gibbs sample time: 0.062245 seconds
-probability of topic_Department_52 is 0.453556
+gibbs sample time: 0.006277 seconds
+probability of topic_Department_65 is 0.43
 
-mode equations: influence compute time (equations): 0.000852 seconds
-influence of hasword_test_52 on topic_Department_52 is -0.047312
+mode equations: influence compute time (equations): 0.000828 seconds
+influence of hasword_high_65 on topic_Department_65 is -0.089336
 
-gibbs sample time: 0.061751 seconds
-probability of topic_ResearchProject_48 is 0.376889
+gibbs sample time: 0.005806 seconds
+probability of topic_Course_10 is 0.495
 
-mode equations: influence compute time (equations): 0.00085 seconds
-influence of hasword_apr_48 on topic_ResearchProject_48 is -0.120111
+mode equations: influence compute time (equations): 0.000833 seconds
+influence of hasword_jan_10 on topic_Course_10 is -0.0234752
 
-gibbs sample time: 0.061228 seconds
-probability of topic_Faculty_63 is 0.501444
-
-mode equations: influence compute time (equations): 0.000848 seconds
-influence of hasword_jan_63 on topic_Faculty_63 is -0.0101853
-
-gibbs sample time: 0.061371 seconds
-probability of topic_ResearchProject_10 is 0.466889
-
-mode equations: influence compute time (equations): 0.000864 seconds
-influence of hasword_jan_10 on topic_ResearchProject_10 is -0.0372069
-
-gibbs sample time: 0.064859 seconds
-probability of topic_Department_2 is 0.497222
-
-mode equations: influence compute time (equations): 0.000861 seconds
-influence of hasword_phone_2 on topic_Department_2 is -0.00747747
-
-gibbs sample time: 0.061384 seconds
-probability of topic_Student_34 is 0.439889
-
-mode equations: influence compute time (equations): 0.000852 seconds
-influence of hasword_man_34 on topic_Student_34 is -0.0608255
-
-gibbs sample time: 0.215429 seconds
-probability of topic_ResearchProject_40 is 0.404889
-
-mode equations: influence compute time (equations): 0.000888 seconds
-influence of links_43_40 on topic_ResearchProject_40 is 0.0149028
-
-gibbs sample time: 0.057272 seconds
-probability of topic_Course_16 is 0.424556
+gibbs sample time: 0.005757 seconds
+probability of topic_Person_16 is 0.516
 
 mode equations: influence compute time (equations): 0.000842 seconds
-influence of hasword_gmt_16 on topic_Course_16 is -0.0734715
+influence of hasword_gmt_16 on topic_Person_16 is -0.00181875
 
-gibbs sample time: 0.061354 seconds
-probability of topic_Student_66 is 0.483889
-
-mode equations: influence compute time (equations): 0.000845 seconds
-influence of hasword_text_66 on topic_Student_66 is -0.0122198
-
-gibbs sample time: 0.061244 seconds
-probability of topic_Faculty_60 is 0.437
-
-mode equations: influence compute time (equations): 0.000858 seconds
-influence of hasword_mime_60 on topic_Faculty_60 is -0.0671431
-
-gibbs sample time: 0.061493 seconds
-probability of topic_Student_38 is 0.378889
-
-mode equations: influence compute time (equations): 0.000866 seconds
-influence of hasword_data_38 on topic_Student_38 is -0.114507
-
-gibbs sample time: 0.200545 seconds
-probability of topic_Staff_12 is 0.501556
-
-mode equations: influence compute time (equations): 0.000884 seconds
-influence of links_47_12 on topic_Staff_12 is 0.0173378
-
-gibbs sample time: 0.088713 seconds
-probability of topic_Staff_44 is 0.450111
-
-mode equations: influence compute time (equations): 0.000866 seconds
-influence of hasword_formal_44 on topic_Staff_44 is -0.00932164
-
-gibbs sample time: 0.06113 seconds
-probability of topic_Faculty_53 is 0.414667
-
-mode equations: influence compute time (equations): 0.000845 seconds
-influence of hasword_date_53 on topic_Faculty_53 is -0.0785159
-
-gibbs sample time: 0.061781 seconds
-probability of topic_ResearchProject_65 is 0.530444
-
-mode equations: influence compute time (equations): 0.000851 seconds
-influence of hasword_high_65 on topic_ResearchProject_65 is 0.029089
-
-gibbs sample time: 0.061323 seconds
-probability of topic_ResearchProject_25 is 0.457111
-
-mode equations: influence compute time (equations): 0.000852 seconds
-influence of hasword_jan_25 on topic_ResearchProject_25 is -0.0370958
-
-gibbs sample time: 0.061318 seconds
-probability of topic_Faculty_11 is 0.306778
-
-mode equations: influence compute time (equations): 0.000864 seconds
-influence of hasword_dec_11 on topic_Faculty_11 is -0.167771
-
-gibbs sample time: 0.057213 seconds
-probability of topic_Staff_49 is 0.462556
-
-mode equations: influence compute time (equations): 0.000924 seconds
-influence of hasword_home_49 on topic_Staff_49 is -0.0370692
-
-gibbs sample time: 0.211497 seconds
-probability of topic_ResearchProject_21 is 0.542667
-
-mode equations: influence compute time (equations): 0.000888 seconds
-influence of links_51_21 on topic_ResearchProject_21 is 0.015649
-
-gibbs sample time: 0.211212 seconds
-probability of topic_Faculty_21 is 0.494556
-
-mode equations: influence compute time (equations): 0.000886 seconds
-influence of links_51_21 on topic_Faculty_21 is 0.0151563
-
-gibbs sample time: 0.05687 seconds
-probability of topic_Course_11 is 0.302222
-
-mode equations: influence compute time (equations): 0.000843 seconds
-influence of hasword_dec_11 on topic_Course_11 is -0.167363
-
-gibbs sample time: 0.093941 seconds
-probability of topic_Student_44 is 0.501556
-
-mode equations: influence compute time (equations): 0.000848 seconds
-influence of r1159 on topic_Student_44 is 0.249998
-
-gibbs sample time: 0.057158 seconds
-probability of topic_Course_50 is 0.424667
-
-mode equations: influence compute time (equations): 0.000851 seconds
-influence of hasword_art_50 on topic_Course_50 is -0.0716346
-
-gibbs sample time: 0.067683 seconds
-probability of topic_Department_29 is 0.690889
-
-mode equations: influence compute time (equations): 0.000853 seconds
-influence of hasword_depart_29 on topic_Department_29 is 0.1734
-
-gibbs sample time: 0.059551 seconds
-probability of topic_Staff_11 is 0.290222
-
-mode equations: influence compute time (equations): 0.000849 seconds
-influence of hasword_dec_11 on topic_Staff_11 is -0.194485
-
-gibbs sample time: 0.061562 seconds
-probability of topic_Faculty_34 is 0.491
-
-mode equations: influence compute time (equations): 0.000851 seconds
-influence of hasword_man_34 on topic_Faculty_34 is -0.0119592
-
-gibbs sample time: 0.232287 seconds
-probability of topic_Course_47 is 0.748556
-
-mode equations: influence compute time (equations): 0.001006 seconds
-influence of links_47_12 on topic_Course_47 is -0.013208
-
-gibbs sample time: 0.057212 seconds
-probability of topic_Course_60 is 0.406889
-
-mode equations: influence compute time (equations): 0.000843 seconds
-influence of hasword_mime_60 on topic_Course_60 is -0.0866446
-
-gibbs sample time: 0.05695 seconds
-probability of topic_Course_38 is 0.408667
-
-mode equations: influence compute time (equations): 0.000939 seconds
-influence of hasword_data_38 on topic_Course_38 is -0.0881499
-
-gibbs sample time: 0.059461 seconds
-probability of topic_Person_66 is 0.485778
-
-mode equations: influence compute time (equations): 0.000902 seconds
-influence of hasword_text_66 on topic_Person_66 is -0.0137507
-
-gibbs sample time: 0.063874 seconds
-probability of topic_ResearchProject_64 is 0.471333
-
-mode equations: influence compute time (equations): 0.000857 seconds
-influence of hasword_laboratori_64 on topic_ResearchProject_64 is -0.0296946
-
-gibbs sample time: 0.212403 seconds
-probability of topic_Faculty_40 is 0.587778
-
-mode equations: influence compute time (equations): 0.000891 seconds
-influence of links_43_40 on topic_Faculty_40 is 0.0149675
-
-gibbs sample time: 0.05725 seconds
-probability of topic_Staff_20 is 0.453556
-
-mode equations: influence compute time (equations): 0.000844 seconds
-influence of hasword_date_20 on topic_Staff_20 is -0.0518805
-
-gibbs sample time: 0.06206 seconds
-probability of topic_Department_58 is 0.642222
-
-mode equations: influence compute time (equations): 0.000845 seconds
-influence of hasword_jan_58 on topic_Department_58 is 0.141656
-
-gibbs sample time: 0.060998 seconds
-probability of topic_Faculty_16 is 0.413
-
-mode equations: influence compute time (equations): 0.000907 seconds
-influence of hasword_gmt_16 on topic_Faculty_16 is -0.078423
-
-gibbs sample time: 0.064716 seconds
-probability of topic_Faculty_66 is 0.401889
-
-mode equations: influence compute time (equations): 0.000854 seconds
-influence of hasword_text_66 on topic_Faculty_66 is -0.0956807
-
-gibbs sample time: 0.061966 seconds
-probability of topic_ResearchProject_52 is 0.475667
-
-mode equations: influence compute time (equations): 0.000852 seconds
-influence of hasword_test_52 on topic_ResearchProject_52 is -0.0234939
-
-gibbs sample time: 0.063283 seconds
-probability of topic_Staff_13 is 0.461111
-
-mode equations: influence compute time (equations): 0.000851 seconds
-influence of hasword_develop_13 on topic_Staff_13 is -0.0422735
-
-gibbs sample time: 0.066335 seconds
-probability of topic_Department_36 is 0.366778
-
-mode equations: influence compute time (equations): 0.000854 seconds
-influence of hasword_system_36 on topic_Department_36 is -0.122522
-
-gibbs sample time: 0.061272 seconds
-probability of topic_Student_63 is 0.525
-
-mode equations: influence compute time (equations): 0.00086 seconds
-influence of hasword_jan_63 on topic_Student_63 is 0.0245416
-
-gibbs sample time: 0.056762 seconds
-probability of topic_Course_5 is 0.422333
-
-mode equations: influence compute time (equations): 0.000856 seconds
-influence of hasword_html_5 on topic_Course_5 is -0.0828359
-
-gibbs sample time: 0.062199 seconds
-probability of topic_Department_18 is 0.474222
-
-mode equations: influence compute time (equations): 0.000852 seconds
-influence of hasword_html_18 on topic_Department_18 is -0.0186948
-
-gibbs sample time: 0.06263 seconds
-probability of topic_ResearchProject_2 is 0.427111
-
-mode equations: influence compute time (equations): 0.000868 seconds
-influence of hasword_phone_2 on topic_ResearchProject_2 is -0.0614706
-
-gibbs sample time: 0.056905 seconds
-probability of topic_Staff_25 is 0.578778
-
-mode equations: influence compute time (equations): 0.000854 seconds
-influence of hasword_jan_25 on topic_Staff_25 is 0.0748701
-
-gibbs sample time: 0.095744 seconds
-probability of topic_Department_44 is 0.377889
-
-mode equations: influence compute time (equations): 0.00086 seconds
-influence of hasword_formal_44 on topic_Department_44 is -0.00572463
-
-gibbs sample time: 0.064112 seconds
-probability of topic_Student_29 is 0.535
-
-mode equations: influence compute time (equations): 0.000884 seconds
-influence of hasword_depart_29 on topic_Student_29 is 0.0385119
-
-gibbs sample time: 0.060997 seconds
-probability of topic_Person_54 is 0.387333
-
-mode equations: influence compute time (equations): 0.000855 seconds
-influence of hasword_syllabu_54 on topic_Person_54 is -0.122169
-
-gibbs sample time: 0.061733 seconds
-probability of topic_Faculty_20 is 0.419444
-
-mode equations: influence compute time (equations): 0.000856 seconds
-influence of hasword_date_20 on topic_Faculty_20 is -0.0787723
-
-gibbs sample time: 0.060427 seconds
-probability of topic_Staff_56 is 0.508
-
-mode equations: influence compute time (equations): 0.000858 seconds
-influence of hasword_includ_56 on topic_Staff_56 is 0.00523129
-
-gibbs sample time: 0.057068 seconds
-probability of topic_Course_58 is 0.479222
-
-mode equations: influence compute time (equations): 0.000856 seconds
-influence of hasword_jan_58 on topic_Course_58 is -0.023437
-
-gibbs sample time: 0.061252 seconds
-probability of topic_Faculty_23 is 0.475667
-
-mode equations: influence compute time (equations): 0.000861 seconds
-influence of hasword_texa_23 on topic_Faculty_23 is -0.0212751
-
-gibbs sample time: 0.215923 seconds
-probability of topic_ResearchProject_43 is 0.451
-
-mode equations: influence compute time (equations): 0.000901 seconds
-influence of links_43_40 on topic_ResearchProject_43 is -0.0113568
-
-gibbs sample time: 0.202042 seconds
-probability of topic_Person_33 is 0.691111
-
-mode equations: influence compute time (equations): 0.000886 seconds
-influence of links_33_19 on topic_Person_33 is -0.00955758
-
-gibbs sample time: 0.057161 seconds
-probability of topic_Staff_5 is 0.419889
-
-mode equations: influence compute time (equations): 0.000846 seconds
-influence of hasword_html_5 on topic_Staff_5 is -0.0752484
-
-gibbs sample time: 0.201978 seconds
-probability of topic_Person_19 is 0.378222
-
-mode equations: influence compute time (equations): 0.000883 seconds
-influence of links_33_19 on topic_Person_19 is 0.00854674
-
-gibbs sample time: 0.063396 seconds
-probability of topic_Person_42 is 0.658222
-
-mode equations: influence compute time (equations): 0.000842 seconds
-influence of hasword_scienc_42 on topic_Person_42 is 0.151092
-
-gibbs sample time: 0.064372 seconds
-probability of topic_Faculty_13 is 0.543111
-
-mode equations: influence compute time (equations): 0.000847 seconds
-influence of hasword_develop_13 on topic_Faculty_13 is 0.0458995
-
-gibbs sample time: 0.060642 seconds
-probability of topic_Course_32 is 0.412333
-
-mode equations: influence compute time (equations): 0.000856 seconds
-influence of hasword_softwar_32 on topic_Course_32 is -0.0726743
-
-gibbs sample time: 0.065573 seconds
-probability of topic_Department_49 is 0.639222
-
-mode equations: influence compute time (equations): 0.000854 seconds
-influence of hasword_home_49 on topic_Department_49 is 0.136112
-
-gibbs sample time: 0.093762 seconds
-probability of topic_ResearchProject_44 is 0.496111
-
-mode equations: influence compute time (equations): 0.000855 seconds
-influence of hasword_formal_44 on topic_ResearchProject_44 is -0.0398693
-
-gibbs sample time: 0.061094 seconds
-probability of topic_Person_14 is 0.654778
-
-mode equations: influence compute time (equations): 0.000864 seconds
-influence of hasword_scienc_14 on topic_Person_14 is 0.151816
-
-gibbs sample time: 0.064823 seconds
-probability of topic_ResearchProject_42 is 0.500333
-
-mode equations: influence compute time (equations): 0.000856 seconds
-influence of hasword_scienc_42 on topic_ResearchProject_42 is 0.0104427
-
-gibbs sample time: 0.06077 seconds
-probability of topic_Staff_4 is 0.478333
-
-mode equations: influence compute time (equations): 0.000854 seconds
-influence of hasword_represent_4 on topic_Staff_4 is -0.0315923
-
-gibbs sample time: 0.060778 seconds
-probability of topic_Course_15 is 0.428222
-
-mode equations: influence compute time (equations): 0.000854 seconds
-influence of hasword_modifi_15 on topic_Course_15 is -0.060131
-
-gibbs sample time: 0.063367 seconds
-probability of topic_Staff_64 is 0.509333
-
-mode equations: influence compute time (equations): 0.000852 seconds
-influence of hasword_laboratori_64 on topic_Staff_64 is 0.00399051
-
-gibbs sample time: 0.059558 seconds
-probability of topic_Faculty_5 is 0.387778
-
-mode equations: influence compute time (equations): 0.000935 seconds
-influence of hasword_html_5 on topic_Faculty_5 is -0.108805
-
-gibbs sample time: 0.064136 seconds
-probability of topic_ResearchProject_14 is 0.51
-
-mode equations: influence compute time (equations): 0.000856 seconds
-influence of hasword_scienc_14 on topic_ResearchProject_14 is 0.0104385
-
-gibbs sample time: 0.064648 seconds
-probability of topic_Department_41 is 0.421333
-
-mode equations: influence compute time (equations): 0.000855 seconds
-influence of hasword_interest_41 on topic_Department_41 is -0.0744088
-
-gibbs sample time: 0.064441 seconds
-probability of topic_Department_8 is 0.481667
-
-mode equations: influence compute time (equations): 0.000855 seconds
-influence of hasword_implement_8 on topic_Department_8 is -0.022249
-
-gibbs sample time: 0.064761 seconds
-probability of topic_Department_63 is 0.645
-
-mode equations: influence compute time (equations): 0.000856 seconds
-influence of hasword_jan_63 on topic_Department_63 is 0.141164
-
-gibbs sample time: 0.227264 seconds
-probability of topic_Student_39 is 0.313556
-
-mode equations: influence compute time (equations): 0.000891 seconds
-influence of links_61_39 on topic_Student_39 is 0.0145877
-
-gibbs sample time: 0.213267 seconds
-probability of topic_Student_51 is 0.507333
-
-mode equations: influence compute time (equations): 0.000889 seconds
-influence of links_51_21 on topic_Student_51 is -0.0137666
-
-gibbs sample time: 0.060898 seconds
-probability of topic_Student_4 is 0.537667
-
-mode equations: influence compute time (equations): 0.000845 seconds
-influence of hasword_represent_4 on topic_Student_4 is 0.0338814
-
-gibbs sample time: 0.057276 seconds
-probability of topic_Staff_38 is 0.461
-
-mode equations: influence compute time (equations): 0.000845 seconds
-influence of hasword_data_38 on topic_Staff_38 is -0.0426842
-
-gibbs sample time: 0.061739 seconds
-probability of topic_ResearchProject_50 is 0.487889
-
-mode equations: influence compute time (equations): 0.000855 seconds
-influence of hasword_art_50 on topic_ResearchProject_50 is -0.0178143
-
-gibbs sample time: 0.221688 seconds
-probability of topic_Department_51 is 0.631333
-
-mode equations: influence compute time (equations): 0.000891 seconds
-influence of links_51_21 on topic_Department_51 is -0.0123988
-
-gibbs sample time: 0.057498 seconds
-probability of topic_Course_27 is 0.475778
-
-mode equations: influence compute time (equations): 0.000844 seconds
-influence of hasword_jan_27 on topic_Course_27 is -0.0234225
-
-gibbs sample time: 0.056587 seconds
-probability of topic_Person_11 is 0.0616667
-
-mode equations: influence compute time (equations): 0.000845 seconds
-influence of hasword_dec_11 on topic_Person_11 is -0.162487
-
-gibbs sample time: 0.057296 seconds
-probability of topic_Course_48 is 0.523444
-
-mode equations: influence compute time (equations): 0.000853 seconds
-influence of hasword_apr_48 on topic_Course_48 is 0.0195559
-
-gibbs sample time: 0.09871 seconds
-probability of topic_ResearchProject_9 is 0.36
-
-mode equations: influence compute time (equations): 0.000862 seconds
-influence of hasword_servic_9 on topic_ResearchProject_9 is -0.0958713
-
-gibbs sample time: 0.05964 seconds
-probability of topic_Course_49 is 0.575333
-
-mode equations: influence compute time (equations): 0.000849 seconds
-influence of hasword_home_49 on topic_Course_49 is 0.0764969
-
-gibbs sample time: 0.065238 seconds
-probability of topic_Department_25 is 0.646222
-
-mode equations: influence compute time (equations): 0.000859 seconds
-influence of hasword_jan_25 on topic_Department_25 is 0.140945
-
-gibbs sample time: 0.193003 seconds
-probability of topic_Person_43 is 0.488889
-
-mode equations: influence compute time (equations): 0.000888 seconds
-influence of links_43_40 on topic_Person_43 is -0.0184306
-
-gibbs sample time: 0.065107 seconds
-probability of topic_Department_28 is 0.480444
-
-mode equations: influence compute time (equations): 0.000846 seconds
-influence of hasword_gmt_28 on topic_Department_28 is -0.019871
-
-gibbs sample time: 0.064562 seconds
-probability of topic_Department_42 is 0.417111
-
-mode equations: influence compute time (equations): 0.000851 seconds
-influence of hasword_scienc_42 on topic_Department_42 is -0.0864563
-
-gibbs sample time: 0.248273 seconds
-probability of topic_Student_12 is 0.495111
-
-mode equations: influence compute time (equations): 0.000899 seconds
-influence of links_47_12 on topic_Student_12 is 0.0156176
-
-gibbs sample time: 0.063809 seconds
-probability of topic_ResearchProject_62 is 0.473778
-
-mode equations: influence compute time (equations): 0.000847 seconds
-influence of hasword_length_62 on topic_ResearchProject_62 is -0.0289641
-
-gibbs sample time: 0.06089 seconds
-probability of topic_Course_17 is 0.760889
-
-mode equations: influence compute time (equations): 0.000845 seconds
-influence of hasword_materi_17 on topic_Course_17 is 0.209655
-
-gibbs sample time: 0.064379 seconds
-probability of topic_Faculty_31 is 0.543111
-
-mode equations: influence compute time (equations): 0.000857 seconds
-influence of hasword_sequenc_31 on topic_Faculty_31 is 0.0477814
-
-gibbs sample time: 0.06058 seconds
-probability of topic_Staff_8 is 0.552333
-
-mode equations: influence compute time (equations): 0.000963 seconds
-influence of hasword_implement_8 on topic_Staff_8 is 0.0546356
-
-gibbs sample time: 0.062905 seconds
-probability of topic_ResearchProject_7 is 0.447889
-
-mode equations: influence compute time (equations): 0.000851 seconds
-influence of hasword_date_7 on topic_ResearchProject_7 is -0.0566912
-
-gibbs sample time: 0.064344 seconds
-probability of topic_ResearchProject_37 is 0.490333
-
-mode equations: influence compute time (equations): 0.000853 seconds
-influence of hasword_austin_37 on topic_ResearchProject_37 is -0.00636874
-
-gibbs sample time: 0.05698 seconds
-probability of topic_Student_2 is 0.424222
-
-mode equations: influence compute time (equations): 0.000867 seconds
-influence of hasword_phone_2 on topic_Student_2 is -0.0737734
-
-gibbs sample time: 0.061689 seconds
-probability of topic_Student_65 is 0.544333
-
-mode equations: influence compute time (equations): 0.000855 seconds
-influence of hasword_high_65 on topic_Student_65 is 0.0414295
-
-gibbs sample time: 0.061195 seconds
-probability of topic_Person_24 is 0.495
-
-mode equations: influence compute time (equations): 0.000856 seconds
-influence of hasword_research_24 on topic_Person_24 is -0.0117996
-
-gibbs sample time: 0.061571 seconds
-probability of topic_Faculty_10 is 0.483111
-
-mode equations: influence compute time (equations): 0.000855 seconds
-influence of hasword_jan_10 on topic_Faculty_10 is -0.0101738
-
-gibbs sample time: 0.061577 seconds
-probability of topic_ResearchProject_38 is 0.541222
-
-mode equations: influence compute time (equations): 0.000933 seconds
-influence of hasword_data_38 on topic_ResearchProject_38 is 0.0412666
-
-gibbs sample time: 0.215737 seconds
-probability of topic_Department_22 is 0.722444
-
-mode equations: influence compute time (equations): 0.00089 seconds
-influence of links_22_35 on topic_Department_22 is -0.0116677
-
-gibbs sample time: 0.066601 seconds
-probability of topic_Faculty_45 is 0.496778
-
-mode equations: influence compute time (equations): 0.000847 seconds
-influence of hasword_utexa_45 on topic_Faculty_45 is -8.82093e-05
-
-gibbs sample time: 0.062159 seconds
-probability of topic_Department_30 is 0.49
-
-mode equations: influence compute time (equations): 0.000846 seconds
-influence of hasword_tree_30 on topic_Department_30 is -0.00420184
-
-gibbs sample time: 0.063942 seconds
-probability of topic_ResearchProject_36 is 0.398778
-
-mode equations: influence compute time (equations): 0.000856 seconds
-influence of hasword_system_36 on topic_ResearchProject_36 is -0.093868
-
-gibbs sample time: 0.063521 seconds
-probability of topic_Course_4 is 0.484222
-
-mode equations: influence compute time (equations): 0.000858 seconds
-influence of hasword_represent_4 on topic_Course_4 is -0.0247467
-
-gibbs sample time: 0.062096 seconds
-probability of topic_Department_34 is 0.484111
-
-mode equations: influence compute time (equations): 0.000854 seconds
-influence of hasword_man_34 on topic_Department_34 is -0.0104805
-
-gibbs sample time: 0.064555 seconds
-probability of topic_Department_37 is 0.448778
-
-mode equations: influence compute time (equations): 0.000851 seconds
-influence of hasword_austin_37 on topic_Department_37 is -0.0513949
-
-gibbs sample time: 0.063294 seconds
-probability of topic_Staff_17 is 0.452333
-
-mode equations: influence compute time (equations): 0.000859 seconds
-influence of hasword_materi_17 on topic_Staff_17 is -0.0442011
-
-gibbs sample time: 0.100311 seconds
-probability of topic_Department_26 is 0.597556
-
-mode equations: influence compute time (equations): 0.000868 seconds
-influence of hasword_prototyp_26 on topic_Department_26 is -0.001952
-
-gibbs sample time: 0.067703 seconds
-probability of topic_Department_45 is 0.502
-
-mode equations: influence compute time (equations): 0.000854 seconds
-influence of hasword_utexa_45 on topic_Department_45 is -0.00146925
-
-gibbs sample time: 0.057317 seconds
-probability of topic_Faculty_6 is 0.424
-
-mode equations: influence compute time (equations): 0.000854 seconds
-influence of hasword_date_6 on topic_Faculty_6 is -0.079003
-
-gibbs sample time: 0.064884 seconds
-probability of topic_ResearchProject_17 is 0.493444
-
-mode equations: influence compute time (equations): 0.00086 seconds
-influence of hasword_materi_17 on topic_ResearchProject_17 is -0.0206269
-
-gibbs sample time: 0.063364 seconds
-probability of topic_Person_32 is 0.479444
-
-mode equations: influence compute time (equations): 0.000857 seconds
-influence of hasword_softwar_32 on topic_Person_32 is -0.0188514
-
-gibbs sample time: 0.090954 seconds
-probability of topic_Staff_26 is 0.409111
+gibbs sample time: 0.022584 seconds
+probability of topic_ResearchProject_61 is 0.7
 
 mode equations: influence compute time (equations): 0.000877 seconds
-influence of hasword_prototyp_26 on topic_Staff_26 is 0.0131921
+influence of links_61_39 on topic_ResearchProject_61 is -0.0130073
 
-gibbs sample time: 0.05984 seconds
-probability of topic_Course_66 is 0.41
+gibbs sample time: 0.030637 seconds
+probability of topic_Course_46 is 0.42
 
-mode equations: influence compute time (equations): 0.000855 seconds
-influence of hasword_text_66 on topic_Course_66 is -0.0784136
+mode equations: influence compute time (equations): 0.001011 seconds
+influence of links_46_59 on topic_Course_46 is -0.0135118
 
-gibbs sample time: 0.062116 seconds
-probability of topic_Department_66 is 0.476111
+gibbs sample time: 0.00617 seconds
+probability of topic_Faculty_2 is 0.524
 
-mode equations: influence compute time (equations): 0.000859 seconds
-influence of hasword_text_66 on topic_Department_66 is -0.022858
+mode equations: influence compute time (equations): 0.000829 seconds
+influence of hasword_phone_2 on topic_Faculty_2 is 0.021134
 
-gibbs sample time: 0.279708 seconds
-probability of topic_Faculty_61 is 0.644556
+gibbs sample time: 0.028574 seconds
+probability of topic_Person_59 is 0.469
 
-mode equations: influence compute time (equations): 0.003118 seconds
-influence of links_61_39 on topic_Faculty_61 is -0.0108886
+mode equations: influence compute time (equations): 0.000879 seconds
+influence of links_46_59 on topic_Person_59 is 0.0148183
 
-gibbs sample time: 0.218823 seconds
-probability of topic_Person_35 is 0.505
+gibbs sample time: 0.029049 seconds
+probability of topic_Faculty_59 is 0.568
 
-mode equations: influence compute time (equations): 0.001267 seconds
-influence of links_22_35 on topic_Person_35 is 0.0168601
+mode equations: influence compute time (equations): 0.000885 seconds
+influence of links_59_46 on topic_Faculty_59 is -0.0121888
 
-gibbs sample time: 0.211664 seconds
-probability of topic_ResearchProject_51 is 0.453444
+gibbs sample time: 0.019429 seconds
+probability of topic_Course_21 is 0.539
 
-mode equations: influence compute time (equations): 0.00089 seconds
-influence of links_51_21 on topic_ResearchProject_51 is -0.0158197
+mode equations: influence compute time (equations): 0.000955 seconds
+influence of links_51_21 on topic_Course_21 is 0.0157142
 
-gibbs sample time: 0.057229 seconds
-probability of topic_Student_6 is 0.494778
+gibbs sample time: 0.00646 seconds
+probability of topic_Staff_45 is 0.486
 
-mode equations: influence compute time (equations): 0.000846 seconds
-influence of hasword_date_6 on topic_Student_6 is -0.00606251
+mode equations: influence compute time (equations): 0.00083 seconds
+influence of hasword_utexa_45 on topic_Staff_45 is -0.00532942
 
-gibbs sample time: 0.063677 seconds
-probability of topic_Student_55 is 0.498333
+gibbs sample time: 0.006246 seconds
+probability of topic_Person_15 is 0.504
 
-mode equations: influence compute time (equations): 0.000848 seconds
-influence of hasword_modifi_55 on topic_Student_55 is 0.00726044
+mode equations: influence compute time (equations): 0.000838 seconds
+influence of hasword_modifi_15 on topic_Person_15 is -0.0109447
 
-gibbs sample time: 0.060697 seconds
-probability of topic_Person_8 is 0.545444
+gibbs sample time: 0.00619 seconds
+probability of topic_ResearchProject_34 is 0.551
 
-mode equations: influence compute time (equations): 0.000854 seconds
-influence of hasword_implement_8 on topic_Person_8 is 0.049493
+mode equations: influence compute time (equations): 0.000838 seconds
+influence of hasword_man_34 on topic_ResearchProject_34 is 0.0512915
 
-gibbs sample time: 0.06095 seconds
-probability of topic_Course_37 is 0.496778
+gibbs sample time: 0.006464 seconds
+probability of topic_ResearchProject_24 is 0.602
 
-mode equations: influence compute time (equations): 0.000854 seconds
-influence of hasword_austin_37 on topic_Course_37 is -0.00160772
+mode equations: influence compute time (equations): 0.00084 seconds
+influence of hasword_research_24 on topic_ResearchProject_24 is 0.09944
 
-gibbs sample time: 0.060615 seconds
-probability of topic_Staff_24 is 0.636778
+gibbs sample time: 0.00644 seconds
+probability of topic_ResearchProject_13 is 0.531
 
-mode equations: influence compute time (equations): 0.000851 seconds
-influence of hasword_research_24 on topic_Staff_24 is 0.130352
+mode equations: influence compute time (equations): 0.000835 seconds
+influence of hasword_develop_13 on topic_ResearchProject_13 is 0.0225598
 
-gibbs sample time: 0.060677 seconds
-probability of topic_Person_37 is 0.455667
+gibbs sample time: 0.006821 seconds
+probability of topic_Department_57 is 0.499
 
-mode equations: influence compute time (equations): 0.000852 seconds
-influence of hasword_austin_37 on topic_Person_37 is -0.0366694
+mode equations: influence compute time (equations): 0.000838 seconds
+influence of hasword_separ_57 on topic_Department_57 is -0.0014964
 
-gibbs sample time: 0.056954 seconds
-probability of topic_Person_52 is 0.533111
-
-mode equations: influence compute time (equations): 0.000854 seconds
-influence of hasword_test_52 on topic_Person_52 is 0.0355422
-
-gibbs sample time: 0.060592 seconds
-probability of topic_Course_31 is 0.468222
-
-mode equations: influence compute time (equations): 0.000857 seconds
-influence of hasword_sequenc_31 on topic_Course_31 is -0.0351801
-
-gibbs sample time: 0.060427 seconds
-probability of topic_Faculty_4 is 0.525667
-
-mode equations: influence compute time (equations): 0.000854 seconds
-influence of hasword_represent_4 on topic_Faculty_4 is 0.0317441
-
-gibbs sample time: 0.289705 seconds
-probability of topic_Faculty_46 is 0.394222
-
-mode equations: influence compute time (equations): 0.000901 seconds
-influence of links_59_46 on topic_Faculty_46 is 0.0119214
-
-gibbs sample time: 0.063548 seconds
-probability of topic_Faculty_37 is 0.473222
+gibbs sample time: 0.006137 seconds
+probability of topic_Course_8 is 0.625
 
 mode equations: influence compute time (equations): 0.000845 seconds
-influence of hasword_austin_37 on topic_Faculty_37 is -0.0303966
+influence of hasword_implement_8 on topic_Course_8 is 0.110523
 
-gibbs sample time: 0.061609 seconds
-probability of topic_Person_41 is 0.800556
+gibbs sample time: 0.02224 seconds
+probability of topic_Department_21 is 0.48
+
+mode equations: influence compute time (equations): 0.000878 seconds
+influence of links_51_21 on topic_Department_21 is 0.0105841
+
+gibbs sample time: 0.006533 seconds
+probability of topic_Department_7 is 0.487
+
+mode equations: influence compute time (equations): 0.000829 seconds
+influence of hasword_date_7 on topic_Department_7 is -0.019888
+
+gibbs sample time: 0.02535 seconds
+probability of topic_ResearchProject_46 is 0.448
+
+mode equations: influence compute time (equations): 0.001054 seconds
+influence of links_59_46 on topic_ResearchProject_46 is 0.0143771
+
+gibbs sample time: 0.006114 seconds
+probability of topic_Person_17 is 0.29
+
+mode equations: influence compute time (equations): 0.000832 seconds
+influence of hasword_materi_17 on topic_Person_17 is -0.224324
+
+gibbs sample time: 0.006092 seconds
+probability of topic_Course_62 is 0.436
+
+mode equations: influence compute time (equations): 0.000833 seconds
+influence of hasword_length_62 on topic_Course_62 is -0.0633272
+
+gibbs sample time: 0.006213 seconds
+probability of topic_Department_60 is 0.457
+
+mode equations: influence compute time (equations): 0.000842 seconds
+influence of hasword_mime_60 on topic_Department_60 is -0.0702481
+
+gibbs sample time: 0.025394 seconds
+probability of topic_Department_47 is 0.347
+
+mode equations: influence compute time (equations): 0.000885 seconds
+influence of rl on topic_Department_47 is 0.117056
+
+gibbs sample time: 0.009078 seconds
+probability of topic_Course_44 is 0.292
+
+mode equations: influence compute time (equations): 0.000836 seconds
+influence of hasword_call_44 on topic_Course_44 is -0.108319
+
+gibbs sample time: 0.006672 seconds
+probability of topic_Student_42 is 0.576
+
+mode equations: influence compute time (equations): 0.000833 seconds
+influence of hasword_scienc_42 on topic_Student_42 is 0.101372
+
+gibbs sample time: 0.00636 seconds
+probability of topic_Department_20 is 0.462
+
+mode equations: influence compute time (equations): 0.000841 seconds
+influence of hasword_date_20 on topic_Department_20 is -0.0197865
+
+gibbs sample time: 0.024564 seconds
+probability of topic_Course_12 is 0.638
+
+mode equations: influence compute time (equations): 0.000928 seconds
+influence of links_47_12 on topic_Course_12 is 0.00655516
+
+gibbs sample time: 0.006655 seconds
+probability of topic_Course_14 is 0.533
+
+mode equations: influence compute time (equations): 0.001018 seconds
+influence of hasword_scienc_14 on topic_Course_14 is 0.0238187
+
+gibbs sample time: 0.006085 seconds
+probability of topic_Person_36 is 0.564
+
+mode equations: influence compute time (equations): 0.000839 seconds
+influence of hasword_system_36 on topic_Person_36 is 0.0627387
+
+gibbs sample time: 0.006416 seconds
+probability of topic_Student_31 is 0.483
 
 mode equations: influence compute time (equations): 0.000848 seconds
-influence of hasword_interest_41 on topic_Person_41 is 0.217544
+influence of hasword_sequenc_31 on topic_Student_31 is -0.0253656
 
-gibbs sample time: 0.061153 seconds
-probability of topic_Student_18 is 0.494444
+gibbs sample time: 0.006193 seconds
+probability of topic_Faculty_27 is 0.521
+
+mode equations: influence compute time (equations): 0.000844 seconds
+influence of hasword_jan_27 on topic_Faculty_27 is -0.0101675
+
+gibbs sample time: 0.006108 seconds
+probability of topic_Person_57 is 0.476
+
+mode equations: influence compute time (equations): 0.000838 seconds
+influence of hasword_separ_57 on topic_Person_57 is -0.0230317
+
+gibbs sample time: 0.006264 seconds
+probability of topic_Person_13 is 0.525
+
+mode equations: influence compute time (equations): 0.000847 seconds
+influence of hasword_develop_13 on topic_Person_13 is 0.0130273
+
+gibbs sample time: 0.020047 seconds
+probability of topic_Staff_39 is 0.69
+
+mode equations: influence compute time (equations): 0.000875 seconds
+influence of rl on topic_Staff_39 is -0.108359
+
+gibbs sample time: 0.019767 seconds
+probability of topic_Course_39 is 0.648
 
 mode equations: influence compute time (equations): 0.000872 seconds
-influence of hasword_html_18 on topic_Student_18 is -0.0137903
+influence of links_61_39 on topic_Course_39 is 0.0181785
+
+gibbs sample time: 0.00613 seconds
+probability of topic_Student_48 is 0.45
+
+mode equations: influence compute time (equations): 0.000832 seconds
+influence of hasword_apr_48 on topic_Student_48 is -0.0406004
+
+gibbs sample time: 0.006371 seconds
+probability of topic_Faculty_57 is 0.455
+
+mode equations: influence compute time (equations): 0.000843 seconds
+influence of hasword_separ_57 on topic_Faculty_57 is -0.00922775
+
+gibbs sample time: 0.006406 seconds
+probability of topic_Student_14 is 0.582
+
+mode equations: influence compute time (equations): 0.000841 seconds
+influence of hasword_scienc_14 on topic_Student_14 is 0.100979
+
+gibbs sample time: 0.022802 seconds
+probability of topic_Student_61 is 0.402
+
+mode equations: influence compute time (equations): 0.000878 seconds
+influence of links_61_39 on topic_Student_61 is -0.00901387
+
+gibbs sample time: 0.006078 seconds
+probability of topic_Staff_57 is 0.494
+
+mode equations: influence compute time (equations): 0.000832 seconds
+influence of hasword_separ_57 on topic_Staff_57 is -0.0201663
+
+gibbs sample time: 0.006157 seconds
+probability of topic_Staff_54 is 0.486
+
+mode equations: influence compute time (equations): 0.000841 seconds
+influence of hasword_syllabu_54 on topic_Staff_54 is -0.00290182
+
+gibbs sample time: 0.028593 seconds
+probability of topic_Person_46 is 0.479
+
+mode equations: influence compute time (equations): 0.000889 seconds
+influence of links_46_59 on topic_Person_46 is -0.0151258
+
+gibbs sample time: 0.006506 seconds
+probability of topic_ResearchProject_32 is 0.645
+
+mode equations: influence compute time (equations): 0.000839 seconds
+influence of hasword_softwar_32 on topic_ResearchProject_32 is 0.143514
+
+gibbs sample time: 0.021308 seconds
+probability of topic_Faculty_43 is 0.46
+
+mode equations: influence compute time (equations): 0.000883 seconds
+influence of links_43_40 on topic_Faculty_43 is -0.015903
+
+gibbs sample time: 0.005733 seconds
+probability of topic_Staff_18 is 0.419
+
+mode equations: influence compute time (equations): 0.000839 seconds
+influence of hasword_html_18 on topic_Staff_18 is -0.0752041
+
+gibbs sample time: 0.005777 seconds
+probability of topic_Staff_1 is 0.544
+
+mode equations: influence compute time (equations): 0.000833 seconds
+influence of hasword_model_1 on topic_Staff_1 is 0.0216229
+
+gibbs sample time: 0.006627 seconds
+probability of topic_Department_14 is 0.416
+
+mode equations: influence compute time (equations): 0.000847 seconds
+influence of hasword_scienc_14 on topic_Department_14 is -0.0863904
+
+gibbs sample time: 0.006181 seconds
+probability of topic_ResearchProject_23 is 0.46
+
+mode equations: influence compute time (equations): 0.00084 seconds
+influence of hasword_texa_23 on topic_ResearchProject_23 is -0.0328969
+
+gibbs sample time: 0.021282 seconds
+probability of topic_Student_40 is 0.634
+
+mode equations: influence compute time (equations): 0.000878 seconds
+influence of links_43_40 on topic_Student_40 is 0.0128271
+
+gibbs sample time: 0.00653 seconds
+probability of topic_Department_55 is 0.393
+
+mode equations: influence compute time (equations): 0.000837 seconds
+influence of hasword_modifi_55 on topic_Department_55 is -0.0996397
+
+gibbs sample time: 0.005725 seconds
+probability of topic_Staff_50 is 0.464
+
+mode equations: influence compute time (equations): 0.000835 seconds
+influence of hasword_art_50 on topic_Staff_50 is -0.0298621
+
+gibbs sample time: 0.005762 seconds
+probability of topic_Course_34 is 0.495
+
+mode equations: influence compute time (equations): 0.000841 seconds
+influence of hasword_man_34 on topic_Course_34 is -0.0101274
+
+gibbs sample time: 0.019762 seconds
+probability of topic_Course_19 is 0.699
+
+mode equations: influence compute time (equations): 0.000873 seconds
+influence of links_33_19 on topic_Course_19 is 0.0107018
+
+gibbs sample time: 0.006404 seconds
+probability of topic_Faculty_44 is 0.489
+
+mode equations: influence compute time (equations): 0.000834 seconds
+influence of hasword_formal_44 on topic_Faculty_44 is -0.0197273
+
+gibbs sample time: 0.006582 seconds
+probability of topic_ResearchProject_15 is 0.48
+
+mode equations: influence compute time (equations): 0.000839 seconds
+influence of hasword_modifi_15 on topic_ResearchProject_15 is -0.0259554
+
+gibbs sample time: 0.006499 seconds
+probability of topic_Department_17 is 0.572
+
+mode equations: influence compute time (equations): 0.000841 seconds
+influence of hasword_materi_17 on topic_Department_17 is 0.0716716
+
+gibbs sample time: 0.028994 seconds
+probability of topic_Course_59 is 0.451
+
+mode equations: influence compute time (equations): 0.000883 seconds
+influence of links_46_59 on topic_Course_59 is 0.0166019
+
+gibbs sample time: 0.00614 seconds
+probability of topic_Staff_32 is 0.61
+
+mode equations: influence compute time (equations): 0.000844 seconds
+influence of hasword_softwar_32 on topic_Staff_32 is 0.0910898
+
+gibbs sample time: 0.006133 seconds
+probability of topic_Faculty_3 is 0.534
+
+mode equations: influence compute time (equations): 0.000833 seconds
+influence of hasword_algorithm_3 on topic_Faculty_3 is 0.0410438
+
+gibbs sample time: 0.006125 seconds
+probability of topic_Student_11 is 0.07
+
+mode equations: influence compute time (equations): 0.000843 seconds
+influence of hasword_dec_11 on topic_Student_11 is -0.185704
+
+gibbs sample time: 0.006691 seconds
+probability of topic_ResearchProject_4 is 0.491
+
+mode equations: influence compute time (equations): 0.000848 seconds
+influence of hasword_represent_4 on topic_ResearchProject_4 is -0.0204221
+
+gibbs sample time: 0.006266 seconds
+probability of topic_ResearchProject_5 is 0.416
+
+mode equations: influence compute time (equations): 0.000841 seconds
+influence of hasword_html_5 on topic_ResearchProject_5 is -0.0745272
+
+gibbs sample time: 0.00614 seconds
+probability of topic_Faculty_58 is 0.493
+
+mode equations: influence compute time (equations): 0.000837 seconds
+influence of hasword_jan_58 on topic_Faculty_58 is -0.0101834
+
+gibbs sample time: 0.019883 seconds
+probability of topic_Person_40 is 0.618
+
+mode equations: influence compute time (equations): 0.000875 seconds
+influence of links_43_40 on topic_Person_40 is 0.0142783
+
+gibbs sample time: 0.006404 seconds
+probability of topic_Faculty_56 is 0.593
+
+mode equations: influence compute time (equations): 0.000846 seconds
+influence of hasword_includ_56 on topic_Faculty_56 is 0.0699527
+
+gibbs sample time: 0.005724 seconds
+probability of topic_Staff_10 is 0.58
+
+mode equations: influence compute time (equations): 0.000887 seconds
+influence of hasword_jan_10 on topic_Staff_10 is 0.0748105
+
+gibbs sample time: 0.006428 seconds
+probability of topic_Student_57 is 0.492
+
+mode equations: influence compute time (equations): 0.000843 seconds
+influence of hasword_separ_57 on topic_Student_57 is -0.012884
+
+gibbs sample time: 0.00575 seconds
+probability of topic_Staff_30 is 0.506
+
+mode equations: influence compute time (equations): 0.000843 seconds
+influence of hasword_tree_30 on topic_Staff_30 is 0.00115304
+
+gibbs sample time: 0.005741 seconds
+probability of topic_Staff_63 is 0.606
+
+mode equations: influence compute time (equations): 0.000843 seconds
+influence of hasword_jan_63 on topic_Staff_63 is 0.0733254
+
+gibbs sample time: 0.006815 seconds
+probability of topic_Department_64 is 0.516
+
+mode equations: influence compute time (equations): 0.000841 seconds
+influence of hasword_laboratori_64 on topic_Department_64 is -0.0152824
+
+gibbs sample time: 0.020747 seconds
+probability of topic_Staff_19 is 0.495
+
+mode equations: influence compute time (equations): 0.000873 seconds
+influence of links_33_19 on topic_Staff_19 is 0.0161634
+
+gibbs sample time: 0.006016 seconds
+probability of topic_Staff_2 is 0.745
+
+mode equations: influence compute time (equations): 0.000837 seconds
+influence of hasword_phone_2 on topic_Staff_2 is 0.188558
+
+gibbs sample time: 0.006252 seconds
+probability of topic_Department_10 is 0.641
+
+mode equations: influence compute time (equations): 0.000835 seconds
+influence of hasword_jan_10 on topic_Department_10 is 0.141869
+
+gibbs sample time: 0.006146 seconds
+probability of topic_Student_50 is 0.603
+
+mode equations: influence compute time (equations): 0.000842 seconds
+influence of hasword_art_50 on topic_Student_50 is 0.100796
+
+gibbs sample time: 0.021766 seconds
+probability of topic_Department_43 is 0.388
+
+mode equations: influence compute time (equations): 0.000943 seconds
+influence of links_43_40 on topic_Department_43 is -0.0171658
+
+gibbs sample time: 0.009827 seconds
+probability of topic_Person_26 is 0.599
+
+mode equations: influence compute time (equations): 0.000841 seconds
+influence of r1202 on topic_Person_26 is 0.240199
+
+gibbs sample time: 0.009653 seconds
+probability of topic_Course_26 is 0.535
+
+mode equations: influence compute time (equations): 0.000839 seconds
+influence of hasword_specif_26 on topic_Course_26 is 0.016524
+
+gibbs sample time: 0.006507 seconds
+probability of topic_ResearchProject_27 is 0.459
+
+mode equations: influence compute time (equations): 0.000851 seconds
+influence of hasword_jan_27 on topic_ResearchProject_27 is -0.0371195
+
+gibbs sample time: 0.006194 seconds
+probability of topic_Student_49 is 0.684
+
+mode equations: influence compute time (equations): 0.000843 seconds
+influence of hasword_home_49 on topic_Student_49 is 0.184194
+
+gibbs sample time: 0.019769 seconds
+probability of topic_Course_61 is 0.318
+
+mode equations: influence compute time (equations): 0.00088 seconds
+influence of links_61_39 on topic_Course_61 is -0.015745
+
+gibbs sample time: 0.022596 seconds
+probability of topic_ResearchProject_39 is 0.602
+
+mode equations: influence compute time (equations): 0.00088 seconds
+influence of links_61_39 on topic_ResearchProject_39 is 0.00868455
+
+gibbs sample time: 0.006205 seconds
+probability of topic_Course_24 is 0.404
+
+mode equations: influence compute time (equations): 0.000839 seconds
+influence of hasword_research_24 on topic_Course_24 is -0.0779141
+
+gibbs sample time: 0.006173 seconds
+probability of topic_Faculty_28 is 0.431
+
+mode equations: influence compute time (equations): 0.000838 seconds
+influence of hasword_gmt_28 on topic_Faculty_28 is -0.0793314
+
+gibbs sample time: 0.006393 seconds
+probability of topic_Staff_41 is 0.452
+
+mode equations: influence compute time (equations): 0.000843 seconds
+influence of hasword_interest_41 on topic_Staff_41 is -0.0384806
+
+gibbs sample time: 0.006627 seconds
+probability of topic_Department_56 is 0.605
+
+mode equations: influence compute time (equations): 0.000846 seconds
+influence of hasword_includ_56 on topic_Department_56 is 0.0983824
+
+gibbs sample time: 0.006687 seconds
+probability of topic_Faculty_62 is 0.442
+
+mode equations: influence compute time (equations): 0.000842 seconds
+influence of hasword_length_62 on topic_Faculty_62 is -0.0679739
+
+gibbs sample time: 0.006173 seconds
+probability of topic_ResearchProject_60 is 0.49
+
+mode equations: influence compute time (equations): 0.000846 seconds
+influence of hasword_mime_60 on topic_ResearchProject_60 is -0.00931017
+
+gibbs sample time: 0.006167 seconds
+probability of topic_Student_53 is 0.528
+
+mode equations: influence compute time (equations): 0.000847 seconds
+influence of hasword_date_53 on topic_Student_53 is -0.00604416
+
+gibbs sample time: 0.005776 seconds
+probability of topic_Person_28 is 0.496
+
+mode equations: influence compute time (equations): 0.000846 seconds
+influence of hasword_gmt_28 on topic_Person_28 is -0.0018205
+
+gibbs sample time: 0.006365 seconds
+probability of topic_Student_10 is 0.523
+
+mode equations: influence compute time (equations): 0.000866 seconds
+influence of hasword_jan_10 on topic_Student_10 is 0.0245511
+
+gibbs sample time: 0.021576 seconds
+probability of topic_Faculty_39 is 0.409
+
+mode equations: influence compute time (equations): 0.000887 seconds
+influence of links_61_39 on topic_Faculty_39 is 0.00937833
+
+gibbs sample time: 0.019656 seconds
+probability of topic_Course_40 is 0.548
+
+mode equations: influence compute time (equations): 0.000878 seconds
+influence of links_43_40 on topic_Course_40 is 0.0169876
+
+gibbs sample time: 0.00599 seconds
+probability of topic_Course_28 is 0.451
+
+mode equations: influence compute time (equations): 0.000834 seconds
+influence of hasword_gmt_28 on topic_Course_28 is -0.0744612
+
+gibbs sample time: 0.006132 seconds
+probability of topic_Faculty_18 is 0.381
+
+mode equations: influence compute time (equations): 0.000838 seconds
+influence of hasword_html_18 on topic_Faculty_18 is -0.108086
+
+gibbs sample time: 0.00608 seconds
+probability of topic_Course_41 is 0.419
+
+mode equations: influence compute time (equations): 0.000848 seconds
+influence of hasword_interest_41 on topic_Course_41 is -0.0938099
+
+gibbs sample time: 0.006187 seconds
+probability of topic_ResearchProject_53 is 0.439
+
+mode equations: influence compute time (equations): 0.000997 seconds
+influence of hasword_date_53 on topic_ResearchProject_53 is -0.0564607
+
+gibbs sample time: 0.006228 seconds
+probability of topic_Department_6 is 0.453
+
+mode equations: influence compute time (equations): 0.000852 seconds
+influence of hasword_date_6 on topic_Department_6 is -0.0197256
+
+gibbs sample time: 0.022186 seconds
+probability of topic_Faculty_33 is 0.42
+
+mode equations: influence compute time (equations): 0.000884 seconds
+influence of links_33_19 on topic_Faculty_33 is -0.0132342
+
+gibbs sample time: 0.008961 seconds
+probability of topic_Staff_9 is 0.442
+
+mode equations: influence compute time (equations): 0.000987 seconds
+influence of r4004 on topic_Staff_9 is 0.246636
+
+gibbs sample time: 0.029879 seconds
+probability of topic_Student_59 is 0.437
+
+mode equations: influence compute time (equations): 0.000901 seconds
+influence of hasword_type_46 on topic_Student_59 is 0.00068425
+
+gibbs sample time: 0.006971 seconds
+probability of topic_Student_56 is 0.308
+
+mode equations: influence compute time (equations): 0.000843 seconds
+influence of hasword_includ_56 on topic_Student_56 is -0.157658
+
+gibbs sample time: 0.006268 seconds
+probability of topic_Department_27 is 0.665
+
+mode equations: influence compute time (equations): 0.000855 seconds
+influence of hasword_jan_27 on topic_Department_27 is 0.137342
+
+gibbs sample time: 0.021415 seconds
+probability of topic_Student_43 is 0.542
+
+mode equations: influence compute time (equations): 0.00089 seconds
+influence of links_43_40 on topic_Student_43 is -0.0175335
+
+gibbs sample time: 0.006579 seconds
+probability of topic_Faculty_42 is 0.646
+
+mode equations: influence compute time (equations): 0.000886 seconds
+influence of hasword_scienc_42 on topic_Faculty_42 is 0.121562
+
+gibbs sample time: 0.022505 seconds
+probability of topic_Faculty_19 is 0.506
+
+mode equations: influence compute time (equations): 0.00088 seconds
+influence of links_33_19 on topic_Faculty_19 is 0.0155605
+
+gibbs sample time: 0.006407 seconds
+probability of topic_Student_27 is 0.526
+
+mode equations: influence compute time (equations): 0.000845 seconds
+influence of hasword_jan_27 on topic_Student_27 is 0.0245366
+
+gibbs sample time: 0.006153 seconds
+probability of topic_Faculty_8 is 0.483
+
+mode equations: influence compute time (equations): 0.000837 seconds
+influence of hasword_implement_8 on topic_Faculty_8 is -0.0321293
+
+gibbs sample time: 0.006596 seconds
+probability of topic_Department_24 is 0.637
+
+mode equations: influence compute time (equations): 0.000996 seconds
+influence of hasword_research_24 on topic_Department_24 is 0.124941
+
+gibbs sample time: 0.006297 seconds
+probability of topic_Staff_55 is 0.382
+
+mode equations: influence compute time (equations): 0.000844 seconds
+influence of hasword_modifi_55 on topic_Staff_55 is -0.102784
+
+gibbs sample time: 0.020165 seconds
+probability of topic_Person_22 is 0.399
+
+mode equations: influence compute time (equations): 0.000906 seconds
+influence of links_22_35 on topic_Person_22 is -0.0141701
+
+gibbs sample time: 0.019742 seconds
+probability of topic_Course_33 is 0.538
+
+mode equations: influence compute time (equations): 0.000882 seconds
+influence of links_33_19 on topic_Course_33 is -0.0189263
+
+gibbs sample time: 0.009578 seconds
+probability of topic_Faculty_9 is 0.468
+
+mode equations: influence compute time (equations): 0.000922 seconds
+influence of hasword_servic_9 on topic_Faculty_9 is -0.0209045
+
+gibbs sample time: 0.006252 seconds
+probability of topic_Person_7 is 0.499
+
+mode equations: influence compute time (equations): 0.000925 seconds
+influence of hasword_date_7 on topic_Person_7 is -0.00182061
+
+gibbs sample time: 0.007367 seconds
+probability of topic_ResearchProject_41 is 0.361
+
+mode equations: influence compute time (equations): 0.000923 seconds
+influence of hasword_interest_41 on topic_ResearchProject_41 is -0.113065
+
+gibbs sample time: 0.007107 seconds
+probability of topic_Staff_29 is 0.549
+
+mode equations: influence compute time (equations): 0.000946 seconds
+influence of hasword_depart_29 on topic_Staff_29 is 0.0534017
+
+gibbs sample time: 0.020726 seconds
+probability of topic_Course_22 is 0.556
+
+mode equations: influence compute time (equations): 0.000981 seconds
+influence of links_22_35 on topic_Course_22 is -0.0172083
+
+gibbs sample time: 0.006042 seconds
+probability of topic_Student_7 is 0.489
+
+mode equations: influence compute time (equations): 0.000837 seconds
+influence of hasword_date_7 on topic_Student_7 is -0.00606024
+
+gibbs sample time: 0.006095 seconds
+probability of topic_Course_45 is 0.481
+
+mode equations: influence compute time (equations): 0.000838 seconds
+influence of hasword_utexa_45 on topic_Course_45 is -5.72245e-05
+
+gibbs sample time: 0.021211 seconds
+probability of topic_Department_40 is 0.63
+
+mode equations: influence compute time (equations): 0.00088 seconds
+influence of links_43_40 on topic_Department_40 is 0.0157091
+
+gibbs sample time: 0.006785 seconds
+probability of topic_ResearchProject_55 is 0.477
+
+mode equations: influence compute time (equations): 0.000839 seconds
+influence of hasword_modifi_55 on topic_ResearchProject_55 is -0.025942
+
+gibbs sample time: 0.006297 seconds
+probability of topic_ResearchProject_18 is 0.428
+
+mode equations: influence compute time (equations): 0.000839 seconds
+influence of hasword_html_18 on topic_ResearchProject_18 is -0.0751015
+
+gibbs sample time: 0.00612 seconds
+probability of topic_Person_56 is 0.38
+
+mode equations: influence compute time (equations): 0.000855 seconds
+influence of hasword_includ_56 on topic_Person_56 is -0.102909
+
+gibbs sample time: 0.021717 seconds
+probability of topic_Faculty_22 is 0.344
+
+mode equations: influence compute time (equations): 0.000881 seconds
+influence of links_22_35 on topic_Faculty_22 is -0.0158961
+
+gibbs sample time: 0.006228 seconds
+probability of topic_ResearchProject_20 is 0.45
+
+mode equations: influence compute time (equations): 0.000839 seconds
+influence of hasword_date_20 on topic_ResearchProject_20 is -0.0567406
+
+gibbs sample time: 0.006084 seconds
+probability of topic_Person_55 is 0.468
+
+mode equations: influence compute time (equations): 0.000846 seconds
+influence of hasword_modifi_55 on topic_Person_55 is -0.0109006
+
+gibbs sample time: 0.021809 seconds
+probability of topic_ResearchProject_35 is 0.559
+
+mode equations: influence compute time (equations): 0.000882 seconds
+influence of links_22_35 on topic_ResearchProject_35 is 0.0105378
+
+gibbs sample time: 0.021417 seconds
+probability of topic_Student_21 is 0.473
+
+mode equations: influence compute time (equations): 0.00088 seconds
+influence of links_51_21 on topic_Student_21 is 0.0133758
+
+gibbs sample time: 0.020299 seconds
+probability of topic_Person_39 is 0.44
+
+mode equations: influence compute time (equations): 0.00088 seconds
+influence of rl on topic_Person_39 is -0.120893
+
+gibbs sample time: 0.006239 seconds
+probability of topic_Student_25 is 0.51
+
+mode equations: influence compute time (equations): 0.000845 seconds
+influence of hasword_jan_25 on topic_Student_25 is 0.0245933
+
+gibbs sample time: 0.005725 seconds
+probability of topic_Staff_27 is 0.608
+
+mode equations: influence compute time (equations): 0.000839 seconds
+influence of hasword_jan_27 on topic_Staff_27 is 0.0731939
+
+gibbs sample time: 0.006132 seconds
+probability of topic_Person_25 is 0.536
+
+mode equations: influence compute time (equations): 0.000848 seconds
+influence of hasword_jan_25 on topic_Person_25 is 0.00594102
+
+gibbs sample time: 0.005995 seconds
+probability of topic_Person_20 is 0.479
+
+mode equations: influence compute time (equations): 0.000849 seconds
+influence of hasword_date_20 on topic_Person_20 is -0.00181741
+
+gibbs sample time: 0.021599 seconds
+probability of topic_Faculty_35 is 0.599
+
+mode equations: influence compute time (equations): 0.000888 seconds
+influence of links_22_35 on topic_Faculty_35 is 0.0170914
+
+gibbs sample time: 0.005865 seconds
+probability of topic_Staff_28 is 0.425
+
+mode equations: influence compute time (equations): 0.00084 seconds
+influence of hasword_gmt_28 on topic_Staff_28 is -0.0511545
+
+gibbs sample time: 0.010178 seconds
+probability of topic_Department_9 is 0.578
+
+mode equations: influence compute time (equations): 0.000894 seconds
+influence of hasword_facil_9 on topic_Department_9 is 0.0541625
+
+gibbs sample time: 0.021743 seconds
+probability of topic_Staff_33 is 0.48
+
+mode equations: influence compute time (equations): 0.000931 seconds
+influence of links_33_19 on topic_Staff_33 is -0.0147981
+
+gibbs sample time: 0.006121 seconds
+probability of topic_Person_65 is 0.532
+
+mode equations: influence compute time (equations): 0.000891 seconds
+influence of hasword_high_65 on topic_Person_65 is 0.024328
+
+gibbs sample time: 0.006941 seconds
+probability of topic_Staff_3 is 0.444
+
+mode equations: influence compute time (equations): 0.000895 seconds
+influence of hasword_algorithm_3 on topic_Staff_3 is -0.0336392
+
+gibbs sample time: 0.006583 seconds
+probability of topic_Faculty_49 is 0.476
+
+mode equations: influence compute time (equations): 0.000896 seconds
+influence of hasword_home_49 on topic_Faculty_49 is -0.028368
+
+gibbs sample time: 0.006393 seconds
+probability of topic_Person_27 is 0.502
+
+mode equations: influence compute time (equations): 0.000897 seconds
+influence of hasword_jan_27 on topic_Person_27 is 0.00597188
+
+gibbs sample time: 0.005776 seconds
+probability of topic_Course_25 is 0.439
+
+mode equations: influence compute time (equations): 0.000871 seconds
+influence of hasword_jan_25 on topic_Course_25 is -0.0231281
+
+gibbs sample time: 0.005794 seconds
+probability of topic_Course_30 is 0.588
+
+mode equations: influence compute time (equations): 0.000992 seconds
+influence of hasword_tree_30 on topic_Course_30 is 0.0750461
+
+gibbs sample time: 0.006461 seconds
+probability of topic_Faculty_29 is 0.662
+
+mode equations: influence compute time (equations): 0.000859 seconds
+influence of hasword_depart_29 on topic_Faculty_29 is 0.150442
+
+gibbs sample time: 0.010023 seconds
+probability of topic_ResearchProject_47 is 0.397
+
+mode equations: influence compute time (equations): 0.000856 seconds
+influence of r86 on topic_ResearchProject_47 is 0.239391
+
+gibbs sample time: 0.006431 seconds
+probability of topic_Faculty_41 is 0.707
+
+mode equations: influence compute time (equations): 0.000851 seconds
+influence of hasword_interest_41 on topic_Faculty_41 is 0.16967
+
+gibbs sample time: 0.009662 seconds
+probability of topic_Faculty_26 is 0.578
+
+mode equations: influence compute time (equations): 0.000859 seconds
+influence of hasword_specif_26 on topic_Faculty_26 is 0.099906
+
+gibbs sample time: 0.00619 seconds
+probability of topic_Staff_36 is 0.511
+
+mode equations: influence compute time (equations): 0.000853 seconds
+influence of hasword_system_36 on topic_Staff_36 is 0.0170129
+
+gibbs sample time: 0.005752 seconds
+probability of topic_Staff_52 is 0.522
+
+mode equations: influence compute time (equations): 0.000853 seconds
+influence of hasword_test_52 on topic_Staff_52 is 0.0111642
+
+gibbs sample time: 0.005768 seconds
+probability of topic_Person_2 is 0.628
+
+mode equations: influence compute time (equations): 0.000853 seconds
+influence of hasword_phone_2 on topic_Person_2 is 0.11535
+
+gibbs sample time: 0.00643 seconds
+probability of topic_Student_62 is 0.487
+
+mode equations: influence compute time (equations): 0.000852 seconds
+influence of hasword_length_62 on topic_Student_62 is 0.00182125
+
+gibbs sample time: 0.006396 seconds
+probability of topic_Course_36 is 0.708
+
+mode equations: influence compute time (equations): 0.000852 seconds
+influence of hasword_system_36 on topic_Course_36 is 0.162837
+
+gibbs sample time: 0.006173 seconds
+probability of topic_ResearchProject_66 is 0.444
+
+mode equations: influence compute time (equations): 0.000859 seconds
+influence of hasword_text_66 on topic_ResearchProject_66 is -0.0617651
+
+gibbs sample time: 0.005743 seconds
+probability of topic_Staff_65 is 0.453
+
+mode equations: influence compute time (equations): 0.000852 seconds
+influence of hasword_high_65 on topic_Staff_65 is -0.0566943
+
+gibbs sample time: 0.006497 seconds
+probability of topic_Department_15 is 0.393
+
+mode equations: influence compute time (equations): 0.000853 seconds
+influence of hasword_modifi_15 on topic_Department_15 is -0.0996397
+
+gibbs sample time: 0.006684 seconds
+probability of topic_Department_54 is 0.511
+
+mode equations: influence compute time (equations): 0.000923 seconds
+influence of hasword_syllabu_54 on topic_Department_54 is -0.00180971
+
+gibbs sample time: 0.025671 seconds
+probability of topic_ResearchProject_59 is 0.477
+
+mode equations: influence compute time (equations): 0.000887 seconds
+influence of links_59_46 on topic_ResearchProject_59 is -0.0127874
+
+gibbs sample time: 0.019826 seconds
+probability of topic_Staff_40 is 0.557
+
+mode equations: influence compute time (equations): 0.000982 seconds
+influence of links_43_40 on topic_Staff_40 is 0.0152072
+
+gibbs sample time: 0.006123 seconds
+probability of topic_Person_62 is 0.487
+
+mode equations: influence compute time (equations): 0.000844 seconds
+influence of hasword_length_62 on topic_Person_62 is -0.0175794
+
+gibbs sample time: 0.005847 seconds
+probability of topic_Faculty_1 is 0.519
+
+mode equations: influence compute time (equations): 0.000841 seconds
+influence of hasword_model_1 on topic_Faculty_1 is 0.0171268
+
+gibbs sample time: 0.006407 seconds
+probability of topic_Student_13 is 0.576
+
+mode equations: influence compute time (equations): 0.000849 seconds
+influence of hasword_develop_13 on topic_Student_13 is 0.0396207
+
+gibbs sample time: 0.006394 seconds
+probability of topic_Staff_15 is 0.42
+
+mode equations: influence compute time (equations): 0.000856 seconds
+influence of hasword_modifi_15 on topic_Staff_15 is -0.10606
+
+gibbs sample time: 0.006183 seconds
+probability of topic_ResearchProject_63 is 0.46
+
+mode equations: influence compute time (equations): 0.000852 seconds
+influence of hasword_jan_63 on topic_ResearchProject_63 is -0.0371316
+
+gibbs sample time: 0.005775 seconds
+probability of topic_Staff_60 is 0.41
+
+mode equations: influence compute time (equations): 0.000902 seconds
+influence of hasword_mime_60 on topic_Staff_60 is -0.0852939
+
+gibbs sample time: 0.006387 seconds
+probability of topic_Student_28 is 0.478
+
+mode equations: influence compute time (equations): 0.000862 seconds
+influence of hasword_gmt_28 on topic_Student_28 is -0.00605144
+
+gibbs sample time: 0.005738 seconds
+probability of topic_Person_34 is 0.394
+
+mode equations: influence compute time (equations): 0.000856 seconds
+influence of hasword_man_34 on topic_Person_34 is -0.0695472
+
+gibbs sample time: 0.006454 seconds
+probability of topic_ResearchProject_29 is 0.376
+
+mode equations: influence compute time (equations): 0.00085 seconds
+influence of hasword_depart_29 on topic_ResearchProject_29 is -0.108282
+
+gibbs sample time: 0.006145 seconds
+probability of topic_Course_54 is 0.633
+
+mode equations: influence compute time (equations): 0.000959 seconds
+influence of hasword_syllabu_54 on topic_Course_54 is 0.0926893
+
+gibbs sample time: 0.006387 seconds
+probability of topic_Staff_22 is 0.567
+
+mode equations: influence compute time (equations): 0.000854 seconds
+influence of hasword_gener_22 on topic_Staff_22 is 0.0514323
+
+gibbs sample time: 0.029645 seconds
+probability of topic_Department_46 is 0.469
+
+mode equations: influence compute time (equations): 0.000896 seconds
+influence of links_46_59 on topic_Department_46 is -0.0150541
+
+gibbs sample time: 0.005705 seconds
+probability of topic_Staff_7 is 0.431
+
+mode equations: influence compute time (equations): 0.000843 seconds
+influence of hasword_date_7 on topic_Staff_7 is -0.0513354
+
+gibbs sample time: 0.006556 seconds
+probability of topic_ResearchProject_6 is 0.439
+
+mode equations: influence compute time (equations): 0.000849 seconds
+influence of hasword_date_6 on topic_ResearchProject_6 is -0.0564607
+
+gibbs sample time: 0.006127 seconds
+probability of topic_Course_13 is 0.466
+
+mode equations: influence compute time (equations): 0.00085 seconds
+influence of hasword_develop_13 on topic_Course_13 is -0.0408072
+
+gibbs sample time: 0.006149 seconds
+probability of topic_Student_3 is 0.439
+
+mode equations: influence compute time (equations): 0.00085 seconds
+influence of hasword_algorithm_3 on topic_Student_3 is -0.0597096
+
+gibbs sample time: 0.023375 seconds
+probability of topic_Person_12 is 0.447
+
+mode equations: influence compute time (equations): 0.000897 seconds
+influence of links_47_12 on topic_Person_12 is 0.015315
+
+gibbs sample time: 0.006695 seconds
+probability of topic_Student_64 is 0.474
+
+mode equations: influence compute time (equations): 0.00085 seconds
+influence of hasword_laboratori_64 on topic_Student_64 is -0.030166
+
+gibbs sample time: 0.006234 seconds
+probability of topic_Course_55 is 0.435
+
+mode equations: influence compute time (equations): 0.000953 seconds
+influence of hasword_modifi_55 on topic_Course_55 is -0.0603587
+
+gibbs sample time: 0.005989 seconds
+probability of topic_Person_50 is 0.57
+
+mode equations: influence compute time (equations): 0.000859 seconds
+influence of hasword_art_50 on topic_Person_50 is 0.0847938
+
+gibbs sample time: 0.006563 seconds
+probability of topic_Faculty_7 is 0.414
+
+mode equations: influence compute time (equations): 0.000904 seconds
+influence of hasword_date_7 on topic_Faculty_7 is -0.078479
+
+gibbs sample time: 0.006044 seconds
+probability of topic_Staff_6 is 0.418
+
+mode equations: influence compute time (equations): 0.000897 seconds
+influence of hasword_date_6 on topic_Staff_6 is -0.0509245
+
+gibbs sample time: 0.006856 seconds
+probability of topic_Department_4 is 0.478
+
+mode equations: influence compute time (equations): 0.000866 seconds
+influence of hasword_represent_4 on topic_Department_4 is -0.0172034
+
+gibbs sample time: 0.006137 seconds
+probability of topic_Faculty_30 is 0.499
+
+mode equations: influence compute time (equations): 0.000853 seconds
+influence of hasword_tree_30 on topic_Faculty_30 is 0.0190449
+
+gibbs sample time: 0.029935 seconds
+probability of topic_Student_46 is 0.471
+
+mode equations: influence compute time (equations): 0.000895 seconds
+influence of hasword_type_46 on topic_Student_46 is -0.0124188
+
+gibbs sample time: 0.021557 seconds
+probability of topic_ResearchProject_33 is 0.328
+
+mode equations: influence compute time (equations): 0.000888 seconds
+influence of links_33_19 on topic_ResearchProject_33 is -0.0129252
+
+gibbs sample time: 0.005774 seconds
+probability of topic_Course_2 is 0.458
+
+mode equations: influence compute time (equations): 0.000909 seconds
+influence of hasword_phone_2 on topic_Course_2 is -0.0348568
+
+gibbs sample time: 0.006524 seconds
+probability of topic_Student_45 is 0.509
+
+mode equations: influence compute time (equations): 0.000844 seconds
+influence of hasword_utexa_45 on topic_Student_45 is -0.00400795
+
+gibbs sample time: 0.006538 seconds
+probability of topic_ResearchProject_57 is 0.512
+
+mode equations: influence compute time (equations): 0.000853 seconds
+influence of hasword_separ_57 on topic_ResearchProject_57 is -0.0109735
+
+gibbs sample time: 0.006122 seconds
+probability of topic_Person_29 is 0.626
+
+mode equations: influence compute time (equations): 0.00085 seconds
+influence of hasword_depart_29 on topic_Person_29 is 0.110283
+
+gibbs sample time: 0.008962 seconds
+probability of topic_Person_9 is 0.377
+
+mode equations: influence compute time (equations): 0.000854 seconds
+influence of hasword_servic_9 on topic_Person_9 is -0.0406153
+
+gibbs sample time: 0.006695 seconds
+probability of topic_ResearchProject_31 is 0.479
+
+mode equations: influence compute time (equations): 0.000853 seconds
+influence of hasword_sequenc_31 on topic_ResearchProject_31 is -0.00496692
+
+gibbs sample time: 0.005702 seconds
+probability of topic_Person_6 is 0.523
+
+mode equations: influence compute time (equations): 0.000853 seconds
+influence of hasword_date_6 on topic_Person_6 is -0.00181677
+
+gibbs sample time: 0.006117 seconds
+probability of topic_Staff_62 is 0.385
+
+mode equations: influence compute time (equations): 0.000854 seconds
+influence of hasword_length_62 on topic_Staff_62 is -0.106656
+
+gibbs sample time: 0.019823 seconds
+probability of topic_Course_35 is 0.643
+
+mode equations: influence compute time (equations): 0.000884 seconds
+influence of links_22_35 on topic_Course_35 is 0.0127471
+
+gibbs sample time: 0.006382 seconds
+probability of topic_Faculty_17 is 0.434
+
+mode equations: influence compute time (equations): 0.000844 seconds
+influence of hasword_materi_17 on topic_Faculty_17 is -0.0531053
+
+gibbs sample time: 0.006357 seconds
+probability of topic_Student_22 is 0.437
+
+mode equations: influence compute time (equations): 0.000845 seconds
+influence of hasword_gener_22 on topic_Student_22 is -0.0641014
+
+gibbs sample time: 0.027012 seconds
+probability of topic_Staff_59 is 0.519
+
+mode equations: influence compute time (equations): 0.000899 seconds
+influence of links_59_46 on topic_Staff_59 is -0.0123904
+
+gibbs sample time: 0.026681 seconds
+probability of topic_Staff_46 is 0.434
+
+mode equations: influence compute time (equations): 0.000903 seconds
+influence of links_59_46 on topic_Staff_46 is 0.0143694
+
+gibbs sample time: 0.006289 seconds
+probability of topic_Student_60 is 0.518
+
+mode equations: influence compute time (equations): 0.000859 seconds
+influence of hasword_mime_60 on topic_Student_60 is 0.0268666
+
+gibbs sample time: 0.021305 seconds
+probability of topic_Faculty_51 is 0.458
+
+mode equations: influence compute time (equations): 0.000889 seconds
+influence of links_51_21 on topic_Faculty_51 is -0.0146788
+
+gibbs sample time: 0.006177 seconds
+probability of topic_Person_45 is 0.464
+
+mode equations: influence compute time (equations): 0.000843 seconds
+influence of hasword_utexa_45 on topic_Person_45 is -0.0115478
+
+gibbs sample time: 0.006457 seconds
+probability of topic_ResearchProject_56 is 0.529
+
+mode equations: influence compute time (equations): 0.000844 seconds
+influence of hasword_includ_56 on topic_ResearchProject_56 is 0.0435704
+
+gibbs sample time: 0.006125 seconds
+probability of topic_Course_29 is 0.491
+
+mode equations: influence compute time (equations): 0.000857 seconds
+influence of hasword_depart_29 on topic_Course_29 is -0.0123263
+
+gibbs sample time: 0.006425 seconds
+probability of topic_Student_36 is 0.576
+
+mode equations: influence compute time (equations): 0.000852 seconds
+influence of hasword_system_36 on topic_Student_36 is 0.069524
+
+gibbs sample time: 0.00641 seconds
+probability of topic_Faculty_55 is 0.451
+
+mode equations: influence compute time (equations): 0.00085 seconds
+influence of hasword_modifi_55 on topic_Faculty_55 is -0.069969
+
+gibbs sample time: 0.00652 seconds
+probability of topic_Department_31 is 0.499
+
+mode equations: influence compute time (equations): 0.000961 seconds
+influence of hasword_sequenc_31 on topic_Department_31 is -0.0219695
+
+gibbs sample time: 0.006497 seconds
+probability of topic_Department_62 is 0.492
+
+mode equations: influence compute time (equations): 0.000854 seconds
+influence of hasword_length_62 on topic_Department_62 is -0.0179003
+
+gibbs sample time: 0.029785 seconds
+probability of topic_Department_59 is 0.547
+
+mode equations: influence compute time (equations): 0.000915 seconds
+influence of links_46_59 on topic_Department_59 is 0.0152797
+
+gibbs sample time: 0.020351 seconds
+probability of topic_Staff_61 is 0.483
+
+mode equations: influence compute time (equations): 0.000889 seconds
+influence of rl on topic_Staff_61 is 0.179404
+
+gibbs sample time: 0.006176 seconds
+probability of topic_Faculty_48 is 0.416
+
+mode equations: influence compute time (equations): 0.000843 seconds
+influence of hasword_apr_48 on topic_Faculty_48 is -0.0808967
+
+gibbs sample time: 0.006187 seconds
+probability of topic_ResearchProject_58 is 0.459
+
+mode equations: influence compute time (equations): 0.000845 seconds
+influence of hasword_jan_58 on topic_ResearchProject_58 is -0.0371195
+
+gibbs sample time: 0.005747 seconds
+probability of topic_Staff_53 is 0.427
+
+mode equations: influence compute time (equations): 0.000864 seconds
+influence of hasword_date_53 on topic_Staff_53 is -0.0512165
+
+gibbs sample time: 0.006272 seconds
+probability of topic_Department_52 is 0.456
+
+mode equations: influence compute time (equations): 0.000852 seconds
+influence of hasword_test_52 on topic_Department_52 is -0.0473542
+
+gibbs sample time: 0.006192 seconds
+probability of topic_ResearchProject_48 is 0.355
+
+mode equations: influence compute time (equations): 0.000864 seconds
+influence of hasword_apr_48 on topic_ResearchProject_48 is -0.117109
+
+gibbs sample time: 0.006155 seconds
+probability of topic_Faculty_63 is 0.472
+
+mode equations: influence compute time (equations): 0.000865 seconds
+influence of hasword_jan_63 on topic_Faculty_63 is -0.0101535
+
+gibbs sample time: 0.006334 seconds
+probability of topic_ResearchProject_10 is 0.481
+
+mode equations: influence compute time (equations): 0.000932 seconds
+influence of hasword_jan_10 on topic_ResearchProject_10 is -0.0373168
+
+gibbs sample time: 0.006499 seconds
+probability of topic_Department_2 is 0.512
+
+mode equations: influence compute time (equations): 0.000863 seconds
+influence of hasword_phone_2 on topic_Department_2 is -0.00747339
+
+gibbs sample time: 0.006206 seconds
+probability of topic_Student_34 is 0.431
+
+mode equations: influence compute time (equations): 0.000854 seconds
+influence of hasword_man_34 on topic_Student_34 is -0.0605422
+
+gibbs sample time: 0.021578 seconds
+probability of topic_ResearchProject_40 is 0.419
+
+mode equations: influence compute time (equations): 0.001002 seconds
+influence of links_43_40 on topic_ResearchProject_40 is 0.0151967
+
+gibbs sample time: 0.005726 seconds
+probability of topic_Course_16 is 0.406
+
+mode equations: influence compute time (equations): 0.000843 seconds
+influence of hasword_gmt_16 on topic_Course_16 is -0.072526
+
+gibbs sample time: 0.006364 seconds
+probability of topic_Student_66 is 0.489
+
+mode equations: influence compute time (equations): 0.000846 seconds
+influence of hasword_text_66 on topic_Student_66 is -0.0122266
+
+gibbs sample time: 0.006206 seconds
+probability of topic_Faculty_60 is 0.432
+
+mode equations: influence compute time (equations): 0.000853 seconds
+influence of hasword_mime_60 on topic_Faculty_60 is -0.0669643
+
+gibbs sample time: 0.006247 seconds
+probability of topic_Student_38 is 0.381
+
+mode equations: influence compute time (equations): 0.000861 seconds
+influence of hasword_data_38 on topic_Student_38 is -0.114754
+
+gibbs sample time: 0.020114 seconds
+probability of topic_Staff_12 is 0.51
+
+mode equations: influence compute time (equations): 0.00088 seconds
+influence of links_47_12 on topic_Staff_12 is 0.0173312
+
+gibbs sample time: 0.008967 seconds
+probability of topic_Staff_44 is 0.426
+
+mode equations: influence compute time (equations): 0.00086 seconds
+influence of hasword_formal_44 on topic_Staff_44 is -0.00920914
+
+gibbs sample time: 0.006307 seconds
+probability of topic_Faculty_53 is 0.431
+
+mode equations: influence compute time (equations): 0.000848 seconds
+influence of hasword_date_53 on topic_Faculty_53 is -0.0793314
+
+gibbs sample time: 0.006189 seconds
+probability of topic_ResearchProject_65 is 0.533
+
+mode equations: influence compute time (equations): 0.000851 seconds
+influence of hasword_high_65 on topic_ResearchProject_65 is 0.0290701
+
+gibbs sample time: 0.006164 seconds
+probability of topic_ResearchProject_25 is 0.459
+
+mode equations: influence compute time (equations): 0.000861 seconds
+influence of hasword_jan_25 on topic_ResearchProject_25 is -0.0371195
+
+gibbs sample time: 0.006144 seconds
+probability of topic_Faculty_11 is 0.33
+
+mode equations: influence compute time (equations): 0.000851 seconds
+influence of hasword_dec_11 on topic_Faculty_11 is -0.174425
+
+gibbs sample time: 0.005728 seconds
+probability of topic_Staff_49 is 0.45
+
+mode equations: influence compute time (equations): 0.000849 seconds
+influence of hasword_home_49 on topic_Staff_49 is -0.0369055
+
+gibbs sample time: 0.021256 seconds
+probability of topic_ResearchProject_21 is 0.541
+
+mode equations: influence compute time (equations): 0.000896 seconds
+influence of links_51_21 on topic_ResearchProject_21 is 0.0166686
+
+gibbs sample time: 0.021288 seconds
+probability of topic_Faculty_21 is 0.48
+
+mode equations: influence compute time (equations): 0.000933 seconds
+influence of links_51_21 on topic_Faculty_21 is 0.0152955
+
+gibbs sample time: 0.006165 seconds
+probability of topic_Course_11 is 0.356
+
+mode equations: influence compute time (equations): 0.000894 seconds
+influence of hasword_dec_11 on topic_Course_11 is -0.18195
+
+gibbs sample time: 0.010202 seconds
+probability of topic_Student_44 is 0.471
+
+mode equations: influence compute time (equations): 0.000854 seconds
+influence of r1159 on topic_Student_44 is 0.249159
+
+gibbs sample time: 0.006053 seconds
+probability of topic_Course_50 is 0.419
+
+mode equations: influence compute time (equations): 0.000914 seconds
+influence of hasword_art_50 on topic_Course_50 is -0.0713749
+
+gibbs sample time: 0.006848 seconds
+probability of topic_Department_29 is 0.702
+
+mode equations: influence compute time (equations): 0.000856 seconds
+influence of hasword_depart_29 on topic_Department_29 is 0.169855
+
+gibbs sample time: 0.006013 seconds
+probability of topic_Staff_11 is 0.291
+
+mode equations: influence compute time (equations): 0.000855 seconds
+influence of hasword_dec_11 on topic_Staff_11 is -0.194792
+
+gibbs sample time: 0.006161 seconds
+probability of topic_Faculty_34 is 0.5
+
+mode equations: influence compute time (equations): 0.000848 seconds
+influence of hasword_man_34 on topic_Faculty_34 is -0.0119631
+
+gibbs sample time: 0.023426 seconds
+probability of topic_Course_47 is 0.738
+
+mode equations: influence compute time (equations): 0.000887 seconds
+influence of links_47_12 on topic_Course_47 is -0.0132862
+
+gibbs sample time: 0.005852 seconds
+probability of topic_Course_60 is 0.411
+
+mode equations: influence compute time (equations): 0.000842 seconds
+influence of hasword_mime_60 on topic_Course_60 is -0.0869134
+
+gibbs sample time: 0.005721 seconds
+probability of topic_Course_38 is 0.416
+
+mode equations: influence compute time (equations): 0.000843 seconds
+influence of hasword_data_38 on topic_Course_38 is -0.0886189
+
+gibbs sample time: 0.005979 seconds
+probability of topic_Person_66 is 0.483
+
+mode equations: influence compute time (equations): 0.000856 seconds
+influence of hasword_text_66 on topic_Person_66 is -0.0137459
+
+gibbs sample time: 0.006435 seconds
+probability of topic_ResearchProject_64 is 0.492
+
+mode equations: influence compute time (equations): 0.000854 seconds
+influence of hasword_laboratori_64 on topic_ResearchProject_64 is -0.0297849
+
+gibbs sample time: 0.02124 seconds
+probability of topic_Faculty_40 is 0.573
+
+mode equations: influence compute time (equations): 0.000887 seconds
+influence of links_43_40 on topic_Faculty_40 is 0.0154989
+
+gibbs sample time: 0.005768 seconds
+probability of topic_Staff_20 is 0.424
+
+mode equations: influence compute time (equations): 0.000844 seconds
+influence of hasword_date_20 on topic_Staff_20 is -0.0511229
+
+gibbs sample time: 0.006273 seconds
+probability of topic_Department_58 is 0.657
+
+mode equations: influence compute time (equations): 0.000845 seconds
+influence of hasword_jan_58 on topic_Department_58 is 0.13893
+
+gibbs sample time: 0.006162 seconds
+probability of topic_Faculty_16 is 0.434
+
+mode equations: influence compute time (equations): 0.000854 seconds
+influence of hasword_gmt_16 on topic_Faculty_16 is -0.0794624
+
+gibbs sample time: 0.00641 seconds
+probability of topic_Faculty_66 is 0.382
+
+mode equations: influence compute time (equations): 0.00086 seconds
+influence of hasword_text_66 on topic_Faculty_66 is -0.0939698
+
+gibbs sample time: 0.006205 seconds
+probability of topic_ResearchProject_52 is 0.463
+
+mode equations: influence compute time (equations): 0.00085 seconds
+influence of hasword_test_52 on topic_ResearchProject_52 is -0.0234207
+
+gibbs sample time: 0.006371 seconds
+probability of topic_Staff_13 is 0.467
+
+mode equations: influence compute time (equations): 0.00085 seconds
+influence of hasword_develop_13 on topic_Staff_13 is -0.0423455
+
+gibbs sample time: 0.006557 seconds
+probability of topic_Department_36 is 0.364
+
+mode equations: influence compute time (equations): 0.000854 seconds
+influence of hasword_system_36 on topic_Department_36 is -0.122127
+
+gibbs sample time: 0.006267 seconds
+probability of topic_Student_63 is 0.546
+
+mode equations: influence compute time (equations): 0.000856 seconds
+influence of hasword_jan_63 on topic_Student_63 is 0.0243949
+
+gibbs sample time: 0.005721 seconds
+probability of topic_Course_5 is 0.42
+
+mode equations: influence compute time (equations): 0.000867 seconds
+influence of hasword_html_5 on topic_Course_5 is -0.082711
+
+gibbs sample time: 0.006251 seconds
+probability of topic_Department_18 is 0.48
+
+mode equations: influence compute time (equations): 0.000895 seconds
+influence of hasword_html_18 on topic_Department_18 is -0.0187146
+
+gibbs sample time: 0.006304 seconds
+probability of topic_ResearchProject_2 is 0.447
+
+mode equations: influence compute time (equations): 0.000855 seconds
+influence of hasword_phone_2 on topic_ResearchProject_2 is -0.0620996
+
+gibbs sample time: 0.005746 seconds
+probability of topic_Staff_25 is 0.606
+
+mode equations: influence compute time (equations): 0.000855 seconds
+influence of hasword_jan_25 on topic_Staff_25 is 0.0733254
+
+gibbs sample time: 0.009666 seconds
+probability of topic_Department_44 is 0.352
+
+mode equations: influence compute time (equations): 0.000865 seconds
+influence of hasword_formal_44 on topic_Department_44 is -0.00555434
+
+gibbs sample time: 0.00647 seconds
+probability of topic_Student_29 is 0.539
+
+mode equations: influence compute time (equations): 0.000868 seconds
+influence of hasword_depart_29 on topic_Student_29 is 0.038466
+
+gibbs sample time: 0.006507 seconds
+probability of topic_Person_54 is 0.386
+
+mode equations: influence compute time (equations): 0.000912 seconds
+influence of hasword_syllabu_54 on topic_Person_54 is -0.122014
+
+gibbs sample time: 0.006573 seconds
+probability of topic_Faculty_20 is 0.443
+
+mode equations: influence compute time (equations): 0.000905 seconds
+influence of hasword_date_20 on topic_Faculty_20 is -0.0798205
+
+gibbs sample time: 0.006539 seconds
+probability of topic_Staff_56 is 0.503
+
+mode equations: influence compute time (equations): 0.000911 seconds
+influence of hasword_includ_56 on topic_Staff_56 is 0.00523244
+
+gibbs sample time: 0.006146 seconds
+probability of topic_Course_58 is 0.492
+
+mode equations: influence compute time (equations): 0.000904 seconds
+influence of hasword_jan_58 on topic_Course_58 is -0.0234716
+
+gibbs sample time: 0.006551 seconds
+probability of topic_Faculty_23 is 0.489
+
+mode equations: influence compute time (equations): 0.000914 seconds
+influence of hasword_texa_23 on topic_Faculty_23 is -0.0213153
+
+gibbs sample time: 0.022427 seconds
+probability of topic_ResearchProject_43 is 0.444
+
+mode equations: influence compute time (equations): 0.000935 seconds
+influence of links_43_40 on topic_ResearchProject_43 is -0.0118091
+
+gibbs sample time: 0.020357 seconds
+probability of topic_Person_33 is 0.693
+
+mode equations: influence compute time (equations): 0.000882 seconds
+influence of links_33_19 on topic_Person_33 is -0.00864981
+
+gibbs sample time: 0.005872 seconds
+probability of topic_Staff_5 is 0.441
+
+mode equations: influence compute time (equations): 0.000845 seconds
+influence of hasword_html_5 on topic_Staff_5 is -0.0761556
+
+gibbs sample time: 0.020634 seconds
+probability of topic_Person_19 is 0.408
+
+mode equations: influence compute time (equations): 0.000884 seconds
+influence of links_33_19 on topic_Person_19 is 0.00821756
+
+gibbs sample time: 0.006422 seconds
+probability of topic_Person_42 is 0.673
+
+mode equations: influence compute time (equations): 0.000844 seconds
+influence of hasword_scienc_42 on topic_Person_42 is 0.147805
+
+gibbs sample time: 0.006489 seconds
+probability of topic_Faculty_13 is 0.545
+
+mode equations: influence compute time (equations): 0.000847 seconds
+influence of hasword_develop_13 on topic_Faculty_13 is 0.0458687
+
+gibbs sample time: 0.006159 seconds
+probability of topic_Course_32 is 0.396
+
+mode equations: influence compute time (equations): 0.000854 seconds
+influence of hasword_softwar_32 on topic_Course_32 is -0.0717354
+
+gibbs sample time: 0.006666 seconds
+probability of topic_Department_49 is 0.663
+
+mode equations: influence compute time (equations): 0.000882 seconds
+influence of hasword_home_49 on topic_Department_49 is 0.131871
+
+gibbs sample time: 0.009614 seconds
+probability of topic_ResearchProject_44 is 0.49
+
+mode equations: influence compute time (equations): 0.000904 seconds
+influence of hasword_formal_44 on topic_ResearchProject_44 is -0.0398558
+
+gibbs sample time: 0.006273 seconds
+probability of topic_Person_14 is 0.649
+
+mode equations: influence compute time (equations): 0.000854 seconds
+influence of hasword_scienc_14 on topic_Person_14 is 0.152995
+
+gibbs sample time: 0.006478 seconds
+probability of topic_ResearchProject_42 is 0.531
+
+mode equations: influence compute time (equations): 0.000869 seconds
+influence of hasword_scienc_42 on topic_ResearchProject_42 is 0.0104026
+
+gibbs sample time: 0.006098 seconds
+probability of topic_Staff_4 is 0.447
+
+mode equations: influence compute time (equations): 0.000853 seconds
+influence of hasword_represent_4 on topic_Staff_4 is -0.0312961
+
+gibbs sample time: 0.006203 seconds
+probability of topic_Course_15 is 0.462
+
+mode equations: influence compute time (equations): 0.000857 seconds
+influence of hasword_modifi_15 on topic_Course_15 is -0.0610416
+
+gibbs sample time: 0.006369 seconds
+probability of topic_Staff_64 is 0.518
+
+mode equations: influence compute time (equations): 0.000854 seconds
+influence of hasword_laboratori_64 on topic_Staff_64 is 0.00398673
+
+gibbs sample time: 0.005999 seconds
+probability of topic_Faculty_5 is 0.4
+
+mode equations: influence compute time (equations): 0.000857 seconds
+influence of hasword_html_5 on topic_Faculty_5 is -0.109993
+
+gibbs sample time: 0.006468 seconds
+probability of topic_ResearchProject_14 is 0.483
+
+mode equations: influence compute time (equations): 0.000856 seconds
+influence of hasword_scienc_14 on topic_ResearchProject_14 is 0.0104306
+
+gibbs sample time: 0.006578 seconds
+probability of topic_Department_41 is 0.434
+
+mode equations: influence compute time (equations): 0.000856 seconds
+influence of hasword_interest_41 on topic_Department_41 is -0.0749681
+
+gibbs sample time: 0.006487 seconds
+probability of topic_Department_8 is 0.49
+
+mode equations: influence compute time (equations): 0.000855 seconds
+influence of hasword_implement_8 on topic_Department_8 is -0.02227
+
+gibbs sample time: 0.006536 seconds
+probability of topic_Department_63 is 0.667
+
+mode equations: influence compute time (equations): 0.000857 seconds
+influence of hasword_jan_63 on topic_Department_63 is 0.136932
+
+gibbs sample time: 0.022685 seconds
+probability of topic_Student_39 is 0.339
+
+mode equations: influence compute time (equations): 0.000891 seconds
+influence of links_61_39 on topic_Student_39 is 0.0144803
+
+gibbs sample time: 0.021362 seconds
+probability of topic_Student_51 is 0.525
+
+mode equations: influence compute time (equations): 0.000895 seconds
+influence of links_51_21 on topic_Student_51 is -0.0126827
+
+gibbs sample time: 0.006132 seconds
+probability of topic_Student_4 is 0.548
+
+mode equations: influence compute time (equations): 0.000856 seconds
+influence of hasword_represent_4 on topic_Student_4 is 0.0337607
+
+gibbs sample time: 0.005726 seconds
+probability of topic_Staff_38 is 0.449
+
+mode equations: influence compute time (equations): 0.000848 seconds
+influence of hasword_data_38 on topic_Staff_38 is -0.0424987
+
+gibbs sample time: 0.006162 seconds
+probability of topic_ResearchProject_50 is 0.503
+
+mode equations: influence compute time (equations): 0.000863 seconds
+influence of hasword_art_50 on topic_ResearchProject_50 is -0.0178242
+
+gibbs sample time: 0.022451 seconds
+probability of topic_Department_51 is 0.631
+
+mode equations: influence compute time (equations): 0.00089 seconds
+influence of links_51_21 on topic_Department_51 is -0.0122877
+
+gibbs sample time: 0.005765 seconds
+probability of topic_Course_27 is 0.459
+
+mode equations: influence compute time (equations): 0.000853 seconds
+influence of hasword_jan_27 on topic_Course_27 is -0.0233197
+
+gibbs sample time: 0.005684 seconds
+probability of topic_Person_11 is 0.057
+
+mode equations: influence compute time (equations): 0.000847 seconds
+influence of hasword_dec_11 on topic_Person_11 is -0.150938
+
+gibbs sample time: 0.005766 seconds
+probability of topic_Course_48 is 0.483
+
+mode equations: influence compute time (equations): 0.000854 seconds
+influence of hasword_apr_48 on topic_Course_48 is 0.0195763
+
+gibbs sample time: 0.010043 seconds
+probability of topic_ResearchProject_9 is 0.373
+
+mode equations: influence compute time (equations): 0.00086 seconds
+influence of hasword_servic_9 on topic_ResearchProject_9 is -0.0973156
+
+gibbs sample time: 0.006014 seconds
+probability of topic_Course_49 is 0.597
+
+mode equations: influence compute time (equations): 0.000855 seconds
+influence of hasword_home_49 on topic_Course_49 is 0.0753278
+
+gibbs sample time: 0.006658 seconds
+probability of topic_Department_25 is 0.668
+
+mode equations: influence compute time (equations): 0.000912 seconds
+influence of hasword_jan_25 on topic_Department_25 is 0.136726
+
+gibbs sample time: 0.019358 seconds
+probability of topic_Person_43 is 0.506
+
+mode equations: influence compute time (equations): 0.000886 seconds
+influence of links_43_40 on topic_Person_43 is -0.0183149
+
+gibbs sample time: 0.006546 seconds
+probability of topic_Department_28 is 0.479
+
+mode equations: influence compute time (equations): 0.000848 seconds
+influence of hasword_gmt_28 on topic_Department_28 is -0.0198664
+
+gibbs sample time: 0.006494 seconds
+probability of topic_Department_42 is 0.415
+
+mode equations: influence compute time (equations): 0.000849 seconds
+influence of hasword_scienc_42 on topic_Department_42 is -0.0863303
+
+gibbs sample time: 0.025677 seconds
+probability of topic_Student_12 is 0.498
+
+mode equations: influence compute time (equations): 0.00095 seconds
+influence of links_47_12 on topic_Student_12 is 0.0148881
+
+gibbs sample time: 0.006863 seconds
+probability of topic_ResearchProject_62 is 0.458
+
+mode equations: influence compute time (equations): 0.000902 seconds
+influence of hasword_length_62 on topic_ResearchProject_62 is -0.0288391
+
+gibbs sample time: 0.006546 seconds
+probability of topic_Course_17 is 0.763
+
+mode equations: influence compute time (equations): 0.000895 seconds
+influence of hasword_materi_17 on topic_Course_17 is 0.208381
+
+gibbs sample time: 0.006848 seconds
+probability of topic_Faculty_31 is 0.534
+
+mode equations: influence compute time (equations): 0.000912 seconds
+influence of hasword_sequenc_31 on topic_Faculty_31 is 0.0479167
+
+gibbs sample time: 0.006488 seconds
+probability of topic_Staff_8 is 0.552
+
+mode equations: influence compute time (equations): 0.000903 seconds
+influence of hasword_implement_8 on topic_Staff_8 is 0.0546433
+
+gibbs sample time: 0.006709 seconds
+probability of topic_ResearchProject_7 is 0.438
+
+mode equations: influence compute time (equations): 0.000906 seconds
+influence of hasword_date_7 on topic_ResearchProject_7 is -0.0564325
+
+gibbs sample time: 0.006857 seconds
+probability of topic_ResearchProject_37 is 0.492
+
+mode equations: influence compute time (equations): 0.000853 seconds
+influence of hasword_austin_37 on topic_ResearchProject_37 is -0.00636949
+
+gibbs sample time: 0.005878 seconds
+probability of topic_Student_2 is 0.446
+
+mode equations: influence compute time (equations): 0.000854 seconds
+influence of hasword_phone_2 on topic_Student_2 is -0.074627
+
+gibbs sample time: 0.006187 seconds
+probability of topic_Student_65 is 0.524
+
+mode equations: influence compute time (equations): 0.000903 seconds
+influence of hasword_high_65 on topic_Student_65 is 0.0416615
+
+gibbs sample time: 0.006188 seconds
+probability of topic_Person_24 is 0.494
+
+mode equations: influence compute time (equations): 0.000856 seconds
+influence of hasword_research_24 on topic_Person_24 is -0.0117991
+
+gibbs sample time: 0.006141 seconds
+probability of topic_Faculty_10 is 0.479
+
+mode equations: influence compute time (equations): 0.000859 seconds
+influence of hasword_jan_10 on topic_Faculty_10 is -0.0101675
+
+gibbs sample time: 0.006226 seconds
+probability of topic_ResearchProject_38 is 0.576
+
+mode equations: influence compute time (equations): 0.001029 seconds
+influence of hasword_data_38 on topic_ResearchProject_38 is 0.0405891
+
+gibbs sample time: 0.021885 seconds
+probability of topic_Department_22 is 0.712
+
+mode equations: influence compute time (equations): 0.000891 seconds
+influence of links_22_35 on topic_Department_22 is -0.0117325
+
+gibbs sample time: 0.006663 seconds
+probability of topic_Faculty_45 is 0.504
+
+mode equations: influence compute time (equations): 0.000846 seconds
+influence of hasword_utexa_45 on topic_Faculty_45 is -8.82074e-05
+
+gibbs sample time: 0.006241 seconds
+probability of topic_Department_30 is 0.507
+
+mode equations: influence compute time (equations): 0.000847 seconds
+influence of hasword_tree_30 on topic_Department_30 is -0.0042027
+
+gibbs sample time: 0.006528 seconds
+probability of topic_ResearchProject_36 is 0.395
+
+mode equations: influence compute time (equations): 0.000906 seconds
+influence of hasword_system_36 on topic_ResearchProject_36 is -0.093563
+
+gibbs sample time: 0.006392 seconds
+probability of topic_Course_4 is 0.494
+
+mode equations: influence compute time (equations): 0.000855 seconds
+influence of hasword_represent_4 on topic_Course_4 is -0.0247678
+
+gibbs sample time: 0.006235 seconds
+probability of topic_Department_34 is 0.485
+
+mode equations: influence compute time (equations): 0.001003 seconds
+influence of hasword_man_34 on topic_Department_34 is -0.0104817
+
+gibbs sample time: 0.006504 seconds
+probability of topic_Department_37 is 0.464
+
+mode equations: influence compute time (equations): 0.000853 seconds
+influence of hasword_austin_37 on topic_Department_37 is -0.0516707
+
+gibbs sample time: 0.006522 seconds
+probability of topic_Staff_17 is 0.462
+
+mode equations: influence compute time (equations): 0.000946 seconds
+influence of hasword_materi_17 on topic_Staff_17 is -0.0443489
+
+gibbs sample time: 0.010077 seconds
+probability of topic_Department_26 is 0.607
+
+mode equations: influence compute time (equations): 0.000865 seconds
+influence of hasword_prototyp_26 on topic_Department_26 is -0.00193632
+
+gibbs sample time: 0.006766 seconds
+probability of topic_Department_45 is 0.484
+
+mode equations: influence compute time (equations): 0.000856 seconds
+influence of hasword_utexa_45 on topic_Department_45 is -0.00146777
+
+gibbs sample time: 0.005753 seconds
+probability of topic_Faculty_6 is 0.449
+
+mode equations: influence compute time (equations): 0.000866 seconds
+influence of hasword_date_6 on topic_Faculty_6 is -0.0800301
+
+gibbs sample time: 0.006483 seconds
+probability of topic_ResearchProject_17 is 0.492
+
+mode equations: influence compute time (equations): 0.000859 seconds
+influence of hasword_materi_17 on topic_ResearchProject_17 is -0.0206251
+
+gibbs sample time: 0.006394 seconds
+probability of topic_Person_32 is 0.485
+
+mode equations: influence compute time (equations): 0.000858 seconds
+influence of hasword_softwar_32 on topic_Person_32 is -0.0188663
+
+gibbs sample time: 0.009139 seconds
+probability of topic_Staff_26 is 0.434
+
+mode equations: influence compute time (equations): 0.000861 seconds
+influence of hasword_prototyp_26 on topic_Staff_26 is 0.0134052
+
+gibbs sample time: 0.006108 seconds
+probability of topic_Course_66 is 0.404
+
+mode equations: influence compute time (equations): 0.000861 seconds
+influence of hasword_text_66 on topic_Course_66 is -0.0780518
+
+gibbs sample time: 0.006243 seconds
+probability of topic_Department_66 is 0.457
+
+mode equations: influence compute time (equations): 0.00086 seconds
+influence of hasword_text_66 on topic_Department_66 is -0.0227409
+
+gibbs sample time: 0.021529 seconds
+probability of topic_Faculty_61 is 0.637
+
+mode equations: influence compute time (equations): 0.000905 seconds
+influence of links_61_39 on topic_Faculty_61 is -0.0109777
+
+gibbs sample time: 0.019912 seconds
+probability of topic_Person_35 is 0.493
+
+mode equations: influence compute time (equations): 0.000886 seconds
+influence of links_22_35 on topic_Person_35 is 0.0175427
+
+gibbs sample time: 0.021111 seconds
+probability of topic_ResearchProject_51 is 0.455
+
+mode equations: influence compute time (equations): 0.000897 seconds
+influence of links_51_21 on topic_ResearchProject_51 is -0.0160995
+
+gibbs sample time: 0.005762 seconds
+probability of topic_Student_6 is 0.487
+
+mode equations: influence compute time (equations): 0.000853 seconds
+influence of hasword_date_6 on topic_Student_6 is -0.00605908
+
+gibbs sample time: 0.006544 seconds
+probability of topic_Student_55 is 0.503
+
+mode equations: influence compute time (equations): 0.00085 seconds
+influence of hasword_modifi_55 on topic_Student_55 is 0.00726026
+
+gibbs sample time: 0.006131 seconds
+probability of topic_Person_8 is 0.562
+
+mode equations: influence compute time (equations): 0.000856 seconds
+influence of hasword_implement_8 on topic_Person_8 is 0.0491379
+
+gibbs sample time: 0.006122 seconds
+probability of topic_Course_37 is 0.511
+
+mode equations: influence compute time (equations): 0.000861 seconds
+influence of hasword_austin_37 on topic_Course_37 is -0.00160701
+
+gibbs sample time: 0.006136 seconds
+probability of topic_Staff_24 is 0.642
+
+mode equations: influence compute time (equations): 0.000853 seconds
+influence of hasword_research_24 on topic_Staff_24 is 0.129532
+
+gibbs sample time: 0.006121 seconds
+probability of topic_Person_37 is 0.475
+
+mode equations: influence compute time (equations): 0.000853 seconds
+influence of hasword_austin_37 on topic_Person_37 is -0.0368676
+
+gibbs sample time: 0.005757 seconds
+probability of topic_Person_52 is 0.543
+
+mode equations: influence compute time (equations): 0.000862 seconds
+influence of hasword_test_52 on topic_Person_52 is 0.0354347
+
+gibbs sample time: 0.00613 seconds
+probability of topic_Course_31 is 0.46
+
+mode equations: influence compute time (equations): 0.000858 seconds
+influence of hasword_sequenc_31 on topic_Course_31 is -0.0350967
+
+gibbs sample time: 0.006233 seconds
+probability of topic_Faculty_4 is 0.533
+
+mode equations: influence compute time (equations): 0.000855 seconds
+influence of hasword_represent_4 on topic_Faculty_4 is 0.0316894
+
+gibbs sample time: 0.029031 seconds
+probability of topic_Faculty_46 is 0.378
+
+mode equations: influence compute time (equations): 0.000901 seconds
+influence of links_59_46 on topic_Faculty_46 is 0.0110653
+
+gibbs sample time: 0.0064 seconds
+probability of topic_Faculty_37 is 0.467
+
+mode equations: influence compute time (equations): 0.000847 seconds
+influence of hasword_austin_37 on topic_Faculty_37 is -0.0303512
+
+gibbs sample time: 0.006826 seconds
+probability of topic_Person_41 is 0.798
+
+mode equations: influence compute time (equations): 0.0009 seconds
+influence of hasword_interest_41 on topic_Person_41 is 0.219628
+
+gibbs sample time: 0.006686 seconds
+probability of topic_Student_18 is 0.489
+
+mode equations: influence compute time (equations): 0.000904 seconds
+influence of hasword_html_18 on topic_Student_18 is -0.0137853
 
