@@ -164,6 +164,24 @@ def drawInflQueryTimes_7AVG_Logscale():
   plt.show()
 
 
+def drawInflQueryTimes_8AVG_Logscale():
+  ax = plt.subplot(111)
+  xList = ["100", "200", "300", "400", "500", "600", "700", "800", "900", "1000"]
+  queryList1 = [0.00018817224880382776, 0.00028358925979680695, 0.00048099617346938775, 0.0007562613365155131, 0.0009523053960964409, 0.0010464454244762957, 0.0010977248394004285, 0.001843921106557377, 0.0027388465346534652, 0.0032127062615101287]
+  queryList2 = [0.0008622966507177033, 0.0009067140783744556, 0.0009898354591836734, 0.0011177374701670643, 0.0011818805970149253, 0.0012453605292171996, 0.0012736573875803, 0.0024333237704918034, 0.005076008910891088, 0.006671186003683241]
+  x = np.arange(len(xList))
+  w = 0.3
+  ax.bar(x-0.5*w, queryList1, w, label='approx', color='b')
+  ax.bar(x+0.5*w, queryList2, w, label='exact', color='r')
+  ax.set_ylabel('Influence query time')
+  ax.set_yscale("log")
+  ax.set_xlabel('sample size')
+  ax.set_xticks(x)
+  ax.set_xticklabels(xList)
+  ax.legend()
+  plt.show()
+
+
 def drawProbTimes():
   errors = ["1e-1", "1e-2", "1e-3", "1e-4", "1e-5", "1e-6", "1e-7"]
   iterations = [2, 7, 13, 20, 26, 33, 39]
@@ -179,11 +197,12 @@ if __name__ == '__main__':
   # drawQueryTimes_4()
   # drawQueryTimes_5()
   # drawQueryTimes_7()
-  drawMaintenanceTime_7()
+  # drawMaintenanceTime_7()
   # drawProbQueryTimes_7AVG()
-  drawProbQueryTimes_7AVG_Logscale()
+  # drawProbQueryTimes_7AVG_Logscale()
   # drawProbQueryTimes_8AVG()
   # drawInflQueryTimes_7()
   # drawInflQueryTimes_7AVG()
   # drawInflQueryTimes_7AVG_equa()
-  drawInflQueryTimes_7AVG_Logscale()
+  # drawInflQueryTimes_7AVG_Logscale()
+  drawInflQueryTimes_8AVG_Logscale()

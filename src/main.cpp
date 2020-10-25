@@ -611,6 +611,8 @@ int main(int argc, char* argv[]) {
       unordered_set<string> queries = mln.getQueryLiterals();
       for (string query : queries) {
         mmln = mln.getMinimalMLN(query);
+        cout << "clique number: " << mmln.getNumberOfCliques() << endl;
+        cout << "unobserved tuple number: " << mmln.getQueryLiterals().size() << endl;
         probabilityQuery(mmln, stoi(args["round"]), query, args["mode"], stod(args["approx"]));
         unordered_set<string> obs = mmln.getObsLiterals();
         string obs_tuple = *(obs.begin());
