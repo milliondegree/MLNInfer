@@ -76,7 +76,7 @@ vector<vector<double>> Influence::getPartialDeriv() {
 }
 
 
-double Influence::getAccuPotential(string& numerator, string& denominator, map<string, double>& probs, vector<Clique>& cliques, map<string, vector<int>> c_map) {
+double Influence::getAccuPotential(string& numerator, string& denominator, map<string, double>& probs, vector<Clique>& cliques, map<string, vector<int>>& c_map) {
   double accu = 0.0;
   for (int c_i : c_map[numerator]) {
     Clique c = cliques[c_i];
