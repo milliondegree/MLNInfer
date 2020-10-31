@@ -25,7 +25,7 @@ double Influence::influenceQuery(MLN& mln, string& query, string& infl) {
   clock_t t2 = clock();
   solveEquations();
   clock_t t3 = clock();
-  cout << ((double)(t2-t1))/CLOCKS_PER_SEC << ' ' << ((double)(t3-t2))/CLOCKS_PER_SEC << ' ';
+  // cout << ((double)(t2-t1))/CLOCKS_PER_SEC << ' ' << ((double)(t3-t2))/CLOCKS_PER_SEC << ' ';
   int q_i = this->l_index[query];
   return this->influences[q_i];
 }
