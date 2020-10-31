@@ -40,8 +40,8 @@ def parseFileFinal(f):
 
 
 if __name__=="__main__":
-  dire = "sample8"
-  name = "influ"
+  dire = "sample7"
+  name = "influEquation"
   queryList = ["cliques", "unobserved", "pgibbs", "gibbs", "influ"]
   file_names = [
             "./data/hypertext-class/"+dire+"/records/"+name+"1.log",

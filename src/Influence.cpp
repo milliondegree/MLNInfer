@@ -20,8 +20,12 @@ double Influence::influenceQuery(MLN& mln, string& query, string& infl) {
   unordered_set<string> queries = mln.getQueryLiterals();
   unordered_set<string> obs = mln.getObsLiterals();
   assert(queries.find(query)!=queries.end()&&obs.find(infl)!=obs.end());
+  clock_t t1 = clock();
   computePartialDerivatives(mln, infl);
+  clock_t t2 = clock();
   solveEquations();
+  clock_t t3 = clock();
+  cout << ((double)(t2-t1))/CLOCKS_PER_SEC << ' ' << ((double)(t3-t2))/CLOCKS_PER_SEC << ' ';
   int q_i = this->l_index[query];
   return this->influences[q_i];
 }
