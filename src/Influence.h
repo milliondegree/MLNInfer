@@ -35,7 +35,7 @@ private:
   vector<vector<double>> partialDerivs;
   unordered_map<string, int> l_index;
 
-  double getAccuPotential(string& numerator, string& denominator, map<string, double>& probs, vector<Clique>& cliques, map<string, vector<int>> c_map);
+  double getAccuPotential(string& numerator, string& denominator, map<string, double>& probs, vector<Clique>& cliques, map<string, vector<int>>& c_map);
 };
 
 
