@@ -24,7 +24,7 @@ public:
   vector<vector<double>> getPartialDeriv();
 
   double influenceQuery(MLN& mln, string& query, string& infl);
-  void computePartialDerivatives(MLN& mln, string& infl);
+  void computePartialDerivatives(MLN& mln, string& infl, map<string, double>& probs, vector<Clique>& cliques, map<string, vector<int>>& c_map);
   void solveEquations();
  
   ~Influence();

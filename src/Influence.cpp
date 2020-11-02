@@ -19,24 +19,24 @@ Influence::Influence(MLN& mln) {
 double Influence::influenceQuery(MLN& mln, string& query, string& infl) {
   unordered_set<string> queries = mln.getQueryLiterals();
   unordered_set<string> obs = mln.getObsLiterals();
+  map<string, double> probs = mln.getProb();
+  vector<Clique> cliques = mln.getCliques();
+  map<string, vector<int>> c_map = mln.getCMap();
   assert(queries.find(query)!=queries.end()&&obs.find(infl)!=obs.end());
   clock_t t1 = clock();
-  computePartialDerivatives(mln, infl);
+  computePartialDerivatives(mln, infl, probs, cliques, c_map);
   clock_t t2 = clock();
   solveEquations();
   clock_t t3 = clock();
   // cout << ((double)(t2-t1))/CLOCKS_PER_SEC << ' ' << ((double)(t3-t2))/CLOCKS_PER_SEC << ' ';
-  // cout << "mode " << "equation" << ": influence compute time (" << "equation" << "): " << ((double)(t2-t1))/CLOCKS_PER_SEC << " seconds" << endl;
+  cout << "mode " << "equation" << ": influence compute time (" << "equation" << "): " << ((double)(t3-t1))/CLOCKS_PER_SEC << " seconds" << endl;
   int q_i = this->l_index[query];
   return this->influences[q_i];
 }
 
 
-void Influence::computePartialDerivatives(MLN& mln, string& infl) {
+void Influence::computePartialDerivatives(MLN& mln, string& infl, map<string, double>& probs, vector<Clique>& cliques, map<string, vector<int>>& c_map) {
   clock_t t1 = clock();
-  map<string, double> probs = mln.getProb();
-  vector<Clique> cliques = mln.getCliques();
-  map<string, vector<int>> c_map = mln.getCMap();
   clock_t t_accu = 0;
   for (string numerator : this->queries) {
     // for each queried tuple, use its probability formula
