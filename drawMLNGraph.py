@@ -52,14 +52,15 @@ def replaceNodeName(node):
 
 
 def drawMLNGraph(obs, que, cliques, c_map, save_name):
-  G = pgv.AGraph(strict=True, directed=False)
-  # G.graph_attr['rankdir'] = 'BT'
+  G = pgv.AGraph(strict=True, directed=False, overlap=False, splines="true")
+  # G.graph_attr['rankdir'] = 'LB'
   # G.graph_attr['ranksep'] = 1
   # G.graph_attr['margin'] = 0.1
   # G.graph_attr['mclimit'] = 0.1
   # G.graph_attr['nodesep'] = 0.1
-  G.graph_attr['splines'] = False
-  G.graph_attr['overlap'] = "scale"
+  # G.graph_attr['splines'] = "true"
+  # G.graph_attr['overlap'] = "false"
+  print(G.graph_attr.keys())
   used = []
   for c in cliques:
     if random.random()>1:
