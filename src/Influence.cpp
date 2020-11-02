@@ -28,7 +28,7 @@ double Influence::influenceQuery(MLN& mln, string& query, string& infl) {
   clock_t t2 = clock();
   solveEquations();
   clock_t t3 = clock();
-  // cout << ((double)(t2-t1))/CLOCKS_PER_SEC << ' ' << ((double)(t3-t2))/CLOCKS_PER_SEC << ' ';
+  cout << ((double)(t2-t1)) << ' ' << ((double)(t3-t2))<< ' ';
   cout << "mode " << "equation" << ": influence compute time (" << "equation" << "): " << ((double)(t3-t1))/CLOCKS_PER_SEC << " seconds" << endl;
   int q_i = this->l_index[query];
   return this->influences[q_i];
@@ -62,7 +62,6 @@ void Influence::computePartialDerivatives(MLN& mln, string& infl, map<string, do
     this->partialDerivs[n_i][d_i] = base*accu;
   }
   clock_t t2 = clock();
-  cout << t2-t1 << ' ' << t_accu << endl;
 }
 
 
