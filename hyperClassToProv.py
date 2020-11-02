@@ -36,9 +36,9 @@ time = sum(intervals[:count])
 
 print("maintenance time:", (times[1]-times[0])/1000000, "s")
 print("average query time:", (time/count)/1000000, "s")
-intervals = [ele/1000000 for ele in intervals]
-a, b = np.histogram(intervals, bins=np.arange(intervals[-1], intervals[0]+10, 100))
-print(a)
+# intervals = [ele/1000000 for ele in intervals]
+# a, b = np.histogram(intervals, bins=np.arange(intervals[-1], intervals[0]+10, 100))
+# print(a)
 
 infile.close()
 outfile.close()
