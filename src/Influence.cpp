@@ -26,16 +26,18 @@ double Influence::influenceQuery(MLN& mln, string& query, string& infl) {
   solveEquations();
   clock_t t3 = clock();
   // cout << ((double)(t2-t1))/CLOCKS_PER_SEC << ' ' << ((double)(t3-t2))/CLOCKS_PER_SEC << ' ';
-  cout << "mode " << "equation" << ": influence compute time (" << "equation" << "): " << ((double)(t2-t1))/CLOCKS_PER_SEC << " seconds" << endl;
+  // cout << "mode " << "equation" << ": influence compute time (" << "equation" << "): " << ((double)(t2-t1))/CLOCKS_PER_SEC << " seconds" << endl;
   int q_i = this->l_index[query];
   return this->influences[q_i];
 }
 
 
 void Influence::computePartialDerivatives(MLN& mln, string& infl) {
+  clock_t t1 = clock();
   map<string, double> probs = mln.getProb();
   vector<Clique> cliques = mln.getCliques();
   map<string, vector<int>> c_map = mln.getCMap();
+  clock_t t_accu = 0;
   for (string numerator : this->queries) {
     // for each queried tuple, use its probability formula
     int n_i = this->l_index[numerator];
@@ -47,7 +49,10 @@ void Influence::computePartialDerivatives(MLN& mln, string& infl) {
         this->partialDerivs[n_i][d_i] = 1.0;
       }
       else {
+        clock_t t3 = clock();
         double accu = getAccuPotential(numerator, denominator, probs, cliques, c_map);
+        clock_t t4 = clock();
+        t_accu += t4-t3;
         this->partialDerivs[n_i][d_i] = base*accu;
       }
     }
@@ -56,6 +61,8 @@ void Influence::computePartialDerivatives(MLN& mln, string& infl) {
     double accu = getAccuPotential(numerator, infl, probs, cliques, c_map);
     this->partialDerivs[n_i][d_i] = base*accu;
   }
+  clock_t t2 = clock();
+  cout << t2-t1 << ' ' << t_accu << endl;
 }
 
 
