@@ -69,6 +69,26 @@ def drawQueryTimes_7():
   plt.show()
 
 
+def drawQueryTimes_11():
+  xList = ["100", "200", "300", "400", "500", "600", "700", "800", "900", "1000"]
+  # queryList1 = [0.196, 0.343, 0.567, 0.834, 1.136, 1.778, 2.14, 2.66, 4.56, 7.18]
+  queryList1 = [1.2335028867924527, 2.126787842900302, 2.8515190150150147, 4.512209073463269, 6.081573559701492,
+                7.675888536512668, 11.057172661218425, 13.53308026923077, 17.16496398522895, 31.19561526440177]
+  # queryList2 = [0.274, 0.58, 0.94, 1.637, 2.174, 2.68, 3.2, 4.05, 5.3, 6.37]
+  # queryList2 = [0.23808514354066984, 0.5371160580152672, 0.8954505701357466, 1.5968827611940297, 2.140646583703704,
+  #               2.6401818698224853, 3.1556854452662724, 4.0063278197932055, 5.25113364844904, 6.307514858197933]
+  # ql1 = np.array(queryList1)
+  # ql2 = np.array(queryList2)
+  # ql = (ql1+ql2)/2
+  # queryList = list(ql)
+  queryList = queryList1
+
+  plt.bar(xList, queryList, width=0.3, color="blue")
+  plt.xlabel("number of tuples")
+  plt.ylabel("average time of provenance query")
+  plt.show()
+
+
 def drawProbQueryTimes_7():
   xList = ["100", "200", "300", "400", "500", "600", "700", "800", "900", "1000"]
   queryList = [0.0003, 0.0003, 0.0004, 0.0004, 0.0044, 0.0046, 0.0056, 0.0058, 0.0086, 0.0168]
@@ -238,6 +258,7 @@ if __name__ == '__main__':
   # drawQueryTimes_4()
   # drawQueryTimes_5()
   # drawQueryTimes_7()
+  drawQueryTimes_11()
   # drawMaintenanceTime_7()
   # drawProbQueryTimes_7AVG()
   # drawProbQueryTimes_7AVG_Logscale()
@@ -245,6 +266,6 @@ if __name__ == '__main__':
   # drawInflQueryTimes_7()
   # drawInflQueryTimes_7AVG()
   # drawInflQueryTimes_7AVG_equa()
-  drawInflQueryTimes_7AVG_Logscale()
+  # drawInflQueryTimes_7AVG_Logscale()
   # drawInflQueryTimes_8AVG_Logscale()
   # drawTupleNumber_Logscale()
