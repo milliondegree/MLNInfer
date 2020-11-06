@@ -40,7 +40,7 @@ def parseFileFinal(f):
 
 
 if __name__=="__main__":
-  dire = "sample7"
+  dire = "sample11"
   name = "influEquation"
   queryList = ["cliques", "unobserved", "pgibbs", "gibbs", "influ"]
   file_names = [
