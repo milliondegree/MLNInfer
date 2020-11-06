@@ -180,7 +180,7 @@ for i in range(args.n):
   df = dfList[i]
   hcount = 0
   lcount = 0
-  while hcount < 70:
+  while hcount < 75:
     predicate, a1, a2 = hl[ih]
     if a2 not in m:
       m[a2] = len(m)+1
@@ -190,7 +190,7 @@ for i in range(args.n):
     ih += 1
     if ih == len(hl):
       ih = 0
-  while lcount < 30:
+  while lcount < 25:
     predicate, a1, a2 = ll[il]
     if a1 in m and a2 in m:
       olist.append(predicate+"_"+str(m[a1])+"_"+str(m[a2])+" 1\n")

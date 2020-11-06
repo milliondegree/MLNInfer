@@ -36,8 +36,6 @@ double Influence::influenceQuery(MLN& mln, string& query, string& infl) {
 
 
 void Influence::computePartialDerivatives(MLN& mln, string& infl, map<string, double>& probs, vector<Clique>& cliques, map<string, vector<int>>& c_map) {
-  clock_t t1 = clock();
-  clock_t t_accu = 0;
   for (string numerator : this->queries) {
     // for each queried tuple, use its probability formula
     int n_i = this->l_index[numerator];
@@ -49,10 +47,7 @@ void Influence::computePartialDerivatives(MLN& mln, string& infl, map<string, do
         this->partialDerivs[n_i][d_i] = 1.0;
       }
       else {
-        clock_t t3 = clock();
         double accu = getAccuPotential(numerator, denominator, probs, cliques, c_map);
-        clock_t t4 = clock();
-        t_accu += t4-t3;
         this->partialDerivs[n_i][d_i] = base*accu;
       }
     }
@@ -61,7 +56,6 @@ void Influence::computePartialDerivatives(MLN& mln, string& infl, map<string, do
     double accu = getAccuPotential(numerator, infl, probs, cliques, c_map);
     this->partialDerivs[n_i][d_i] = base*accu;
   }
-  clock_t t2 = clock();
 }
 
 
@@ -86,50 +80,50 @@ vector<vector<double>> Influence::getPartialDeriv() {
 double Influence::getAccuPotential(string& numerator, string& denominator, map<string, double>& probs, vector<Clique>& cliques, map<string, vector<int>>& c_map) {
   double accu = 0.0;
   for (int c_i : c_map[numerator]) {
-    // Clique c = cliques[c_i];
-    if (!cliques[c_i].isSingular()) {
-      if (cliques[c_i].isRuleHead(numerator)&&cliques[c_i].isRuleBody(denominator)) {
+    Clique c = cliques[c_i];
+    if (!c.isSingular()) {
+      if (c.isRuleHead(numerator)&&c.isRuleBody(denominator)) {
         double potential = 1.0;
-        potential *= cliques[c_i].getRuleWeight();
-        for (string literal : cliques[c_i].getRuleBody()) {
+        potential *= c.getRuleWeight();
+        for (string literal : c.getRuleBody()) {
           if (literal!=denominator) {
             potential *= probs[literal];
           }
         }
         accu += potential;
       }
-      else if (cliques[c_i].isRuleHead(denominator)&&cliques[c_i].isRuleBody(numerator)) {
+      else if (c.isRuleHead(denominator)&&c.isRuleBody(numerator)) {
         double potential = 1.0;
-        potential *= cliques[c_i].getRuleWeight();
-        for (string literal : cliques[c_i].getRuleBody()) {
+        potential *= c.getRuleWeight();
+        for (string literal : c.getRuleBody()) {
           if (literal!=numerator) {
             potential *= probs[literal];
           }
         }
         accu += potential;
       }
-      else if (cliques[c_i].isRuleBody(numerator)&&cliques[c_i].isRuleBody(denominator)) {
+      else if (c.isRuleBody(numerator)&&c.isRuleBody(denominator)) {
         double potential = 1.0;
-        potential *= -cliques[c_i].getRuleWeight();
-        potential *= (1-probs[cliques[c_i].getRuleHead()]);
-        for (string literal : cliques[c_i].getRuleBody()) {
+        potential *= -c.getRuleWeight();
+        potential *= (1-probs[c.getRuleHead()]);
+        for (string literal : c.getRuleBody()) {
           if (literal!=numerator&&literal!=denominator) {
             potential *= probs[literal];
           }
         }
         accu += potential;
       }
-      else if (cliques[c_i].isRuleHead(numerator)&&cliques[c_i].isRuleName(denominator)) {
+      else if (c.isRuleHead(numerator)&&c.isRuleName(denominator)) {
         double potential = 1.0;
-        for (string literal : cliques[c_i].getRuleBody()) {
+        for (string literal : c.getRuleBody()) {
           potential *= probs[literal];
         }
         accu += potential;
       }
-      else if (cliques[c_i].isRuleBody(numerator)&&cliques[c_i].isRuleName(denominator)) {
+      else if (c.isRuleBody(numerator)&&c.isRuleName(denominator)) {
         double potential = -1.0;
-        potential *= (1-probs[cliques[c_i].getRuleHead()]);
-        for (string literal : cliques[c_i].getRuleBody()) {
+        potential *= (1-probs[c.getRuleHead()]);
+        for (string literal : c.getRuleBody()) {
           if (numerator!=literal) {
             potential *= probs[literal];
           }
