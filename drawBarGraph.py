@@ -180,7 +180,7 @@ def drawInflQueryTimes_7AVG_Logscale():
   ax.bar(x-0.5*w, queryList1, w, label='approx', color='b')
   ax.bar(x+0.5*w, queryList2, w, label='exact', color='r')
   ax.set_ylabel('Influence query time')
-  ax.set_yscale("log")
+  # ax.set_yscale("log")
   ax.set_xlabel('sample size')
   ax.set_xticks(x)
   ax.set_xticklabels(xList)
@@ -243,6 +243,24 @@ def drawCliqueNumber_Logscale():
   plt.show()
 
 
+def drawTupleNumber_11_Logscale():
+  ax = plt.subplot(111)
+  xList = ["100", "200", "300", "400", "500", "600", "700", "800", "900", "1000"]
+  queryList1 = [2.5849056603773586, 3.2642045454545454, 4.014844804318488, 5.136422136422136, 5.897149938042132, 6.141190198366394, 14.230936819172113, 17.97257383966245, 22.804554079696395, 24.391304347826086]
+  queryList2 = [9.370020964360592e-05, 0.00018930113636363548, 0.0002717165991902844, 0.0004482277992277989, 0.0006381734820322162, 0.0006515472578763092, 0.0037706448801742916, 0.005627967299578072, 0.008833262808349144, 0.01018415818686402]
+  x = np.arange(len(xList))
+  w = 0.3
+  ax.bar(x-0.5*w, queryList1, w, label='approx', color='b')
+  ax.bar(x+0.5*w, queryList2, w, label='exact', color='r')
+  ax.set_ylabel('Influence query time')
+  ax.set_yscale("log")
+  ax.set_xlabel('sample size')
+  ax.set_xticks(x)
+  ax.set_xticklabels(xList)
+  ax.legend()
+  plt.show()
+
+
 def drawProbTimes():
   errors = ["1e-1", "1e-2", "1e-3", "1e-4", "1e-5", "1e-6", "1e-7"]
   iterations = [2, 7, 13, 20, 26, 33, 39]
@@ -258,7 +276,7 @@ if __name__ == '__main__':
   # drawQueryTimes_4()
   # drawQueryTimes_5()
   # drawQueryTimes_7()
-  drawQueryTimes_11()
+  # drawQueryTimes_11()
   # drawMaintenanceTime_7()
   # drawProbQueryTimes_7AVG()
   # drawProbQueryTimes_7AVG_Logscale()
@@ -266,6 +284,7 @@ if __name__ == '__main__':
   # drawInflQueryTimes_7()
   # drawInflQueryTimes_7AVG()
   # drawInflQueryTimes_7AVG_equa()
-  # drawInflQueryTimes_7AVG_Logscale()
+  drawInflQueryTimes_7AVG_Logscale()
   # drawInflQueryTimes_8AVG_Logscale()
   # drawTupleNumber_Logscale()
+  # drawTupleNumber_11_Logscale()

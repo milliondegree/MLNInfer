@@ -6,7 +6,7 @@ provenance: cancer_1(r1@n257(smoke_1((r2@n257(friends_1_4*smoke_4((r3@n257(frien
 provenance: cancer_8(r1@n257(smoke_8(r3@n257(friends_7_8*smoke_7((r2@n257(friends_7_8*smoke_8))+(r2@n257(friends_7_1*smoke_1((r3@n257(friends_7_1*smoke_7))+(r2@n257(friends_1_4*smoke_4((r3@n257(friends_1_4*smoke_1))+(r3@n257(friends_3_4*smoke_3((r3@n257(friends_1_3*smoke_1))+(r2@n257(friends_3_4*smoke_4))))))))+(r2@n257(friends_1_3*smoke_3((r3@n257(friends_1_3*smoke_1))+(r2@n257(friends_3_4*smoke_4((r3@n257(friends_3_4*smoke_3))+(r3@n257(friends_1_4*smoke_1))))))))+(r2@n257(friends_1_2*smoke_2((r3@n257(friends_1_2*smoke_1))+(r2@n257(friends_2_5*smoke_5((r3@n257(friends_2_5*smoke_2))+(r2@n257(friends_5_6*smoke_6(r3@n257(friends_5_6*smoke_5))))))))))))))))))
 provenance: cancer_2(r1@n257(smoke_2((r2@n257(friends_2_5*smoke_5((r3@n257(friends_2_5*smoke_2))+(r2@n257(friends_5_6*smoke_6(r3@n257(friends_5_6*smoke_5)))))))+(r3@n257(friends_1_2*smoke_1((r2@n257(friends_1_2*smoke_2))+(r2@n257(friends_1_4*smoke_4((r3@n257(friends_1_4*smoke_1))+(r3@n257(friends_3_4*smoke_3((r3@n257(friends_1_3*smoke_1))+(r2@n257(friends_3_4*smoke_4))))))))+(r3@n257(friends_7_1*smoke_7((r2@n257(friends_7_1*smoke_1))+(r2@n257(friends_7_8*smoke_8(r3@n257(friends_7_8*smoke_7)))))))+(r2@n257(friends_1_3*smoke_3((r3@n257(friends_1_3*smoke_1))+(r2@n257(friends_3_4*smoke_4((r3@n257(friends_3_4*smoke_3))+(r3@n257(friends_1_4*smoke_1))))))))))))))
 provenance: cancer_4(r1@n257(smoke_4((r3@n257(friends_1_4*smoke_1((r2@n257(friends_1_4*smoke_4))+(r2@n257(friends_1_3*smoke_3((r3@n257(friends_1_3*smoke_1))+(r2@n257(friends_3_4*smoke_4)))))+(r3@n257(friends_7_1*smoke_7((r2@n257(friends_7_1*smoke_1))+(r2@n257(friends_7_8*smoke_8(r3@n257(friends_7_8*smoke_7)))))))+(r2@n257(friends_1_2*smoke_2((r3@n257(friends_1_2*smoke_1))+(r2@n257(friends_2_5*smoke_5((r3@n257(friends_2_5*smoke_2))+(r2@n257(friends_5_6*smoke_6(r3@n257(friends_5_6*smoke_5)))))))))))))+(r3@n257(friends_3_4*smoke_3((r2@n257(friends_3_4*smoke_4))+(r3@n257(friends_1_3*smoke_1((r2@n257(friends_1_4*smoke_4))+(r2@n257(friends_1_3*smoke_3))+(r3@n257(friends_7_1*smoke_7((r2@n257(friends_7_1*smoke_1))+(r2@n257(friends_7_8*smoke_8(r3@n257(friends_7_8*smoke_7)))))))+(r2@n257(friends_1_2*smoke_2((r3@n257(friends_1_2*smoke_1))+(r2@n257(friends_2_5*smoke_5((r3@n257(friends_2_5*smoke_2))+(r2@n257(friends_5_6*smoke_6(r3@n257(friends_5_6*smoke_5)))))))))))))))))))
-observed: friends_1_2 friends_2_5 friends_5_6 friends_7_1 cancer_1 friends_1_3 friends_7_8 friends_1_4 cancer_3 r1 friends_3_4 smoke_3 smoke_4 r2 smoke_7 smoke_1 r3 
+observed: r3_r2 friends_1_2 friends_2_5 friends_5_6 r2_r3 friends_7_1 cancer_1 friends_1_3 friends_7_8 friends_1_4 cancer_3 r1 friends_3_4 smoke_3 smoke_4 r2 smoke_7 smoke_1 r3 
 queried: cancer_4 cancer_2 cancer_5 cancer_6 smoke_6 cancer_7 smoke_2 cancer_8 smoke_5 smoke_8 
 clique: cancer
 clique: smoke
@@ -15,32 +15,24 @@ clique: smoke
 clique: friends
 clique: smoke
 clique: friends
-clique: r3 smoke_4 friends_3_4 smoke_3 
-clique: r3 smoke_4 friends_1_4 smoke_1 
+clique: r3_r2 smoke_4 friends_3_4 smoke_3 
+clique: r3_r2 smoke_4 friends_1_4 smoke_1 
 clique: friends
 clique: smoke
 clique: friends
 clique: smoke
-clique: r3 smoke_8 friends_7_8 smoke_7 
-clique: r2 smoke_7 friends_7_1 smoke_1 
-clique: r2 smoke_7 friends_7_8 smoke_8 
+clique: r3_r2 smoke_8 friends_7_8 smoke_7 
+clique: r2_r3 smoke_7 friends_7_1 smoke_1 
 clique: friends
 clique: smoke
 clique: friends
 clique: smoke
 clique: friends
 clique: smoke
-clique: r3 smoke_6 friends_5_6 smoke_5 
-clique: r3 smoke_5 friends_2_5 smoke_2 
-clique: r2 smoke_5 friends_5_6 smoke_6 
-clique: r3 smoke_2 friends_1_2 smoke_1 
-clique: r2 smoke_2 friends_2_5 smoke_5 
-clique: r2 smoke_1 friends_1_3 smoke_3 
-clique: r2 smoke_1 friends_1_4 smoke_4 
-clique: r3 smoke_1 friends_7_1 smoke_7 
-clique: r2 smoke_1 friends_1_2 smoke_2 
-clique: r3 smoke_3 friends_1_3 smoke_1 
-clique: r2 smoke_3 friends_3_4 smoke_4 
+clique: r3_r2 smoke_6 friends_5_6 smoke_5 
+clique: r3_r2 smoke_5 friends_2_5 smoke_2 
+clique: r3_r2 smoke_2 friends_1_2 smoke_1 
+clique: r2_r3 smoke_1 friends_1_3 smoke_3 
 clique: r1 cancer_3 smoke_3 
 clique: cancer
 clique: r1 cancer_7 smoke_7 
@@ -56,30 +48,30 @@ clique: cancer
 clique: r1 cancer_2 smoke_2 
 clique: cancer
 clique: r1 cancer_4 smoke_4 
-c_map: cancer_1 40 41 
-c_map: cancer_2 44 45 
-c_map: cancer_3 0 33 
-c_map: cancer_4 46 47 
-c_map: cancer_5 38 39 
-c_map: cancer_6 36 37 
-c_map: cancer_7 34 35 
-c_map: cancer_8 42 43 
-c_map: friends_1_2 16 25 30 
-c_map: friends_1_3 2 27 31 
-c_map: friends_1_4 4 8 28 
-c_map: friends_2_5 18 23 26 
-c_map: friends_3_4 6 7 32 
-c_map: friends_5_6 20 22 24 
-c_map: friends_7_1 9 14 29 
-c_map: friends_7_8 11 13 15 
-c_map: smoke_1 3 8 14 25 27 28 29 30 31 41 
-c_map: smoke_2 17 23 25 26 30 45 
-c_map: smoke_3 1 7 27 31 32 33 
-c_map: smoke_4 5 7 8 28 32 47 
-c_map: smoke_5 19 22 23 24 26 39 
-c_map: smoke_6 21 22 24 37 
-c_map: smoke_7 10 13 14 15 29 35 
-c_map: smoke_8 12 13 15 43 
+c_map: cancer_1 32 33 
+c_map: cancer_2 36 37 
+c_map: cancer_3 0 25 
+c_map: cancer_4 38 39 
+c_map: cancer_5 30 31 
+c_map: cancer_6 28 29 
+c_map: cancer_7 26 27 
+c_map: cancer_8 34 35 
+c_map: friends_1_2 15 23 
+c_map: friends_1_3 2 24 
+c_map: friends_1_4 4 8 
+c_map: friends_2_5 17 22 
+c_map: friends_3_4 6 7 
+c_map: friends_5_6 19 21 
+c_map: friends_7_1 9 14 
+c_map: friends_7_8 11 13 
+c_map: smoke_1 3 8 14 23 24 33 
+c_map: smoke_2 16 22 23 37 
+c_map: smoke_3 1 7 24 25 
+c_map: smoke_4 5 7 8 39 
+c_map: smoke_5 18 21 22 31 
+c_map: smoke_6 20 21 29 
+c_map: smoke_7 10 13 14 27 
+c_map: smoke_8 12 13 35 
 
 
 

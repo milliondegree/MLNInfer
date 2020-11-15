@@ -83,6 +83,37 @@ void MLN::setPd(unordered_map<string, unordered_map<string, double>> pd) {
 }
 
 
+void MLN::merge() {
+  vector<Clique> ncliques;
+  map<string, vector<int>> nc_map;
+  for (auto it=this->c_map.begin(); it!=c_map.end(); it++) {
+    nc_map[it->first] = vector<int> ();
+  }
+  for (int i=0; i<this->cliques.size(); i++) {
+    int target = -1;
+    for (int j=i+1; j<this->cliques.size(); j++) {
+      if (this->cliques[i].sameLiterals(this->cliques[j])) {
+        target = j;
+        break;
+      }
+    }
+    if (target!=-1) {
+      this->cliques[i] += this->cliques[target];
+      this->prob[this->cliques[i].getRuleName()] = this->cliques[i].getRuleWeight();
+      this->obs.insert(this->cliques[i].getRuleName());
+      this->cliques.erase(this->cliques.begin()+target);
+    }
+    ncliques.push_back(this->cliques[i]);
+    for (string s : this->cliques[i].getLiterals()) {
+      nc_map[s].push_back(ncliques.size()-1);
+    }
+  }
+  this->cliques = ncliques;
+  this->c_map = nc_map;
+}
+
+
+
 void MLN::removeRedundant(string& prov) {
   while (true) {
     if (prov.length()>0 && prov[0]!='(') {
@@ -759,11 +790,12 @@ void MLN::gibbsSampling_vp(int round, string query, double delta) {
         }
         truth_tables[ind][query] = 1.0;
         potentials_1s[query][i] = this->prob[rule_name]*c.satisifiablity(truth_tables[ind]);
-        // cout << rule_name << this->prob[rule_name] << endl;
+        // cout << rule_name << ' ' << this->prob[rule_name] << endl;
+        // cout << c.toString() << endl;
         // potentials_1s[query][i] = c.getPotential(truth_tables[ind]);
         // cout << potentials_1s[query][i] << ' ';
         // cout << c.getPotential(truth_tables[ind]) << ' ';
-        // cout << c.satisifiablity(truth_tables[ind]) << ' ';
+        // cout << c.satisifiablity(truth_tables[ind]) << ' ' << endl;
         // cout << c.toString() << ' ' << rule_name << endl;
         truth_tables[ind][query] = 0.0;
         potentials_0s[query][i] = this->prob[rule_name]*c.satisifiablity(truth_tables[ind]);
@@ -1011,8 +1043,6 @@ unordered_map<string, double> MLN::getInfluence(string query) {
 
 
 
-
-
 string MLN::toString() {
   string res;
   for (Clique c : this->cliques) {
@@ -1023,8 +1053,8 @@ string MLN::toString() {
 
 
 void MLN::saveToFile(ofstream& file) {
-  for (string& prov : this->provs) {
-    file << "provenance: " << prov << endl;
+  for (string provenance : this->provs) {
+    file << "provenance: " << provenance << endl;
   }
   file << "observed: ";
   for (string s : this->obs) {

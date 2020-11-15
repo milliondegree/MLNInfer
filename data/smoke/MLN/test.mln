@@ -1,16 +1,15 @@
 provenance: cancer_1(r1@257(smoke_1(r2@n257(friends_1_2*smoke_2(r3@n257(friends_1_2*smoke_1))))))
-observed: friends_1_2 r2 r3 smoke_1 r1 
+observed: r3_r2 friends_1_2 r2 r3 smoke_1 r1 
 queried: smoke_2 cancer_1 
 clique: cancer
 clique: smoke
 clique: friends
 clique: smoke
-clique: r3 smoke_2 friends_1_2 smoke_1 
-clique: r2 smoke_1 friends_1_2 smoke_2 
+clique: r3_r2 smoke_2 friends_1_2 smoke_1 
 clique: r1 cancer_1 smoke_1 
-c_map: cancer_1 0 6 
-c_map: friends_1_2 2 4 5 
-c_map: smoke_1 1 4 5 6 
-c_map: smoke_2 3 4 5 
+c_map: cancer_1 0 5 
+c_map: friends_1_2 2 4 
+c_map: smoke_1 1 4 5 
+c_map: smoke_2 3 4 
 
 

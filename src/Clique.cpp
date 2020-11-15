@@ -40,6 +40,48 @@ bool Clique:: operator == (Clique& c) {
 }
 
 
+Clique& Clique:: operator += (Clique& c) {
+  if (this->isSingular()) {
+    cout << "ignore singular clique" << endl;
+  }
+  else {
+    this->compound = true;
+    this->rule_name = this->rule_name+"_"+c.getRuleName();
+    this->rule_weight += c.getRuleWeight();
+    this->subCLiques.push_back(c);
+    if (this->rule_heads.size()==0) {
+      this->rule_heads.push_back(this->rule_head);
+    }
+    this->rule_heads.push_back(c.getRuleHead());
+    if (this->rule_bodies.size()==0) {
+      this->rule_bodies.push_back(this->rule_body);
+    }
+    this->rule_bodies.push_back(c.getRuleBody());
+    if (this->literalss.size()==0) {
+      this->literalss.push_back(this->literals);
+    }
+    this->literalss.push_back(c.getLiterals());
+    if (this->sliteralss.size()==0) {
+      this->sliteralss.push_back(this->sliterals);
+    }
+    this->sliteralss.push_back(c.getsLiterals());
+  }
+  return *this;
+}
+
+
+bool Clique:: sameLiterals(Clique& c) {
+  unordered_set<string> a, b;
+  for (string s : this->literals) {
+    a.insert(s);
+  }
+  for (string s : c.getLiterals()) {
+    b.insert(s);
+  }
+  return a==b;
+}
+
+
 double Clique::getPotential(map<string, int>& truth) {
   if (this->literals.size()==1) {
     return this->rule_weight * truth[this->rule_head];
@@ -148,20 +190,36 @@ bool Clique::satisifiablity(unordered_map<string, int>& truth) {
 
 
 double Clique::satisifiablity(unordered_map<string, double>& truth) {
-  double res = 1.0;
-  for (Literal& l : this->sliterals) {
-    if (l.nag) {
-      res *= truth[l.name];
+  if (this->compound) {
+    double ret = 1.0;
+    for (int i=0; i<this->rule_heads.size(); i++) {
+      double res = 1.0;
+      for (Literal& l : this->sliteralss[i]) {
+        if (l.nag) {
+          res *= truth[l.name];
+        }
+        else {
+          res *= 1-truth[l.name];
+        }
+      }
+      res = 1-res;
+      ret *= res;
     }
-    else {
-      res *= 1-truth[l.name];
-    }
+    return ret;
   }
-  res = 1-res;
-  // if (this->rule_weight<0) {
-  //   res = (1-res);
-  // }
-  return res;
+  else {
+    double res = 1.0;
+    for (Literal& l : this->sliterals) {
+      if (l.nag) {
+        res *= truth[l.name];
+      }
+      else {
+        res *= 1-truth[l.name];
+      }
+    }
+    res = 1-res;
+    return res;
+  }
 }
 
 
@@ -225,6 +283,11 @@ vector<string> Clique::getRuleBody() {
 }
 
 
+vector<Literal> Clique::getsLiterals() {
+  return this->sliterals;
+}
+
+
 string Clique::getRuleName() {
   return this->rule_name;
 }
@@ -252,6 +315,11 @@ double Clique::getCost(string& mode) {
 }
 
 
+vector<Clique> Clique::getSubCliques() {
+  assert(this->compound);
+  return this->subCLiques;
+}
+
 
 bool Clique::isHard() {
   return labs(this->rule_weight-DBL_MAX)<1e-10;
@@ -260,6 +328,11 @@ bool Clique::isHard() {
 
 bool Clique::isSingular() {
   return this->literals.size()==1;
+}
+
+
+bool Clique::isCompound() {
+  return this->compound;
 }
 
 

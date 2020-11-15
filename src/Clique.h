@@ -6,6 +6,7 @@
 #include <string>
 #include <map>
 #include <unordered_map>
+#include <unordered_set>
 #include <vector>
 #include <set>
 #include <assert.h>
@@ -34,6 +35,8 @@ public:
   Clique(string rule, double weight, string r_head, vector<string> r_body);
 
   bool operator == (Clique& c);
+  Clique& operator += (Clique& c);
+  bool sameLiterals(Clique& c);
 
   double getPotential(map<string, int>& truth);
   double getPotential(map<string, double>& truth);
@@ -44,13 +47,16 @@ public:
 
   vector<string> getLiterals();
   vector<string> getRuleBody();
+  vector<Literal> getsLiterals();
   string getRuleName();
   string getRuleHead();
   double getRuleWeight();
   double getCost(string& mode);
   double getMinCost();
+  vector<Clique> getSubCliques();
   bool isHard();
   bool isSingular();
+  bool isCompound();
   bool isRuleHead(string& literal);
   bool isRuleBody(string& literal);
   bool isRuleName(string& literal);
@@ -68,6 +74,13 @@ private:
   vector<string> rule_body;
   vector<string> literals;
   vector<Literal> sliterals;
+
+  bool compound = false;
+  vector<string> rule_heads;
+  vector<vector<string>> rule_bodies;
+  vector<vector<string>> literalss;
+  vector<vector<Literal>> sliteralss;
+  vector<Clique> subCLiques;
 
   void buildLiterals();
 };

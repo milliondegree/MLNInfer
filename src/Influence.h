@@ -36,6 +36,7 @@ private:
   unordered_map<string, int> l_index;
 
   double getAccuPotential(string& numerator, string& denominator, map<string, double>& probs, vector<Clique>& cliques, map<string, vector<int>>& c_map);
+  double getPotential(string& numerator, string& denominator, map<string, double>& probs, Clique& c);
 };
 
 

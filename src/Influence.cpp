@@ -79,9 +79,26 @@ vector<vector<double>> Influence::getPartialDeriv() {
 
 double Influence::getAccuPotential(string& numerator, string& denominator, map<string, double>& probs, vector<Clique>& cliques, map<string, vector<int>>& c_map) {
   double accu = 0.0;
+  Clique c;
   for (int c_i : c_map[numerator]) {
-    Clique c = cliques[c_i];
-    if (!c.isSingular()) {
+    c = cliques[c_i];
+    if (c.isCompound()) {
+      double potential = getPotential(numerator, denominator, probs, c);
+      for (Clique cc : c.getSubCliques()) {
+        potential += getPotential(numerator, denominator, probs, cc);
+      }
+      if (!c.isRuleName(numerator)&&!c.isRuleName(denominator)) {
+        potential *= c.getRuleWeight();
+      }
+      accu += potential;
+    }
+    else if (!c.isSingular()) {
+      double potential = getPotential(numerator, denominator, probs, c);
+      if (!c.isRuleName(numerator)&&!c.isRuleName(denominator)) {
+        potential *= c.getRuleWeight();
+      }
+      accu += potential;
+      /*
       if (c.isRuleHead(numerator)&&c.isRuleBody(denominator)) {
         double potential = 1.0;
         potential *= c.getRuleWeight();
@@ -130,9 +147,59 @@ double Influence::getAccuPotential(string& numerator, string& denominator, map<s
         }
         accu += potential;
       }
+      */
     }
   }
   return accu;
+}
+
+
+double Influence::getPotential(string& numerator, string& denominator, map<string, double>& probs, Clique& c) {
+  if (c.isRuleHead(numerator)&&c.isRuleBody(denominator)) {
+    double potential = 1.0;
+    for (string literal : c.getRuleBody()) {
+      if (literal!=denominator) {
+        potential *= probs[literal];
+      }
+    }
+    return potential;
+  }
+  else if (c.isRuleHead(denominator)&&c.isRuleBody(numerator)) {
+    double potential = 1.0;
+    for (string literal : c.getRuleBody()) {
+      if (literal!=numerator) {
+        potential *= probs[literal];
+      }
+    }
+    return potential;
+  }
+  else if (c.isRuleBody(numerator)&&c.isRuleBody(denominator)) {
+    double potential = 1.0;
+    potential *= -(1-probs[c.getRuleHead()]);
+    for (string literal : c.getRuleBody()) {
+      if (literal!=numerator&&literal!=denominator) {
+        potential *= probs[literal];
+      }
+    }
+    return potential;
+  }
+  else if (c.isRuleHead(numerator)&&c.isRuleName(denominator)) {
+    double potential = 1.0;
+    for (string literal : c.getRuleBody()) {
+      potential *= probs[literal];
+    }
+    return potential;
+  }
+  else if (c.isRuleBody(numerator)&&c.isRuleName(denominator)) {
+    double potential = -1.0;
+    potential *= (1-probs[c.getRuleHead()]);
+    for (string literal : c.getRuleBody()) {
+      if (numerator!=literal) {
+        potential *= probs[literal];
+      }
+    }
+    return potential;
+  }
 }
 
 

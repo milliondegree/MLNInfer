@@ -49,6 +49,8 @@ public:
   void setCMap(map<string, vector<int>> c_map);
   void setPd(unordered_map<string, unordered_map<string, double>> pd);
 
+  void merge();
+
   void removeRedundant(string& prov);
   void build(string prov);
 
