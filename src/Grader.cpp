@@ -95,6 +95,7 @@ void Grader::computeGradient(MLN& mln, string query, string infl, int round, dou
   // unordered_set<string> valid_obs;
   // vector<bool> visited (mln.cliques.size(), false);
   // dfsSearch(mln, valid_obs, visited, query);
+  clock_t t1 = clock();
   if (mln.obs.find(infl)==mln.obs.end()) {
     cout << infl << endl;
     mln.pd[query][infl] = 0.0;
@@ -136,6 +137,8 @@ void Grader::computeGradient(MLN& mln, string query, string infl, int round, dou
   double lower_prob = mln.queryProb(query);
   mln.setObsProb(infl, prev);
   mln.pd[query][infl] = (upper_prob-lower_prob) / (upper-lower);
+  clock_t t2 = clock();
+  cout << "mode " << mode << ": influence compute time (" << mode << "): " << ((double)(t2-t1))/CLOCKS_PER_SEC << " seconds" << endl;
 }
 
 
