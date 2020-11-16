@@ -1,8 +1,9 @@
 clique number: 2
 unobserved tuple number: 1
-pgibbs sample time: 8.2e-05 seconds
+pgibbs sample time: 8.5e-05 seconds
 probability of topic_Course_3 is 0.490213
 
+mode pgibbs: influence compute time (pgibbs): 0.000102 seconds
 influence of hasword_algorithm_3 on topic_Course_3 is -0.00978459
 
 clique number: 2
@@ -10,20 +11,23 @@ unobserved tuple number: 1
 pgibbs sample time: 5.7e-05 seconds
 probability of topic_ResearchProject_49 is 0.29903
 
+mode pgibbs: influence compute time (pgibbs): 0.000102 seconds
 influence of hasword_home_49 on topic_ResearchProject_49 is -0.178877
 
 clique number: 2
 unobserved tuple number: 1
-pgibbs sample time: 5.6e-05 seconds
+pgibbs sample time: 5.7e-05 seconds
 probability of topic_Student_41 is 0.774864
 
+mode pgibbs: influence compute time (pgibbs): 0.000105 seconds
 influence of hasword_interest_41 on topic_Student_41 is 0.216349
 
 clique number: 2
 unobserved tuple number: 1
-pgibbs sample time: 5.9e-05 seconds
+pgibbs sample time: 6e-05 seconds
 probability of topic_Student_16 is 0.493937
 
+mode pgibbs: influence compute time (pgibbs): 0.000104 seconds
 influence of hasword_gmt_16 on topic_Student_16 is -0.00606229
 
 clique number: 2
@@ -31,13 +35,15 @@ unobserved tuple number: 1
 pgibbs sample time: 5.4e-05 seconds
 probability of topic_Student_5 is 0.486212
 
+mode pgibbs: influence compute time (pgibbs): 9.8e-05 seconds
 influence of hasword_html_5 on topic_Student_5 is -0.0137816
 
 clique number: 2
 unobserved tuple number: 1
-pgibbs sample time: 5.9e-05 seconds
+pgibbs sample time: 5.8e-05 seconds
 probability of topic_Student_20 is 0.493937
 
+mode pgibbs: influence compute time (pgibbs): 0.000102 seconds
 influence of hasword_date_20 on topic_Student_20 is -0.00606229
 
 clique number: 2
@@ -45,6 +51,7 @@ unobserved tuple number: 1
 pgibbs sample time: 5.6e-05 seconds
 probability of topic_Department_13 is 0.428502
 
+mode pgibbs: influence compute time (pgibbs): 0.000103 seconds
 influence of hasword_develop_13 on topic_Department_13 is -0.0705334
 
 clique number: 2
@@ -52,13 +59,15 @@ unobserved tuple number: 1
 pgibbs sample time: 5.5e-05 seconds
 probability of topic_ResearchProject_30 is 0.496069
 
+mode pgibbs: influence compute time (pgibbs): 0.000101 seconds
 influence of hasword_tree_30 on topic_ResearchProject_30 is -0.00393086
 
 clique number: 2
 unobserved tuple number: 1
-pgibbs sample time: 5.4e-05 seconds
+pgibbs sample time: 5.3e-05 seconds
 probability of topic_Person_10 is 0.505972
 
+mode pgibbs: influence compute time (pgibbs): 9.8e-05 seconds
 influence of hasword_jan_10 on topic_Person_10 is 0.00597113
 
 clique number: 2
@@ -66,6 +75,7 @@ unobserved tuple number: 1
 pgibbs sample time: 5.4e-05 seconds
 probability of topic_Staff_23 is 0.464129
 
+mode pgibbs: influence compute time (pgibbs): 9.7e-05 seconds
 influence of hasword_texa_23 on topic_Staff_23 is -0.0357499
 
 clique number: 2
@@ -73,27 +83,31 @@ unobserved tuple number: 1
 pgibbs sample time: 5.6e-05 seconds
 probability of topic_Faculty_47 is 0.650745
 
+mode pgibbs: influence compute time (pgibbs): 0.000111 seconds
 influence of hasword_fall_47 on topic_Faculty_47 is 0.14157
 
 clique number: 2
 unobserved tuple number: 1
-pgibbs sample time: 5.4e-05 seconds
+pgibbs sample time: 5.5e-05 seconds
 probability of topic_Department_38 is 0.535473
 
+mode pgibbs: influence compute time (pgibbs): 0.0001 seconds
 influence of hasword_data_38 on topic_Department_38 is 0.0353552
 
 clique number: 5
 unobserved tuple number: 2
-pgibbs sample time: 0.000212 seconds
+pgibbs sample time: 0.000213 seconds
 probability of topic_Staff_43 is 0.451443
 
+mode pgibbs: influence compute time (pgibbs): 0.000409 seconds
 influence of links_43_40 on topic_Staff_43 is -0.015817
 
 clique number: 5
 unobserved tuple number: 2
-pgibbs sample time: 0.000218 seconds
+pgibbs sample time: 0.000219 seconds
 probability of topic_Department_35 is 0.514794
 
+mode pgibbs: influence compute time (pgibbs): 0.000422 seconds
 influence of links_22_35 on topic_Department_35 is 0.00789694
 
 clique number: 5
@@ -101,27 +115,31 @@ unobserved tuple number: 2
 pgibbs sample time: 0.000209 seconds
 probability of topic_Person_61 is 0.499062
 
+mode pgibbs: influence compute time (pgibbs): 0.000405 seconds
 influence of rl on topic_Person_61 is 0.116204
 
 clique number: 2
 unobserved tuple number: 1
-pgibbs sample time: 5.6e-05 seconds
+pgibbs sample time: 5.7e-05 seconds
 probability of topic_ResearchProject_45 is 0.499619
 
+mode pgibbs: influence compute time (pgibbs): 0.000103 seconds
 influence of hasword_utexa_45 on topic_ResearchProject_45 is -0.00038101
 
 clique number: 2
 unobserved tuple number: 1
-pgibbs sample time: 5.6e-05 seconds
+pgibbs sample time: 5.7e-05 seconds
 probability of topic_ResearchProject_3 is 0.401107
 
+mode pgibbs: influence compute time (pgibbs): 0.000103 seconds
 influence of hasword_algorithm_3 on topic_ResearchProject_3 is -0.0963311
 
 clique number: 2
 unobserved tuple number: 1
-pgibbs sample time: 5.5e-05 seconds
+pgibbs sample time: 5.6e-05 seconds
 probability of topic_Department_53 is 0.480109
 
+mode pgibbs: influence compute time (pgibbs): 0.000102 seconds
 influence of hasword_date_53 on topic_Department_53 is -0.0198703
 
 clique number: 2
@@ -129,6 +147,7 @@ unobserved tuple number: 1
 pgibbs sample time: 5.5e-05 seconds
 probability of topic_Department_23 is 0.442131
 
+mode pgibbs: influence compute time (pgibbs): 0.000102 seconds
 influence of hasword_texa_23 on topic_Department_23 is -0.0573588
 
 clique number: 2
@@ -136,13 +155,15 @@ unobserved tuple number: 1
 pgibbs sample time: 5.6e-05 seconds
 probability of topic_Student_54 is 0.386345
 
+mode pgibbs: influence compute time (pgibbs): 0.000104 seconds
 influence of hasword_syllabu_54 on topic_Student_54 is -0.109756
 
 clique number: 2
 unobserved tuple number: 1
-pgibbs sample time: 5.5e-05 seconds
+pgibbs sample time: 5.6e-05 seconds
 probability of topic_Department_5 is 0.481264
 
+mode pgibbs: influence compute time (pgibbs): 0.000103 seconds
 influence of hasword_html_5 on topic_Department_5 is -0.0187186
 
 clique number: 2
@@ -150,20 +171,23 @@ unobserved tuple number: 1
 pgibbs sample time: 5.4e-05 seconds
 probability of topic_Person_58 is 0.505972
 
+mode pgibbs: influence compute time (pgibbs): 9.9e-05 seconds
 influence of hasword_jan_58 on topic_Person_58 is 0.00597113
 
 clique number: 3
 unobserved tuple number: 1
-pgibbs sample time: 7.1e-05 seconds
+pgibbs sample time: 7e-05 seconds
 probability of topic_Student_9 is 0.425073
 
+mode pgibbs: influence compute time (pgibbs): 0.000128 seconds
 influence of hasword_facil_9 on topic_Student_9 is -0.0559471
 
 clique number: 5
 unobserved tuple number: 2
-pgibbs sample time: 0.000207 seconds
+pgibbs sample time: 0.000208 seconds
 probability of topic_Staff_21 is 0.50915
 
+mode pgibbs: influence compute time (pgibbs): 0.0004 seconds
 influence of links_51_21 on topic_Staff_21 is 0.0126133
 
 clique number: 2
@@ -171,20 +195,23 @@ unobserved tuple number: 1
 pgibbs sample time: 5.5e-05 seconds
 probability of topic_Person_3 is 0.454429
 
+mode pgibbs: influence compute time (pgibbs): 0.0001 seconds
 influence of hasword_algorithm_3 on topic_Person_3 is -0.0453219
 
 clique number: 6
 unobserved tuple number: 2
-pgibbs sample time: 0.000254 seconds
+pgibbs sample time: 0.00025 seconds
 probability of topic_Student_47 is 0.455797
 
+mode pgibbs: influence compute time (pgibbs): 0.000485 seconds
 influence of links_47_12 on topic_Student_47 is -0.014318
 
 clique number: 2
 unobserved tuple number: 1
-pgibbs sample time: 5.5e-05 seconds
+pgibbs sample time: 5.6e-05 seconds
 probability of topic_Department_33 is 0.643413
 
+mode pgibbs: influence compute time (pgibbs): 0.000101 seconds
 influence of hasword_home_33 on topic_Department_33 is 0.135527
 
 clique number: 2
@@ -192,6 +219,7 @@ unobserved tuple number: 1
 pgibbs sample time: 5.7e-05 seconds
 probability of topic_Faculty_15 is 0.429819
 
+mode pgibbs: influence compute time (pgibbs): 0.000105 seconds
 influence of hasword_modifi_15 on topic_Faculty_15 is -0.0692693
 
 clique number: 2
@@ -199,27 +227,31 @@ unobserved tuple number: 1
 pgibbs sample time: 5.5e-05 seconds
 probability of topic_Student_37 is 0.511284
 
+mode pgibbs: influence compute time (pgibbs): 0.000102 seconds
 influence of hasword_austin_37 on topic_Student_37 is 0.0112801
 
 clique number: 5
 unobserved tuple number: 2
-pgibbs sample time: 0.000209 seconds
+pgibbs sample time: 0.000207 seconds
 probability of topic_Person_21 is 0.397759
 
+mode pgibbs: influence compute time (pgibbs): 0.000398 seconds
 influence of links_51_21 on topic_Person_21 is 0.0138157
 
 clique number: 3
 unobserved tuple number: 1
-pgibbs sample time: 7.3e-05 seconds
+pgibbs sample time: 7.4e-05 seconds
 probability of topic_ResearchProject_26 is 0.543882
 
+mode pgibbs: influence compute time (pgibbs): 0.000137 seconds
 influence of hasword_prototyp_26 on topic_ResearchProject_26 is 0.00193767
 
 clique number: 5
 unobserved tuple number: 2
-pgibbs sample time: 0.000207 seconds
+pgibbs sample time: 0.000206 seconds
 probability of topic_Person_51 is 0.494868
 
+mode pgibbs: influence compute time (pgibbs): 0.0004 seconds
 influence of links_51_21 on topic_Person_51 is -0.0114851
 
 clique number: 2
@@ -227,6 +259,7 @@ unobserved tuple number: 1
 pgibbs sample time: 5.3e-05 seconds
 probability of topic_Person_30 is 0.490523
 
+mode pgibbs: influence compute time (pgibbs): 0.0001 seconds
 influence of hasword_tree_30 on topic_Person_30 is -0.00947468
 
 clique number: 2
@@ -234,6 +267,7 @@ unobserved tuple number: 1
 pgibbs sample time: 5.4e-05 seconds
 probability of topic_Person_38 is 0.34738
 
+mode pgibbs: influence compute time (pgibbs): 9.8e-05 seconds
 influence of hasword_data_38 on topic_Person_38 is -0.143093
 
 clique number: 2
@@ -241,13 +275,15 @@ unobserved tuple number: 1
 pgibbs sample time: 5.7e-05 seconds
 probability of topic_Department_3 is 0.420608
 
+mode pgibbs: influence compute time (pgibbs): 0.000104 seconds
 influence of hasword_algorithm_3 on topic_Department_3 is -0.0780703
 
 clique number: 2
 unobserved tuple number: 1
-pgibbs sample time: 5.4e-05 seconds
+pgibbs sample time: 5.3e-05 seconds
 probability of topic_Staff_34 is 0.493938
 
+mode pgibbs: influence compute time (pgibbs): 9.8e-05 seconds
 influence of hasword_man_34 on topic_Staff_34 is -0.00606134
 
 clique number: 2
@@ -255,6 +291,7 @@ unobserved tuple number: 1
 pgibbs sample time: 5.3e-05 seconds
 probability of topic_Staff_16 is 0.447858
 
+mode pgibbs: influence compute time (pgibbs): 9.8e-05 seconds
 influence of hasword_gmt_16 on topic_Staff_16 is -0.0517685
 
 clique number: 2
@@ -262,13 +299,15 @@ unobserved tuple number: 1
 pgibbs sample time: 5.5e-05 seconds
 probability of topic_Faculty_32 is 0.406926
 
+mode pgibbs: influence compute time (pgibbs): 0.000102 seconds
 influence of hasword_softwar_32 on topic_Faculty_32 is -0.0909402
 
 clique number: 5
 unobserved tuple number: 2
-pgibbs sample time: 0.000217 seconds
+pgibbs sample time: 0.000218 seconds
 probability of topic_ResearchProject_22 is 0.607869
 
+mode pgibbs: influence compute time (pgibbs): 0.000423 seconds
 influence of links_22_35 on topic_ResearchProject_22 is -0.0152014
 
 clique number: 2
@@ -276,6 +315,7 @@ unobserved tuple number: 1
 pgibbs sample time: 5.4e-05 seconds
 probability of topic_Person_49 is 0.699056
 
+mode pgibbs: influence compute time (pgibbs): 9.8e-05 seconds
 influence of hasword_home_49 on topic_Person_49 is 0.177604
 
 clique number: 2
@@ -283,6 +323,7 @@ unobserved tuple number: 1
 pgibbs sample time: 5.6e-05 seconds
 probability of topic_Department_50 is 0.476935
 
+mode pgibbs: influence compute time (pgibbs): 0.000108 seconds
 influence of hasword_art_50 on topic_Department_50 is -0.0230332
 
 clique number: 3
@@ -290,13 +331,15 @@ unobserved tuple number: 1
 pgibbs sample time: 7e-05 seconds
 probability of topic_Course_9 is 0.462346
 
+mode pgibbs: influence compute time (pgibbs): 0.000127 seconds
 influence of hasword_facil_9 on topic_Course_9 is 0.0186937
 
 clique number: 2
 unobserved tuple number: 1
-pgibbs sample time: 5.6e-05 seconds
+pgibbs sample time: 5.5e-05 seconds
 probability of topic_Course_42 is 0.523905
 
+mode pgibbs: influence compute time (pgibbs): 0.000101 seconds
 influence of hasword_scienc_42 on topic_Course_42 is 0.0238688
 
 clique number: 2
@@ -304,6 +347,7 @@ unobserved tuple number: 1
 pgibbs sample time: 5.5e-05 seconds
 probability of topic_Faculty_65 is 0.449955
 
+mode pgibbs: influence compute time (pgibbs): 0.000101 seconds
 influence of hasword_high_65 on topic_Faculty_65 is -0.0497152
 
 clique number: 5
@@ -311,6 +355,7 @@ unobserved tuple number: 2
 pgibbs sample time: 0.00021 seconds
 probability of topic_Staff_47 is 0.384983
 
+mode pgibbs: influence compute time (pgibbs): 0.000405 seconds
 influence of links_47_12 on topic_Staff_47 is -0.0138193
 
 clique number: 2
@@ -318,13 +363,15 @@ unobserved tuple number: 1
 pgibbs sample time: 5.7e-05 seconds
 probability of topic_Faculty_54 is 0.486159
 
+mode pgibbs: influence compute time (pgibbs): 0.000103 seconds
 influence of hasword_syllabu_54 on topic_Faculty_54 is -0.013834
 
 clique number: 2
 unobserved tuple number: 1
-pgibbs sample time: 5.5e-05 seconds
+pgibbs sample time: 5.6e-05 seconds
 probability of topic_Person_64 is 0.497282
 
+mode pgibbs: influence compute time (pgibbs): 0.000101 seconds
 influence of hasword_laboratori_64 on topic_Person_64 is -0.00271792
 
 clique number: 2
@@ -332,20 +379,23 @@ unobserved tuple number: 1
 pgibbs sample time: 5.4e-05 seconds
 probability of topic_Staff_48 is 0.459677
 
+mode pgibbs: influence compute time (pgibbs): 0.0001 seconds
 influence of hasword_apr_48 on topic_Staff_48 is -0.0401503
 
 clique number: 2
 unobserved tuple number: 1
-pgibbs sample time: 5.5e-05 seconds
+pgibbs sample time: 5.6e-05 seconds
 probability of topic_ResearchProject_11 is 0.210008
 
+mode pgibbs: influence compute time (pgibbs): 0.000102 seconds
 influence of hasword_dec_11 on topic_ResearchProject_11 is -0.220648
 
 clique number: 2
 unobserved tuple number: 1
-pgibbs sample time: 5.5e-05 seconds
+pgibbs sample time: 5.6e-05 seconds
 probability of topic_Student_17 is 0.298945
 
+mode pgibbs: influence compute time (pgibbs): 0.000102 seconds
 influence of hasword_materi_17 on topic_Student_17 is -0.178933
 
 clique number: 3
@@ -353,34 +403,39 @@ unobserved tuple number: 1
 pgibbs sample time: 7.1e-05 seconds
 probability of topic_Person_44 is 0.548804
 
+mode pgibbs: influence compute time (pgibbs): 0.000128 seconds
 influence of r1714 on topic_Person_44 is 0.247616
 
 clique number: 5
 unobserved tuple number: 2
-pgibbs sample time: 0.000216 seconds
+pgibbs sample time: 0.000217 seconds
 probability of topic_ResearchProject_19 is 0.503998
 
+mode pgibbs: influence compute time (pgibbs): 0.000418 seconds
 influence of links_33_19 on topic_ResearchProject_19 is 0.0202249
 
 clique number: 2
 unobserved tuple number: 1
-pgibbs sample time: 5.5e-05 seconds
+pgibbs sample time: 5.6e-05 seconds
 probability of topic_Faculty_38 is 0.477852
 
+mode pgibbs: influence compute time (pgibbs): 0.000115 seconds
 influence of hasword_data_38 on topic_Faculty_38 is -0.0221194
 
 clique number: 5
 unobserved tuple number: 2
-pgibbs sample time: 0.000207 seconds
+pgibbs sample time: 0.000208 seconds
 probability of topic_Course_51 is 0.462152
 
+mode pgibbs: influence compute time (pgibbs): 0.000402 seconds
 influence of links_51_21 on topic_Course_51 is -0.0147837
 
 clique number: 2
 unobserved tuple number: 1
-pgibbs sample time: 5.7e-05 seconds
+pgibbs sample time: 5.8e-05 seconds
 probability of topic_Faculty_64 is 0.53041
 
+mode pgibbs: influence compute time (pgibbs): 0.000104 seconds
 influence of hasword_laboratori_64 on topic_Faculty_64 is 0.0303357
 
 clique number: 2
@@ -388,13 +443,15 @@ unobserved tuple number: 1
 pgibbs sample time: 5.5e-05 seconds
 probability of topic_Person_31 is 0.484264
 
+mode pgibbs: influence compute time (pgibbs): 0.0001 seconds
 influence of hasword_sequenc_31 on topic_Person_31 is -0.0157262
 
 clique number: 2
 unobserved tuple number: 1
-pgibbs sample time: 5.5e-05 seconds
+pgibbs sample time: 5.6e-05 seconds
 probability of topic_Staff_37 is 0.472063
 
+mode pgibbs: influence compute time (pgibbs): 0.000101 seconds
 influence of hasword_austin_37 on topic_Staff_37 is -0.0278796
 
 clique number: 3
@@ -402,6 +459,7 @@ unobserved tuple number: 1
 pgibbs sample time: 7.3e-05 seconds
 probability of topic_Student_26 is 0.628265
 
+mode pgibbs: influence compute time (pgibbs): 0.000134 seconds
 influence of r3459 on topic_Student_26 is 0.233546
 
 clique number: 2
@@ -409,6 +467,7 @@ unobserved tuple number: 1
 pgibbs sample time: 5.5e-05 seconds
 probability of topic_Student_32 is 0.466327
 
+mode pgibbs: influence compute time (pgibbs): 0.000103 seconds
 influence of hasword_softwar_32 on topic_Student_32 is -0.0335731
 
 clique number: 2
@@ -416,6 +475,7 @@ unobserved tuple number: 1
 pgibbs sample time: 5.6e-05 seconds
 probability of topic_Person_4 is 0.544751
 
+mode pgibbs: influence compute time (pgibbs): 0.000101 seconds
 influence of hasword_represent_4 on topic_Person_4 is 0.0445154
 
 clique number: 2
@@ -423,13 +483,15 @@ unobserved tuple number: 1
 pgibbs sample time: 5.6e-05 seconds
 probability of topic_ResearchProject_28 is 0.442936
 
+mode pgibbs: influence compute time (pgibbs): 0.0001 seconds
 influence of hasword_gmt_28 on topic_ResearchProject_28 is -0.0565746
 
 clique number: 2
 unobserved tuple number: 1
-pgibbs sample time: 5.4e-05 seconds
+pgibbs sample time: 5.5e-05 seconds
 probability of topic_Person_63 is 0.505972
 
+mode pgibbs: influence compute time (pgibbs): 0.0001 seconds
 influence of hasword_jan_63 on topic_Person_63 is 0.00597113
 
 clique number: 2
@@ -437,13 +499,15 @@ unobserved tuple number: 1
 pgibbs sample time: 5.7e-05 seconds
 probability of topic_Faculty_14 is 0.62985
 
+mode pgibbs: influence compute time (pgibbs): 0.000105 seconds
 influence of hasword_scienc_14 on topic_Faculty_14 is 0.124016
 
 clique number: 2
 unobserved tuple number: 1
-pgibbs sample time: 5.3e-05 seconds
+pgibbs sample time: 5.4e-05 seconds
 probability of topic_Course_52 is 0.435111
 
+mode pgibbs: influence compute time (pgibbs): 9.8e-05 seconds
 influence of hasword_test_52 on topic_Course_52 is -0.0641685
 
 clique number: 2
@@ -451,6 +515,7 @@ unobserved tuple number: 1
 pgibbs sample time: 5.3e-05 seconds
 probability of topic_Course_23 is 0.497804
 
+mode pgibbs: influence compute time (pgibbs): 9.9e-05 seconds
 influence of hasword_texa_23 on topic_Course_23 is -0.00219608
 
 clique number: 2
@@ -458,27 +523,31 @@ unobserved tuple number: 1
 pgibbs sample time: 5.6e-05 seconds
 probability of topic_Student_15 is 0.50726
 
+mode pgibbs: influence compute time (pgibbs): 0.000103 seconds
 influence of hasword_modifi_15 on topic_Student_15 is 0.00725901
 
 clique number: 2
 unobserved tuple number: 1
-pgibbs sample time: 5.3e-05 seconds
+pgibbs sample time: 5.4e-05 seconds
 probability of topic_Course_18 is 0.415922
 
+mode pgibbs: influence compute time (pgibbs): 9.8e-05 seconds
 influence of hasword_html_18 on topic_Course_18 is -0.0825073
 
 clique number: 2
 unobserved tuple number: 1
-pgibbs sample time: 5.4e-05 seconds
+pgibbs sample time: 5.3e-05 seconds
 probability of topic_Staff_58 is 0.576178
 
+mode pgibbs: influence compute time (pgibbs): 9.7e-05 seconds
 influence of hasword_jan_58 on topic_Staff_58 is 0.0750113
 
 clique number: 2
 unobserved tuple number: 1
-pgibbs sample time: 5.5e-05 seconds
+pgibbs sample time: 5.6e-05 seconds
 probability of topic_Student_33 is 0.701025
 
+mode pgibbs: influence compute time (pgibbs): 0.000109 seconds
 influence of hasword_home_33 on topic_Student_33 is 0.178913
 
 clique number: 2
@@ -486,6 +555,7 @@ unobserved tuple number: 1
 pgibbs sample time: 5.5e-05 seconds
 probability of topic_Department_16 is 0.480109
 
+mode pgibbs: influence compute time (pgibbs): 0.000101 seconds
 influence of hasword_gmt_16 on topic_Department_16 is -0.0198703
 
 clique number: 2
@@ -493,6 +563,7 @@ unobserved tuple number: 1
 pgibbs sample time: 5.5e-05 seconds
 probability of topic_ResearchProject_16 is 0.442936
 
+mode pgibbs: influence compute time (pgibbs): 0.000101 seconds
 influence of hasword_gmt_16 on topic_ResearchProject_16 is -0.0565746
 
 clique number: 2
@@ -500,13 +571,15 @@ unobserved tuple number: 1
 pgibbs sample time: 5.6e-05 seconds
 probability of topic_Department_32 is 0.376874
 
+mode pgibbs: influence compute time (pgibbs): 0.000105 seconds
 influence of hasword_softwar_32 on topic_Department_32 is -0.118159
 
 clique number: 2
 unobserved tuple number: 1
-pgibbs sample time: 5.4e-05 seconds
+pgibbs sample time: 5.5e-05 seconds
 probability of topic_Course_63 is 0.47654
 
+mode pgibbs: influence compute time (pgibbs): 0.0001 seconds
 influence of hasword_jan_63 on topic_Course_63 is -0.0234264
 
 clique number: 2
@@ -514,6 +587,7 @@ unobserved tuple number: 1
 pgibbs sample time: 5.5e-05 seconds
 probability of topic_Course_57 is 0.52745
 
+mode pgibbs: influence compute time (pgibbs): 0.0001 seconds
 influence of hasword_separ_57 on topic_Course_57 is 0.0273958
 
 clique number: 2
@@ -521,34 +595,39 @@ unobserved tuple number: 1
 pgibbs sample time: 5.6e-05 seconds
 probability of topic_Department_11 is 0.378791
 
+mode pgibbs: influence compute time (pgibbs): 0.000103 seconds
 influence of hasword_dec_11 on topic_Department_11 is -0.116472
 
 clique number: 2
 unobserved tuple number: 1
-pgibbs sample time: 5.5e-05 seconds
+pgibbs sample time: 5.6e-05 seconds
 probability of topic_Student_23 is 0.527927
 
+mode pgibbs: influence compute time (pgibbs): 0.000101 seconds
 influence of hasword_texa_23 on topic_Student_23 is 0.0278699
 
 clique number: 6
 unobserved tuple number: 2
-pgibbs sample time: 0.000266 seconds
+pgibbs sample time: 0.000244 seconds
 probability of topic_Person_47 is 0.473317
 
+mode pgibbs: influence compute time (pgibbs): 0.000461 seconds
 influence of links_47_12 on topic_Person_47 is -0.0129954
 
 clique number: 2
 unobserved tuple number: 1
-pgibbs sample time: 5.6e-05 seconds
+pgibbs sample time: 6.3e-05 seconds
 probability of topic_Faculty_25 is 0.489816
 
+mode pgibbs: influence compute time (pgibbs): 0.000116 seconds
 influence of hasword_jan_25 on topic_Faculty_25 is -0.0101812
 
 clique number: 6
 unobserved tuple number: 2
-pgibbs sample time: 0.000251 seconds
+pgibbs sample time: 0.000252 seconds
 probability of topic_Department_12 is 0.493154
 
+mode pgibbs: influence compute time (pgibbs): 0.000523 seconds
 influence of rl on topic_Department_12 is -0.169322
 
 clique number: 2
@@ -556,41 +635,47 @@ unobserved tuple number: 1
 pgibbs sample time: 5.5e-05 seconds
 probability of topic_Person_53 is 0.498179
 
+mode pgibbs: influence compute time (pgibbs): 9.9e-05 seconds
 influence of hasword_date_53 on topic_Person_53 is -0.00182059
 
 clique number: 2
 unobserved tuple number: 1
-pgibbs sample time: 5.5e-05 seconds
+pgibbs sample time: 5.6e-05 seconds
 probability of topic_Student_58 is 0.524583
 
+mode pgibbs: influence compute time (pgibbs): 0.000102 seconds
 influence of hasword_jan_58 on topic_Student_58 is 0.0245443
 
 clique number: 5
 unobserved tuple number: 2
-pgibbs sample time: 0.000249 seconds
+pgibbs sample time: 0.000209 seconds
 probability of topic_Staff_51 is 0.562237
 
+mode pgibbs: influence compute time (pgibbs): 0.0004 seconds
 influence of links_51_21 on topic_Staff_51 is -0.0143366
 
 clique number: 2
 unobserved tuple number: 1
-pgibbs sample time: 5.7e-05 seconds
+pgibbs sample time: 6.4e-05 seconds
 probability of topic_Department_48 is 0.405568
 
+mode pgibbs: influence compute time (pgibbs): 0.000116 seconds
 influence of hasword_apr_48 on topic_Department_48 is -0.0922034
 
 clique number: 4
 unobserved tuple number: 2
-pgibbs sample time: 0.000187 seconds
+pgibbs sample time: 0.000188 seconds
 probability of topic_Department_39 is 0.385255
 
+mode pgibbs: influence compute time (pgibbs): 0.000371 seconds
 influence of links_61_39 on topic_Department_39 is 0.0137985
 
 clique number: 2
 unobserved tuple number: 1
-pgibbs sample time: 5.5e-05 seconds
+pgibbs sample time: 5.6e-05 seconds
 probability of topic_Faculty_50 is 0.518346
 
+mode pgibbs: influence compute time (pgibbs): 0.000101 seconds
 influence of hasword_art_50 on topic_Faculty_50 is 0.0183294
 
 clique number: 2
@@ -598,20 +683,23 @@ unobserved tuple number: 1
 pgibbs sample time: 5.4e-05 seconds
 probability of topic_Student_1 is 0.468158
 
+mode pgibbs: influence compute time (pgibbs): 9.7e-05 seconds
 influence of hasword_model_1 on topic_Student_1 is -0.031757
 
 clique number: 4
 unobserved tuple number: 2
-pgibbs sample time: 0.000191 seconds
+pgibbs sample time: 0.000187 seconds
 probability of topic_Department_61 is 0.489246
 
+mode pgibbs: influence compute time (pgibbs): 0.000373 seconds
 influence of links_61_39 on topic_Department_61 is -0.0111316
 
 clique number: 5
 unobserved tuple number: 2
-pgibbs sample time: 0.000206 seconds
+pgibbs sample time: 0.000207 seconds
 probability of topic_Course_43 is 0.415091
 
+mode pgibbs: influence compute time (pgibbs): 0.0004 seconds
 influence of links_43_40 on topic_Course_43 is -0.0157655
 
 clique number: 2
@@ -619,6 +707,7 @@ unobserved tuple number: 1
 pgibbs sample time: 5.6e-05 seconds
 probability of topic_Department_65 is 0.409874
 
+mode pgibbs: influence compute time (pgibbs): 0.000101 seconds
 influence of hasword_high_65 on topic_Department_65 is -0.0881902
 
 clique number: 2
@@ -626,6 +715,7 @@ unobserved tuple number: 1
 pgibbs sample time: 5.4e-05 seconds
 probability of topic_Course_10 is 0.47654
 
+mode pgibbs: influence compute time (pgibbs): 9.8e-05 seconds
 influence of hasword_jan_10 on topic_Course_10 is -0.0234264
 
 clique number: 2
@@ -633,6 +723,7 @@ unobserved tuple number: 1
 pgibbs sample time: 5.3e-05 seconds
 probability of topic_Person_16 is 0.498179
 
+mode pgibbs: influence compute time (pgibbs): 9.7e-05 seconds
 influence of hasword_gmt_16 on topic_Person_16 is -0.00182059
 
 clique number: 5
@@ -640,20 +731,23 @@ unobserved tuple number: 2
 pgibbs sample time: 0.000222 seconds
 probability of topic_ResearchProject_61 is 0.688916
 
+mode pgibbs: influence compute time (pgibbs): 0.000609 seconds
 influence of links_61_39 on topic_ResearchProject_61 is -0.0140751
 
 clique number: 6
 unobserved tuple number: 2
-pgibbs sample time: 0.00032 seconds
+pgibbs sample time: 0.000321 seconds
 probability of topic_Course_46 is 0.422137
 
+mode pgibbs: influence compute time (pgibbs): 0.000625 seconds
 influence of links_46_59 on topic_Course_46 is -0.0132223
 
 clique number: 2
 unobserved tuple number: 1
-pgibbs sample time: 5.4e-05 seconds
+pgibbs sample time: 5.8e-05 seconds
 probability of topic_Faculty_2 is 0.52117
 
+mode pgibbs: influence compute time (pgibbs): 9.8e-05 seconds
 influence of hasword_phone_2 on topic_Faculty_2 is 0.0211452
 
 clique number: 6
@@ -661,13 +755,15 @@ unobserved tuple number: 2
 pgibbs sample time: 0.000314 seconds
 probability of topic_Person_59 is 0.492999
 
+mode pgibbs: influence compute time (pgibbs): 0.000615 seconds
 influence of links_46_59 on topic_Person_59 is 0.0151356
 
 clique number: 6
 unobserved tuple number: 2
-pgibbs sample time: 0.000316 seconds
+pgibbs sample time: 0.000317 seconds
 probability of topic_Faculty_59 is 0.570501
 
+mode pgibbs: influence compute time (pgibbs): 0.000621 seconds
 influence of links_59_46 on topic_Faculty_59 is -0.0115942
 
 clique number: 5
@@ -675,6 +771,7 @@ unobserved tuple number: 2
 pgibbs sample time: 0.000208 seconds
 probability of topic_Course_21 is 0.517339
 
+mode pgibbs: influence compute time (pgibbs): 0.000401 seconds
 influence of links_51_21 on topic_Course_21 is 0.0154056
 
 clique number: 2
@@ -682,6 +779,7 @@ unobserved tuple number: 1
 pgibbs sample time: 5.6e-05 seconds
 probability of topic_Staff_45 is 0.494667
 
+mode pgibbs: influence compute time (pgibbs): 0.000101 seconds
 influence of hasword_utexa_45 on topic_Staff_45 is -0.005333
 
 clique number: 2
@@ -689,6 +787,7 @@ unobserved tuple number: 1
 pgibbs sample time: 5.4e-05 seconds
 probability of topic_Person_15 is 0.489056
 
+mode pgibbs: influence compute time (pgibbs): 9.9e-05 seconds
 influence of hasword_modifi_15 on topic_Person_15 is -0.0109402
 
 clique number: 2
@@ -696,13 +795,15 @@ unobserved tuple number: 1
 pgibbs sample time: 5.6e-05 seconds
 probability of topic_ResearchProject_34 is 0.551646
 
+mode pgibbs: influence compute time (pgibbs): 0.000102 seconds
 influence of hasword_man_34 on topic_ResearchProject_34 is 0.0512832
 
 clique number: 2
 unobserved tuple number: 1
-pgibbs sample time: 5.5e-05 seconds
+pgibbs sample time: 5.6e-05 seconds
 probability of topic_ResearchProject_24 is 0.602294
 
+mode pgibbs: influence compute time (pgibbs): 0.000102 seconds
 influence of hasword_research_24 on topic_ResearchProject_24 is 0.0994572
 
 clique number: 2
@@ -710,6 +811,7 @@ unobserved tuple number: 1
 pgibbs sample time: 5.5e-05 seconds
 probability of topic_ResearchProject_13 is 0.522631
 
+mode pgibbs: influence compute time (pgibbs): 0.000101 seconds
 influence of hasword_develop_13 on topic_ResearchProject_13 is 0.0226009
 
 clique number: 2
@@ -717,6 +819,7 @@ unobserved tuple number: 1
 pgibbs sample time: 5.7e-05 seconds
 probability of topic_Department_57 is 0.498504
 
+mode pgibbs: influence compute time (pgibbs): 0.000104 seconds
 influence of hasword_separ_57 on topic_Department_57 is -0.0014964
 
 clique number: 2
@@ -724,6 +827,7 @@ unobserved tuple number: 1
 pgibbs sample time: 5.5e-05 seconds
 probability of topic_Course_8 is 0.615754
 
+mode pgibbs: influence compute time (pgibbs): 0.0001 seconds
 influence of hasword_implement_8 on topic_Course_8 is 0.111633
 
 clique number: 5
@@ -731,13 +835,15 @@ unobserved tuple number: 2
 pgibbs sample time: 0.000223 seconds
 probability of topic_Department_21 is 0.45782
 
+mode pgibbs: influence compute time (pgibbs): 0.000431 seconds
 influence of links_51_21 on topic_Department_21 is 0.0103738
 
 clique number: 2
 unobserved tuple number: 1
-pgibbs sample time: 5.8e-05 seconds
+pgibbs sample time: 5.7e-05 seconds
 probability of topic_Department_7 is 0.480109
 
+mode pgibbs: influence compute time (pgibbs): 0.000105 seconds
 influence of hasword_date_7 on topic_Department_7 is -0.0198703
 
 clique number: 5
@@ -745,76 +851,87 @@ unobserved tuple number: 2
 pgibbs sample time: 0.000282 seconds
 probability of topic_ResearchProject_46 is 0.435427
 
+mode pgibbs: influence compute time (pgibbs): 0.000553 seconds
 influence of links_59_46 on topic_ResearchProject_46 is 0.014334
 
 clique number: 2
 unobserved tuple number: 1
-pgibbs sample time: 5.5e-05 seconds
+pgibbs sample time: 5.4e-05 seconds
 probability of topic_Person_17 is 0.251716
 
+mode pgibbs: influence compute time (pgibbs): 9.8e-05 seconds
 influence of hasword_materi_17 on topic_Person_17 is -0.205764
 
 clique number: 2
 unobserved tuple number: 1
-pgibbs sample time: 5.5e-05 seconds
+pgibbs sample time: 5.4e-05 seconds
 probability of topic_Course_62 is 0.435971
 
+mode pgibbs: influence compute time (pgibbs): 0.000101 seconds
 influence of hasword_length_62 on topic_Course_62 is -0.0633366
 
 clique number: 2
 unobserved tuple number: 1
-pgibbs sample time: 5.5e-05 seconds
+pgibbs sample time: 5.6e-05 seconds
 probability of topic_Department_60 is 0.429697
 
+mode pgibbs: influence compute time (pgibbs): 0.000102 seconds
 influence of hasword_mime_60 on topic_Department_60 is -0.0693861
 
 clique number: 6
 unobserved tuple number: 2
-pgibbs sample time: 0.000251 seconds
+pgibbs sample time: 0.000252 seconds
 probability of topic_Department_47 is 0.335329
 
+mode pgibbs: influence compute time (pgibbs): 0.000673 seconds
 influence of rl on topic_Department_47 is 0.11413
 
 clique number: 3
 unobserved tuple number: 1
-pgibbs sample time: 6.9e-05 seconds
+pgibbs sample time: 7e-05 seconds
 probability of topic_Course_44 is 0.322237
 
+mode pgibbs: influence compute time (pgibbs): 0.000128 seconds
 influence of hasword_call_44 on topic_Course_44 is -0.114537
 
 clique number: 2
 unobserved tuple number: 1
-pgibbs sample time: 5.8e-05 seconds
+pgibbs sample time: 5.7e-05 seconds
 probability of topic_Student_42 is 0.602305
 
+mode pgibbs: influence compute time (pgibbs): 0.000104 seconds
 influence of hasword_scienc_42 on topic_Student_42 is 0.0994675
 
 clique number: 2
 unobserved tuple number: 1
-pgibbs sample time: 5.5e-05 seconds
+pgibbs sample time: 5.6e-05 seconds
 probability of topic_Department_20 is 0.480109
 
+mode pgibbs: influence compute time (pgibbs): 0.000103 seconds
 influence of hasword_date_20 on topic_Department_20 is -0.0198703
 
 clique number: 6
 unobserved tuple number: 2
-pgibbs sample time: 0.00024 seconds
+pgibbs sample time: 0.000241 seconds
 probability of topic_Course_12 is 0.621417
 
+mode pgibbs: influence compute time (pgibbs): 0.000467 seconds
 influence of links_47_12 on topic_Course_12 is 0.00667979
 
 clique number: 2
 unobserved tuple number: 1
-pgibbs sample time: 5.4e-05 seconds
+pgibbs sample time: 5.5e-05 seconds
 probability of topic_Course_14 is 0.523905
 
+mode pgibbs: influence compute time (pgibbs): 9.9e-05 seconds
 influence of hasword_scienc_14 on topic_Course_14 is 0.0238688
 
 clique number: 2
 unobserved tuple number: 1
-pgibbs sample time: 5.4e-05 seconds
+pgibbs sample time: 5.5e-05 seconds
 probability of topic_Person_36 is 0.56344
 
+mode pgibbs: influence compute time (pgibbs): 0.0001 seconds
 influence of hasword_system_36 on topic_Person_36 is 0.0627671
 
 clique number: 2
@@ -822,20 +939,23 @@ unobserved tuple number: 1
 pgibbs sample time: 5.6e-05 seconds
 probability of topic_Student_31 is 0.474627
 
+mode pgibbs: influence compute time (pgibbs): 0.000104 seconds
 influence of hasword_sequenc_31 on topic_Student_31 is -0.0253303
 
 clique number: 2
 unobserved tuple number: 1
-pgibbs sample time: 5.5e-05 seconds
+pgibbs sample time: 5.6e-05 seconds
 probability of topic_Faculty_27 is 0.489816
 
+mode pgibbs: influence compute time (pgibbs): 0.000103 seconds
 influence of hasword_jan_27 on topic_Faculty_27 is -0.0101812
 
 clique number: 2
 unobserved tuple number: 1
-pgibbs sample time: 5.5e-05 seconds
+pgibbs sample time: 7.1e-05 seconds
 probability of topic_Person_57 is 0.476931
 
+mode pgibbs: influence compute time (pgibbs): 0.000101 seconds
 influence of hasword_separ_57 on topic_Person_57 is -0.0230362
 
 clique number: 2
@@ -843,13 +963,15 @@ unobserved tuple number: 1
 pgibbs sample time: 5.4e-05 seconds
 probability of topic_Person_13 is 0.513057
 
+mode pgibbs: influence compute time (pgibbs): 9.9e-05 seconds
 influence of hasword_develop_13 on topic_Person_13 is 0.0130511
 
 clique number: 5
 unobserved tuple number: 2
-pgibbs sample time: 0.000209 seconds
+pgibbs sample time: 0.00021 seconds
 probability of topic_Staff_39 is 0.694554
 
+mode pgibbs: influence compute time (pgibbs): 0.000434 seconds
 influence of rl on topic_Staff_39 is -0.109697
 
 clique number: 5
@@ -857,27 +979,31 @@ unobserved tuple number: 2
 pgibbs sample time: 0.000208 seconds
 probability of topic_Course_39 is 0.65972
 
+mode pgibbs: influence compute time (pgibbs): 0.00041 seconds
 influence of links_61_39 on topic_Course_39 is 0.0171924
 
 clique number: 2
 unobserved tuple number: 1
-pgibbs sample time: 5.6e-05 seconds
+pgibbs sample time: 5.5e-05 seconds
 probability of topic_Student_48 is 0.459081
 
+mode pgibbs: influence compute time (pgibbs): 0.0001 seconds
 influence of hasword_apr_48 on topic_Student_48 is -0.0407386
 
 clique number: 2
 unobserved tuple number: 1
-pgibbs sample time: 5.6e-05 seconds
+pgibbs sample time: 9.2e-05 seconds
 probability of topic_Faculty_57 is 0.490698
 
+mode pgibbs: influence compute time (pgibbs): 0.000116 seconds
 influence of hasword_separ_57 on topic_Faculty_57 is -0.00929991
 
 clique number: 2
 unobserved tuple number: 1
-pgibbs sample time: 5.5e-05 seconds
+pgibbs sample time: 5.6e-05 seconds
 probability of topic_Student_14 is 0.602305
 
+mode pgibbs: influence compute time (pgibbs): 0.000103 seconds
 influence of hasword_scienc_14 on topic_Student_14 is 0.0994675
 
 clique number: 5
@@ -885,6 +1011,7 @@ unobserved tuple number: 2
 pgibbs sample time: 0.000222 seconds
 probability of topic_Student_61 is 0.400758
 
+mode pgibbs: influence compute time (pgibbs): 0.00043 seconds
 influence of links_61_39 on topic_Student_61 is -0.00899542
 
 clique number: 2
@@ -892,27 +1019,31 @@ unobserved tuple number: 1
 pgibbs sample time: 5.5e-05 seconds
 probability of topic_Staff_57 is 0.479842
 
+mode pgibbs: influence compute time (pgibbs): 0.0001 seconds
 influence of hasword_separ_57 on topic_Staff_57 is -0.0201368
 
 clique number: 2
 unobserved tuple number: 1
-pgibbs sample time: 5.4e-05 seconds
+pgibbs sample time: 5.5e-05 seconds
 probability of topic_Staff_54 is 0.497096
 
+mode pgibbs: influence compute time (pgibbs): 0.000101 seconds
 influence of hasword_syllabu_54 on topic_Staff_54 is -0.002904
 
 clique number: 6
 unobserved tuple number: 2
-pgibbs sample time: 0.000315 seconds
+pgibbs sample time: 0.000317 seconds
 probability of topic_Person_46 is 0.486778
 
+mode pgibbs: influence compute time (pgibbs): 0.000617 seconds
 influence of links_46_59 on topic_Person_46 is -0.0145941
 
 clique number: 2
 unobserved tuple number: 1
-pgibbs sample time: 5.7e-05 seconds
+pgibbs sample time: 5.8e-05 seconds
 probability of topic_ResearchProject_32 is 0.651756
 
+mode pgibbs: influence compute time (pgibbs): 0.000105 seconds
 influence of hasword_softwar_32 on topic_ResearchProject_32 is 0.142392
 
 clique number: 5
@@ -920,27 +1051,31 @@ unobserved tuple number: 2
 pgibbs sample time: 0.000216 seconds
 probability of topic_Faculty_43 is 0.458867
 
+mode pgibbs: influence compute time (pgibbs): 0.000417 seconds
 influence of links_43_40 on topic_Faculty_43 is -0.0167131
 
 clique number: 2
 unobserved tuple number: 1
-pgibbs sample time: 5.4e-05 seconds
+pgibbs sample time: 5.5e-05 seconds
 probability of topic_Staff_18 is 0.423377
 
+mode pgibbs: influence compute time (pgibbs): 9.8e-05 seconds
 influence of hasword_html_18 on topic_Staff_18 is -0.0754351
 
 clique number: 2
 unobserved tuple number: 1
-pgibbs sample time: 5.4e-05 seconds
+pgibbs sample time: 5.3e-05 seconds
 probability of topic_Staff_1 is 0.521778
 
+mode pgibbs: influence compute time (pgibbs): 9.7e-05 seconds
 influence of hasword_model_1 on topic_Staff_1 is 0.0217507
 
 clique number: 2
 unobserved tuple number: 1
-pgibbs sample time: 5.5e-05 seconds
+pgibbs sample time: 5.7e-05 seconds
 probability of topic_Department_14 is 0.412026
 
+mode pgibbs: influence compute time (pgibbs): 0.000102 seconds
 influence of hasword_scienc_14 on topic_Department_14 is -0.0861742
 
 clique number: 2
@@ -948,6 +1083,7 @@ unobserved tuple number: 1
 pgibbs sample time: 5.5e-05 seconds
 probability of topic_ResearchProject_23 is 0.46694
 
+mode pgibbs: influence compute time (pgibbs): 0.000102 seconds
 influence of hasword_texa_23 on topic_ResearchProject_23 is -0.0329654
 
 clique number: 5
@@ -955,6 +1091,7 @@ unobserved tuple number: 2
 pgibbs sample time: 0.000219 seconds
 probability of topic_Student_40 is 0.616323
 
+mode pgibbs: influence compute time (pgibbs): 0.000422 seconds
 influence of links_43_40 on topic_Student_40 is 0.0128459
 
 clique number: 2
@@ -962,13 +1099,15 @@ unobserved tuple number: 1
 pgibbs sample time: 5.6e-05 seconds
 probability of topic_Department_55 is 0.39707
 
+mode pgibbs: influence compute time (pgibbs): 0.000103 seconds
 influence of hasword_modifi_55 on topic_Department_55 is -0.100039
 
 clique number: 2
 unobserved tuple number: 1
-pgibbs sample time: 5.4e-05 seconds
+pgibbs sample time: 5.5e-05 seconds
 probability of topic_Staff_50 is 0.470018
 
+mode pgibbs: influence compute time (pgibbs): 9.9e-05 seconds
 influence of hasword_art_50 on topic_Staff_50 is -0.0299109
 
 clique number: 2
@@ -976,6 +1115,7 @@ unobserved tuple number: 1
 pgibbs sample time: 5.4e-05 seconds
 probability of topic_Course_34 is 0.489873
 
+mode pgibbs: influence compute time (pgibbs): 9.9e-05 seconds
 influence of hasword_man_34 on topic_Course_34 is -0.0101243
 
 clique number: 5
@@ -983,13 +1123,15 @@ unobserved tuple number: 2
 pgibbs sample time: 0.000207 seconds
 probability of topic_Course_19 is 0.695218
 
+mode pgibbs: influence compute time (pgibbs): 0.000399 seconds
 influence of links_33_19 on topic_Course_19 is 0.0109009
 
 clique number: 2
 unobserved tuple number: 1
-pgibbs sample time: 5.6e-05 seconds
+pgibbs sample time: 5.7e-05 seconds
 probability of topic_Faculty_44 is 0.480273
 
+mode pgibbs: influence compute time (pgibbs): 0.000103 seconds
 influence of hasword_formal_44 on topic_Faculty_44 is -0.0197064
 
 clique number: 2
@@ -997,34 +1139,39 @@ unobserved tuple number: 1
 pgibbs sample time: 5.6e-05 seconds
 probability of topic_ResearchProject_15 is 0.474026
 
+mode pgibbs: influence compute time (pgibbs): 0.000104 seconds
 influence of hasword_modifi_15 on topic_ResearchProject_15 is -0.0259275
 
 clique number: 2
 unobserved tuple number: 1
-pgibbs sample time: 5.6e-05 seconds
+pgibbs sample time: 5.7e-05 seconds
 probability of topic_Department_17 is 0.572671
 
+mode pgibbs: influence compute time (pgibbs): 0.000104 seconds
 influence of hasword_materi_17 on topic_Department_17 is 0.0716584
 
 clique number: 6
 unobserved tuple number: 2
-pgibbs sample time: 0.00032 seconds
+pgibbs sample time: 0.000319 seconds
 probability of topic_Course_59 is 0.452114
 
+mode pgibbs: influence compute time (pgibbs): 0.000624 seconds
 influence of links_46_59 on topic_Course_59 is 0.0167118
 
 clique number: 2
 unobserved tuple number: 1
-pgibbs sample time: 5.6e-05 seconds
+pgibbs sample time: 5.5e-05 seconds
 probability of topic_Staff_32 is 0.59457
 
+mode pgibbs: influence compute time (pgibbs): 0.000101 seconds
 influence of hasword_softwar_32 on topic_Staff_32 is 0.0923317
 
 clique number: 2
 unobserved tuple number: 1
-pgibbs sample time: 5.8e-05 seconds
+pgibbs sample time: 5.6e-05 seconds
 probability of topic_Faculty_3 is 0.541141
 
+mode pgibbs: influence compute time (pgibbs): 0.0001 seconds
 influence of hasword_algorithm_3 on topic_Faculty_3 is 0.0409581
 
 clique number: 2
@@ -1032,6 +1179,7 @@ unobserved tuple number: 1
 pgibbs sample time: 5.6e-05 seconds
 probability of topic_Student_11 is 0.0545471
 
+mode pgibbs: influence compute time (pgibbs): 0.000102 seconds
 influence of hasword_dec_11 on topic_Student_11 is -0.148997
 
 clique number: 2
@@ -1039,27 +1187,31 @@ unobserved tuple number: 1
 pgibbs sample time: 5.6e-05 seconds
 probability of topic_ResearchProject_4 is 0.479583
 
+mode pgibbs: influence compute time (pgibbs): 0.000104 seconds
 influence of hasword_represent_4 on topic_ResearchProject_4 is -0.020395
 
 clique number: 2
 unobserved tuple number: 1
-pgibbs sample time: 5.4e-05 seconds
+pgibbs sample time: 5.5e-05 seconds
 probability of topic_ResearchProject_5 is 0.423904
 
+mode pgibbs: influence compute time (pgibbs): 0.000101 seconds
 influence of hasword_html_5 on topic_ResearchProject_5 is -0.0749328
 
 clique number: 2
 unobserved tuple number: 1
-pgibbs sample time: 5.6e-05 seconds
+pgibbs sample time: 5.5e-05 seconds
 probability of topic_Faculty_58 is 0.489816
 
+mode pgibbs: influence compute time (pgibbs): 0.000101 seconds
 influence of hasword_jan_58 on topic_Faculty_58 is -0.0101812
 
 clique number: 5
 unobserved tuple number: 2
-pgibbs sample time: 0.000209 seconds
+pgibbs sample time: 0.00021 seconds
 probability of topic_Person_40 is 0.641085
 
+mode pgibbs: influence compute time (pgibbs): 0.000402 seconds
 influence of links_43_40 on topic_Person_40 is 0.0136544
 
 clique number: 2
@@ -1067,34 +1219,39 @@ unobserved tuple number: 1
 pgibbs sample time: 5.6e-05 seconds
 probability of topic_Faculty_56 is 0.571956
 
+mode pgibbs: influence compute time (pgibbs): 0.000103 seconds
 influence of hasword_includ_56 on topic_Faculty_56 is 0.0709735
 
 clique number: 2
 unobserved tuple number: 1
-pgibbs sample time: 5.4e-05 seconds
+pgibbs sample time: 5.3e-05 seconds
 probability of topic_Staff_10 is 0.576178
 
+mode pgibbs: influence compute time (pgibbs): 9.8e-05 seconds
 influence of hasword_jan_10 on topic_Staff_10 is 0.0750113
 
 clique number: 2
 unobserved tuple number: 1
-pgibbs sample time: 5.6e-05 seconds
+pgibbs sample time: 5.7e-05 seconds
 probability of topic_Student_57 is 0.487116
 
+mode pgibbs: influence compute time (pgibbs): 0.000104 seconds
 influence of hasword_separ_57 on topic_Student_57 is -0.0128788
 
 clique number: 2
 unobserved tuple number: 1
-pgibbs sample time: 5.3e-05 seconds
+pgibbs sample time: 5.4e-05 seconds
 probability of topic_Staff_30 is 0.501153
 
+mode pgibbs: influence compute time (pgibbs): 9.9e-05 seconds
 influence of hasword_tree_30 on topic_Staff_30 is 0.0011532
 
 clique number: 2
 unobserved tuple number: 1
-pgibbs sample time: 5.4e-05 seconds
+pgibbs sample time: 5.3e-05 seconds
 probability of topic_Staff_63 is 0.576178
 
+mode pgibbs: influence compute time (pgibbs): 9.7e-05 seconds
 influence of hasword_jan_63 on topic_Staff_63 is 0.0750113
 
 clique number: 2
@@ -1102,6 +1259,7 @@ unobserved tuple number: 1
 pgibbs sample time: 5.7e-05 seconds
 probability of topic_Department_64 is 0.484707
 
+mode pgibbs: influence compute time (pgibbs): 0.000104 seconds
 influence of hasword_laboratori_64 on topic_Department_64 is -0.0152839
 
 clique number: 5
@@ -1109,13 +1267,15 @@ unobserved tuple number: 2
 pgibbs sample time: 0.000211 seconds
 probability of topic_Staff_19 is 0.510492
 
+mode pgibbs: influence compute time (pgibbs): 0.000416 seconds
 influence of links_33_19 on topic_Staff_19 is 0.0157871
 
 clique number: 2
 unobserved tuple number: 1
-pgibbs sample time: 5.5e-05 seconds
+pgibbs sample time: 5.4e-05 seconds
 probability of topic_Staff_2 is 0.729589
 
+mode pgibbs: influence compute time (pgibbs): 9.9e-05 seconds
 influence of hasword_phone_2 on topic_Staff_2 is 0.196263
 
 clique number: 2
@@ -1123,6 +1283,7 @@ unobserved tuple number: 1
 pgibbs sample time: 5.6e-05 seconds
 probability of topic_Department_10 is 0.649423
 
+mode pgibbs: influence compute time (pgibbs): 0.000101 seconds
 influence of hasword_jan_10 on topic_Department_10 is 0.14049
 
 clique number: 2
@@ -1130,6 +1291,7 @@ unobserved tuple number: 1
 pgibbs sample time: 5.5e-05 seconds
 probability of topic_Student_50 is 0.603735
 
+mode pgibbs: influence compute time (pgibbs): 0.0001 seconds
 influence of hasword_art_50 on topic_Student_50 is 0.100776
 
 clique number: 5
@@ -1137,13 +1299,15 @@ unobserved tuple number: 2
 pgibbs sample time: 0.000215 seconds
 probability of topic_Department_43 is 0.426108
 
+mode pgibbs: influence compute time (pgibbs): 0.000415 seconds
 influence of links_43_40 on topic_Department_43 is -0.0176344
 
 clique number: 3
 unobserved tuple number: 1
-pgibbs sample time: 6.9e-05 seconds
+pgibbs sample time: 7e-05 seconds
 probability of topic_Person_26 is 0.585279
 
+mode pgibbs: influence compute time (pgibbs): 0.000125 seconds
 influence of r1202 on topic_Person_26 is 0.242726
 
 clique number: 3
@@ -1151,34 +1315,39 @@ unobserved tuple number: 1
 pgibbs sample time: 7.1e-05 seconds
 probability of topic_Course_26 is 0.5223
 
+mode pgibbs: influence compute time (pgibbs): 0.00014 seconds
 influence of hasword_specif_26 on topic_Course_26 is 0.0165725
 
 clique number: 2
 unobserved tuple number: 1
-pgibbs sample time: 5.7e-05 seconds
+pgibbs sample time: 5.6e-05 seconds
 probability of topic_ResearchProject_27 is 0.462699
 
+mode pgibbs: influence compute time (pgibbs): 0.000102 seconds
 influence of hasword_jan_27 on topic_ResearchProject_27 is -0.0371648
 
 clique number: 2
 unobserved tuple number: 1
-pgibbs sample time: 5.6e-05 seconds
+pgibbs sample time: 5.7e-05 seconds
 probability of topic_Student_49 is 0.701025
 
+mode pgibbs: influence compute time (pgibbs): 0.000103 seconds
 influence of hasword_home_49 on topic_Student_49 is 0.178913
 
 clique number: 5
 unobserved tuple number: 2
-pgibbs sample time: 0.000208 seconds
+pgibbs sample time: 0.000209 seconds
 probability of topic_Course_61 is 0.330837
 
+mode pgibbs: influence compute time (pgibbs): 0.00041 seconds
 influence of links_61_39 on topic_Course_61 is -0.0167325
 
 clique number: 5
 unobserved tuple number: 2
-pgibbs sample time: 0.000222 seconds
+pgibbs sample time: 0.000221 seconds
 probability of topic_ResearchProject_39 is 0.579445
 
+mode pgibbs: influence compute time (pgibbs): 0.000428 seconds
 influence of links_61_39 on topic_ResearchProject_39 is 0.00884488
 
 clique number: 2
@@ -1186,13 +1355,15 @@ unobserved tuple number: 1
 pgibbs sample time: 5.5e-05 seconds
 probability of topic_Course_24 is 0.419802
 
+mode pgibbs: influence compute time (pgibbs): 0.0001 seconds
 influence of hasword_research_24 on topic_Course_24 is -0.0788354
 
 clique number: 2
 unobserved tuple number: 1
-pgibbs sample time: 5.5e-05 seconds
+pgibbs sample time: 6.2e-05 seconds
 probability of topic_Faculty_28 is 0.419826
 
+mode pgibbs: influence compute time (pgibbs): 0.000153 seconds
 influence of hasword_gmt_28 on topic_Faculty_28 is -0.0788126
 
 clique number: 2
@@ -1200,20 +1371,23 @@ unobserved tuple number: 1
 pgibbs sample time: 5.6e-05 seconds
 probability of topic_Staff_41 is 0.461239
 
+mode pgibbs: influence compute time (pgibbs): 0.000102 seconds
 influence of hasword_interest_41 on topic_Staff_41 is -0.0386074
 
 clique number: 2
 unobserved tuple number: 1
-pgibbs sample time: 5.7e-05 seconds
+pgibbs sample time: 5.8e-05 seconds
 probability of topic_Department_56 is 0.601492
 
+mode pgibbs: influence compute time (pgibbs): 0.000104 seconds
 influence of hasword_includ_56 on topic_Department_56 is 0.0987218
 
 clique number: 2
 unobserved tuple number: 1
-pgibbs sample time: 5.5e-05 seconds
+pgibbs sample time: 5.6e-05 seconds
 probability of topic_Faculty_62 is 0.431532
 
+mode pgibbs: influence compute time (pgibbs): 0.000118 seconds
 influence of hasword_length_62 on topic_Faculty_62 is -0.0676217
 
 clique number: 2
@@ -1221,6 +1395,7 @@ unobserved tuple number: 1
 pgibbs sample time: 5.5e-05 seconds
 probability of topic_ResearchProject_60 is 0.490687
 
+mode pgibbs: influence compute time (pgibbs): 0.000102 seconds
 influence of hasword_mime_60 on topic_ResearchProject_60 is -0.0093107
 
 clique number: 2
@@ -1228,6 +1403,7 @@ unobserved tuple number: 1
 pgibbs sample time: 5.6e-05 seconds
 probability of topic_Student_53 is 0.493937
 
+mode pgibbs: influence compute time (pgibbs): 0.000101 seconds
 influence of hasword_date_53 on topic_Student_53 is -0.00606229
 
 clique number: 2
@@ -1235,6 +1411,7 @@ unobserved tuple number: 1
 pgibbs sample time: 5.3e-05 seconds
 probability of topic_Person_28 is 0.498179
 
+mode pgibbs: influence compute time (pgibbs): 9.7e-05 seconds
 influence of hasword_gmt_28 on topic_Person_28 is -0.00182059
 
 clique number: 2
@@ -1242,20 +1419,23 @@ unobserved tuple number: 1
 pgibbs sample time: 5.6e-05 seconds
 probability of topic_Student_10 is 0.524583
 
+mode pgibbs: influence compute time (pgibbs): 0.000102 seconds
 influence of hasword_jan_10 on topic_Student_10 is 0.0245443
 
 clique number: 5
 unobserved tuple number: 2
-pgibbs sample time: 0.000223 seconds
+pgibbs sample time: 0.00022 seconds
 probability of topic_Faculty_39 is 0.412909
 
+mode pgibbs: influence compute time (pgibbs): 0.000425 seconds
 influence of links_61_39 on topic_Faculty_39 is 0.00979762
 
 clique number: 5
 unobserved tuple number: 2
-pgibbs sample time: 0.000208 seconds
+pgibbs sample time: 0.000213 seconds
 probability of topic_Course_40 is 0.565138
 
+mode pgibbs: influence compute time (pgibbs): 0.000402 seconds
 influence of links_43_40 on topic_Course_40 is 0.0164811
 
 clique number: 2
@@ -1263,20 +1443,23 @@ unobserved tuple number: 1
 pgibbs sample time: 5.5e-05 seconds
 probability of topic_Course_28 is 0.425378
 
+mode pgibbs: influence compute time (pgibbs): 9.9e-05 seconds
 influence of hasword_gmt_28 on topic_Course_28 is -0.0735251
 
 clique number: 2
 unobserved tuple number: 1
-pgibbs sample time: 5.6e-05 seconds
+pgibbs sample time: 5.7e-05 seconds
 probability of topic_Faculty_18 is 0.387388
 
+mode pgibbs: influence compute time (pgibbs): 0.000102 seconds
 influence of hasword_html_18 on topic_Faculty_18 is -0.10882
 
 clique number: 2
 unobserved tuple number: 1
-pgibbs sample time: 5.4e-05 seconds
+pgibbs sample time: 5.5e-05 seconds
 probability of topic_Course_41 is 0.404836
 
+mode pgibbs: influence compute time (pgibbs): 9.9e-05 seconds
 influence of hasword_interest_41 on topic_Course_41 is -0.0928824
 
 clique number: 2
@@ -1284,41 +1467,47 @@ unobserved tuple number: 1
 pgibbs sample time: 5.7e-05 seconds
 probability of topic_ResearchProject_53 is 0.442936
 
+mode pgibbs: influence compute time (pgibbs): 0.000104 seconds
 influence of hasword_date_53 on topic_ResearchProject_53 is -0.0565746
 
 clique number: 2
 unobserved tuple number: 1
-pgibbs sample time: 5.6e-05 seconds
+pgibbs sample time: 5.7e-05 seconds
 probability of topic_Department_6 is 0.480109
 
+mode pgibbs: influence compute time (pgibbs): 0.000103 seconds
 influence of hasword_date_6 on topic_Department_6 is -0.0198703
 
 clique number: 5
 unobserved tuple number: 2
-pgibbs sample time: 0.00022 seconds
+pgibbs sample time: 0.000221 seconds
 probability of topic_Faculty_33 is 0.457887
 
+mode pgibbs: influence compute time (pgibbs): 0.000433 seconds
 influence of links_33_19 on topic_Faculty_33 is -0.0141082
 
 clique number: 3
 unobserved tuple number: 1
-pgibbs sample time: 7.2e-05 seconds
+pgibbs sample time: 7.1e-05 seconds
 probability of topic_Staff_9 is 0.458123
 
+mode pgibbs: influence compute time (pgibbs): 0.00013 seconds
 influence of r4004 on topic_Staff_9 is 0.248244
 
 clique number: 6
 unobserved tuple number: 2
-pgibbs sample time: 0.000319 seconds
+pgibbs sample time: 0.00032 seconds
 probability of topic_Student_59 is 0.417729
 
+mode pgibbs: influence compute time (pgibbs): 0.000627 seconds
 influence of hasword_type_46 on topic_Student_59 is 0.000676734
 
 clique number: 2
 unobserved tuple number: 1
-pgibbs sample time: 5.5e-05 seconds
+pgibbs sample time: 5.7e-05 seconds
 probability of topic_Student_56 is 0.323068
 
+mode pgibbs: influence compute time (pgibbs): 0.000103 seconds
 influence of hasword_includ_56 on topic_Student_56 is -0.161982
 
 clique number: 2
@@ -1326,13 +1515,15 @@ unobserved tuple number: 1
 pgibbs sample time: 5.5e-05 seconds
 probability of topic_Department_27 is 0.649423
 
+mode pgibbs: influence compute time (pgibbs): 0.000101 seconds
 influence of hasword_jan_27 on topic_Department_27 is 0.14049
 
 clique number: 5
 unobserved tuple number: 2
-pgibbs sample time: 0.000219 seconds
+pgibbs sample time: 0.000315 seconds
 probability of topic_Student_43 is 0.530882
 
+mode pgibbs: influence compute time (pgibbs): 0.000517 seconds
 influence of links_43_40 on topic_Student_43 is -0.0174939
 
 clique number: 2
@@ -1340,20 +1531,23 @@ unobserved tuple number: 1
 pgibbs sample time: 5.7e-05 seconds
 probability of topic_Faculty_42 is 0.62985
 
+mode pgibbs: influence compute time (pgibbs): 0.000104 seconds
 influence of hasword_scienc_42 on topic_Faculty_42 is 0.124016
 
 clique number: 5
 unobserved tuple number: 2
-pgibbs sample time: 0.00022 seconds
+pgibbs sample time: 0.000221 seconds
 probability of topic_Faculty_19 is 0.493586
 
+mode pgibbs: influence compute time (pgibbs): 0.000434 seconds
 influence of links_33_19 on topic_Faculty_19 is 0.0155218
 
 clique number: 2
 unobserved tuple number: 1
-pgibbs sample time: 5.7e-05 seconds
+pgibbs sample time: 5.6e-05 seconds
 probability of topic_Student_27 is 0.524583
 
+mode pgibbs: influence compute time (pgibbs): 0.000103 seconds
 influence of hasword_jan_27 on topic_Student_27 is 0.0245443
 
 clique number: 2
@@ -1361,6 +1555,7 @@ unobserved tuple number: 1
 pgibbs sample time: 5.5e-05 seconds
 probability of topic_Faculty_8 is 0.467878
 
+mode pgibbs: influence compute time (pgibbs): 9.9e-05 seconds
 influence of hasword_implement_8 on topic_Faculty_8 is -0.0320351
 
 clique number: 2
@@ -1368,27 +1563,31 @@ unobserved tuple number: 1
 pgibbs sample time: 5.5e-05 seconds
 probability of topic_Department_24 is 0.631889
 
+mode pgibbs: influence compute time (pgibbs): 0.000103 seconds
 influence of hasword_research_24 on topic_Department_24 is 0.125773
 
 clique number: 2
 unobserved tuple number: 1
-pgibbs sample time: 5.5e-05 seconds
+pgibbs sample time: 5.6e-05 seconds
 probability of topic_Staff_55 is 0.392841
 
+mode pgibbs: influence compute time (pgibbs): 0.000101 seconds
 influence of hasword_modifi_55 on topic_Staff_55 is -0.103895
 
 clique number: 5
 unobserved tuple number: 2
-pgibbs sample time: 0.000209 seconds
+pgibbs sample time: 0.00021 seconds
 probability of topic_Person_22 is 0.392847
 
+mode pgibbs: influence compute time (pgibbs): 0.000405 seconds
 influence of links_22_35 on topic_Person_22 is -0.0137779
 
 clique number: 5
 unobserved tuple number: 2
-pgibbs sample time: 0.000205 seconds
+pgibbs sample time: 0.000208 seconds
 probability of topic_Course_33 is 0.558595
 
+mode pgibbs: influence compute time (pgibbs): 0.000434 seconds
 influence of links_33_19 on topic_Course_33 is -0.0194384
 
 clique number: 3
@@ -1396,13 +1595,15 @@ unobserved tuple number: 1
 pgibbs sample time: 6.9e-05 seconds
 probability of topic_Faculty_9 is 0.464437
 
+mode pgibbs: influence compute time (pgibbs): 0.000127 seconds
 influence of hasword_servic_9 on topic_Faculty_9 is -0.0208849
 
 clique number: 2
 unobserved tuple number: 1
-pgibbs sample time: 5.5e-05 seconds
+pgibbs sample time: 5.4e-05 seconds
 probability of topic_Person_7 is 0.498179
 
+mode pgibbs: influence compute time (pgibbs): 9.8e-05 seconds
 influence of hasword_date_7 on topic_Person_7 is -0.00182059
 
 clique number: 2
@@ -1410,6 +1611,7 @@ unobserved tuple number: 1
 pgibbs sample time: 5.6e-05 seconds
 probability of topic_ResearchProject_41 is 0.379861
 
+mode pgibbs: influence compute time (pgibbs): 0.000102 seconds
 influence of hasword_interest_41 on topic_ResearchProject_41 is -0.115528
 
 clique number: 2
@@ -1417,6 +1619,7 @@ unobserved tuple number: 1
 pgibbs sample time: 5.6e-05 seconds
 probability of topic_Staff_29 is 0.553711
 
+mode pgibbs: influence compute time (pgibbs): 0.000101 seconds
 influence of hasword_depart_29 on topic_Staff_29 is 0.0533034
 
 clique number: 5
@@ -1424,20 +1627,23 @@ unobserved tuple number: 2
 pgibbs sample time: 0.00021 seconds
 probability of topic_Course_22 is 0.55126
 
+mode pgibbs: influence compute time (pgibbs): 0.000404 seconds
 influence of links_22_35 on topic_Course_22 is -0.0175068
 
 clique number: 2
 unobserved tuple number: 1
-pgibbs sample time: 5.4e-05 seconds
+pgibbs sample time: 5.5e-05 seconds
 probability of topic_Student_7 is 0.493937
 
+mode pgibbs: influence compute time (pgibbs): 9.9e-05 seconds
 influence of hasword_date_7 on topic_Student_7 is -0.00606229
 
 clique number: 2
 unobserved tuple number: 1
-pgibbs sample time: 5.6e-05 seconds
+pgibbs sample time: 5.5e-05 seconds
 probability of topic_Course_45 is 0.499943
 
+mode pgibbs: influence compute time (pgibbs): 0.0001 seconds
 influence of hasword_utexa_45 on topic_Course_45 is -5.73072e-05
 
 clique number: 5
@@ -1445,13 +1651,15 @@ unobserved tuple number: 2
 pgibbs sample time: 0.000214 seconds
 probability of topic_Department_40 is 0.630497
 
+mode pgibbs: influence compute time (pgibbs): 0.000414 seconds
 influence of links_43_40 on topic_Department_40 is 0.0153858
 
 clique number: 2
 unobserved tuple number: 1
-pgibbs sample time: 5.7e-05 seconds
+pgibbs sample time: 5.8e-05 seconds
 probability of topic_ResearchProject_55 is 0.474026
 
+mode pgibbs: influence compute time (pgibbs): 0.000105 seconds
 influence of hasword_modifi_55 on topic_ResearchProject_55 is -0.0259275
 
 clique number: 2
@@ -1459,27 +1667,31 @@ unobserved tuple number: 1
 pgibbs sample time: 5.5e-05 seconds
 probability of topic_ResearchProject_18 is 0.423904
 
+mode pgibbs: influence compute time (pgibbs): 0.000101 seconds
 influence of hasword_html_18 on topic_ResearchProject_18 is -0.0749328
 
 clique number: 2
 unobserved tuple number: 1
-pgibbs sample time: 5.5e-05 seconds
+pgibbs sample time: 5.6e-05 seconds
 probability of topic_Person_56 is 0.392505
 
+mode pgibbs: influence compute time (pgibbs): 0.0001 seconds
 influence of hasword_includ_56 on topic_Person_56 is -0.1042
 
 clique number: 5
 unobserved tuple number: 2
-pgibbs sample time: 0.000216 seconds
+pgibbs sample time: 0.000218 seconds
 probability of topic_Faculty_22 is 0.373109
 
+mode pgibbs: influence compute time (pgibbs): 0.000422 seconds
 influence of links_22_35 on topic_Faculty_22 is -0.0161594
 
 clique number: 2
 unobserved tuple number: 1
-pgibbs sample time: 5.7e-05 seconds
+pgibbs sample time: 5.6e-05 seconds
 probability of topic_ResearchProject_20 is 0.442936
 
+mode pgibbs: influence compute time (pgibbs): 0.000107 seconds
 influence of hasword_date_20 on topic_ResearchProject_20 is -0.0565746
 
 clique number: 2
@@ -1487,48 +1699,55 @@ unobserved tuple number: 1
 pgibbs sample time: 5.5e-05 seconds
 probability of topic_Person_55 is 0.489056
 
+mode pgibbs: influence compute time (pgibbs): 9.9e-05 seconds
 influence of hasword_modifi_55 on topic_Person_55 is -0.0109402
 
 clique number: 5
 unobserved tuple number: 2
-pgibbs sample time: 0.000222 seconds
+pgibbs sample time: 0.000218 seconds
 probability of topic_ResearchProject_35 is 0.560039
 
+mode pgibbs: influence compute time (pgibbs): 0.000422 seconds
 influence of links_22_35 on topic_ResearchProject_35 is 0.0112039
 
 clique number: 5
 unobserved tuple number: 2
-pgibbs sample time: 0.000215 seconds
+pgibbs sample time: 0.000217 seconds
 probability of topic_Student_21 is 0.477433
 
+mode pgibbs: influence compute time (pgibbs): 0.000419 seconds
 influence of links_51_21 on topic_Student_21 is 0.0139942
 
 clique number: 5
 unobserved tuple number: 2
-pgibbs sample time: 0.000211 seconds
+pgibbs sample time: 0.00021 seconds
 probability of topic_Person_39 is 0.450608
 
+mode pgibbs: influence compute time (pgibbs): 0.000404 seconds
 influence of rl on topic_Person_39 is -0.127226
 
 clique number: 2
 unobserved tuple number: 1
-pgibbs sample time: 5.7e-05 seconds
+pgibbs sample time: 6.3e-05 seconds
 probability of topic_Student_25 is 0.524583
 
+mode pgibbs: influence compute time (pgibbs): 0.000142 seconds
 influence of hasword_jan_25 on topic_Student_25 is 0.0245443
 
 clique number: 2
 unobserved tuple number: 1
-pgibbs sample time: 5.3e-05 seconds
+pgibbs sample time: 5.4e-05 seconds
 probability of topic_Staff_27 is 0.576178
 
+mode pgibbs: influence compute time (pgibbs): 9.8e-05 seconds
 influence of hasword_jan_27 on topic_Staff_27 is 0.0750113
 
 clique number: 2
 unobserved tuple number: 1
-pgibbs sample time: 5.5e-05 seconds
+pgibbs sample time: 5.3e-05 seconds
 probability of topic_Person_25 is 0.505972
 
+mode pgibbs: influence compute time (pgibbs): 9.9e-05 seconds
 influence of hasword_jan_25 on topic_Person_25 is 0.00597113
 
 clique number: 2
@@ -1536,20 +1755,23 @@ unobserved tuple number: 1
 pgibbs sample time: 5.4e-05 seconds
 probability of topic_Person_20 is 0.498179
 
+mode pgibbs: influence compute time (pgibbs): 9.9e-05 seconds
 influence of hasword_date_20 on topic_Person_20 is -0.00182059
 
 clique number: 5
 unobserved tuple number: 2
-pgibbs sample time: 0.000216 seconds
+pgibbs sample time: 0.000218 seconds
 probability of topic_Faculty_35 is 0.601582
 
+mode pgibbs: influence compute time (pgibbs): 0.000421 seconds
 influence of links_22_35 on topic_Faculty_35 is 0.0172083
 
 clique number: 2
 unobserved tuple number: 1
-pgibbs sample time: 5.4e-05 seconds
+pgibbs sample time: 5.3e-05 seconds
 probability of topic_Staff_28 is 0.447858
 
+mode pgibbs: influence compute time (pgibbs): 9.6e-05 seconds
 influence of hasword_gmt_28 on topic_Staff_28 is -0.0517685
 
 clique number: 3
@@ -1557,27 +1779,31 @@ unobserved tuple number: 1
 pgibbs sample time: 7.3e-05 seconds
 probability of topic_Department_9 is 0.581249
 
+mode pgibbs: influence compute time (pgibbs): 0.000134 seconds
 influence of hasword_facil_9 on topic_Department_9 is 0.0540574
 
 clique number: 5
 unobserved tuple number: 2
-pgibbs sample time: 0.000211 seconds
+pgibbs sample time: 0.000212 seconds
 probability of topic_Staff_33 is 0.448652
 
+mode pgibbs: influence compute time (pgibbs): 0.000411 seconds
 influence of links_33_19 on topic_Staff_33 is -0.0145335
 
 clique number: 2
 unobserved tuple number: 1
-pgibbs sample time: 5.3e-05 seconds
+pgibbs sample time: 5.4e-05 seconds
 probability of topic_Person_65 is 0.524409
 
+mode pgibbs: influence compute time (pgibbs): 9.8e-05 seconds
 influence of hasword_high_65 on topic_Person_65 is 0.0243704
 
 clique number: 2
 unobserved tuple number: 1
-pgibbs sample time: 5.6e-05 seconds
+pgibbs sample time: 5.5e-05 seconds
 probability of topic_Staff_3 is 0.465986
 
+mode pgibbs: influence compute time (pgibbs): 0.000101 seconds
 influence of hasword_algorithm_3 on topic_Staff_3 is -0.0339104
 
 clique number: 2
@@ -1585,6 +1811,7 @@ unobserved tuple number: 1
 pgibbs sample time: 5.6e-05 seconds
 probability of topic_Faculty_49 is 0.471597
 
+mode pgibbs: influence compute time (pgibbs): 0.000102 seconds
 influence of hasword_home_49 on topic_Faculty_49 is -0.0283427
 
 clique number: 2
@@ -1592,6 +1819,7 @@ unobserved tuple number: 1
 pgibbs sample time: 5.5e-05 seconds
 probability of topic_Person_27 is 0.505972
 
+mode pgibbs: influence compute time (pgibbs): 0.000101 seconds
 influence of hasword_jan_27 on topic_Person_27 is 0.00597113
 
 clique number: 2
@@ -1599,6 +1827,7 @@ unobserved tuple number: 1
 pgibbs sample time: 5.4e-05 seconds
 probability of topic_Course_25 is 0.47654
 
+mode pgibbs: influence compute time (pgibbs): 9.8e-05 seconds
 influence of hasword_jan_25 on topic_Course_25 is -0.0234264
 
 clique number: 2
@@ -1606,6 +1835,7 @@ unobserved tuple number: 1
 pgibbs sample time: 5.3e-05 seconds
 probability of topic_Course_30 is 0.576832
 
+mode pgibbs: influence compute time (pgibbs): 9.8e-05 seconds
 influence of hasword_tree_30 on topic_Course_30 is 0.0756343
 
 clique number: 2
@@ -1613,41 +1843,47 @@ unobserved tuple number: 1
 pgibbs sample time: 5.6e-05 seconds
 probability of topic_Faculty_29 is 0.662028
 
+mode pgibbs: influence compute time (pgibbs): 0.000102 seconds
 influence of hasword_depart_29 on topic_Faculty_29 is 0.150599
 
 clique number: 3
 unobserved tuple number: 1
-pgibbs sample time: 7.4e-05 seconds
+pgibbs sample time: 7.5e-05 seconds
 probability of topic_ResearchProject_47 is 0.410996
 
+mode pgibbs: influence compute time (pgibbs): 0.000134 seconds
 influence of r86 on topic_ResearchProject_47 is 0.242076
 
 clique number: 2
 unobserved tuple number: 1
-pgibbs sample time: 5.5e-05 seconds
+pgibbs sample time: 6e-05 seconds
 probability of topic_Faculty_41 is 0.694037
 
+mode pgibbs: influence compute time (pgibbs): 0.000119 seconds
 influence of hasword_interest_41 on topic_Faculty_41 is 0.174203
 
 clique number: 3
 unobserved tuple number: 1
-pgibbs sample time: 7.3e-05 seconds
+pgibbs sample time: 7.2e-05 seconds
 probability of topic_Faculty_26 is 0.580655
 
+mode pgibbs: influence compute time (pgibbs): 0.000134 seconds
 influence of hasword_specif_26 on topic_Faculty_26 is 0.0997663
 
 clique number: 2
 unobserved tuple number: 1
-pgibbs sample time: 5.5e-05 seconds
+pgibbs sample time: 5.6e-05 seconds
 probability of topic_Staff_36 is 0.517015
 
+mode pgibbs: influence compute time (pgibbs): 0.0001 seconds
 influence of hasword_system_36 on topic_Staff_36 is 0.0170017
 
 clique number: 2
 unobserved tuple number: 1
-pgibbs sample time: 5.3e-05 seconds
+pgibbs sample time: 5.6e-05 seconds
 probability of topic_Staff_52 is 0.511184
 
+mode pgibbs: influence compute time (pgibbs): 0.000115 seconds
 influence of hasword_test_52 on topic_Staff_52 is 0.0111804
 
 clique number: 2
@@ -1655,13 +1891,15 @@ unobserved tuple number: 1
 pgibbs sample time: 5.3e-05 seconds
 probability of topic_Person_2 is 0.620991
 
+mode pgibbs: influence compute time (pgibbs): 9.8e-05 seconds
 influence of hasword_phone_2 on topic_Person_2 is 0.11628
 
 clique number: 2
 unobserved tuple number: 1
-pgibbs sample time: 5.5e-05 seconds
+pgibbs sample time: 5.6e-05 seconds
 probability of topic_Student_62 is 0.501822
 
+mode pgibbs: influence compute time (pgibbs): 0.000103 seconds
 influence of hasword_length_62 on topic_Student_62 is 0.00182246
 
 clique number: 2
@@ -1669,13 +1907,15 @@ unobserved tuple number: 1
 pgibbs sample time: 5.6e-05 seconds
 probability of topic_Course_36 is 0.687328
 
+mode pgibbs: influence compute time (pgibbs): 0.000102 seconds
 influence of hasword_system_36 on topic_Course_36 is 0.169524
 
 clique number: 2
 unobserved tuple number: 1
-pgibbs sample time: 5.5e-05 seconds
+pgibbs sample time: 5.6e-05 seconds
 probability of topic_ResearchProject_66 is 0.437775
 
+mode pgibbs: influence compute time (pgibbs): 0.000101 seconds
 influence of hasword_text_66 on topic_ResearchProject_66 is -0.0615905
 
 clique number: 2
@@ -1683,6 +1923,7 @@ unobserved tuple number: 1
 pgibbs sample time: 5.4e-05 seconds
 probability of topic_Staff_65 is 0.443048
 
+mode pgibbs: influence compute time (pgibbs): 9.8e-05 seconds
 influence of hasword_high_65 on topic_Staff_65 is -0.056465
 
 clique number: 2
@@ -1690,6 +1931,7 @@ unobserved tuple number: 1
 pgibbs sample time: 5.6e-05 seconds
 probability of topic_Department_15 is 0.39707
 
+mode pgibbs: influence compute time (pgibbs): 0.000103 seconds
 influence of hasword_modifi_15 on topic_Department_15 is -0.100039
 
 clique number: 2
@@ -1697,13 +1939,15 @@ unobserved tuple number: 1
 pgibbs sample time: 5.6e-05 seconds
 probability of topic_Department_54 is 0.498189
 
+mode pgibbs: influence compute time (pgibbs): 0.000104 seconds
 influence of hasword_syllabu_54 on topic_Department_54 is -0.00181056
 
 clique number: 5
 unobserved tuple number: 2
-pgibbs sample time: 0.000283 seconds
+pgibbs sample time: 0.000284 seconds
 probability of topic_ResearchProject_59 is 0.503605
 
+mode pgibbs: influence compute time (pgibbs): 0.000552 seconds
 influence of links_59_46 on topic_ResearchProject_59 is -0.0129517
 
 clique number: 5
@@ -1711,6 +1955,7 @@ unobserved tuple number: 2
 pgibbs sample time: 0.000212 seconds
 probability of topic_Staff_40 is 0.556542
 
+mode pgibbs: influence compute time (pgibbs): 0.000409 seconds
 influence of links_43_40 on topic_Staff_40 is 0.0155506
 
 clique number: 2
@@ -1718,48 +1963,55 @@ unobserved tuple number: 1
 pgibbs sample time: 5.5e-05 seconds
 probability of topic_Person_62 is 0.482416
 
+mode pgibbs: influence compute time (pgibbs): 0.0001 seconds
 influence of hasword_length_62 on topic_Person_62 is -0.0175697
 
 clique number: 2
 unobserved tuple number: 1
-pgibbs sample time: 5.3e-05 seconds
+pgibbs sample time: 5.4e-05 seconds
 probability of topic_Faculty_1 is 0.517145
 
+mode pgibbs: influence compute time (pgibbs): 9.8e-05 seconds
 influence of hasword_model_1 on topic_Faculty_1 is 0.0171316
 
 clique number: 2
 unobserved tuple number: 1
-pgibbs sample time: 5.6e-05 seconds
+pgibbs sample time: 6.3e-05 seconds
 probability of topic_Student_13 is 0.540469
 
+mode pgibbs: influence compute time (pgibbs): 0.000131 seconds
 influence of hasword_develop_13 on topic_Student_13 is 0.0402947
 
 clique number: 2
 unobserved tuple number: 1
-pgibbs sample time: 5.6e-05 seconds
+pgibbs sample time: 5.5e-05 seconds
 probability of topic_Staff_15 is 0.392841
 
+mode pgibbs: influence compute time (pgibbs): 0.000102 seconds
 influence of hasword_modifi_15 on topic_Staff_15 is -0.103895
 
 clique number: 2
 unobserved tuple number: 1
-pgibbs sample time: 5.5e-05 seconds
+pgibbs sample time: 5.6e-05 seconds
 probability of topic_ResearchProject_63 is 0.462699
 
+mode pgibbs: influence compute time (pgibbs): 0.000101 seconds
 influence of hasword_jan_63 on topic_ResearchProject_63 is -0.0371648
 
 clique number: 2
 unobserved tuple number: 1
-pgibbs sample time: 5.5e-05 seconds
+pgibbs sample time: 5.4e-05 seconds
 probability of topic_Staff_60 is 0.412752
 
+mode pgibbs: influence compute time (pgibbs): 9.8e-05 seconds
 influence of hasword_mime_60 on topic_Staff_60 is -0.0854922
 
 clique number: 2
 unobserved tuple number: 1
-pgibbs sample time: 5.6e-05 seconds
+pgibbs sample time: 5.7e-05 seconds
 probability of topic_Student_28 is 0.493937
 
+mode pgibbs: influence compute time (pgibbs): 0.000102 seconds
 influence of hasword_gmt_28 on topic_Student_28 is -0.00606229
 
 clique number: 2
@@ -1767,20 +2019,23 @@ unobserved tuple number: 1
 pgibbs sample time: 5.4e-05 seconds
 probability of topic_Person_34 is 0.427691
 
+mode pgibbs: influence compute time (pgibbs): 9.9e-05 seconds
 influence of hasword_man_34 on topic_Person_34 is -0.071312
 
 clique number: 2
 unobserved tuple number: 1
-pgibbs sample time: 5.8e-05 seconds
+pgibbs sample time: 5.7e-05 seconds
 probability of topic_ResearchProject_29 is 0.386627
 
+mode pgibbs: influence compute time (pgibbs): 0.000105 seconds
 influence of hasword_depart_29 on topic_ResearchProject_29 is -0.109503
 
 clique number: 2
 unobserved tuple number: 1
-pgibbs sample time: 5.5e-05 seconds
+pgibbs sample time: 5.6e-05 seconds
 probability of topic_Course_54 is 0.598444
 
+mode pgibbs: influence compute time (pgibbs): 0.000101 seconds
 influence of hasword_syllabu_54 on topic_Course_54 is 0.0959178
 
 clique number: 2
@@ -1788,41 +2043,47 @@ unobserved tuple number: 1
 pgibbs sample time: 5.5e-05 seconds
 probability of topic_Staff_22 is 0.552182
 
+mode pgibbs: influence compute time (pgibbs): 0.0001 seconds
 influence of hasword_gener_22 on topic_Staff_22 is 0.051808
 
 clique number: 6
 unobserved tuple number: 2
-pgibbs sample time: 0.000327 seconds
+pgibbs sample time: 0.000328 seconds
 probability of topic_Department_46 is 0.475353
 
+mode pgibbs: influence compute time (pgibbs): 0.000643 seconds
 influence of links_46_59 on topic_Department_46 is -0.0156777
 
 clique number: 2
 unobserved tuple number: 1
-pgibbs sample time: 5.5e-05 seconds
+pgibbs sample time: 5.4e-05 seconds
 probability of topic_Staff_7 is 0.447858
 
+mode pgibbs: influence compute time (pgibbs): 9.8e-05 seconds
 influence of hasword_date_7 on topic_Staff_7 is -0.0517685
 
 clique number: 2
 unobserved tuple number: 1
-pgibbs sample time: 5.6e-05 seconds
+pgibbs sample time: 5.8e-05 seconds
 probability of topic_ResearchProject_6 is 0.442936
 
+mode pgibbs: influence compute time (pgibbs): 0.000105 seconds
 influence of hasword_date_6 on topic_ResearchProject_6 is -0.0565746
 
 clique number: 2
 unobserved tuple number: 1
-pgibbs sample time: 5.6e-05 seconds
+pgibbs sample time: 5.5e-05 seconds
 probability of topic_Course_13 is 0.459095
 
+mode pgibbs: influence compute time (pgibbs): 9.9e-05 seconds
 influence of hasword_develop_13 on topic_Course_13 is -0.0407251
 
 clique number: 2
 unobserved tuple number: 1
-pgibbs sample time: 5.5e-05 seconds
+pgibbs sample time: 5.4e-05 seconds
 probability of topic_Student_3 is 0.439683
 
+mode pgibbs: influence compute time (pgibbs): 0.000101 seconds
 influence of hasword_algorithm_3 on topic_Student_3 is -0.0597384
 
 clique number: 6
@@ -1830,13 +2091,15 @@ unobserved tuple number: 2
 pgibbs sample time: 0.000238 seconds
 probability of topic_Person_12 is 0.452042
 
+mode pgibbs: influence compute time (pgibbs): 0.000461 seconds
 influence of links_47_12 on topic_Person_12 is 0.0149238
 
 clique number: 2
 unobserved tuple number: 1
-pgibbs sample time: 5.7e-05 seconds
+pgibbs sample time: 5.8e-05 seconds
 probability of topic_Student_64 is 0.469789
 
+mode pgibbs: influence compute time (pgibbs): 0.000105 seconds
 influence of hasword_laboratori_64 on topic_Student_64 is -0.0301384
 
 clique number: 2
@@ -1844,6 +2107,7 @@ unobserved tuple number: 1
 pgibbs sample time: 5.5e-05 seconds
 probability of topic_Course_55 is 0.43891
 
+mode pgibbs: influence compute time (pgibbs): 0.0001 seconds
 influence of hasword_modifi_55 on topic_Course_55 is -0.0604888
 
 clique number: 2
@@ -1851,13 +2115,15 @@ unobserved tuple number: 1
 pgibbs sample time: 5.4e-05 seconds
 probability of topic_Person_50 is 0.585637
 
+mode pgibbs: influence compute time (pgibbs): 9.9e-05 seconds
 influence of hasword_art_50 on topic_Person_50 is 0.0839767
 
 clique number: 2
 unobserved tuple number: 1
-pgibbs sample time: 5.4e-05 seconds
+pgibbs sample time: 5.3e-05 seconds
 probability of topic_Faculty_7 is 0.419826
 
+mode pgibbs: influence compute time (pgibbs): 9.8e-05 seconds
 influence of hasword_date_7 on topic_Faculty_7 is -0.0788126
 
 clique number: 2
@@ -1865,41 +2131,47 @@ unobserved tuple number: 1
 pgibbs sample time: 5.4e-05 seconds
 probability of topic_Staff_6 is 0.447858
 
+mode pgibbs: influence compute time (pgibbs): 9.9e-05 seconds
 influence of hasword_date_6 on topic_Staff_6 is -0.0517685
 
 clique number: 2
 unobserved tuple number: 1
-pgibbs sample time: 5.9e-05 seconds
+pgibbs sample time: 5.7e-05 seconds
 probability of topic_Department_4 is 0.48277
 
+mode pgibbs: influence compute time (pgibbs): 0.000104 seconds
 influence of hasword_represent_4 on topic_Department_4 is -0.0172165
 
 clique number: 2
 unobserved tuple number: 1
-pgibbs sample time: 5.6e-05 seconds
+pgibbs sample time: 5.5e-05 seconds
 probability of topic_Faculty_30 is 0.519036
 
+mode pgibbs: influence compute time (pgibbs): 0.000101 seconds
 influence of hasword_tree_30 on topic_Faculty_30 is 0.0190176
 
 clique number: 6
 unobserved tuple number: 2
-pgibbs sample time: 0.000325 seconds
+pgibbs sample time: 0.000321 seconds
 probability of topic_Student_46 is 0.492171
 
+mode pgibbs: influence compute time (pgibbs): 0.000626 seconds
 influence of hasword_type_46 on topic_Student_46 is -0.0124576
 
 clique number: 5
 unobserved tuple number: 2
-pgibbs sample time: 0.000216 seconds
+pgibbs sample time: 0.000218 seconds
 probability of topic_ResearchProject_33 is 0.287368
 
+mode pgibbs: influence compute time (pgibbs): 0.000419 seconds
 influence of links_33_19 on topic_ResearchProject_33 is -0.0119851
 
 clique number: 2
 unobserved tuple number: 1
-pgibbs sample time: 5.5e-05 seconds
+pgibbs sample time: 6.2e-05 seconds
 probability of topic_Course_2 is 0.464953
 
+mode pgibbs: influence compute time (pgibbs): 0.0001 seconds
 influence of hasword_phone_2 on topic_Course_2 is -0.0349337
 
 clique number: 2
@@ -1907,20 +2179,23 @@ unobserved tuple number: 1
 pgibbs sample time: 5.7e-05 seconds
 probability of topic_Student_45 is 0.495991
 
+mode pgibbs: influence compute time (pgibbs): 0.000104 seconds
 influence of hasword_utexa_45 on topic_Student_45 is -0.00400899
 
 clique number: 2
 unobserved tuple number: 1
-pgibbs sample time: 5.6e-05 seconds
+pgibbs sample time: 5.7e-05 seconds
 probability of topic_ResearchProject_57 is 0.489022
 
+mode pgibbs: influence compute time (pgibbs): 0.000141 seconds
 influence of hasword_separ_57 on topic_ResearchProject_57 is -0.0109745
 
 clique number: 2
 unobserved tuple number: 1
-pgibbs sample time: 5.5e-05 seconds
+pgibbs sample time: 5.4e-05 seconds
 probability of topic_Person_29 is 0.615632
 
+mode pgibbs: influence compute time (pgibbs): 0.0001 seconds
 influence of hasword_depart_29 on topic_Person_29 is 0.111524
 
 clique number: 3
@@ -1928,97 +2203,111 @@ unobserved tuple number: 1
 pgibbs sample time: 7e-05 seconds
 probability of topic_Person_9 is 0.385403
 
+mode pgibbs: influence compute time (pgibbs): 0.000128 seconds
 influence of hasword_servic_9 on topic_Person_9 is -0.0409687
 
 clique number: 2
 unobserved tuple number: 1
-pgibbs sample time: 5.7e-05 seconds
+pgibbs sample time: 5.8e-05 seconds
 probability of topic_ResearchProject_31 is 0.495024
 
+mode pgibbs: influence compute time (pgibbs): 0.000105 seconds
 influence of hasword_sequenc_31 on topic_ResearchProject_31 is -0.00497521
 
 clique number: 2
 unobserved tuple number: 1
-pgibbs sample time: 5.4e-05 seconds
+pgibbs sample time: 5.8e-05 seconds
 probability of topic_Person_6 is 0.498179
 
+mode pgibbs: influence compute time (pgibbs): 0.000104 seconds
 influence of hasword_date_6 on topic_Person_6 is -0.00182059
 
 clique number: 2
 unobserved tuple number: 1
-pgibbs sample time: 5.5e-05 seconds
+pgibbs sample time: 5.7e-05 seconds
 probability of topic_Staff_62 is 0.389253
 
+mode pgibbs: influence compute time (pgibbs): 0.000106 seconds
 influence of hasword_length_62 on topic_Staff_62 is -0.107142
 
 clique number: 5
 unobserved tuple number: 2
-pgibbs sample time: 0.000209 seconds
+pgibbs sample time: 0.000223 seconds
 probability of topic_Course_35 is 0.621655
 
+mode pgibbs: influence compute time (pgibbs): 0.00043 seconds
 influence of links_22_35 on topic_Course_35 is 0.0122421
 
 clique number: 2
 unobserved tuple number: 1
-pgibbs sample time: 5.6e-05 seconds
+pgibbs sample time: 6e-05 seconds
 probability of topic_Faculty_17 is 0.446163
 
+mode pgibbs: influence compute time (pgibbs): 0.000108 seconds
 influence of hasword_materi_17 on topic_Faculty_17 is -0.0534266
 
 clique number: 2
 unobserved tuple number: 1
-pgibbs sample time: 5.6e-05 seconds
+pgibbs sample time: 5.8e-05 seconds
 probability of topic_Student_22 is 0.43523
 
+mode pgibbs: influence compute time (pgibbs): 0.000108 seconds
 influence of hasword_gener_22 on topic_Student_22 is -0.0640533
 
 clique number: 6
 unobserved tuple number: 2
-pgibbs sample time: 0.000306 seconds
+pgibbs sample time: 0.000327 seconds
 probability of topic_Staff_59 is 0.4983
 
+mode pgibbs: influence compute time (pgibbs): 0.000638 seconds
 influence of links_59_46 on topic_Staff_59 is -0.012896
 
 clique number: 6
 unobserved tuple number: 2
-pgibbs sample time: 0.000304 seconds
+pgibbs sample time: 0.000325 seconds
 probability of topic_Staff_46 is 0.433162
 
+mode pgibbs: influence compute time (pgibbs): 0.000636 seconds
 influence of links_59_46 on topic_Staff_46 is 0.014459
 
 clique number: 2
 unobserved tuple number: 1
-pgibbs sample time: 5.7e-05 seconds
+pgibbs sample time: 5.9e-05 seconds
 probability of topic_Student_60 is 0.526876
 
+mode pgibbs: influence compute time (pgibbs): 0.000109 seconds
 influence of hasword_mime_60 on topic_Student_60 is 0.0268246
 
 clique number: 5
 unobserved tuple number: 2
-pgibbs sample time: 0.000219 seconds
+pgibbs sample time: 0.000232 seconds
 probability of topic_Faculty_51 is 0.475976
 
+mode pgibbs: influence compute time (pgibbs): 0.000448 seconds
 influence of links_51_21 on topic_Faculty_51 is -0.014239
 
 clique number: 2
 unobserved tuple number: 1
-pgibbs sample time: 5.5e-05 seconds
+pgibbs sample time: 5.9e-05 seconds
 probability of topic_Person_45 is 0.488394
 
+mode pgibbs: influence compute time (pgibbs): 0.000107 seconds
 influence of hasword_utexa_45 on topic_Person_45 is -0.0116018
 
 clique number: 2
 unobserved tuple number: 1
-pgibbs sample time: 5.5e-05 seconds
+pgibbs sample time: 5.6e-05 seconds
 probability of topic_ResearchProject_56 is 0.543606
 
+mode pgibbs: influence compute time (pgibbs): 0.000102 seconds
 influence of hasword_includ_56 on topic_ResearchProject_56 is 0.0433883
 
 clique number: 2
 unobserved tuple number: 1
-pgibbs sample time: 5.4e-05 seconds
+pgibbs sample time: 5.6e-05 seconds
 probability of topic_Course_29 is 0.487672
 
+mode pgibbs: influence compute time (pgibbs): 9.9e-05 seconds
 influence of hasword_depart_29 on topic_Course_29 is -0.0123229
 
 clique number: 2
@@ -2026,118 +2315,135 @@ unobserved tuple number: 1
 pgibbs sample time: 5.5e-05 seconds
 probability of topic_Student_36 is 0.570691
 
+mode pgibbs: influence compute time (pgibbs): 0.000102 seconds
 influence of hasword_system_36 on topic_Student_36 is 0.0697596
 
 clique number: 2
 unobserved tuple number: 1
-pgibbs sample time: 5.5e-05 seconds
+pgibbs sample time: 8.4e-05 seconds
 probability of topic_Faculty_55 is 0.429819
 
+mode pgibbs: influence compute time (pgibbs): 0.000202 seconds
 influence of hasword_modifi_55 on topic_Faculty_55 is -0.0692693
 
 clique number: 2
 unobserved tuple number: 1
-pgibbs sample time: 5.5e-05 seconds
+pgibbs sample time: 6.5e-05 seconds
 probability of topic_Department_31 is 0.478045
 
+mode pgibbs: influence compute time (pgibbs): 0.00012 seconds
 influence of hasword_sequenc_31 on topic_Department_31 is -0.0219277
 
 clique number: 2
 unobserved tuple number: 1
-pgibbs sample time: 5.4e-05 seconds
+pgibbs sample time: 6.8e-05 seconds
 probability of topic_Department_62 is 0.482103
 
+mode pgibbs: influence compute time (pgibbs): 0.000116 seconds
 influence of hasword_length_62 on topic_Department_62 is -0.0178822
 
 clique number: 6
 unobserved tuple number: 2
-pgibbs sample time: 0.000328 seconds
+pgibbs sample time: 0.000359 seconds
 probability of topic_Department_59 is 0.53218
 
+mode pgibbs: influence compute time (pgibbs): 0.000729 seconds
 influence of links_46_59 on topic_Department_59 is 0.0154539
 
 clique number: 5
 unobserved tuple number: 2
-pgibbs sample time: 0.00021 seconds
+pgibbs sample time: 0.000239 seconds
 probability of topic_Staff_61 is 0.502656
 
+mode pgibbs: influence compute time (pgibbs): 0.000486 seconds
 influence of rl on topic_Staff_61 is 0.176696
 
 clique number: 2
 unobserved tuple number: 1
-pgibbs sample time: 6.8e-05 seconds
+pgibbs sample time: 5.9e-05 seconds
 probability of topic_Faculty_48 is 0.417515
 
+mode pgibbs: influence compute time (pgibbs): 0.000106 seconds
 influence of hasword_apr_48 on topic_Faculty_48 is -0.0810028
 
 clique number: 2
 unobserved tuple number: 1
-pgibbs sample time: 5.5e-05 seconds
+pgibbs sample time: 5.9e-05 seconds
 probability of topic_ResearchProject_58 is 0.462699
 
+mode pgibbs: influence compute time (pgibbs): 0.000106 seconds
 influence of hasword_jan_58 on topic_ResearchProject_58 is -0.0371648
 
 clique number: 2
 unobserved tuple number: 1
-pgibbs sample time: 5.4e-05 seconds
+pgibbs sample time: 5.7e-05 seconds
 probability of topic_Staff_53 is 0.447858
 
+mode pgibbs: influence compute time (pgibbs): 0.000134 seconds
 influence of hasword_date_53 on topic_Staff_53 is -0.0517685
 
 clique number: 2
 unobserved tuple number: 1
-pgibbs sample time: 5.5e-05 seconds
+pgibbs sample time: 5.9e-05 seconds
 probability of topic_Department_52 is 0.452421
 
+mode pgibbs: influence compute time (pgibbs): 0.000108 seconds
 influence of hasword_test_52 on topic_Department_52 is -0.0472959
 
 clique number: 2
 unobserved tuple number: 1
-pgibbs sample time: 5.6e-05 seconds
+pgibbs sample time: 5.9e-05 seconds
 probability of topic_ResearchProject_48 is 0.374853
 
+mode pgibbs: influence compute time (pgibbs): 0.000107 seconds
 influence of hasword_apr_48 on topic_ResearchProject_48 is -0.119929
 
 clique number: 2
 unobserved tuple number: 1
-pgibbs sample time: 5.6e-05 seconds
+pgibbs sample time: 6.5e-05 seconds
 probability of topic_Faculty_63 is 0.489816
 
+mode pgibbs: influence compute time (pgibbs): 0.00012 seconds
 influence of hasword_jan_63 on topic_Faculty_63 is -0.0101812
 
 clique number: 2
 unobserved tuple number: 1
-pgibbs sample time: 5.4e-05 seconds
+pgibbs sample time: 5.7e-05 seconds
 probability of topic_ResearchProject_10 is 0.462699
 
+mode pgibbs: influence compute time (pgibbs): 0.000107 seconds
 influence of hasword_jan_10 on topic_ResearchProject_10 is -0.0371648
 
 clique number: 2
 unobserved tuple number: 1
-pgibbs sample time: 5.8e-05 seconds
+pgibbs sample time: 6e-05 seconds
 probability of topic_Department_2 is 0.492523
 
+mode pgibbs: influence compute time (pgibbs): 0.00011 seconds
 influence of hasword_phone_2 on topic_Department_2 is -0.00747604
 
 clique number: 2
 unobserved tuple number: 1
-pgibbs sample time: 5.5e-05 seconds
+pgibbs sample time: 5.8e-05 seconds
 probability of topic_Student_34 is 0.438594
 
+mode pgibbs: influence compute time (pgibbs): 0.000107 seconds
 influence of hasword_man_34 on topic_Student_34 is -0.0607958
 
 clique number: 5
 unobserved tuple number: 2
-pgibbs sample time: 0.000218 seconds
+pgibbs sample time: 0.000231 seconds
 probability of topic_ResearchProject_40 is 0.400194
 
+mode pgibbs: influence compute time (pgibbs): 0.000447 seconds
 influence of links_43_40 on topic_ResearchProject_40 is 0.0150368
 
 clique number: 2
 unobserved tuple number: 1
-pgibbs sample time: 5.4e-05 seconds
+pgibbs sample time: 5.5e-05 seconds
 probability of topic_Course_16 is 0.425378
 
+mode pgibbs: influence compute time (pgibbs): 9.9e-05 seconds
 influence of hasword_gmt_16 on topic_Course_16 is -0.0735251
 
 clique number: 2
@@ -2145,20 +2451,23 @@ unobserved tuple number: 1
 pgibbs sample time: 5.7e-05 seconds
 probability of topic_Student_66 is 0.48777
 
+mode pgibbs: influence compute time (pgibbs): 0.000102 seconds
 influence of hasword_text_66 on topic_Student_66 is -0.0122252
 
 clique number: 2
 unobserved tuple number: 1
-pgibbs sample time: 5.4e-05 seconds
+pgibbs sample time: 5.5e-05 seconds
 probability of topic_Faculty_60 is 0.432194
 
+mode pgibbs: influence compute time (pgibbs): 0.000102 seconds
 influence of hasword_mime_60 on topic_Faculty_60 is -0.0669839
 
 clique number: 2
 unobserved tuple number: 1
-pgibbs sample time: 5.4e-05 seconds
+pgibbs sample time: 5.5e-05 seconds
 probability of topic_Student_38 is 0.3807
 
+mode pgibbs: influence compute time (pgibbs): 0.000102 seconds
 influence of hasword_data_38 on topic_Student_38 is -0.114786
 
 clique number: 5
@@ -2166,6 +2475,7 @@ unobserved tuple number: 2
 pgibbs sample time: 0.00021 seconds
 probability of topic_Staff_12 is 0.505254
 
+mode pgibbs: influence compute time (pgibbs): 0.000406 seconds
 influence of links_47_12 on topic_Staff_12 is 0.0175498
 
 clique number: 3
@@ -2173,20 +2483,23 @@ unobserved tuple number: 1
 pgibbs sample time: 7e-05 seconds
 probability of topic_Staff_44 is 0.447579
 
+mode pgibbs: influence compute time (pgibbs): 0.000137 seconds
 influence of hasword_formal_44 on topic_Staff_44 is -0.00931207
 
 clique number: 2
 unobserved tuple number: 1
-pgibbs sample time: 5.7e-05 seconds
+pgibbs sample time: 5.6e-05 seconds
 probability of topic_Faculty_53 is 0.419826
 
+mode pgibbs: influence compute time (pgibbs): 0.000101 seconds
 influence of hasword_date_53 on topic_Faculty_53 is -0.0788126
 
 clique number: 2
 unobserved tuple number: 1
-pgibbs sample time: 5.6e-05 seconds
+pgibbs sample time: 5.5e-05 seconds
 probability of topic_ResearchProject_65 is 0.529164
 
+mode pgibbs: influence compute time (pgibbs): 0.000101 seconds
 influence of hasword_high_65 on topic_ResearchProject_65 is 0.0290989
 
 clique number: 2
@@ -2194,6 +2507,7 @@ unobserved tuple number: 1
 pgibbs sample time: 5.4e-05 seconds
 probability of topic_ResearchProject_25 is 0.462699
 
+mode pgibbs: influence compute time (pgibbs): 0.0001 seconds
 influence of hasword_jan_25 on topic_ResearchProject_25 is -0.0371648
 
 clique number: 2
@@ -2201,62 +2515,71 @@ unobserved tuple number: 1
 pgibbs sample time: 5.5e-05 seconds
 probability of topic_Faculty_11 is 0.312406
 
+mode pgibbs: influence compute time (pgibbs): 0.000101 seconds
 influence of hasword_dec_11 on topic_Faculty_11 is -0.169712
 
 clique number: 2
 unobserved tuple number: 1
-pgibbs sample time: 5.3e-05 seconds
+pgibbs sample time: 5.4e-05 seconds
 probability of topic_Staff_49 is 0.462791
 
+mode pgibbs: influence compute time (pgibbs): 9.8e-05 seconds
 influence of hasword_home_49 on topic_Staff_49 is -0.0370738
 
 clique number: 5
 unobserved tuple number: 2
-pgibbs sample time: 0.000215 seconds
+pgibbs sample time: 0.000241 seconds
 probability of topic_ResearchProject_21 is 0.54492
 
+mode pgibbs: influence compute time (pgibbs): 0.000466 seconds
 influence of links_51_21 on topic_ResearchProject_21 is 0.0157216
 
 clique number: 5
 unobserved tuple number: 2
-pgibbs sample time: 0.000219 seconds
+pgibbs sample time: 0.000239 seconds
 probability of topic_Faculty_21 is 0.496341
 
+mode pgibbs: influence compute time (pgibbs): 0.00045 seconds
 influence of links_51_21 on topic_Faculty_21 is 0.0150221
 
 clique number: 2
 unobserved tuple number: 1
-pgibbs sample time: 5.4e-05 seconds
+pgibbs sample time: 5.5e-05 seconds
 probability of topic_Course_11 is 0.31139
 
+mode pgibbs: influence compute time (pgibbs): 9.9e-05 seconds
 influence of hasword_dec_11 on topic_Course_11 is -0.170429
 
 clique number: 3
 unobserved tuple number: 1
-pgibbs sample time: 0.000102 seconds
+pgibbs sample time: 7.2e-05 seconds
 probability of topic_Student_44 is 0.499309
 
+mode pgibbs: influence compute time (pgibbs): 0.000129 seconds
 influence of r1159 on topic_Student_44 is 0.249997
 
 clique number: 2
 unobserved tuple number: 1
-pgibbs sample time: 5.5e-05 seconds
+pgibbs sample time: 5.4e-05 seconds
 probability of topic_Course_50 is 0.427222
 
+mode pgibbs: influence compute time (pgibbs): 0.0001 seconds
 influence of hasword_art_50 on topic_Course_50 is -0.0717608
 
 clique number: 2
 unobserved tuple number: 1
-pgibbs sample time: 5.7e-05 seconds
+pgibbs sample time: 5.9e-05 seconds
 probability of topic_Department_29 is 0.692524
 
+mode pgibbs: influence compute time (pgibbs): 0.000105 seconds
 influence of hasword_depart_29 on topic_Department_29 is 0.173161
 
 clique number: 2
 unobserved tuple number: 1
-pgibbs sample time: 5.4e-05 seconds
+pgibbs sample time: 5.8e-05 seconds
 probability of topic_Staff_11 is 0.280067
 
+mode pgibbs: influence compute time (pgibbs): 0.000114 seconds
 influence of hasword_dec_11 on topic_Staff_11 is -0.190759
 
 clique number: 2
@@ -2264,27 +2587,31 @@ unobserved tuple number: 1
 pgibbs sample time: 5.6e-05 seconds
 probability of topic_Faculty_34 is 0.488039
 
+mode pgibbs: influence compute time (pgibbs): 0.000102 seconds
 influence of hasword_man_34 on topic_Faculty_34 is -0.0119563
 
 clique number: 6
 unobserved tuple number: 2
-pgibbs sample time: 0.000242 seconds
+pgibbs sample time: 0.000311 seconds
 probability of topic_Course_47 is 0.758464
 
+mode pgibbs: influence compute time (pgibbs): 0.000467 seconds
 influence of links_47_12 on topic_Course_47 is -0.0128456
 
 clique number: 2
 unobserved tuple number: 1
-pgibbs sample time: 5.3e-05 seconds
+pgibbs sample time: 5.5e-05 seconds
 probability of topic_Course_60 is 0.411195
 
+mode pgibbs: influence compute time (pgibbs): 9.9e-05 seconds
 influence of hasword_mime_60 on topic_Course_60 is -0.0869534
 
 clique number: 2
 unobserved tuple number: 1
-pgibbs sample time: 5.3e-05 seconds
+pgibbs sample time: 5.6e-05 seconds
 probability of topic_Course_38 is 0.409805
 
+mode pgibbs: influence compute time (pgibbs): 0.000103 seconds
 influence of hasword_data_38 on topic_Course_38 is -0.0882542
 
 clique number: 2
@@ -2292,6 +2619,7 @@ unobserved tuple number: 1
 pgibbs sample time: 5.4e-05 seconds
 probability of topic_Person_66 is 0.486242
 
+mode pgibbs: influence compute time (pgibbs): 9.9e-05 seconds
 influence of hasword_text_66 on topic_Person_66 is -0.0137515
 
 clique number: 2
@@ -2299,6 +2627,7 @@ unobserved tuple number: 1
 pgibbs sample time: 5.6e-05 seconds
 probability of topic_ResearchProject_64 is 0.470243
 
+mode pgibbs: influence compute time (pgibbs): 0.000103 seconds
 influence of hasword_laboratori_64 on topic_ResearchProject_64 is -0.029688
 
 clique number: 5
@@ -2306,13 +2635,15 @@ unobserved tuple number: 2
 pgibbs sample time: 0.000216 seconds
 probability of topic_Faculty_40 is 0.587785
 
+mode pgibbs: influence compute time (pgibbs): 0.000418 seconds
 influence of links_43_40 on topic_Faculty_40 is 0.0150899
 
 clique number: 2
 unobserved tuple number: 1
-pgibbs sample time: 5.5e-05 seconds
+pgibbs sample time: 5.4e-05 seconds
 probability of topic_Staff_20 is 0.447858
 
+mode pgibbs: influence compute time (pgibbs): 9.9e-05 seconds
 influence of hasword_date_20 on topic_Staff_20 is -0.0517685
 
 clique number: 2
@@ -2320,6 +2651,7 @@ unobserved tuple number: 1
 pgibbs sample time: 5.5e-05 seconds
 probability of topic_Department_58 is 0.649423
 
+mode pgibbs: influence compute time (pgibbs): 0.000101 seconds
 influence of hasword_jan_58 on topic_Department_58 is 0.14049
 
 clique number: 2
@@ -2327,55 +2659,63 @@ unobserved tuple number: 1
 pgibbs sample time: 5.5e-05 seconds
 probability of topic_Faculty_16 is 0.419826
 
+mode pgibbs: influence compute time (pgibbs): 0.0001 seconds
 influence of hasword_gmt_16 on topic_Faculty_16 is -0.0788126
 
 clique number: 2
 unobserved tuple number: 1
-pgibbs sample time: 5.6e-05 seconds
+pgibbs sample time: 5.9e-05 seconds
 probability of topic_Faculty_66 is 0.401781
 
+mode pgibbs: influence compute time (pgibbs): 0.000108 seconds
 influence of hasword_text_66 on topic_Faculty_66 is -0.0957096
 
 clique number: 2
 unobserved tuple number: 1
-pgibbs sample time: 5.4e-05 seconds
+pgibbs sample time: 5.5e-05 seconds
 probability of topic_ResearchProject_52 is 0.476468
 
+mode pgibbs: influence compute time (pgibbs): 0.000101 seconds
 influence of hasword_test_52 on topic_ResearchProject_52 is -0.023498
 
 clique number: 2
 unobserved tuple number: 1
-pgibbs sample time: 5.6e-05 seconds
+pgibbs sample time: 7.2e-05 seconds
 probability of topic_Staff_13 is 0.457572
 
+mode pgibbs: influence compute time (pgibbs): 0.000108 seconds
 influence of hasword_develop_13 on topic_Staff_13 is -0.0422275
 
 clique number: 2
 unobserved tuple number: 1
-pgibbs sample time: 5.6e-05 seconds
+pgibbs sample time: 5.7e-05 seconds
 probability of topic_Department_36 is 0.371091
 
+mode pgibbs: influence compute time (pgibbs): 0.000105 seconds
 influence of hasword_system_36 on topic_Department_36 is -0.123202
 
 clique number: 2
 unobserved tuple number: 1
-pgibbs sample time: 5.5e-05 seconds
+pgibbs sample time: 5.6e-05 seconds
 probability of topic_Student_63 is 0.524583
 
+mode pgibbs: influence compute time (pgibbs): 0.000102 seconds
 influence of hasword_jan_63 on topic_Student_63 is 0.0245443
 
 clique number: 2
 unobserved tuple number: 1
-pgibbs sample time: 5.4e-05 seconds
+pgibbs sample time: 5.3e-05 seconds
 probability of topic_Course_5 is 0.415922
 
+mode pgibbs: influence compute time (pgibbs): 9.7e-05 seconds
 influence of hasword_html_5 on topic_Course_5 is -0.0825073
 
 clique number: 2
 unobserved tuple number: 1
-pgibbs sample time: 5.5e-05 seconds
+pgibbs sample time: 5.6e-05 seconds
 probability of topic_Department_18 is 0.481264
 
+mode pgibbs: influence compute time (pgibbs): 0.000102 seconds
 influence of hasword_html_18 on topic_Department_18 is -0.0187186
 
 clique number: 2
@@ -2383,6 +2723,7 @@ unobserved tuple number: 1
 pgibbs sample time: 5.6e-05 seconds
 probability of topic_ResearchProject_2 is 0.437523
 
+mode pgibbs: influence compute time (pgibbs): 0.000111 seconds
 influence of hasword_phone_2 on topic_ResearchProject_2 is -0.0618343
 
 clique number: 2
@@ -2390,426 +2731,487 @@ unobserved tuple number: 1
 pgibbs sample time: 5.4e-05 seconds
 probability of topic_Staff_25 is 0.576178
 
+mode pgibbs: influence compute time (pgibbs): 9.7e-05 seconds
 influence of hasword_jan_25 on topic_Staff_25 is 0.0750113
 
 clique number: 3
 unobserved tuple number: 1
-pgibbs sample time: 7.3e-05 seconds
+pgibbs sample time: 7.4e-05 seconds
 probability of topic_Department_44 is 0.373148
 
+mode pgibbs: influence compute time (pgibbs): 0.000134 seconds
 influence of hasword_formal_44 on topic_Department_44 is -0.00569606
 
 clique number: 2
 unobserved tuple number: 1
-pgibbs sample time: 5.6e-05 seconds
+pgibbs sample time: 6.2e-05 seconds
 probability of topic_Student_29 is 0.538624
 
+mode pgibbs: influence compute time (pgibbs): 0.000105 seconds
 influence of hasword_depart_29 on topic_Student_29 is 0.0384728
 
 clique number: 2
 unobserved tuple number: 1
-pgibbs sample time: 5.5e-05 seconds
+pgibbs sample time: 5.6e-05 seconds
 probability of topic_Person_54 is 0.374065
 
+mode pgibbs: influence compute time (pgibbs): 0.000102 seconds
 influence of hasword_syllabu_54 on topic_Person_54 is -0.120617
 
 clique number: 2
 unobserved tuple number: 1
-pgibbs sample time: 5.5e-05 seconds
+pgibbs sample time: 8.9e-05 seconds
 probability of topic_Faculty_20 is 0.419826
 
+mode pgibbs: influence compute time (pgibbs): 0.000114 seconds
 influence of hasword_date_20 on topic_Faculty_20 is -0.0788126
 
 clique number: 2
 unobserved tuple number: 1
-pgibbs sample time: 5.5e-05 seconds
+pgibbs sample time: 5.4e-05 seconds
 probability of topic_Staff_56 is 0.505232
 
+mode pgibbs: influence compute time (pgibbs): 9.9e-05 seconds
 influence of hasword_includ_56 on topic_Staff_56 is 0.00523206
 
 clique number: 2
 unobserved tuple number: 1
-pgibbs sample time: 5.4e-05 seconds
+pgibbs sample time: 5.5e-05 seconds
 probability of topic_Course_58 is 0.47654
 
+mode pgibbs: influence compute time (pgibbs): 9.9e-05 seconds
 influence of hasword_jan_58 on topic_Course_58 is -0.0234264
 
 clique number: 2
 unobserved tuple number: 1
-pgibbs sample time: 5.5e-05 seconds
+pgibbs sample time: 5.7e-05 seconds
 probability of topic_Faculty_23 is 0.478687
 
+mode pgibbs: influence compute time (pgibbs): 0.000103 seconds
 influence of hasword_texa_23 on topic_Faculty_23 is -0.0212873
 
 clique number: 5
 unobserved tuple number: 2
-pgibbs sample time: 0.000218 seconds
+pgibbs sample time: 0.000316 seconds
 probability of topic_ResearchProject_43 is 0.450356
 
+mode pgibbs: influence compute time (pgibbs): 0.000465 seconds
 influence of links_43_40 on topic_ResearchProject_43 is -0.011474
 
 clique number: 5
 unobserved tuple number: 2
-pgibbs sample time: 0.00021 seconds
+pgibbs sample time: 0.000229 seconds
 probability of topic_Person_33 is 0.68996
 
+mode pgibbs: influence compute time (pgibbs): 0.000444 seconds
 influence of links_33_19 on topic_Person_33 is -0.0093705
 
 clique number: 2
 unobserved tuple number: 1
-pgibbs sample time: 5.5e-05 seconds
+pgibbs sample time: 5.9e-05 seconds
 probability of topic_Staff_5 is 0.423377
 
+mode pgibbs: influence compute time (pgibbs): 0.000108 seconds
 influence of hasword_html_5 on topic_Staff_5 is -0.0754351
 
 clique number: 5
 unobserved tuple number: 2
-pgibbs sample time: 0.000211 seconds
+pgibbs sample time: 0.000222 seconds
 probability of topic_Person_19 is 0.383952
 
+mode pgibbs: influence compute time (pgibbs): 0.000431 seconds
 influence of links_33_19 on topic_Person_19 is 0.00843398
 
 clique number: 2
 unobserved tuple number: 1
-pgibbs sample time: 5.6e-05 seconds
+pgibbs sample time: 5.9e-05 seconds
 probability of topic_Person_42 is 0.661866
 
+mode pgibbs: influence compute time (pgibbs): 0.000108 seconds
 influence of hasword_scienc_42 on topic_Person_42 is 0.150472
 
 clique number: 2
 unobserved tuple number: 1
-pgibbs sample time: 5.7e-05 seconds
+pgibbs sample time: 5.9e-05 seconds
 probability of topic_Faculty_13 is 0.546112
 
+mode pgibbs: influence compute time (pgibbs): 0.000111 seconds
 influence of hasword_develop_13 on topic_Faculty_13 is 0.0458538
 
 clique number: 2
 unobserved tuple number: 1
-pgibbs sample time: 5.5e-05 seconds
+pgibbs sample time: 5.8e-05 seconds
 probability of topic_Course_32 is 0.425578
 
+mode pgibbs: influence compute time (pgibbs): 0.000121 seconds
 influence of hasword_softwar_32 on topic_Course_32 is -0.0733344
 
 clique number: 2
 unobserved tuple number: 1
-pgibbs sample time: 5.6e-05 seconds
+pgibbs sample time: 6.2e-05 seconds
 probability of topic_Department_49 is 0.643413
 
+mode pgibbs: influence compute time (pgibbs): 0.000112 seconds
 influence of hasword_home_49 on topic_Department_49 is 0.135527
 
 clique number: 3
 unobserved tuple number: 1
-pgibbs sample time: 7.2e-05 seconds
+pgibbs sample time: 8.5e-05 seconds
 probability of topic_ResearchProject_44 is 0.498634
 
+mode pgibbs: influence compute time (pgibbs): 0.000147 seconds
 influence of hasword_formal_44 on topic_ResearchProject_44 is -0.0398715
 
 clique number: 2
 unobserved tuple number: 1
-pgibbs sample time: 5.6e-05 seconds
+pgibbs sample time: 6e-05 seconds
 probability of topic_Person_14 is 0.661866
 
+mode pgibbs: influence compute time (pgibbs): 0.00011 seconds
 influence of hasword_scienc_14 on topic_Person_14 is 0.150472
 
 clique number: 2
 unobserved tuple number: 1
-pgibbs sample time: 5.8e-05 seconds
+pgibbs sample time: 6.2e-05 seconds
 probability of topic_ResearchProject_42 is 0.510441
 
+mode pgibbs: influence compute time (pgibbs): 0.000114 seconds
 influence of hasword_scienc_42 on topic_ResearchProject_42 is 0.0104382
 
 clique number: 2
 unobserved tuple number: 1
-pgibbs sample time: 5.5e-05 seconds
+pgibbs sample time: 6.1e-05 seconds
 probability of topic_Staff_4 is 0.46839
 
+mode pgibbs: influence compute time (pgibbs): 0.000112 seconds
 influence of hasword_represent_4 on topic_Staff_4 is -0.0315265
 
 clique number: 2
 unobserved tuple number: 1
-pgibbs sample time: 5.5e-05 seconds
+pgibbs sample time: 5.8e-05 seconds
 probability of topic_Course_15 is 0.43891
 
+mode pgibbs: influence compute time (pgibbs): 0.000113 seconds
 influence of hasword_modifi_15 on topic_Course_15 is -0.0604888
 
 clique number: 2
 unobserved tuple number: 1
-pgibbs sample time: 5.5e-05 seconds
+pgibbs sample time: 6.1e-05 seconds
 probability of topic_Staff_64 is 0.503992
 
+mode pgibbs: influence compute time (pgibbs): 0.000111 seconds
 influence of hasword_laboratori_64 on topic_Staff_64 is 0.00399165
 
 clique number: 2
 unobserved tuple number: 1
-pgibbs sample time: 5.4e-05 seconds
+pgibbs sample time: 6e-05 seconds
 probability of topic_Faculty_5 is 0.387388
 
+mode pgibbs: influence compute time (pgibbs): 0.00011 seconds
 influence of hasword_html_5 on topic_Faculty_5 is -0.10882
 
 clique number: 2
 unobserved tuple number: 1
-pgibbs sample time: 5.7e-05 seconds
+pgibbs sample time: 6.1e-05 seconds
 probability of topic_ResearchProject_14 is 0.510441
 
+mode pgibbs: influence compute time (pgibbs): 0.000113 seconds
 influence of hasword_scienc_14 on topic_ResearchProject_14 is 0.0104382
 
 clique number: 2
 unobserved tuple number: 1
-pgibbs sample time: 5.5e-05 seconds
+pgibbs sample time: 6.2e-05 seconds
 probability of topic_Department_41 is 0.424289
 
+mode pgibbs: influence compute time (pgibbs): 0.000113 seconds
 influence of hasword_interest_41 on topic_Department_41 is -0.0745653
 
 clique number: 2
 unobserved tuple number: 1
-pgibbs sample time: 5.6e-05 seconds
+pgibbs sample time: 6.2e-05 seconds
 probability of topic_Department_8 is 0.477736
 
+mode pgibbs: influence compute time (pgibbs): 0.000114 seconds
 influence of hasword_implement_8 on topic_Department_8 is -0.0222352
 
 clique number: 2
 unobserved tuple number: 1
-pgibbs sample time: 5.6e-05 seconds
+pgibbs sample time: 6.1e-05 seconds
 probability of topic_Department_63 is 0.649423
 
+mode pgibbs: influence compute time (pgibbs): 0.000113 seconds
 influence of hasword_jan_63 on topic_Department_63 is 0.14049
 
 clique number: 5
 unobserved tuple number: 2
-pgibbs sample time: 0.00022 seconds
+pgibbs sample time: 0.000244 seconds
 probability of topic_Student_39 is 0.32077
 
+mode pgibbs: influence compute time (pgibbs): 0.000472 seconds
 influence of links_61_39 on topic_Student_39 is 0.0147946
 
 clique number: 5
 unobserved tuple number: 2
-pgibbs sample time: 0.000216 seconds
+pgibbs sample time: 0.000256 seconds
 probability of topic_Student_51 is 0.511272
 
+mode pgibbs: influence compute time (pgibbs): 0.000519 seconds
 influence of links_51_21 on topic_Student_51 is -0.0137085
 
 clique number: 2
 unobserved tuple number: 1
-pgibbs sample time: 5.5e-05 seconds
+pgibbs sample time: 6.1e-05 seconds
 probability of topic_Student_4 is 0.534022
 
+mode pgibbs: influence compute time (pgibbs): 0.00011 seconds
 influence of hasword_represent_4 on topic_Student_4 is 0.0339186
 
 clique number: 2
 unobserved tuple number: 1
-pgibbs sample time: 5.5e-05 seconds
+pgibbs sample time: 5.8e-05 seconds
 probability of topic_Staff_38 is 0.45716
 
+mode pgibbs: influence compute time (pgibbs): 0.000107 seconds
 influence of hasword_data_38 on topic_Staff_38 is -0.0426334
 
 clique number: 2
 unobserved tuple number: 1
-pgibbs sample time: 5.6e-05 seconds
+pgibbs sample time: 6.1e-05 seconds
 probability of topic_ResearchProject_50 is 0.482183
 
+mode pgibbs: influence compute time (pgibbs): 0.000113 seconds
 influence of hasword_art_50 on topic_ResearchProject_50 is -0.0178024
 
 clique number: 5
 unobserved tuple number: 2
-pgibbs sample time: 0.000223 seconds
+pgibbs sample time: 0.000246 seconds
 probability of topic_Department_51 is 0.637696
 
+mode pgibbs: influence compute time (pgibbs): 0.000473 seconds
 influence of links_51_21 on topic_Department_51 is -0.012076
 
 clique number: 2
 unobserved tuple number: 1
-pgibbs sample time: 5.4e-05 seconds
+pgibbs sample time: 9.4e-05 seconds
 probability of topic_Course_27 is 0.47654
 
+mode pgibbs: influence compute time (pgibbs): 0.000124 seconds
 influence of hasword_jan_27 on topic_Course_27 is -0.0234264
 
 clique number: 2
 unobserved tuple number: 1
-pgibbs sample time: 5.3e-05 seconds
+pgibbs sample time: 6.3e-05 seconds
 probability of topic_Person_11 is 0.0568886
 
+mode pgibbs: influence compute time (pgibbs): 0.000108 seconds
 influence of hasword_dec_11 on topic_Person_11 is -0.152549
 
 clique number: 2
 unobserved tuple number: 1
-pgibbs sample time: 5.3e-05 seconds
+pgibbs sample time: 5.8e-05 seconds
 probability of topic_Course_48 is 0.519589
 
+mode pgibbs: influence compute time (pgibbs): 0.000106 seconds
 influence of hasword_apr_48 on topic_Course_48 is 0.0195692
 
 clique number: 3
 unobserved tuple number: 1
-pgibbs sample time: 7.4e-05 seconds
+pgibbs sample time: 8.9e-05 seconds
 probability of topic_ResearchProject_9 is 0.365006
 
+mode pgibbs: influence compute time (pgibbs): 0.000207 seconds
 influence of hasword_servic_9 on topic_ResearchProject_9 is -0.0964982
 
 clique number: 2
 unobserved tuple number: 1
-pgibbs sample time: 5.5e-05 seconds
+pgibbs sample time: 6e-05 seconds
 probability of topic_Course_49 is 0.577641
 
+mode pgibbs: influence compute time (pgibbs): 0.000109 seconds
 influence of hasword_home_49 on topic_Course_49 is 0.0764049
 
 clique number: 2
 unobserved tuple number: 1
-pgibbs sample time: 5.6e-05 seconds
+pgibbs sample time: 5.8e-05 seconds
 probability of topic_Department_25 is 0.649423
 
+mode pgibbs: influence compute time (pgibbs): 0.000108 seconds
 influence of hasword_jan_25 on topic_Department_25 is 0.14049
 
 clique number: 5
 unobserved tuple number: 2
-pgibbs sample time: 0.000209 seconds
+pgibbs sample time: 0.000223 seconds
 probability of topic_Person_43 is 0.486714
 
+mode pgibbs: influence compute time (pgibbs): 0.000427 seconds
 influence of links_43_40 on topic_Person_43 is -0.0182621
 
 clique number: 2
 unobserved tuple number: 1
-pgibbs sample time: 5.5e-05 seconds
+pgibbs sample time: 6e-05 seconds
 probability of topic_Department_28 is 0.480109
 
+mode pgibbs: influence compute time (pgibbs): 0.000108 seconds
 influence of hasword_gmt_28 on topic_Department_28 is -0.0198703
 
 clique number: 2
 unobserved tuple number: 1
-pgibbs sample time: 5.5e-05 seconds
+pgibbs sample time: 6.4e-05 seconds
 probability of topic_Department_42 is 0.412026
 
+mode pgibbs: influence compute time (pgibbs): 0.000109 seconds
 influence of hasword_scienc_42 on topic_Department_42 is -0.0861742
 
 clique number: 6
 unobserved tuple number: 2
-pgibbs sample time: 0.00025 seconds
+pgibbs sample time: 0.000266 seconds
 probability of topic_Student_12 is 0.501461
 
+mode pgibbs: influence compute time (pgibbs): 0.000555 seconds
 influence of links_47_12 on topic_Student_12 is 0.0155884
 
 clique number: 2
 unobserved tuple number: 1
-pgibbs sample time: 5.6e-05 seconds
+pgibbs sample time: 6e-05 seconds
 probability of topic_ResearchProject_62 is 0.470989
 
+mode pgibbs: influence compute time (pgibbs): 0.00011 seconds
 influence of hasword_length_62 on topic_ResearchProject_62 is -0.0289472
 
 clique number: 2
 unobserved tuple number: 1
-pgibbs sample time: 5.5e-05 seconds
+pgibbs sample time: 5.8e-05 seconds
 probability of topic_Course_17 is 0.75994
 
+mode pgibbs: influence compute time (pgibbs): 0.000106 seconds
 influence of hasword_materi_17 on topic_Course_17 is 0.210854
 
 clique number: 2
 unobserved tuple number: 1
-pgibbs sample time: 5.6e-05 seconds
+pgibbs sample time: 5.9e-05 seconds
 probability of topic_Faculty_31 is 0.547991
 
+mode pgibbs: influence compute time (pgibbs): 0.000109 seconds
 influence of hasword_sequenc_31 on topic_Faculty_31 is 0.0477002
 
 clique number: 2
 unobserved tuple number: 1
-pgibbs sample time: 5.4e-05 seconds
+pgibbs sample time: 5.7e-05 seconds
 probability of topic_Staff_8 is 0.555017
 
+mode pgibbs: influence compute time (pgibbs): 0.000104 seconds
 influence of hasword_implement_8 on topic_Staff_8 is 0.0545785
 
 clique number: 2
 unobserved tuple number: 1
-pgibbs sample time: 5.7e-05 seconds
+pgibbs sample time: 6e-05 seconds
 probability of topic_ResearchProject_7 is 0.442936
 
+mode pgibbs: influence compute time (pgibbs): 0.000109 seconds
 influence of hasword_date_7 on topic_ResearchProject_7 is -0.0565746
 
 clique number: 2
 unobserved tuple number: 1
-pgibbs sample time: 5.6e-05 seconds
+pgibbs sample time: 5.8e-05 seconds
 probability of topic_ResearchProject_37 is 0.493629
 
+mode pgibbs: influence compute time (pgibbs): 0.00011 seconds
 influence of hasword_austin_37 on topic_ResearchProject_37 is -0.0063701
 
 clique number: 2
 unobserved tuple number: 1
-pgibbs sample time: 5.3e-05 seconds
+pgibbs sample time: 5.7e-05 seconds
 probability of topic_Student_2 is 0.425061
 
+mode pgibbs: influence compute time (pgibbs): 0.000103 seconds
 influence of hasword_phone_2 on topic_Student_2 is -0.0738282
 
 clique number: 2
 unobserved tuple number: 1
-pgibbs sample time: 6.2e-05 seconds
+pgibbs sample time: 5.9e-05 seconds
 probability of topic_Student_65 is 0.541661
 
+mode pgibbs: influence compute time (pgibbs): 0.000108 seconds
 influence of hasword_high_65 on topic_Student_65 is 0.0414707
 
 clique number: 2
 unobserved tuple number: 1
-pgibbs sample time: 5.3e-05 seconds
+pgibbs sample time: 5.7e-05 seconds
 probability of topic_Person_24 is 0.488201
 
+mode pgibbs: influence compute time (pgibbs): 0.000106 seconds
 influence of hasword_research_24 on topic_Person_24 is -0.0117943
 
 clique number: 2
 unobserved tuple number: 1
-pgibbs sample time: 5.5e-05 seconds
+pgibbs sample time: 6e-05 seconds
 probability of topic_Faculty_10 is 0.489816
 
+mode pgibbs: influence compute time (pgibbs): 0.000108 seconds
 influence of hasword_jan_10 on topic_Faculty_10 is -0.0101812
 
 clique number: 2
 unobserved tuple number: 1
-pgibbs sample time: 5.6e-05 seconds
+pgibbs sample time: 5.9e-05 seconds
 probability of topic_ResearchProject_38 is 0.541454
 
+mode pgibbs: influence compute time (pgibbs): 0.000108 seconds
 influence of hasword_data_38 on topic_ResearchProject_38 is 0.0412662
 
 clique number: 5
 unobserved tuple number: 2
-pgibbs sample time: 0.000219 seconds
+pgibbs sample time: 0.000237 seconds
 probability of topic_Department_22 is 0.728317
 
+mode pgibbs: influence compute time (pgibbs): 0.000452 seconds
 influence of links_22_35 on topic_Department_22 is -0.0115462
 
 clique number: 2
 unobserved tuple number: 1
-pgibbs sample time: 5.6e-05 seconds
+pgibbs sample time: 6e-05 seconds
 probability of topic_Faculty_45 is 0.499912
 
+mode pgibbs: influence compute time (pgibbs): 0.00011 seconds
 influence of hasword_utexa_45 on topic_Faculty_45 is -8.8213e-05
 
 clique number: 2
 unobserved tuple number: 1
-pgibbs sample time: 5.6e-05 seconds
+pgibbs sample time: 5.9e-05 seconds
 probability of topic_Department_30 is 0.495797
 
+mode pgibbs: influence compute time (pgibbs): 0.000107 seconds
 influence of hasword_tree_30 on topic_Department_30 is -0.00420323
 
 clique number: 2
 unobserved tuple number: 1
-pgibbs sample time: 5.6e-05 seconds
+pgibbs sample time: 5.9e-05 seconds
 probability of topic_ResearchProject_36 is 0.403352
 
+mode pgibbs: influence compute time (pgibbs): 0.000109 seconds
 influence of hasword_system_36 on topic_ResearchProject_36 is -0.0942579
 
 clique number: 2
 unobserved tuple number: 1
-pgibbs sample time: 5.6e-05 seconds
+pgibbs sample time: 5.8e-05 seconds
 probability of topic_Course_4 is 0.475249
 
+mode pgibbs: influence compute time (pgibbs): 0.000108 seconds
 influence of hasword_represent_4 on topic_Course_4 is -0.0247113
 
 clique number: 2
 unobserved tuple number: 1
-pgibbs sample time: 5.5e-05 seconds
+pgibbs sample time: 5.6e-05 seconds
 probability of topic_Department_34 is 0.48951
 
+mode pgibbs: influence compute time (pgibbs): 0.0001 seconds
 influence of hasword_man_34 on topic_Department_34 is -0.0104865
 
 clique number: 2
 unobserved tuple number: 1
-pgibbs sample time: 5.4e-05 seconds
+pgibbs sample time: 5.6e-05 seconds
 probability of topic_Department_37 is 0.448246
 
+mode pgibbs: influence compute time (pgibbs): 0.000102 seconds
 influence of hasword_austin_37 on topic_Department_37 is -0.051389
 
 clique number: 2
@@ -2817,6 +3219,7 @@ unobserved tuple number: 1
 pgibbs sample time: 5.6e-05 seconds
 probability of topic_Staff_17 is 0.455511
 
+mode pgibbs: influence compute time (pgibbs): 0.000102 seconds
 influence of hasword_materi_17 on topic_Staff_17 is -0.0442569
 
 clique number: 3
@@ -2824,48 +3227,55 @@ unobserved tuple number: 1
 pgibbs sample time: 7.4e-05 seconds
 probability of topic_Department_26 is 0.601214
 
+mode pgibbs: influence compute time (pgibbs): 0.000136 seconds
 influence of hasword_prototyp_26 on topic_Department_26 is -0.00194608
 
 clique number: 2
 unobserved tuple number: 1
-pgibbs sample time: 5.6e-05 seconds
+pgibbs sample time: 5.7e-05 seconds
 probability of topic_Department_45 is 0.498531
 
+mode pgibbs: influence compute time (pgibbs): 0.000104 seconds
 influence of hasword_utexa_45 on topic_Department_45 is -0.00146926
 
 clique number: 2
 unobserved tuple number: 1
-pgibbs sample time: 5.4e-05 seconds
+pgibbs sample time: 5.6e-05 seconds
 probability of topic_Faculty_6 is 0.419826
 
+mode pgibbs: influence compute time (pgibbs): 0.000115 seconds
 influence of hasword_date_6 on topic_Faculty_6 is -0.0788126
 
 clique number: 2
 unobserved tuple number: 1
-pgibbs sample time: 6.1e-05 seconds
+pgibbs sample time: 5.6e-05 seconds
 probability of topic_ResearchProject_17 is 0.479381
 
+mode pgibbs: influence compute time (pgibbs): 0.000103 seconds
 influence of hasword_materi_17 on topic_ResearchProject_17 is -0.0205957
 
 clique number: 2
 unobserved tuple number: 1
-pgibbs sample time: 5.5e-05 seconds
+pgibbs sample time: 5.6e-05 seconds
 probability of topic_Person_32 is 0.481126
 
+mode pgibbs: influence compute time (pgibbs): 0.000102 seconds
 influence of hasword_softwar_32 on topic_Person_32 is -0.0188566
 
 clique number: 3
 unobserved tuple number: 1
-pgibbs sample time: 6.9e-05 seconds
+pgibbs sample time: 7e-05 seconds
 probability of topic_Staff_26 is 0.418233
 
+mode pgibbs: influence compute time (pgibbs): 0.000127 seconds
 influence of hasword_prototyp_26 on topic_Staff_26 is 0.0132775
 
 clique number: 2
 unobserved tuple number: 1
-pgibbs sample time: 5.4e-05 seconds
+pgibbs sample time: 5.5e-05 seconds
 probability of topic_Course_66 is 0.419663
 
+mode pgibbs: influence compute time (pgibbs): 0.0001 seconds
 influence of hasword_text_66 on topic_Course_66 is -0.0789676
 
 clique number: 2
@@ -2873,34 +3283,39 @@ unobserved tuple number: 1
 pgibbs sample time: 5.6e-05 seconds
 probability of topic_Department_66 is 0.477106
 
+mode pgibbs: influence compute time (pgibbs): 0.000103 seconds
 influence of hasword_text_66 on topic_Department_66 is -0.0228628
 
 clique number: 5
 unobserved tuple number: 2
-pgibbs sample time: 0.000218 seconds
+pgibbs sample time: 0.00022 seconds
 probability of topic_Faculty_61 is 0.648704
 
+mode pgibbs: influence compute time (pgibbs): 0.000427 seconds
 influence of links_61_39 on topic_Faculty_61 is -0.0107539
 
 clique number: 5
 unobserved tuple number: 2
-pgibbs sample time: 0.000228 seconds
+pgibbs sample time: 0.000234 seconds
 probability of topic_Person_35 is 0.50009
 
+mode pgibbs: influence compute time (pgibbs): 0.000427 seconds
 influence of links_22_35 on topic_Person_35 is 0.017331
 
 clique number: 5
 unobserved tuple number: 2
-pgibbs sample time: 0.000215 seconds
+pgibbs sample time: 0.000217 seconds
 probability of topic_ResearchProject_51 is 0.447609
 
+mode pgibbs: influence compute time (pgibbs): 0.000418 seconds
 influence of links_51_21 on topic_ResearchProject_51 is -0.015476
 
 clique number: 2
 unobserved tuple number: 1
-pgibbs sample time: 5.4e-05 seconds
+pgibbs sample time: 5.5e-05 seconds
 probability of topic_Student_6 is 0.493937
 
+mode pgibbs: influence compute time (pgibbs): 9.8e-05 seconds
 influence of hasword_date_6 on topic_Student_6 is -0.00606229
 
 clique number: 2
@@ -2908,13 +3323,15 @@ unobserved tuple number: 1
 pgibbs sample time: 5.7e-05 seconds
 probability of topic_Student_55 is 0.50726
 
+mode pgibbs: influence compute time (pgibbs): 0.000103 seconds
 influence of hasword_modifi_55 on topic_Student_55 is 0.00725901
 
 clique number: 2
 unobserved tuple number: 1
-pgibbs sample time: 5.4e-05 seconds
+pgibbs sample time: 5.5e-05 seconds
 probability of topic_Person_8 is 0.54974
 
+mode pgibbs: influence compute time (pgibbs): 0.0001 seconds
 influence of hasword_implement_8 on topic_Person_8 is 0.0494163
 
 clique number: 2
@@ -2922,13 +3339,15 @@ unobserved tuple number: 1
 pgibbs sample time: 5.4e-05 seconds
 probability of topic_Course_37 is 0.498392
 
+mode pgibbs: influence compute time (pgibbs): 9.8e-05 seconds
 influence of hasword_austin_37 on topic_Course_37 is -0.00160777
 
 clique number: 2
 unobserved tuple number: 1
-pgibbs sample time: 5.4e-05 seconds
+pgibbs sample time: 5.5e-05 seconds
 probability of topic_Staff_24 is 0.637281
 
+mode pgibbs: influence compute time (pgibbs): 0.0001 seconds
 influence of hasword_research_24 on topic_Staff_24 is 0.130375
 
 clique number: 2
@@ -2936,27 +3355,31 @@ unobserved tuple number: 1
 pgibbs sample time: 5.4e-05 seconds
 probability of topic_Person_37 is 0.463107
 
+mode pgibbs: influence compute time (pgibbs): 0.0001 seconds
 influence of hasword_austin_37 on topic_Person_37 is -0.0367608
 
 clique number: 2
 unobserved tuple number: 1
-pgibbs sample time: 5.3e-05 seconds
+pgibbs sample time: 5.4e-05 seconds
 probability of topic_Person_52 is 0.535638
 
+mode pgibbs: influence compute time (pgibbs): 9.8e-05 seconds
 influence of hasword_test_52 on topic_Person_52 is 0.0355192
 
 clique number: 2
 unobserved tuple number: 1
-pgibbs sample time: 6.1e-05 seconds
+pgibbs sample time: 5.5e-05 seconds
 probability of topic_Course_31 is 0.464736
 
+mode pgibbs: influence compute time (pgibbs): 0.000101 seconds
 influence of hasword_sequenc_31 on topic_Course_31 is -0.0351488
 
 clique number: 2
 unobserved tuple number: 1
-pgibbs sample time: 5.4e-05 seconds
+pgibbs sample time: 5.8e-05 seconds
 probability of topic_Faculty_4 is 0.531785
 
+mode pgibbs: influence compute time (pgibbs): 0.0001 seconds
 influence of hasword_represent_4 on topic_Faculty_4 is 0.0317007
 
 clique number: 6
@@ -2964,6 +3387,7 @@ unobserved tuple number: 2
 pgibbs sample time: 0.000318 seconds
 probability of topic_Faculty_46 is 0.399612
 
+mode pgibbs: influence compute time (pgibbs): 0.00062 seconds
 influence of links_59_46 on topic_Faculty_46 is 0.0121247
 
 clique number: 2
@@ -2971,13 +3395,15 @@ unobserved tuple number: 1
 pgibbs sample time: 5.7e-05 seconds
 probability of topic_Faculty_37 is 0.469554
 
+mode pgibbs: influence compute time (pgibbs): 0.000104 seconds
 influence of hasword_austin_37 on topic_Faculty_37 is -0.0303721
 
 clique number: 2
 unobserved tuple number: 1
-pgibbs sample time: 5.5e-05 seconds
+pgibbs sample time: 5.6e-05 seconds
 probability of topic_Person_41 is 0.796164
 
+mode pgibbs: influence compute time (pgibbs): 0.000101 seconds
 influence of hasword_interest_41 on topic_Person_41 is 0.222007
 
 clique number: 2
@@ -2985,5 +3411,6 @@ unobserved tuple number: 1
 pgibbs sample time: 5.5e-05 seconds
 probability of topic_Student_18 is 0.486212
 
+mode pgibbs: influence compute time (pgibbs): 0.000101 seconds
 influence of hasword_html_18 on topic_Student_18 is -0.0137816
 
