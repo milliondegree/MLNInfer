@@ -1,45 +1,5928 @@
-clique number: 2
-unobserved tuple number: 1
-pgibbs sample time: 9.4e-05 seconds
-probability of topic_Course_3 is 0.490213
-
-mode equation: influence compute time (equation): 1.2e-05 seconds
-influence of hasword_algorithm_3 on topic_Course_3 is -0.00978455
-
-clique number: 10
-unobserved tuple number: 3
-pgibbs sample time: 0.000474 seconds
-probability of topic_ResearchProject_49 is 0.213259
-
-mode equation: influence compute time (equation): 7.6e-05 seconds
-influence of r1794 on topic_ResearchProject_49 is 0.190077
-
-clique number: 5
+clique number: 6
 unobserved tuple number: 2
-pgibbs sample time: 0.000218 seconds
-probability of topic_Student_177 is 0.474684
+pgibbs sample time: 0.00077 seconds
+probability of topic_Person_124 is 0.482645
 
-mode equation: influence compute time (equation): 4e-05 seconds
-influence of links_41_177 on topic_Student_177 is -1
-
-clique number: 5
-unobserved tuple number: 2
-pgibbs sample time: 0.000219 seconds
-probability of topic_Student_41 is 0.765482
-
-mode equation: influence compute time (equation): 3.5e-05 seconds
-influence of links_41_177 on topic_Student_41 is 36.1464
+mode equation: influence compute time (equation): 0.000102 seconds
+influence of rl on topic_Person_124 is -0.119444
 
 clique number: 2
 unobserved tuple number: 1
-pgibbs sample time: 5.8e-05 seconds
-probability of topic_Student_16 is 0.493937
+pgibbs sample time: 0.000159 seconds
+probability of topic_Student_96 is 0.535841
 
-mode equation: influence compute time (equation): 1.1e-05 seconds
-influence of hasword_gmt_16 on topic_Student_16 is -0.00606228
+mode equation: influence compute time (equation): 2.7e-05 seconds
+influence of r3195 on topic_Student_96 is 0.248715
+
+clique number: 24
+unobserved tuple number: 8
+pgibbs sample time: 0.003931 seconds
+probability of topic_Department_10 is 0.632581
+
+mode equation: influence compute time (equation): 0.000836 seconds
+influence of hasword_develop_159 on topic_Department_10 is 1.24831e-06
+
+clique number: 6
+unobserved tuple number: 2
+pgibbs sample time: 0.000714 seconds
+probability of topic_Person_44 is 0.535426
+
+mode equation: influence compute time (equation): 9.5e-05 seconds
+influence of rl on topic_Person_44 is 0.123373
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000167 seconds
+probability of topic_Student_77 is 0.580474
+
+mode equation: influence compute time (equation): 3e-05 seconds
+influence of r3335 on topic_Student_77 is 0.243524
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000168 seconds
+probability of topic_ResearchProject_42 is 0.510441
+
+mode equation: influence compute time (equation): 2.7e-05 seconds
+influence of r842 on topic_ResearchProject_42 is 0.249891
+
+clique number: 14
+unobserved tuple number: 4
+pgibbs sample time: 0.001942 seconds
+probability of topic_Course_88 is 0.452686
+
+mode equation: influence compute time (equation): 0.000257 seconds
+influence of r4908 on topic_Course_88 is -0.00661879
+
+clique number: 5
+unobserved tuple number: 2
+pgibbs sample time: 0.000627 seconds
+probability of topic_Department_34 is 0.476607
+
+mode equation: influence compute time (equation): 8.1e-05 seconds
+influence of links_34_119 on topic_Department_34 is -0.0133054
 
 clique number: 8
 unobserved tuple number: 3
-pgibbs sample time: 0.000445 seconds
+pgibbs sample time: 0.001176 seconds
+probability of topic_Course_69 is 0.407393
+
+mode equation: influence compute time (equation): 0.000147 seconds
+influence of links_69_168 on topic_Course_69 is -0.0125287
+
+clique number: 24
+unobserved tuple number: 8
+pgibbs sample time: 0.003887 seconds
+probability of topic_Department_21 is 0.458824
+
+mode equation: influence compute time (equation): 0.000843 seconds
+influence of links_51_159 on topic_Department_21 is 0.000335212
+
+clique number: 8
+unobserved tuple number: 3
+pgibbs sample time: 0.001192 seconds
+probability of topic_Faculty_33 is 0.442099
+
+mode equation: influence compute time (equation): 0.000151 seconds
+influence of links_33_19 on topic_Faculty_33 is -0.0140574
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000214 seconds
+probability of topic_ResearchProject_5 is 0.423904
+
+mode equation: influence compute time (equation): 3.3e-05 seconds
+influence of r2694 on topic_ResearchProject_5 is 0.244209
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000186 seconds
+probability of topic_Person_95 is 0.429657
+
+mode equation: influence compute time (equation): 2.7e-05 seconds
+influence of hasword_format_95 on topic_Person_95 is -0.0694107
+
+clique number: 14
+unobserved tuple number: 4
+pgibbs sample time: 0.002086 seconds
+probability of topic_Faculty_43 is 0.385942
+
+mode equation: influence compute time (equation): 0.000281 seconds
+influence of links_43_40 on topic_Faculty_43 is -0.0160817
+
+clique number: 3
+unobserved tuple number: 1
+pgibbs sample time: 0.000221 seconds
+probability of topic_ResearchProject_79 is 0.378765
+
+mode equation: influence compute time (equation): 3.1e-05 seconds
+influence of r4469 on topic_ResearchProject_79 is 0.235302
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000158 seconds
+probability of topic_Staff_62 is 0.389253
+
+mode equation: influence compute time (equation): 2.5e-05 seconds
+influence of hasword_length_62 on topic_Staff_62 is -0.107088
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000151 seconds
+probability of topic_Student_67 is 0.432953
+
+mode equation: influence compute time (equation): 2.6e-05 seconds
+influence of hasword_robert_67 on topic_Student_67 is -0.0662399
+
+clique number: 6
+unobserved tuple number: 2
+pgibbs sample time: 0.000961 seconds
+probability of topic_Student_93 is 0.505778
+
+mode equation: influence compute time (equation): 8.3e-05 seconds
+influence of hasword_modifi_93 on topic_Student_93 is 0.00728219
+
+clique number: 10
+unobserved tuple number: 3
+pgibbs sample time: 0.001393 seconds
+probability of topic_Course_47 is 0.750093
+
+mode equation: influence compute time (equation): 0.00015 seconds
+influence of hasword_fall_47 on topic_Course_47 is 0.159621
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000161 seconds
+probability of topic_ResearchProject_56 is 0.543606
+
+mode equation: influence compute time (equation): 2.8e-05 seconds
+influence of r1277 on topic_ResearchProject_56 is 0.248098
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000164 seconds
+probability of topic_ResearchProject_3 is 0.401107
+
+mode equation: influence compute time (equation): 2.5e-05 seconds
+influence of hasword_algorithm_3 on topic_ResearchProject_3 is -0.096293
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000157 seconds
+probability of topic_Faculty_87 is 0.504936
+
+mode equation: influence compute time (equation): 2.7e-05 seconds
+influence of r3383 on topic_Faculty_87 is 0.249976
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000159 seconds
+probability of topic_Course_25 is 0.47654
+
+mode equation: influence compute time (equation): 2.5e-05 seconds
+influence of hasword_jan_25 on topic_Course_25 is -0.0234259
+
+clique number: 24
+unobserved tuple number: 8
+pgibbs sample time: 0.004467 seconds
+probability of topic_ResearchProject_113 is 0.631676
+
+mode equation: influence compute time (equation): 0.000921 seconds
+influence of links_10_153 on topic_ResearchProject_113 is 9.7695e-06
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000161 seconds
+probability of topic_Course_96 is 0.503376
+
+mode equation: influence compute time (equation): 2.7e-05 seconds
+influence of r3555 on topic_Course_96 is 0.249989
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000153 seconds
+probability of topic_Staff_32 is 0.59457
+
+mode equation: influence compute time (equation): 2.5e-05 seconds
+influence of hasword_softwar_32 on topic_Staff_32 is 0.0922984
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000146 seconds
+probability of topic_Department_14 is 0.412026
+
+mode equation: influence compute time (equation): 2.7e-05 seconds
+influence of r1746 on topic_Department_14 is 0.242261
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000166 seconds
+probability of topic_Faculty_48 is 0.417515
+
+mode equation: influence compute time (equation): 2.6e-05 seconds
+influence of hasword_apr_48 on topic_Faculty_48 is -0.0809807
+
+clique number: 3
+unobserved tuple number: 1
+pgibbs sample time: 0.000195 seconds
+probability of topic_Staff_9 is 0.458123
+
+mode equation: influence compute time (equation): 2.9e-05 seconds
+influence of hasword_servic_9 on topic_Staff_9 is -0.027106
+
+clique number: 9
+unobserved tuple number: 3
+pgibbs sample time: 0.00132 seconds
+probability of topic_Department_47 is 0.325272
+
+mode equation: influence compute time (equation): 0.000156 seconds
+influence of links_47_12 on topic_Department_47 is -0.0125717
+
+clique number: 24
+unobserved tuple number: 8
+pgibbs sample time: 0.00397 seconds
+probability of topic_Course_10 is 0.464181
+
+mode equation: influence compute time (equation): 0.000829 seconds
+influence of hasword_jan_10 on topic_Course_10 is -0.023375
+
+clique number: 10
+unobserved tuple number: 3
+pgibbs sample time: 0.001365 seconds
+probability of topic_Staff_89 is 0.577472
+
+mode equation: influence compute time (equation): 0.000163 seconds
+influence of links_49_89 on topic_Staff_89 is 0.0157351
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000165 seconds
+probability of topic_Person_74 is 0.486143
+
+mode equation: influence compute time (equation): 2.6e-05 seconds
+influence of hasword_server_74 on topic_Person_74 is -0.0138495
+
+clique number: 5
+unobserved tuple number: 2
+pgibbs sample time: 0.000776 seconds
+probability of topic_Course_61 is 0.330837
+
+mode equation: influence compute time (equation): 8.1e-05 seconds
+influence of links_61_39 on topic_Course_61 is -0.0167346
+
+clique number: 7
+unobserved tuple number: 2
+pgibbs sample time: 0.000823 seconds
+probability of topic_ResearchProject_146 is 0.560033
+
+mode equation: influence compute time (equation): 8.4e-05 seconds
+influence of hasword_fall_47 on topic_ResearchProject_146 is 0.00133086
+
+clique number: 24
+unobserved tuple number: 8
+pgibbs sample time: 0.003804 seconds
+probability of topic_Person_113 is 0.32529
+
+mode equation: influence compute time (equation): 0.00084 seconds
+influence of links_10_153 on topic_Person_113 is 9.82887e-06
+
+clique number: 3
+unobserved tuple number: 1
+pgibbs sample time: 0.000199 seconds
+probability of topic_Student_9 is 0.425073
+
+mode equation: influence compute time (equation): 2.7e-05 seconds
+influence of hasword_facil_9 on topic_Student_9 is -0.0559375
+
+clique number: 5
+unobserved tuple number: 2
+pgibbs sample time: 0.000903 seconds
+probability of topic_ResearchProject_59 is 0.503605
+
+mode equation: influence compute time (equation): 9.4e-05 seconds
+influence of links_59_46 on topic_ResearchProject_59 is -0.0129559
+
+clique number: 10
+unobserved tuple number: 3
+pgibbs sample time: 0.001387 seconds
+probability of topic_Course_26 is 0.530444
+
+mode equation: influence compute time (equation): 0.000162 seconds
+influence of links_49_89 on topic_Course_26 is -0.000362565
+
+clique number: 9
+unobserved tuple number: 3
+pgibbs sample time: 0.001419 seconds
+probability of topic_Person_94 is 0.487774
+
+mode equation: influence compute time (equation): 0.000152 seconds
+influence of r66 on topic_Person_94 is 0.25063
+
+clique number: 5
+unobserved tuple number: 2
+pgibbs sample time: 0.000611 seconds
+probability of topic_Course_78 is 0.56683
+
+mode equation: influence compute time (equation): 8.3e-05 seconds
+influence of links_78_90 on topic_Course_78 is -0.0111695
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000167 seconds
+probability of topic_Faculty_56 is 0.571956
+
+mode equation: influence compute time (equation): 2.7e-05 seconds
+influence of r4714 on topic_Faculty_56 is 0.244822
+
+clique number: 5
+unobserved tuple number: 2
+pgibbs sample time: 0.000914 seconds
+probability of topic_ResearchProject_46 is 0.435427
+
+mode equation: influence compute time (equation): 9.6e-05 seconds
+influence of links_59_46 on topic_ResearchProject_46 is 0.0143383
+
+clique number: 6
+unobserved tuple number: 2
+pgibbs sample time: 0.000951 seconds
+probability of topic_Person_59 is 0.492999
+
+mode equation: influence compute time (equation): 9.3e-05 seconds
+influence of links_46_59 on topic_Person_59 is 0.01514
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000168 seconds
+probability of topic_Student_74 is 0.487579
+
+mode equation: influence compute time (equation): 2.7e-05 seconds
+influence of r2957 on topic_Student_74 is 0.249846
+
+clique number: 6
+unobserved tuple number: 2
+pgibbs sample time: 0.000965 seconds
+probability of topic_Course_46 is 0.422137
+
+mode equation: influence compute time (equation): 8.2e-05 seconds
+influence of hasword_type_46 on topic_Course_46 is -0.0794459
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000151 seconds
+probability of topic_Person_64 is 0.497282
+
+mode equation: influence compute time (equation): 2.4e-05 seconds
+influence of hasword_laboratori_64 on topic_Person_64 is -0.00271792
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000162 seconds
+probability of topic_Student_86 is 0.52095
+
+mode equation: influence compute time (equation): 2.6e-05 seconds
+influence of hasword_version_86 on topic_Student_86 is 0.0209253
+
+clique number: 24
+unobserved tuple number: 8
+pgibbs sample time: 0.004646 seconds
+probability of topic_ResearchProject_21 is 0.546315
+
+mode equation: influence compute time (equation): 0.000917 seconds
+influence of links_10_153 on topic_ResearchProject_21 is 1.04075e-05
+
+clique number: 10
+unobserved tuple number: 3
+pgibbs sample time: 0.001365 seconds
+probability of topic_Student_12 is 0.50175
+
+mode equation: influence compute time (equation): 0.000149 seconds
+influence of hasword_fall_47 on topic_Student_12 is 0.00262303
+
+clique number: 8
+unobserved tuple number: 3
+pgibbs sample time: 0.001168 seconds
+probability of topic_Course_127 is 0.467319
+
+mode equation: influence compute time (equation): 0.000168 seconds
+influence of rl on topic_Course_127 is -0.121281
+
+clique number: 8
+unobserved tuple number: 3
+pgibbs sample time: 0.001169 seconds
+probability of topic_Course_30 is 0.564575
+
+mode equation: influence compute time (equation): 0.000146 seconds
+influence of links_69_168 on topic_Course_30 is -0.000459099
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000155 seconds
+probability of topic_Course_42 is 0.523905
+
+mode equation: influence compute time (equation): 2.8e-05 seconds
+influence of r1182 on topic_Course_42 is 0.249429
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000169 seconds
+probability of topic_Staff_50 is 0.470018
+
+mode equation: influence compute time (equation): 2.5e-05 seconds
+influence of hasword_art_50 on topic_Staff_50 is -0.0299098
+
+clique number: 5
+unobserved tuple number: 2
+pgibbs sample time: 0.000617 seconds
+probability of topic_Faculty_35 is 0.601582
+
+mode equation: influence compute time (equation): 8e-05 seconds
+influence of links_22_35 on topic_Faculty_35 is 0.0172115
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000154 seconds
+probability of topic_Student_82 is 0.562528
+
+mode equation: influence compute time (equation): 2.5e-05 seconds
+influence of hasword_kei_82 on topic_Student_82 is 0.061874
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000179 seconds
+probability of topic_Student_62 is 0.501822
+
+mode equation: influence compute time (equation): 2.8e-05 seconds
+influence of r3309 on topic_Student_62 is 0.249997
+
+clique number: 24
+unobserved tuple number: 8
+pgibbs sample time: 0.003799 seconds
+probability of topic_Course_75 is 0.527125
+
+mode equation: influence compute time (equation): 0.000824 seconds
+influence of hasword_jan_10 on topic_Course_75 is -1.79791e-05
+
+clique number: 24
+unobserved tuple number: 8
+pgibbs sample time: 0.003826 seconds
+probability of topic_Student_55 is 0.458711
+
+mode equation: influence compute time (equation): 0.000841 seconds
+influence of links_55_153 on topic_Student_55 is -0.0152468
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000159 seconds
+probability of topic_Person_13 is 0.513057
+
+mode equation: influence compute time (equation): 2.7e-05 seconds
+influence of r1686 on topic_Person_13 is 0.24983
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000174 seconds
+probability of topic_ResearchProject_4 is 0.479583
+
+mode equation: influence compute time (equation): 2.8e-05 seconds
+influence of r802 on topic_ResearchProject_4 is 0.249583
+
+clique number: 24
+unobserved tuple number: 8
+pgibbs sample time: 0.004486 seconds
+probability of topic_Faculty_21 is 0.497596
+
+mode equation: influence compute time (equation): 0.000854 seconds
+influence of links_55_153 on topic_Faculty_21 is 1.36668e-05
+
+clique number: 3
+unobserved tuple number: 1
+pgibbs sample time: 0.000202 seconds
+probability of topic_Department_27 is 0.628257
+
+mode equation: influence compute time (equation): 2.9e-05 seconds
+influence of hasword_jan_27 on topic_Department_27 is 0.143985
+
+clique number: 10
+unobserved tuple number: 3
+pgibbs sample time: 0.001357 seconds
+probability of topic_Person_146 is 0.612672
+
+mode equation: influence compute time (equation): 0.000151 seconds
+influence of hasword_fall_47 on topic_Person_146 is 0.00191647
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000157 seconds
+probability of topic_Person_57 is 0.476931
+
+mode equation: influence compute time (equation): 2.5e-05 seconds
+influence of hasword_separ_57 on topic_Person_57 is -0.0230358
+
+clique number: 5
+unobserved tuple number: 2
+pgibbs sample time: 0.000608 seconds
+probability of topic_Faculty_22 is 0.373109
+
+mode equation: influence compute time (equation): 8e-05 seconds
+influence of links_22_35 on topic_Faculty_22 is -0.0161626
+
+clique number: 3
+unobserved tuple number: 1
+pgibbs sample time: 0.000203 seconds
+probability of topic_ResearchProject_27 is 0.399243
+
+mode equation: influence compute time (equation): 2.7e-05 seconds
+influence of hasword_server_27 on topic_ResearchProject_27 is -0.0621533
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000159 seconds
+probability of topic_ResearchProject_48 is 0.374853
+
+mode equation: influence compute time (equation): 2.7e-05 seconds
+influence of r4133 on topic_ResearchProject_48 is 0.234338
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.00018 seconds
+probability of topic_Student_50 is 0.603735
+
+mode equation: influence compute time (equation): 2.8e-05 seconds
+influence of r1424 on topic_Student_50 is 0.239239
+
+clique number: 5
+unobserved tuple number: 2
+pgibbs sample time: 0.000642 seconds
+probability of topic_ResearchProject_35 is 0.560039
+
+mode equation: influence compute time (equation): 8.4e-05 seconds
+influence of links_22_35 on topic_ResearchProject_35 is 0.0112078
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000199 seconds
+probability of topic_Course_98 is 0.480991
+
+mode equation: influence compute time (equation): 3.3e-05 seconds
+influence of hasword_nov_98 on topic_Course_98 is -0.0189905
+
+clique number: 9
+unobserved tuple number: 3
+pgibbs sample time: 0.001497 seconds
+probability of topic_ResearchProject_7 is 0.458799
+
+mode equation: influence compute time (equation): 0.000168 seconds
+influence of r1274 on topic_ResearchProject_7 is 0.000374903
+
+clique number: 5
+unobserved tuple number: 2
+pgibbs sample time: 0.000659 seconds
+probability of topic_Staff_78 is 0.446921
+
+mode equation: influence compute time (equation): 7.2e-05 seconds
+influence of hasword_home_78 on topic_Staff_78 is -0.036886
+
+clique number: 6
+unobserved tuple number: 2
+pgibbs sample time: 0.000706 seconds
+probability of topic_Staff_128 is 0.599857
+
+mode equation: influence compute time (equation): 8.5e-05 seconds
+influence of links_85_128 on topic_Staff_128 is 0.0175399
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000164 seconds
+probability of topic_Department_24 is 0.631889
+
+mode equation: influence compute time (equation): 2.5e-05 seconds
+influence of hasword_research_24 on topic_Department_24 is 0.125684
+
+clique number: 14
+unobserved tuple number: 4
+pgibbs sample time: 0.001939 seconds
+probability of topic_Person_68 is 0.505265
+
+mode equation: influence compute time (equation): 0.000264 seconds
+influence of links_43_40 on topic_Person_68 is 0.000453023
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000152 seconds
+probability of topic_Student_56 is 0.323068
+
+mode equation: influence compute time (equation): 2.9e-05 seconds
+influence of r1753 on topic_Student_56 is 0.218695
+
+clique number: 24
+unobserved tuple number: 8
+pgibbs sample time: 0.004527 seconds
+probability of topic_ResearchProject_10 is 0.443918
+
+mode equation: influence compute time (equation): 0.001023 seconds
+influence of links_10_153 on topic_ResearchProject_10 is -0.019097
+
+clique number: 14
+unobserved tuple number: 4
+pgibbs sample time: 0.00196 seconds
+probability of topic_Department_40 is 0.633914
+
+mode equation: influence compute time (equation): 0.000261 seconds
+influence of r1933 on topic_Department_40 is -0.00539467
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000178 seconds
+probability of topic_Person_14 is 0.661866
+
+mode equation: influence compute time (equation): 3.2e-05 seconds
+influence of r2280 on topic_Person_14 is 0.223799
+
+clique number: 3
+unobserved tuple number: 1
+pgibbs sample time: 0.000207 seconds
+probability of topic_Person_9 is 0.385403
+
+mode equation: influence compute time (equation): 2.9e-05 seconds
+influence of r177 on topic_Person_9 is 0.236868
+
+clique number: 3
+unobserved tuple number: 1
+pgibbs sample time: 0.00019 seconds
+probability of topic_Staff_83 is 0.551996
+
+mode equation: influence compute time (equation): 2.9e-05 seconds
+influence of r3405 on topic_Staff_83 is 0.247296
+
+clique number: 3
+unobserved tuple number: 1
+pgibbs sample time: 0.000247 seconds
+probability of topic_Person_84 is 0.595199
+
+mode equation: influence compute time (equation): 2.9e-05 seconds
+influence of hasword_person_84 on topic_Person_84 is 0.0500489
+
+clique number: 3
+unobserved tuple number: 1
+pgibbs sample time: 0.000248 seconds
+probability of topic_Person_79 is 0.445933
+
+mode equation: influence compute time (equation): 3.4e-05 seconds
+influence of hasword_line_79 on topic_Person_79 is -0.0191874
+
+clique number: 24
+unobserved tuple number: 8
+pgibbs sample time: 0.003878 seconds
+probability of topic_Student_10 is 0.509683
+
+mode equation: influence compute time (equation): 0.000866 seconds
+influence of links_55_153 on topic_Student_10 is -0.000432472
+
+clique number: 6
+unobserved tuple number: 2
+pgibbs sample time: 0.000989 seconds
+probability of topic_Student_59 is 0.417729
+
+mode equation: influence compute time (equation): 8.9e-05 seconds
+influence of hasword_type_46 on topic_Student_59 is 0.000676733
+
+clique number: 5
+unobserved tuple number: 2
+pgibbs sample time: 0.000624 seconds
+probability of topic_Staff_90 is 0.573157
+
+mode equation: influence compute time (equation): 7.3e-05 seconds
+influence of hasword_home_78 on topic_Staff_90 is 0.00100772
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000166 seconds
+probability of topic_Department_6 is 0.480109
+
+mode equation: influence compute time (equation): 2.6e-05 seconds
+influence of r4694 on topic_Department_6 is 0.249604
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000157 seconds
+probability of topic_Staff_15 is 0.392841
+
+mode equation: influence compute time (equation): 2.8e-05 seconds
+influence of r44 on topic_Staff_15 is 0.238517
+
+clique number: 8
+unobserved tuple number: 3
+pgibbs sample time: 0.001185 seconds
+probability of topic_Department_168 is 0.659065
+
+mode equation: influence compute time (equation): 0.000149 seconds
+influence of links_69_168 on topic_Department_168 is 0.0140591
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000156 seconds
+probability of topic_Course_60 is 0.411195
+
+mode equation: influence compute time (equation): 2.6e-05 seconds
+influence of r4911 on topic_Course_60 is 0.242114
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000165 seconds
+probability of topic_Course_92 is 0.344213
+
+mode equation: influence compute time (equation): 2.8e-05 seconds
+influence of r2221 on topic_Course_92 is 0.225731
+
+clique number: 9
+unobserved tuple number: 3
+pgibbs sample time: 0.001531 seconds
+probability of topic_ResearchProject_107 is 0.436717
+
+mode equation: influence compute time (equation): 0.000176 seconds
+influence of links_65_154 on topic_ResearchProject_107 is 0.000762597
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000163 seconds
+probability of topic_Faculty_54 is 0.486159
+
+mode equation: influence compute time (equation): 2.6e-05 seconds
+influence of hasword_syllabu_54 on topic_Faculty_54 is -0.0138339
+
+clique number: 5
+unobserved tuple number: 2
+pgibbs sample time: 0.000624 seconds
+probability of topic_Student_33 is 0.68949
+
+mode equation: influence compute time (equation): 8.1e-05 seconds
+influence of links_33_127 on topic_Student_33 is -0.0118714
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000147 seconds
+probability of topic_Staff_13 is 0.457572
+
+mode equation: influence compute time (equation): 2.6e-05 seconds
+influence of r2465 on topic_Staff_13 is 0.2482
+
+clique number: 24
+unobserved tuple number: 8
+pgibbs sample time: 0.004538 seconds
+probability of topic_ResearchProject_153 is 0.678735
+
+mode equation: influence compute time (equation): 0.000917 seconds
+influence of links_10_153 on topic_ResearchProject_153 is 0.0140326
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000158 seconds
+probability of topic_Course_87 is 0.465118
+
+mode equation: influence compute time (equation): 2.8e-05 seconds
+influence of r1978 on topic_Course_87 is 0.248783
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000167 seconds
+probability of topic_Faculty_2 is 0.52117
+
+mode equation: influence compute time (equation): 2.6e-05 seconds
+influence of hasword_phone_2 on topic_Faculty_2 is 0.0211448
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000155 seconds
+probability of topic_Staff_16 is 0.447858
+
+mode equation: influence compute time (equation): 2.7e-05 seconds
+influence of r1130 on topic_Staff_16 is 0.247281
+
+clique number: 9
+unobserved tuple number: 3
+pgibbs sample time: 0.001506 seconds
+probability of topic_ResearchProject_154 is 0.482614
+
+mode equation: influence compute time (equation): 0.000175 seconds
+influence of links_65_154 on topic_ResearchProject_154 is 0.0137922
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.00022 seconds
+probability of topic_Person_53 is 0.498179
+
+mode equation: influence compute time (equation): 2.8e-05 seconds
+influence of hasword_date_53 on topic_Person_53 is -0.00182059
+
+clique number: 3
+unobserved tuple number: 1
+pgibbs sample time: 0.000251 seconds
+probability of topic_Staff_84 is 0.598454
+
+mode equation: influence compute time (equation): 2.9e-05 seconds
+influence of hasword_mail_84 on topic_Staff_84 is 0.0589405
+
+clique number: 6
+unobserved tuple number: 2
+pgibbs sample time: 0.001113 seconds
+probability of topic_Faculty_46 is 0.399612
+
+mode equation: influence compute time (equation): 9.6e-05 seconds
+influence of links_46_59 on topic_Faculty_46 is -0.0162128
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000169 seconds
+probability of topic_Department_86 is 0.420875
+
+mode equation: influence compute time (equation): 2.4e-05 seconds
+influence of hasword_version_86 on topic_Department_86 is -0.0777974
+
+clique number: 9
+unobserved tuple number: 3
+pgibbs sample time: 0.001468 seconds
+probability of topic_ResearchProject_18 is 0.410358
+
+mode equation: influence compute time (equation): 0.000175 seconds
+influence of links_20_102 on topic_ResearchProject_18 is -0.000442607
+
+clique number: 3
+unobserved tuple number: 1
+pgibbs sample time: 0.000324 seconds
+probability of topic_Department_85 is 0.576182
+
+mode equation: influence compute time (equation): 3.1e-05 seconds
+influence of r2316 on topic_Department_85 is 0.244196
+
+clique number: 24
+unobserved tuple number: 8
+pgibbs sample time: 0.003812 seconds
+probability of topic_Department_55 is 0.270178
+
+mode equation: influence compute time (equation): 0.000843 seconds
+influence of links_51_159 on topic_Department_55 is -6.72432e-06
+
+clique number: 9
+unobserved tuple number: 3
+pgibbs sample time: 0.001489 seconds
+probability of topic_ResearchProject_65 is 0.519248
+
+mode equation: influence compute time (equation): 0.000176 seconds
+influence of links_65_154 on topic_ResearchProject_65 is -0.0138804
+
+clique number: 5
+unobserved tuple number: 2
+pgibbs sample time: 0.00065 seconds
+probability of topic_ResearchProject_119 is 0.506537
+
+mode equation: influence compute time (equation): 8.6e-05 seconds
+influence of links_34_119 on topic_ResearchProject_119 is 0.0133091
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000155 seconds
+probability of topic_ResearchProject_52 is 0.476468
+
+mode equation: influence compute time (equation): 2.6e-05 seconds
+influence of hasword_test_52 on topic_ResearchProject_52 is -0.0234975
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000154 seconds
+probability of topic_Staff_48 is 0.459677
+
+mode equation: influence compute time (equation): 2.5e-05 seconds
+influence of hasword_apr_48 on topic_Staff_48 is -0.0401477
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000162 seconds
+probability of topic_Faculty_11 is 0.312406
+
+mode equation: influence compute time (equation): 2.5e-05 seconds
+influence of hasword_dec_11 on topic_Faculty_11 is -0.169461
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000164 seconds
+probability of topic_Course_70 is 0.457571
+
+mode equation: influence compute time (equation): 2.6e-05 seconds
+influence of r1619 on topic_Course_70 is 0.2482
+
+clique number: 10
+unobserved tuple number: 3
+pgibbs sample time: 0.001381 seconds
+probability of topic_Course_146 is 0.404264
+
+mode equation: influence compute time (equation): 0.00015 seconds
+influence of hasword_fall_47 on topic_Course_146 is -0.00429285
+
+clique number: 6
+unobserved tuple number: 2
+pgibbs sample time: 0.000712 seconds
+probability of topic_Course_85 is 0.47441
+
+mode equation: influence compute time (equation): 8.5e-05 seconds
+influence of links_85_128 on topic_Course_85 is -0.0145114
+
+clique number: 24
+unobserved tuple number: 8
+pgibbs sample time: 0.004364 seconds
+probability of topic_Faculty_55 is 0.325052
+
+mode equation: influence compute time (equation): 0.000837 seconds
+influence of links_55_153 on topic_Faculty_55 is -0.0160962
+
+clique number: 5
+unobserved tuple number: 2
+pgibbs sample time: 0.000645 seconds
+probability of topic_ResearchProject_34 is 0.537618
+
+mode equation: influence compute time (equation): 8.8e-05 seconds
+influence of links_34_119 on topic_ResearchProject_34 is -0.0144307
+
+clique number: 6
+unobserved tuple number: 2
+pgibbs sample time: 0.00097 seconds
+probability of topic_Department_93 is 0.400543
+
+mode equation: influence compute time (equation): 8.3e-05 seconds
+influence of hasword_modifi_93 on topic_Department_93 is -0.100586
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000162 seconds
+probability of topic_Department_99 is 0.445427
+
+mode equation: influence compute time (equation): 2.5e-05 seconds
+influence of hasword_read_99 on topic_Department_99 is -0.0541383
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000158 seconds
+probability of topic_Department_42 is 0.412026
+
+mode equation: influence compute time (equation): 2.7e-05 seconds
+influence of r1746 on topic_Department_42 is 0.242261
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000167 seconds
+probability of topic_Department_60 is 0.429697
+
+mode equation: influence compute time (equation): 2.5e-05 seconds
+influence of hasword_mime_60 on topic_Department_60 is -0.0693724
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000166 seconds
+probability of topic_ResearchProject_99 is 0.47182
+
+mode equation: influence compute time (equation): 2.8e-05 seconds
+influence of r1195 on topic_ResearchProject_99 is 0.249206
+
+clique number: 10
+unobserved tuple number: 3
+pgibbs sample time: 0.001238 seconds
+probability of topic_Person_47 is 0.456286
+
+mode equation: influence compute time (equation): 0.000149 seconds
+influence of hasword_fall_47 on topic_Person_47 is -0.0723201
+
+clique number: 24
+unobserved tuple number: 8
+pgibbs sample time: 0.004568 seconds
+probability of topic_ResearchProject_159 is 0.539393
+
+mode equation: influence compute time (equation): 0.000916 seconds
+influence of links_10_153 on topic_ResearchProject_159 is 1.04324e-05
+
+clique number: 14
+unobserved tuple number: 4
+pgibbs sample time: 0.00297 seconds
+probability of topic_ResearchProject_40 is 0.404192
+
+mode equation: influence compute time (equation): 0.000296 seconds
+influence of links_43_40 on topic_ResearchProject_40 is 0.0190541
+
+clique number: 8
+unobserved tuple number: 3
+pgibbs sample time: 0.001335 seconds
+probability of topic_Course_107 is 0.420142
+
+mode equation: influence compute time (equation): 0.000155 seconds
+influence of links_65_154 on topic_Course_107 is 0.000746251
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000158 seconds
+probability of topic_Student_14 is 0.602305
+
+mode equation: influence compute time (equation): 3e-05 seconds
+influence of r2832 on topic_Student_14 is 0.239534
+
+clique number: 5
+unobserved tuple number: 2
+pgibbs sample time: 0.000656 seconds
+probability of topic_Student_39 is 0.32077
+
+mode equation: influence compute time (equation): 8.1e-05 seconds
+influence of links_61_39 on topic_Student_39 is 0.0147987
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000162 seconds
+probability of topic_Course_13 is 0.459095
+
+mode equation: influence compute time (equation): 2.8e-05 seconds
+influence of r3536 on topic_Course_13 is 0.248327
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000168 seconds
+probability of topic_Department_15 is 0.39707
+
+mode equation: influence compute time (equation): 2.5e-05 seconds
+influence of hasword_modifi_15 on topic_Department_15 is -0.0999966
+
+clique number: 6
+unobserved tuple number: 2
+pgibbs sample time: 0.000963 seconds
+probability of topic_Person_46 is 0.486778
+
+mode equation: influence compute time (equation): 9.3e-05 seconds
+influence of links_46_59 on topic_Person_46 is -0.0145984
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000155 seconds
+probability of topic_Department_63 is 0.649423
+
+mode equation: influence compute time (equation): 2.7e-05 seconds
+influence of r648 on topic_Department_63 is 0.227673
+
+clique number: 8
+unobserved tuple number: 3
+pgibbs sample time: 0.001323 seconds
+probability of topic_Course_65 is 0.491188
+
+mode equation: influence compute time (equation): 0.000155 seconds
+influence of links_65_154 on topic_Course_65 is -0.0137152
+
+clique number: 24
+unobserved tuple number: 8
+pgibbs sample time: 0.004135 seconds
+probability of topic_Staff_55 is 0.469739
+
+mode equation: influence compute time (equation): 0.00084 seconds
+influence of links_75_153 on topic_Staff_55 is -0.000499406
+
+clique number: 8
+unobserved tuple number: 3
+pgibbs sample time: 0.001214 seconds
+probability of topic_ResearchProject_19 is 0.504283
+
+mode equation: influence compute time (equation): 0.000159 seconds
+influence of links_33_19 on topic_ResearchProject_19 is 0.0205064
+
+clique number: 24
+unobserved tuple number: 8
+pgibbs sample time: 0.003751 seconds
+probability of topic_Staff_51 is 0.517528
+
+mode equation: influence compute time (equation): 0.000838 seconds
+influence of links_75_153 on topic_Staff_51 is -0.000501796
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000156 seconds
+probability of topic_Department_76 is 0.436649
+
+mode equation: influence compute time (equation): 2.8e-05 seconds
+influence of r2247 on topic_Department_76 is 0.245987
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000171 seconds
+probability of topic_ResearchProject_60 is 0.490687
+
+mode equation: influence compute time (equation): 2.9e-05 seconds
+influence of r3626 on topic_ResearchProject_60 is 0.249913
+
+clique number: 3
+unobserved tuple number: 1
+pgibbs sample time: 0.000191 seconds
+probability of topic_Student_58 is 0.767638
+
+mode equation: influence compute time (equation): 2.9e-05 seconds
+influence of r3732 on topic_Student_58 is 0.17837
+
+clique number: 3
+unobserved tuple number: 1
+pgibbs sample time: 0.000184 seconds
+probability of topic_Person_27 is 0.492113
+
+mode equation: influence compute time (equation): 2.9e-05 seconds
+influence of r3708 on topic_Person_27 is 0.249938
+
+clique number: 24
+unobserved tuple number: 8
+pgibbs sample time: 0.003901 seconds
+probability of topic_Student_51 is 0.4713
+
+mode equation: influence compute time (equation): 0.00084 seconds
+influence of links_55_153 on topic_Student_51 is -0.000432178
+
+clique number: 24
+unobserved tuple number: 8
+pgibbs sample time: 0.004226 seconds
+probability of topic_Course_159 is 0.475074
+
+mode equation: influence compute time (equation): 0.000926 seconds
+influence of hasword_jan_10 on topic_Course_159 is 4.92003e-07
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.00017 seconds
+probability of topic_Faculty_32 is 0.406926
+
+mode equation: influence compute time (equation): 2.9e-05 seconds
+influence of r2205 on topic_Faculty_32 is 0.241337
+
+clique number: 24
+unobserved tuple number: 8
+pgibbs sample time: 0.00393 seconds
+probability of topic_Department_75 is 0.780796
+
+mode equation: influence compute time (equation): 0.000841 seconds
+influence of links_51_159 on topic_Department_75 is -5.8367e-06
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000165 seconds
+probability of topic_Staff_74 is 0.432401
+
+mode equation: influence compute time (equation): 3e-05 seconds
+influence of r783 on topic_Staff_74 is 0.24543
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000191 seconds
+probability of topic_ResearchProject_29 is 0.386627
+
+mode equation: influence compute time (equation): 3.2e-05 seconds
+influence of hasword_depart_29 on topic_ResearchProject_29 is -0.109446
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.00021 seconds
+probability of topic_Department_38 is 0.535473
+
+mode equation: influence compute time (equation): 2.8e-05 seconds
+influence of hasword_data_38 on topic_Department_38 is 0.0353534
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000161 seconds
+probability of topic_Faculty_96 is 0.573274
+
+mode equation: influence compute time (equation): 2.8e-05 seconds
+influence of r3167 on topic_Faculty_96 is 0.244631
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000164 seconds
+probability of topic_Department_67 is 0.459988
+
+mode equation: influence compute time (equation): 2.4e-05 seconds
+influence of hasword_robert_67 on topic_Department_67 is -0.0398412
+
+clique number: 5
+unobserved tuple number: 2
+pgibbs sample time: 0.000735 seconds
+probability of topic_Staff_177 is 0.537179
+
+mode equation: influence compute time (equation): 7.9e-05 seconds
+influence of hasword_model_177 on topic_Staff_177 is 0.0216878
+
+clique number: 24
+unobserved tuple number: 8
+pgibbs sample time: 0.003844 seconds
+probability of topic_Student_159 is 0.555093
+
+mode equation: influence compute time (equation): 0.000836 seconds
+influence of links_55_153 on topic_Student_159 is 1.19188e-05
+
+clique number: 8
+unobserved tuple number: 3
+pgibbs sample time: 0.001523 seconds
+probability of topic_Faculty_102 is 0.522015
+
+mode equation: influence compute time (equation): 0.000176 seconds
+influence of links_102_20 on topic_Faculty_102 is -0.0124351
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000161 seconds
+probability of topic_Course_72 is 0.381758
+
+mode equation: influence compute time (equation): 2.6e-05 seconds
+influence of r3481 on topic_Course_72 is 0.236019
+
+clique number: 13
+unobserved tuple number: 4
+pgibbs sample time: 0.001822 seconds
+probability of topic_Student_40 is 0.618761
+
+mode equation: influence compute time (equation): 0.000254 seconds
+influence of links_43_40 on topic_Student_40 is 0.0152525
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000185 seconds
+probability of topic_Staff_99 is 0.491937
+
+mode equation: influence compute time (equation): 7.9e-05 seconds
+influence of r2868 on topic_Staff_99 is 0.249935
+
+clique number: 6
+unobserved tuple number: 2
+pgibbs sample time: 0.001083 seconds
+probability of topic_Department_71 is 0.435149
+
+mode equation: influence compute time (equation): 9.4e-05 seconds
+influence of hasword_modifi_93 on topic_Department_71 is 0.00552175
+
+clique number: 8
+unobserved tuple number: 3
+pgibbs sample time: 0.001747 seconds
+probability of topic_Person_18 is 0.488871
+
+mode equation: influence compute time (equation): 0.000172 seconds
+influence of links_102_20 on topic_Person_18 is 0.000402963
+
+clique number: 6
+unobserved tuple number: 2
+pgibbs sample time: 0.00098 seconds
+probability of topic_Faculty_59 is 0.570501
+
+mode equation: influence compute time (equation): 9.4e-05 seconds
+influence of links_46_59 on topic_Faculty_59 is 0.0173153
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000163 seconds
+probability of topic_Course_62 is 0.435971
+
+mode equation: influence compute time (equation): 2.7e-05 seconds
+influence of r3938 on topic_Course_62 is 0.2459
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000162 seconds
+probability of topic_Staff_72 is 0.370987
+
+mode equation: influence compute time (equation): 2.6e-05 seconds
+influence of r2638 on topic_Staff_72 is 0.233356
+
+clique number: 8
+unobserved tuple number: 3
+pgibbs sample time: 0.001367 seconds
+probability of topic_Faculty_19 is 0.494027
+
+mode equation: influence compute time (equation): 0.00015 seconds
+influence of links_33_19 on topic_Faculty_19 is 0.0159654
+
+clique number: 24
+unobserved tuple number: 8
+pgibbs sample time: 0.003825 seconds
+probability of topic_Student_153 is 0.534392
+
+mode equation: influence compute time (equation): 0.000837 seconds
+influence of links_55_153 on topic_Student_153 is 0.0154969
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000162 seconds
+probability of topic_Staff_22 is 0.552182
+
+mode equation: influence compute time (equation): 2.7e-05 seconds
+influence of r1557 on topic_Staff_22 is 0.247277
+
+clique number: 9
+unobserved tuple number: 3
+pgibbs sample time: 0.001487 seconds
+probability of topic_Student_20 is 0.499984
+
+mode equation: influence compute time (equation): 0.000163 seconds
+influence of links_102_20 on topic_Student_20 is 0.0177785
+
+clique number: 24
+unobserved tuple number: 8
+pgibbs sample time: 0.003841 seconds
+probability of topic_Course_21 is 0.518372
+
+mode equation: influence compute time (equation): 0.000823 seconds
+influence of hasword_jan_10 on topic_Course_21 is 4.92563e-07
+
+clique number: 5
+unobserved tuple number: 2
+pgibbs sample time: 0.000676 seconds
+probability of topic_Course_34 is 0.475569
+
+mode equation: influence compute time (equation): 8.1e-05 seconds
+influence of links_34_119 on topic_Course_34 is -0.0147072
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000165 seconds
+probability of topic_Staff_98 is 0.492361
+
+mode equation: influence compute time (equation): 2.8e-05 seconds
+influence of r4292 on topic_Staff_98 is 0.249942
+
+clique number: 10
+unobserved tuple number: 3
+pgibbs sample time: 0.001336 seconds
+probability of topic_Person_89 is 0.420278
+
+mode equation: influence compute time (equation): 0.000151 seconds
+influence of hasword_prototyp_26 on topic_Person_89 is -0.00210949
+
+clique number: 9
+unobserved tuple number: 3
+pgibbs sample time: 0.001414 seconds
+probability of topic_Student_154 is 0.449121
+
+mode equation: influence compute time (equation): 0.000161 seconds
+influence of links_65_154 on topic_Student_154 is 0.013343
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000164 seconds
+probability of topic_Faculty_63 is 0.489816
+
+mode equation: influence compute time (equation): 2.8e-05 seconds
+influence of r4581 on topic_Faculty_63 is 0.249896
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000159 seconds
+probability of topic_Faculty_23 is 0.478687
+
+mode equation: influence compute time (equation): 2.5e-05 seconds
+influence of hasword_texa_23 on topic_Faculty_23 is -0.0212869
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000159 seconds
+probability of topic_Student_45 is 0.495991
+
+mode equation: influence compute time (equation): 2.5e-05 seconds
+influence of hasword_utexa_45 on topic_Student_45 is -0.00400899
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000161 seconds
+probability of topic_Course_80 is 0.486579
+
+mode equation: influence compute time (equation): 2.6e-05 seconds
+influence of r2015 on topic_Course_80 is 0.24982
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000172 seconds
+probability of topic_Course_45 is 0.499943
+
+mode equation: influence compute time (equation): 2.6e-05 seconds
+influence of hasword_utexa_45 on topic_Course_45 is -5.73072e-05
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000166 seconds
+probability of topic_Person_97 is 0.406991
+
+mode equation: influence compute time (equation): 2.7e-05 seconds
+influence of r2723 on topic_Person_97 is 0.241349
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000163 seconds
+probability of topic_Course_8 is 0.615754
+
+mode equation: influence compute time (equation): 2.7e-05 seconds
+influence of hasword_implement_8 on topic_Course_8 is 0.111572
+
+clique number: 9
+unobserved tuple number: 3
+pgibbs sample time: 0.001474 seconds
+probability of topic_Staff_20 is 0.449381
+
+mode equation: influence compute time (equation): 0.000153 seconds
+influence of r3848 on topic_Staff_20 is 0.000373652
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000164 seconds
+probability of topic_Person_8 is 0.54974
+
+mode equation: influence compute time (equation): 2.8e-05 seconds
+influence of r3455 on topic_Person_8 is 0.247526
+
+clique number: 10
+unobserved tuple number: 3
+pgibbs sample time: 0.001198 seconds
+probability of topic_Faculty_49 is 0.490236
+
+mode equation: influence compute time (equation): 0.000156 seconds
+influence of r91 on topic_Faculty_49 is 0.250099
+
+clique number: 10
+unobserved tuple number: 3
+pgibbs sample time: 0.001413 seconds
+probability of topic_Person_26 is 0.6009
+
+mode equation: influence compute time (equation): 0.000152 seconds
+influence of hasword_prototyp_26 on topic_Person_26 is 0.0774859
+
+clique number: 8
+unobserved tuple number: 3
+pgibbs sample time: 0.001172 seconds
+probability of topic_Department_30 is 0.477412
+
+mode equation: influence compute time (equation): 0.00015 seconds
+influence of links_69_168 on topic_Department_30 is -0.000391694
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000168 seconds
+probability of topic_ResearchProject_98 is 0.620402
+
+mode equation: influence compute time (equation): 2.6e-05 seconds
+influence of hasword_nov_98 on topic_ResearchProject_98 is 0.115692
+
+clique number: 10
+unobserved tuple number: 3
+pgibbs sample time: 0.001376 seconds
+probability of topic_Course_49 is 0.456292
+
+mode equation: influence compute time (equation): 0.000163 seconds
+influence of links_49_89 on topic_Course_49 is -0.0199609
+
+clique number: 8
+unobserved tuple number: 3
+pgibbs sample time: 0.000997 seconds
+probability of topic_Person_168 is 0.517566
+
+mode equation: influence compute time (equation): 0.000147 seconds
+influence of links_69_168 on topic_Person_168 is 0.0151552
+
+clique number: 6
+unobserved tuple number: 2
+pgibbs sample time: 0.000716 seconds
+probability of topic_Faculty_146 is 0.523442
+
+mode equation: influence compute time (equation): 8.5e-05 seconds
+influence of links_47_146 on topic_Faculty_146 is 0.010486
+
+clique number: 10
+unobserved tuple number: 3
+pgibbs sample time: 0.001192 seconds
+probability of topic_Faculty_89 is 0.476197
+
+mode equation: influence compute time (equation): 0.000154 seconds
+influence of r91 on topic_Faculty_89 is -0.00697155
+
+clique number: 5
+unobserved tuple number: 2
+pgibbs sample time: 0.000629 seconds
+probability of topic_Department_41 is 0.412562
+
+mode equation: influence compute time (equation): 7e-05 seconds
+influence of hasword_model_177 on topic_Department_41 is 0.0022657
+
+clique number: 10
+unobserved tuple number: 3
+pgibbs sample time: 0.001377 seconds
+probability of topic_Department_26 is 0.609726
+
+mode equation: influence compute time (equation): 0.000155 seconds
+influence of r3055 on topic_Department_26 is 0.000161168
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.00016 seconds
+probability of topic_Student_15 is 0.50726
+
+mode equation: influence compute time (equation): 2.5e-05 seconds
+influence of hasword_modifi_15 on topic_Student_15 is 0.00725899
+
+clique number: 10
+unobserved tuple number: 3
+pgibbs sample time: 0.001335 seconds
+probability of topic_Faculty_26 is 0.594827
+
+mode equation: influence compute time (equation): 0.000178 seconds
+influence of r91 on topic_Faculty_26 is 0.000187628
+
+clique number: 3
+unobserved tuple number: 1
+pgibbs sample time: 0.000194 seconds
+probability of topic_Student_31 is 0.638618
+
+mode equation: influence compute time (equation): 2.6e-05 seconds
+influence of hasword_effici_31 on topic_Student_31 is 0.154845
+
+clique number: 9
+unobserved tuple number: 3
+pgibbs sample time: 0.001459 seconds
+probability of topic_Faculty_7 is 0.436375
+
+mode equation: influence compute time (equation): 0.000153 seconds
+influence of r1831 on topic_Faculty_7 is 0.000355093
+
+clique number: 14
+unobserved tuple number: 4
+pgibbs sample time: 0.00203 seconds
+probability of topic_Department_68 is 0.496825
+
+mode equation: influence compute time (equation): 0.000261 seconds
+influence of r1933 on topic_Department_68 is -0.00581131
+
+clique number: 24
+unobserved tuple number: 8
+pgibbs sample time: 0.004428 seconds
+probability of topic_Faculty_159 is 0.56181
+
+mode equation: influence compute time (equation): 0.000838 seconds
+influence of links_55_153 on topic_Faculty_159 is 1.34583e-05
+
+clique number: 24
+unobserved tuple number: 8
+pgibbs sample time: 0.004384 seconds
+probability of topic_Faculty_153 is 0.639162
+
+mode equation: influence compute time (equation): 0.000839 seconds
+influence of links_55_153 on topic_Faculty_153 is 0.0178356
+
+clique number: 24
+unobserved tuple number: 8
+pgibbs sample time: 0.003718 seconds
+probability of topic_Staff_113 is 0.525428
+
+mode equation: influence compute time (equation): 0.000924 seconds
+influence of links_75_153 on topic_Staff_113 is 1.39726e-05
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000159 seconds
+probability of topic_Course_86 is 0.403024
+
+mode equation: influence compute time (equation): 2.4e-05 seconds
+influence of hasword_version_86 on topic_Course_86 is -0.094525
+
+clique number: 9
+unobserved tuple number: 3
+pgibbs sample time: 0.001507 seconds
+probability of topic_ResearchProject_94 is 0.441836
+
+mode equation: influence compute time (equation): 0.000167 seconds
+influence of r1274 on topic_ResearchProject_94 is 0.247362
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000156 seconds
+probability of topic_Student_91 is 0.440213
+
+mode equation: influence compute time (equation): 2.6e-05 seconds
+influence of hasword_due_91 on topic_Student_91 is -0.0592151
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000163 seconds
+probability of topic_Staff_70 is 0.497347
+
+mode equation: influence compute time (equation): 2.6e-05 seconds
+influence of r282 on topic_Staff_70 is 0.249993
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000165 seconds
+probability of topic_Faculty_57 is 0.490698
+
+mode equation: influence compute time (equation): 2.9e-05 seconds
+influence of r2569 on topic_Faculty_57 is 0.249913
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000163 seconds
+probability of topic_Student_25 is 0.524583
+
+mode equation: influence compute time (equation): 2.6e-05 seconds
+influence of r3732 on topic_Student_25 is 0.249396
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000168 seconds
+probability of topic_ResearchProject_23 is 0.46694
+
+mode equation: influence compute time (equation): 2.6e-05 seconds
+influence of r68 on topic_ResearchProject_23 is 0.248907
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000148 seconds
+probability of topic_Person_2 is 0.620991
+
+mode equation: influence compute time (equation): 2.7e-05 seconds
+influence of r1875 on topic_Person_2 is 0.235361
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000173 seconds
+probability of topic_ResearchProject_76 is 0.478169
+
+mode equation: influence compute time (equation): 2.7e-05 seconds
+influence of hasword_onlin_76 on topic_ResearchProject_76 is -0.0218031
+
+clique number: 5
+unobserved tuple number: 2
+pgibbs sample time: 0.000621 seconds
+probability of topic_Department_119 is 0.462741
+
+mode equation: influence compute time (equation): 8e-05 seconds
+influence of links_34_119 on topic_Department_119 is 0.0149001
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000161 seconds
+probability of topic_Faculty_67 is 0.47323
+
+mode equation: influence compute time (equation): 2.6e-05 seconds
+influence of r2733 on topic_Faculty_67 is 0.249283
+
+clique number: 24
+unobserved tuple number: 8
+pgibbs sample time: 0.003809 seconds
+probability of topic_Department_153 is 0.655478
+
+mode equation: influence compute time (equation): 0.000969 seconds
+influence of links_51_159 on topic_Department_153 is 0.000305383
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000165 seconds
+probability of topic_Course_37 is 0.498392
+
+mode equation: influence compute time (equation): 2.5e-05 seconds
+influence of hasword_austin_37 on topic_Course_37 is -0.00160777
+
+clique number: 9
+unobserved tuple number: 3
+pgibbs sample time: 0.001433 seconds
+probability of topic_Faculty_154 is 0.482837
+
+mode equation: influence compute time (equation): 0.000162 seconds
+influence of links_65_154 on topic_Faculty_154 is 0.0159471
+
+clique number: 24
+unobserved tuple number: 8
+pgibbs sample time: 0.004376 seconds
+probability of topic_Faculty_75 is 0.409931
+
+mode equation: influence compute time (equation): 0.000837 seconds
+influence of links_55_153 on topic_Faculty_75 is -0.000481767
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000164 seconds
+probability of topic_Course_17 is 0.75994
+
+mode equation: influence compute time (equation): 2.7e-05 seconds
+influence of r4365 on topic_Course_17 is 0.182431
+
+clique number: 13
+unobserved tuple number: 4
+pgibbs sample time: 0.001793 seconds
+probability of topic_Student_88 is 0.517492
+
+mode equation: influence compute time (equation): 0.000253 seconds
+influence of links_43_40 on topic_Student_88 is 0.000486805
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000162 seconds
+probability of topic_Faculty_14 is 0.62985
+
+mode equation: influence compute time (equation): 2.5e-05 seconds
+influence of r4674 on topic_Faculty_14 is 0.233139
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000165 seconds
+probability of topic_Student_17 is 0.298945
+
+mode equation: influence compute time (equation): 2.6e-05 seconds
+influence of hasword_materi_17 on topic_Student_17 is -0.178628
+
+clique number: 3
+unobserved tuple number: 1
+pgibbs sample time: 0.000199 seconds
+probability of topic_ResearchProject_73 is 0.588465
+
+mode equation: influence compute time (equation): 2.6e-05 seconds
+influence of hasword_server_73 on topic_ResearchProject_73 is -0.062756
+
+clique number: 3
+unobserved tuple number: 1
+pgibbs sample time: 0.000187 seconds
+probability of topic_Student_27 is 0.512177
+
+mode equation: influence compute time (equation): 3e-05 seconds
+influence of r3732 on topic_Student_27 is 0.249852
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000155 seconds
+probability of topic_Student_80 is 0.501701
+
+mode equation: influence compute time (equation): 2.5e-05 seconds
+influence of hasword_task_80 on topic_Student_80 is 0.00170105
+
+clique number: 14
+unobserved tuple number: 4
+pgibbs sample time: 0.001937 seconds
+probability of topic_Person_40 is 0.645263
+
+mode equation: influence compute time (equation): 0.000264 seconds
+influence of links_43_40 on topic_Person_40 is 0.0177022
+
+clique number: 24
+unobserved tuple number: 8
+pgibbs sample time: 0.003784 seconds
+probability of topic_Student_75 is 0.738258
+
+mode equation: influence compute time (equation): 0.000839 seconds
+influence of links_55_153 on topic_Student_75 is -0.000334397
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.00016 seconds
+probability of topic_Faculty_25 is 0.489816
+
+mode equation: influence compute time (equation): 2.4e-05 seconds
+influence of hasword_jan_25 on topic_Faculty_25 is -0.0101812
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000164 seconds
+probability of topic_Faculty_95 is 0.586438
+
+mode equation: influence compute time (equation): 2.7e-05 seconds
+influence of hasword_format_95 on topic_Faculty_95 is 0.0847053
+
+clique number: 10
+unobserved tuple number: 3
+pgibbs sample time: 0.001355 seconds
+probability of topic_Staff_26 is 0.429755
+
+mode equation: influence compute time (equation): 0.000162 seconds
+influence of links_49_89 on topic_Staff_26 is -0.000430613
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000158 seconds
+probability of topic_Course_74 is 0.419524
+
+mode equation: influence compute time (equation): 2.4e-05 seconds
+influence of hasword_server_74 on topic_Course_74 is -0.0790787
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000141 seconds
+probability of topic_Staff_37 is 0.472063
+
+mode equation: influence compute time (equation): 2.8e-05 seconds
+influence of r294 on topic_Staff_37 is 0.24922
+
+clique number: 5
+unobserved tuple number: 2
+pgibbs sample time: 0.00062 seconds
+probability of topic_Faculty_39 is 0.412909
+
+mode equation: influence compute time (equation): 7.9e-05 seconds
+influence of links_61_39 on topic_Faculty_39 is 0.00980096
+
+clique number: 13
+unobserved tuple number: 4
+pgibbs sample time: 0.00184 seconds
+probability of topic_Student_43 is 0.438451
+
+mode equation: influence compute time (equation): 0.000253 seconds
+influence of links_43_40 on topic_Student_43 is -0.0174586
+
+clique number: 5
+unobserved tuple number: 2
+pgibbs sample time: 0.000617 seconds
+probability of topic_Course_90 is 0.395504
+
+mode equation: influence compute time (equation): 8e-05 seconds
+influence of links_78_90 on topic_Course_90 is 0.011863
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000152 seconds
+probability of topic_Student_92 is 0.503814
+
+mode equation: influence compute time (equation): 2.5e-05 seconds
+influence of r2239 on topic_Student_92 is 0.249985
+
+clique number: 6
+unobserved tuple number: 2
+pgibbs sample time: 0.000955 seconds
+probability of topic_Staff_93 is 0.397201
+
+mode equation: influence compute time (equation): 8.6e-05 seconds
+influence of hasword_modifi_93 on topic_Staff_93 is -0.104549
+
+clique number: 13
+unobserved tuple number: 4
+pgibbs sample time: 0.001894 seconds
+probability of topic_Student_68 is 0.503254
+
+mode equation: influence compute time (equation): 0.000254 seconds
+influence of links_43_40 on topic_Student_68 is 0.000487381
+
+clique number: 5
+unobserved tuple number: 2
+pgibbs sample time: 0.000628 seconds
+probability of topic_Faculty_177 is 0.526022
+
+mode equation: influence compute time (equation): 7.2e-05 seconds
+influence of hasword_model_177 on topic_Faculty_177 is 0.0171166
+
+clique number: 5
+unobserved tuple number: 2
+pgibbs sample time: 0.000623 seconds
+probability of topic_Staff_34 is 0.480365
+
+mode equation: influence compute time (equation): 7.9e-05 seconds
+influence of links_34_119 on topic_Staff_34 is -0.0139771
+
+clique number: 3
+unobserved tuple number: 1
+pgibbs sample time: 0.000193 seconds
+probability of topic_ResearchProject_9 is 0.365006
+
+mode equation: influence compute time (equation): 2.9e-05 seconds
+influence of hasword_servic_9 on topic_ResearchProject_9 is -0.0964441
+
+clique number: 8
+unobserved tuple number: 3
+pgibbs sample time: 0.001505 seconds
+probability of topic_Faculty_18 is 0.373648
+
+mode equation: influence compute time (equation): 0.000155 seconds
+influence of links_102_20 on topic_Faculty_18 is 0.000324987
+
+clique number: 8
+unobserved tuple number: 3
+pgibbs sample time: 0.00117 seconds
+probability of topic_Course_19 is 0.695523
+
+mode equation: influence compute time (equation): 0.000165 seconds
+influence of rl on topic_Course_19 is -0.103176
+
+clique number: 14
+unobserved tuple number: 4
+pgibbs sample time: 0.001949 seconds
+probability of topic_Person_88 is 0.50129
+
+mode equation: influence compute time (equation): 0.000264 seconds
+influence of links_43_40 on topic_Person_88 is 0.00045307
+
+clique number: 5
+unobserved tuple number: 2
+pgibbs sample time: 0.000619 seconds
+probability of topic_Person_35 is 0.50009
+
+mode equation: influence compute time (equation): 7.9e-05 seconds
+influence of links_22_35 on topic_Person_35 is 0.0173349
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000246 seconds
+probability of topic_Student_70 is 0.458271
+
+mode equation: influence compute time (equation): 2.9e-05 seconds
+influence of r4108 on topic_Student_70 is 0.248259
+
+clique number: 14
+unobserved tuple number: 4
+pgibbs sample time: 0.002001 seconds
+probability of topic_Course_40 is 0.565725
+
+mode equation: influence compute time (equation): 0.000256 seconds
+influence of r4908 on topic_Course_40 is -0.00656319
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000151 seconds
+probability of topic_Faculty_86 is 0.413153
+
+mode equation: influence compute time (equation): 2.6e-05 seconds
+influence of hasword_version_86 on topic_Faculty_86 is -0.0850898
+
+clique number: 10
+unobserved tuple number: 3
+pgibbs sample time: 0.001395 seconds
+probability of topic_Department_89 is 0.680878
+
+mode equation: influence compute time (equation): 0.000157 seconds
+influence of r3055 on topic_Department_89 is -0.0060651
+
+clique number: 24
+unobserved tuple number: 8
+pgibbs sample time: 0.003735 seconds
+probability of topic_Staff_21 is 0.510397
+
+mode equation: influence compute time (equation): 0.000835 seconds
+influence of links_75_153 on topic_Staff_21 is 1.40028e-05
+
+clique number: 5
+unobserved tuple number: 2
+pgibbs sample time: 0.000623 seconds
+probability of topic_Person_22 is 0.392847
+
+mode equation: influence compute time (equation): 7.9e-05 seconds
+influence of links_22_35 on topic_Person_22 is -0.0137818
+
+clique number: 6
+unobserved tuple number: 2
+pgibbs sample time: 0.000714 seconds
+probability of topic_Course_44 is 0.310345
+
+mode equation: influence compute time (equation): 7.8e-05 seconds
+influence of hasword_call_44 on topic_Course_44 is -0.112216
+
+clique number: 14
+unobserved tuple number: 4
+pgibbs sample time: 0.002021 seconds
+probability of topic_ResearchProject_88 is 0.490459
+
+mode equation: influence compute time (equation): 0.000279 seconds
+influence of links_43_40 on topic_ResearchProject_88 is 0.000278111
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000187 seconds
+probability of topic_Faculty_64 is 0.53041
+
+mode equation: influence compute time (equation): 3.1e-05 seconds
+influence of r1148 on topic_Faculty_64 is 0.249075
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000169 seconds
+probability of topic_Student_95 is 0.372561
+
+mode equation: influence compute time (equation): 2.8e-05 seconds
+influence of hasword_format_95 on topic_Student_95 is -0.121846
+
+clique number: 5
+unobserved tuple number: 2
+pgibbs sample time: 0.000641 seconds
+probability of topic_ResearchProject_39 is 0.579445
+
+mode equation: influence compute time (equation): 7.6e-05 seconds
+influence of hasword_public_61 on topic_ResearchProject_39 is -0.00501739
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000168 seconds
+probability of topic_Student_97 is 0.439022
+
+mode equation: influence compute time (equation): 2.6e-05 seconds
+influence of r2128 on topic_Student_97 is 0.246282
+
+clique number: 8
+unobserved tuple number: 3
+pgibbs sample time: 0.001212 seconds
+probability of topic_Faculty_127 is 0.570856
+
+mode equation: influence compute time (equation): 0.000161 seconds
+influence of links_33_19 on topic_Faculty_127 is 0.000384566
+
+clique number: 24
+unobserved tuple number: 8
+pgibbs sample time: 0.003817 seconds
+probability of topic_Course_113 is 0.425086
+
+mode equation: influence compute time (equation): 0.000831 seconds
+influence of hasword_jan_10 on topic_Course_113 is 4.82157e-07
+
+clique number: 9
+unobserved tuple number: 3
+pgibbs sample time: 0.001431 seconds
+probability of topic_Staff_65 is 0.432968
+
+mode equation: influence compute time (equation): 0.000161 seconds
+influence of links_65_154 on topic_Staff_65 is -0.0139643
+
+clique number: 5
+unobserved tuple number: 2
+pgibbs sample time: 0.000629 seconds
+probability of topic_Staff_41 is 0.446372
+
+mode equation: influence compute time (equation): 7e-05 seconds
+influence of hasword_model_177 on topic_Staff_41 is -0.000598503
+
+clique number: 5
+unobserved tuple number: 2
+pgibbs sample time: 0.000638 seconds
+probability of topic_Faculty_41 is 0.681423
+
+mode equation: influence compute time (equation): 7.1e-05 seconds
+influence of hasword_model_177 on topic_Faculty_41 is -0.000414941
+
+clique number: 9
+unobserved tuple number: 3
+pgibbs sample time: 0.001928 seconds
+probability of topic_Department_18 is 0.469653
+
+mode equation: influence compute time (equation): 0.000166 seconds
+influence of links_102_20 on topic_Department_18 is 0.000392065
+
+clique number: 9
+unobserved tuple number: 3
+pgibbs sample time: 0.001427 seconds
+probability of topic_Staff_154 is 0.491603
+
+mode equation: influence compute time (equation): 0.000162 seconds
+influence of links_65_154 on topic_Staff_154 is 0.0162154
+
+clique number: 24
+unobserved tuple number: 8
+pgibbs sample time: 0.003804 seconds
+probability of topic_Staff_75 is 0.338147
+
+mode equation: influence compute time (equation): 0.000838 seconds
+influence of links_75_153 on topic_Staff_75 is -0.0158237
+
+clique number: 9
+unobserved tuple number: 3
+pgibbs sample time: 0.001418 seconds
+probability of topic_Staff_107 is 0.437563
+
+mode equation: influence compute time (equation): 0.000162 seconds
+influence of links_65_154 on topic_Staff_107 is 0.000767538
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000154 seconds
+probability of topic_Student_22 is 0.43523
+
+mode equation: influence compute time (equation): 3e-05 seconds
+influence of r397 on topic_Student_22 is 0.245805
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.00016 seconds
+probability of topic_ResearchProject_87 is 0.446075
+
+mode equation: influence compute time (equation): 2.9e-05 seconds
+influence of r3115 on topic_ResearchProject_87 is 0.247092
+
+clique number: 5
+unobserved tuple number: 2
+pgibbs sample time: 0.000667 seconds
+probability of topic_ResearchProject_41 is 0.364179
+
+mode equation: influence compute time (equation): 7.8e-05 seconds
+influence of hasword_model_177 on topic_ResearchProject_41 is -0.00210511
+
+clique number: 24
+unobserved tuple number: 8
+pgibbs sample time: 0.003733 seconds
+probability of topic_Staff_153 is 0.615193
+
+mode equation: influence compute time (equation): 0.000837 seconds
+influence of links_75_153 on topic_Staff_153 is 0.0179544
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000168 seconds
+probability of topic_Staff_45 is 0.494667
+
+mode equation: influence compute time (equation): 2.8e-05 seconds
+influence of r232 on topic_Staff_45 is 0.249972
+
+clique number: 5
+unobserved tuple number: 2
+pgibbs sample time: 0.000672 seconds
+probability of topic_ResearchProject_177 is 0.601163
+
+mode equation: influence compute time (equation): 7.9e-05 seconds
+influence of hasword_model_177 on topic_ResearchProject_177 is 0.0814121
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000163 seconds
+probability of topic_Faculty_80 is 0.45178
+
+mode equation: influence compute time (equation): 2.8e-05 seconds
+influence of r4735 on topic_Faculty_80 is 0.247675
+
+clique number: 24
+unobserved tuple number: 8
+pgibbs sample time: 0.004345 seconds
+probability of topic_Faculty_10 is 0.472
+
+mode equation: influence compute time (equation): 0.001212 seconds
+influence of links_55_153 on topic_Faculty_10 is -0.000496363
+
+clique number: 24
+unobserved tuple number: 8
+pgibbs sample time: 0.003766 seconds
+probability of topic_Person_55 is 0.454441
+
+mode equation: influence compute time (equation): 0.000849 seconds
+influence of links_10_153 on topic_Person_55 is -0.000400032
+
+clique number: 6
+unobserved tuple number: 2
+pgibbs sample time: 0.000997 seconds
+probability of topic_ResearchProject_71 is 0.492112
+
+mode equation: influence compute time (equation): 9.2e-05 seconds
+influence of r3626 on topic_ResearchProject_71 is 0.250717
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000156 seconds
+probability of topic_Faculty_62 is 0.431532
+
+mode equation: influence compute time (equation): 2.5e-05 seconds
+influence of hasword_length_62 on topic_Faculty_62 is -0.067609
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000169 seconds
+probability of topic_ResearchProject_25 is 0.462699
+
+mode equation: influence compute time (equation): 2.8e-05 seconds
+influence of hasword_jan_25 on topic_ResearchProject_25 is -0.0371628
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000163 seconds
+probability of topic_Person_28 is 0.498179
+
+mode equation: influence compute time (equation): 2.9e-05 seconds
+influence of r2245 on topic_Person_28 is 0.249997
+
+clique number: 9
+unobserved tuple number: 3
+pgibbs sample time: 0.001435 seconds
+probability of topic_Person_65 is 0.513432
+
+mode equation: influence compute time (equation): 0.000163 seconds
+influence of links_65_154 on topic_Person_65 is -0.0122112
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000174 seconds
+probability of topic_ResearchProject_32 is 0.651756
+
+mode equation: influence compute time (equation): 2.9e-05 seconds
+influence of r55 on topic_ResearchProject_32 is 0.22697
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000167 seconds
+probability of topic_Faculty_50 is 0.518346
+
+mode equation: influence compute time (equation): 2.7e-05 seconds
+influence of r1004 on topic_Faculty_50 is 0.249663
+
+clique number: 5
+unobserved tuple number: 2
+pgibbs sample time: 0.000635 seconds
+probability of topic_ResearchProject_22 is 0.607869
+
+mode equation: influence compute time (equation): 8.4e-05 seconds
+influence of links_22_35 on topic_ResearchProject_22 is -0.0152055
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000164 seconds
+probability of topic_Course_54 is 0.598444
+
+mode equation: influence compute time (equation): 2.5e-05 seconds
+influence of hasword_syllabu_54 on topic_Course_54 is 0.0958803
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000154 seconds
+probability of topic_Staff_87 is 0.467612
+
+mode equation: influence compute time (equation): 2.7e-05 seconds
+influence of r4132 on topic_Staff_87 is 0.248951
+
+clique number: 8
+unobserved tuple number: 3
+pgibbs sample time: 0.001411 seconds
+probability of topic_Department_69 is 0.458755
+
+mode equation: influence compute time (equation): 0.000149 seconds
+influence of links_69_168 on topic_Department_69 is -0.0186641
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.00017 seconds
+probability of topic_Department_64 is 0.484707
+
+mode equation: influence compute time (equation): 2.7e-05 seconds
+influence of r1541 on topic_Department_64 is 0.249766
+
+clique number: 6
+unobserved tuple number: 2
+pgibbs sample time: 0.000955 seconds
+probability of topic_Student_71 is 0.526554
+
+mode equation: influence compute time (equation): 8.2e-05 seconds
+influence of hasword_modifi_93 on topic_Student_71 is -0.000405454
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000153 seconds
+probability of topic_ResearchProject_72 is 0.477466
+
+mode equation: influence compute time (equation): 2.8e-05 seconds
+influence of hasword_graduat_72 on topic_ResearchProject_72 is -0.022503
+
+clique number: 14
+unobserved tuple number: 4
+pgibbs sample time: 0.001967 seconds
+probability of topic_Staff_40 is 0.558761
+
+mode equation: influence compute time (equation): 0.000365 seconds
+influence of links_43_68 on topic_Staff_40 is 0.000336295
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000167 seconds
+probability of topic_Person_25 is 0.505972
+
+mode equation: influence compute time (equation): 2.6e-05 seconds
+influence of hasword_jan_25 on topic_Person_25 is 0.00597112
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000164 seconds
+probability of topic_ResearchProject_82 is 0.478567
+
+mode equation: influence compute time (equation): 2.9e-05 seconds
+influence of r1734 on topic_ResearchProject_82 is 0.249541
+
+clique number: 10
+unobserved tuple number: 3
+pgibbs sample time: 0.00138 seconds
+probability of topic_Course_12 is 0.621637
+
+mode equation: influence compute time (equation): 0.000171 seconds
+influence of hasword_fall_47 on topic_Course_12 is -0.00419249
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000149 seconds
+probability of topic_Department_17 is 0.572671
+
+mode equation: influence compute time (equation): 2.5e-05 seconds
+influence of hasword_materi_17 on topic_Department_17 is 0.0716432
+
+clique number: 24
+unobserved tuple number: 8
+pgibbs sample time: 0.00376 seconds
+probability of topic_Person_10 is 0.490116
+
+mode equation: influence compute time (equation): 0.001199 seconds
+influence of links_10_153 on topic_Person_10 is -0.0162545
+
+clique number: 24
+unobserved tuple number: 8
+pgibbs sample time: 0.004607 seconds
+probability of topic_ResearchProject_55 is 0.609922
+
+mode equation: influence compute time (equation): 0.000918 seconds
+influence of links_10_153 on topic_ResearchProject_55 is -0.000372821
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000161 seconds
+probability of topic_Course_97 is 0.593732
+
+mode equation: influence compute time (equation): 2.6e-05 seconds
+influence of hasword_link_97 on topic_Course_97 is 0.0915201
+
+clique number: 24
+unobserved tuple number: 8
+pgibbs sample time: 0.003814 seconds
+probability of topic_Staff_159 is 0.470971
+
+mode equation: influence compute time (equation): 0.000838 seconds
+influence of links_75_153 on topic_Staff_159 is 1.39617e-05
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000151 seconds
+probability of topic_Course_99 is 0.643291
+
+mode equation: influence compute time (equation): 2.4e-05 seconds
+influence of hasword_read_99 on topic_Course_99 is 0.135312
+
+clique number: 8
+unobserved tuple number: 3
+pgibbs sample time: 0.001561 seconds
+probability of topic_Faculty_20 is 0.418629
+
+mode equation: influence compute time (equation): 0.000156 seconds
+influence of links_102_20 on topic_Faculty_20 is 0.0136666
+
+clique number: 3
+unobserved tuple number: 1
+pgibbs sample time: 0.000212 seconds
+probability of topic_Faculty_83 is 0.518471
+
+mode equation: influence compute time (equation): 3e-05 seconds
+influence of r4997 on topic_Faculty_83 is 0.249659
+
+clique number: 24
+unobserved tuple number: 8
+pgibbs sample time: 0.003913 seconds
+probability of topic_Course_55 is 0.355462
+
+mode equation: influence compute time (equation): 0.00088 seconds
+influence of hasword_jan_10 on topic_Course_55 is -1.65253e-05
+
+clique number: 5
+unobserved tuple number: 2
+pgibbs sample time: 0.000619 seconds
+probability of topic_Person_39 is 0.450608
+
+mode equation: influence compute time (equation): 8.2e-05 seconds
+influence of rl on topic_Person_39 is -0.127225
+
+clique number: 24
+unobserved tuple number: 8
+pgibbs sample time: 0.003996 seconds
+probability of topic_Course_51 is 0.425085
+
+mode equation: influence compute time (equation): 0.000861 seconds
+influence of hasword_jan_10 on topic_Course_51 is -1.76674e-05
+
+clique number: 8
+unobserved tuple number: 3
+pgibbs sample time: 0.001203 seconds
+probability of topic_Staff_30 is 0.482588
+
+mode equation: influence compute time (equation): 0.000136 seconds
+influence of hasword_tree_30 on topic_Staff_30 is 0.00115261
+
+clique number: 4
+unobserved tuple number: 2
+pgibbs sample time: 0.000541 seconds
+probability of topic_Department_61 is 0.489246
+
+mode equation: influence compute time (equation): 7.5e-05 seconds
+influence of links_61_39 on topic_Department_61 is -0.0111355
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000166 seconds
+probability of topic_Student_54 is 0.386345
+
+mode equation: influence compute time (equation): 2.6e-05 seconds
+influence of hasword_syllabu_54 on topic_Student_54 is -0.109698
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000156 seconds
+probability of topic_Department_32 is 0.376874
+
+mode equation: influence compute time (equation): 2.7e-05 seconds
+influence of r3882 on topic_Department_32 is 0.23484
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000152 seconds
+probability of topic_Faculty_92 is 0.40832
+
+mode equation: influence compute time (equation): 2.6e-05 seconds
+influence of r3665 on topic_Faculty_92 is 0.241595
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000167 seconds
+probability of topic_ResearchProject_66 is 0.437775
+
+mode equation: influence compute time (equation): 2.7e-05 seconds
+influence of r1274 on topic_ResearchProject_66 is 0.246128
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000164 seconds
+probability of topic_Student_60 is 0.526876
+
+mode equation: influence compute time (equation): 2.7e-05 seconds
+influence of r3933 on topic_Student_60 is 0.249278
+
+clique number: 8
+unobserved tuple number: 3
+pgibbs sample time: 0.00122 seconds
+probability of topic_Staff_168 is 0.665248
+
+mode equation: influence compute time (equation): 0.000136 seconds
+influence of hasword_tree_30 on topic_Staff_168 is -2.86826e-05
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000164 seconds
+probability of topic_Student_42 is 0.602305
+
+mode equation: influence compute time (equation): 3.6e-05 seconds
+influence of r2832 on topic_Student_42 is 0.239534
+
+clique number: 6
+unobserved tuple number: 2
+pgibbs sample time: 0.000721 seconds
+probability of topic_Department_124 is 0.515679
+
+mode equation: influence compute time (equation): 9.1e-05 seconds
+influence of rl on topic_Department_124 is -0.163328
+
+clique number: 9
+unobserved tuple number: 3
+pgibbs sample time: 0.001411 seconds
+probability of topic_Person_154 is 0.422764
+
+mode equation: influence compute time (equation): 0.000164 seconds
+influence of links_65_154 on topic_Person_154 is 0.0135924
+
+clique number: 14
+unobserved tuple number: 4
+pgibbs sample time: 0.00201 seconds
+probability of topic_Department_43 is 0.294509
+
+mode equation: influence compute time (equation): 0.000261 seconds
+influence of r1933 on topic_Department_43 is 0.208168
+
+clique number: 9
+unobserved tuple number: 3
+pgibbs sample time: 0.001415 seconds
+probability of topic_Person_107 is 0.485492
+
+mode equation: influence compute time (equation): 0.000164 seconds
+influence of links_65_154 on topic_Person_107 is 0.000681238
+
+clique number: 10
+unobserved tuple number: 3
+pgibbs sample time: 0.001455 seconds
+probability of topic_Course_89 is 0.707466
+
+mode equation: influence compute time (equation): 0.000163 seconds
+influence of links_49_89 on topic_Course_89 is 0.0130353
+
+clique number: 8
+unobserved tuple number: 3
+pgibbs sample time: 0.001322 seconds
+probability of topic_Staff_7 is 0.463937
+
+mode equation: influence compute time (equation): 0.000156 seconds
+influence of links_108_94 on topic_Staff_7 is 0.00040703
+
+clique number: 5
+unobserved tuple number: 2
+pgibbs sample time: 0.000614 seconds
+probability of topic_Course_39 is 0.65972
+
+mode equation: influence compute time (equation): 7.9e-05 seconds
+influence of links_61_39 on topic_Course_39 is 0.0171946
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000174 seconds
+probability of topic_Student_2 is 0.425061
+
+mode equation: influence compute time (equation): 3e-05 seconds
+influence of hasword_phone_2 on topic_Student_2 is -0.0738116
+
+clique number: 6
+unobserved tuple number: 2
+pgibbs sample time: 0.000966 seconds
+probability of topic_Department_46 is 0.475353
+
+mode equation: influence compute time (equation): 8.2e-05 seconds
+influence of hasword_type_46 on topic_Department_46 is -0.0228859
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000159 seconds
+probability of topic_Course_28 is 0.425378
+
+mode equation: influence compute time (equation): 2.6e-05 seconds
+influence of r2543 on topic_Course_28 is 0.244432
+
+clique number: 8
+unobserved tuple number: 3
+pgibbs sample time: 0.001215 seconds
+probability of topic_ResearchProject_168 is 0.6314
+
+mode equation: influence compute time (equation): 0.000149 seconds
+influence of hasword_research_168 on topic_ResearchProject_168 is 0.0967304
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000164 seconds
+probability of topic_Faculty_28 is 0.419826
+
+mode equation: influence compute time (equation): 2.7e-05 seconds
+influence of hasword_gmt_28 on topic_Faculty_28 is -0.0787922
+
+clique number: 6
+unobserved tuple number: 2
+pgibbs sample time: 0.00096 seconds
+probability of topic_Department_59 is 0.53218
+
+mode equation: influence compute time (equation): 8.2e-05 seconds
+influence of hasword_type_46 on topic_Department_59 is 0.00127254
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.00016 seconds
+probability of topic_ResearchProject_15 is 0.474026
+
+mode equation: influence compute time (equation): 3e-05 seconds
+influence of r2432 on topic_ResearchProject_15 is 0.249325
+
+clique number: 10
+unobserved tuple number: 3
+pgibbs sample time: 0.00118 seconds
+probability of topic_Person_12 is 0.452513
+
+mode equation: influence compute time (equation): 0.000151 seconds
+influence of hasword_fall_47 on topic_Person_12 is 0.00200078
+
+clique number: 5
+unobserved tuple number: 2
+pgibbs sample time: 0.000597 seconds
+probability of topic_Faculty_119 is 0.484191
+
+mode equation: influence compute time (equation): 7.9e-05 seconds
+influence of links_34_119 on topic_Faculty_119 is 0.0150425
+
+clique number: 8
+unobserved tuple number: 3
+pgibbs sample time: 0.00129 seconds
+probability of topic_Course_102 is 0.587743
+
+mode equation: influence compute time (equation): 0.000153 seconds
+influence of links_18_102 on topic_Course_102 is 0.0167216
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000164 seconds
+probability of topic_ResearchProject_80 is 0.533481
+
+mode equation: influence compute time (equation): 3e-05 seconds
+influence of r2714 on topic_ResearchProject_80 is 0.248879
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000158 seconds
+probability of topic_Student_1 is 0.468158
+
+mode equation: influence compute time (equation): 2.7e-05 seconds
+influence of r2083 on topic_Student_1 is 0.248986
+
+clique number: 8
+unobserved tuple number: 3
+pgibbs sample time: 0.001164 seconds
+probability of topic_Staff_69 is 0.414268
+
+mode equation: influence compute time (equation): 0.000135 seconds
+influence of hasword_tree_30 on topic_Staff_69 is 7.77205e-07
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000223 seconds
+probability of topic_Department_11 is 0.378791
+
+mode equation: influence compute time (equation): 2.6e-05 seconds
+influence of hasword_dec_11 on topic_Department_11 is -0.116403
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000165 seconds
+probability of topic_Department_16 is 0.480109
+
+mode equation: influence compute time (equation): 2.7e-05 seconds
+influence of hasword_gmt_16 on topic_Department_16 is -0.01987
+
+clique number: 5
+unobserved tuple number: 2
+pgibbs sample time: 0.000621 seconds
+probability of topic_Student_127 is 0.487555
+
+mode equation: influence compute time (equation): 8e-05 seconds
+influence of links_33_127 on topic_Student_127 is 0.0089945
+
+clique number: 3
+unobserved tuple number: 1
+pgibbs sample time: 0.000194 seconds
+probability of topic_Student_79 is 0.399537
+
+mode equation: influence compute time (equation): 2.7e-05 seconds
+influence of hasword_produc_79 on topic_Student_79 is -0.0163016
+
+clique number: 3
+unobserved tuple number: 1
+pgibbs sample time: 0.000196 seconds
+probability of topic_Department_83 is 0.413138
+
+mode equation: influence compute time (equation): 2.7e-05 seconds
+influence of hasword_offic_83 on topic_Department_83 is -0.068822
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.00016 seconds
+probability of topic_Student_69 is 0.487579
+
+mode equation: influence compute time (equation): 2.4e-05 seconds
+influence of hasword_server_69 on topic_Student_69 is -0.0124161
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000152 seconds
+probability of topic_Faculty_13 is 0.546112
+
+mode equation: influence compute time (equation): 2.6e-05 seconds
+influence of hasword_develop_13 on topic_Faculty_13 is 0.0458499
+
+clique number: 6
+unobserved tuple number: 2
+pgibbs sample time: 0.000968 seconds
+probability of topic_Staff_71 is 0.418328
+
+mode equation: influence compute time (equation): 8.3e-05 seconds
+influence of hasword_modifi_93 on topic_Staff_71 is 0.00568173
+
+clique number: 14
+unobserved tuple number: 4
+pgibbs sample time: 0.00194 seconds
+probability of topic_Course_43 is 0.393696
+
+mode equation: influence compute time (equation): 0.000258 seconds
+influence of r4908 on topic_Course_43 is 0.239226
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000162 seconds
+probability of topic_Person_76 is 0.653984
+
+mode equation: influence compute time (equation): 2.7e-05 seconds
+influence of r4348 on topic_Person_76 is 0.226289
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000163 seconds
+probability of topic_ResearchProject_96 is 0.368362
+
+mode equation: influence compute time (equation): 3.5e-05 seconds
+influence of r2710 on topic_ResearchProject_96 is 0.232671
+
+clique number: 3
+unobserved tuple number: 1
+pgibbs sample time: 0.000196 seconds
+probability of topic_Course_31 is 0.468859
+
+mode equation: influence compute time (equation): 2.7e-05 seconds
+influence of hasword_sequenc_31 on topic_Course_31 is -0.0351857
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000164 seconds
+probability of topic_Faculty_15 is 0.429819
+
+mode equation: influence compute time (equation): 2.4e-05 seconds
+influence of hasword_modifi_15 on topic_Faculty_15 is -0.0692556
+
+clique number: 14
+unobserved tuple number: 4
+pgibbs sample time: 0.002209 seconds
+probability of topic_Department_88 is 0.501791
+
+mode equation: influence compute time (equation): 0.000278 seconds
+influence of r1933 on topic_Department_88 is -0.00581147
+
+clique number: 9
+unobserved tuple number: 3
+pgibbs sample time: 0.001486 seconds
+probability of topic_ResearchProject_108 is 0.426198
+
+mode equation: influence compute time (equation): 0.000166 seconds
+influence of r1274 on topic_ResearchProject_108 is -0.0135208
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000208 seconds
+probability of topic_Department_13 is 0.428502
+
+mode equation: influence compute time (equation): 2.7e-05 seconds
+influence of hasword_develop_13 on topic_Department_13 is -0.070519
+
+clique number: 8
+unobserved tuple number: 3
+pgibbs sample time: 0.001283 seconds
+probability of topic_Course_20 is 0.495101
+
+mode equation: influence compute time (equation): 0.000154 seconds
+influence of links_18_102 on topic_Course_20 is -0.000933563
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000152 seconds
+probability of topic_Course_52 is 0.435111
+
+mode equation: influence compute time (equation): 2.6e-05 seconds
+influence of r3771 on topic_Course_52 is 0.245789
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000156 seconds
+probability of topic_Person_63 is 0.505972
+
+mode equation: influence compute time (equation): 2.6e-05 seconds
+influence of r3708 on topic_Person_63 is 0.249964
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000155 seconds
+probability of topic_Department_57 is 0.498504
+
+mode equation: influence compute time (equation): 2.6e-05 seconds
+influence of r17 on topic_Department_57 is 0.249998
+
+clique number: 24
+unobserved tuple number: 8
+pgibbs sample time: 0.004536 seconds
+probability of topic_ResearchProject_75 is 0.353371
+
+mode equation: influence compute time (equation): 0.000919 seconds
+influence of links_10_153 on topic_ResearchProject_75 is -0.000358064
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000159 seconds
+probability of topic_Staff_91 is 0.473221
+
+mode equation: influence compute time (equation): 2.4e-05 seconds
+influence of hasword_due_91 on topic_Staff_91 is -0.0267279
+
+clique number: 8
+unobserved tuple number: 3
+pgibbs sample time: 0.001074 seconds
+probability of topic_Person_30 is 0.476091
+
+mode equation: influence compute time (equation): 0.00015 seconds
+influence of links_69_168 on topic_Person_30 is -0.000422127
+
+clique number: 5
+unobserved tuple number: 2
+pgibbs sample time: 0.000618 seconds
+probability of topic_Faculty_34 is 0.474542
+
+mode equation: influence compute time (equation): 8.1e-05 seconds
+influence of links_34_119 on topic_Faculty_34 is -0.0139012
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000161 seconds
+probability of topic_Course_50 is 0.427222
+
+mode equation: influence compute time (equation): 2.8e-05 seconds
+influence of r4996 on topic_Course_50 is 0.244703
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000145 seconds
+probability of topic_Student_72 is 0.675257
+
+mode equation: influence compute time (equation): 2.5e-05 seconds
+influence of hasword_graduat_72 on topic_Student_72 is 0.16053
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000176 seconds
+probability of topic_ResearchProject_11 is 0.210008
+
+mode equation: influence compute time (equation): 2.7e-05 seconds
+influence of r3854 on topic_ResearchProject_11 is 0.165904
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000169 seconds
+probability of topic_Faculty_37 is 0.469554
+
+mode equation: influence compute time (equation): 2.6e-05 seconds
+influence of hasword_austin_37 on topic_Faculty_37 is -0.030371
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000164 seconds
+probability of topic_ResearchProject_13 is 0.522631
+
+mode equation: influence compute time (equation): 2.6e-05 seconds
+influence of r1190 on topic_ResearchProject_13 is 0.249488
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000166 seconds
+probability of topic_Student_37 is 0.511284
+
+mode equation: influence compute time (equation): 2.4e-05 seconds
+influence of hasword_austin_37 on topic_Student_37 is 0.01128
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000167 seconds
+probability of topic_Person_70 is 0.366619
+
+mode equation: influence compute time (equation): 2.9e-05 seconds
+influence of hasword_net_70 on topic_Person_70 is -0.126961
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000173 seconds
+probability of topic_ResearchProject_28 is 0.442936
+
+mode equation: influence compute time (equation): 2.7e-05 seconds
+influence of r1467 on topic_ResearchProject_28 is 0.246744
+
+clique number: 4
+unobserved tuple number: 2
+pgibbs sample time: 0.00054 seconds
+probability of topic_Department_39 is 0.385255
+
+mode equation: influence compute time (equation): 7.4e-05 seconds
+influence of links_61_39 on topic_Department_39 is 0.0138025
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000149 seconds
+probability of topic_Person_80 is 0.422215
+
+mode equation: influence compute time (equation): 2.6e-05 seconds
+influence of hasword_task_80 on topic_Person_80 is -0.076524
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000171 seconds
+probability of topic_ResearchProject_91 is 0.441232
+
+mode equation: influence compute time (equation): 2.9e-05 seconds
+influence of r1902 on topic_ResearchProject_91 is 0.246546
+
+clique number: 5
+unobserved tuple number: 2
+pgibbs sample time: 0.00089 seconds
+probability of topic_Person_93 is 0.489022
+
+mode equation: influence compute time (equation): 8.7e-05 seconds
+influence of links_71_93 on topic_Person_93 is 0.0147428
+
+clique number: 24
+unobserved tuple number: 8
+pgibbs sample time: 0.003828 seconds
+probability of topic_Person_75 is 0.622949
+
+mode equation: influence compute time (equation): 0.000844 seconds
+influence of links_10_153 on topic_Person_75 is -0.000378991
+
+clique number: 3
+unobserved tuple number: 1
+pgibbs sample time: 0.000199 seconds
+probability of topic_Staff_79 is 0.459679
+
+mode equation: influence compute time (equation): 3e-05 seconds
+influence of r4916 on topic_Staff_79 is 0.248374
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000148 seconds
+probability of topic_Faculty_38 is 0.477852
+
+mode equation: influence compute time (equation): 2.5e-05 seconds
+influence of hasword_data_38 on topic_Faculty_38 is -0.022119
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000149 seconds
+probability of topic_Student_28 is 0.493937
+
+mode equation: influence compute time (equation): 2.4e-05 seconds
+influence of hasword_gmt_28 on topic_Student_28 is -0.00606228
+
+clique number: 5
+unobserved tuple number: 2
+pgibbs sample time: 0.000622 seconds
+probability of topic_Student_61 is 0.400758
+
+mode equation: influence compute time (equation): 7.9e-05 seconds
+influence of links_61_39 on topic_Student_61 is -0.00899915
+
+clique number: 3
+unobserved tuple number: 1
+pgibbs sample time: 0.00019 seconds
+probability of topic_Person_31 is 0.496857
+
+mode equation: influence compute time (equation): 2.7e-05 seconds
+influence of hasword_effici_31 on topic_Person_31 is 0.012598
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000158 seconds
+probability of topic_Staff_86 is 0.403287
+
+mode equation: influence compute time (equation): 2.7e-05 seconds
+influence of r4857 on topic_Staff_86 is 0.240647
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000166 seconds
+probability of topic_ResearchProject_62 is 0.470989
+
+mode equation: influence compute time (equation): 2.8e-05 seconds
+influence of r2701 on topic_ResearchProject_62 is 0.249158
+
+clique number: 9
+unobserved tuple number: 3
+pgibbs sample time: 0.001419 seconds
+probability of topic_Person_7 is 0.512902
+
+mode equation: influence compute time (equation): 0.000151 seconds
+influence of r66 on topic_Person_7 is 0.000389539
+
+clique number: 8
+unobserved tuple number: 3
+pgibbs sample time: 0.001277 seconds
+probability of topic_Course_18 is 0.400071
+
+mode equation: influence compute time (equation): 0.000153 seconds
+influence of links_18_102 on topic_Course_18 is -0.0162011
+
+clique number: 3
+unobserved tuple number: 1
+pgibbs sample time: 0.0002 seconds
+probability of topic_ResearchProject_31 is 0.498826
+
+mode equation: influence compute time (equation): 2.8e-05 seconds
+influence of hasword_effici_31 on topic_ResearchProject_31 is 0.003802
+
+clique number: 10
+unobserved tuple number: 3
+pgibbs sample time: 0.001369 seconds
+probability of topic_Person_49 is 0.728748
+
+mode equation: influence compute time (equation): 0.000151 seconds
+influence of hasword_prototyp_26 on topic_Person_49 is 4.65655e-05
+
+clique number: 5
+unobserved tuple number: 2
+pgibbs sample time: 0.00088 seconds
+probability of topic_Person_71 is 0.500613
+
+mode equation: influence compute time (equation): 8.6e-05 seconds
+influence of links_71_93 on topic_Person_71 is -0.0144754
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000164 seconds
+probability of topic_Staff_52 is 0.511184
+
+mode equation: influence compute time (equation): 3.3e-05 seconds
+influence of r3745 on topic_Staff_52 is 0.249875
+
+clique number: 8
+unobserved tuple number: 3
+pgibbs sample time: 0.001177 seconds
+probability of topic_Course_168 is 0.447993
+
+mode equation: influence compute time (equation): 0.000146 seconds
+influence of links_69_168 on topic_Course_168 is 0.0167238
+
+clique number: 5
+unobserved tuple number: 2
+pgibbs sample time: 0.000642 seconds
+probability of topic_Course_41 is 0.390502
+
+mode equation: influence compute time (equation): 7.1e-05 seconds
+influence of hasword_model_177 on topic_Course_41 is -0.000502822
+
+clique number: 5
+unobserved tuple number: 2
+pgibbs sample time: 0.000647 seconds
+probability of topic_Course_177 is 0.535956
+
+mode equation: influence compute time (equation): 7e-05 seconds
+influence of hasword_model_177 on topic_Course_177 is 0.0189183
+
+clique number: 10
+unobserved tuple number: 3
+pgibbs sample time: 0.001372 seconds
+probability of topic_Student_49 is 0.752195
+
+mode equation: influence compute time (equation): 0.00016 seconds
+influence of links_49_89 on topic_Student_49 is -0.00826168
+
+clique number: 3
+unobserved tuple number: 1
+pgibbs sample time: 0.000196 seconds
+probability of topic_Course_79 is 0.445121
+
+mode equation: influence compute time (equation): 2.7e-05 seconds
+influence of hasword_produc_79 on topic_Course_79 is -0.0361942
+
+clique number: 9
+unobserved tuple number: 3
+pgibbs sample time: 0.001449 seconds
+probability of topic_Department_102 is 0.416943
+
+mode equation: influence compute time (equation): 0.000162 seconds
+influence of links_102_20 on topic_Department_102 is -0.0140956
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000149 seconds
+probability of topic_Student_87 is 0.629144
+
+mode equation: influence compute time (equation): 2.7e-05 seconds
+influence of r1156 on topic_Student_87 is 0.233322
+
+clique number: 5
+unobserved tuple number: 2
+pgibbs sample time: 0.00061 seconds
+probability of topic_Person_119 is 0.479393
+
+mode equation: influence compute time (equation): 7.9e-05 seconds
+influence of links_34_119 on topic_Person_119 is 0.0166887
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000167 seconds
+probability of topic_ResearchProject_6 is 0.442936
+
+mode equation: influence compute time (equation): 2.7e-05 seconds
+influence of r4980 on topic_ResearchProject_6 is 0.246744
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000146 seconds
+probability of topic_Person_16 is 0.498179
+
+mode equation: influence compute time (equation): 2.3e-05 seconds
+influence of hasword_gmt_16 on topic_Person_16 is -0.00182059
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000164 seconds
+probability of topic_Person_56 is 0.392505
+
+mode equation: influence compute time (equation): 2.6e-05 seconds
+influence of r4784 on topic_Person_56 is 0.238445
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000217 seconds
+probability of topic_Staff_36 is 0.517015
+
+mode equation: influence compute time (equation): 3.1e-05 seconds
+influence of r198 on topic_Staff_36 is 0.249711
+
+clique number: 9
+unobserved tuple number: 3
+pgibbs sample time: 0.001264 seconds
+probability of topic_Staff_47 is 0.366451
+
+mode equation: influence compute time (equation): 0.000152 seconds
+influence of links_47_12 on topic_Staff_47 is -0.013589
+
+clique number: 5
+unobserved tuple number: 2
+pgibbs sample time: 0.000596 seconds
+probability of topic_Faculty_78 is 0.455183
+
+mode equation: influence compute time (equation): 7.9e-05 seconds
+influence of links_78_90 on topic_Faculty_78 is -0.0167911
+
+clique number: 5
+unobserved tuple number: 2
+pgibbs sample time: 0.000614 seconds
+probability of topic_Student_90 is 0.492252
+
+mode equation: influence compute time (equation): 8.1e-05 seconds
+influence of links_78_90 on topic_Student_90 is 0.00900426
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000174 seconds
+probability of topic_Person_86 is 0.503183
+
+mode equation: influence compute time (equation): 2.4e-05 seconds
+influence of hasword_version_86 on topic_Person_86 is 0.00318255
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000174 seconds
+probability of topic_ResearchProject_63 is 0.462699
+
+mode equation: influence compute time (equation): 3e-05 seconds
+influence of r1323 on topic_ResearchProject_63 is 0.248609
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.00016 seconds
+probability of topic_Staff_17 is 0.455511
+
+mode equation: influence compute time (equation): 3e-05 seconds
+influence of r3025 on topic_Staff_17 is 0.248021
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000166 seconds
+probability of topic_Course_57 is 0.52745
+
+mode equation: influence compute time (equation): 2.7e-05 seconds
+influence of r795 on topic_Course_57 is 0.249246
+
+clique number: 9
+unobserved tuple number: 3
+pgibbs sample time: 0.00149 seconds
+probability of topic_Department_7 is 0.495049
+
+mode equation: influence compute time (equation): 0.000152 seconds
+influence of r3032 on topic_Department_7 is 0.000388513
+
+clique number: 6
+unobserved tuple number: 2
+pgibbs sample time: 0.00071 seconds
+probability of topic_Faculty_85 is 0.393379
+
+mode equation: influence compute time (equation): 8.4e-05 seconds
+influence of links_85_128 on topic_Faculty_85 is -0.011541
+
+clique number: 14
+unobserved tuple number: 4
+pgibbs sample time: 0.001952 seconds
+probability of topic_Course_68 is 0.436103
+
+mode equation: influence compute time (equation): 0.000254 seconds
+influence of r4908 on topic_Course_68 is -0.00656952
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000158 seconds
+probability of topic_Person_17 is 0.251716
+
+mode equation: influence compute time (equation): 2.7e-05 seconds
+influence of r1552 on topic_Person_17 is 0.188355
+
+clique number: 6
+unobserved tuple number: 2
+pgibbs sample time: 0.00071 seconds
+probability of topic_Faculty_128 is 0.416317
+
+mode equation: influence compute time (equation): 8.4e-05 seconds
+influence of links_85_128 on topic_Faculty_128 is 0.0167741
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000156 seconds
+probability of topic_Course_2 is 0.464953
+
+mode equation: influence compute time (equation): 2.6e-05 seconds
+influence of r4842 on topic_Course_2 is 0.248772
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000159 seconds
+probability of topic_Student_3 is 0.439683
+
+mode equation: influence compute time (equation): 2.4e-05 seconds
+influence of hasword_algorithm_3 on topic_Student_3 is -0.0597297
+
+clique number: 24
+unobserved tuple number: 8
+pgibbs sample time: 0.004542 seconds
+probability of topic_ResearchProject_51 is 0.397221
+
+mode equation: influence compute time (equation): 0.000916 seconds
+influence of links_10_153 on topic_ResearchProject_51 is -0.000376021
+
+clique number: 5
+unobserved tuple number: 2
+pgibbs sample time: 0.000638 seconds
+probability of topic_Faculty_124 is 0.476697
+
+mode equation: influence compute time (equation): 8e-05 seconds
+influence of links_44_124 on topic_Faculty_124 is 0.0152285
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000155 seconds
+probability of topic_Person_38 is 0.34738
+
+mode equation: influence compute time (equation): 2.6e-05 seconds
+influence of r4388 on topic_Person_38 is 0.226707
+
+clique number: 24
+unobserved tuple number: 8
+pgibbs sample time: 0.003788 seconds
+probability of topic_Person_51 is 0.455272
+
+mode equation: influence compute time (equation): 0.000838 seconds
+influence of links_10_153 on topic_Person_51 is -0.000401032
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000378 seconds
+probability of topic_Faculty_45 is 0.499912
+
+mode equation: influence compute time (equation): 2.8e-05 seconds
+influence of r3549 on topic_Faculty_45 is 0.25
+
+clique number: 6
+unobserved tuple number: 2
+pgibbs sample time: 0.000951 seconds
+probability of topic_Course_94 is 0.42382
+
+mode equation: influence compute time (equation): 8.6e-05 seconds
+influence of r1724 on topic_Course_94 is 0.244925
+
+clique number: 5
+unobserved tuple number: 2
+pgibbs sample time: 0.000794 seconds
+probability of topic_ResearchProject_61 is 0.688916
+
+mode equation: influence compute time (equation): 7.8e-05 seconds
+influence of hasword_public_61 on topic_ResearchProject_61 is 0.184377
+
+clique number: 3
+unobserved tuple number: 1
+pgibbs sample time: 0.000193 seconds
+probability of topic_Faculty_9 is 0.464437
+
+mode equation: influence compute time (equation): 2.8e-05 seconds
+influence of r3159 on topic_Faculty_9 is 0.248735
+
+clique number: 6
+unobserved tuple number: 2
+pgibbs sample time: 0.00096 seconds
+probability of topic_Course_108 is 0.423673
+
+mode equation: influence compute time (equation): 8.5e-05 seconds
+influence of r1724 on topic_Course_108 is -0.0133567
+
+clique number: 5
+unobserved tuple number: 2
+pgibbs sample time: 0.00062 seconds
+probability of topic_Person_34 is 0.414641
+
+mode equation: influence compute time (equation): 7.9e-05 seconds
+influence of links_34_119 on topic_Person_34 is -0.0134457
+
+clique number: 6
+unobserved tuple number: 2
+pgibbs sample time: 0.000968 seconds
+probability of topic_Student_46 is 0.492171
+
+mode equation: influence compute time (equation): 8.1e-05 seconds
+influence of hasword_type_46 on topic_Student_46 is -0.0124575
+
+clique number: 5
+unobserved tuple number: 2
+pgibbs sample time: 0.000785 seconds
+probability of topic_Department_33 is 0.632162
+
+mode equation: influence compute time (equation): 8.7e-05 seconds
+influence of links_33_127 on topic_Department_33 is -0.0115963
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000206 seconds
+probability of topic_ResearchProject_92 is 0.484864
+
+mode equation: influence compute time (equation): 3e-05 seconds
+influence of hasword_back_92 on topic_ResearchProject_92 is -0.0151272
+
+clique number: 5
+unobserved tuple number: 2
+pgibbs sample time: 0.000635 seconds
+probability of topic_Department_127 is 0.436159
+
+mode equation: influence compute time (equation): 8.1e-05 seconds
+influence of links_33_127 on topic_Department_127 is 0.0104202
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000235 seconds
+probability of topic_Student_32 is 0.466327
+
+mode equation: influence compute time (equation): 4.5e-05 seconds
+influence of r823 on topic_Student_32 is 0.248866
+
+clique number: 6
+unobserved tuple number: 2
+pgibbs sample time: 0.001061 seconds
+probability of topic_Course_59 is 0.452114
+
+mode equation: influence compute time (equation): 8.5e-05 seconds
+influence of hasword_type_46 on topic_Course_59 is 0.00439518
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000157 seconds
+probability of topic_Student_38 is 0.3807
+
+mode equation: influence compute time (equation): 2.8e-05 seconds
+influence of hasword_data_38 on topic_Student_38 is -0.114719
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000157 seconds
+probability of topic_Faculty_81 is 0.401374
+
+mode equation: influence compute time (equation): 3e-05 seconds
+influence of hasword_server_81 on topic_Faculty_81 is -0.0960476
+
+clique number: 3
+unobserved tuple number: 1
+pgibbs sample time: 0.0002 seconds
+probability of topic_Department_73 is 0.407934
+
+mode equation: influence compute time (equation): 2.8e-05 seconds
+influence of hasword_server_73 on topic_Department_73 is -0.0221615
+
+clique number: 5
+unobserved tuple number: 2
+pgibbs sample time: 0.000639 seconds
+probability of topic_Department_35 is 0.514794
+
+mode equation: influence compute time (equation): 8.1e-05 seconds
+influence of links_22_35 on topic_Department_35 is 0.00790021
+
+clique number: 3
+unobserved tuple number: 1
+pgibbs sample time: 0.000195 seconds
+probability of topic_Student_73 is 0.432723
+
+mode equation: influence compute time (equation): 2.7e-05 seconds
+influence of hasword_group_73 on topic_Student_73 is -0.0542627
+
+clique number: 5
+unobserved tuple number: 2
+pgibbs sample time: 0.000669 seconds
+probability of topic_Person_61 is 0.499062
+
+mode equation: influence compute time (equation): 8.6e-05 seconds
+influence of rl on topic_Person_61 is 0.116203
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000165 seconds
+probability of topic_Course_63 is 0.47654
+
+mode equation: influence compute time (equation): 2.7e-05 seconds
+influence of r4841 on topic_Course_63 is 0.24945
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000148 seconds
+probability of topic_Student_48 is 0.459081
+
+mode equation: influence compute time (equation): 2.6e-05 seconds
+influence of r4034 on topic_Student_48 is 0.248326
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.00016 seconds
+probability of topic_Staff_63 is 0.576178
+
+mode equation: influence compute time (equation): 2.4e-05 seconds
+influence of hasword_jan_63 on topic_Staff_63 is 0.0749938
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000151 seconds
+probability of topic_Person_67 is 0.381565
+
+mode equation: influence compute time (equation): 2.7e-05 seconds
+influence of r3553 on topic_Person_67 is 0.235973
+
+clique number: 5
+unobserved tuple number: 2
+pgibbs sample time: 0.000617 seconds
+probability of topic_Staff_119 is 0.486544
+
+mode equation: influence compute time (equation): 8.2e-05 seconds
+influence of links_34_119 on topic_Staff_119 is 0.0148863
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000165 seconds
+probability of topic_ResearchProject_67 is 0.609436
+
+mode equation: influence compute time (equation): 2.6e-05 seconds
+influence of hasword_robert_67 on topic_ResearchProject_67 is 0.105907
+
+clique number: 8
+unobserved tuple number: 3
+pgibbs sample time: 0.00132 seconds
+probability of topic_Person_102 is 0.398703
+
+mode equation: influence compute time (equation): 0.000155 seconds
+influence of links_102_20 on topic_Person_102 is -0.0144412
+
+clique number: 6
+unobserved tuple number: 2
+pgibbs sample time: 0.001018 seconds
+probability of topic_ResearchProject_93 is 0.474466
+
+mode equation: influence compute time (equation): 9.1e-05 seconds
+influence of r3626 on topic_ResearchProject_93 is -0.0139623
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.00016 seconds
+probability of topic_Course_48 is 0.519589
+
+mode equation: influence compute time (equation): 2.5e-05 seconds
+influence of hasword_apr_48 on topic_Course_48 is 0.0195689
+
+clique number: 8
+unobserved tuple number: 3
+pgibbs sample time: 0.001335 seconds
+probability of topic_Person_20 is 0.503835
+
+mode equation: influence compute time (equation): 0.000154 seconds
+influence of links_102_20 on topic_Person_20 is 0.017592
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000146 seconds
+probability of topic_Person_96 is 0.557225
+
+mode equation: influence compute time (equation): 2.5e-05 seconds
+influence of hasword_oct_96 on topic_Person_96 is 0.0567239
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000177 seconds
+probability of topic_Faculty_29 is 0.662028
+
+mode equation: influence compute time (equation): 3.5e-05 seconds
+influence of r1761 on topic_Faculty_29 is 0.223747
+
+clique number: 3
+unobserved tuple number: 1
+pgibbs sample time: 0.000198 seconds
+probability of topic_Department_84 is 0.536599
+
+mode equation: influence compute time (equation): 2.7e-05 seconds
+influence of hasword_mail_84 on topic_Department_84 is -0.0207626
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000149 seconds
+probability of topic_ResearchProject_38 is 0.541454
+
+mode equation: influence compute time (equation): 2.7e-05 seconds
+influence of r2966 on topic_ResearchProject_38 is 0.248282
+
+clique number: 3
+unobserved tuple number: 1
+pgibbs sample time: 0.000199 seconds
+probability of topic_Person_58 is 0.643228
+
+mode equation: influence compute time (equation): 3.4e-05 seconds
+influence of r3708 on topic_Person_58 is 0.229486
+
+clique number: 6
+unobserved tuple number: 2
+pgibbs sample time: 0.000814 seconds
+probability of topic_Course_124 is 0.492499
+
+mode equation: influence compute time (equation): 7.8e-05 seconds
+influence of hasword_call_44 on topic_Course_124 is 0.00313208
+
+clique number: 3
+unobserved tuple number: 1
+pgibbs sample time: 0.000201 seconds
+probability of topic_Faculty_84 is 0.544854
+
+mode equation: influence compute time (equation): 2.9e-05 seconds
+influence of hasword_mail_84 on topic_Faculty_84 is -0.0242806
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000175 seconds
+probability of topic_ResearchProject_16 is 0.442936
+
+mode equation: influence compute time (equation): 3.2e-05 seconds
+influence of hasword_gmt_16 on topic_ResearchProject_16 is -0.0565672
+
+clique number: 9
+unobserved tuple number: 3
+pgibbs sample time: 0.0013 seconds
+probability of topic_Department_12 is 0.493435
+
+mode equation: influence compute time (equation): 0.000162 seconds
+influence of links_47_12 on topic_Department_12 is 0.0191844
+
+clique number: 9
+unobserved tuple number: 3
+pgibbs sample time: 0.001433 seconds
+probability of topic_Faculty_65 is 0.441881
+
+mode equation: influence compute time (equation): 0.000166 seconds
+influence of links_65_154 on topic_Faculty_65 is -0.0137775
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000154 seconds
+probability of topic_Student_66 is 0.48777
+
+mode equation: influence compute time (equation): 2.7e-05 seconds
+influence of hasword_text_66 on topic_Student_66 is -0.0122252
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000179 seconds
+probability of topic_Department_5 is 0.481264
+
+mode equation: influence compute time (equation): 4.4e-05 seconds
+influence of r963 on topic_Department_5 is 0.249649
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000181 seconds
+probability of topic_ResearchProject_57 is 0.489022
+
+mode equation: influence compute time (equation): 3.1e-05 seconds
+influence of r1994 on topic_ResearchProject_57 is 0.249879
+
+clique number: 10
+unobserved tuple number: 3
+pgibbs sample time: 0.001661 seconds
+probability of topic_ResearchProject_26 is 0.559666
+
+mode equation: influence compute time (equation): 0.000192 seconds
+influence of links_49_89 on topic_ResearchProject_26 is -0.000598853
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000162 seconds
+probability of topic_ResearchProject_17 is 0.479381
+
+mode equation: influence compute time (equation): 2.6e-05 seconds
+influence of hasword_materi_17 on topic_ResearchProject_17 is -0.0205953
+
+clique number: 9
+unobserved tuple number: 3
+pgibbs sample time: 0.001437 seconds
+probability of topic_Faculty_94 is 0.407449
+
+mode equation: influence compute time (equation): 0.000154 seconds
+influence of r1831 on topic_Faculty_94 is 0.242131
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000158 seconds
+probability of topic_Department_80 is 0.491353
+
+mode equation: influence compute time (equation): 2.7e-05 seconds
+influence of hasword_task_80 on topic_Department_80 is -0.00864546
+
+clique number: 9
+unobserved tuple number: 3
+pgibbs sample time: 0.001451 seconds
+probability of topic_Faculty_108 is 0.394651
+
+mode equation: influence compute time (equation): 0.000172 seconds
+influence of r1831 on topic_Faculty_108 is -0.0129287
+
+clique number: 10
+unobserved tuple number: 3
+pgibbs sample time: 0.001676 seconds
+probability of topic_ResearchProject_49 is 0.213259
+
+mode equation: influence compute time (equation): 0.000185 seconds
+influence of links_49_89 on topic_ResearchProject_49 is -0.00843453
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.00018 seconds
+probability of topic_Department_23 is 0.442131
+
+mode equation: influence compute time (equation): 2.7e-05 seconds
+influence of r3576 on topic_Department_23 is 0.246651
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000159 seconds
+probability of topic_Course_24 is 0.419802
+
+mode equation: influence compute time (equation): 2.4e-05 seconds
+influence of hasword_research_24 on topic_Course_24 is -0.0788151
+
+clique number: 6
+unobserved tuple number: 2
+pgibbs sample time: 0.000983 seconds
+probability of topic_Course_93 is 0.443632
+
+mode equation: influence compute time (equation): 8.2e-05 seconds
+influence of hasword_modifi_93 on topic_Course_93 is -0.0607976
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.00016 seconds
+probability of topic_Department_87 is 0.366359
+
+mode equation: influence compute time (equation): 2.7e-05 seconds
+influence of r566 on topic_Department_87 is 0.23214
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000151 seconds
+probability of topic_Department_53 is 0.480109
+
+mode equation: influence compute time (equation): 2.5e-05 seconds
+influence of hasword_date_53 on topic_Department_53 is -0.01987
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000161 seconds
+probability of topic_ResearchProject_45 is 0.499619
+
+mode equation: influence compute time (equation): 2.8e-05 seconds
+influence of r1520 on topic_ResearchProject_45 is 0.25
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.00017 seconds
+probability of topic_Department_2 is 0.492523
+
+mode equation: influence compute time (equation): 2.7e-05 seconds
+influence of r3836 on topic_Department_2 is 0.249944
+
+clique number: 9
+unobserved tuple number: 3
+pgibbs sample time: 0.001426 seconds
+probability of topic_Faculty_107 is 0.404905
+
+mode equation: influence compute time (equation): 0.00016 seconds
+influence of links_65_154 on topic_Faculty_107 is 0.00074144
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000173 seconds
+probability of topic_Course_67 is 0.577589
+
+mode equation: influence compute time (equation): 2.5e-05 seconds
+influence of hasword_robert_67 on topic_Course_67 is 0.0763374
+
+clique number: 24
+unobserved tuple number: 8
+pgibbs sample time: 0.004298 seconds
+probability of topic_Person_159 is 0.528237
+
+mode equation: influence compute time (equation): 0.000965 seconds
+influence of links_10_153 on topic_Person_159 is 1.11601e-05
+
+clique number: 5
+unobserved tuple number: 2
+pgibbs sample time: 0.000654 seconds
+probability of topic_Faculty_90 is 0.59117
+
+mode equation: influence compute time (equation): 8.1e-05 seconds
+influence of links_78_90 on topic_Faculty_90 is 0.0151574
+
+clique number: 24
+unobserved tuple number: 8
+pgibbs sample time: 0.003757 seconds
+probability of topic_Person_21 is 0.398819
+
+mode equation: influence compute time (equation): 0.000835 seconds
+influence of links_10_153 on topic_Person_21 is 1.07373e-05
+
+clique number: 5
+unobserved tuple number: 2
+pgibbs sample time: 0.000916 seconds
+probability of topic_Student_78 is 0.689378
+
+mode equation: influence compute time (equation): 8.2e-05 seconds
+influence of links_78_90 on topic_Student_78 is -0.0119863
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000152 seconds
+probability of topic_Faculty_8 is 0.467878
+
+mode equation: influence compute time (equation): 2.5e-05 seconds
+influence of r1502 on topic_Faculty_8 is 0.248968
+
+clique number: 8
+unobserved tuple number: 3
+pgibbs sample time: 0.001007 seconds
+probability of topic_Person_69 is 0.471721
+
+mode equation: influence compute time (equation): 0.000147 seconds
+influence of links_69_168 on topic_Person_69 is -0.0148247
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.00016 seconds
+probability of topic_Course_76 is 0.467894
+
+mode equation: influence compute time (equation): 2.7e-05 seconds
+influence of r3513 on topic_Course_76 is 0.248969
+
+clique number: 8
+unobserved tuple number: 3
+pgibbs sample time: 0.001152 seconds
+probability of topic_Course_33 is 0.545682
+
+mode equation: influence compute time (equation): 0.000165 seconds
+influence of rl on topic_Course_33 is 0.294498
+
+clique number: 5
+unobserved tuple number: 2
+pgibbs sample time: 0.000619 seconds
+probability of topic_Staff_39 is 0.694554
+
+mode equation: influence compute time (equation): 7.9e-05 seconds
+influence of links_61_39 on topic_Staff_39 is 0.0122499
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000157 seconds
+probability of topic_Staff_3 is 0.465986
+
+mode equation: influence compute time (equation): 2.6e-05 seconds
+influence of r2069 on topic_Staff_3 is 0.248843
+
+clique number: 3
+unobserved tuple number: 1
+pgibbs sample time: 0.000183 seconds
+probability of topic_Course_9 is 0.462346
+
+mode equation: influence compute time (equation): 2.6e-05 seconds
+influence of hasword_facil_9 on topic_Course_9 is 0.0186943
+
+clique number: 8
+unobserved tuple number: 3
+pgibbs sample time: 0.00117 seconds
+probability of topic_Staff_19 is 0.510845
+
+mode equation: influence compute time (equation): 0.000146 seconds
+influence of links_33_19 on topic_Staff_19 is 0.0161421
+
+clique number: 14
+unobserved tuple number: 4
+pgibbs sample time: 0.001973 seconds
+probability of topic_Staff_43 is 0.370895
+
+mode equation: influence compute time (equation): 0.000264 seconds
+influence of links_43_68 on topic_Staff_43 is -0.0122147
+
+clique number: 8
+unobserved tuple number: 3
+pgibbs sample time: 0.001167 seconds
+probability of topic_Staff_127 is 0.458924
+
+mode equation: influence compute time (equation): 0.000159 seconds
+influence of links_33_19 on topic_Staff_127 is 0.000401577
+
+clique number: 14
+unobserved tuple number: 4
+pgibbs sample time: 0.001982 seconds
+probability of topic_Staff_88 is 0.406078
+
+mode equation: influence compute time (equation): 0.000264 seconds
+influence of links_43_68 on topic_Staff_88 is 0.000328973
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000161 seconds
+probability of topic_Person_6 is 0.498179
+
+mode equation: influence compute time (equation): 2.8e-05 seconds
+influence of r1699 on topic_Person_6 is 0.249997
+
+clique number: 5
+unobserved tuple number: 2
+pgibbs sample time: 0.000617 seconds
+probability of topic_Faculty_61 is 0.648704
+
+mode equation: influence compute time (equation): 7.9e-05 seconds
+influence of links_61_39 on topic_Faculty_61 is -0.0107572
+
+clique number: 14
+unobserved tuple number: 4
+pgibbs sample time: 0.001969 seconds
+probability of topic_Staff_68 is 0.450392
+
+mode equation: influence compute time (equation): 0.000278 seconds
+influence of links_43_68 on topic_Staff_68 is 0.0177278
+
+clique number: 3
+unobserved tuple number: 1
+pgibbs sample time: 0.00019 seconds
+probability of topic_Course_83 is 0.673088
+
+mode equation: influence compute time (equation): 3e-05 seconds
+influence of r1065 on topic_Course_83 is 0.22004
+
+clique number: 9
+unobserved tuple number: 3
+pgibbs sample time: 0.001445 seconds
+probability of topic_Student_7 is 0.508621
+
+mode equation: influence compute time (equation): 0.000151 seconds
+influence of r4028 on topic_Student_7 is 0.000389858
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000168 seconds
+probability of topic_Staff_60 is 0.412752
+
+mode equation: influence compute time (equation): 2.6e-05 seconds
+influence of hasword_mime_60 on topic_Staff_60 is -0.0854659
+
+clique number: 6
+unobserved tuple number: 2
+pgibbs sample time: 0.000979 seconds
+probability of topic_Course_71 is 0.414246
+
+mode equation: influence compute time (equation): 8.4e-05 seconds
+influence of hasword_modifi_93 on topic_Course_71 is 0.00329478
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000158 seconds
+probability of topic_Staff_57 is 0.479842
+
+mode equation: influence compute time (equation): 2.6e-05 seconds
+influence of r1777 on topic_Staff_57 is 0.249594
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000162 seconds
+probability of topic_Faculty_5 is 0.387388
+
+mode equation: influence compute time (equation): 2.5e-05 seconds
+influence of hasword_html_5 on topic_Faculty_5 is -0.108764
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000159 seconds
+probability of topic_Staff_6 is 0.447858
+
+mode equation: influence compute time (equation): 2.3e-05 seconds
+influence of hasword_date_6 on topic_Staff_6 is -0.0517629
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000159 seconds
+probability of topic_Faculty_69 is 0.401374
+
+mode equation: influence compute time (equation): 2.5e-05 seconds
+influence of hasword_server_69 on topic_Faculty_69 is -0.0960476
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000162 seconds
+probability of topic_Department_4 is 0.48277
+
+mode equation: influence compute time (equation): 2.6e-05 seconds
+influence of hasword_represent_4 on topic_Department_4 is -0.0172163
+
+clique number: 3
+unobserved tuple number: 1
+pgibbs sample time: 0.000231 seconds
+probability of topic_Person_83 is 0.516439
+
+mode equation: influence compute time (equation): 2.7e-05 seconds
+influence of hasword_offic_83 on topic_Person_83 is 0.015209
+
+clique number: 5
+unobserved tuple number: 2
+pgibbs sample time: 0.000629 seconds
+probability of topic_Person_177 is 0.448847
+
+mode equation: influence compute time (equation): 7e-05 seconds
+influence of hasword_model_177 on topic_Person_177 is -0.0566837
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000159 seconds
+probability of topic_Faculty_30 is 0.519036
+
+mode equation: influence compute time (equation): 2.7e-05 seconds
+influence of r2762 on topic_Faculty_30 is 0.249638
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000153 seconds
+probability of topic_Department_91 is 0.42341
+
+mode equation: influence compute time (equation): 2.8e-05 seconds
+influence of r2748 on topic_Department_91 is 0.244134
+
+clique number: 8
+unobserved tuple number: 3
+pgibbs sample time: 0.001172 seconds
+probability of topic_Staff_33 is 0.436001
+
+mode equation: influence compute time (equation): 0.000147 seconds
+influence of links_33_19 on topic_Staff_33 is -0.0144822
+
+clique number: 6
+unobserved tuple number: 2
+pgibbs sample time: 0.000711 seconds
+probability of topic_Course_128 is 0.506084
+
+mode equation: influence compute time (equation): 8.5e-05 seconds
+influence of links_85_128 on topic_Course_128 is 0.015076
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000159 seconds
+probability of topic_Faculty_1 is 0.517145
+
+mode equation: influence compute time (equation): 2.4e-05 seconds
+influence of hasword_model_1 on topic_Faculty_1 is 0.0171314
+
+clique number: 24
+unobserved tuple number: 8
+pgibbs sample time: 0.003801 seconds
+probability of topic_Course_153 is 0.444285
+
+mode equation: influence compute time (equation): 0.000827 seconds
+influence of hasword_jan_10 on topic_Course_153 is 0.000645908
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000167 seconds
+probability of topic_ResearchProject_53 is 0.442936
+
+mode equation: influence compute time (equation): 2.6e-05 seconds
+influence of hasword_date_53 on topic_ResearchProject_53 is -0.0565672
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000163 seconds
+probability of topic_Staff_5 is 0.423377
+
+mode equation: influence compute time (equation): 2.9e-05 seconds
+influence of r3848 on topic_Staff_5 is 0.244129
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000158 seconds
+probability of topic_Department_95 is 0.467383
+
+mode equation: influence compute time (equation): 2.7e-05 seconds
+influence of r3087 on topic_Department_95 is 0.248936
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.00018 seconds
+probability of topic_ResearchProject_81 is 0.435576
+
+mode equation: influence compute time (equation): 2.7e-05 seconds
+influence of hasword_server_81 on topic_ResearchProject_81 is -0.0637085
+
+clique number: 8
+unobserved tuple number: 3
+pgibbs sample time: 0.001239 seconds
+probability of topic_ResearchProject_33 is 0.277157
+
+mode equation: influence compute time (equation): 0.000159 seconds
+influence of links_33_19 on topic_ResearchProject_33 is -0.0117479
+
+clique number: 7
+unobserved tuple number: 2
+pgibbs sample time: 0.000871 seconds
+probability of topic_ResearchProject_47 is 0.395945
+
+mode equation: influence compute time (equation): 9e-05 seconds
+influence of hasword_fall_47 on topic_ResearchProject_47 is -0.0483683
+
+clique number: 5
+unobserved tuple number: 2
+pgibbs sample time: 0.000755 seconds
+probability of topic_Student_34 is 0.424151
+
+mode equation: influence compute time (equation): 9.9e-05 seconds
+influence of links_34_119 on topic_Student_34 is -0.0148315
+
+clique number: 3
+unobserved tuple number: 1
+pgibbs sample time: 0.00026 seconds
+probability of topic_ResearchProject_83 is 0.435929
+
+mode equation: influence compute time (equation): 3.5e-05 seconds
+influence of r4012 on topic_ResearchProject_83 is 0.245895
+
+clique number: 24
+unobserved tuple number: 8
+pgibbs sample time: 0.004714 seconds
+probability of topic_Person_153 is 0.568011
+
+mode equation: influence compute time (equation): 0.00116 seconds
+influence of links_10_153 on topic_Person_153 is 0.014449
+
+clique number: 8
+unobserved tuple number: 3
+pgibbs sample time: 0.001309 seconds
+probability of topic_ResearchProject_127 is 0.451113
+
+mode equation: influence compute time (equation): 0.000161 seconds
+influence of links_33_19 on topic_ResearchProject_127 is 0.000324837
+
+clique number: 24
+unobserved tuple number: 8
+pgibbs sample time: 0.003809 seconds
+probability of topic_Staff_10 is 0.559321
+
+mode equation: influence compute time (equation): 0.000835 seconds
+influence of links_75_153 on topic_Staff_10 is -0.000494187
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000194 seconds
+probability of topic_Person_29 is 0.615632
+
+mode equation: influence compute time (equation): 2.6e-05 seconds
+influence of hasword_depart_29 on topic_Person_29 is 0.111464
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000189 seconds
+probability of topic_Staff_29 is 0.553711
+
+mode equation: influence compute time (equation): 3.9e-05 seconds
+influence of hasword_depart_29 on topic_Staff_29 is 0.0532973
+
+clique number: 5
+unobserved tuple number: 2
+pgibbs sample time: 0.000645 seconds
+probability of topic_Course_22 is 0.55126
+
+mode equation: influence compute time (equation): 7.9e-05 seconds
+influence of links_22_35 on topic_Course_22 is -0.0175109
+
+clique number: 3
+unobserved tuple number: 1
+pgibbs sample time: 0.000191 seconds
+probability of topic_Staff_27 is 0.50876
+
+mode equation: influence compute time (equation): 2.8e-05 seconds
+influence of r3460 on topic_Staff_27 is 0.249923
+
+clique number: 3
+unobserved tuple number: 1
+pgibbs sample time: 0.000207 seconds
+probability of topic_Faculty_58 is 0.417361
+
+mode equation: influence compute time (equation): 4.5e-05 seconds
+influence of hasword_jan_58 on topic_Faculty_58 is -0.00990719
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000162 seconds
+probability of topic_Staff_28 is 0.447858
+
+mode equation: influence compute time (equation): 2.4e-05 seconds
+influence of hasword_gmt_28 on topic_Staff_28 is -0.0517629
+
+clique number: 9
+unobserved tuple number: 3
+pgibbs sample time: 0.001468 seconds
+probability of topic_Staff_18 is 0.410553
+
+mode equation: influence compute time (equation): 0.000153 seconds
+influence of r3848 on topic_Staff_18 is 0.242182
+
+clique number: 5
+unobserved tuple number: 2
+pgibbs sample time: 0.000876 seconds
+probability of topic_Course_35 is 0.621655
+
+mode equation: influence compute time (equation): 8.4e-05 seconds
+influence of links_22_35 on topic_Course_35 is 0.012246
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000166 seconds
+probability of topic_Course_14 is 0.523905
+
+mode equation: influence compute time (equation): 2.7e-05 seconds
+influence of r1182 on topic_Course_14 is 0.249429
+
+clique number: 3
+unobserved tuple number: 1
+pgibbs sample time: 0.000195 seconds
+probability of topic_Student_83 is 0.529084
+
+mode equation: influence compute time (equation): 3e-05 seconds
+influence of r4146 on topic_Student_83 is 0.249154
+
+clique number: 5
+unobserved tuple number: 2
+pgibbs sample time: 0.000625 seconds
+probability of topic_Person_90 is 0.521969
+
+mode equation: influence compute time (equation): 8.2e-05 seconds
+influence of links_78_90 on topic_Person_90 is 0.0090865
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000161 seconds
+probability of topic_Staff_95 is 0.47193
+
+mode equation: influence compute time (equation): 3.1e-05 seconds
+influence of r2179 on topic_Staff_95 is 0.249212
+
+clique number: 6
+unobserved tuple number: 2
+pgibbs sample time: 0.000985 seconds
+probability of topic_Staff_59 is 0.4983
+
+mode equation: influence compute time (equation): 8.4e-05 seconds
+influence of r4033 on topic_Staff_59 is -0.0137513
+
+clique number: 6
+unobserved tuple number: 2
+pgibbs sample time: 0.001017 seconds
+probability of topic_Staff_46 is 0.433162
+
+mode equation: influence compute time (equation): 8.5e-05 seconds
+influence of r4033 on topic_Staff_46 is 0.246287
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000187 seconds
+probability of topic_Staff_77 is 0.474394
+
+mode equation: influence compute time (equation): 3e-05 seconds
+influence of r1506 on topic_Staff_77 is 0.249344
+
+clique number: 24
+unobserved tuple number: 8
+pgibbs sample time: 0.004353 seconds
+probability of topic_Faculty_51 is 0.431015
+
+mode equation: influence compute time (equation): 0.000841 seconds
+influence of links_55_153 on topic_Faculty_51 is -0.000489555
+
+clique number: 24
+unobserved tuple number: 8
+pgibbs sample time: 0.004441 seconds
+probability of topic_Faculty_113 is 0.423491
+
+mode equation: influence compute time (equation): 0.000861 seconds
+influence of links_55_153 on topic_Faculty_113 is 1.33471e-05
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000173 seconds
+probability of topic_Staff_25 is 0.576178
+
+mode equation: influence compute time (equation): 3e-05 seconds
+influence of r3460 on topic_Staff_25 is 0.244197
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000219 seconds
+probability of topic_Staff_31 is 0.459285
+
+mode equation: influence compute time (equation): 4.4e-05 seconds
+influence of hasword_effici_31 on topic_Staff_31 is -0.0405352
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000158 seconds
+probability of topic_Person_45 is 0.488394
+
+mode equation: influence compute time (equation): 3e-05 seconds
+influence of r4316 on topic_Person_45 is 0.249865
+
+clique number: 24
+unobserved tuple number: 8
+pgibbs sample time: 0.003811 seconds
+probability of topic_Department_113 is 0.280502
+
+mode equation: influence compute time (equation): 0.000841 seconds
+influence of links_51_159 on topic_Department_113 is 0.000272458
+
+clique number: 9
+unobserved tuple number: 3
+pgibbs sample time: 0.001283 seconds
+probability of topic_Department_146 is 0.406893
+
+mode equation: influence compute time (equation): 0.000154 seconds
+influence of links_47_12 on topic_Department_146 is 0.0003388
+
+clique number: 9
+unobserved tuple number: 3
+pgibbs sample time: 0.00217 seconds
+probability of topic_ResearchProject_20 is 0.442993
+
+mode equation: influence compute time (equation): 0.000183 seconds
+influence of links_20_102 on topic_ResearchProject_20 is -0.0146517
+
+clique number: 9
+unobserved tuple number: 3
+pgibbs sample time: 0.001471 seconds
+probability of topic_ResearchProject_102 is 0.498971
+
+mode equation: influence compute time (equation): 0.000317 seconds
+influence of links_20_102 on topic_ResearchProject_102 is 0.0163806
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000162 seconds
+probability of topic_Staff_81 is 0.432401
+
+mode equation: influence compute time (equation): 2.7e-05 seconds
+influence of hasword_server_81 on topic_Staff_81 is -0.0667723
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000191 seconds
+probability of topic_Student_36 is 0.570691
+
+mode equation: influence compute time (equation): 3.3e-05 seconds
+influence of r1406 on topic_Student_36 is 0.245003
+
+clique number: 14
+unobserved tuple number: 4
+pgibbs sample time: 0.002623 seconds
+probability of topic_Faculty_68 is 0.420002
+
+mode equation: influence compute time (equation): 0.000266 seconds
+influence of links_43_40 on topic_Faculty_68 is 0.000437467
+
+clique number: 3
+unobserved tuple number: 1
+pgibbs sample time: 0.000279 seconds
+probability of topic_Department_31 is 0.462165
+
+mode equation: influence compute time (equation): 4.5e-05 seconds
+influence of hasword_sequenc_31 on topic_Department_31 is -0.0218438
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000152 seconds
+probability of topic_Department_81 is 0.477077
+
+mode equation: influence compute time (equation): 2.6e-05 seconds
+influence of hasword_server_81 on topic_Department_81 is -0.022891
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000169 seconds
+probability of topic_Faculty_72 is 0.44287
+
+mode equation: influence compute time (equation): 2.6e-05 seconds
+influence of hasword_graduat_72 on topic_Faculty_72 is -0.0566311
+
+clique number: 9
+unobserved tuple number: 3
+pgibbs sample time: 0.001428 seconds
+probability of topic_Person_108 is 0.472531
+
+mode equation: influence compute time (equation): 0.000161 seconds
+influence of r66 on topic_Person_108 is -0.0139625
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000254 seconds
+probability of topic_Staff_76 is 0.639653
+
+mode equation: influence compute time (equation): 4.6e-05 seconds
+influence of r2185 on topic_Staff_76 is 0.230497
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000163 seconds
+probability of topic_Department_62 is 0.482103
+
+mode equation: influence compute time (equation): 2.6e-05 seconds
+influence of hasword_length_62 on topic_Department_62 is -0.0178819
+
+clique number: 5
+unobserved tuple number: 2
+pgibbs sample time: 0.000616 seconds
+probability of topic_Staff_61 is 0.502656
+
+mode equation: influence compute time (equation): 8.1e-05 seconds
+influence of links_61_39 on topic_Staff_61 is -0.0197316
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000232 seconds
+probability of topic_Staff_4 is 0.46839
+
+mode equation: influence compute time (equation): 3.3e-05 seconds
+influence of r2885 on topic_Staff_4 is 0.249001
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000183 seconds
+probability of topic_ResearchProject_14 is 0.510441
+
+mode equation: influence compute time (equation): 4.5e-05 seconds
+influence of r842 on topic_ResearchProject_14 is 0.249891
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000163 seconds
+probability of topic_Course_15 is 0.43891
+
+mode equation: influence compute time (equation): 2.6e-05 seconds
+influence of hasword_modifi_15 on topic_Course_15 is -0.0604797
+
+clique number: 3
+unobserved tuple number: 1
+pgibbs sample time: 0.000212 seconds
+probability of topic_ResearchProject_58 is 0.33672
+
+mode equation: influence compute time (equation): 4.4e-05 seconds
+influence of r3183 on topic_ResearchProject_58 is 0.22334
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000223 seconds
+probability of topic_Faculty_76 is 0.485938
+
+mode equation: influence compute time (equation): 4.3e-05 seconds
+influence of hasword_onlin_76 on topic_Faculty_76 is -0.0140544
+
+clique number: 10
+unobserved tuple number: 3
+pgibbs sample time: 0.001382 seconds
+probability of topic_Student_89 is 0.390102
+
+mode equation: influence compute time (equation): 0.000165 seconds
+influence of links_49_89 on topic_Student_89 is 0.00680801
+
+clique number: 10
+unobserved tuple number: 3
+pgibbs sample time: 0.001438 seconds
+probability of topic_Student_26 is 0.644028
+
+mode equation: influence compute time (equation): 0.000161 seconds
+influence of links_49_89 on topic_Student_26 is -0.000174292
+
+clique number: 3
+unobserved tuple number: 1
+pgibbs sample time: 0.000188 seconds
+probability of topic_Student_84 is 0.550452
+
+mode equation: influence compute time (equation): 2.9e-05 seconds
+influence of hasword_person_84 on topic_Student_84 is -0.0196663
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000223 seconds
+probability of topic_Staff_53 is 0.447858
+
+mode equation: influence compute time (equation): 3.2e-05 seconds
+influence of r4942 on topic_Staff_53 is 0.247281
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000165 seconds
+probability of topic_Student_11 is 0.0545471
+
+mode equation: influence compute time (equation): 2.7e-05 seconds
+influence of hasword_dec_11 on topic_Student_11 is -0.147113
+
+clique number: 5
+unobserved tuple number: 2
+pgibbs sample time: 0.000631 seconds
+probability of topic_Department_78 is 0.627352
+
+mode equation: influence compute time (equation): 7.3e-05 seconds
+influence of hasword_home_78 on topic_Department_78 is 0.138074
+
+clique number: 5
+unobserved tuple number: 2
+pgibbs sample time: 0.000761 seconds
+probability of topic_Department_90 is 0.620886
+
+mode equation: influence compute time (equation): 7.7e-05 seconds
+influence of hasword_home_78 on topic_Department_90 is -0.00362937
+
+clique number: 5
+unobserved tuple number: 2
+pgibbs sample time: 0.000647 seconds
+probability of topic_Faculty_44 is 0.467003
+
+mode equation: influence compute time (equation): 8.7e-05 seconds
+influence of links_44_124 on topic_Faculty_44 is -0.0136735
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000171 seconds
+probability of topic_Person_81 is 0.486143
+
+mode equation: influence compute time (equation): 3.3e-05 seconds
+influence of r1100 on topic_Person_81 is 0.249808
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000172 seconds
+probability of topic_Department_52 is 0.452421
+
+mode equation: influence compute time (equation): 3.2e-05 seconds
+influence of r2903 on topic_Department_52 is 0.247736
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000221 seconds
+probability of topic_Faculty_17 is 0.446163
+
+mode equation: influence compute time (equation): 3.3e-05 seconds
+influence of r3420 on topic_Faculty_17 is 0.247102
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000218 seconds
+probability of topic_Staff_80 is 0.470664
+
+mode equation: influence compute time (equation): 3e-05 seconds
+influence of r1296 on topic_Staff_80 is 0.249139
+
+clique number: 6
+unobserved tuple number: 2
+pgibbs sample time: 0.000728 seconds
+probability of topic_Student_124 is 0.517422
+
+mode equation: influence compute time (equation): 9.3e-05 seconds
+influence of rl on topic_Student_124 is -0.132333
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000167 seconds
+probability of topic_Faculty_4 is 0.531785
+
+mode equation: influence compute time (equation): 2.7e-05 seconds
+influence of hasword_represent_4 on topic_Faculty_4 is 0.0316994
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000152 seconds
+probability of topic_Faculty_70 is 0.423657
+
+mode equation: influence compute time (equation): 2.8e-05 seconds
+influence of hasword_net_70 on topic_Faculty_70 is -0.0751505
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000156 seconds
+probability of topic_Course_16 is 0.425378
+
+mode equation: influence compute time (equation): 3.1e-05 seconds
+influence of hasword_gmt_16 on topic_Course_16 is -0.0735086
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000183 seconds
+probability of topic_Department_3 is 0.420608
+
+mode equation: influence compute time (equation): 2.7e-05 seconds
+influence of hasword_algorithm_3 on topic_Department_3 is -0.0780505
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000162 seconds
+probability of topic_Faculty_97 is 0.483098
+
+mode equation: influence compute time (equation): 3.9e-05 seconds
+influence of r1600 on topic_Faculty_97 is 0.249714
+
+clique number: 9
+unobserved tuple number: 3
+pgibbs sample time: 0.001277 seconds
+probability of topic_Staff_12 is 0.505771
+
+mode equation: influence compute time (equation): 0.000157 seconds
+influence of links_47_12 on topic_Staff_12 is 0.0180641
+
+clique number: 9
+unobserved tuple number: 3
+pgibbs sample time: 0.001295 seconds
+probability of topic_Staff_146 is 0.707119
+
+mode equation: influence compute time (equation): 0.000154 seconds
+influence of links_47_12 on topic_Staff_146 is 0.000314273
+
+clique number: 3
+unobserved tuple number: 1
+pgibbs sample time: 0.000198 seconds
+probability of topic_Staff_44 is 0.447579
+
+mode equation: influence compute time (equation): 3.1e-05 seconds
+influence of hasword_formal_44 on topic_Staff_44 is -0.00931188
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000164 seconds
+probability of topic_Faculty_98 is 0.505241
+
+mode equation: influence compute time (equation): 2.8e-05 seconds
+influence of hasword_nov_98 on topic_Faculty_98 is 0.00524095
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000154 seconds
+probability of topic_Faculty_53 is 0.419826
+
+mode equation: influence compute time (equation): 2.5e-05 seconds
+influence of hasword_date_53 on topic_Faculty_53 is -0.0787922
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000167 seconds
+probability of topic_ResearchProject_37 is 0.493629
+
+mode equation: influence compute time (equation): 2.9e-05 seconds
+influence of r3450 on topic_ResearchProject_37 is 0.249959
+
+clique number: 10
+unobserved tuple number: 3
+pgibbs sample time: 0.001365 seconds
+probability of topic_Staff_49 is 0.439256
+
+mode equation: influence compute time (equation): 0.000243 seconds
+influence of links_49_89 on topic_Staff_49 is -0.0163164
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000171 seconds
+probability of topic_Department_29 is 0.692524
+
+mode equation: influence compute time (equation): 2.6e-05 seconds
+influence of hasword_depart_29 on topic_Department_29 is 0.172891
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000165 seconds
+probability of topic_Course_38 is 0.409805
+
+mode equation: influence compute time (equation): 2.7e-05 seconds
+influence of r4921 on topic_Course_38 is 0.241865
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000165 seconds
+probability of topic_Person_66 is 0.486242
+
+mode equation: influence compute time (equation): 4e-05 seconds
+influence of hasword_text_66 on topic_Person_66 is -0.0137514
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000177 seconds
+probability of topic_ResearchProject_64 is 0.470243
+
+mode equation: influence compute time (equation): 2.9e-05 seconds
+influence of r3600 on topic_ResearchProject_64 is 0.249115
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000155 seconds
+probability of topic_Staff_97 is 0.462623
+
+mode equation: influence compute time (equation): 2.5e-05 seconds
+influence of hasword_link_97 on topic_Staff_97 is -0.037238
+
+clique number: 9
+unobserved tuple number: 3
+pgibbs sample time: 0.00161 seconds
+probability of topic_Department_20 is 0.484741
+
+mode equation: influence compute time (equation): 0.000167 seconds
+influence of links_102_20 on topic_Department_20 is 0.0170486
+
+clique number: 3
+unobserved tuple number: 1
+pgibbs sample time: 0.000235 seconds
+probability of topic_Faculty_27 is 0.391625
+
+mode equation: influence compute time (equation): 3.1e-05 seconds
+influence of r4581 on topic_Faculty_27 is 0.238255
+
+clique number: 3
+unobserved tuple number: 1
+pgibbs sample time: 0.000219 seconds
+probability of topic_Staff_73 is 0.456252
+
+mode equation: influence compute time (equation): 2.9e-05 seconds
+influence of hasword_server_73 on topic_Staff_73 is -0.0674948
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000175 seconds
+probability of topic_ResearchProject_77 is 0.508503
+
+mode equation: influence compute time (equation): 4.3e-05 seconds
+influence of r1544 on topic_ResearchProject_77 is 0.249928
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000171 seconds
+probability of topic_Person_98 is 0.713581
+
+mode equation: influence compute time (equation): 2.6e-05 seconds
+influence of hasword_nov_98 on topic_Person_98 is 0.186569
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000175 seconds
+probability of topic_Department_50 is 0.476935
+
+mode equation: influence compute time (equation): 2.6e-05 seconds
+influence of hasword_art_50 on topic_Department_50 is -0.0230328
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000164 seconds
+probability of topic_Faculty_3 is 0.541141
+
+mode equation: influence compute time (equation): 2.8e-05 seconds
+influence of hasword_algorithm_3 on topic_Faculty_3 is 0.0409553
+
+clique number: 14
+unobserved tuple number: 4
+pgibbs sample time: 0.002012 seconds
+probability of topic_Faculty_40 is 0.589756
+
+mode equation: influence compute time (equation): 0.000315 seconds
+influence of links_43_40 on topic_Faculty_40 is 0.017025
+
+clique number: 9
+unobserved tuple number: 3
+pgibbs sample time: 0.001462 seconds
+probability of topic_Staff_102 is 0.472438
+
+mode equation: influence compute time (equation): 0.000154 seconds
+influence of r3848 on topic_Staff_102 is -0.00676137
+
+clique number: 8
+unobserved tuple number: 3
+pgibbs sample time: 0.001182 seconds
+probability of topic_Person_33 is 0.677147
+
+mode equation: influence compute time (equation): 0.000148 seconds
+influence of links_33_19 on topic_Person_33 is -0.00960273
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000236 seconds
+probability of topic_Person_3 is 0.454429
+
+mode equation: influence compute time (equation): 4.3e-05 seconds
+influence of hasword_algorithm_3 on topic_Person_3 is -0.0453181
+
+clique number: 5
+unobserved tuple number: 2
+pgibbs sample time: 0.000657 seconds
+probability of topic_ResearchProject_78 is 0.28423
+
+mode equation: influence compute time (equation): 8.8e-05 seconds
+influence of links_78_90 on topic_ResearchProject_78 is -0.0150045
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000167 seconds
+probability of topic_Person_99 is 0.626929
+
+mode equation: influence compute time (equation): 2.8e-05 seconds
+influence of hasword_read_99 on topic_Person_99 is 0.121404
+
+clique number: 3
+unobserved tuple number: 1
+pgibbs sample time: 0.000312 seconds
+probability of topic_ResearchProject_44 is 0.498634
+
+mode equation: influence compute time (equation): 3.4e-05 seconds
+influence of hasword_formal_44 on topic_ResearchProject_44 is -0.0398715
+
+clique number: 5
+unobserved tuple number: 2
+pgibbs sample time: 0.000654 seconds
+probability of topic_ResearchProject_90 is 0.641692
+
+mode equation: influence compute time (equation): 9.5e-05 seconds
+influence of links_78_90 on topic_ResearchProject_90 is 0.018763
+
+clique number: 3
+unobserved tuple number: 1
+pgibbs sample time: 0.000229 seconds
+probability of topic_Department_58 is 0.876534
+
+mode equation: influence compute time (equation): 3.1e-05 seconds
+influence of r648 on topic_Department_58 is 0.108222
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000155 seconds
+probability of topic_Course_5 is 0.415922
+
+mode equation: influence compute time (equation): 2.9e-05 seconds
+influence of hasword_html_5 on topic_Course_5 is -0.0824838
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000167 seconds
+probability of topic_Faculty_16 is 0.419826
+
+mode equation: influence compute time (equation): 3e-05 seconds
+influence of r2277 on topic_Faculty_16 is 0.243572
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000166 seconds
+probability of topic_Faculty_60 is 0.432194
+
+mode equation: influence compute time (equation): 2.6e-05 seconds
+influence of hasword_mime_60 on topic_Faculty_60 is -0.0669715
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000168 seconds
+probability of topic_Student_63 is 0.524583
+
+mode equation: influence compute time (equation): 2.6e-05 seconds
+influence of hasword_jan_63 on topic_Student_63 is 0.0245437
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000339 seconds
+probability of topic_ResearchProject_2 is 0.437523
+
+mode equation: influence compute time (equation): 2.8e-05 seconds
+influence of hasword_phone_2 on topic_ResearchProject_2 is -0.0618246
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000165 seconds
+probability of topic_Faculty_74 is 0.401374
+
+mode equation: influence compute time (equation): 2.7e-05 seconds
+influence of r1360 on topic_Faculty_74 is 0.240273
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000162 seconds
+probability of topic_Department_56 is 0.601492
+
+mode equation: influence compute time (equation): 3e-05 seconds
+influence of r4991 on topic_Department_56 is 0.239699
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000165 seconds
+probability of topic_Person_32 is 0.481126
+
+mode equation: influence compute time (equation): 3.1e-05 seconds
+influence of r4885 on topic_Person_32 is 0.249644
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000194 seconds
+probability of topic_Department_36 is 0.371091
+
+mode equation: influence compute time (equation): 2.7e-05 seconds
+influence of hasword_system_36 on topic_Department_36 is -0.123118
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000163 seconds
+probability of topic_Course_23 is 0.497804
+
+mode equation: influence compute time (equation): 3.1e-05 seconds
+influence of hasword_texa_23 on topic_Course_23 is -0.00219608
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000166 seconds
+probability of topic_Student_29 is 0.538624
+
+mode equation: influence compute time (equation): 3.3e-05 seconds
+influence of r2448 on topic_Student_29 is 0.248508
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000167 seconds
+probability of topic_Department_8 is 0.477736
+
+mode equation: influence compute time (equation): 2.9e-05 seconds
+influence of r4209 on topic_Department_8 is 0.249504
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000177 seconds
+probability of topic_Staff_82 is 0.536626
+
+mode equation: influence compute time (equation): 2.5e-05 seconds
+influence of hasword_kei_82 on topic_Staff_82 is 0.0364949
+
+clique number: 8
+unobserved tuple number: 3
+pgibbs sample time: 0.001195 seconds
+probability of topic_Person_19 is 0.384291
+
+mode equation: influence compute time (equation): 0.000148 seconds
+influence of links_33_19 on topic_Person_19 is 0.00878428
+
+clique number: 8
+unobserved tuple number: 3
+pgibbs sample time: 0.001177 seconds
+probability of topic_Person_127 is 0.530161
+
+mode equation: influence compute time (equation): 0.000146 seconds
+influence of links_33_19 on topic_Person_127 is 0.000267109
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000151 seconds
+probability of topic_Course_73 is 0.419524
+
+mode equation: influence compute time (equation): 2.4e-05 seconds
+influence of hasword_server_73 on topic_Course_73 is -0.0790787
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000162 seconds
+probability of topic_Student_13 is 0.540469
+
+mode equation: influence compute time (equation): 2.5e-05 seconds
+influence of hasword_develop_13 on topic_Student_13 is 0.0402921
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000172 seconds
+probability of topic_ResearchProject_97 is 0.397012
+
+mode equation: influence compute time (equation): 2.4e-05 seconds
+influence of hasword_link_97 on topic_ResearchProject_97 is -0.10005
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000156 seconds
+probability of topic_Student_81 is 0.487579
+
+mode equation: influence compute time (equation): 2.8e-05 seconds
+influence of hasword_server_81 on topic_Student_81 is -0.0124161
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000164 seconds
+probability of topic_Person_42 is 0.661866
+
+mode equation: influence compute time (equation): 2.8e-05 seconds
+influence of r2280 on topic_Person_42 is 0.223799
+
+clique number: 5
+unobserved tuple number: 2
+pgibbs sample time: 0.000626 seconds
+probability of topic_Course_119 is 0.51303
+
+mode equation: influence compute time (equation): 8.1e-05 seconds
+influence of links_34_119 on topic_Course_119 is 0.0150412
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.00017 seconds
+probability of topic_Course_81 is 0.419524
+
+mode equation: influence compute time (equation): 2.9e-05 seconds
+influence of r3547 on topic_Course_81 is 0.243524
+
+clique number: 3
+unobserved tuple number: 1
+pgibbs sample time: 0.000187 seconds
+probability of topic_Department_79 is 0.442519
+
+mode equation: influence compute time (equation): 2.7e-05 seconds
+influence of hasword_produc_79 on topic_Department_79 is -0.0291967
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000167 seconds
+probability of topic_Course_32 is 0.425578
+
+mode equation: influence compute time (equation): 2.5e-05 seconds
+influence of hasword_softwar_32 on topic_Course_32 is -0.0733181
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000165 seconds
+probability of topic_Staff_56 is 0.505232
+
+mode equation: influence compute time (equation): 2.5e-05 seconds
+influence of hasword_includ_56 on topic_Staff_56 is 0.00523205
+
+clique number: 10
+unobserved tuple number: 3
+pgibbs sample time: 0.001378 seconds
+probability of topic_Department_49 is 0.480831
+
+mode equation: influence compute time (equation): 0.000158 seconds
+influence of r3055 on topic_Department_49 is 0.249802
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000167 seconds
+probability of topic_Department_96 is 0.395175
+
+mode equation: influence compute time (equation): 2.7e-05 seconds
+influence of r2645 on topic_Department_96 is 0.239012
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000161 seconds
+probability of topic_Person_54 is 0.374065
+
+mode equation: influence compute time (equation): 2.4e-05 seconds
+influence of hasword_syllabu_54 on topic_Person_54 is -0.120539
+
+clique number: 8
+unobserved tuple number: 3
+pgibbs sample time: 0.001222 seconds
+probability of topic_ResearchProject_69 is 0.418327
+
+mode equation: influence compute time (equation): 0.000146 seconds
+influence of hasword_research_168 on topic_ResearchProject_69 is -0.00262842
+
+clique number: 6
+unobserved tuple number: 2
+pgibbs sample time: 0.000725 seconds
+probability of topic_Department_44 is 0.359779
+
+mode equation: influence compute time (equation): 9e-05 seconds
+influence of rl on topic_Department_44 is 0.122982
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000149 seconds
+probability of topic_Course_11 is 0.31139
+
+mode equation: influence compute time (equation): 2.5e-05 seconds
+influence of hasword_dec_11 on topic_Course_11 is -0.170175
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000155 seconds
+probability of topic_Department_54 is 0.498189
+
+mode equation: influence compute time (equation): 2.6e-05 seconds
+influence of hasword_syllabu_54 on topic_Department_54 is -0.00181056
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000162 seconds
+probability of topic_Faculty_82 is 0.471343
+
+mode equation: influence compute time (equation): 2.5e-05 seconds
+influence of hasword_kei_82 on topic_Faculty_82 is -0.0285943
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000161 seconds
+probability of topic_Person_91 is 0.45713
+
+mode equation: influence compute time (equation): 2.5e-05 seconds
+influence of hasword_due_91 on topic_Person_91 is -0.0426593
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000162 seconds
+probability of topic_Staff_64 is 0.503992
+
+mode equation: influence compute time (equation): 2.6e-05 seconds
+influence of r3440 on topic_Staff_64 is 0.249984
+
+clique number: 8
+unobserved tuple number: 3
+pgibbs sample time: 0.001356 seconds
+probability of topic_Staff_94 is 0.504495
+
+mode equation: influence compute time (equation): 0.000152 seconds
+influence of links_108_94 on topic_Staff_94 is 0.0170234
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.00015 seconds
+probability of topic_Student_23 is 0.527927
+
+mode equation: influence compute time (equation): 2.4e-05 seconds
+influence of hasword_texa_23 on topic_Student_23 is 0.027869
+
+clique number: 5
+unobserved tuple number: 2
+pgibbs sample time: 0.000627 seconds
+probability of topic_Department_177 is 0.43158
+
+mode equation: influence compute time (equation): 7.3e-05 seconds
+influence of hasword_model_177 on topic_Department_177 is -0.0837172
+
+clique number: 6
+unobserved tuple number: 2
+pgibbs sample time: 0.000708 seconds
+probability of topic_Student_128 is 0.519551
+
+mode equation: influence compute time (equation): 8.6e-05 seconds
+influence of links_85_128 on topic_Student_128 is 0.00838455
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000148 seconds
+probability of topic_Student_76 is 0.578996
+
+mode equation: influence compute time (equation): 2.6e-05 seconds
+influence of r1717 on topic_Student_76 is 0.24376
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000168 seconds
+probability of topic_Course_36 is 0.687328
+
+mode equation: influence compute time (equation): 3.2e-05 seconds
+influence of r4597 on topic_Course_36 is 0.214908
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000153 seconds
+probability of topic_Person_4 is 0.544751
+
+mode equation: influence compute time (equation): 3e-05 seconds
+influence of r2554 on topic_Person_4 is 0.247997
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000162 seconds
+probability of topic_Person_11 is 0.0568886
+
+mode equation: influence compute time (equation): 2.7e-05 seconds
+influence of r3035 on topic_Person_11 is 0.0536523
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.00015 seconds
+probability of topic_Department_48 is 0.405568
+
+mode equation: influence compute time (equation): 2.6e-05 seconds
+influence of r784 on topic_Department_48 is 0.241083
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000191 seconds
+probability of topic_ResearchProject_24 is 0.602294
+
+mode equation: influence compute time (equation): 2.6e-05 seconds
+influence of hasword_research_24 on topic_ResearchProject_24 is 0.0994151
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000156 seconds
+probability of topic_Faculty_77 is 0.465007
+
+mode equation: influence compute time (equation): 2.5e-05 seconds
+influence of hasword_statem_77 on topic_Faculty_77 is -0.0348786
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000158 seconds
+probability of topic_ResearchProject_74 is 0.435576
+
+mode equation: influence compute time (equation): 2.5e-05 seconds
+influence of hasword_server_74 on topic_ResearchProject_74 is -0.0637085
+
+clique number: 14
+unobserved tuple number: 4
+pgibbs sample time: 0.001972 seconds
+probability of topic_Person_43 is 0.323685
+
+mode equation: influence compute time (equation): 0.000263 seconds
+influence of links_43_40 on topic_Person_43 is -0.016229
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000167 seconds
+probability of topic_Person_50 is 0.585637
+
+mode equation: influence compute time (equation): 2.5e-05 seconds
+influence of hasword_art_50 on topic_Person_50 is 0.0839519
+
+clique number: 24
+unobserved tuple number: 8
+pgibbs sample time: 0.003799 seconds
+probability of topic_Student_113 is 0.342416
+
+mode equation: influence compute time (equation): 0.00084 seconds
+influence of links_55_153 on topic_Student_113 is 1.08669e-05
+
+clique number: 24
+unobserved tuple number: 8
+pgibbs sample time: 0.003804 seconds
+probability of topic_Student_21 is 0.478547
+
+mode equation: influence compute time (equation): 0.000841 seconds
+influence of links_55_153 on topic_Student_21 is 1.20431e-05
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.00016 seconds
+probability of topic_Student_4 is 0.534022
+
+mode equation: influence compute time (equation): 2.6e-05 seconds
+influence of r2324 on topic_Student_4 is 0.248842
+
+clique number: 9
+unobserved tuple number: 3
+pgibbs sample time: 0.001436 seconds
+probability of topic_Department_108 is 0.464468
+
+mode equation: influence compute time (equation): 0.000152 seconds
+influence of r3032 on topic_Department_108 is -0.0139178
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000153 seconds
+probability of topic_ResearchProject_50 is 0.482183
+
+mode equation: influence compute time (equation): 2.9e-05 seconds
+influence of r3999 on topic_ResearchProject_50 is 0.249683
+
+clique number: 24
+unobserved tuple number: 8
+pgibbs sample time: 0.003823 seconds
+probability of topic_Department_51 is 0.601489
+
+mode equation: influence compute time (equation): 0.000853 seconds
+influence of links_51_159 on topic_Department_51 is -0.0120892
+
+clique number: 24
+unobserved tuple number: 8
+pgibbs sample time: 0.003914 seconds
+probability of topic_Department_159 is 0.439433
+
+mode equation: influence compute time (equation): 0.000843 seconds
+influence of links_51_159 on topic_Department_159 is 0.0112947
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000169 seconds
+probability of topic_Person_92 is 0.476547
+
+mode equation: influence compute time (equation): 3.3e-05 seconds
+influence of r2380 on topic_Person_92 is 0.24945
+
+clique number: 3
+unobserved tuple number: 1
+pgibbs sample time: 0.000192 seconds
+probability of topic_Course_84 is 0.592611
+
+mode equation: influence compute time (equation): 2.9e-05 seconds
+influence of r133 on topic_Course_84 is 0.241423
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000159 seconds
+probability of topic_Department_66 is 0.477106
+
+mode equation: influence compute time (equation): 2.8e-05 seconds
+influence of r3032 on topic_Department_66 is 0.249476
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000181 seconds
+probability of topic_Department_97 is 0.336359
+
+mode equation: influence compute time (equation): 2.8e-05 seconds
+influence of r2574 on topic_Department_97 is 0.223222
+
+clique number: 9
+unobserved tuple number: 3
+pgibbs sample time: 0.001422 seconds
+probability of topic_Student_107 is 0.486098
+
+mode equation: influence compute time (equation): 0.000163 seconds
+influence of links_65_154 on topic_Student_107 is 0.000719968
+
+clique number: 3
+unobserved tuple number: 1
+pgibbs sample time: 0.000189 seconds
+probability of topic_Person_73 is 0.395858
+
+mode equation: influence compute time (equation): 2.7e-05 seconds
+influence of hasword_server_73 on topic_Person_73 is -0.0132588
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000179 seconds
+probability of topic_Course_29 is 0.487672
+
+mode equation: influence compute time (equation): 2.7e-05 seconds
+influence of hasword_depart_29 on topic_Course_29 is -0.0123228
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000165 seconds
+probability of topic_Faculty_66 is 0.401781
+
+mode equation: influence compute time (equation): 2.5e-05 seconds
+influence of hasword_text_66 on topic_Faculty_66 is -0.0956723
+
+clique number: 3
+unobserved tuple number: 1
+pgibbs sample time: 0.000202 seconds
+probability of topic_ResearchProject_85 is 0.29128
+
+mode equation: influence compute time (equation): 2.8e-05 seconds
+influence of hasword_home_85 on topic_ResearchProject_85 is -0.175867
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000151 seconds
+probability of topic_Student_98 is 0.712049
+
+mode equation: influence compute time (equation): 2.8e-05 seconds
+influence of r1833 on topic_Student_98 is 0.205035
+
+clique number: 8
+unobserved tuple number: 3
+pgibbs sample time: 0.0012 seconds
+probability of topic_ResearchProject_30 is 0.478455
+
+mode equation: influence compute time (equation): 0.000149 seconds
+influence of hasword_research_168 on topic_ResearchProject_30 is -0.00269546
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000152 seconds
+probability of topic_Staff_11 is 0.280067
+
+mode equation: influence compute time (equation): 2.5e-05 seconds
+influence of hasword_dec_11 on topic_Staff_11 is -0.190364
+
+clique number: 8
+unobserved tuple number: 3
+pgibbs sample time: 0.001318 seconds
 probability of topic_Course_154 is 0.475382
+
+mode equation: influence compute time (equation): 0.000158 seconds
+influence of links_65_154 on topic_Course_154 is 0.0145523
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000166 seconds
+probability of topic_Student_64 is 0.469789
+
+mode equation: influence compute time (equation): 2.6e-05 seconds
+influence of r2133 on topic_Student_64 is 0.249087
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000158 seconds
+probability of topic_Person_36 is 0.56344
+
+mode equation: influence compute time (equation): 2.7e-05 seconds
+influence of r3789 on topic_Person_36 is 0.245975
+
+clique number: 9
+unobserved tuple number: 3
+pgibbs sample time: 0.001416 seconds
+probability of topic_Student_65 is 0.52996
+
+mode equation: influence compute time (equation): 0.000159 seconds
+influence of links_65_154 on topic_Student_65 is -0.0129045
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000164 seconds
+probability of topic_Staff_1 is 0.521778
+
+mode equation: influence compute time (equation): 2.7e-05 seconds
+influence of r1197 on topic_Staff_1 is 0.249526
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000152 seconds
+probability of topic_Department_25 is 0.649423
+
+mode equation: influence compute time (equation): 2.4e-05 seconds
+influence of hasword_jan_25 on topic_Department_25 is 0.140361
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000141 seconds
+probability of topic_Staff_54 is 0.497096
+
+mode equation: influence compute time (equation): 2.4e-05 seconds
+influence of hasword_syllabu_54 on topic_Staff_54 is -0.002904
+
+clique number: 3
+unobserved tuple number: 1
+pgibbs sample time: 0.000199 seconds
+probability of topic_Course_27 is 0.396843
+
+mode equation: influence compute time (equation): 2.8e-05 seconds
+influence of r3547 on topic_Course_27 is 0.239359
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000155 seconds
+probability of topic_Department_28 is 0.480109
+
+mode equation: influence compute time (equation): 2.8e-05 seconds
+influence of r1843 on topic_Department_28 is 0.249604
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000153 seconds
+probability of topic_Department_77 is 0.474402
+
+mode equation: influence compute time (equation): 2.5e-05 seconds
+influence of hasword_statem_77 on topic_Department_77 is -0.0255531
+
+clique number: 6
+unobserved tuple number: 2
+pgibbs sample time: 0.000707 seconds
+probability of topic_Student_44 is 0.484869
+
+mode equation: influence compute time (equation): 9.4e-05 seconds
+influence of rl on topic_Student_44 is 0.132928
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000202 seconds
+probability of topic_Staff_2 is 0.729589
+
+mode equation: influence compute time (equation): 3.3e-05 seconds
+influence of r3100 on topic_Staff_2 is 0.197289
+
+clique number: 10
+unobserved tuple number: 3
+pgibbs sample time: 0.001762 seconds
+probability of topic_Student_47 is 0.445454
+
+mode equation: influence compute time (equation): 0.000155 seconds
+influence of hasword_fall_47 on topic_Student_47 is -0.0939576
+
+clique number: 10
+unobserved tuple number: 3
+pgibbs sample time: 0.001389 seconds
+probability of topic_Student_146 is 0.373852
+
+mode equation: influence compute time (equation): 0.00015 seconds
+influence of hasword_fall_47 on topic_Student_146 is 0.0024561
+
+clique number: 3
+unobserved tuple number: 1
+pgibbs sample time: 0.000186 seconds
+probability of topic_Faculty_31 is 0.556957
+
+mode equation: influence compute time (equation): 2.9e-05 seconds
+influence of r2879 on topic_Faculty_31 is 0.246756
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000148 seconds
+probability of topic_Staff_8 is 0.555017
+
+mode equation: influence compute time (equation): 2.6e-05 seconds
+influence of r1427 on topic_Staff_8 is 0.246973
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000155 seconds
+probability of topic_Course_77 is 0.499328
+
+mode equation: influence compute time (equation): 2.4e-05 seconds
+influence of hasword_statem_77 on topic_Course_77 is -0.000671834
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000165 seconds
+probability of topic_Student_6 is 0.493937
+
+mode equation: influence compute time (equation): 2.5e-05 seconds
+influence of hasword_date_6 on topic_Student_6 is -0.00606228
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000151 seconds
+probability of topic_Course_95 is 0.475394
+
+mode equation: influence compute time (equation): 3e-05 seconds
+influence of r956 on topic_Course_95 is 0.249395
+
+clique number: 3
+unobserved tuple number: 1
+pgibbs sample time: 0.000198 seconds
+probability of topic_Department_9 is 0.581249
+
+mode equation: influence compute time (equation): 2.7e-05 seconds
+influence of hasword_servic_9 on topic_Department_9 is 0.0257637
+
+clique number: 14
+unobserved tuple number: 4
+pgibbs sample time: 0.001924 seconds
+probability of topic_Faculty_88 is 0.448426
+
+mode equation: influence compute time (equation): 0.000263 seconds
+influence of links_43_40 on topic_Faculty_88 is 0.000444183
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000174 seconds
+probability of topic_Person_24 is 0.488201
+
+mode equation: influence compute time (equation): 2.5e-05 seconds
+influence of hasword_research_24 on topic_Person_24 is -0.0117943
+
+clique number: 14
+unobserved tuple number: 4
+pgibbs sample time: 0.002022 seconds
+probability of topic_ResearchProject_68 is 0.454891
+
+mode equation: influence compute time (equation): 0.000279 seconds
+influence of links_43_40 on topic_ResearchProject_68 is 0.000275948
+
+clique number: 6
+unobserved tuple number: 2
+pgibbs sample time: 0.000697 seconds
+probability of topic_Staff_85 is 0.361537
+
+mode equation: influence compute time (equation): 8.2e-05 seconds
+influence of links_85_128 on topic_Staff_85 is -0.0159144
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000162 seconds
+probability of topic_ResearchProject_36 is 0.403352
+
+mode equation: influence compute time (equation): 2.8e-05 seconds
+influence of r2209 on topic_ResearchProject_36 is 0.240659
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000216 seconds
+probability of topic_Course_4 is 0.475249
+
+mode equation: influence compute time (equation): 2.7e-05 seconds
+influence of r4410 on topic_Course_4 is 0.249387
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000157 seconds
+probability of topic_Person_72 is 0.485746
+
+mode equation: influence compute time (equation): 2.6e-05 seconds
+influence of r4264 on topic_Person_72 is 0.249797
+
+clique number: 6
+unobserved tuple number: 2
+pgibbs sample time: 0.000975 seconds
+probability of topic_Faculty_93 is 0.433334
+
+mode equation: influence compute time (equation): 8.4e-05 seconds
+influence of r3931 on topic_Faculty_93 is 0.246297
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000163 seconds
+probability of topic_Staff_38 is 0.45716
+
+mode equation: influence compute time (equation): 2.6e-05 seconds
+influence of r2528 on topic_Staff_38 is 0.248165
+
+clique number: 6
+unobserved tuple number: 2
+pgibbs sample time: 0.000969 seconds
+probability of topic_Faculty_71 is 0.435852
+
+mode equation: influence compute time (equation): 8.4e-05 seconds
+influence of r3931 on topic_Faculty_71 is -0.0135257
+
+clique number: 6
+unobserved tuple number: 2
+pgibbs sample time: 0.000958 seconds
+probability of topic_Department_65 is 0.410842
+
+mode equation: influence compute time (equation): 8e-05 seconds
+influence of hasword_high_65 on topic_Department_65 is -0.0884914
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000161 seconds
+probability of topic_Person_85 is 0.699056
+
+mode equation: influence compute time (equation): 2.6e-05 seconds
+influence of hasword_home_85 on topic_Person_85 is 0.177307
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000141 seconds
+probability of topic_Student_16 is 0.493937
+
+mode equation: influence compute time (equation): 2.5e-05 seconds
+influence of r4149 on topic_Student_16 is 0.249963
+
+clique number: 6
+unobserved tuple number: 2
+pgibbs sample time: 0.000963 seconds
+probability of topic_Department_107 is 0.482075
+
+mode equation: influence compute time (equation): 8.1e-05 seconds
+influence of hasword_high_65 on topic_Department_107 is 0.00493457
+
+clique number: 3
+unobserved tuple number: 1
+pgibbs sample time: 0.000196 seconds
+probability of topic_Course_58 is 0.516072
+
+mode equation: influence compute time (equation): 2.9e-05 seconds
+influence of r4841 on topic_Course_58 is 0.249742
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000154 seconds
+probability of topic_Department_37 is 0.448246
+
+mode equation: influence compute time (equation): 2.5e-05 seconds
+influence of hasword_austin_37 on topic_Department_37 is -0.0513835
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000141 seconds
+probability of topic_Department_45 is 0.498531
+
+mode equation: influence compute time (equation): 2.7e-05 seconds
+influence of r330 on topic_Department_45 is 0.249998
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000204 seconds
+probability of topic_Staff_96 is 0.426056
+
+mode equation: influence compute time (equation): 2.6e-05 seconds
+influence of hasword_oct_96 on topic_Staff_96 is -0.0728611
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000153 seconds
+probability of topic_Student_53 is 0.493937
+
+mode equation: influence compute time (equation): 2.6e-05 seconds
+influence of r769 on topic_Student_53 is 0.249963
+
+clique number: 6
+unobserved tuple number: 2
+pgibbs sample time: 0.000695 seconds
+probability of topic_Student_85 is 0.711313
+
+mode equation: influence compute time (equation): 8.3e-05 seconds
+influence of links_85_128 on topic_Student_85 is -0.0121061
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000164 seconds
+probability of topic_Faculty_6 is 0.419826
+
+mode equation: influence compute time (equation): 2.8e-05 seconds
+influence of r3317 on topic_Faculty_6 is 0.243572
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000156 seconds
+probability of topic_Student_99 is 0.635863
+
+mode equation: influence compute time (equation): 2.9e-05 seconds
+influence of r1529 on topic_Student_99 is 0.231541
+
+clique number: 3
+unobserved tuple number: 1
+pgibbs sample time: 0.000198 seconds
+probability of topic_ResearchProject_84 is 0.355738
+
+mode equation: influence compute time (equation): 2.8e-05 seconds
+influence of hasword_mail_84 on topic_ResearchProject_84 is -0.0802953
+
+clique number: 10
+unobserved tuple number: 3
+pgibbs sample time: 0.001422 seconds
+probability of topic_ResearchProject_89 is 0.428419
+
+mode equation: influence compute time (equation): 0.000172 seconds
+influence of links_49_89 on topic_ResearchProject_89 is 0.0217607
+
+clique number: 5
+unobserved tuple number: 2
+pgibbs sample time: 0.000604 seconds
+probability of topic_Department_22 is 0.728317
+
+mode equation: influence compute time (equation): 7.9e-05 seconds
+influence of links_22_35 on topic_Department_22 is -0.0115496
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000149 seconds
+probability of topic_Person_62 is 0.482416
+
+mode equation: influence compute time (equation): 2.3e-05 seconds
+influence of hasword_length_62 on topic_Person_62 is -0.0175695
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000155 seconds
+probability of topic_Staff_67 is 0.482886
+
+mode equation: influence compute time (equation): 2.8e-05 seconds
+influence of r1076 on topic_Staff_67 is 0.249707
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000145 seconds
+probability of topic_Person_52 is 0.535638
+
+mode equation: influence compute time (equation): 2.6e-05 seconds
+influence of r3915 on topic_Person_52 is 0.24873
+
+clique number: 6
+unobserved tuple number: 2
+pgibbs sample time: 0.000712 seconds
+probability of topic_Faculty_47 is 0.637346
+
+mode equation: influence compute time (equation): 8.5e-05 seconds
+influence of links_47_146 on topic_Faculty_47 is -0.0137812
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000197 seconds
+probability of topic_Faculty_79 is 0.489675
+
+mode equation: influence compute time (equation): 2.8e-05 seconds
+influence of hasword_produc_79 on topic_Faculty_79 is -0.0103216
+
+clique number: 8
+unobserved tuple number: 3
+pgibbs sample time: 0.001352 seconds
+probability of topic_Staff_108 is 0.419488
+
+mode equation: influence compute time (equation): 0.000153 seconds
+influence of links_108_94 on topic_Staff_108 is -0.014656
+
+clique number: 9
+unobserved tuple number: 3
+pgibbs sample time: 0.001423 seconds
+probability of topic_Department_94 is 0.479086
+
+mode equation: influence compute time (equation): 0.000149 seconds
+influence of r3032 on topic_Department_94 is 0.250338
+
+clique number: 5
+unobserved tuple number: 2
+pgibbs sample time: 0.000588 seconds
+probability of topic_Person_78 is 0.686653
+
+mode equation: influence compute time (equation): 8.4e-05 seconds
+influence of links_78_90 on topic_Person_78 is -0.0127597
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000165 seconds
+probability of topic_Student_57 is 0.487116
+
+mode equation: influence compute time (equation): 2.7e-05 seconds
+influence of r4941 on topic_Student_57 is 0.249834
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000138 seconds
+probability of topic_Staff_24 is 0.637281
+
+mode equation: influence compute time (equation): 2.7e-05 seconds
+influence of r3138 on topic_Staff_24 is 0.231154
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000154 seconds
+probability of topic_Person_82 is 0.589601
+
+mode equation: influence compute time (equation): 2.7e-05 seconds
+influence of hasword_kei_82 on topic_Person_82 is 0.0876704
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000177 seconds
+probability of topic_ResearchProject_86 is 0.472546
+
+mode equation: influence compute time (equation): 2.7e-05 seconds
+influence of r1358 on topic_ResearchProject_86 is 0.249246
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000149 seconds
+probability of topic_Person_37 is 0.463107
+
+mode equation: influence compute time (equation): 2.5e-05 seconds
+influence of hasword_austin_37 on topic_Person_37 is -0.0367588
+
+clique number: 3
+unobserved tuple number: 1
+pgibbs sample time: 0.000234 seconds
+probability of topic_Staff_58 is 0.426594
+
+mode equation: influence compute time (equation): 2.9e-05 seconds
+influence of r3460 on topic_Staff_58 is 0.244612
+
+clique number: 5
+unobserved tuple number: 2
+pgibbs sample time: 0.000623 seconds
+probability of topic_Person_41 is 0.787909
+
+mode equation: influence compute time (equation): 7e-05 seconds
+influence of hasword_model_177 on topic_Person_41 is 0.00105777
+
+clique number: 9
+unobserved tuple number: 3
+pgibbs sample time: 0.001421 seconds
+probability of topic_Student_18 is 0.475293
+
+mode equation: influence compute time (equation): 0.000159 seconds
+influence of links_102_20 on topic_Student_18 is 0.000397133
+
+clique number: 9
+unobserved tuple number: 3
+pgibbs sample time: 0.001419 seconds
+probability of topic_Student_102 is 0.391696
+
+mode equation: influence compute time (equation): 0.000159 seconds
+influence of links_102_20 on topic_Student_102 is -0.01426
+
+clique number: 5
+unobserved tuple number: 2
+pgibbs sample time: 0.000619 seconds
+probability of topic_Student_119 is 0.527335
+
+mode equation: influence compute time (equation): 8e-05 seconds
+influence of links_34_119 on topic_Student_119 is 0.016441
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000145 seconds
+probability of topic_Course_66 is 0.419663
+
+mode equation: influence compute time (equation): 2.6e-05 seconds
+influence of hasword_text_66 on topic_Course_66 is -0.0789471
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000147 seconds
+probability of topic_Staff_23 is 0.464129
+
+mode equation: influence compute time (equation): 2.4e-05 seconds
+influence of hasword_texa_23 on topic_Staff_23 is -0.0357481
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000161 seconds
+probability of topic_Course_82 is 0.495167
+
+mode equation: influence compute time (equation): 2.6e-05 seconds
+influence of hasword_kei_82 on topic_Course_82 is -0.00483222
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000153 seconds
+probability of topic_ResearchProject_95 is 0.452445
+
+mode equation: influence compute time (equation): 2.3e-05 seconds
+influence of hasword_format_95 on topic_ResearchProject_95 is -0.0472675
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000154 seconds
+probability of topic_Person_15 is 0.489056
+
+mode equation: influence compute time (equation): 2.6e-05 seconds
+influence of hasword_modifi_15 on topic_Person_15 is -0.0109402
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000162 seconds
+probability of topic_Faculty_42 is 0.62985
+
+mode equation: influence compute time (equation): 2.8e-05 seconds
+influence of r4674 on topic_Faculty_42 is 0.233139
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000142 seconds
+probability of topic_Department_98 is 0.63036
+
+mode equation: influence compute time (equation): 2.3e-05 seconds
+influence of hasword_nov_98 on topic_Department_98 is 0.12437
+
+clique number: 9
+unobserved tuple number: 3
+pgibbs sample time: 0.001421 seconds
+probability of topic_Student_94 is 0.489221
+
+mode equation: influence compute time (equation): 0.000151 seconds
+influence of r4028 on topic_Student_94 is 0.250663
+
+clique number: 9
+unobserved tuple number: 3
+pgibbs sample time: 0.001433 seconds
+probability of topic_Student_108 is 0.474002
+
+mode equation: influence compute time (equation): 0.000152 seconds
+influence of r4028 on topic_Student_108 is -0.0139688
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000158 seconds
+probability of topic_Student_5 is 0.486212
+
+mode equation: influence compute time (equation): 2.5e-05 seconds
+influence of hasword_html_5 on topic_Student_5 is -0.0137815
+
+clique number: 14
+unobserved tuple number: 4
+pgibbs sample time: 0.001988 seconds
+probability of topic_ResearchProject_43 is 0.301436
+
+mode equation: influence compute time (equation): 0.00028 seconds
+influence of links_43_40 on topic_ResearchProject_43 is -0.00996551
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000162 seconds
+probability of topic_Department_74 is 0.477077
+
+mode equation: influence compute time (equation): 2.7e-05 seconds
+influence of r1294 on topic_Department_74 is 0.249475
+
+clique number: 5
+unobserved tuple number: 2
+pgibbs sample time: 0.000603 seconds
+probability of topic_Student_41 is 0.765482
+
+mode equation: influence compute time (equation): 6.9e-05 seconds
+influence of hasword_model_177 on topic_Student_41 is 0.000637914
+
+clique number: 5
+unobserved tuple number: 2
+pgibbs sample time: 0.000606 seconds
+probability of topic_Student_177 is 0.474684
+
+mode equation: influence compute time (equation): 7e-05 seconds
+influence of hasword_model_177 on topic_Student_177 is -0.031821
+
+clique number: 3
+unobserved tuple number: 1
+pgibbs sample time: 0.000189 seconds
+probability of topic_Faculty_73 is 0.362342
+
+mode equation: influence compute time (equation): 2.7e-05 seconds
+influence of hasword_group_73 on topic_Faculty_73 is -0.0382314
+
+clique number: 2
+unobserved tuple number: 1
+pgibbs sample time: 0.000143 seconds
+probability of topic_Course_3 is 0.490213
+
+mode equation: influence compute time (equation): 2.6e-05 seconds
+influence of r1577 on topic_Course_3 is 0.249904
 
