@@ -4,8 +4,8 @@ import matplotlib.pyplot as plt
 
 def drawScatterGraph(x1, y1, x2, y2):
   fig, ax = plt.subplots()
-  ax.scatter(x1, y1, marker='o', c='blue', label="approx", alpha=0.7)
-  ax.scatter(x2, y2, marker='^', c='red', label="exact", alpha=0.7)
+  ax.scatter(x1, y1, marker='o', c='blue', label="approx", alpha=0.5, edgecolors='none')
+  ax.scatter(x2, y2, marker='^', c='red', label="exact", alpha=0.5, edgecolors='none')
   ax.legend()
   ax.set_xlabel("number of unobserved tuples")
   ax.set_ylabel("influence inference time")
@@ -18,7 +18,7 @@ if __name__=="__main__":
   y1 = []
   x2 = []
   y2 = []
-  for i in range(10, 11):
+  for i in range(1, 11):
     file_name1 = "./data/hypertext-class/sample7/records/influ"+str(i)+".log"
     file_name2 = "./data/hypertext-class/sample7/records/influEquation"+str(i)+".log"
     file1 = open(file_name1, 'r')
