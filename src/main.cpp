@@ -433,7 +433,7 @@ void influenceQuery(MLN& mln, string query, string infl, int round, double delta
     infValue = mln.getInfluence(query)[infl];
     t2 = clock();
   }
-  cout << "mode " << mode << ": influence compute time (" << mode << "): " << ((double)(t2-t1))/CLOCKS_PER_SEC << " seconds" << endl;
+  // cout << "mode " << mode << ": influence compute time (" << mode << "): " << ((double)(t2-t1))/CLOCKS_PER_SEC << " seconds" << endl;
   cout << "influence of " << infl << " on " << query << " is " << infValue << endl;
   cout << endl;
 }
@@ -584,7 +584,7 @@ int main(int argc, char* argv[]) {
   MLN mln(l);
   Parser parser;
   parser.parseProvenance(mln);
-  mln.merge();
+  // mln.merge();
   // parser.extendCliques(mln);
   // parser.extendR1Cliques(mln);
 
