@@ -584,7 +584,7 @@ int main(int argc, char* argv[]) {
   MLN mln(l);
   Parser parser;
   parser.parseProvenance(mln);
-  // mln.merge();
+  mln.merge();
   // parser.extendCliques(mln);
   // parser.extendR1Cliques(mln);
 
