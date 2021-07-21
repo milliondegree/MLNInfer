@@ -1,8 +1,8 @@
-friends_1_2 1
-smoke_1 0
-r1 0.89
-r2 0.44
-r3 0.44
-smoke 0.54
-cancer -1.33
+friends_1_2 0.5
+// smoke_1 0.5
+r1 1
+r2 100
+r3 10
+smoke 0
+cancer 0
 friends 0

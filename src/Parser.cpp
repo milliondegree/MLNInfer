@@ -177,6 +177,22 @@ string Parser::extractName(string& s) {
 }
 
 
+bool Parser::isRuleName(string& s) {
+  string tmp = extractName(s);
+  if (tmp[0]!='r') {
+    return false;
+  }
+  int i=1;
+  while (i<tmp.size()&&tmp[i]>='0'&&tmp[i]<='9') {
+    i++;
+  }
+  if (i==tmp.size()) {
+    return true;
+  }
+  return false;
+}
+
+
 
 bool Parser::findIn(MLN& mln, Clique& c) {
   for (auto& mc : mln.cliques) {

@@ -71,6 +71,12 @@ public:
   void gibbsSampling_v3(int round);
   void gibbsSampling_v4(int round, string query);
   void gibbsSampling_vp(int round, string query, double delta);
+  void naiveBeliefPropagation(string query);
+  void nonProbabilisticBeliefPropagation(string query);
+
+  vector<double> recursiveOnNode(int parent, string node);
+  vector<double> recursiveOnClique(string parent, int c);
+
   double estimatedProb(string query);
   // void multithread_gibbsSampling(int round, string query);
   // static void singlethread_gibbsSampling(int r, int round, int qi, MLN& mln,
@@ -81,6 +87,8 @@ public:
 
   void mcsat(int round, string query);
   void pmcsat(int round, string query);
+
+  void naiveBPInfluence(string query, string infl);
 
   map<string, vector<double>> getAllProbs(int round, int times);
   unordered_map<string, double> getInfluence(string query);
@@ -115,6 +123,8 @@ private:
   string optimalPick(unordered_map<string, int>& state, unordered_set<int>& c_idx, string& mode);
   string ssPick(unordered_map<string, int>& state, unordered_set<int>& c_idx, string& mode);
   string pSsPick(unordered_map<string, double>& state, unordered_set<int>& c_idx, string& mode);
+
+  
 };
 
 
@@ -125,6 +135,9 @@ public:
 
   void parseProvenance(MLN& mln);
   void extendCliques(MLN& mln);
+
+  static string extractName(string& s);
+  static bool isRuleName(string& s);
   // void extendR1Cliques(MLN& mln);
 
   ~Parser();
@@ -135,7 +148,6 @@ private:
   vector<string> parseRule(MLN& mln, string& prov, int& i);
   vector<string> parseRuleBody(MLN& mln, string& prov, int& i);
   bool findIn(MLN& mln, Clique& c);
-  string extractName(string& s);
 };
 
 

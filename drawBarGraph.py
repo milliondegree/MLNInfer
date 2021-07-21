@@ -50,6 +50,7 @@ def drawMaintenanceTime_7():
 
 
 def drawQueryTimes_7():
+  ax = plt.subplot(111)
   xList = ["100", "200", "300", "400", "500", "600", "700", "800", "900", "1000"]
   # queryList1 = [0.196, 0.343, 0.567, 0.834, 1.136, 1.778, 2.14, 2.66, 4.56, 7.18]
   queryList1 = [0.19584989227166277, 0.3430643559322034, 0.567240964669739, 0.8340344311926606, 1.1361911626139818,
@@ -63,9 +64,10 @@ def drawQueryTimes_7():
   # queryList = list(ql)
   queryList = queryList1
 
-  plt.bar(xList, queryList, width=0.3, color="blue")
-  plt.xlabel("sample size")
-  plt.ylabel("average time of provenance query")
+  ax.bar(xList, queryList, width=0.3, color="blue")
+  ax.set_xlabel("sample size")
+  ax.set_ylabel("average time of provenance query")
+  ax.set_yscale('log')
   plt.show()
 
 
@@ -121,7 +123,7 @@ def drawProbQueryTimes_7AVG_Logscale():
   ax.bar(x-0.5*w, queryList1, w, label='iterative', color='b')
   ax.bar(x+0.5*w, queryList2, w, label='sampling', color='r')
   ax.set_ylabel('Probability query time')
-  ax.set_yscale("log")
+  # ax.set_yscale("log")
   ax.set_xlabel('sample size')
   ax.set_xticks(x)
   ax.set_xticklabels(xList)
@@ -293,7 +295,7 @@ if __name__ == '__main__':
   # drawProbTimes()
   # drawQueryTimes_4()
   # drawQueryTimes_5()
-  drawQueryTimes_7()
+  # drawQueryTimes_7()
   # drawQueryTimes_11()
   # drawMaintenanceTime_7()
   # drawProbQueryTimes_7AVG()

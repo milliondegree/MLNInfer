@@ -25,6 +25,8 @@ def drawSample7InfluGraph():
   ax.legend()
   ax.set_xlabel("number of unobserved tuples")
   ax.set_ylabel("influence inference time")
+  ax.set_yscale('log')
+  ax.set_ylim(1e-5, 1e-1)
   plt.show()
 
 
@@ -59,5 +61,5 @@ def drawSample7ProbGraph():
 
 if __name__=="__main__":
 
-  # drawSample7InfluGraph()
-  drawSample7ProbGraph()
+  drawSample7InfluGraph()
+  # drawSample7ProbGraph()

@@ -20,11 +20,11 @@ clique: r2 smoke_1 friends_1_2 smoke_2
 clique: r2 smoke_1 friends_1_5 smoke_5 
 clique: r1 cancer_1 smoke_1 
 clique: cancer
-clique: r1 cancer_2 smoke_2 
+# clique: r1 cancer_2 smoke_2 
 clique: cancer
 clique: r1 cancer_5 smoke_5 
 clique: cancer
-clique: r1 cancer_6 smoke_6 
+# clique: r1 cancer_6 smoke_6 
 c_map: cancer_1 0 14 
 c_map: cancer_2 15 16 
 c_map: cancer_5 17 18 

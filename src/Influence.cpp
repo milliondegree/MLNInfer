@@ -200,6 +200,7 @@ double Influence::getPotential(string& numerator, string& denominator, map<strin
     }
     return potential;
   }
+  return -1;
 }
 
 

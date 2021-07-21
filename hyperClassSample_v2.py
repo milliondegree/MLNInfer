@@ -68,7 +68,7 @@ print(len(mlnList))
 indices = [i for i in range(len(mlnList))]
 random.shuffle(indices)
 # mlnList = np.array(mlnList)[indices[:int(len(indices)*args.rm)]].tolist()
-mlnList = np.array(mlnList)[indices[:min(len(mlnList), 5000)]].tolist()
+mlnList = np.array(mlnList)[indices[:min(len(mlnList), 500)]].tolist()
 countr = len(mlnList)
 
 for i, l in enumerate(mlnList):
