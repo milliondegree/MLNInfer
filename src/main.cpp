@@ -195,6 +195,9 @@ void probabilityQuery(MLN& mln, int round, string query_name, string mode, doubl
   else if (mode=="bp") {
     mln.naiveBeliefPropagation(query_name);
   }
+  else if (mode=="abp") {
+    mln.advanceBeliefPropagation(query_name);
+  }
   clock_t t2 = clock();
   cout << mode+" sample time: " << ((double)(t2-t1))/CLOCKS_PER_SEC << " seconds" << endl;
   double prob = mln.queryProb(query_name);

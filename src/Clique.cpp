@@ -86,6 +86,9 @@ double Clique::getPotential(map<string, int>& truth) {
   if (this->literals.size()==1) {
     return this->rule_weight * truth[this->rule_head];
   }
+  // for (auto it : truth) {
+  //   cout << it.first << ' ' << it.second << endl;
+  // }
   assert(truth.find(this->rule_head)!=truth.end());
   int rule_head_value = truth[this->rule_head];
   int rule_body_value = 1;
@@ -123,12 +126,12 @@ double Clique::getPotential(unordered_map<string, double>& truth) {
     return this->rule_weight * truth[this->rule_head];
   }
   double p_head = 1 - truth[this->rule_head];
-  if (labs(p_head)<1e-10) {
+  if (abs(p_head)<1e-10) {
     return this->rule_weight;
   }
   double p_body = 1.0;
   for (string rule_b : this->rule_body) {
-    if (labs(truth[rule_b])<1e-10) {
+    if (abs(truth[rule_b])<1e-10) {
       return this->rule_weight;
     }
     p_body *= truth[rule_b];
@@ -306,7 +309,7 @@ double Clique::getRuleWeight() {
 double Clique::getCost(string& mode) {
   double res = 0.0;
   if (mode=="mws") {
-    res = labs(this->rule_weight);
+    res = abs(this->rule_weight);
   }
   else if (mode=="ss") {
     res = 1.0;
@@ -322,7 +325,7 @@ vector<Clique> Clique::getSubCliques() {
 
 
 bool Clique::isHard() {
-  return labs(this->rule_weight-DBL_MAX)<1e-10;
+  return abs(this->rule_weight-DBL_MAX)<1e-10;
 }
 
 

@@ -33,6 +33,16 @@ public:
   MLN(string prov, map<string, double> prob);
   MLN(Load& load);
 
+  string prov;
+  vector<string> provs;
+  vector<Clique> cliques;
+  unordered_set<string> obs;
+  unordered_set<string> queries;
+  map<string, double> prob;
+  map<string, string> sames;
+  map<string, vector<int>> c_map;
+  unordered_map<string, unordered_map<string, double>> pd;
+
   friend class Parser;
   friend class Grader;
   friend class Pruner;
@@ -73,9 +83,7 @@ public:
   void gibbsSampling_vp(int round, string query, double delta);
   void naiveBeliefPropagation(string query);
   void nonProbabilisticBeliefPropagation(string query);
-
-  vector<double> recursiveOnNode(int parent, string node);
-  vector<double> recursiveOnClique(string parent, int c);
+  void advanceBeliefPropagation(string query);
 
   double estimatedProb(string query);
   // void multithread_gibbsSampling(int round, string query);
@@ -99,15 +107,6 @@ public:
   ~MLN();
 
 private:
-  string prov;
-  vector<string> provs;
-  vector<Clique> cliques;
-  unordered_set<string> obs;
-  unordered_set<string> queries;
-  map<string, double> prob;
-  map<string, string> sames;
-  map<string, vector<int>> c_map;
-  unordered_map<string, unordered_map<string, double>> pd;
 
   void dfsSearch(unordered_set<string>& valid_unknown, vector<bool>& visited, string& query);
   void sampleSAT(unordered_map<string, int>& state, unordered_set<int>& c_idx, int maxFlips, int maxTries, double target, double p);
@@ -180,5 +179,6 @@ public:
 
   ~Pruner();
 };
+
 
 #endif
