@@ -243,6 +243,7 @@ string buildIndex(string s1, string s2) {
       res += s2[i];
     }
     else {
+      cout << "index building error" << endl;
       exit(1);
     }
   }
@@ -272,23 +273,27 @@ string buildIndexFromMap(map<string, int>& truth, map<string, int>& prob_obs) {
 
 
 void enumerateCompAdvance(map<string, map<string, vector<double>>>& nodeMsgs,
+                          vector<string>& queries,
                           string obs_index,
                           double potential,
                           map<string, int>& truth, 
                           map<string, vector<double>>& res, 
                           string& node,
-                          map<string, map<string, vector<double>>>::iterator pos) {
-  if (pos==nodeMsgs.end()) {
+                          int pos) {
+  if (pos==nodeMsgs.size()) {
     if (res.find(obs_index)==res.end()) {
       res[obs_index] = vector<double> (2, 0);
     }
     res[obs_index][truth[node]] += potential;
+    // cout << "node: " << node << ' ' << obs_index << ' ' << res[obs_index][truth[node]] << endl;
   }
   else {
-    string tnode = pos->first;
-    for (auto it : pos->second) {
+    string tnode = queries[pos];
+    // cout << tnode << endl;
+    for (auto it : nodeMsgs[tnode]) {
       string s = buildIndex(obs_index, it.first);
-      enumerateCompAdvance(nodeMsgs, s, potential*it.second[truth[tnode]], truth, res, node, ++pos);
+      // cout << "new index: " << s << endl;
+      enumerateCompAdvance(nodeMsgs, queries, s, potential*it.second[truth[tnode]], truth, res, node, pos+1);
     }
   }
 }
@@ -296,7 +301,7 @@ void enumerateCompAdvance(map<string, map<string, vector<double>>>& nodeMsgs,
 
 void enumerateQueryTruthAdvance(Clique& c, 
                     map<string, map<string, vector<double>>>& nodeMsgs, 
-                    vector<string>& toSearch,
+                    vector<string>& queries,
                     string& obs_index,
                     map<string, int>& truth, 
                     map<string, vector<double>>& res, 
@@ -305,12 +310,17 @@ void enumerateQueryTruthAdvance(Clique& c,
   if (pos==nodeMsgs.size()) {
     double temp = exp(c.getPotential(truth));
     string index = obs_index;
-    enumerateCompAdvance(nodeMsgs, obs_index, temp, truth, res, node, nodeMsgs.begin());
+    // cout << index << ' ' << temp << endl;
+    // for (auto it : truth) {
+    //   cout << it.first << ": " << it.second << ", ";
+    // }
+    // cout << endl;
+    enumerateCompAdvance(nodeMsgs, queries, obs_index, temp, truth, res, node, 0);
   }
   else {
     for (int i=0; i<=1; i++) {
-      truth[toSearch[pos]] = i;
-      enumerateQueryTruthAdvance(c, nodeMsgs, toSearch, obs_index, truth, res, node, pos+1);
+      truth[queries[pos]] = i;
+      enumerateQueryTruthAdvance(c, nodeMsgs, queries, obs_index, truth, res, node, pos+1);
     }
   }
 }
@@ -326,6 +336,7 @@ void enumerateObsTruthAdvance(Clique& c,
                     string& node,
                     int pos) {
   if (pos==obs.size()) {
+    // cout << "obs size: " << obs.size() << endl; 
     string obs_index = buildIndexFromMap(truth, prob_obs);
     enumerateQueryTruthAdvance(c, nodeMsgs, queries, obs_index, truth, res, node, 0);
   }
@@ -350,7 +361,8 @@ map<string, vector<double>> recursiveOnNodeAdvance(
   for (int ci : mln->c_map[node]) {
     if (ci!=parent) {
       map<string, vector<double>> marginalTemp = recursiveOnCliqueAdvance(mln, node, ci, prob_obs);
-      // cout << "ci " << ci << endl;
+      // cout << "node: " << node << " ci " << ci << endl;
+      // cout << mln->cliques[ci].toString() << endl;
       // for (auto it : marginalTemp) {
       //   cout << it.first << ' ' << it.second[0] << ' ' << it.second[1] << endl;
       // }
@@ -373,7 +385,9 @@ map<string, vector<double>> recursiveOnNodeAdvance(
     double z = it.second[0]+it.second[1];
     marginalDist[it.first][0] /= z;
     marginalDist[it.first][1] /= z;
+    // cout << "node: " << node << ' ' << it.first << ' ' << it.second[0] << ' ' << it.second[1] <<endl;
   }
+  // cout << endl;
   return marginalDist;
 }
 
@@ -404,14 +418,15 @@ map<string, vector<double>> recursiveOnCliqueAdvance(
       truth[literal] = mln->prob[literal];
     }
   }
-  // cout << mln->cliques[c].toString() << endl;
+  // cout << "node: " << node << "ci: " << mln->cliques[c].toString() << endl;
+  // for (auto it : nodeMsgs) {
+  //   cout << it.first << ' ';
+  // }
+  // cout << endl;
   for (int i=0; i<=1; i++) {
     truth[node] = i;
     enumerateObsTruthAdvance(mln->cliques[c], nodeMsgs, obs, queries, truth, prob_obs, res, node, 0);
   }
-  // for (auto it : res) {
-  //   cout << it.first << ' ' << it.second[0] << ' ' << it.second[1] << endl;
-  // }
   return res;
 }
 
@@ -429,13 +444,13 @@ void MLN::advanceBeliefPropagation(string query) {
       prob_obs[literal] = prob_obs.size();
     }
   }
+  // for (auto it : prob_obs) {
+  //   cout << it.first << ' ' << it.second << endl;
+  // }
   map<string, vector<double>> dists = recursiveOnNodeAdvance(this, -1, query, prob_obs);
   double res = 0;
   for (auto it : dists) {
     res += priorProbability(it.first, prob_obs, prev_probs)*it.second[1];
-  }
-  for (string literal : this->obs) {
-    this->setObsProb(literal, prev_probs[literal]);
   }
   this->prob[query] = res;
   return;
