@@ -280,7 +280,7 @@ string MLN::lowestPick(Clique& c, unordered_map<string, int>& state, unordered_s
     for (int c_id : c_idx) {
       if (c_idx.find(c_id)!=c_idx.end() && !this->cliques[c_id].satisifiablity(state)) {
       // if (!this->cliques[c_id].satisifiablity(state)) {
-        prevCost += this->cliques[c_id].getCost(mode);
+        afterCost += this->cliques[c_id].getCost(mode);
       }
     }
     state[literal] = 1-state[literal];
@@ -333,8 +333,8 @@ string MLN::optimalPick(unordered_map<string, int>& state, unordered_set<int>& c
 string MLN::ssPick(unordered_map<string, int>& state, unordered_set<int>& c_idx, string& mode) {
   unordered_set<string> valid_set;
   for (int c_id : c_idx) {
-    vector<string> literals = this->cliques[c_id].getLiterals();
-    for (auto& literal : literals) {
+    // vector<string> literals = this->cliques[c_id].getLiterals();
+    for (auto& literal : this->cliques[c_id].getLiterals()) {
       if (this->queries.find(literal)!=this->queries.end()) {
         valid_set.insert(literal);
       }

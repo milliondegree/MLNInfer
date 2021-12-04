@@ -220,7 +220,7 @@ void MLN::naiveBPInfluence(string query, string infl) {
 
 
 
-/************************ refined belief propagation **********************/
+/************************ advance belief propagation **********************/
 
 // map<string, vector<double>> recursiveOnCliqueAdvance(MLN* mln, string node, int c, vector<string>& prob_obs);
 map<string, vector<double>> recursiveOnCliqueAdvance(
@@ -435,7 +435,7 @@ void MLN::advanceBeliefPropagation(string query) {
   assert(this->queries.find(query)!=this->queries.end());
   // save the original probs first
   map<string, double> prev_probs = this->prob;
-  // determine the probabilistic observed tuples
+  // find the probabilistic observed tuples
   map<string, int> prob_obs;
   for (string literal : this->obs) {
     if (this->prob[literal]>0&&

@@ -81,9 +81,6 @@ public:
   void gibbsSampling_v3(int round);
   void gibbsSampling_v4(int round, string query);
   void gibbsSampling_vp(int round, string query, double delta);
-  void naiveBeliefPropagation(string query);
-  void nonProbabilisticBeliefPropagation(string query);
-  void advanceBeliefPropagation(string query);
 
   double estimatedProb(string query);
   // void multithread_gibbsSampling(int round, string query);
@@ -97,6 +94,14 @@ public:
   void pmcsat(int round, string query);
 
   void naiveBPInfluence(string query, string infl);
+  void naiveLBPInfluence(string query, string infl);
+
+  void naiveBeliefPropagation(string query);
+  void nonProbabilisticBeliefPropagation(string query);
+  void advanceBeliefPropagation(string query);
+  void loopyBeliefPropagation(string query);
+  void pLoopyBeliefPropagation(string query);
+  void loopyBeliefPropagationMCS(string query, int rounds);
 
   map<string, vector<double>> getAllProbs(int round, int times);
   unordered_map<string, double> getInfluence(string query);

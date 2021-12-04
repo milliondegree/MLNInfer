@@ -1,1 +1,1 @@
-smoke_1(r2@n257(smoke_2*friends_1_2))
+smoke_2(r2@n257(smoke_1*friends_1_2))

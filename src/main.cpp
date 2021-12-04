@@ -181,7 +181,7 @@ void probabilityQuery(MLN& mln, int round, string query_name, string mode, doubl
   clock_t t1 = clock();
   // mln.gibbsSampling_v3(round);
   if (mode=="gibbs") {
-    mln.gibbsSampling_v4(round, query_name);
+    mln.gibbsSampling(round);
   }
   else if (mode=="pgibbs") {
     mln.gibbsSampling_vp(round, query_name, delta);
@@ -198,10 +198,19 @@ void probabilityQuery(MLN& mln, int round, string query_name, string mode, doubl
   else if (mode=="abp") {
     mln.advanceBeliefPropagation(query_name);
   }
+  else if (mode=="lbp") {
+    mln.loopyBeliefPropagation(query_name);
+  }
+  else if (mode=="plbp") {
+    mln.pLoopyBeliefPropagation(query_name);
+  }
+  else if (mode=="mclbp") {
+    mln.loopyBeliefPropagationMCS(query_name, round);
+  }
   clock_t t2 = clock();
   cout << mode+" sample time: " << ((double)(t2-t1))/CLOCKS_PER_SEC << " seconds" << endl;
   double prob = mln.queryProb(query_name);
-  cout << "probability of " << query_name << " is " << prob << endl;
+  cout << "probability of " << query_name << " is " << setprecision(9) << prob << endl;
   cout << endl;
 }
 
@@ -426,25 +435,28 @@ void influenceQuery_mcsat(MLN& mln, string query, int round, double delta) {
 void influenceQuery(MLN& mln, string query, string infl, int round, double delta, string mode) {
   clock_t t1, t2;
   double infValue;
+  t1 = clock();
   if (mode=="equations") {
-    t1 = clock();
     Influence influence (mln);
     infValue = influence.influenceQuery(mln, query, infl);
-    t2 = clock();
   }
   else if (mode=="pgibbs") {
-    t1 = clock();
     Grader grader;
     grader.computeGradient(mln, query, infl, round, delta, mode);
     infValue = mln.getInfluence(query)[infl];
-    t2 = clock();
   }
   else if (mode=="naiveBP") {
-    t1 = clock();
     mln.naiveBPInfluence(query, infl);
     infValue = mln.getInfluence(query)[infl];
-    t2 = clock();
   }
+  else if (mode=="naiveLBP") {
+    mln.naiveLBPInfluence(query, infl);
+    infValue = mln.getInfluence(query)[infl];
+  }
+  else if (mode=="mcLBP") {
+    
+  }
+  t2 = clock();
   cout << "mode " << mode << ": influence compute time (" << mode << "): " << ((double)(t2-t1))/CLOCKS_PER_SEC << " seconds" << endl;
   cout << "influence of " << infl << " on " << query << " is " << infValue << endl;
   cout << endl;
@@ -600,7 +612,7 @@ int main(int argc, char* argv[]) {
   MLN mln(l);
   Parser parser;
   parser.parseProvenance(mln);
-  mln.merge();
+  // mln.merge();
   // cout << mln.getNumberOfCliques() << endl;
   // parser.extendCliques(mln);
   // parser.extendR1Cliques(mln);
@@ -615,11 +627,12 @@ int main(int argc, char* argv[]) {
   
   MLN mmln;
 
+  // cout << "query start " << endl;
   if (args.find("query_name")!=args.end()) {
     if (args["query_name"]!="all") {
       mmln = mln.getMinimalMLN(args["query_name"]);
       // mmln = mln;
-      // printLiterals(mmln);
+      printLiterals(mmln);
       probabilityQuery(mmln, stoi(args["round"]), args["query_name"], args["mode"], stod(args["approx"]));
       // verifyProb(mmln);
     }
@@ -657,15 +670,16 @@ int main(int argc, char* argv[]) {
       }
     }
     else {
-      if (args["influ_mode"]=="equation") {
-        influenceQuery(mmln, args["query_name"], args["influence_name"], stoi(args["round"]), stod(args["delta"]), args["influ_mode"]);
-      }
-      else if (args["influ_mode"]=="pgibbs") {
-        influenceQuery(mmln, args["query_name"], args["influence_name"], stoi(args["round"]), stod(args["delta"]), args["influ_mode"]);
-      }
-      else if (args["influ_mode"]=="naiveBP") {
-        influenceQuery(mmln, args["query_name"], args["influence_name"], stoi(args["round"]), stod(args["delta"]), args["influ_mode"]);
-      }
+      // if (args["influ_mode"]=="equation") {
+      //   influenceQuery(mmln, args["query_name"], args["influence_name"], stoi(args["round"]), stod(args["delta"]), args["influ_mode"]);
+      // }
+      // else if (args["influ_mode"]=="pgibbs") {
+      //   influenceQuery(mmln, args["query_name"], args["influence_name"], stoi(args["round"]), stod(args["delta"]), args["influ_mode"]);
+      // }
+      // else if (args["influ_mode"]=="naiveBP") {
+      //   influenceQuery(mmln, args["query_name"], args["influence_name"], stoi(args["round"]), stod(args["delta"]), args["influ_mode"]);
+      // }
+      influenceQuery(mmln, args["query_name"], args["influence_name"], stoi(args["round"]), stod(args["delta"]), args["influ_mode"]);
     }
   }
 }

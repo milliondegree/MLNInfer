@@ -141,6 +141,43 @@ double Clique::getPotential(unordered_map<string, double>& truth) {
 }
 
 
+double Clique::getHingeSatisifiablity(unordered_map<string, double>& truth) {
+  if (this->compound) {
+    double ret = 0.0;
+    vector<double> res_list;
+    for (int i=0; i<this->rule_heads.size(); i++) {
+      double res = 0.0;
+      for (Literal& l : this->sliteralss[i]) {
+        if (l.nag) {
+          res += 1-truth[l.name];
+        }
+        else {
+          res += truth[l.name];
+        }
+      }
+      res_list.push_back(min(res, 1.0));
+    }
+    for (double tmp : res_list) {
+      ret += tmp;
+    }
+    ret = max(ret-(res_list.size()-1), 0.0);
+    return ret;
+  }
+  else {
+    double res = 0.0;
+    for (Literal& l : this->sliterals) {
+      if (l.nag) {
+        res += 1-truth[l.name];
+      }
+      else {
+        res += truth[l.name];
+      }
+    }
+    return max(1-res, 0.0);
+  }
+}
+
+
 // double Clique::getPartialDerivative(map<string, double>& truth, string p_f, string p_v) {
 //   assert(p_f!=p_v);
 //   double res;

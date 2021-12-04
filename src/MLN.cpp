@@ -418,7 +418,9 @@ void MLN::gibbsSampling(int round) {
       double p = exp_1 / (exp_1+exp_0);
       double prand = distribution(generator);
       if (prand<p) {
-        samples[query] += 1;
+        if (round<10000 || r>1000) {
+          samples[query] += 1;
+        }
         assignments[query] = 1;
       }
       else {
@@ -426,9 +428,8 @@ void MLN::gibbsSampling(int round) {
       }
     }
   }
-
   for (string query : this->queries) {
-    this->prob[query] = ((double)samples[query]) / round;
+    this->prob[query] = ((double)samples[query]) / (round<10000? round : round-1000);
   }
 }
 
@@ -789,17 +790,16 @@ void MLN::gibbsSampling_vp(int round, string query, double delta) {
           }
         }
         truth_tables[ind][query] = 1.0;
-        potentials_1s[query][i] = this->prob[rule_name]*c.satisifiablity(truth_tables[ind]);
+        potentials_1s[query][i] = -this->prob[rule_name]*c.getHingeSatisifiablity(truth_tables[ind]);
         // cout << rule_name << ' ' << this->prob[rule_name] << endl;
-        // cout << c.toString() << endl;
-        // potentials_1s[query][i] = c.getPotential(truth_tables[ind]);
-        // cout << potentials_1s[query][i] << ' ';
-        // cout << c.getPotential(truth_tables[ind]) << ' ';
+        cout << c.toString() << endl;
+        cout << potentials_1s[query][i] << ' ';
         // cout << c.satisifiablity(truth_tables[ind]) << ' ' << endl;
         // cout << c.toString() << ' ' << rule_name << endl;
         truth_tables[ind][query] = 0.0;
-        potentials_0s[query][i] = this->prob[rule_name]*c.satisifiablity(truth_tables[ind]);
-        // cout << potentials_0s[query][i] << ' ';
+        potentials_0s[query][i] = -this->prob[rule_name]*c.getHingeSatisifiablity(truth_tables[ind]);
+        cout << potentials_0s[query][i] << ' ';
+        cout << endl;
         // cout << c.getPotential(truth_tables[ind]) << ' ';
         // cout << c.toString() << ' ' << rule_name << endl;
       }
