@@ -118,10 +118,16 @@ void Grader::computeGradient(MLN& mln, string query, string infl, int round, dou
     mln.mcsat(round, query);
   }
   else if (mode=="gibbs") {
-    mln.gibbsSampling_v4(round, query);
+    mln.gibbsSampling(round);
   }
   else if (mode=="pgibbs") {
     mln.gibbsSampling_vp(round, query, 1e-7);
+  }
+  else if (mode=="lbp") {
+    mln.loopyBeliefPropagation(query);
+  }
+  else if (mode=="mclbp") {
+    mln.loopyBeliefPropagationMCS(query, round);
   }
   double upper_prob = mln.queryProb(query);
   mln.setObsProb(infl, lower);
@@ -129,16 +135,22 @@ void Grader::computeGradient(MLN& mln, string query, string infl, int round, dou
     mln.mcsat(round, query);
   }
   else if (mode=="gibbs") {
-    mln.gibbsSampling_v4(round, query);
+    mln.gibbsSampling(round);
   }
   else if (mode=="pgibbs") {
     mln.gibbsSampling_vp(round, query, 1e-7);
+  }
+  else if (mode=="lbp") {
+    mln.loopyBeliefPropagation(query);
+  }
+  else if (mode=="mclbp") {
+    mln.loopyBeliefPropagationMCS(query, round);
   }
   double lower_prob = mln.queryProb(query);
   mln.setObsProb(infl, prev);
   mln.pd[query][infl] = (upper_prob-lower_prob) / (upper-lower);
   clock_t t2 = clock();
-  cout << "mode " << mode << ": influence compute time (" << mode << "): " << ((double)(t2-t1))/CLOCKS_PER_SEC << " seconds" << endl;
+  // cout << "mode " << mode << ": influence compute time (" << mode << "): " << ((double)(t2-t1))/CLOCKS_PER_SEC << " seconds" << endl;
 }
 
 

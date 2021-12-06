@@ -83,23 +83,48 @@ bool Clique:: sameLiterals(Clique& c) {
 
 
 double Clique::getPotential(map<string, int>& truth) {
+  // check existence
+  for (string l : literals) {
+    assert(truth.find(l)!=truth.end());
+  }
+
   if (this->literals.size()==1) {
     return this->rule_weight * truth[this->rule_head];
   }
-  // for (auto it : truth) {
-  //   cout << it.first << ' ' << it.second << endl;
-  // }
-  assert(truth.find(this->rule_head)!=truth.end());
-  int rule_head_value = truth[this->rule_head];
-  int rule_body_value = 1;
-  for (string body : this->rule_body) {
-    assert(truth.find(body)!=truth.end());
-    rule_body_value &= truth[body];
+  if (this->compound) {
+    double res = this->rule_weight;
+    for (auto it : this->sliteralss) {
+      int tmp = 0;
+      for (Literal l : it) {
+        if ((l.nag&&truth[l.name]==0)||(!l.nag&&truth[l.name]==1)) {
+          tmp = 1;
+          break;
+        }
+      }
+      if (tmp==0) {
+        return 0;
+      }
+    }
+    return this->rule_weight;
   }
-  rule_body_value = 1-rule_body_value;
-  int bool_res = rule_head_value | rule_body_value;
-  double res = this->rule_weight * bool_res;
-  return res;
+  else {
+    for (Literal l : this->sliterals) {
+      if ((l.nag&&truth[l.name]==0)||(!l.nag&&truth[l.name]==1)) {
+        return this->rule_weight;
+      }
+    }
+    return 0;
+  }
+  // int rule_head_value = truth[this->rule_head];
+  // int rule_body_value = 1;
+  // for (string body : this->rule_body) {
+  //   assert(truth.find(body)!=truth.end());
+  //   rule_body_value &= truth[body];
+  // }
+  // rule_body_value = 1-rule_body_value;
+  // int bool_res = rule_head_value | rule_body_value;
+  // double res = this->rule_weight * bool_res;
+  // return res;
 }
 
 

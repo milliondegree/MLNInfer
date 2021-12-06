@@ -1,4 +1,4 @@
-friends_1_2 0.2
+friends_1_2 0.5
 friends_2_1 1
 friends_1_3 1
 friends_3_1 1
@@ -14,7 +14,7 @@ friends_7_8 1
 friends_8_7 1
 friends_7_1 1
 friends_1_7 1
-smoke_1 0.3
+smoke_1 1
 smoke_3 1
 smoke_4 1
 smoke_7 1

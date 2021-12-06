@@ -75,14 +75,14 @@ private:
   double rule_weight;
   string rule_head;
   vector<string> rule_body;
-  vector<string> literals;
-  vector<Literal> sliterals;
+  vector<string> literals; // literal names in string
+  vector<Literal> sliterals; // literals in Literal
 
   bool compound = false;
   vector<string> rule_heads;
   vector<vector<string>> rule_bodies;
-  vector<vector<string>> literalss;
-  vector<vector<Literal>> sliteralss;
+  vector<vector<string>> literalss; // composed literals
+  vector<vector<Literal>> sliteralss; // composed sliterals
   vector<Clique> subCLiques;
 
   void buildLiterals();

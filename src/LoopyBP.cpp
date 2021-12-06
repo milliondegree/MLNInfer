@@ -487,21 +487,14 @@ vector<double> loopyBPRunMCS(MLN* mln, string query, map<int, vector<double>>& p
           cliqueMsgs[c][literal][1] = 0;
         }
       }
-      // cout << c << ' ' << potentials[c].size() << endl; 
       for (int i=0; i<potentials[c].size(); i++) {
         int tmp = i;
         double value = potentials[c][i];
-        // cout << mln->cliques[c].toString() << ' ' << tmp << ' ' << potentials[c][i] << endl;
-        // for (string literal : toQuery) {
-        //   cout << literal << ' ';
-        // }
-        // cout << endl;
         for (int s=toQuery.size()-1; s>=0; s--) {
           int truth_value = tmp%2;
           value *= nodeMsgs[toQuery[s]][c][truth_value];
           tmp /= 2;
         }
-        // cout << value << endl;
         tmp = i;
         for (int s=toQuery.size()-1; s>=0; s--) {
           int truth_value = tmp%2;
@@ -513,7 +506,6 @@ vector<double> loopyBPRunMCS(MLN* mln, string query, map<int, vector<double>>& p
         double z = cliqueMsgs[c][literal][0]+cliqueMsgs[c][literal][1];
         cliqueMsgs[c][literal][0] /= z;
         cliqueMsgs[c][literal][1] /= z;
-        // cout << mln->cliques[c].toString() << ' ' << cliqueMsgs[c][literal][0] << ' ' << cliqueMsgs[c][literal][1] << endl;
       }
     }
     // pass clique messages to nodes
@@ -531,7 +523,6 @@ vector<double> loopyBPRunMCS(MLN* mln, string query, map<int, vector<double>>& p
         nodeMsgs[literal][c][0] = newDists[literal][0]/cliqueMsgs[c][literal][0];
         nodeMsgs[literal][c][1] = newDists[literal][1]/cliqueMsgs[c][literal][1];
       }
-      // cout << "dist " << dists[literal][0] << ' ' << dists[literal][1] <<endl;
     }
     
     // check convergence
@@ -577,11 +568,7 @@ void enumerateTotalPotentials(Clique& c,
     if (clique_potentials.find(obs_index)==clique_potentials.end()) {
       clique_potentials[obs_index] = vector<double> ();
     }
-    // for (auto it : truth) {
-    //   cout << it.first << ' ' << it.second << endl;
-    // }
     clique_potentials[obs_index].push_back(exp(c.getPotential(truth)));
-    // cout << obs_index << ' ' << clique_potentials[obs_index].size()-1 << ' ' << clique_potentials[obs_index][clique_potentials[obs_index].size()-1] << endl;
   }
   else {
     string literal = c.getLiterals()[pos];
@@ -667,7 +654,6 @@ void MLN::loopyBeliefPropagationMCS(string query, int rounds) {
       }
       key += to_string(sample[literal]);
       count[literal] += sample[literal];
-      // cout << literal << ' ' << sample[literal] << endl;
     }
     if (records.find(key)!=records.end()) {
       sum += records[key];
@@ -684,25 +670,12 @@ void MLN::loopyBeliefPropagationMCS(string query, int rounds) {
         }
       }
       index = index_power==-1 ? -1 : index;
-      // index = total_potentials[ci].find(-1)!=total_potentials[ci].end() ? -1 : 0;
-      // cout << prob_obs.size() << endl;
-      // cout << ci << ' ' << index << endl;
       potentials[ci] = total_potentials[ci][index];
     }
-    // for (auto it : potentials) {
-    //   cout << this->cliques[it.first].toString() << endl;
-    //   for (auto v : it.second) {
-    //     cout << v << ' ';
-    //   }
-    //   cout << endl;
-    // }  
     
     double p = loopyBPRunMCS(this, query, potentials, nodeMsgs, cliqueMsgs, dists, newDists)[1];
     records[key] = p;
     sum += p;
   }
-  // for (auto it : count ) {
-  //     cout << it.first << ' ' << it.second*1.0/rounds << endl;
-  // }
   this->prob[query] = sum/rounds;
 }

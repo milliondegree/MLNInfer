@@ -792,14 +792,14 @@ void MLN::gibbsSampling_vp(int round, string query, double delta) {
         truth_tables[ind][query] = 1.0;
         potentials_1s[query][i] = -this->prob[rule_name]*c.getHingeSatisifiablity(truth_tables[ind]);
         // cout << rule_name << ' ' << this->prob[rule_name] << endl;
-        cout << c.toString() << endl;
-        cout << potentials_1s[query][i] << ' ';
+        // cout << c.toString() << endl;
+        // cout << potentials_1s[query][i] << ' ';
         // cout << c.satisifiablity(truth_tables[ind]) << ' ' << endl;
         // cout << c.toString() << ' ' << rule_name << endl;
         truth_tables[ind][query] = 0.0;
         potentials_0s[query][i] = -this->prob[rule_name]*c.getHingeSatisifiablity(truth_tables[ind]);
-        cout << potentials_0s[query][i] << ' ';
-        cout << endl;
+        // cout << potentials_0s[query][i] << ' ';
+        // cout << endl;
         // cout << c.getPotential(truth_tables[ind]) << ' ';
         // cout << c.toString() << ' ' << rule_name << endl;
       }
