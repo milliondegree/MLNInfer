@@ -1046,6 +1046,15 @@ unordered_map<string, double> MLN::getInfluence(string query) {
 
 string MLN::toString() {
   string res;
+  res += "obs: ";
+  for (string literal : this->obs) {
+    res += literal + " ";
+  }
+  res += "\nqueries: ";
+  for (string literal : this->queries) {
+    res += literal + " ";
+  }
+  res += "\ncliques: \n";
   for (Clique c : this->cliques) {
     res += c.toString()+"\n";
   }

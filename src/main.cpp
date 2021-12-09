@@ -577,6 +577,13 @@ int main(int argc, char* argv[]) {
       mmln = mln.getMinimalMLN(args["query_name"]);
       printLiterals(mmln);
       probabilityQuery(mmln, stoi(args["round"]), args["query_name"], args["mode"], stod(args["approx"]));
+      double target = mmln.prob[args["query_name"]];
+      cout << "start approximate subgraph, target value: " << target << endl;
+      MLN amln = mmln.approximateSubGraph(args["query_name"], target, stod(args["delta"]));
+      cout << "approximate ends, subgraph: " << endl;
+      cout << amln.toString() << endl;
+      cout << "clique diff: " << (mmln.cliques.size()-amln.cliques.size()) << endl;
+      probabilityQuery(amln, stoi(args["round"]), args["query_name"], args["mode"], stod(args["approx"]));
     }
     else {
       unordered_set<string> queries = mln.getQueryLiterals();

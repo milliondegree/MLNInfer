@@ -8,6 +8,7 @@
 #define NOISE 0.5
 #define SARATIO 0.5
 #define SATEMPERATURE 80
+#define DEFAULT_ROUNDS 10000
 
 
 #include <iostream>
@@ -108,6 +109,8 @@ public:
 
   string toString();
   void saveToFile(ofstream& file);
+
+  MLN approximateSubGraph(string query, double target, double delta);
 
   ~MLN();
 
