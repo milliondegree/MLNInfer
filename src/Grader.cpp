@@ -45,7 +45,7 @@ void Grader::computeGradients_v2(MLN& mln, string query, int round, double delta
     double lower = max(0.0, mln.prob[observe]-delta);
     mln.setObsProb(observe, upper);
     mln.gibbsSampling_v4(round, query);
-    double upper_prob = mln.(query);
+    double upper_prob = mln.queryProb(query);
     mln.setObsProb(observe, lower);
     mln.gibbsSampling_v4(round, query);
     double lower_prob = mln.queryProb(query);
@@ -109,7 +109,6 @@ void Grader::computeGradient(MLN& mln, string query, string infl, int round, dou
     lower = prev-delta;
   }
   mln.setObsProb(infl, upper);
-  mln.buildCliqueMaps();
   if (mode=="mcsat") {
     mln.mcsat(round, query);
   }
@@ -127,7 +126,6 @@ void Grader::computeGradient(MLN& mln, string query, string infl, int round, dou
   }
   double upper_prob = mln.queryProb(query);
   mln.setObsProb(infl, lower);
-  mln.buildCliqueMaps();
   if (mode=="mcsat") {
     mln.mcsat(round, query);
   }
@@ -158,30 +156,6 @@ unordered_set<string> Grader::getValidObservedTuples(MLN& mln, string query) {
   return valid_obs;
 }
 
-
-
-// void Grader::dfsBuild(MLN& mln, vector<bool>& visited, string& query, double grad) {
-//   vector<int> c_list = mln.c_map[query];
-//   for (int id : c_list) {
-//     if (!visited[id]) {
-//       visited[id] = true;
-//       Clique c = mln.cliques[id];
-//       vector<string> literals = c.getLiterals();
-//       for (string s : literals) {
-//         if (s!=query && mln.pd[this->target].find(s)==mln.pd[this->target].end()) {
-//           double pd_value = c.getPartialDerivative(mln.prob, query, s);
-//           double n_grad = pd_value * grad;
-//           mln.pd[this->target][s] = n_grad;
-//         } 
-//       }
-//       for (string s : literals) {
-//         if (s!=query) {
-//           dfsBuild(mln, visited, s, mln.pd[this->target][s]);
-//         }
-//       }
-//     }
-//   }
-// }
 
 
 void Grader::dfsSearch(MLN& mln, unordered_set<string>& valid_obs, vector<bool>& visited, string& query) {

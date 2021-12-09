@@ -481,8 +481,8 @@ int main(int argc, char* argv[]) {
     printMLNStatistic(mmln);
     cout << endl;
 
-    cout << "build potential maps" << endl;
-    mmln.buildCliqueMaps();
+    // cout << "build potential maps" << endl;
+    // mmln.buildCliqueMaps();
 
     probabilityQuery(mmln, stoi(args["round"]), args["query_name"], args["mode"], stod(args["approx"]));
     double target = mmln.prob[args["query_name"]];
