@@ -37,7 +37,6 @@ void Parser::parseRuleHead(MLN& mln, string& prov, int& i) {
 
   // deal with cliques only contain one literal (single clique)
   string predName = extractName(rule_head);
-  // cout << predName << endl;
   assert(mln.prob.find(predName)!=mln.prob.end());
   Clique s_c = Clique(predName, rule_head, mln.prob[predName]);
   if (!findIn(mln, s_c)) {
@@ -165,11 +164,6 @@ vector<string> Parser::parseRuleBody(MLN& mln, string& prov, int& i) {
 
 string Parser::extractName(string& s) {
   int i = 0;
-  /*
-  while (!((s[i]>='0' && s[i]<='9')||(s[i]=='_'))) {
-    i++;
-  }
-  */
   while (s[i]!='_') {
     i++;
   }
@@ -196,7 +190,6 @@ bool Parser::isRuleName(string& s) {
 
 bool Parser::findIn(MLN& mln, Clique& c) {
   for (auto& mc : mln.cliques) {
-    // cout << mc.toString() << ' ' << c.toString() << endl;
     if (mc==c) {
       return true;
     }
@@ -230,29 +223,3 @@ void Parser::extendCliques(MLN& mln) {
     }
   }
 }
-
-
-// void Parser::extendR1Cliques(MLN& mln) {
-//   for (auto query : mln.queries) {
-//     if (extractName(query)=="smoke") {
-//       int i=0;
-//       while (!(query[i]>='0' && query[i]<='9')) {
-//         i++;
-//       }
-//       string name = query.substr(i, query.size()-i);
-//       string cancer = "cancer"+name;
-//       mln.queries.insert(cancer);
-//       Clique s_c(cancer, mln.prob["cancer"]);
-//       if (!findIn(mln, s_c)) {
-//         mln.cliques.push_back(s_c);
-//         mln.c_map[cancer].push_back(mln.cliques.size());
-//       }
-//       Clique c("r1", mln.prob["r1"], cancer, vector<string>({query}));
-//       if (!findIn(mln, c)) {
-//         mln.cliques.push_back(c);
-//         mln.c_map[query].push_back(mln.cliques.size());
-//         mln.c_map[cancer].push_back(mln.cliques.size());
-//       }
-//     }
-//   }
-// }

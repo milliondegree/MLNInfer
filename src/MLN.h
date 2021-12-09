@@ -112,6 +112,8 @@ public:
 
   MLN approximateSubGraph(string query, double target, double delta);
 
+  void buildCliqueMaps();
+
   ~MLN();
 
 private:

@@ -42,7 +42,6 @@ public:
   double getPotential(map<string, double>& truth);
   double getPotential(unordered_map<string, double>& truth);
   double getHingeSatisifiablity(unordered_map<string, double>& truth);
-  // double getPartialDerivative(map<string, double>& truth, string p_f, string p_v);
   bool satisifiablity(unordered_map<string, int>& truth);
   double satisifiablity(unordered_map<string, double>& truth);
 
@@ -61,6 +60,9 @@ public:
   bool isRuleHead(string& literal);
   bool isRuleBody(string& literal);
   bool isRuleName(string& literal);
+
+  void buildPotentialMaps(const unordered_set<string>& obs, const unordered_set<string>& queries, const map<string, double>& prob);
+  map<int, vector<double>> getAllPotentials();
 
   string toString();
   void printClique();
@@ -85,7 +87,16 @@ private:
   vector<vector<Literal>> sliteralss; // composed sliterals
   vector<Clique> subCLiques;
 
+  map<int, vector<double>> all_potentials;
+
   void buildLiterals();
+  void enumerateTotalPotentials(
+                              map<string, int>& truth,
+                              set<string>& prob_obs,
+                              const unordered_set<string>& queries,
+                              vector<int>& obs_indices,
+                              int pos
+  );
 };
 
 

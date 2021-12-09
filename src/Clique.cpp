@@ -1,16 +1,9 @@
 #include "Clique.h"
+#include "MLN.h"
 
 
 Clique::Clique() {
 }
-
-
-// Clique::Clique(string rule, double weight) {
-//   this->rule_name = rule;
-//   this->rule_weight = weight;
-//   this->literals.push_back(rule);
-//   buildLiterals();
-// }
 
 
 Clique::Clique(string rule_name, string rule_head, double weight) {
@@ -82,6 +75,81 @@ bool Clique:: sameLiterals(Clique& c) {
 }
 
 
+void Clique::enumerateTotalPotentials(
+                              map<string, int>& truth,
+                              set<string>& prob_obs,
+                              const unordered_set<string>& queries,
+                              vector<int>& obs_indices,
+                              int pos
+) {
+  if (pos==this->literals.size()) {
+    int obs_index = 0;
+    int obs_power = 0;
+    if (obs_indices.size()==0) {
+      obs_index = -1;
+    }
+    else {
+      for (int i=this->literals.size()-1; i>=0; i--) {
+        string literal = this->literals[i];
+        if (prob_obs.find(literal)!=prob_obs.end()) {
+          obs_index += (int)pow(2, obs_power++)*truth[literal];
+        }
+      }
+    }
+    if (this->all_potentials.find(obs_index)==this->all_potentials.end()) {
+      this->all_potentials[obs_index] = vector<double> ();
+    }
+    this->all_potentials[obs_index].push_back(exp(this->getPotential(truth)));
+  }
+  else {
+    string literal = this->literals[pos];
+    if (prob_obs.find(literal)!=prob_obs.end()) {
+      for (int i=0; i<=1; i++) {
+        truth[literal] = i;
+        obs_indices.push_back(i);
+        enumerateTotalPotentials(truth, prob_obs, queries, obs_indices, pos+1);
+        obs_indices.pop_back();
+      }
+    }
+    else if (queries.find(literal)!=queries.end()) {
+      for (int i=0; i<=1; i++) {
+        truth[literal] = i;
+        enumerateTotalPotentials(truth, prob_obs, queries, obs_indices, pos+1);
+      }
+    }
+    else {
+      enumerateTotalPotentials(truth, prob_obs, queries, obs_indices, pos+1);
+    }
+  }
+}
+
+
+void Clique::buildPotentialMaps(const unordered_set<string>& obs, const unordered_set<string>& queries, const map<string, double>& prob) {
+  this->all_potentials = map<int, vector<double>> ();
+  set<string> prob_obs;
+  for (string literal : obs) {
+    if (prob.at(literal)>0&&
+        prob.at(literal)<1&&
+        !Parser::isRuleName(literal)) {
+      prob_obs.insert(literal);
+    }
+  }
+  map<string, int> truth;
+  for (string literal : this->literals) {
+    if (obs.find(literal)!=obs.end()&&prob_obs.find(literal)==prob_obs.end()) {
+      truth[literal] = (int)prob.at(literal);
+    }
+  }
+  vector<int> obs_indices;
+  enumerateTotalPotentials(truth, prob_obs, queries, obs_indices, 0);
+}
+
+
+map<int, vector<double>> Clique::getAllPotentials() {
+  return this->all_potentials;
+}
+
+
 double Clique::getPotential(map<string, int>& truth) {
   // check existence
   for (string l : literals) {
@@ -115,16 +183,6 @@ double Clique::getPotential(map<string, int>& truth) {
     }
     return 0;
   }
-  // int rule_head_value = truth[this->rule_head];
-  // int rule_body_value = 1;
-  // for (string body : this->rule_body) {
-  //   assert(truth.find(body)!=truth.end());
-  //   rule_body_value &= truth[body];
-  // }
-  // rule_body_value = 1-rule_body_value;
-  // int bool_res = rule_head_value | rule_body_value;
-  // double res = this->rule_weight * bool_res;
-  // return res;
 }
 
 

@@ -81,6 +81,7 @@ MLN buildMLNFromCliqueIDs(MLN* mln, set<int>& clique_ids) {
 
 MLN MLN::approximateSubGraph(string query, double target, double delta) {
   // initialization
+  clock_t cost_t = 0;
   assert(this->queries.find(query)!=this->queries.end());
   MLN ret;
   priority_queue<SubgraphDifference, vector<SubgraphDifference>, DiffComparison> pq;
@@ -124,7 +125,10 @@ MLN MLN::approximateSubGraph(string query, double target, double delta) {
       for (int cid : new_ids) {
         clique_ids.insert(cid);
         MLN tmp = buildMLNFromCliqueIDs(this, clique_ids);
+        clock_t t1 = clock();
         tmp.loopyBeliefPropagationMCS(query, DEFAULT_ROUNDS);
+        clock_t t2 = clock();
+        cost_t += (t2-t1);
         double diff = fabs(target-tmp.prob[query]);
         if (diff<min_diff) {
           min_diff = diff;
@@ -140,6 +144,7 @@ MLN MLN::approximateSubGraph(string query, double target, double delta) {
     }
   }
 
+  cout << "probability inference time: " << cost_t*1.0/CLOCKS_PER_SEC << endl;
   return ret;
   
 }

@@ -45,7 +45,7 @@ void Grader::computeGradients_v2(MLN& mln, string query, int round, double delta
     double lower = max(0.0, mln.prob[observe]-delta);
     mln.setObsProb(observe, upper);
     mln.gibbsSampling_v4(round, query);
-    double upper_prob = mln.queryProb(query);
+    double upper_prob = mln.(query);
     mln.setObsProb(observe, lower);
     mln.gibbsSampling_v4(round, query);
     double lower_prob = mln.queryProb(query);
@@ -92,16 +92,11 @@ void Grader::computeGradient(MLN& mln, string query, string infl, int round, dou
   if (mln.pd.find(query)==mln.pd.end()) {
     mln.pd[query] = unordered_map<string, double> ();
   }
-  // unordered_set<string> valid_obs;
-  // vector<bool> visited (mln.cliques.size(), false);
-  // dfsSearch(mln, valid_obs, visited, query);
   clock_t t1 = clock();
   if (mln.obs.find(infl)==mln.obs.end()) {
     cout << infl << endl;
     mln.pd[query][infl] = 0.0;
     return;
-    // consider rule tuple
-    // if (infl.start)
   }
   double prev = mln.prob[infl];
   double upper, lower;
@@ -114,6 +109,7 @@ void Grader::computeGradient(MLN& mln, string query, string infl, int round, dou
     lower = prev-delta;
   }
   mln.setObsProb(infl, upper);
+  mln.buildCliqueMaps();
   if (mode=="mcsat") {
     mln.mcsat(round, query);
   }
@@ -131,6 +127,7 @@ void Grader::computeGradient(MLN& mln, string query, string infl, int round, dou
   }
   double upper_prob = mln.queryProb(query);
   mln.setObsProb(infl, lower);
+  mln.buildCliqueMaps();
   if (mode=="mcsat") {
     mln.mcsat(round, query);
   }
@@ -150,7 +147,6 @@ void Grader::computeGradient(MLN& mln, string query, string infl, int round, dou
   mln.setObsProb(infl, prev);
   mln.pd[query][infl] = (upper_prob-lower_prob) / (upper-lower);
   clock_t t2 = clock();
-  // cout << "mode " << mode << ": influence compute time (" << mode << "): " << ((double)(t2-t1))/CLOCKS_PER_SEC << " seconds" << endl;
 }
 
 

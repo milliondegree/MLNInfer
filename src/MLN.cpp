@@ -1044,6 +1044,14 @@ unordered_map<string, double> MLN::getInfluence(string query) {
 
 
 
+void MLN::buildCliqueMaps() {
+  for (int ci=0; ci<this->cliques.size(); ci++) {
+    this->cliques[ci].buildPotentialMaps(this->obs, this->queries, this->prob);
+  }
+}
+
+
+
 string MLN::toString() {
   string res;
   res += "obs: ";

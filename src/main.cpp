@@ -70,22 +70,6 @@ void printObservation(Load l) {
 }
 
 
-void parseTest(MLN mln, Load l) {
-  Parser parser;
-  clock_t t1 = clock();
-  parser.parseProvenance(mln);
-  clock_t t2 = clock();
-  cout << "optimized parsing time: " << ((double)(t2-t1))/CLOCKS_PER_SEC << " seconds" << endl;
-  /*
-  clock_t t3 = clock();
-  mln.setProperty(l.getProv(), l.getProb());
-  clock_t t4 = clock();
-  cout << "original parsing time: " << ((double)(t4-t3))/CLOCKS_PER_SEC << " seconds" << endl;
-  cout << endl;
-  */
-}
-
-
 void printLiterals(MLN mln) {
   // print out the observed literals and unknown literals after parsing
   unordered_set<string> obs = mln.getObsLiterals();
@@ -107,6 +91,13 @@ void printLiterals(MLN mln) {
     cout << c.toString() << endl;
   }
   cout << endl;
+}
+
+
+void printMLNStatistic(MLN& mln) {
+  cout << "observed tuple number: " << mln.obs.size() << endl;
+  cout << "unobserved tuple number: " << mln.queries.size() << endl;
+  cout << "clique number: " << mln.cliques.size() << endl;
 }
 
 
@@ -133,27 +124,6 @@ void saveToFile(MLN& mln, string file_name) {
 }
 
 
-
-void gibbsTest(MLN& mln, int round, string query_name) {
-  clock_t t1 = clock();
-  mln.gibbsSampling(round);
-  clock_t t2 = clock();
-  cout << "gibbs sample v1: " << ((double)(t2-t1))/CLOCKS_PER_SEC << " seconds" << endl;
-  cout << "gibbs sample v1: " << mln.queryProb(query_name) << endl;
-
-  clock_t t3 = clock();
-  mln.gibbsSampling_v2(round);
-  clock_t t4 = clock();
-  cout << "gibbs sample v2: " << ((double)(t4-t3))/CLOCKS_PER_SEC << " seconds" << endl;
-  cout << "gibbs sample v2: " << mln.queryProb(query_name) << endl;
-
-  clock_t t5 = clock();
-  mln.gibbsSampling_v3(round);
-  clock_t t6 = clock();
-  cout << "gibbs sample v3: " << ((double)(t6-t5))/CLOCKS_PER_SEC << " seconds" << endl;
-  cout << "gibbs sample v3: " << mln.queryProb(query_name) << endl;
-  cout << endl;
-}
 
 
 void probabilityQuery(MLN& mln, int round, string query_name) {
@@ -201,10 +171,6 @@ void probabilityQuery(MLN& mln, int round, string query_name, string mode, doubl
   }
   else if (mode=="lbp") {
     mln.loopyBeliefPropagation(query_name);
-  }
-  else if (mode=="plbp") {
-    // wrong results
-    mln.pLoopyBeliefPropagation(query_name);
   }
   else if (mode=="mclbp") {
     mln.loopyBeliefPropagationMCS(query_name, round);
@@ -254,66 +220,6 @@ void verifyProb(MLN& mln) {
   }
 }
 
-
-void varianceTest(MLN& mln, int round, string query_name) {
-  /*
-  clock_t t1 = clock();
-  vector<double> p1;
-  for (int i=0; i<1000; i++) {
-    mln.gibbsSampling(1000);
-    p1.push_back(mln.queryProb(query_name));
-  }
-  clock_t t2 = clock();
-  cout << "gibbs sample v1: " << ((double)(t2-t1))/CLOCKS_PER_SEC << " seconds" << endl;
-  double var1 = calcVar(p1);
-  cout << "variance of v1: " << var1 << endl;
-
-  clock_t t3 = clock();
-  vector<double> p2;
-  for (int i=0; i<1000; i++) {
-    mln.gibbsSampling_v2(1000);
-    p2.push_back(mln.queryProb(query_name));
-  }
-  clock_t t4 = clock();
-  cout << "gibbs sample v2: " << ((double)(t4-t3))/CLOCKS_PER_SEC << " seconds" << endl;
-  double var2 = calcVar(p2);
-  cout << "variance of v2: " << var2 << endl;
-
-  clock_t t5 = clock();
-  vector<double> p3;
-  for (int i=0; i<1000; i++) {
-    mln.gibbsSampling_v3(1000);
-    p3.push_back(mln.queryProb(query_name));
-  }
-  clock_t t6 = clock();
-  cout << "gibbs sample v3: " << ((double)(t6-t5))/CLOCKS_PER_SEC << " seconds" << endl;
-  double var3 = calcVar(p3);
-  cout << "variance of v3: " << var3 << endl;
-  */
-  clock_t t1 = clock();
-  vector<double> p1;
-  for (int i=0; i<50; i++) {
-    mln.gibbsSampling_v4(round, query_name);
-    p1.push_back(mln.queryProb(query_name));
-  }
-  clock_t t2 = clock();
-  cout << "gibbs sample time: " << ((double)(t2-t1))/CLOCKS_PER_SEC << " seconds" << endl;
-  double var1 = calcStdVar(p1);
-  cout << "standard variance of gibbs sampling: " << sqrt(var1) << endl;
-  /*
-  clock_t t3 = clock();
-  vector<double> p2;
-  for (int i=0; i<100; i++) {
-    mln.mcsat(1000, query_name);
-    p2.push_back(mln.queryProb(query_name));
-  }
-  clock_t t4 = clock();
-  cout << "mcsat time: " << ((double)(t4-t3))/CLOCKS_PER_SEC << " seconds" << endl;
-  double var2 = calcVar(p2);
-  cout << "standard variance of masat: " << sqrt(var2) << endl;
-  */
-
-}
 
 
 map<string, vector<double>> boxplotTest(MLN& mln, int round, int times) {
@@ -458,8 +364,8 @@ void setDefaultArgs(unordered_map<string, string>& args) {
   args["delta"] = "0.01";
   args["approx"] = "1e-7";
   // args["equation"] = "0";
-  args["mode"] = "pgibbs";
-  args["influ_mode"] = "naiveBP";
+  // args["mode"] = "pgibbs";
+  // args["influ_mode"] = "naiveBP";
 }
 
 
@@ -557,57 +463,57 @@ int main(int argc, char* argv[]) {
   Load l(args["provenance_file"], args["observe_file"]);
   vector<string> prov = l.getProv();
 
-  // printObservation(l);
-
   MLN mln(l);
   Parser parser;
   parser.parseProvenance(mln);
   mln.merge();
-  // cout << mln.getNumberOfCliques() << endl;
-  // parser.extendCliques(mln);
-  // parser.extendR1Cliques(mln);
 
-  // printLiterals(mln);
+  cout << "original MLN: " << endl;
+  printMLNStatistic(mln);
+  cout << endl;
   
   MLN mmln;
+  MLN amln;
 
-  cout << "query start " << endl;
-  if (args.find("query_name")!=args.end()&&args.find("influence_name")==args.end()) {
-    if (args["query_name"]!="all") {
-      mmln = mln.getMinimalMLN(args["query_name"]);
-      printLiterals(mmln);
-      probabilityQuery(mmln, stoi(args["round"]), args["query_name"], args["mode"], stod(args["approx"]));
-      double target = mmln.prob[args["query_name"]];
-      cout << "start approximate subgraph, target value: " << target << endl;
-      MLN amln = mmln.approximateSubGraph(args["query_name"], target, stod(args["delta"]));
-      cout << "approximate ends, subgraph: " << endl;
-      cout << amln.toString() << endl;
-      cout << "clique diff: " << (mmln.cliques.size()-amln.cliques.size()) << endl;
-      probabilityQuery(amln, stoi(args["round"]), args["query_name"], args["mode"], stod(args["approx"]));
-    }
-    else {
-      unordered_set<string> queries = mln.getQueryLiterals();
-      for (string query : queries) {
-        mmln = mln.getMinimalMLN(query);
-        cout << "clique number: " << mmln.getNumberOfCliques() << endl;
-        cout << "unobserved tuple number: " << mmln.getQueryLiterals().size() << endl;
-        probabilityQuery(mmln, stoi(args["round"]), query, args["mode"], stod(args["approx"]));
+  if (args.find("query_name")!=args.end() && args.find("mode")!=args.end()) {
+    mmln = mln.getMinimalMLN(args["query_name"]);
+    cout << "minumum MLN: " << endl;
+    printMLNStatistic(mmln);
+    cout << endl;
+
+    cout << "build potential maps" << endl;
+    mmln.buildCliqueMaps();
+
+    probabilityQuery(mmln, stoi(args["round"]), args["query_name"], args["mode"], stod(args["approx"]));
+    double target = mmln.prob[args["query_name"]];
+
+    clock_t t1 = clock();
+    cout << "start approximate subgraph, target value: " << target << endl;
+    amln = mmln.approximateSubGraph(args["query_name"], target, stod(args["delta"]));
+    clock_t t2 = clock();
+    cout << "total time: " << (t2-t1)*1.0/CLOCKS_PER_SEC << endl << endl;
+
+    cout << "approxmimate subgraph: " << endl;
+    cout << amln.toString() << endl;
+
+    printMLNStatistic(amln);
+    cout << endl;
+
+    if (args.find("influence_name")!=args.end()) {
+      if (args.find("influ_mode")==args.end()) {
+        args["influ_mode"] = args["mode"];
+      }
+      if (args["influence_name"]=="all") {
+        influenceQueryAll(amln, args["query_name"], stoi(args["round"]), 1.0, args["influ_mode"]);
+      }
+      else {
+        influenceQuery(amln, args["query_name"], args["influence_name"], stoi(args["round"]), 1.0, args["influ_mode"]);
       }
     }
   }
-
-  if (args.find("save")!=args.end()) {
-    saveToFile(mln, args["save"]);
+  else {
+    cout << "missing query name or probability inference mode" << endl;
+    exit(0);
   }
 
-  if (args.find("influence_name")!=args.end()) {
-    mmln = mln.getMinimalMLN(args["query_name"]);
-    printLiterals(mmln);
-    if (args["influence_name"]=="all") {
-      influenceQueryAll(mmln, args["query_name"], stoi(args["round"]), stod(args["delta"]), args["influ_mode"]);
-    }
-    else {
-      influenceQuery(mmln, args["query_name"], args["influence_name"], stoi(args["round"]), stod(args["delta"]), args["influ_mode"]);
-    }
-  }
 }

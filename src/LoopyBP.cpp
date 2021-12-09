@@ -598,6 +598,7 @@ void MLN::loopyBeliefPropagationMCS(string query, int rounds) {
   random_device rd;
   mt19937 generator(rd());
   uniform_real_distribution<double> distribution(0.0,1.0);
+
   // determine the probabilistic observed tuples
   set<string> prob_obs;
   for (string literal : this->obs) {
@@ -612,14 +613,20 @@ void MLN::loopyBeliefPropagationMCS(string query, int rounds) {
   map<int, map<int, vector<double>>> total_potentials;
   for (int i=0; i<this->cliques.size(); i++) {
     Clique c = this->cliques[i];
-    map<string, int> truth;
-    for (string literal : c.getLiterals()) {
-      if (this->obs.find(literal)!=this->obs.end()&&prob_obs.find(literal)==prob_obs.end()) {
-        truth[literal] = (int)this->prob[literal];
-      }
+    map<int, vector<double>> tmp = c.getAllPotentials();
+    if (tmp.size()!=0) {
+      total_potentials[i] = tmp;
     }
-    vector<int> obs_indices;
-    enumerateTotalPotentials(c, total_potentials[i], truth, prob_obs, this->queries, obs_indices, 0);
+    else {
+      map<string, int> truth;
+      for (string literal : c.getLiterals()) {
+        if (this->obs.find(literal)!=this->obs.end()&&prob_obs.find(literal)==prob_obs.end()) {
+          truth[literal] = (int)this->prob[literal];
+        }
+      }
+      vector<int> obs_indices;
+      enumerateTotalPotentials(c, total_potentials[i], truth, prob_obs, this->queries, obs_indices, 0);
+    }
   }
 
   // initialization
