@@ -84,11 +84,7 @@ public:
   void gibbsSampling_vp(int round, string query, double delta);
 
   double estimatedProb(string query);
-  // void multithread_gibbsSampling(int round, string query);
-  // static void singlethread_gibbsSampling(int r, int round, int qi, MLN& mln,
-  //                                 vector<string>& v_query, vector<unordered_map<string, double>>& truth_tables,
-  //                                 unordered_map<string, vector<double>>& potentials_0s, unordered_map<string, vector<double>>& potentials_1s,
-  //                                 unordered_map<string, int>& samples, unordered_map<string, int>& assignments);
+  
   double queryProb(string query);
 
   void mcsat(int round, string query);
@@ -165,9 +161,7 @@ class Grader {
 public:
   Grader();
 
-  // void computeGradients(MLN& mln, string query, int round);
   void computeGradients_v2(MLN& mln, string query, int round, double delta);
-  void computeGradients_mcsat(MLN& mln, string query, int round, double delta);
   void computeGradient(MLN& mln, string query, string infl, int round, double delta, string mode);
   unordered_set<string> getValidObservedTuples(MLN& mln, string query);
 
@@ -175,7 +169,6 @@ public:
 
 private:
   string target;
-  // void dfsBuild(MLN& mln, vector<bool>& visited, string& query, double grad);
   void dfsSearch(MLN& mln, unordered_set<string>& valid_obs, vector<bool>& visited, string& query);
 };
 

@@ -60,15 +60,6 @@ double calcStdVar(vector<double> values) {
 }
 
 
-void printObservation(Load l) {
-  // print out observed literals and their probabilities
-  map<string, double> prob = l.getProb();
-  for (auto it=prob.begin(); it!=prob.end(); it++) {
-    cout << it->first << ' ' << it->second << endl;
-  }
-  cout << endl;
-}
-
 
 void printLiterals(MLN mln) {
   // print out the observed literals and unknown literals after parsing
@@ -101,14 +92,6 @@ void printMLNStatistic(MLN& mln) {
 }
 
 
-void cliqueTest(MLN& mln, string query_name) {
-  cout << "cliques of queried tuple: " << endl;
-  vector<Clique> cliques = mln.getCliques(query_name);
-  for (Clique c : cliques) {
-    c.printClique();
-  }
-  cout << endl;
-}
 
 
 void saveToFile(MLN& mln, string file_name) {
@@ -116,7 +99,6 @@ void saveToFile(MLN& mln, string file_name) {
   clock_t t1 = clock();
   ofstream file;
   file.open(file_name);
-  // mln.gibbsSampling_v3(100000);
   mln.saveToFile(file);
   file.close();
   clock_t t2 = clock();
@@ -126,30 +108,8 @@ void saveToFile(MLN& mln, string file_name) {
 
 
 
-void probabilityQuery(MLN& mln, int round, string query_name) {
-  clock_t t1 = clock();
-  // mln.gibbsSampling_v3(round);
-  mln.gibbsSampling_v4(round, query_name);
-  clock_t t2 = clock();
-  cout << "gibbs sample: " << ((double)(t2-t1))/CLOCKS_PER_SEC << " seconds" << endl;
-  double prob = mln.queryProb(query_name);
-  cout << "probability of " << query_name << " is " << prob << endl;
-}
-
-
-void probabilityQuery_mcsat(MLN& mln, int round, string query_name) {
-  clock_t t1 = clock();
-  mln.mcsat(round, query_name);
-  clock_t t2 = clock();
-  cout << "mcsat: " << ((double)(t2-t1))/CLOCKS_PER_SEC << " seconds" << endl;
-  double prob = mln.queryProb(query_name);
-  cout << "probability of " << query_name << " is " << prob << endl;
-}
-
-
 void probabilityQuery(MLN& mln, int round, string query_name, string mode, double delta) {
   clock_t t1 = clock();
-  // mln.gibbsSampling_v3(round);
   if (mode=="gibbs") {
     mln.gibbsSampling(round);
   }
@@ -260,43 +220,6 @@ void boxplotTestSave(MLN& mln, string query_name, string file_name, int times) {
 }
 
 
-void influenceTest(MLN& mln, string& query, string& infl, int round) {
-  Influence influence (mln);
-  double infValue = influence.influenceQuery(mln, query, infl);
-  cout << "influence of " << infl << " on " << query << " is " << infValue << endl;
-}
-
-
-void influenceQuery(MLN& mln, string query, int round, double delta) {
-  cout << "compute influence of " << query << endl;
-  Grader grader;
-  clock_t t1 = clock();
-  grader.computeGradients_v2(mln, query, round, delta);
-  // grader.computeGradients(mln, query, round);
-  clock_t t2 = clock();
-  cout << "influence compute time (gibbs sample): " << ((double)(t2-t1))/CLOCKS_PER_SEC << " seconds" << endl;
-  unordered_map<string, double> influs = mln.getInfluence(query);
-  for (auto it=influs.begin(); it!=influs.end(); it++) {
-    cout << it->first << ' ' << it->second << endl;
-  }
-  cout << endl;
-}
-
-
-void influenceQuery_mcsat(MLN& mln, string query, int round, double delta) {
-  cout << "compute influence of " << query << endl;
-  Grader grader;
-  clock_t t1 = clock();
-  grader.computeGradients_mcsat(mln, query, round, delta);
-  // grader.computeGradients(mln, query, round);
-  clock_t t2 = clock();
-  cout << "influence compute time (mcsat): " << ((double)(t2-t1))/CLOCKS_PER_SEC << " seconds" << endl;
-  unordered_map<string, double> influs = mln.getInfluence(query);
-  for (auto it=influs.begin(); it!=influs.end(); it++) {
-    cout << it->first << ' ' << it->second << endl;
-  }
-  cout << endl;
-}
 
 
 void influenceQuery(MLN& mln, string query, string infl, int round, double delta, string mode) {

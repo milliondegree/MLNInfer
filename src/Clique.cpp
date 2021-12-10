@@ -261,32 +261,6 @@ double Clique::getHingeSatisifiablity(unordered_map<string, double>& truth) {
 }
 
 
-// double Clique::getPartialDerivative(map<string, double>& truth, string p_f, string p_v) {
-//   assert(p_f!=p_v);
-//   double res;
-//   if (p_f==this->rule_head || p_v==this->rule_head) {
-//     double k = this->rule_weight;
-//     for (string body : this->rule_body) {
-//       if (body!=p_v) {
-//         k *= truth[body];
-//       }
-//     }
-//     res = k * truth[p_f] * (1-truth[p_f]);
-//   }
-//   else {
-//     // when f and v are all rule body
-//     double k = this->rule_weight * (1-truth[this->rule_head]);
-//     for (string body : this->rule_body) {
-//       if (body!=p_f && body!=p_v) {
-//         k *= truth[body];
-//       }
-//     }
-//     res = k * truth[p_f] * (1-truth[p_f]);
-//   }
-//   return res;
-// }
-
-
 
 bool Clique::satisifiablity(unordered_map<string, int>& truth) {
   bool res = false;

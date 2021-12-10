@@ -47,25 +47,13 @@ vector<double> loopyBPRun(MLN* mln, string query) {
     }
     vector<double> potential;
     enumerateTruth(c, toSearch, truth, potential, 0);
-    // cout << c.toString() << endl;
-    // for (double v : potential) {
-    //   cout << v << ' ';
-    // }
-    // cout << endl;
     potentials[it1.first] = potential;
   }
-  // for (int c=0; c<potentials.size(); c++) {
-  //   cout << mln->cliques[c].toString() << endl;
-  //   for (auto it : potentials[c]) {
-  //     cout << it << ' ';
-  //   }
-  //   cout << endl;
-  // }
+
   // the loopy bp begins
   bool converge = false;
   int iteration = 0;
   while (!converge&&iteration<1000) {
-    // cout << "iteration " << iteration << endl;
     // initialization newcliqueMsgs
     map<int, map<string, vector<double>>> newcliqueMsgs;
     for (auto it1 : nodeMsgs) {
@@ -83,11 +71,6 @@ vector<double> loopyBPRun(MLN* mln, string query) {
       for (int i=0; i<potentials[c].size(); i++) {
         int tmp = i;
         double value = potentials[c][i];
-        // cout << mln->cliques[c].toString() << ' ' << tmp << ' ' << potentials[c][i] << endl;
-        // for (string literal : toQuery) {
-        //   cout << literal << ' ';
-        // }
-        // cout << endl;
         for (int s=toQuery.size()-1; s>=0; s--) {
           int truth_value = tmp%2;
           value *= nodeMsgs[toQuery[s]][c][truth_value];
@@ -105,9 +88,6 @@ vector<double> loopyBPRun(MLN* mln, string query) {
         newcliqueMsgs[c][literal][0] /= z;
         newcliqueMsgs[c][literal][1] /= z;
       }
-      // for (string literal : toQuery) {
-      //   cout << newcliqueMsgs[c][literal][0] << ' ' << newcliqueMsgs[c][literal][1] << endl;
-      // }
     }
     cliqueMsgs = newcliqueMsgs;
     // initialize dists
@@ -116,7 +96,6 @@ vector<double> loopyBPRun(MLN* mln, string query) {
       newDists[literal] = vector<double> (2, 0.5);
     }
     // pass clique messages to nodes
-    // cout << "clique to node" << endl;
     for (string literal : mln->queries) {
       for (int c : mln->c_map[literal]) {
         newDists[literal][0] *= cliqueMsgs[c][literal][0];
@@ -642,6 +621,7 @@ void MLN::loopyBeliefPropagationMCS(string query, int rounds) {
     dists[literal] = vector<double> (2, 0.5);
     newDists[literal] = vector<double> (2, 0.5);
   }
+  
   // start monte carlo simulation + loopy bp
   map<string, double> records;
   map<string, int> count;

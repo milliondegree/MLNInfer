@@ -30,7 +30,6 @@ struct Literal {
 class Clique {
 public:
   Clique();
-  // Clique(string rule, double weight);
   Clique(string rule_name, string rule_head, double weight);
   Clique(string rule, double weight, string r_head, vector<string> r_body);
 

@@ -7,21 +7,6 @@ Grader::Grader() {
 }
 
 
-// void Grader::computeGradients(MLN& mln, string query, int round) {
-//   if (mln.pd.find(query)==mln.pd.end()) {
-//     mln.pd[query] = unordered_map<string, double> ();
-//   }
-//   else {
-//     cout << "influence of " << query << "has already been computed" << endl;
-//     return;
-//   }
-//   mln.gibbsSampling_v3(round);
-//   this->target = query;
-//   vector<bool> visited (mln.cliques.size(), false);
-//   this->dfsBuild(mln, visited, query, 1.0);
-// }
-
-
 
 void Grader::computeGradients_v2(MLN& mln, string query, int round, double delta) {
   if (mln.queries.find(query)==mln.queries.end()) {
@@ -55,36 +40,6 @@ void Grader::computeGradients_v2(MLN& mln, string query, int round, double delta
 }
 
 
-void Grader::computeGradients_mcsat(MLN& mln, string query, int round, double delta) {
-  if (mln.queries.find(query)==mln.queries.end()) {
-    cout << "cannot compute influence to a observed tuple" << endl;
-    return;
-  }
-  if (mln.pd.find(query)==mln.pd.end()) {
-    mln.pd[query] = unordered_map<string, double> ();
-  }
-  unordered_set<string> valid_obs;
-  vector<bool> visited (mln.cliques.size(), false);
-  dfsSearch(mln, valid_obs, visited, query);
-  cout << "tuples which have direct influence: ";
-  for (string s : valid_obs) {
-    cout << s << ' ';
-  }
-  cout << endl;
-  for (string observe : valid_obs) {
-    double prev = mln.prob[observe];
-    double upper = min(1.0, mln.prob[observe]+delta);
-    double lower = max(0.0, mln.prob[observe]-delta);
-    mln.setObsProb(observe, upper);
-    mln.mcsat(round, query);
-    double upper_prob = mln.queryProb(query);
-    mln.setObsProb(observe, lower);
-    mln.mcsat(round, query);
-    double lower_prob = mln.queryProb(query);
-    mln.setObsProb(observe, prev);
-    mln.pd[query][observe] = (upper_prob-lower_prob) / (upper-lower);
-  }
-}
 
 
 void Grader::computeGradient(MLN& mln, string query, string infl, int round, double delta, string mode) {
