@@ -263,26 +263,38 @@ double Clique::getHingeSatisifiablity(unordered_map<string, double>& truth) {
 
 
 bool Clique::satisifiablity(unordered_map<string, int>& truth) {
-  bool res = false;
-  for (Literal& l : this->sliterals) {
-    string lname = l.name;
-    if (l.nag) {
-      if (!truth[lname]) {
-        res = true;
-        break;
+  // check existence
+  for (string l : literals) {
+    assert(truth.find(l)!=truth.end());
+  }
+
+  if (this->literals.size()==1) {
+    return truth[this->rule_head] ? true : false;
+  }
+  if (this->compound) {
+    double res = this->rule_weight;
+    for (auto it : this->sliteralss) {
+      int tmp = 0;
+      for (Literal l : it) {
+        if ((l.nag&&truth[l.name]==0)||(!l.nag&&truth[l.name]==1)) {
+          tmp = 1;
+          break;
+        }
+      }
+      if (tmp==0) {
+        return false;
       }
     }
-    else {
-      if (truth[lname]) {
-        res = true;
-        break;
+    return true;
+  }
+  else {
+    for (Literal l : this->sliterals) {
+      if ((l.nag&&truth[l.name]==0)||(!l.nag&&truth[l.name]==1)) {
+        return true;
       }
     }
+    return false;
   }
-  if (this->rule_weight<0) {
-    res = !res;
-  }
-  return res;
 }
 
 

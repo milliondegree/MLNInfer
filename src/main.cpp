@@ -26,7 +26,7 @@ using namespace std;
 
 
 bool sortByValue(const pair<string, double>& p1, const pair<string, double>& p2) {
-  return p1.second > p2.second;
+  return fabs(p1.second) > fabs(p2.second);
 }
 
 
@@ -341,7 +341,6 @@ void save3DPlot(MLN& mln, string file_name, string query, int round, double delt
 int main(int argc, char* argv[]) {
 
   unordered_map<string, string> args;
-  setDefaultArgs(args);
   vector<string> argvs;
   for (int i=0; i<argc; i++) {
     argvs.push_back(string(argv[i]));
@@ -383,6 +382,11 @@ int main(int argc, char* argv[]) {
     }
   }
 
+  if (args.find("provenance_file")==args.end() || args.find("observe_file")==args.end()) {
+    cout << "missing input of provenance and observe" << endl;
+    exit(0);
+  }
+
   Load l(args["provenance_file"], args["observe_file"]);
   vector<string> prov = l.getProv();
 
@@ -404,33 +408,48 @@ int main(int argc, char* argv[]) {
     printMLNStatistic(mmln);
     cout << endl;
 
-    // cout << "build potential maps" << endl;
-    // mmln.buildCliqueMaps();
+    // set rule weight all positive
+    // map<string, double> prev_prob = mmln.prob;
+    // map<string, double> pos_prob = mmln.prob;
+    // for (auto it : pos_prob) {
+    //   pos_prob[it.first] = fabs(it.second);
+    // }
+    // mmln.setProb(pos_prob);
 
-    probabilityQuery(mmln, stoi(args["round"]), args["query_name"], args["mode"], stod(args["approx"]));
+    probabilityQuery(mmln, stoi(args["round"]), args["query_name"], args["mode"], 0.1);
     double target = mmln.prob[args["query_name"]];
 
-    clock_t t1 = clock();
-    cout << "start approximate subgraph, target value: " << target << endl;
-    amln = mmln.approximateSubGraph(args["query_name"], target, stod(args["delta"]));
-    clock_t t2 = clock();
-    cout << "total time: " << (t2-t1)*1.0/CLOCKS_PER_SEC << endl << endl;
+    if (args.find("approx")!=args.end()) {
+      cout << args["approx"] << endl;
+      clock_t t1 = clock();
+      cout << "start approximate subgraph, target value: " << target << endl;
+      amln = mmln.approximateSubGraph(args["query_name"], target, stod(args["approx"]));
+      clock_t t2 = clock();
+      cout << "total time: " << (t2-t1)*1.0/CLOCKS_PER_SEC << endl << endl;
+      cout << "final diff: " << fabs(amln.queryProb(args["query_name"])-target) << endl;
 
-    cout << "approxmimate subgraph: " << endl;
-    cout << amln.toString() << endl;
+      cout << "approxmimate subgraph: " << endl;
+      cout << amln.toString() << endl;
 
-    printMLNStatistic(amln);
-    cout << endl;
+      printMLNStatistic(amln);
+      cout << endl;
+
+      // amln.setProb(prev_prob);
+      // probabilityQuery(amln, stoi(args["round"]), args["query_name"], args["mode"], 0.1);
+      mmln = amln;
+      // mmln.setProb(prev_prob);
+      // probabilityQuery(mmln, stoi(args["round"]), args["query_name"], args["mode"], 0.1);
+    }
 
     if (args.find("influence_name")!=args.end()) {
       if (args.find("influ_mode")==args.end()) {
         args["influ_mode"] = args["mode"];
       }
       if (args["influence_name"]=="all") {
-        influenceQueryAll(amln, args["query_name"], stoi(args["round"]), 1.0, args["influ_mode"]);
+        influenceQueryAll(mmln, args["query_name"], stoi(args["round"]), 1.0, args["influ_mode"]);
       }
       else {
-        influenceQuery(amln, args["query_name"], args["influence_name"], stoi(args["round"]), 1.0, args["influ_mode"]);
+        influenceQuery(mmln, args["query_name"], args["influence_name"], stoi(args["round"]), 1.0, args["influ_mode"]);
       }
     }
   }

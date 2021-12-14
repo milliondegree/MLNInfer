@@ -9,6 +9,7 @@
 #define SARATIO 0.5
 #define SATEMPERATURE 80
 #define DEFAULT_ROUNDS 10000
+#define MAX_VISIT 1000
 
 
 #include <iostream>
@@ -107,6 +108,7 @@ public:
   void saveToFile(ofstream& file);
 
   MLN approximateSubGraph(string query, double target, double delta);
+  MLN approximateSubGraph_v2(string query, double target, double delta, int max_clique_number);
 
   void buildCliqueMaps();
 

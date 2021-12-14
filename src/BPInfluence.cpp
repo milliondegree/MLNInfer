@@ -361,11 +361,6 @@ map<string, vector<double>> recursiveOnNodeAdvance(
   for (int ci : mln->c_map[node]) {
     if (ci!=parent) {
       map<string, vector<double>> marginalTemp = recursiveOnCliqueAdvance(mln, node, ci, prob_obs);
-      // cout << "node: " << node << " ci " << ci << endl;
-      // cout << mln->cliques[ci].toString() << endl;
-      // for (auto it : marginalTemp) {
-      //   cout << it.first << ' ' << it.second[0] << ' ' << it.second[1] << endl;
-      // }
       if (marginalDist.size()==0) {
         marginalDist = marginalTemp;
       }
@@ -418,11 +413,6 @@ map<string, vector<double>> recursiveOnCliqueAdvance(
       truth[literal] = mln->prob[literal];
     }
   }
-  // cout << "node: " << node << "ci: " << mln->cliques[c].toString() << endl;
-  // for (auto it : nodeMsgs) {
-  //   cout << it.first << ' ';
-  // }
-  // cout << endl;
   for (int i=0; i<=1; i++) {
     truth[node] = i;
     enumerateObsTruthAdvance(mln->cliques[c], nodeMsgs, obs, queries, truth, prob_obs, res, node, 0);
@@ -444,9 +434,6 @@ void MLN::advanceBeliefPropagation(string query) {
       prob_obs[literal] = prob_obs.size();
     }
   }
-  // for (auto it : prob_obs) {
-  //   cout << it.first << ' ' << it.second << endl;
-  // }
   map<string, vector<double>> dists = recursiveOnNodeAdvance(this, -1, query, prob_obs);
   double res = 0;
   for (auto it : dists) {
