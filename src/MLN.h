@@ -13,6 +13,7 @@
 
 
 #include <iostream>
+#include <iomanip>
 #include <fstream>
 #include <string>
 #include <queue>
@@ -26,6 +27,8 @@
 #include <assert.h>
 #include "Clique.h"
 #include "Load.h"
+#include "CProvGraph.h"
+
 using namespace std;
 
 
@@ -44,6 +47,8 @@ public:
   map<string, string> sames;
   map<string, vector<int>> c_map;
   unordered_map<string, unordered_map<string, double>> pd;
+
+  CProvGraph provG;
 
   friend class Parser;
   friend class Grader;
@@ -100,6 +105,8 @@ public:
   void loopyBeliefPropagation(string query);
   void pLoopyBeliefPropagation(string query);
   void loopyBeliefPropagationMCS(string query, int rounds);
+
+  void loopyBeliefPropagationWithProv(string query);
 
   map<string, vector<double>> getAllProbs(int round, int times);
   unordered_map<string, double> getInfluence(string query);

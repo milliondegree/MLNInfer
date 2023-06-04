@@ -1,0 +1,1 @@
+dot -Tpng -o data/CProv/figures/test.png data/CProv/raw/test.dot
