@@ -8,13 +8,26 @@
 #include <string>
 
 
-enum VertexType {Variable, Operator};
+enum VertexType {Variable, Sum, Mul, Div, Scale};
+
+inline std::ostream& operator<<(std::ostream& out, const VertexType value){
+  const char* s = 0;
+  #define PROCESS_VAL(p) case(p): s = #p; break;
+    switch(value){
+      PROCESS_VAL(Variable);     
+      PROCESS_VAL(Sum);
+      PROCESS_VAL(Mul);
+      PROCESS_VAL(Scale);
+    }
+  #undef PROCESS_VAL
+    return out << s;
+}
 
 struct ProvVertex {
   VertexType vt;
   std::string name;
   bool isEDB;
-  float value;
+  double value;
 };
 
 struct ProvEdge{
@@ -31,7 +44,7 @@ public:
     // template <typename Vertex, typename Graph>
     void discover_vertex(vertex_t u, const Graph& g)
     {
-      std::cout << "Visit vertex " << g[u].name;
+      std::cout << "Visit " << g[u].vt << " \"" << g[u].name << "\"";
       if (g[u].vt==Variable) {
         std::cout << ", value=" << g[u].value << ", isEDB=" << g[u].isEDB << std::endl;
       }
@@ -48,7 +61,7 @@ public:
 
   CProvGraph(std::string& sp): save_path(sp) {}
 
-  size_t getVertexIndexByName(std::string& name) {
+  size_t getVertexIndexByName(const std::string& name) {
     typedef boost::property_map<Graph, boost::vertex_index_t>::type IndexMap;
     IndexMap index = get(boost::vertex_index, g);
     vertex_iter vi, vi_end;
@@ -60,7 +73,7 @@ public:
     return -1;
   }
 
-  vertex_iter getVariableVertexByName(std::string& name) {
+  vertex_iter getVertexByName(const std::string& name) {
     vertex_iter vi, vi_end;
     for (boost::tie(vi, vi_end)=boost::vertices(g); vi!=vi_end; vi++) {
       if (g[*vi].name.compare(name)==0) {
@@ -70,8 +83,12 @@ public:
     return vi_end;
   }
 
-  vertex_t addVariableVertex(const VertexType vt, std::string& name, bool isEDB, float value) {
-    assert(getVariableVertexByName(name)==boost::vertices(g).second);
+  bool checkVertexExistByName(const std::string& name) {
+    return getVertexByName(name)!=boost::vertices(g).second;
+  }
+
+  vertex_t addVariableVertex(const VertexType vt, const std::string& name, bool isEDB, float value) {
+    assert(!checkVertexExistByName(name));
     vertex_t v = boost::add_vertex(g);
     g[v].vt = vt;
     g[v].name = name;
@@ -80,7 +97,7 @@ public:
     return v;
   }
 
-  vertex_t addOperatorVertex(const VertexType vt, std::string& name) {
+  vertex_t addOperatorVertex(const VertexType vt, const std::string& name) {
     vertex_t v = boost::add_vertex(g);
     g[v].vt = vt;
     g[v].name = name;
@@ -92,8 +109,35 @@ public:
     else boost::add_edge(v2, v2, g);
   }
 
-  void traceProvOfVariableByName(std::string& name) {
-    vertex_iter vi = getVariableVertexByName(name);
+  void addProvEdge(vertex_t v1, vertex_t v2) {
+    boost::add_edge(v1, v2, g);
+  }
+
+  void addComputingSubgraph(const std::string& output_name, const double value, VertexType vt, const std::vector<std::string>& input_names) {
+    /* add subgraph of computing provenance, it is based on an asumption that every output only relies on one operator 
+      output_name: name of the output variable
+      value: value of output variable
+      vt: vertex type of operator
+      input_names: names of the input variables that are connected to the operator vertex
+    */
+    vertex_t v_output, v_operator;
+    if (checkVertexExistByName(output_name)) {
+      v_output = *getVertexByName(output_name);
+      v_operator = *getVertexByName("op_"+output_name);
+      g[v_output].value = value;
+    }
+    else {
+      v_output = addVariableVertex(Variable, output_name, false, value);
+      v_operator = addOperatorVertex(vt, "op_"+output_name);
+      addProvEdge(v_output, v_operator);
+    }
+    for (auto s : input_names) {
+      addProvEdge(v_operator, *getVertexByName(s));
+    }
+  }
+
+  void traceProvOfVariableByName(const std::string& name) {
+    vertex_iter vi = getVertexByName(name);
     assert(vi!=boost::vertices(g).second);
     vertex_t v = *vi;
     CProv_BFS_Visitor vis;
@@ -101,11 +145,16 @@ public:
   }
 
   void printVertex(vertex_t v) {
-    std::cout << g[v].name << std::endl;
+    std::cout << g[v].vt << " vertex ";
+    std::cout << g[v].name << ", value=" << g[v].value << std::endl;
   }
 
   void printGraph() {
     write_graphviz (std::cout, g, boost::make_label_writer(boost::get(&ProvVertex::name, g)));
+  }
+
+  void setSavePath(const std::string& sp) {
+    save_path = sp;
   }
 
   void saveGraph() {

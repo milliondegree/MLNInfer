@@ -1,1 +1,1 @@
-dot -Tpng -o data/CProv/figures/test.png data/CProv/raw/test.dot
+dot -Tpng -o data/CProv/figures/mln-cprov-graph-test.png data/CProv/raw/mln-cprov-graph-test.dot

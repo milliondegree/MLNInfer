@@ -1,44 +1,7 @@
-#include "MLN.h"
+#include "../MLN.h"
 
-void printMLNStatistic(MLN& mln) {
-  cout << "observed tuple number: " << mln.obs.size() << endl;
-  cout << "unobserved tuple number: " << mln.queries.size() << endl;
-  cout << "clique number: " << mln.cliques.size() << endl;
-}
+using namespace std;
 
-void probabilityQuery(MLN& mln, int round, string query_name, string mode, double delta) {
-  clock_t t1 = clock();
-  if (mode=="gibbs") {
-    mln.gibbsSampling(round);
-  }
-  else if (mode=="pgibbs") {
-    // wrong results
-    mln.gibbsSampling_vp(round, query_name, delta);
-  }
-  else if (mode=="mcsat"){
-    mln.mcsat(round, query_name);
-  }
-  else if (mode=="pmcsat") {
-    mln.pmcsat(round, query_name);
-  }
-  else if (mode=="bp") {
-    mln.naiveBeliefPropagation(query_name);
-  }
-  else if (mode=="abp") {
-    mln.advanceBeliefPropagation(query_name);
-  }
-  else if (mode=="lbp") {
-    mln.loopyBeliefPropagation(query_name);
-  }
-  else if (mode=="mclbp") {
-    mln.loopyBeliefPropagationMCS(query_name, round);
-  }
-  clock_t t2 = clock();
-  cout << mode+" sample time: " << ((double)(t2-t1))/CLOCKS_PER_SEC << " seconds" << endl;
-  double prob = mln.queryProb(query_name);
-  cout << "probability of " << query_name << " is " << setprecision(9) << prob << endl;
-  cout << endl;
-}
 
 int main(int argc, char* argv[]) {  
   
@@ -52,19 +15,27 @@ int main(int argc, char* argv[]) {
   Parser parser;
   parser.parseProvenance(mln);
   mln.merge();
-
-  cout << "original MLN: " << endl;
-  printMLNStatistic(mln);
-  cout << endl;
   
   MLN mmln;
   MLN amln;
 
-  string query_name = "smoke1";
+  string query_name = "cancer_1";
 
   mmln = mln.getMinimalMLN(query_name);
   cout << "minumum MLN: " << endl;
-  printMLNStatistic(mmln);
+  cout << "observed tuple number: " << mmln.obs.size() << endl;
+  cout << "unobserved tuple number: " << mmln.queries.size() << endl;
+  cout << "clique number: " << mmln.cliques.size() << endl;
   cout << endl;
 
+  cout << mmln.toString();
+
+  mmln.loopyBeliefPropagationWithProv(query_name);
+  double prob = mmln.queryProb(query_name);
+  cout << "probability of " << query_name << " is " << setprecision(9) << prob << endl;
+
+  /* print out the provGraph*/
+  // mmln.provG.traceProvOfVariableByName();
+  mmln.provG.setSavePath("/home/jz598/MLNInfer/data/CProv/raw/mln-cprov-graph-test.dot");
+  mmln.provG.saveGraph();
 }

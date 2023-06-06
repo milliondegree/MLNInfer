@@ -14,8 +14,8 @@ int main() {
   string input_2_name = "input_2";
   vertex_t input_2 = provG.addVariableVertex(Variable, input_2_name, true, 0.5);
 
-  string operator_1_name = "+";
-  vertex_t operator_1 = provG.addOperatorVertex(Operator, operator_1_name);
+  string operator_1_name = "sum_output";
+  vertex_t operator_1 = provG.addOperatorVertex(Sum, operator_1_name);
 
   provG.addProvEdge(operator_1, input_1, false);
   provG.addProvEdge(operator_1, input_2, false);
@@ -30,9 +30,9 @@ int main() {
 
 
   /* test getVariableVertexByName */
-  vertex_iter v_tmp = provG.getVariableVertexByName(input_1_name);
-  provG.printVertex(*v_tmp);
-  cout << provG.getVertexIndexByName(input_1_name) << endl;
+  // vertex_iter v_tmp = provG.getVariableVertexByName(input_1_name);
+  // provG.printVertex(*v_tmp);
+  // cout << provG.getVertexIndexByName(input_1_name) << endl;
 
   /* test traceProvOfVariableByName */
   cout << endl << "start tracing provenance of " << output_name << endl;
