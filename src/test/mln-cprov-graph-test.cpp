@@ -35,7 +35,12 @@ int main(int argc, char* argv[]) {
   cout << "probability of " << query_name << " is " << setprecision(9) << prob << endl;
 
   /* print out the provGraph*/
-  // mmln.provG.traceProvOfVariableByName();
   mmln.provG.setSavePath("/home/jz598/MLNInfer/data/CProv/raw/mln-cprov-graph-test.dot");
   mmln.provG.saveGraph();
+
+  /* trace provenance */
+  string output_name = "cancer_1_prob_iteration_1";
+  CProvGraph query_of_output = mmln.provG.traceProvOfVariableByName(output_name);
+  query_of_output.saveGraph();
+  // mmln.provG.printChildrenVerticesByName(output_name);
 }

@@ -1,1 +1,1 @@
-dot -Tpng -o data/CProv/figures/mln-cprov-graph-test.png data/CProv/raw/mln-cprov-graph-test.dot
+dot -Tpng -o data/CProv/figures/mln-cprov-graph-test-cancer_1_prob_iteration_1.png data/CProv/raw/mln-cprov-graph-test-cancer_1_prob_iteration_1.dot

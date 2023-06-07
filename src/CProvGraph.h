@@ -3,6 +3,7 @@
 
 #include <boost/graph/graph_traits.hpp>
 #include <boost/graph/adjacency_list.hpp>
+#include <boost/graph/depth_first_search.hpp>
 #include <boost/graph/breadth_first_search.hpp>
 #include <boost/graph/graphviz.hpp>
 #include <string>
@@ -38,11 +39,12 @@ typedef boost::adjacency_list<boost::listS, boost::vecS, boost::directedS, ProvV
 typedef boost::graph_traits<Graph>::vertex_descriptor vertex_t;
 typedef boost::graph_traits<Graph>::edge_descriptor edge_t;
 typedef boost::graph_traits<Graph>::vertex_iterator vertex_iter;
+typedef boost::graph_traits<Graph>::adjacency_iterator adjacency_tier;
 
 class CProv_BFS_Visitor : public boost::default_bfs_visitor {
 public:
-    // template <typename Vertex, typename Graph>
-    void discover_vertex(vertex_t u, const Graph& g)
+    template <typename Vertex, typename Graph>
+    void discover_vertex(Vertex u, const Graph& g)
     {
       std::cout << "Visit " << g[u].vt << " \"" << g[u].name << "\"";
       if (g[u].vt==Variable) {
@@ -136,12 +138,48 @@ public:
     }
   }
 
-  void traceProvOfVariableByName(const std::string& name) {
-    vertex_iter vi = getVertexByName(name);
-    assert(vi!=boost::vertices(g).second);
-    vertex_t v = *vi;
-    CProv_BFS_Visitor vis;
-    boost::breadth_first_search(g, v, boost::visitor(vis));
+  void printChildrenVerticesByName(const std::string& name) {
+    assert(checkVertexExistByName(name));
+    vertex_t v = *getVertexByName(name);
+    auto neighbors = boost::adjacent_vertices(v, g);
+    for (auto vi : boost::make_iterator_range(neighbors)) {
+      std::cout << g[vi].name << std::endl;
+    }
+  }
+
+  CProvGraph traceProvOfVariableByName(const std::string& name) {
+    assert(checkVertexExistByName(name));
+    vertex_t v = *getVertexByName(name);
+    
+    // initialize CProvGraph of the queried vertex
+    std::string new_save_path = save_path.substr(0, save_path.find("."));
+    new_save_path += "-"+name+".dot";
+    CProvGraph subProvG(new_save_path);
+
+    // insert the source vertex to subProvG
+    assert(g[v].vt==Variable);
+    subProvG.addVariableVertex(g[v].vt, g[v].name, g[v].isEDB, g[v].value);
+
+    std::cout << "start provenance query" << std::endl;
+    DFSProvQuery(v, subProvG);
+    return subProvG;
+  }
+
+  void DFSProvQuery(vertex_t s, CProvGraph& subProvG) {
+    adjacency_tier ai, ai_end;
+    for (boost::tie(ai, ai_end)=boost::adjacent_vertices(s, g); ai!=ai_end; ai++) {
+      vertex_t v = *ai;
+      vertex_t child;
+      if (subProvG.checkVertexExistByName(g[v].name)) child = *(subProvG.getVertexByName(g[v].name));
+      else {
+        if (g[v].vt==Variable) child = subProvG.addVariableVertex(g[v].vt, g[v].name, g[v].isEDB, g[v].value);
+        else child = subProvG.addOperatorVertex(g[v].vt, g[v].name);
+      }
+      vertex_t parent = *(subProvG.getVertexByName(g[s].name));
+      subProvG.addProvEdge(parent, child);
+      DFSProvQuery(v, subProvG);
+    }
+    return;
   }
 
   void printVertex(vertex_t v) {

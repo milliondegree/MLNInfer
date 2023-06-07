@@ -34,9 +34,14 @@ int main() {
   // provG.printVertex(*v_tmp);
   // cout << provG.getVertexIndexByName(input_1_name) << endl;
 
+  /* test get children vertices */
+  // provG.printChildrenVerticesByName(output_name);
+
   /* test traceProvOfVariableByName */
   cout << endl << "start tracing provenance of " << output_name << endl;
-  provG.traceProvOfVariableByName(output_name);
+  CProvGraph subProvG = provG.traceProvOfVariableByName(output_name);
+  subProvG.saveGraph();
+  
 
   return 0;
 }
