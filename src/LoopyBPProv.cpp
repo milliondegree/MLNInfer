@@ -71,7 +71,7 @@ vector<double> loopyBPRunWithProv(MLN* mln, string query) {
   // the loopy bp begins
   bool converge = false;
   int iteration = 1;
-  while (!converge&&iteration<=1) {
+  while (!converge&&iteration<=10) {
     
     // initialization newcliqueMsgs
     map<int, map<string, vector<double>>> newcliqueMsgs;
@@ -170,7 +170,7 @@ vector<double> loopyBPRunWithProv(MLN* mln, string query) {
       newDists[literal][0] /= z;
       newDists[literal][1] /= z;
       /* add subgraph of computing probabilities */
-      string prob_name = literal+"_prob_iteration_"+to_string(iteration);
+      string prob_name = literal+"_iteration_"+to_string(iteration);
       vector<string> prob_input_names {"dist_"+literal+"_1_iteration_"+to_string(iteration),
                                       "dist_"+literal+"_0_iteration_"+to_string(iteration)};
       mln->provG.addComputingSubgraph(prob_name, newDists[literal][1], Scale, prob_input_names);

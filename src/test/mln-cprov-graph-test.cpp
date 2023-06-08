@@ -39,8 +39,7 @@ int main(int argc, char* argv[]) {
   mmln.provG.saveGraph();
 
   /* trace provenance */
-  string output_name = "cancer_1_prob_iteration_1";
+  string output_name = "cancer_1_iteration_3";
   CProvGraph query_of_output = mmln.provG.traceProvOfVariableByName(output_name);
   query_of_output.saveGraph();
-  // mmln.provG.printChildrenVerticesByName(output_name);
 }

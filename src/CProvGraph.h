@@ -18,10 +18,23 @@ inline std::ostream& operator<<(std::ostream& out, const VertexType value){
       PROCESS_VAL(Variable);     
       PROCESS_VAL(Sum);
       PROCESS_VAL(Mul);
+      PROCESS_VAL(Div);
       PROCESS_VAL(Scale);
     }
   #undef PROCESS_VAL
     return out << s;
+}
+
+inline std::string vertexTypeToString(VertexType vt) {
+  string s;
+  switch(vt) {
+    case(Variable): s = "var"; break;
+    case(Sum): s = "sum"; break;
+    case(Mul): s = "mul"; break;
+    case(Div): s = "div"; break;
+    case(Scale): s = "scale"; break;
+  }
+  return s;
 }
 
 struct ProvVertex {
@@ -125,12 +138,12 @@ public:
     vertex_t v_output, v_operator;
     if (checkVertexExistByName(output_name)) {
       v_output = *getVertexByName(output_name);
-      v_operator = *getVertexByName("op_"+output_name);
+      v_operator = *getVertexByName(vertexTypeToString(vt)+"_"+output_name);
       g[v_output].value = value;
     }
     else {
       v_output = addVariableVertex(Variable, output_name, false, value);
-      v_operator = addOperatorVertex(vt, "op_"+output_name);
+      v_operator = addOperatorVertex(vt, vertexTypeToString(vt)+"_"+output_name);
       addProvEdge(v_output, v_operator);
     }
     for (auto s : input_names) {
@@ -170,14 +183,18 @@ public:
     for (boost::tie(ai, ai_end)=boost::adjacent_vertices(s, g); ai!=ai_end; ai++) {
       vertex_t v = *ai;
       vertex_t child;
-      if (subProvG.checkVertexExistByName(g[v].name)) child = *(subProvG.getVertexByName(g[v].name));
+      if (subProvG.checkVertexExistByName(g[v].name)) {
+        child = *(subProvG.getVertexByName(g[v].name));
+        vertex_t parent = *(subProvG.getVertexByName(g[s].name));
+        subProvG.addProvEdge(parent, child);
+      }
       else {
         if (g[v].vt==Variable) child = subProvG.addVariableVertex(g[v].vt, g[v].name, g[v].isEDB, g[v].value);
         else child = subProvG.addOperatorVertex(g[v].vt, g[v].name);
+        vertex_t parent = *(subProvG.getVertexByName(g[s].name));
+        subProvG.addProvEdge(parent, child);
+        DFSProvQuery(v, subProvG);
       }
-      vertex_t parent = *(subProvG.getVertexByName(g[s].name));
-      subProvG.addProvEdge(parent, child);
-      DFSProvQuery(v, subProvG);
     }
     return;
   }
