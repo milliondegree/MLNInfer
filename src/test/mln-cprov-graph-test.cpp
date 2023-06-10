@@ -20,8 +20,10 @@ int main(int argc, char* argv[]) {
     }
   }
   
-  string provenance_file = "/home/jz598/MLNInfer/data/smoke/prov/train.txt";
-  string observe_file = "/home/jz598/MLNInfer/data/smoke/observe/smokeTrain.db";
+  // string provenance_file = "/home/jz598/MLNInfer/data/smoke/prov/train.txt";
+  // string observe_file = "/home/jz598/MLNInfer/data/smoke/observe/smokeTrain.db";
+  string provenance_file = "/home/jz598/MLNInfer/data/hypertext-class/sample7/prov/sample710.txt";
+  string observe_file = "/home/jz598/MLNInfer/data/hypertext-class/sample7/sample710.obs";
 
   Load l(provenance_file, observe_file);
   vector<string> prov = l.getProv();
@@ -34,7 +36,7 @@ int main(int argc, char* argv[]) {
   MLN mmln;
   MLN amln;
 
-  string query_name = "cancer_2";
+  string query_name = "topic_Department_29";
   if (args.find("query_name")!=args.end()) query_name = args["query_name"];
   clock_t t1, t2;
 
@@ -65,18 +67,19 @@ int main(int argc, char* argv[]) {
   mmln.provG.saveGraph();
 
   /* trace provenance */
-  string output_name = "cancer_2_iteration_2";
+  string output_name = "topic_Department_29_iteration_2";
   if (args.find("variable_name")!=args.end()) output_name = args["variable_name"];
   t1 = clock();
   CProvGraph query_of_output = mmln.provG.traceProvOfVariableByName(output_name);
   t2 = clock();
   cout << "time cost of provenance query: " << (t2-t1)*1.0/CLOCKS_PER_SEC << endl;
-  query_of_output.printVertex(query_of_output.getVertexByName(output_name));
+  // query_of_output.printVertex(query_of_output.getVertexByName(output_name));
   query_of_output.saveGraph();
 
   /* compute variable using provenance */
-  // cout << "compute record: " << query_of_output.getVertexValueByName(output_name) << endl;
-  unordered_map<string, double> changedEDBs = {{"potential_37_0", 1}};
+  cout << "compute record: " << query_of_output.getVertexValueByName(output_name) << endl;
+  unordered_map<string, double> changedEDBs = {{"potential_2657_0", 1.1}};
+  // unordered_map<string, double> changedEDBs;
   t1 = clock();
   double changedResult = query_of_output.computeVariableWithChangedEDBs(output_name, changedEDBs);
   cout << "compute result: " << changedResult << endl;;

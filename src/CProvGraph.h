@@ -304,14 +304,13 @@ private:
     // if (g[s].isEDB || visited.find(s)!=visited.end()) {
     //   return g[s].value;
     // }
+    if (visited.find(s)!=visited.end()) return g[s].value;
     if (g[s].isEDB) {
       if (changedEDBs.find(g[s].name)!=changedEDBs.end()) {
         std::cout << "find changed edb: " << g[s].name << ", previous value: " << g[s].value << ", changed value: " << changedEDBs[g[s].name] << std::endl;
         g[s].value = changedEDBs[g[s].name];
       }
-      return g[s].value;
-    }
-    else if (visited.find(s)!=visited.end()) {
+      visited.insert(s);
       return g[s].value;
     }
     else if (!hasIntersection(g[s].EDBs)) {
@@ -328,12 +327,12 @@ private:
       case(Div): ret = DFSComputeDiv(v_operator, visited); break;
       case(Scale): ret = DFSComputeScale(v_operator, visited); break;
     }
+    g[s].value = ret;
     visited.insert(s);
     return ret;
   }
 
   double DFSComputeSum(vertex_t s, unordered_set<vertex_t>& visited) {
-    assert(g[s].vt==Sum);
     double ret = 0;
     adjacency_tier ai, ai_end;
     for (boost::tie(ai, ai_end)=boost::adjacent_vertices(s, g); ai!=ai_end; ai++) {
@@ -344,7 +343,6 @@ private:
   }
 
   double DFSComputeMul(vertex_t s, unordered_set<vertex_t>& visited) {
-    assert(g[s].vt==Mul);
     double ret = 1;
     adjacency_tier ai, ai_end;
     for (boost::tie(ai, ai_end)=boost::adjacent_vertices(s, g); ai!=ai_end; ai++) {
@@ -355,7 +353,6 @@ private:
   }
 
   double DFSComputeDiv(vertex_t s, unordered_set<vertex_t>& visited) {
-    assert(g[s].vt==Div);
     double ret = 1;
     adjacency_tier ai, ai_end;
     boost::tie(ai, ai_end)=boost::adjacent_vertices(s, g);
@@ -374,7 +371,6 @@ private:
   }
 
   double DFSComputeScale(vertex_t s, unordered_set<vertex_t>& visited) {
-    assert(g[s].vt==Scale);
     double ret = 0;
     double numerator; 
     adjacency_tier ai, ai_end;
