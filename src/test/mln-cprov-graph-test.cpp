@@ -65,7 +65,7 @@ int main(int argc, char* argv[]) {
   mmln.provG.saveGraph();
 
   /* trace provenance */
-  string output_name = "cancer_2_iteration_1";
+  string output_name = "cancer_2_iteration_2";
   if (args.find("variable_name")!=args.end()) output_name = args["variable_name"];
   t1 = clock();
   CProvGraph query_of_output = mmln.provG.traceProvOfVariableByName(output_name);
@@ -75,8 +75,11 @@ int main(int argc, char* argv[]) {
   query_of_output.saveGraph();
 
   /* compute variable using provenance */
+  // cout << "compute record: " << query_of_output.getVertexValueByName(output_name) << endl;
+  unordered_map<string, double> changedEDBs = {{"potential_37_0", 1}};
   t1 = clock();
-  cout << "compute result: " << query_of_output.computeVariableByName(output_name) << endl;;
+  double changedResult = query_of_output.computeVariableWithChangedEDBs(output_name, changedEDBs);
+  cout << "compute result: " << changedResult << endl;;
   t2 = clock();
   cout << "time cost of computing variable using provenance: " << (t2-t1)*1.0/CLOCKS_PER_SEC << endl;
 }

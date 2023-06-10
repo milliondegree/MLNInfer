@@ -117,7 +117,8 @@ vector<double> loopyBPRunWithProv(MLN* mln, string query) {
           string valueByNodeMsg_name = "valueByNodeMsg_"+to_string(c)+"_"+to_string(i)+"_"+toQuery[s]+"_"+to_string(truth_value)+"_iteration_"+to_string(iteration);
           vector<string> valueByNodeMsg_input_names {"value_"+to_string(c)+"_"+to_string(i)+"_iteration_"+to_string(iteration),
                                                     "nodeMsg_"+toQuery[s]+"_"+to_string(c)+"_"+to_string(truth_value)+"_iteration_"+to_string(iteration-1)};
-          mln->provG.addComputingSubgraph(valueByNodeMsg_name, valueByNodeMsg, Div, valueByNodeMsg_input_names);
+          unordered_map<string, string> params = {{"numerator_name", "value_"+to_string(c)+"_"+to_string(i)+"_iteration_"+to_string(iteration)}};
+          mln->provG.addComputingSubgraph(valueByNodeMsg_name, valueByNodeMsg, Div, valueByNodeMsg_input_names, params);
 
           newcliqueMsgs[c][toQuery[s]][truth_value] += valueByNodeMsg;
           /* update computing of cliqueMsg */
@@ -146,7 +147,7 @@ vector<double> loopyBPRunWithProv(MLN* mln, string query) {
     // initialize dists
     map<string, vector<double>> newDists;
     for (string literal : mln->queries) {
-      newDists[literal] = vector<double> (2, 0.5);
+      newDists[literal] = vector<double> (2, 1);
       for (int c : mln->c_map[literal]) {
         newDists[literal][0] *= cliqueMsgs[c][literal][0];
         newDists[literal][1] *= cliqueMsgs[c][literal][1];
@@ -164,17 +165,6 @@ vector<double> loopyBPRunWithProv(MLN* mln, string query) {
         dist_0_input_names.push_back("cliqueMsg_"+to_string(cc)+"_"+literal+"_0_iteration_"+to_string(iteration));
       }
       mln->provG.addComputingSubgraph(dist_0_name, newDists[literal][0], Mul, dist_0_input_names);
-
-      // compute distribution by scaling
-      double z = newDists[literal][0]+newDists[literal][1];
-      newDists[literal][0] /= z;
-      newDists[literal][1] /= z;
-      /* add subgraph of computing probabilities */
-      string prob_name = literal+"_iteration_"+to_string(iteration);
-      vector<string> prob_input_names {"dist_"+literal+"_0_iteration_"+to_string(iteration),
-                                      "dist_"+literal+"_1_iteration_"+to_string(iteration)};
-      unordered_map<string, double> params = {{"index", 1}};
-      mln->provG.addComputingSubgraph(prob_name, newDists[literal][1], Scale, prob_input_names, params);
     }
 
     // pass clique messages to nodes
@@ -188,19 +178,33 @@ vector<double> loopyBPRunWithProv(MLN* mln, string query) {
         string nodeMsg_1_name = "nodeMsg_"+literal+"_"+to_string(c)+"_1_iteration_"+to_string(iteration);
         vector<string> nodeMsg_1_input_names {"dist_"+literal+"_1_iteration_"+to_string(iteration),
                                               "cliqueMsg_"+to_string(c)+"_"+literal+"_1_iteration_"+to_string(iteration)};
-        mln->provG.addComputingSubgraph(nodeMsg_1_name, nodeMsgs[literal][c][1], Div, nodeMsg_1_input_names);
+        unordered_map<string, string> params_1 = {{"numerator_name", "dist_"+literal+"_1_iteration_"+to_string(iteration)}};
+        mln->provG.addComputingSubgraph(nodeMsg_1_name, nodeMsgs[literal][c][1], Div, nodeMsg_1_input_names, params_1);
         string nodeMsg_0_name = "nodeMsg_"+literal+"_"+to_string(c)+"_0_iteration_"+to_string(iteration);
         vector<string> nodeMsg_0_input_names {"dist_"+literal+"_0_iteration_"+to_string(iteration),
                                               "cliqueMsg_"+to_string(c)+"_"+literal+"_0_iteration_"+to_string(iteration)};
-        mln->provG.addComputingSubgraph(nodeMsg_0_name, nodeMsgs[literal][c][0], Div, nodeMsg_0_input_names);
+        unordered_map<string, string> params_0 = {{"numerator_name", "dist_"+literal+"_0_iteration_"+to_string(iteration)}};
+        mln->provG.addComputingSubgraph(nodeMsg_0_name, nodeMsgs[literal][c][0], Div, nodeMsg_0_input_names, params_0);
       }
-      
+    }
+
+    for (string literal : mln->queries) {
+      // compute distribution by scaling
+      double z = newDists[literal][0]+newDists[literal][1];
+      newDists[literal][0] /= z;
+      newDists[literal][1] /= z;
+      /* add subgraph of computing probabilities */
+      string prob_name = literal+"_iteration_"+to_string(iteration);
+      vector<string> prob_input_names {"dist_"+literal+"_0_iteration_"+to_string(iteration),
+                                      "dist_"+literal+"_1_iteration_"+to_string(iteration)};
+      unordered_map<string, string> params = {{"numerator_name", "dist_"+literal+"_1_iteration_"+to_string(iteration)}};
+      mln->provG.addComputingSubgraph(prob_name, newDists[literal][1], Scale, prob_input_names, params);
     }
 
     // check convergence
     converge = true;
     for (auto it : dists) {
-      if (abs(it.second[1]-newDists[it.first][1])>1e-3) {
+      if (abs(it.second[1]-newDists[it.first][1])>1e-2) {
         converge = false;
       }
     }

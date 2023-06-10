@@ -52,7 +52,7 @@ vector<double> loopyBPRun(MLN* mln, string query) {
 
   // the loopy bp begins
   bool converge = false;
-  int iteration = 0;
+  int iteration = 1;
   while (!converge&&iteration<1000) {
     // initialization newcliqueMsgs
     map<int, map<string, vector<double>>> newcliqueMsgs;
@@ -112,7 +112,7 @@ vector<double> loopyBPRun(MLN* mln, string query) {
     // check convergence
     converge = true;
     for (auto it : dists) {
-      if (abs(it.second[1]-newDists[it.first][1])>1e-3) {
+      if (abs(it.second[1]-newDists[it.first][1])>1e-2) {
         converge = false;
       }
     }
