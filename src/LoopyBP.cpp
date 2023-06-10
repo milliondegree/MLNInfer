@@ -112,7 +112,7 @@ vector<double> loopyBPRun(MLN* mln, string query) {
     // check convergence
     converge = true;
     for (auto it : dists) {
-      if (abs(it.second[1]-newDists[it.first][1])>1e-7) {
+      if (abs(it.second[1]-newDists[it.first][1])>1e-3) {
         converge = false;
       }
     }

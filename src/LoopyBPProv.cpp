@@ -171,9 +171,10 @@ vector<double> loopyBPRunWithProv(MLN* mln, string query) {
       newDists[literal][1] /= z;
       /* add subgraph of computing probabilities */
       string prob_name = literal+"_iteration_"+to_string(iteration);
-      vector<string> prob_input_names {"dist_"+literal+"_1_iteration_"+to_string(iteration),
-                                      "dist_"+literal+"_0_iteration_"+to_string(iteration)};
-      mln->provG.addComputingSubgraph(prob_name, newDists[literal][1], Scale, prob_input_names);
+      vector<string> prob_input_names {"dist_"+literal+"_0_iteration_"+to_string(iteration),
+                                      "dist_"+literal+"_1_iteration_"+to_string(iteration)};
+      unordered_map<string, double> params = {{"index", 1}};
+      mln->provG.addComputingSubgraph(prob_name, newDists[literal][1], Scale, prob_input_names, params);
     }
 
     // pass clique messages to nodes
@@ -199,7 +200,7 @@ vector<double> loopyBPRunWithProv(MLN* mln, string query) {
     // check convergence
     converge = true;
     for (auto it : dists) {
-      if (abs(it.second[1]-newDists[it.first][1])>1e-7) {
+      if (abs(it.second[1]-newDists[it.first][1])>1e-3) {
         converge = false;
       }
     }
