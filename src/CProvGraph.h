@@ -221,7 +221,8 @@ public:
 
 
   /* provenance query functions */
-  CProvGraph traceProvOfVariableByName(const std::string& name) {
+public:
+  CProvGraph ProvenanceQuery(const std::string& name) {
     ASSERT_EX(checkVertexExistByName(name), std::cout << name+" does not exist" << std::endl);
     vertex_t v = getVertexByName(name);
     
@@ -385,6 +386,24 @@ private:
     return numerator/ret;
   }
 
+
+public:
+  CProvGraph ApproximateSubGraphQuery(std::string& name) {
+    ASSERT_EX(checkVertexExistByName(name), std::cout << name+" does not exist" << std::endl);
+    vertex_t v = getVertexByName(name);
+    
+    // initialize CProvGraph of the the approximate query result
+    std::string new_save_path = save_path.substr(0, save_path.find("."));
+    new_save_path += "-"+name+"-approx.dot";
+    CProvGraph approxSubProvG(new_save_path);
+
+    // insert the source vertex to subProvG
+    assert(g[v].vt==Variable);
+    approxSubProvG.addVariableVertex(g[v].vt, g[v].name, g[v].isEDB, g[v].value);
+
+    std::cout << "start approximate subgraph query" << std::endl;
+    return approxSubProvG;
+  }
 
 
 

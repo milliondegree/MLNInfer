@@ -39,7 +39,7 @@ int main() {
 
   /* test traceProvOfVariableByName */
   cout << endl << "start tracing provenance of " << output_name << endl;
-  CProvGraph subProvG = provG.traceProvOfVariableByName(output_name);
+  CProvGraph subProvG = provG.ProvenanceQuery(output_name);
   subProvG.saveGraph();
   
 

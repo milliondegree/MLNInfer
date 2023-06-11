@@ -70,7 +70,7 @@ int main(int argc, char* argv[]) {
   string output_name = "topic_Department_29_iteration_2";
   if (args.find("variable_name")!=args.end()) output_name = args["variable_name"];
   t1 = clock();
-  CProvGraph query_of_output = mmln.provG.traceProvOfVariableByName(output_name);
+  CProvGraph query_of_output = mmln.provG.ProvenanceQuery(output_name);
   t2 = clock();
   cout << "time cost of provenance query: " << (t2-t1)*1.0/CLOCKS_PER_SEC << endl;
   // query_of_output.printVertex(query_of_output.getVertexByName(output_name));
