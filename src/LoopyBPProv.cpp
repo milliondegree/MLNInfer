@@ -38,8 +38,8 @@ vector<double> loopyBPRunWithProv(MLN* mln, string query) {
       nodeMsgs[literal][c] = vector<double> (2, nodeMsg_init_value);
       cliqueMsgs[c][literal] = vector<double> (2, cliqueMsg_init_value);
       /* build EDB vertices of initial nodeMsgs */
-      mln->provG.addVariableVertex(Variable, "nodeMsg_"+literal+"_"+to_string(c)+"_1_iteration_0", true, nodeMsg_init_value);
-      mln->provG.addVariableVertex(Variable, "nodeMsg_"+literal+"_"+to_string(c)+"_0_iteration_0", true, nodeMsg_init_value);
+      mln->provG.addVariableVertex(Parameter, "nodeMsg_"+literal+"_"+to_string(c)+"_1_iteration_0", nodeMsg_init_value);
+      mln->provG.addVariableVertex(Parameter, "nodeMsg_"+literal+"_"+to_string(c)+"_0_iteration_0", nodeMsg_init_value);
     }
     dists[literal] = vector<double> (2, 0.5);
   }
@@ -64,7 +64,7 @@ vector<double> loopyBPRunWithProv(MLN* mln, string query) {
   for (auto it : potentials) {
     for (int i=0; i<it.second.size(); i++) {
       string vertex_name = "potential_"+to_string(it.first)+"_"+to_string(i);
-      mln->provG.addVariableVertex(Variable, vertex_name, true, it.second[i]);
+      mln->provG.addVariableVertex(Input, vertex_name, it.second[i]);
     }
   }
 
