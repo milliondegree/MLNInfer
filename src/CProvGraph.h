@@ -103,6 +103,38 @@ struct my_graph_writer {
   }
 };
 
+class ApproxSubGraphDiff {
+public: 
+  std::unordered_set<std::string> EDBs;
+  float diff;
+  ApproxSubGraphDiff() {}
+  ApproxSubGraphDiff(const std::unordered_set<std::string>& s, float d): EDBs(s), diff(d) {}
+
+  bool operator == (const ApproxSubGraphDiff& asgd2) const {
+    return this->EDBs==asgd2.EDBs;
+  }
+};
+
+class ApproxSubGraphDiffComparison {
+public: 
+  ApproxSubGraphDiffComparison() {};
+  bool operator () (const ApproxSubGraphDiff& sd1, const ApproxSubGraphDiff& sd2) {
+    return sd1.diff>sd2.diff; 
+  }
+};
+
+class ApproxSubGraphDiffHash {
+public:
+  size_t operator () (const ApproxSubGraphDiff& sd) const {
+    hash<std::string> hasher;
+    size_t seed = sd.EDBs.size();
+    for (auto& i : sd.EDBs) {
+      seed ^= hasher(i) + 0x9e3779b9 + (seed << 6) + (seed >> 2);
+    }
+    return seed;
+  }
+};
+
 class CProvGraph {
 public:
   /* initializer*/
@@ -466,12 +498,13 @@ public:
     std::string new_save_path = save_path.substr(0, save_path.find("."));
     new_save_path += "-approx.dot";
 
+    std::priority_queue<ApproxSubGraphDiff, std::vector<ApproxSubGraphDiff>, ApproxSubGraphDiffComparison> pq;
+    std::unordered_set<ApproxSubGraphDiff, ApproxSubGraphDiffHash> visited;
+
     std::unordered_set<std::string> includedEDBs;
     int i = 0;
     for (std::string EDB : g[v].EDBs) {
       if (i%2==0) includedEDBs.insert(EDB);
-      std::cout << EDB << std::endl;
-      i++;
     }
     std::cout << includedEDBs.size() << ' ' << g[v].EDBs.size() << std::endl;
     bool converge = true;
