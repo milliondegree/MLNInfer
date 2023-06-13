@@ -6,8 +6,8 @@ np.set_printoptions(threshold=sys.maxsize)
 
 
 parser = argparse.ArgumentParser()
-parser.add_argument("-input", type=str)
-parser.add_argument("-output", type=str)
+parser.add_argument("--input", type=str)
+parser.add_argument("--output", type=str)
 args = parser.parse_args()
 
 

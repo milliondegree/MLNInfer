@@ -1,4 +1,7 @@
+import matplotlib
 import matplotlib.pyplot as plt
+matplotlib.rcParams['pdf.fonttype'] = 42
+matplotlib.rcParams['ps.fonttype'] = 42
 import pygraphviz as pgv
 import argparse
 import random
@@ -20,22 +23,27 @@ def setObsNode(G, node_name):
   G.add_node(node_name)
   n = G.get_node(node_name)
   n.attr['shape'] = 'oval'
-  n.attr['fontsize'] = 15
-  n.attr['fontname'] = 'sans-serif'
-  n.attr['height'] = 0.6
+  n.attr['fontsize'] = 20
+  # n.attr['fontname'] = 'sans-serif'
+  # n.attr['fontname'] = 'times:italic'
+  n.attr['height'] = 0.8
   n.attr['width'] = 0.8
-  n.attr['color'] = 'blue'
+  # n.attr['color'] = 'blue'
+  n.attr['color'] = '#1f77b4'
+  n.attr['penwidth'] = 3
 
 
 def setQueNode(G, node_name):
   G.add_node(node_name)
   n = G.get_node(node_name)
   n.attr['shape'] = 'oval'
-  n.attr['fontsize'] = 15
-  n.attr['fontname'] = 'sans-serif'
-  n.attr['height'] = 0.6
+  n.attr['fontsize'] = 20
+  # n.attr['fontname'] = 'sans-serif'
+  n.attr['height'] = 0.8
   n.attr['width'] = 0.8
-  n.attr['color'] = 'red'
+  n.attr['color'] = "#d62728"
+  # n.attr['len'] = 10
+  n.attr['penwidth'] = 3
 
 
 def replaceNodeName(node):
@@ -52,7 +60,7 @@ def replaceNodeName(node):
 
 
 def drawMLNGraph(obs, que, cliques, c_map, save_name):
-  G = pgv.AGraph(strict=True, directed=False)
+  G = pgv.AGraph(strict=True, directed=False, bgcolor='white', fontname="courier")
   G.graph_attr['rankdir'] = 'LR'
   # G.graph_attr['ranksep'] = 1
   # G.graph_attr['margin'] = 0.1
@@ -77,7 +85,7 @@ def drawMLNGraph(obs, que, cliques, c_map, save_name):
         used.append(node)
     for i in range(1, len(c)):
       for j in range(i+1, len(c)):
-        G.add_edge(replaceNodeName(c[i]), replaceNodeName(c[j]))
+        G.add_edge(replaceNodeName(c[i]), replaceNodeName(c[j]), penwidth=3)
   G.layout()
   G.draw(save_name)
 

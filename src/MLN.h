@@ -7,9 +7,11 @@
 #define PTARGET 1.0
 #define NOISE 0.5
 #define SARATIO 0.5
-#define SATEMPERATURE 80
-#define DEFAULT_ROUNDS 10000
+#define SATEMPERATURE 0.01
+#define DROP_RATE 0.98
+#define DEFAULT_ROUNDS 500
 #define MAX_VISIT 1000
+#define NUM_THREADS 4
 
 
 #include <iostream>
@@ -32,6 +34,11 @@
 using namespace std;
 
 
+enum Regulation {
+  l0, l2, l1, none
+};
+
+
 class MLN {
 public:
   MLN();
@@ -44,7 +51,6 @@ public:
   unordered_set<string> obs;
   unordered_set<string> queries;
   map<string, double> prob;
-  map<string, string> sames;
   map<string, vector<int>> c_map;
   unordered_map<string, unordered_map<string, double>> pd;
 
@@ -54,6 +60,8 @@ public:
   friend class Grader;
   friend class Pruner;
 
+  MLN operator + (const MLN& mln );
+
   void clear();
   void setProperty(string prov, map<string, double> prob);
   void setProv(string prov);
@@ -62,7 +70,6 @@ public:
   void setObs(unordered_set<string> obs);
   void setQueries(unordered_set<string> queries);
   void setProb(map<string, double> prob);
-  void setSames(map<string, string> sames);
   void setCMap(map<string, vector<int>> c_map);
   void setPd(unordered_map<string, unordered_map<string, double>> pd);
 
@@ -114,8 +121,15 @@ public:
   string toString();
   void saveToFile(ofstream& file);
 
-  MLN approximateSubGraph(string query, double target, double delta);
-  MLN approximateSubGraph_v2(string query, double target, double delta, int max_clique_number);
+  MLN approximateSubGraph(string query, double target, int rounds, double delta);
+  MLN approximateSubGraph_v2(string query, double target, int rounds, double delta, int max_clique_number);
+  MLN approximateSubGraph_v3(string query, double target, int rounds, double delta, int max_clique_number);
+
+  bool connectivity(string& query);
+
+  double computeCrossEntropyLoss(const string& target, const vector<string>& query_names, map<string, double>& original_probs, Regulation regulation, double theta);
+  map<string, double> computeGradients(const string& target, const vector<string>& query_names, map<string, double>& original_probs, Regulation regulation, double theta, int rule_name);
+  void updateObs(vector<pair<string, double>>& gradients, double delta, size_t number_of_changes);
 
   void buildCliqueMaps();
 
@@ -146,6 +160,7 @@ private:
 class Parser {
 public:
   Parser();
+  Parser(int rule_name);
 
   void parseProvenance(MLN& mln);
   void extendCliques(MLN& mln);
@@ -162,6 +177,7 @@ private:
   vector<string> parseRule(MLN& mln, string& prov, int& i);
   vector<string> parseRuleBody(MLN& mln, string& prov, int& i);
   bool findIn(MLN& mln, Clique& c);
+  int rule_name_obs;
 };
 
 
@@ -172,6 +188,7 @@ public:
 
   void computeGradients_v2(MLN& mln, string query, int round, double delta);
   void computeGradient(MLN& mln, string query, string infl, int round, double delta, string mode);
+  void computeGradient(MLN& mln, vector<string>& query_names, string infl, int round, double delta);
   unordered_set<string> getValidObservedTuples(MLN& mln, string query);
 
   ~Grader();
@@ -181,16 +198,6 @@ private:
   void dfsSearch(MLN& mln, unordered_set<string>& valid_obs, vector<bool>& visited, string& query);
 };
 
-
-class Pruner {
-public:
-  Pruner();
-
-  MLN prune(MLN& mln, string query, double delta);
-  MLN prune_v2(MLN& mln, string query, double delta);
-
-  ~Pruner();
-};
 
 
 #endif

@@ -1,5 +1,20 @@
-import matplotlib.pyplot as plt 
+import matplotlib
+import matplotlib.pyplot as plt
+matplotlib.rcParams['pdf.fonttype'] = 42
+matplotlib.rcParams['ps.fonttype'] = 42
 import numpy as np
+
+def numberToStr(n):
+  mag = 0
+  while n/1000>1:
+    n = n/1000
+    mag += 1
+  substring = ""
+  if mag==1:
+    substring = 'k'
+  elif mag==2:
+    substring = 'm'
+  return str(n)+substring
 
 def drawQueryTimes():
   xList = ["100", "200", "300", "400", "500", "600", "700", "800", "900", "1000", "1100", "1200", "1300", "1400"]
@@ -32,26 +47,42 @@ def drawQueryTimes_5():
 
 
 def drawMaintenanceTime_7():
-  ax = plt.subplot(111)
-  xList = ["100", "200", "300", "400", "500", "600", "700", "800", "900", "1000"]
+  fig, ax = plt.subplots(figsize=(10, 6))
+  ax2 = ax.twinx()
+  xList = ["100", "200", "300", "400", "500", "600", "700", "800", "900", "1k"]
   queryList1 = [29.8, 59.1, 90.07, 120.8, 150.5, 186, 206.3, 237.3, 268.6, 296.1]
   queryList2 = [7.70942, 15.3306, 23.4762, 29.7336, 39.1901, 46.2846, 54.4626, 60.7309, 67.4802, 75.6743]
+  queryList3 = [0.19584989227166277, 0.3430643559322034, 0.567240964669739, 0.8340344311926606, 1.1361911626139818,
+                1.778336606980273, 2.1400285422960725, 2.665217135746606, 4.558864328335832, 7.186616805097452]
   x = np.arange(len(xList))
-  w = 0.3
-  ax.bar(x-0.5*w, queryList2, w, label='maintenance without provenance', color='b')
-  ax.bar(x+0.5*w, queryList1, w, label='maintenance with provenance', color='r')
-  ax.set_ylabel('maintenance time')
+  w = 0.24
+  lw = 0
+  ax.bar(x-w, queryList2, w, label='Maintenance w/o provenance', color="tab:blue", edgecolor="black", linewidth=lw)
+  ax.bar(x, queryList1, w, label='Maintenance with provenance', color="tab:orange", edgecolor="black", linewidth=lw)
+  ax2.bar(x+w, queryList3, w, label="Provenance query", color="tab:green", edgecolor="black", linewidth=lw)
+  box = ax.get_position()
+  ax.set_position([box.x0, box.y0+box.height*0.1, box.width, box.height*0.8])
+
+  fs1 = 23
+  fs2 = 20
+  ax.set_ylabel('Time (s)', fontsize=fs1)
   ax.set_yscale("linear")
-  ax.set_xlabel('sample size')
+  ax.set_xlabel('Sample size', fontsize=fs1)
   ax.set_xticks(x)
-  ax.set_xticklabels(xList)
-  ax.legend()
-  plt.show()
+  ax.set_xticklabels(xList, fontsize=fs2)
+  ax.set_yticks(list(range(0, 301, 50)))
+  ax.set_yticklabels([str(ele) for ele in list(range(0, 301, 50))], fontsize=fs2)
+  ax2.set_yticks(list(range(0, 9, 1)))
+  ax2.set_ylabel("Time (s)", fontsize=fs1)
+  ax2.set_yticklabels([str(ele) for ele in list(range(0, 8))], fontsize=fs2)
+  fig.legend(fontsize=19, loc='upper center', bbox_to_anchor=(0.38,0.8),fancybox=True)
+  ax.grid(axis='y')
+  plt.savefig("./data/hypertext-class/sample7/images/maintain_query.pdf")
 
 
 def drawQueryTimes_7():
-  ax = plt.subplot(111)
-  xList = ["100", "200", "300", "400", "500", "600", "700", "800", "900", "1000"]
+  fig, ax = plt.subplots(figsize=(10,6))
+  xList = ["100", "200", "300", "400", "500", "600", "700", "800", "900", "1k"]
   # queryList1 = [0.196, 0.343, 0.567, 0.834, 1.136, 1.778, 2.14, 2.66, 4.56, 7.18]
   queryList1 = [0.19584989227166277, 0.3430643559322034, 0.567240964669739, 0.8340344311926606, 1.1361911626139818,
                 1.778336606980273, 2.1400285422960725, 2.665217135746606, 4.558864328335832, 7.186616805097452]
@@ -64,11 +95,23 @@ def drawQueryTimes_7():
   # queryList = list(ql)
   queryList = queryList1
 
-  ax.bar(xList, queryList, width=0.3, color="blue")
-  ax.set_xlabel("sample size")
-  ax.set_ylabel("average time of provenance query")
-  ax.set_yscale('log')
-  plt.show()
+  fs1 = 26
+  fs2 = 20
+  x = np.arange(len(xList))
+  ax.bar(x, queryList, color="tab:green", width=0.6, edgecolor="black", linewidth=2)
+  box = ax.get_position()
+  ax.set_position([box.x0+box.width*0.05, box.y0+box.height*0.1, box.width, box.height*0.8])
+
+  ax.set_xlabel("Sample size", fontsize=fs1)
+  ax.set_xticks(x)
+  ax.set_xticklabels(xList, fontsize=fs2)
+  ax.set_ylabel("Time (s)", fontsize=fs1)
+  yList = list(range(0, 9, 1))
+  ax.set_yticks(yList)
+  ax.set_yticklabels([str(ele) for ele in yList], fontsize=fs2)
+  ax.set_yscale('linear')
+  ax.grid(axis='y')
+  plt.savefig("./data/hypertext-class/sample7/images/provenance_query.pdf")
 
 
 def drawQueryTimes_11():
@@ -290,6 +333,190 @@ def drawProbTimes():
   plt.show()
 
 
+def drawQueries():
+  '''
+  avg graph time: 0.0202991
+  avg prob time: 0.010455
+  avg approx time: nan
+  avg influ time: 3.06145
+  avg counter time: 3.05681
+
+  avg graph time: 0.0204404
+  avg prob time: 0.0102869
+  avg approx time: 0.0556107
+  avg influ time: 0.00423326
+  avg counter time: 0.00450855
+  '''
+
+  fig, ax = plt.subplots(figsize=(10, 6))
+  ax2 = ax.twinx()
+  xList = ["100", "200", "300", "400", "500", "600", "700", "800", "900", "1k"]
+  w = 0.36
+  x = np.arange(len(xList))
+  
+  graph_times = [4, 5, 6, 7, 7, 8, 9, 8, 9, 10]
+  ax.bar(x-0.5*w, graph_times, w, label='Graph query', color="tab:blue", edgecolor="black", linewidth=0)
+
+  approx_times = [8, 8, 10, 20, 43, 100, 160, 206, 227, 301]
+  ax.bar(x-0.5*w, approx_times, w, bottom=graph_times, color="tab:purple", label="Approx query", edgecolor="black", linewidth=0)
+
+  # prob_times_before = [0, 0, 0, 0, 0, 0, 0, 0, 0, 10]
+
+  influ_times = [0.02, 0.04, 0.08, 0.1, 0.3, 0.75, 1.0, 1.2, 1.8, 3.061]
+  ax2.bar(x+0.5*w, influ_times, w, label='Influ query w/o approx query', color="tab:orange", hatch='++', edgecolor="black", linewidth=0)
+
+  counter_times = [0.04, 0.1, 0.2, 0.45, 1, 1.9, 2.3, 3, 5.5, 9.061]
+  ax2.bar(x+0.5*w, counter_times, w, bottom=influ_times, label='CFE query w/o approx query', color="tab:green", hatch='++', edgecolor="black", linewidth=0)
+  
+  influ_times_approx = [2, 4, 6, 8, 12, 16, 20, 30, 36, 41]
+  ax.bar(x-0.5*w, influ_times_approx, w, bottom=[graph_times[i]+approx_times[i] for i in range(10)], label="Influ query with approx query", color="tab:orange", hatch='xx', edgecolor="black", linewidth=0)
+
+  counter_times_approx = [4, 8, 12, 15, 24, 50, 56, 85, 100, 123]
+  ax.bar(x-0.5*w, counter_times_approx, w, bottom=[graph_times[i]+approx_times[i]+influ_times_approx[i] for i in range(10)], label="CFE query with approx query", color="tab:green", hatch='xx', edgecolor="black", linewidth=0)
+  
+  box = ax.get_position()
+  ax.set_position([box.x0, box.y0+box.height*0.1, box.width, box.height*0.8])
+
+  fs1 = 24
+  fs2 = 18
+  ax.set_ylabel('Time (ms)', fontsize=fs1)
+  ax.set_xlabel('Sample size', fontsize=fs1)
+  ax2.set_ylabel("Time (s)", fontsize=fs1)
+  ax2.set_ylim(0, 14)
+  ax.set_xticks(x)
+  ax.set_xticklabels(xList, fontsize=fs2)
+  ax.set_ylim(0, 502)
+  yList1 = list(range(0, 501, 40))
+  ax.set_yticks(yList1)
+  ax.set_yticklabels([str(ele) for ele in yList1], fontsize=fs2)
+  yList2 = list(range(0, 14, 2))
+  ax2.set_yticks(yList2)
+  ax2.set_yticklabels([str(ele) for ele in yList2], fontsize=fs2)
+  ax.set_yscale("linear")
+  fig.legend(fontsize=16, ncol=1, loc='upper center', bbox_to_anchor=(0.35,0.8),fancybox=True)
+  ax.grid(axis='y')
+  plt.savefig("./data/hypertext-class/sample7/images/queries.pdf")
+
+
+def drawApprox():
+  fig, ax = plt.subplots(figsize=(10, 6))
+  ax2 = ax.twinx()
+  # xList = ["0.001", "0.002", "0.003", "0.004", "0.005", "0.006", "0.007", "0.008", "0.009", "0.01"]
+  # cliques = [7.3, 6.36, 5.8, 5.6, 5.52, 5.26, 5.21, 5.15, 5.26, 3.57]
+  # approx_time = [815, 733, 737, 584, 569, 541, 539, 542, 541, 269]
+  # infl_time = [50, 43, 36, 40, 40, 37, 36, 39, 37, 19]
+  # counter_time = [375, 350, 338, 377, 336, 337, 340, 337, 337, 168]
+  # xList = ["0.001", "0.002", "0.004", "0.01"]
+  # cliques = [7.3, 6.36, 5.6, 3.57]
+  # approx_time = [815, 733, 584,269]
+  # infl_time = [50, 43, 40, 19]
+  # counter_time = [375, 350, 377, 168]
+
+  # xList = ["0.001", "0.002", "0.003", "0.004", "0.005", "0.006", "0.007", "0.008", "0.009", "0.01"]
+  # cliques = [6.08, 4.87, 4.31, 4.11, 3.88, 3.68, 3.61, 3.58, 3.49, 3.18]
+  # approx_time = [816, 656, 559, 451, 377, 399, 344, 382, 402, 334]
+  # infl_time = [25, 19, 19.2, 18.1, 18.5, 18.5, 16.6, 18, 19, 14]
+  # counter_time = [319/2, 295/2, 278/2, 273/2, 282/2, 287/2, 263/2, 297/2, 311/2, 215/2]
+  xList = ["0.0001", "0.001", "0.002", "0.003", "0.004", "0.005", "0.007","0.01"]
+  cliques = [8.74, 6.08, 4.87, 4.31, 4.11, 3.88, 3.61, 3.18]
+  approx_time = [1496, 816, 656, 559, 451, 377, 344, 334]
+  infl_time = [51, 25, 19, 19.2, 18.1, 18.5, 16.6, 14]
+  counter_time = [521/2, 319/2, 295/2, 278/2, 273/2, 282/2, 263/2, 215/2]
+  x = np.arange(len(xList))
+  w = 0.36
+  lw = 2
+  ax.bar(x-0.5*w, approx_time, w, label='Approx query', color="tab:purple", edgecolor="black", linewidth=lw)
+  ax.bar(x+0.5*w, infl_time, w, label="Infl query", color="tab:orange", edgecolor="black", linewidth=lw)
+  ax.bar(x+0.5*w, counter_time, w, bottom=infl_time, label="Cnt query", color="tab:green", edgecolor="black", linewidth=lw)
+  ax2.plot(x, cliques, '^-', label="Clique number", color="tab:blue",  linewidth=lw, markersize=8)
+  box = ax.get_position()
+  ax.set_position([box.x0, box.y0+box.height*0.1, box.width, box.height*0.8])
+
+  fs1 = 20
+  fs2 = 16
+  ax.set_xlabel('Sample size', fontsize=fs1)
+  ax.set_xticks(x)
+  ax.set_xticklabels(xList, fontsize=fs2)
+  ax.set_ylabel('Time (ms)', fontsize=fs1)
+  # ax.set_yscale("log")
+  # ax.set_ylim(0, 1600)
+  # yList1 = [0, 10, 100, 1000]
+  # ax.set_yticks(yList1)
+  # ax.set_yticklabels([str(ele) for ele in yList1], fontsize=fs2)
+  ax.get_yaxis().set_major_formatter(matplotlib.ticker.ScalarFormatter())
+  # ax2.set_ylim(0, 9)
+  # ax2.set_yscale("log")
+  ax2.set_ylabel("Clique number", fontsize=fs1)
+  # ax2.set_yticklabels([str(ele) for ele in yList2], fontsize=fs2)
+  ax2.get_yaxis().set_major_formatter(matplotlib.ticker.ScalarFormatter())
+  yList2 = [3, 4, 5, 6, 7]
+  ax2.set_yticks(yList2)
+  fig.legend(fontsize=15, loc='upper center', bbox_to_anchor=(0.38,0.8),fancybox=True)
+  ax.grid(axis='y')
+  plt.savefig("./data/hypertext-class/sample7/images/approx.pdf")
+
+
+def overallComparison():
+  iters = [23, 37, 74, 83, 90, 39, 43, 43, 109, ]
+  # alchemy_total = [1.04, 1.32, 1.68, 1.89, 2.09, 2.94, 2.67, 3.07, 3.1, ]
+  alchemy_grounding = [148, 180, 184, 188, 204, 212, 304, 320, 356, 360]
+  alchemy_bp = [170, 220, 260, 340, 430, 480, 560, 760, 810, 960] # ms
+  
+
+  fig, ax = plt.subplots(figsize=(16, 6))
+  ax2 = ax.twinx()
+  xList = ["100", "200", "300", "400", "500", "600", "700", "800", "900", "1k"]
+  w = 0.24
+  x = np.arange(len(xList))
+
+  ax.bar(x-w, alchemy_bp, w, label='Probability Inference of Alchemy', color="crimson", edgecolor="black", linewidth=0, hatch='--', alpha=0.7)
+  
+  # graph_times = [4, 5, 6, 7, 7, 8, 9, 8, 9, 10]
+  # ax.bar(x, graph_times, w, label='Graph Query', color="tab:blue", edgecolor="black", linewidth=0, hatch='xx')
+
+  approx_times = [8, 8, 10, 20, 43, 100, 160, 206, 227, 301]
+  ax.bar(x, approx_times, w, color="tab:purple", label="Approx Query", linewidth=0, hatch='xx', alpha=0.7)
+
+  # prob_times_before = [0, 0, 0, 0, 0, 0, 0, 0, 0, 10]
+
+  influ_times = [0.02, 0.04, 0.08, 0.1, 0.3, 0.75, 1.0, 1.2, 1.8, 3.061]
+  ax2.bar(x+w, influ_times, w, label='Influ Query w/o Approx Query', color="tab:orange", hatch='++', edgecolor="black", linewidth=0, alpha=0.7)
+
+  counter_times = [0.04, 0.1, 0.2, 0.45, 1, 1.9, 2.3, 3, 5.5, 9.061]
+  ax2.bar(x+w, counter_times, w, bottom=influ_times, label='CFE Query w/o Approx Query', color="tab:green", hatch='++', edgecolor="black", linewidth=0, alpha=0.7)
+  
+  influ_times_approx = [2, 4, 6, 8, 12, 16, 20, 30, 36, 41]
+  ax.bar(x, influ_times_approx, w, bottom=approx_times, label="Influ Query w/ Approx Query", color="tab:orange", hatch='xx', edgecolor="black", linewidth=0, alpha=0.7)
+
+  counter_times_approx = [4, 8, 12, 15, 24, 50, 56, 85, 100, 123]
+  ax.bar(x, counter_times_approx, w, bottom=[approx_times[i]+influ_times_approx[i] for i in range(10)], label="CFE Query w/ Approx Query", color="tab:green", hatch='xx', edgecolor="black", linewidth=0, alpha=0.7)
+  
+  box = ax.get_position()
+  ax.set_position([box.x0, box.y0+box.height*0.1, box.width, box.height*0.8])
+
+  fs1 = 24
+  fs2 = 18
+  ax.set_ylabel('Time (ms)', fontsize=fs1)
+  ax.set_xlabel('Sample size', fontsize=fs1)
+  ax2.set_ylabel("Time (s)", fontsize=fs1)
+  ax2.set_ylim(0, 14)
+  ax.set_xticks(x)
+  ax.set_xticklabels(xList, fontsize=fs2)
+  ax.set_ylim(0, 1000)
+  yList1 = list(range(0, 1001, 200))
+  ax.set_yticks(yList1)
+  ax.set_yticklabels([str(ele) for ele in yList1], fontsize=fs2)
+  yList2 = list(range(0, 14, 2))
+  ax2.set_yticks(yList2)
+  ax2.set_yticklabels([str(ele) for ele in yList2], fontsize=fs2)
+  ax.set_yscale("linear")
+  fig.legend(fontsize=20, ncol=1, loc='upper center', bbox_to_anchor=(0.26,0.98),fancybox=True)
+  # ax.legend(fontsize=20)
+  ax.grid(axis='y')
+  plt.tight_layout()
+  plt.savefig("./data/hypertext-class/sample7/images/overall_2.pdf")
+
+
 if __name__ == '__main__':
   # drawQueryTimes()
   # drawProbTimes()
@@ -309,3 +536,7 @@ if __name__ == '__main__':
   # drawInflQueryTimes_8AVG_Logscale()
   # drawTupleNumber_Logscale()
   # drawTupleNumber_11_Logscale()
+
+  # drawQueries()
+  # drawApprox()
+  overallComparison()

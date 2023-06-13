@@ -1,5 +1,8 @@
 from averageTime import parseFileFinal
-import matplotlib.pyplot as plt 
+import matplotlib
+import matplotlib.pyplot as plt
+matplotlib.rcParams['pdf.fonttype'] = 42
+matplotlib.rcParams['ps.fonttype'] = 42
 
 
 def drawSample7InfluGraph():

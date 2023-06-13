@@ -21,7 +21,6 @@ public:
   vector<string> getProv();
   void setProv(string pfile);
   map<string, double> getProb();
-  map<string, string> getSames();
   void setProb(string ofile); 
 
   ~Load();
@@ -29,7 +28,6 @@ public:
 private:
   vector<string> prov;
   map<string, double> prob;
-  map<string, string> sames;
 };
 
 

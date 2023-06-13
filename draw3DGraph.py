@@ -1,4 +1,7 @@
+import matplotlib
 import matplotlib.pyplot as plt
+matplotlib.rcParams['pdf.fonttype'] = 42
+matplotlib.rcParams['ps.fonttype'] = 42
 from mpl_toolkits.mplot3d import Axes3D
 
 import argparse

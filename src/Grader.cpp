@@ -48,14 +48,9 @@ void Grader::computeGradient(MLN& mln, string query, string infl, int round, dou
     mln.pd[query] = unordered_map<string, double> ();
   }
   clock_t t1 = clock();
-  if (mln.obs.find(infl)==mln.obs.end()) {
-    cout << infl << endl;
-    mln.pd[query][infl] = 0.0;
-    return;
-  }
   double prev = mln.prob[infl];
   double upper, lower;
-  if (prev>=0&&prev<=1) {
+  if (!Parser::isRuleName(infl)) {
     upper = min(1.0, mln.prob[infl]+delta);
     lower = max(0.0, mln.prob[infl]-delta);
   }
@@ -80,6 +75,7 @@ void Grader::computeGradient(MLN& mln, string query, string infl, int round, dou
     mln.loopyBeliefPropagationMCS(query, round);
   }
   double upper_prob = mln.queryProb(query);
+  // if (Parser::isRuleName(infl)) cout << infl << ' ' << mln.prob[infl] << ' ' << upper_prob << endl;
   mln.setObsProb(infl, lower);
   if (mode=="mcsat") {
     mln.mcsat(round, query);
@@ -97,8 +93,54 @@ void Grader::computeGradient(MLN& mln, string query, string infl, int round, dou
     mln.loopyBeliefPropagationMCS(query, round);
   }
   double lower_prob = mln.queryProb(query);
+  // if (Parser::isRuleName(infl)) cout << infl << ' ' << mln.prob[infl] << ' ' << lower_prob << endl;
   mln.setObsProb(infl, prev);
   mln.pd[query][infl] = (upper_prob-lower_prob) / (upper-lower);
+  clock_t t2 = clock();
+}
+
+
+
+void Grader::computeGradient(MLN& mln, vector<string>& query_names, string infl, int round, double delta) {
+  for (string query : query_names) {
+    assert(mln.queries.find(query)!=mln.queries.end() && mln.obs.find(infl)!=mln.obs.end());
+    if (mln.pd.find(query)==mln.pd.end()) {
+      mln.pd[query] = unordered_map<string, double> ();
+    }
+    if (mln.obs.find(infl)==mln.obs.end()) {
+      cout << infl << endl;
+      mln.pd[query][infl] = 0.0;
+      return;
+    }
+  }
+  clock_t t1 = clock();
+  double prev = mln.prob[infl];
+  double upper, lower;
+  if (prev>=0&&prev<=1) {
+    upper = min(1.0, mln.prob[infl]+delta);
+    lower = max(0.0, mln.prob[infl]-delta);
+  }
+  else {
+    upper = prev+delta;
+    lower = prev-delta;
+  }
+
+  map<string, double> upper_probs;
+  mln.setObsProb(infl, upper);
+  mln.loopyBeliefPropagationMCS(query_names[0], round);
+  for (string query_name : query_names) {
+    upper_probs[query_name] = mln.queryProb(query_name);
+  }
+
+  map<string, double> lower_probs;
+  mln.setObsProb(infl, lower);
+  mln.loopyBeliefPropagationMCS(query_names[0], round);
+  for (string query_name : query_names) {
+    lower_probs[query_name] = mln.queryProb(query_name);
+    mln.pd[query_name][infl] = (upper_probs[query_name]-lower_probs[query_name]) / (upper-lower);
+  }
+
+  mln.setObsProb(infl, prev);
   clock_t t2 = clock();
 }
 

@@ -1,9 +1,12 @@
 #include "MLN.h"
 
 
-Parser::Parser() {
+Parser::Parser() : Parser(0) {
 }
 
+Parser::Parser(int rule_name) {
+  this->rule_name_obs = rule_name;
+}
 
 Parser::~Parser() {
 }
@@ -38,6 +41,7 @@ void Parser::parseRuleHead(MLN& mln, string& prov, int& i) {
   // deal with cliques only contain one literal (single clique)
   string predName = extractName(rule_head);
   assert(mln.prob.find(predName)!=mln.prob.end());
+  if(this->rule_name_obs>0) mln.obs.insert(predName);
   Clique s_c = Clique(predName, rule_head, mln.prob[predName]);
   if (!findIn(mln, s_c)) {
     mln.cliques.push_back(s_c);
@@ -107,7 +111,7 @@ vector<string> Parser::parseRule(MLN& mln, string& prov, int& i) {
   }
   string rule_name = prov.substr(start, i-start);
   assert(mln.prob.find(rule_name)!=mln.prob.end());
-  mln.obs.insert(rule_name);
+  if (this->rule_name_obs>0) mln.obs.insert(rule_name);
   while (prov[i]!='(') {
     i++;
   }
@@ -164,7 +168,7 @@ vector<string> Parser::parseRuleBody(MLN& mln, string& prov, int& i) {
 
 string Parser::extractName(string& s) {
   int i = 0;
-  while (s[i]!='_') {
+  while (i<s.length()&&s[i]!='_') {
     i++;
   }
   return s.substr(0, i);
@@ -176,6 +180,7 @@ bool Parser::isRuleName(string& s) {
   if (tmp[0]!='r') {
     return false;
   }
+  if (tmp=="rl") return true;
   int i=1;
   while (i<tmp.size()&&tmp[i]>='0'&&tmp[i]<='9') {
     i++;

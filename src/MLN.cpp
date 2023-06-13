@@ -15,7 +15,40 @@ MLN::MLN(string prov, map<string, double> prob) {
 MLN::MLN(Load& load) {
   this->provs = load.getProv();
   this->prob = load.getProb();
-  this->sames = load.getSames();
+}
+
+
+
+MLN MLN::operator + (const MLN& mln) {
+  for (string literal : mln.obs) {
+    this->obs.insert(literal);
+  }
+  for (string literal : mln.queries) {
+    this->queries.insert(literal);
+  }
+  for (Clique c : mln.cliques) {
+    int ind = 0;
+    for (; ind<this->cliques.size(); ind++) {
+      if (this->cliques[ind]==c) break;
+    }
+    if (ind==this->cliques.size()) this->cliques.push_back(c);
+  }
+  map<string, vector<int>> new_cmap;
+  for (int ci=0; ci<this->cliques.size(); ci++) {
+    Clique c = this->cliques[ci];
+    for (string literal : c.getLiterals()) {
+      if (new_cmap.find(literal)==new_cmap.end()) {
+        new_cmap[literal] = vector<int> ();
+      }
+      new_cmap[literal].push_back(ci);
+    }
+  }
+  this->c_map = new_cmap;
+  map<string, double> mln_prob = mln.prob;
+  for (string literal : mln.obs) {
+    this->prob[literal] = mln_prob[literal];
+  }
+  return *this;
 }
 
 
@@ -65,11 +98,6 @@ void MLN::setQueries(unordered_set<string> queries) {
 
 void MLN::setProb(map<string, double> prob) {
   this->prob = prob;
-}
-
-
-void MLN::setSames(map<string, string> sames) {
-  this->sames = sames;
 }
 
 
@@ -309,7 +337,6 @@ MLN MLN::getMinimalMLN(string& query) {
   vector<bool> visited (this->cliques.size(), false);
   dfsSearch(valid_unknown, visited, query);
 
-  // mmln.setProb(this->prob);
   vector<Clique> mcliques;
   unordered_set<string> mobs;
   unordered_set<string> mqueries;
@@ -317,9 +344,9 @@ MLN MLN::getMinimalMLN(string& query) {
   for (int i=0; i<this->cliques.size(); i++) {
     if (visited[i]) {
       mcliques.push_back(this->cliques[i]);
-      if (!this->cliques[i].isSingular()) {
-        mobs.insert(this->cliques[i].getRuleName());
-      }
+      // if (!this->cliques[i].isSingular()) {
+      mobs.insert(this->cliques[i].getRuleName());
+      // }
       for (string literal : this->cliques[i].getLiterals()) {
         if (mc_map.find(literal)==mc_map.end()) {
           mc_map[literal] = vector<int> ();
@@ -334,10 +361,6 @@ MLN MLN::getMinimalMLN(string& query) {
       }
     }
   }
-  // map<string, double> mprob;
-  // for (string literal : mobs) {
-  //   mprob[literal] = this->prob[literal];
-  // }
   mmln.setCliques(mcliques);
   mmln.setObs(mobs);
   mmln.setQueries(mqueries);
@@ -350,10 +373,6 @@ MLN MLN::getMinimalMLN(string& query) {
 void MLN::setObsProb(string str, double p) {
   assert(this->obs.find(str)!=this->obs.end());
   this->prob[str] = p;
-  if (this->sames.find(str)!=this->sames.end()) {
-    this->prob[this->sames[str]] = p;
-  }
-  return ;
 }
 
 
@@ -384,7 +403,7 @@ void MLN::gibbsSampling(int round) {
       vector<double> potentials_1;
       for (int i : indices) {
         Clique c = this->cliques[i];
-        map<string, int> truth;
+        unordered_map<string, int> truth;
         vector<string> literals = c.getLiterals();
         for (string literal : literals) {
           if (this->obs.find(literal)!=this->obs.end()) {
@@ -401,9 +420,9 @@ void MLN::gibbsSampling(int round) {
           }
         }
         truth[query] = 1;
-        potentials_1.push_back(c.getPotential(truth));
+        potentials_1.push_back(c.satisifiablity(truth)*this->prob[c.getRuleName()]);
         truth[query] = 0;
-        potentials_0.push_back(c.getPotential(truth));
+        potentials_0.push_back(c.satisifiablity(truth)*this->prob[c.getRuleName()]);
       }
       double sum_1 = 0;
       for (double p : potentials_1) {
@@ -905,15 +924,15 @@ void MLN::buildCliqueMaps() {
 
 string MLN::toString() {
   string res;
-  res += "obs: ";
+  res += "obs: "+to_string(this->obs.size())+"\n";
   for (string literal : this->obs) {
     res += literal + " ";
   }
-  res += "\nqueries: ";
+  res += "\nqueries: "+to_string(this->queries.size())+"\n";
   for (string literal : this->queries) {
     res += literal + " ";
   }
-  res += "\ncliques: \n";
+  res += "\ncliques: "+to_string(this->cliques.size())+"\n";
   for (Clique c : this->cliques) {
     res += c.toString()+"\n";
   }
@@ -951,6 +970,12 @@ void MLN::saveToFile(ofstream& file) {
     }
     file << endl;
   }
+  for (string literal : this->obs) {
+    if (this->prob.find(literal)!=this->prob.end()) {
+      file << "prob: " << literal << ' ' << this->prob[literal];
+    }
+    file << endl;
+  }
 }
 
 
@@ -972,6 +997,140 @@ void MLN::dfsSearch(unordered_set<string>& valid_unknown, vector<bool>& visited,
     }
   }
 }
+
+
+bool MLN::connectivity(string& query) {
+  if (this->queries.find(query)==this->queries.end()) {
+    return false;
+  }
+  unordered_set<string> valid_unknown;
+  vector<bool> visited (this->cliques.size(), false);
+  dfsSearch(valid_unknown, visited, query);
+  bool res = true;
+  for (bool b : visited) {
+    res &= b;
+  }
+  return res;
+}
+
+
+map<string, double> MLN::computeGradients(const string& target, 
+                                          const vector<string>& query_names, 
+                                          map<string, double>& original_probs,
+                                          Regulation regulation, 
+                                          double theta,
+                                          int rule_name) {
+  assert(find(query_names.begin(), query_names.end(), target)!=query_names.end());
+  map<string, double> softmax;
+  map<string, double> gradients;
+  double presum = 0;
+  for (string query_name : query_names) {
+    assert(this->prob.find(query_name)!=this->prob.end());
+    softmax[query_name] = exp(this->prob[query_name]);
+    presum += softmax[query_name];
+  }
+  for (string query_name : query_names) {
+    softmax[query_name] /= presum;
+  }
+  for (string literal : this->obs) {
+    if (Parser::isRuleName(literal) && rule_name==0) continue;
+    gradients[literal] = 0;
+    for (string query_name : query_names) {
+      if (query_name==target) {
+        gradients[literal] += (softmax[query_name]-1)*this->pd[query_name][literal];
+      }
+      else {
+        gradients[literal] += softmax[query_name]*this->pd[query_name][literal];
+      }
+    }
+  }
+  for (string literal : this->obs) {
+    if (Parser::isRuleName(literal) && rule_name==0) continue;
+    switch (regulation)
+    {
+    case l2: {
+      double reg_grad = theta*2*(this->prob[literal]-original_probs[literal]);
+      // cout << literal << ' ' << gradients[literal] << ' ' << reg_grad << endl;
+      gradients[literal] += reg_grad;
+      break;
+    }
+    case l1: {
+      // double square = pow(this->prob[literal]-original_probs[literal], 2);
+      // double reg_grad = theta / sqrt(square+1e-9) * (this->prob[literal]-original_probs[literal]);
+      // // cout << literal << ' ' << gradients[literal] << ' ' << reg_grad << endl;
+      // gradients[literal] += reg_grad;
+      double diff = max(0.0, min(1.0, this->prob[literal]-gradients[literal]))-original_probs[literal];
+      if (diff>theta) gradients[literal] += theta;
+      else if (diff<-theta) gradients[literal] -= theta;
+      else gradients[literal] = 0;
+      break;
+    }
+    default:
+      break;
+    }
+  }
+  return gradients;
+}
+
+
+double MLN::computeCrossEntropyLoss(const string& target, 
+                                    const vector<string>& query_names,
+                                    map<string, double>& original_probs,
+                                    Regulation regulation, 
+                                    double theta) {
+  assert(find(query_names.begin(), query_names.end(), target)!=query_names.end());
+  double loss = 0.0;
+  map<string, double> softmax;
+  double presum = 0;
+  for (string query_name : query_names) {
+    assert(this->prob.find(query_name)!=this->prob.end());
+    softmax[query_name] = exp(this->prob[query_name]);
+    presum += softmax[query_name];
+  }
+  softmax[target] /= presum;
+  loss += -log(softmax[target]);
+
+  double reg = 0.0;
+  for (string literal : this->obs) {
+    if (Parser::isRuleName(literal)) continue;
+    switch (regulation)
+    {
+    case l2:
+      reg += theta * pow(fabs(this->prob[literal]-original_probs[literal]), 2);
+      break;
+    case l1: {
+      double square = pow(this->prob[literal]-original_probs[literal], 2);
+      reg += theta * sqrt(square+1e-9);
+      break;
+    }
+    default:
+      break;
+    }
+  }
+  cout << "origin loss: " << loss << ", reg: " << reg << endl;
+  loss += reg;
+  return loss;
+}
+
+
+
+void MLN::updateObs(vector<pair<string, double>>& gradients, double delta, size_t number_of_changes) {
+  number_of_changes = std::min(number_of_changes, gradients.size());
+  size_t count = 0;
+  for (auto it : gradients) {
+    string obs_literal = it.first;
+    double obs_gradient = it.second;
+    double tmp = this->prob[obs_literal]-delta*obs_gradient;
+    tmp = max(0.0, min(1.0, tmp));
+    cout << "new " << obs_literal << ": " << tmp << endl;
+    if (this->prob[obs_literal]==tmp) continue;
+    this->prob[obs_literal] = max(0.0, min(1.0, tmp));
+    count++;
+    if (count>=number_of_changes) break;
+  }
+  return;
+}
+
 
 
 MLN::~MLN() {

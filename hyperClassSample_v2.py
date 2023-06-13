@@ -16,11 +16,14 @@ if not os.path.exists(args.dir):
   os.makedirs(args.dir)
   os.makedirs(os.path.join(args.dir, "prov"))
   os.makedirs(os.path.join(args.dir, "images"))
+  os.makedirs(os.path.join(args.dir, "toplist"))
+  os.makedirs(os.path.join(args.dir, "counterfactual"))
 else:
   print(args.dir+" already exists")
 
 name = args.dir.split("/")[-1]
 
+mapfile = os.path.join(args.dir, name+".map")
 mfile = os.path.join(args.dir, "sample"+".olg")
 ofileList = []
 dfileList = []
@@ -28,6 +31,7 @@ for i in range(1, args.n+1):
   ofileList.append(os.path.join(args.dir, "sample"+str(i)+".obs"))
   dfileList.append(os.path.join(args.dir, "sample"+str(i)+".db"))
 
+mapf = open(mapfile, 'w')
 mf = open(mfile, "w")
 ofList = []
 dfList = []
@@ -66,9 +70,9 @@ for line in mlnFile.readlines():
 print(len(mlnList))
 
 indices = [i for i in range(len(mlnList))]
-random.shuffle(indices)
+# random.shuffle(indices)
 # mlnList = np.array(mlnList)[indices[:int(len(indices)*args.rm)]].tolist()
-mlnList = np.array(mlnList)[indices[:min(len(mlnList), 500)]].tolist()
+# mlnList = np.array(mlnList)[indices[:min(len(mlnList), 500)]].tolist()
 countr = len(mlnList)
 
 for i, l in enumerate(mlnList):
@@ -203,7 +207,11 @@ for i in range(args.n):
     of.write(olist[j])
     df.write(dlist[j])
 
-  
+
+ml = sorted([(m[key], key) for key in m], key=lambda ele : ele[0])
+for num, link in ml:
+  mapf.write(str(num)+" "+link+"\n")
+mapf.close()
 
 
 mf.close()

@@ -21,11 +21,6 @@ map<string, double> Load::getProb() {
 }
 
 
-map<string, string> Load::getSames() {
-  return this->sames;
-}
-
-
 void Load::setProv(string pfile) {
   ifstream ofin(pfile);
   string line;
@@ -54,10 +49,6 @@ void Load::setProb(string ofile) {
       string sp = split[1];
       if (!isalpha(sp[0])) {
         this->prob[literal] = stof(sp);
-      }
-      else {
-        this->sames[literal] = sp;
-        this->sames[sp] = literal;
       }
     }
   }

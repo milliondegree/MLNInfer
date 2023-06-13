@@ -524,10 +524,11 @@ vector<double> loopyBPRunMCS(MLN* mln, string query, map<int, vector<double>>& p
 
 void enumerateTotalPotentials(Clique& c,
                               map<int, vector<double>>& clique_potentials,
-                              map<string, int>& truth,
+                              unordered_map<string, int>& truth,
                               set<string>& prob_obs,
                               unordered_set<string>& queries,
                               vector<int>& obs_indices,
+                              map<string, double>& prob,
                               int pos
 ) {
   if (pos==c.getLiterals().size()) {
@@ -547,7 +548,7 @@ void enumerateTotalPotentials(Clique& c,
     if (clique_potentials.find(obs_index)==clique_potentials.end()) {
       clique_potentials[obs_index] = vector<double> ();
     }
-    clique_potentials[obs_index].push_back(exp(c.getPotential(truth)));
+    clique_potentials[obs_index].push_back(exp(c.satisifiablity(truth)*prob[c.getRuleName()]));
   }
   else {
     string literal = c.getLiterals()[pos];
@@ -555,18 +556,18 @@ void enumerateTotalPotentials(Clique& c,
       for (int i=0; i<=1; i++) {
         truth[literal] = i;
         obs_indices.push_back(i);
-        enumerateTotalPotentials(c, clique_potentials, truth, prob_obs, queries, obs_indices, pos+1);
+        enumerateTotalPotentials(c, clique_potentials, truth, prob_obs, queries, obs_indices, prob, pos+1);
         obs_indices.pop_back();
       }
     }
     else if (queries.find(literal)!=queries.end()) {
       for (int i=0; i<=1; i++) {
         truth[literal] = i;
-        enumerateTotalPotentials(c, clique_potentials, truth, prob_obs, queries, obs_indices, pos+1);
+        enumerateTotalPotentials(c, clique_potentials, truth, prob_obs, queries, obs_indices, prob, pos+1);
       }
     }
     else {
-      enumerateTotalPotentials(c, clique_potentials, truth, prob_obs, queries, obs_indices, pos+1);
+      enumerateTotalPotentials(c, clique_potentials, truth, prob_obs, queries, obs_indices, prob, pos+1);
     }
   }
 }
@@ -597,14 +598,14 @@ void MLN::loopyBeliefPropagationMCS(string query, int rounds) {
       total_potentials[i] = tmp;
     }
     else {
-      map<string, int> truth;
+      unordered_map<string, int> truth;
       for (string literal : c.getLiterals()) {
         if (this->obs.find(literal)!=this->obs.end()&&prob_obs.find(literal)==prob_obs.end()) {
           truth[literal] = (int)this->prob[literal];
         }
       }
       vector<int> obs_indices;
-      enumerateTotalPotentials(c, total_potentials[i], truth, prob_obs, this->queries, obs_indices, 0);
+      enumerateTotalPotentials(c, total_potentials[i], truth, prob_obs, this->queries, obs_indices, this->prob, 0);
     }
   }
 
@@ -623,13 +624,12 @@ void MLN::loopyBeliefPropagationMCS(string query, int rounds) {
   }
   
   // start monte carlo simulation + loopy bp
-  map<string, double> records;
-  map<string, int> count;
+  map<string, map<string, double>> records;
   map<string, int> sample;
   map<int, vector<double>> potentials;
-  double sum = 0;
+  map<string, double> sums;
+  // double sum = 0;
   for (int r=0; r<rounds; r++) {
-    // cout << "round "  << r << endl;
     string key = "";
     for (string literal : prob_obs) {
       double r = distribution(generator);
@@ -640,10 +640,11 @@ void MLN::loopyBeliefPropagationMCS(string query, int rounds) {
         sample[literal] = 0;
       }
       key += to_string(sample[literal]);
-      count[literal] += sample[literal];
     }
     if (records.find(key)!=records.end()) {
-      sum += records[key];
+      for (string query : queries) {
+        sums[query] += records[key][query];
+      }
       continue;
     }
     for (int ci=0; ci<this->cliques.size(); ci++) {
@@ -661,8 +662,18 @@ void MLN::loopyBeliefPropagationMCS(string query, int rounds) {
     }
     
     double p = loopyBPRunMCS(this, query, potentials, nodeMsgs, cliqueMsgs, dists, newDists)[1];
-    records[key] = p;
-    sum += p;
+
+    map<string, double> tmp = map<string, double>();
+    for (string literal : this->queries) {
+      sums[literal] += dists[literal][1];
+      tmp[literal] = dists[literal][1];
+    }
+    records[key] = tmp;
+
   }
-  this->prob[query] = sum/rounds;
+  for (string literal : this->queries) {
+    this->prob[literal] = sums[literal]/rounds;
+    // cout << literal << ' ' << this->prob[literal] << endl;
+  }
+  
 }
