@@ -18,6 +18,9 @@ int main(int argc, char* argv[]) {
     else if (argvs[i]=="-v" || argvs[i]=="-variable_name") {
       args["variable_name"] = argvs[i+1];
     }
+    else if (argvs[i]=="-e") {
+      args["epsilon"] = argvs[i+1];
+    }
   }
   
   string provenance_file = "/home/jz598/MLNInfer/data/smoke/prov/train.txt";
@@ -93,8 +96,14 @@ int main(int argc, char* argv[]) {
   // unordered_set<string> observedTuples = mln.getObsLiterals();
 
   /* PXAI - approximate subgraph*/
-  cout << "start approximate subgraph query\n"; 
-  CProvGraph approx_subgraph = query_of_output.ApproximateSubGraphQuery(output_name, 100);
+  double epsilon = 0.01;
+  if (args.find("epsilon")!=args.end()) epsilon = stod(args["epsilon"]);
+  cout << "start approximate subgraph query, epsilon: " << epsilon << endl; 
+  t1 = clock();
+  CProvGraph approx_subgraph = query_of_output.ApproximateSubGraphQuery(output_name, epsilon);
+  t2 = clock();
   approx_subgraph.saveGraph();
+  cout << "approximate subgraph query time: " << (t2-t1)*1.0/CLOCKS_PER_SEC << endl;
+  cout << "approximate subgraph size: " << approx_subgraph.getVertexEBDsByName(output_name).size() << "(# of input features)" << endl;
   cout << "approximate compute result: " << approx_subgraph.getVertexValueByName(output_name) << endl;
 }

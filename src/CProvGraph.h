@@ -18,14 +18,16 @@
 #define ASSERT_EX(condition, statement) ((void)0)
 #endif
 
-enum VertexType {Input, Variable, Parameter, Sum, Mul, Div, Scale};
+#define MAX_NUM_OF_SEARCH 100
+
+enum VertexType {Input, Derived, Parameter, Sum, Mul, Div, Scale};
 
 inline std::ostream& operator<<(std::ostream& out, const VertexType value){
   const char* s = 0;
   #define PROCESS_VAL(p) case(p): s = #p; break;
     switch(value) {
       PROCESS_VAL(Input)
-      PROCESS_VAL(Variable)     
+      PROCESS_VAL(Derived)     
       PROCESS_VAL(Parameter)
       PROCESS_VAL(Sum)
       PROCESS_VAL(Mul)
@@ -40,7 +42,7 @@ inline std::string vertexTypeToString(VertexType vt) {
   std::string s;
   switch(vt) {
     case(Input): s = "input"; break;
-    case(Variable): s = "var"; break;
+    case(Derived): s = "derived"; break;
     case(Parameter): s = "param"; break;
     case(Sum): s = "sum"; break;
     case(Mul): s = "mul"; break;
@@ -59,7 +61,7 @@ struct ProvVertex {
 };
 
 struct ProvEdge{
-  float weight;
+  double weight;
 };
 
 typedef boost::adjacency_list<boost::vecS, boost::vecS, boost::directedS, ProvVertex, ProvEdge > Graph;
@@ -74,7 +76,7 @@ struct my_node_writer {
   void operator()(std::ostream& out, Vertex v) {
     if (g[v].vt==Input) 
       out << " [label=\"" << g[v].name << "\", shape=oval, color=dodgerblue]";
-    else if (g[v].vt==Variable) 
+    else if (g[v].vt==Derived) 
       out << " [label=\"" << g[v].name << "\", shape=oval, color=limegreen]";
     else if (g[v].vt==Parameter) 
       out << " [label=\"" << g[v].name << "\", shape=oval, color=darkviolet]";
@@ -98,7 +100,6 @@ struct my_graph_writer {
   void operator()(std::ostream& out) const {
     out << "graph [bgcolor=lightgrey]";
     out << "node [shape=circle color=blue]";
-    // just an example, showing that local options override global
     out << "edge [color=red]";
   }
 };
@@ -106,9 +107,9 @@ struct my_graph_writer {
 class ApproxSubGraphDiff {
 public: 
   std::unordered_set<std::string> EDBs;
-  float diff;
+  double diff;
   ApproxSubGraphDiff() {}
-  ApproxSubGraphDiff(const std::unordered_set<std::string>& s, float d): EDBs(s), diff(d) {}
+  ApproxSubGraphDiff(const std::unordered_set<std::string>& s, double d): EDBs(s), diff(d) {}
 
   bool operator == (const ApproxSubGraphDiff& asgd2) const {
     return this->EDBs==asgd2.EDBs;
@@ -123,17 +124,18 @@ public:
   }
 };
 
-class ApproxSubGraphDiffHash {
+class EDBSetHash {
 public:
-  size_t operator () (const ApproxSubGraphDiff& sd) const {
+  size_t operator () (const std::unordered_set<std::string>& EDBs) const {
     hash<std::string> hasher;
-    size_t seed = sd.EDBs.size();
-    for (auto& i : sd.EDBs) {
+    size_t seed = EDBs.size();
+    for (auto& i : EDBs) {
       seed ^= hasher(i) + 0x9e3779b9 + (seed << 6) + (seed >> 2);
     }
     return seed;
   }
 };
+
 
 class CProvGraph {
 public:
@@ -168,13 +170,17 @@ public:
     return g[v].EDBs;
   }
 
+  inline std::unordered_set<std::string> getVertexEBDsByName(const std::string& name) {
+    return g[getVertexByName(name)].EDBs;
+  }
+
   inline double getVertexValueByName(const std::string& name) {
     return g[getVertexByName(name)].value;
   }
 
 
   /* write functions */
-  vertex_t addVariableVertex(const VertexType vt, const std::string& name, float value) {
+  vertex_t addVariableVertex(const VertexType vt, const std::string& name, double value) {
     ASSERT_EX(!checkVertexExistByName(name), std::cout << name+" already exists" << std::endl);
     vertex_t v = boost::add_vertex(g);
     vertex_set.insert(std::make_pair(name, v));
@@ -183,26 +189,6 @@ public:
     g[v].value = value;
     return v;
   }
-
-  // vertex_t addParameterVertex(const VertexType vt, const std::string& name, float value) {
-  //   ASSERT_EX(!checkVertexExistByName(name), std::cout << name+" already exists" << std::endl);
-  //   vertex_t v = boost::add_vertex(g);
-  //   vertex_set.insert(std::make_pair(name, v));
-  //   g[v].vt = vt;
-  //   g[v].name = name;
-  //   g[v].value = value;
-  //   return v;
-  // }
-
-  // vertex_t addInputVertex(const VertexType vt, const std::string& name, float value) {
-  //   ASSERT_EX(!checkVertexExistByName(name), std::cout << name+" already exists" << std::endl);
-  //   vertex_t v = boost::add_vertex(g);
-  //   vertex_set.insert(std::make_pair(name, v));
-  //   g[v].vt = vt;
-  //   g[v].name = name;
-  //   g[v].value = value;
-  //   return v;
-  // }
 
   vertex_t addOperatorVertex(const VertexType vt, const std::string& name) {
     ASSERT_EX(!checkVertexExistByName(name), std::cout << name+" already exists" << std::endl);
@@ -237,7 +223,7 @@ public:
       g[v_output].value = value;
     }
     else {
-      v_output = addVariableVertex(Variable, output_name, value);
+      v_output = addVariableVertex(Derived, output_name, value);
       v_operator = addOperatorVertex(vt, vertexTypeToString(vt)+"_"+output_name);
       addProvEdge(v_output, v_operator);
     }
@@ -260,7 +246,7 @@ public:
       g[v_output].value = value;
     }
     else {
-      v_output = addVariableVertex(Variable, output_name, value);
+      v_output = addVariableVertex(Derived, output_name, value);
       v_operator = addOperatorVertex(vt, vertexTypeToString(vt)+"_"+output_name, params);
       addProvEdge(v_output, v_operator);
     }
@@ -305,7 +291,7 @@ public:
     CProvGraph subProvG(new_save_path);
 
     // insert the source vertex to subProvG
-    ASSERT_EX(g[v].vt==Variable, std::cout << g[v].name << " is a " << vertexTypeToString(g[v].vt) << " vertex" << std::endl);
+    ASSERT_EX(g[v].vt==Derived, std::cout << g[v].name << " is a " << vertexTypeToString(g[v].vt) << " vertex" << std::endl);
     subProvG.addVariableVertex(g[v].vt, g[v].name, g[v].value);
 
     std::cout << "start provenance query" << std::endl;
@@ -335,7 +321,7 @@ private:
       }
       else {
         if (g[v].vt==Input) child = subProvG.addVariableVertex(g[v].vt, g[v].name, g[v].value);
-        else if (g[v].vt==Variable) child = subProvG.addVariableVertex(g[v].vt, g[v].name, g[v].value);
+        else if (g[v].vt==Derived) child = subProvG.addVariableVertex(g[v].vt, g[v].name, g[v].value);
         else child = subProvG.addVariableVertex(g[v].vt, g[v].name, g[v].value);
         subProvG.addProvEdge(a_operator, child);
         DFSProvQuery(v, subProvG);
@@ -491,32 +477,72 @@ public:
   CProvGraph ApproximateSubGraphQuery(std::string& name, double epsilon) {
     ASSERT_EX(checkVertexExistByName(name), std::cout << name+" does not exist" << std::endl);
     vertex_t v = getVertexByName(name);
-    ASSERT_EX(g[v].vt==Variable, std::cout << name << " is a " << vertexTypeToString(g[v].vt) << " vertex");
-    CProvGraph ret;
+    ASSERT_EX(g[v].vt==Derived, std::cout << name << " is a " << vertexTypeToString(g[v].vt) << " vertex");
+    double target = g[v].value;
     
     // initialize CProvGraph of the the approximate query result
     std::string new_save_path = save_path.substr(0, save_path.find("."));
     new_save_path += "-approx.dot";
 
     std::priority_queue<ApproxSubGraphDiff, std::vector<ApproxSubGraphDiff>, ApproxSubGraphDiffComparison> pq;
-    std::unordered_set<ApproxSubGraphDiff, ApproxSubGraphDiffHash> visited;
+    std::unordered_set<std::unordered_set<std::string>, EDBSetHash> visited;
 
+    double min_diff = 1.0;
+    std::unordered_set<std::string> min_set;
     std::unordered_set<std::string> includedEDBs;
-    int i = 0;
     for (std::string EDB : g[v].EDBs) {
-      if (i%2==0) includedEDBs.insert(EDB);
-    }
-    std::cout << includedEDBs.size() << ' ' << g[v].EDBs.size() << std::endl;
-    bool converge = true;
-    do {
+      std::unordered_set<std::string> includedEDBs;
+      includedEDBs.insert(EDB);
       CProvGraph approxSubProvG(new_save_path);
-      approxSubProvG.addVariableVertex(Variable, name, 0);
-
+      approxSubProvG.addVariableVertex(Derived, name, 0);
       DFSApproximateSubGraphQuery(v, approxSubProvG, includedEDBs);
-      ret = approxSubProvG;
-    } while (!converge);
-    
-    return ret;
+      double diff = std::abs(target-approxSubProvG.getVertexValueByName(name));
+      ApproxSubGraphDiff asgd(includedEDBs, diff);
+      if (asgd.diff<min_diff) {
+        min_set = asgd.EDBs;
+        min_diff = asgd.diff;
+      }
+      if (min_diff<epsilon) {
+        return approxSubProvG;
+      }
+      pq.push(asgd);
+      visited.insert(includedEDBs);
+    }
+
+    int iteration = 1;
+    while (!pq.empty() && visited.size()<MAX_NUM_OF_SEARCH) {
+      ApproxSubGraphDiff asgd = pq.top();
+      pq.pop();
+      if (asgd.diff<min_diff) {
+        min_set = asgd.EDBs;
+        min_diff = asgd.diff;
+      }
+      std::cout << "iteration: " << iteration << ", queue size: " << pq.size() << ", current min diff: " << min_diff << std::endl;
+      if (min_diff<epsilon) {
+        break;
+      }
+      // search neighbors of asgd.EDBs
+      unordered_set<std::string> includedEDBs = asgd.EDBs;
+      for (std::string EDB : g[v].EDBs) {
+        if (includedEDBs.find(EDB)==includedEDBs.end()) {
+          includedEDBs.insert(EDB);
+          if (visited.find(includedEDBs)!=visited.end()) continue;
+          CProvGraph approxSubProvG(new_save_path);
+          approxSubProvG.addVariableVertex(Derived, name, 0);
+          DFSApproximateSubGraphQuery(v, approxSubProvG, includedEDBs);
+          ApproxSubGraphDiff new_asgd(includedEDBs, std::abs(approxSubProvG.getVertexValueByName(name)-target));
+          pq.push(new_asgd);
+          visited.insert(includedEDBs);
+          includedEDBs.erase(EDB);
+        }
+      }
+      iteration++;
+    }
+
+    CProvGraph approxSubProvG(new_save_path);
+    approxSubProvG.addVariableVertex(Derived, name, 0);
+    DFSApproximateSubGraphQuery(v, approxSubProvG, min_set);
+    return approxSubProvG;
   }
 
   void updateVertexValue(vertex_t s) {
@@ -577,6 +603,7 @@ private:
           if (includedEDBs.find(g[v].name)!=includedEDBs.end()) {
             child = approxSubProvG.addVariableVertex(Input, g[v].name, g[v].value);
             approxSubProvG.addProvEdge(a_operator, child);
+            approxSubProvG.updateVertexEDBs(child);
           }
         }
         else if (g[v].vt==Parameter) {
@@ -585,7 +612,7 @@ private:
         }
         else {
           if (hasIntersection(g[v].EDBs, includedEDBs)) {
-            child = approxSubProvG.addVariableVertex(Variable, g[v].name, 0);
+            child = approxSubProvG.addVariableVertex(Derived, g[v].name, 0);
             DFSApproximateSubGraphQuery(v, approxSubProvG, includedEDBs);
             approxSubProvG.addProvEdge(a_operator, child);
           }
