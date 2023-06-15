@@ -104,6 +104,6 @@ int main(int argc, char* argv[]) {
   t2 = clock();
   approx_subgraph.saveGraph();
   cout << "approximate subgraph query time: " << (t2-t1)*1.0/CLOCKS_PER_SEC << endl;
-  cout << "approximate subgraph size: " << approx_subgraph.getVertexEBDsByName(output_name).size() << "(# of input features)" << endl;
+  cout << "original graph size: " << query_of_output.getVertexEBDsByName(output_name).size() << ", approximate subgraph size: " << approx_subgraph.getVertexEBDsByName(output_name).size() << " (# of input features)" << endl;
   cout << "approximate compute result: " << approx_subgraph.getVertexValueByName(output_name) << endl;
 }

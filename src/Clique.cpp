@@ -125,7 +125,7 @@ void Clique::enumerateTotalPotentials(
 
 
 void Clique::buildPotentialMaps(const unordered_set<string>& obs, const unordered_set<string>& queries, const map<string, double>& prob) {
-  this->all_potentials = map<int, vector<double>> ();
+  this->all_potentials = map<int, vector<double> > ();
   set<string> prob_obs;
   for (string literal : obs) {
     if (prob.at(literal)>0&&
@@ -145,7 +145,7 @@ void Clique::buildPotentialMaps(const unordered_set<string>& obs, const unordere
 }
 
 
-map<int, vector<double>> Clique::getAllPotentials() {
+map<int, vector<double> > Clique::getAllPotentials() {
   return this->all_potentials;
 }
 

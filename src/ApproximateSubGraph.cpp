@@ -68,7 +68,7 @@ MLN buildMLNFromCliqueIDs(MLN* mln, set<int>& clique_ids) {
   vector<Clique> cliques;
   unordered_set<string> obs;
   unordered_set<string> queries;
-  map<string, vector<int>> c_map;
+  map<string, vector<int> > c_map;
   map<string, double> prob;
   for (int ci : clique_ids) {
     Clique c = mln->cliques[ci];
@@ -370,7 +370,7 @@ MLN MLN::approximateSubGraph_v2(string query, double target, int rounds, double 
 
 
 
-bool checkExist(vector<set<int>>& s, set<int> t) {
+bool checkExist(vector<set<int> >& s, set<int> t) {
   for (auto it : s) {
     if (it==t) {
       return true;
@@ -426,7 +426,7 @@ MLN MLN::approximateSubGraph_v3(string query, double target, int rounds, double 
   // start search
   int r = 0;
   while (global_best_diff>delta && r<1000) {
-    vector<set<int>> neighbors;
+    vector<set<int> > neighbors;
     set<int> tmp_set = current;
     for (int ci : current) {
       tmp_set.erase(ci);

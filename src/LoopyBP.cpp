@@ -22,10 +22,10 @@ void enumerateTruth(Clique& c,
 
 vector<double> loopyBPRun(MLN* mln, string query) {
   // total initialization
-  map<string, map<int, vector<double>>> nodeMsgs;
-  map<int, map<string, vector<double>>> cliqueMsgs;
-  map<int, vector<double>> potentials;
-  map<string, vector<double>> dists;
+  map<string, map<int, vector<double> > > nodeMsgs;
+  map<int, map<string, vector<double> > > cliqueMsgs;
+  map<int, vector<double> > potentials;
+  map<string, vector<double> > dists;
   for (string literal : mln->queries) {
     for (int c : mln->c_map[literal]) {
       nodeMsgs[literal][c] = vector<double> (2, 1);
@@ -55,7 +55,7 @@ vector<double> loopyBPRun(MLN* mln, string query) {
   int iteration = 1;
   while (!converge&&iteration<1000) {
     // initialization newcliqueMsgs
-    map<int, map<string, vector<double>>> newcliqueMsgs;
+    map<int, map<string, vector<double> > > newcliqueMsgs;
     for (auto it1 : nodeMsgs) {
       for (auto it2 : it1.second) {
         newcliqueMsgs[it2.first][it1.first] = vector<double> (2, 0);
@@ -91,7 +91,7 @@ vector<double> loopyBPRun(MLN* mln, string query) {
     }
     cliqueMsgs = newcliqueMsgs;
     // initialize dists
-    map<string, vector<double>> newDists;
+    map<string, vector<double> > newDists;
     for (string literal : mln->queries) {
       newDists[literal] = vector<double> (2, 0.5);
     }
@@ -189,11 +189,11 @@ void MLN::loopyBeliefPropagation(string query) {
 
 /************************* advance loopy belief propagation ***********************/
 
-vector<double> pLoopyBPRun(MLN* mln, string query, map<int, vector<double>>& potentials) {
+vector<double> pLoopyBPRun(MLN* mln, string query, map<int, vector<double> >& potentials) {
   // total initialization
-  map<string, map<int, vector<double>>> nodeMsgs;
-  map<int, map<string, vector<double>>> cliqueMsgs;
-  map<string, vector<double>> dists;
+  map<string, map<int, vector<double> > > nodeMsgs;
+  map<int, map<string, vector<double> > > cliqueMsgs;
+  map<string, vector<double> > dists;
   for (string literal : mln->queries) {
     for (int c : mln->c_map[literal]) {
       nodeMsgs[literal][c] = vector<double> (2, 1);
@@ -207,7 +207,7 @@ vector<double> pLoopyBPRun(MLN* mln, string query, map<int, vector<double>>& pot
   while (!converge&&iteration<1000) {
     // cout << "iteration " << iteration << endl;
     // initialization newcliqueMsgs
-    map<int, map<string, vector<double>>> newcliqueMsgs;
+    map<int, map<string, vector<double> > > newcliqueMsgs;
     for (auto it1 : nodeMsgs) {
       for (auto it2 : it1.second) {
         newcliqueMsgs[it2.first][it1.first] = vector<double> (2, 0);
@@ -246,7 +246,7 @@ vector<double> pLoopyBPRun(MLN* mln, string query, map<int, vector<double>>& pot
     }
     cliqueMsgs = newcliqueMsgs;
     // initialize dists
-    map<string, vector<double>> newDists;
+    map<string, vector<double> > newDists;
     for (string literal : mln->queries) {
       newDists[literal] = vector<double> (2, 0.5);
     }
@@ -342,7 +342,7 @@ void MLN::pLoopyBeliefPropagation(string query) {
       nonprob_obs.insert(literal);
     }
   }
-  map<int, vector<double>> potentials;
+  map<int, vector<double> > potentials;
   for (int c=0; c<this->cliques.size(); c++) {
     map<string, int> truth;
     vector<string> toSearch;
@@ -447,11 +447,11 @@ void MLN::naiveLBPInfluence(string query, string infl) {
 /********************** Loopy BP with Monte Corlo Simulation ******************/
 
 
-vector<double> loopyBPRunMCS(MLN* mln, string query, map<int, vector<double>>& potentials,
-                            map<string, map<int, vector<double>>>& nodeMsgs,
-                            map<int, map<string, vector<double>>>& cliqueMsgs,
-                            map<string, vector<double>>& dists,
-                            map<string, vector<double>>& newDists) {
+vector<double> loopyBPRunMCS(MLN* mln, string query, map<int, vector<double> >& potentials,
+                            map<string, map<int, vector<double> > >& nodeMsgs,
+                            map<int, map<string, vector<double> > >& cliqueMsgs,
+                            map<string, vector<double> >& dists,
+                            map<string, vector<double> >& newDists) {
   // the loopy bp begins
   bool converge = false;
   int iteration = 0;
@@ -523,7 +523,7 @@ vector<double> loopyBPRunMCS(MLN* mln, string query, map<int, vector<double>>& p
 
 
 void enumerateTotalPotentials(Clique& c,
-                              map<int, vector<double>>& clique_potentials,
+                              map<int, vector<double> >& clique_potentials,
                               unordered_map<string, int>& truth,
                               set<string>& prob_obs,
                               unordered_set<string>& queries,
@@ -590,10 +590,10 @@ void MLN::loopyBeliefPropagationMCS(string query, int rounds) {
   }
 
   // build total potentials
-  map<int, map<int, vector<double>>> total_potentials;
+  map<int, map<int, vector<double> > > total_potentials;
   for (int i=0; i<this->cliques.size(); i++) {
     Clique c = this->cliques[i];
-    map<int, vector<double>> tmp = c.getAllPotentials();
+    map<int, vector<double> > tmp = c.getAllPotentials();
     if (tmp.size()!=0) {
       total_potentials[i] = tmp;
     }
@@ -610,10 +610,10 @@ void MLN::loopyBeliefPropagationMCS(string query, int rounds) {
   }
 
   // initialization
-  map<string, map<int, vector<double>>> nodeMsgs;
-  map<int, map<string, vector<double>>> cliqueMsgs;
-  map<string, vector<double>> dists;
-  map<string, vector<double>> newDists;
+  map<string, map<int, vector<double> > > nodeMsgs;
+  map<int, map<string, vector<double> > > cliqueMsgs;
+  map<string, vector<double> > dists;
+  map<string, vector<double> > newDists;
   for (string literal : this->queries) {
     for (int c : this->c_map[literal]) {
       nodeMsgs[literal][c] = vector<double> (2, 1);
@@ -624,9 +624,9 @@ void MLN::loopyBeliefPropagationMCS(string query, int rounds) {
   }
   
   // start monte carlo simulation + loopy bp
-  map<string, map<string, double>> records;
+  map<string, map<string, double> > records;
   map<string, int> sample;
-  map<int, vector<double>> potentials;
+  map<int, vector<double> > potentials;
   map<string, double> sums;
   // double sum = 0;
   for (int r=0; r<rounds; r++) {

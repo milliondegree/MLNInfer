@@ -33,7 +33,7 @@ MLN MLN::operator + (const MLN& mln) {
     }
     if (ind==this->cliques.size()) this->cliques.push_back(c);
   }
-  map<string, vector<int>> new_cmap;
+  map<string, vector<int> > new_cmap;
   for (int ci=0; ci<this->cliques.size(); ci++) {
     Clique c = this->cliques[ci];
     for (string literal : c.getLiterals()) {
@@ -55,7 +55,7 @@ MLN MLN::operator + (const MLN& mln) {
 
 void MLN::clear() {
   this->cliques = vector<Clique> ();
-  this->c_map = map<string, vector<int>> ();
+  this->c_map = map<string, vector<int> > ();
   this->obs = unordered_set<string> ();
   this->queries = unordered_set<string> ();
   this->prob = map<string, double> ();
@@ -101,19 +101,19 @@ void MLN::setProb(map<string, double> prob) {
 }
 
 
-void MLN::setCMap(map<string, vector<int>> c_map) {
+void MLN::setCMap(map<string, vector<int> > c_map) {
   this->c_map = c_map;
 }
 
 
-void MLN::setPd(unordered_map<string, unordered_map<string, double>> pd) {
+void MLN::setPd(unordered_map<string, unordered_map<string, double> > pd) {
   this->pd = pd;
 }
 
 
 void MLN::merge() {
   vector<Clique> ncliques;
-  map<string, vector<int>> nc_map;
+  map<string, vector<int> > nc_map;
   for (auto it=this->c_map.begin(); it!=c_map.end(); it++) {
     nc_map[it->first] = vector<int> ();
   }
@@ -312,7 +312,7 @@ vector<Clique> MLN::getCliques(string literal) {
 }
 
 
-map<string, vector<int>> MLN::getCMap() {
+map<string, vector<int> > MLN::getCMap() {
   return this->c_map;
 }
 
@@ -340,7 +340,7 @@ MLN MLN::getMinimalMLN(string& query) {
   vector<Clique> mcliques;
   unordered_set<string> mobs;
   unordered_set<string> mqueries;
-  map<string, vector<int>> mc_map;
+  map<string, vector<int> > mc_map;
   for (int i=0; i<this->cliques.size(); i++) {
     if (visited[i]) {
       mcliques.push_back(this->cliques[i]);
@@ -542,7 +542,7 @@ void MLN::gibbsSampling_v3(int round) {
     }
   }
 
-  vector<unordered_map<string, double>> truth_tables;
+  vector<unordered_map<string, double> > truth_tables;
   for (Clique c : this->cliques) {
     unordered_map<string, double> m;
     vector<string> literals = c.getLiterals();
@@ -644,7 +644,7 @@ void MLN::gibbsSampling_v4(int round, string query) {
   // }
 
 
-  vector<unordered_map<string, double>> truth_tables;
+  vector<unordered_map<string, double> > truth_tables;
   for (Clique c : this->cliques) {
     unordered_map<string, double> m;
     vector<string> literals = c.getLiterals();
@@ -659,8 +659,8 @@ void MLN::gibbsSampling_v4(int round, string query) {
     truth_tables.push_back(m);
   }
 
-  unordered_map<string, vector<double>> potentials_0s;
-  unordered_map<string, vector<double>> potentials_1s;
+  unordered_map<string, vector<double> > potentials_0s;
+  unordered_map<string, vector<double> > potentials_1s;
   for (string query : valid_unknown) {
     potentials_0s[query] = vector<double> (this->c_map[query].size(), 0.0);
     potentials_1s[query] = vector<double> (this->c_map[query].size(), 0.0);
@@ -758,7 +758,7 @@ void MLN::gibbsSampling_vp(int round, string query, double delta) {
     }
   }
 
-  vector<unordered_map<string, double>> truth_tables;
+  vector<unordered_map<string, double> > truth_tables;
   for (int c_i=0; c_i<this->cliques.size(); c_i++) {
     Clique c = this->cliques[c_i];
     unordered_map<string, double> m;
@@ -774,8 +774,8 @@ void MLN::gibbsSampling_vp(int round, string query, double delta) {
     truth_tables.push_back(m);
   }
 
-  unordered_map<string, vector<double>> potentials_0s;
-  unordered_map<string, vector<double>> potentials_1s;
+  unordered_map<string, vector<double> > potentials_0s;
+  unordered_map<string, vector<double> > potentials_1s;
   for (string query : valid_unknown) {
     potentials_0s[query] = vector<double> (this->c_map[query].size(), 0.0);
     potentials_1s[query] = vector<double> (this->c_map[query].size(), 0.0);
@@ -892,8 +892,8 @@ double MLN::queryProb(string query) {
 }
 
 
-map<string, vector<double>> MLN::getAllProbs(int round, int times) {
-  map<string, vector<double>> res;
+map<string, vector<double> > MLN::getAllProbs(int round, int times) {
+  map<string, vector<double> > res;
   for (string query : this->queries) {
     res[query] = vector<double> (times);
   }
@@ -1114,7 +1114,7 @@ double MLN::computeCrossEntropyLoss(const string& target,
 
 
 
-void MLN::updateObs(vector<pair<string, double>>& gradients, double delta, size_t number_of_changes) {
+void MLN::updateObs(vector<pair<string, double> >& gradients, double delta, size_t number_of_changes) {
   number_of_changes = std::min(number_of_changes, gradients.size());
   size_t count = 0;
   for (auto it : gradients) {

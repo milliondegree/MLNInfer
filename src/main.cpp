@@ -199,8 +199,8 @@ void verifyProb(MLN& mln) {
 
 
 
-map<string, vector<double>> boxplotTest(MLN& mln, int round, int times) {
-  map<string, vector<double>> values;
+map<string, vector<double> > boxplotTest(MLN& mln, int round, int times) {
+  map<string, vector<double> > values;
   unordered_set<string> queries = mln.getQueryLiterals();
   for (string s : queries) {
     values[s] = vector<double> ();
@@ -265,7 +265,7 @@ void influenceQueryAll(MLN& mln, string query, int round, double delta, string m
   unordered_set<string> observedTuples = mln.getObsLiterals();
   clock_t t1 = clock();
   // cout << "mode " << mode << endl;
-  vector<pair<string, double>> vp;
+  vector<pair<string, double> > vp;
   if (mode=="equations") {
     Influence influence (mln);
     for (string observed : observedTuples) {
@@ -563,7 +563,7 @@ int main(int argc, char* argv[]) {
         }
         // compute gradients of softmax loss
         map<string, double> gradients = amln.computeGradients(query_name, query_names, origin_probs, regulation, stod(args["regularization"]), stoi(args["rule_name"]));
-        vector<pair<string, double>> gradient_vector;
+        vector<pair<string, double> > gradient_vector;
         for (auto it : gradients) gradient_vector.push_back(it);
         sort(gradient_vector.begin(), gradient_vector.end(), sortByValue);
         // update parameters
@@ -665,7 +665,7 @@ int main(int argc, char* argv[]) {
         string query_name = query_names[i];
         if (args["influence_name"]=="all") {
           unordered_set<string> obs = MLNs[i].obs;
-          vector<pair<string, double>> vp;
+          vector<pair<string, double> > vp;
           clock_t t1 = clock();
           for (string literal : obs) {
             if (Parser::isRuleName(literal) && stoi(args["rule_name"])>0) {
@@ -720,7 +720,7 @@ int main(int argc, char* argv[]) {
           }
           // compute gradients of softmax loss
           map<string, double> gradients = mmln.computeGradients(args["optimize"], query_names, origin_probs, regulation, stod(args["regularization"]), stoi(args["rule_name"]));
-          vector<pair<string, double>> gradient_vector;
+          vector<pair<string, double> > gradient_vector;
           for (auto it : gradients) gradient_vector.push_back(it);
           sort(gradient_vector.begin(), gradient_vector.end(), sortByValue);
           // for (auto it : gradient_vector) {
@@ -748,7 +748,7 @@ int main(int argc, char* argv[]) {
         } while (true);
         cout << endl;
 
-        vector<pair<string, double>> diff;
+        vector<pair<string, double> > diff;
         for (string literal : mmln.obs) {
           if (Parser::isRuleName(literal) && stoi(args["rule_name"])==0) continue;
           diff.push_back(pair<string, double>({literal, mmln.prob[literal]-origin_probs[literal]}));

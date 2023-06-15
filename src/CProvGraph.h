@@ -7,6 +7,9 @@
 #include <boost/graph/breadth_first_search.hpp>
 #include <boost/graph/graphviz.hpp>
 #include <string>
+#include <queue>
+#include <unordered_set>
+#include <unordered_map>
 
 
 #ifndef NDEBUG
@@ -18,7 +21,7 @@
 #define ASSERT_EX(condition, statement) ((void)0)
 #endif
 
-#define MAX_NUM_OF_SEARCH 100
+#define MAX_NUM_OF_SEARCH 5000
 
 enum VertexType {Input, Derived, Parameter, Sum, Mul, Div, Scale};
 
@@ -127,7 +130,7 @@ public:
 class EDBSetHash {
 public:
   size_t operator () (const std::unordered_set<std::string>& EDBs) const {
-    hash<std::string> hasher;
+    std::hash<std::string> hasher;
     size_t seed = EDBs.size();
     for (auto& i : EDBs) {
       seed ^= hasher(i) + 0x9e3779b9 + (seed << 6) + (seed >> 2);
@@ -438,7 +441,6 @@ private:
   }
 
   double DFSComputeDiv(vertex_t s, std::unordered_set<vertex_t>& visited) {
-    double ret = 1;
     adjacency_tier ai, ai_end;
     boost::tie(ai, ai_end)=boost::adjacent_vertices(s, g);
     vertex_t v_numerator, v_denominator;
@@ -522,7 +524,7 @@ public:
         break;
       }
       // search neighbors of asgd.EDBs
-      unordered_set<std::string> includedEDBs = asgd.EDBs;
+      std::unordered_set<std::string> includedEDBs = asgd.EDBs;
       for (std::string EDB : g[v].EDBs) {
         if (includedEDBs.find(EDB)==includedEDBs.end()) {
           includedEDBs.insert(EDB);
@@ -689,7 +691,7 @@ public:
     for (auto EDB : g[v].EDBs) {
       std::cout << EDB << " ";
     }
-    cout << std::endl;
+    std::cout << std::endl;
   }
 
   void printGraph() {

@@ -48,7 +48,7 @@ void Parser::parseRuleHead(MLN& mln, string& prov, int& i) {
     mln.c_map[rule_head].push_back(mln.cliques.size()-1);
   }
 
-  vector<vector<string>> rules = parseRules(mln, prov, i);
+  vector<vector<string> > rules = parseRules(mln, prov, i);
 
   for (vector<string> rule : rules) {
     string rule_name = rule[0];
@@ -78,8 +78,8 @@ void Parser::parseRuleHead(MLN& mln, string& prov, int& i) {
 }
 
 
-vector<vector<string>> Parser::parseRules(MLN& mln, string& prov, int& i) {
-  vector<vector<string>> res;
+vector<vector<string> > Parser::parseRules(MLN& mln, string& prov, int& i) {
+  vector<vector<string> > res;
   if (prov[i+1]!='(') {
     vector<string> rule = parseRule(mln, prov, i);
     res.push_back(rule);

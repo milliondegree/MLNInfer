@@ -21,10 +21,10 @@ public:
 
   double getPartialDeriv(string& query, string& infl);
   vector<string> getQueries();
-  vector<vector<double>> getPartialDeriv();
+  vector<vector<double> > getPartialDeriv();
 
   double influenceQuery(MLN& mln, string& query, string& infl);
-  void computePartialDerivatives(MLN& mln, string& infl, map<string, double>& probs, vector<Clique>& cliques, map<string, vector<int>>& c_map);
+  void computePartialDerivatives(MLN& mln, string& infl, map<string, double>& probs, vector<Clique>& cliques, map<string, vector<int> >& c_map);
   void solveEquations();
  
   ~Influence();
@@ -32,10 +32,10 @@ public:
 private:
   vector<string> queries;
   vector<double> influences;
-  vector<vector<double>> partialDerivs;
+  vector<vector<double> > partialDerivs;
   unordered_map<string, int> l_index;
 
-  double getAccuPotential(string& numerator, string& denominator, map<string, double>& probs, vector<Clique>& cliques, map<string, vector<int>>& c_map);
+  double getAccuPotential(string& numerator, string& denominator, map<string, double>& probs, vector<Clique>& cliques, map<string, vector<int> >& c_map);
   double getPotential(string& numerator, string& denominator, map<string, double>& probs, Clique& c);
 };
 

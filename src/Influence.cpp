@@ -12,7 +12,7 @@ Influence::Influence(MLN& mln) {
     this->l_index[query] = this->queries.size()-1;
   }
   int n = this->queries.size();
-  this->partialDerivs = vector<vector<double>> (n, vector<double> (n+1, 0.0));
+  this->partialDerivs = vector<vector<double> > (n, vector<double> (n+1, 0.0));
 }
 
 
@@ -21,7 +21,7 @@ double Influence::influenceQuery(MLN& mln, string& query, string& infl) {
   unordered_set<string> obs = mln.getObsLiterals();
   map<string, double> probs = mln.getProb();
   vector<Clique> cliques = mln.getCliques();
-  map<string, vector<int>> c_map = mln.getCMap();
+  map<string, vector<int> > c_map = mln.getCMap();
   assert(queries.find(query)!=queries.end()&&obs.find(infl)!=obs.end());
   clock_t t1 = clock();
   computePartialDerivatives(mln, infl, probs, cliques, c_map);
@@ -35,7 +35,7 @@ double Influence::influenceQuery(MLN& mln, string& query, string& infl) {
 }
 
 
-void Influence::computePartialDerivatives(MLN& mln, string& infl, map<string, double>& probs, vector<Clique>& cliques, map<string, vector<int>>& c_map) {
+void Influence::computePartialDerivatives(MLN& mln, string& infl, map<string, double>& probs, vector<Clique>& cliques, map<string, vector<int> >& c_map) {
   for (string numerator : this->queries) {
     // for each queried tuple, use its probability formula
     int n_i = this->l_index[numerator];
@@ -72,12 +72,12 @@ vector<string> Influence::getQueries() {
 }
 
 
-vector<vector<double>> Influence::getPartialDeriv() {
+vector<vector<double> > Influence::getPartialDeriv() {
   return this->partialDerivs;
 }
 
 
-double Influence::getAccuPotential(string& numerator, string& denominator, map<string, double>& probs, vector<Clique>& cliques, map<string, vector<int>>& c_map) {
+double Influence::getAccuPotential(string& numerator, string& denominator, map<string, double>& probs, vector<Clique>& cliques, map<string, vector<int> >& c_map) {
   double accu = 0.0;
   Clique c;
   for (int c_i : c_map[numerator]) {
@@ -207,7 +207,7 @@ double Influence::getPotential(string& numerator, string& denominator, map<strin
 void Influence::solveEquations() {
   int n = this->partialDerivs.size();
   int m = this->partialDerivs[0].size();
-  vector<vector<double>> equations (this->partialDerivs);
+  vector<vector<double> > equations (this->partialDerivs);
   vector<double> solutions (n);
   for (int i=0; i<n; i++) {
     double base = equations[i][i];

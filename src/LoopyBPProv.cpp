@@ -27,10 +27,10 @@ void enumerateTruthWithProv(Clique& c,
 
 vector<double> loopyBPRunWithProv(MLN* mln, string query) {
   // total initialization
-  map<string, map<int, vector<double>>> nodeMsgs;
-  map<int, map<string, vector<double>>> cliqueMsgs;
-  map<int, vector<double>> potentials;
-  map<string, vector<double>> dists;
+  map<string, map<int, vector<double> > > nodeMsgs;
+  map<int, map<string, vector<double> > > cliqueMsgs;
+  map<int, vector<double> > potentials;
+  map<string, vector<double> > dists;
   double nodeMsg_init_value = 1;
   double cliqueMsg_init_value = 0;
   for (string literal : mln->queries) {
@@ -74,7 +74,7 @@ vector<double> loopyBPRunWithProv(MLN* mln, string query) {
   while (!converge&&iteration<=10) {
     
     // initialization newcliqueMsgs
-    map<int, map<string, vector<double>>> newcliqueMsgs;
+    map<int, map<string, vector<double> > > newcliqueMsgs;
     for (auto it1 : nodeMsgs) {
       for (auto it2 : it1.second) {
         newcliqueMsgs[it2.first][it1.first] = vector<double> (2, 0);
@@ -129,23 +129,11 @@ vector<double> loopyBPRunWithProv(MLN* mln, string query) {
           tmp /= 2;
         }
       }
-      // for (string literal : toQuery) {
-      //   double z = newcliqueMsgs[c][literal][0]+newcliqueMsgs[c][literal][1];
-      //   newcliqueMsgs[c][literal][0] /= z;
-      //   newcliqueMsgs[c][literal][1] /= z;
-      //   /* add subgraph of cliqueMsg scaling */
-      //   string output_1_name = "scaled_cliqueMsg_"+to_string(c)+"_"+literal+"_1_iteration_"+to_string(iteration);
-      //   string output_0_name = "scaled_cliqueMsg_"+to_string(c)+"_"+literal+"_0_iteration_"+to_string(iteration);
-      //   vector<string> input_names {"cliqueMsg_"+to_string(c)+"_"+literal+"_1_iteration_"+to_string(iteration),
-      //                               "cliqueMsg_"+to_string(c)+"_"+literal+"_0_iteration_"+to_string(iteration)};
-      //   mln->provG.addComputingSubgraph(output_1_name, newcliqueMsgs[c][literal][1], Scale, input_names);
-      //   mln->provG.addComputingSubgraph(output_0_name, newcliqueMsgs[c][literal][0], Scale, input_names);
-      // }
     }
     cliqueMsgs = newcliqueMsgs;
 
     // initialize dists
-    map<string, vector<double>> newDists;
+    map<string, vector<double> > newDists;
     for (string literal : mln->queries) {
       newDists[literal] = vector<double> (2, 1);
       for (int c : mln->c_map[literal]) {

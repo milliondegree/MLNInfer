@@ -29,7 +29,7 @@ public:
   virtual void computeGradients() {
   }
 
-  virtual void update(MLN& mln, vector<pair<string, double>>& gradient_vector) = 0;
+  virtual void update(MLN& mln, vector<pair<string, double> >& gradient_vector) = 0;
 
 protected:
   double update_rate;
@@ -48,7 +48,7 @@ public:
     cout << "Using " << name << endl;
   }
 
-  void update(MLN& mln, vector<pair<string, double>>& gradient_vector) {
+  void update(MLN& mln, vector<pair<string, double> >& gradient_vector) {
     for (auto it : gradient_vector) {
       string obs_literal = it.first;
       double obs_gradient = it.second;
@@ -71,7 +71,7 @@ public:
     cout << "Using " << name << endl;
   }
 
-  void update(MLN& mln, vector<pair<string, double>>& gradient_vector) {
+  void update(MLN& mln, vector<pair<string, double> >& gradient_vector) {
     if (velocity.size()==0) velocity = vector<double> (gradient_vector.size(), 0);
     for (int i=0; i<velocity.size(); i++) {
       string obs_literal = gradient_vector[i].first;
@@ -98,7 +98,7 @@ public:
     cout << "Using " << name << endl;
   }
 
-  void update(MLN& mln, vector<pair<string, double>>& gradient_vector) {
+  void update(MLN& mln, vector<pair<string, double> >& gradient_vector) {
     if (velocity.size()==0) velocity = vector<double> (gradient_vector.size(), 0);
     for (int i=0; i<velocity.size(); i++ ) {
       string obs_literal = gradient_vector[i].first;
@@ -125,7 +125,7 @@ public:
     iteration = 1;
   }
 
-  void update(MLN& mln, vector<pair<string, double>>& gradient_vector) {
+  void update(MLN& mln, vector<pair<string, double> >& gradient_vector) {
     if (m.size()==0) {
       m = vector<double> (gradient_vector.size(), 0);
       v = vector<double> (gradient_vector.size(), 0);
@@ -162,7 +162,7 @@ public:
     // cout << "Using " << name << endl;
   }
 
-  void update(MLN& mln, vector<pair<string, double>>& gradient_vector) {
+  void update(MLN& mln, vector<pair<string, double> >& gradient_vector) {
     for (auto it : gradient_vector) {
       string obs_literal = it.first;
       double obs_gradient = it.second;
@@ -201,7 +201,7 @@ public:
     iteration = 1;
   }
 
-  void update(MLN& mln, vector<pair<string, double>>& gradient_vector) {
+  void update(MLN& mln, vector<pair<string, double> >& gradient_vector) {
     if (m.size()==0) {
       m = vector<double> (gradient_vector.size(), 0);
       v = vector<double> (gradient_vector.size(), 0);

@@ -8,7 +8,7 @@ vector<double> recursiveOnNode(MLN* mln, int parent, string node);
 
 
 void enumerateTruth(Clique& c, 
-                    map<string, vector<double>>& nodeMsgs, 
+                    map<string, vector<double> >& nodeMsgs, 
                     vector<string>& toSearch,
                     map<string, int>& truth, 
                     vector<double>& res, 
@@ -50,7 +50,7 @@ vector<double> recursiveOnNode(MLN* mln, int parent, string node) {
 vector<double> recursiveOnClique(MLN* mln, string node, int c) {
   vector<double> res (2, 0);
   vector<string> literals = mln->cliques[c].getLiterals();
-  map<string, vector<double>> nodeMsgs;
+  map<string, vector<double> > nodeMsgs;
   vector<string> toSearch;
   for (string literal : literals) {
     if (literal!=node&&mln->queries.find(literal)!=mln->queries.end()) {
@@ -222,8 +222,8 @@ void MLN::naiveBPInfluence(string query, string infl) {
 
 /************************ advance belief propagation **********************/
 
-// map<string, vector<double>> recursiveOnCliqueAdvance(MLN* mln, string node, int c, vector<string>& prob_obs);
-map<string, vector<double>> recursiveOnCliqueAdvance(
+// map<string, vector<double> > recursiveOnCliqueAdvance(MLN* mln, string node, int c, vector<string>& prob_obs);
+map<string, vector<double> > recursiveOnCliqueAdvance(
                                 MLN* mln, 
                                 string node, 
                                 int c,
@@ -272,12 +272,12 @@ string buildIndexFromMap(map<string, int>& truth, map<string, int>& prob_obs) {
 }
 
 
-void enumerateCompAdvance(map<string, map<string, vector<double>>>& nodeMsgs,
+void enumerateCompAdvance(map<string, map<string, vector<double> > >& nodeMsgs,
                           vector<string>& queries,
                           string obs_index,
                           double potential,
                           map<string, int>& truth, 
-                          map<string, vector<double>>& res, 
+                          map<string, vector<double> >& res, 
                           string& node,
                           int pos) {
   if (pos==nodeMsgs.size()) {
@@ -300,11 +300,11 @@ void enumerateCompAdvance(map<string, map<string, vector<double>>>& nodeMsgs,
 
 
 void enumerateQueryTruthAdvance(Clique& c, 
-                    map<string, map<string, vector<double>>>& nodeMsgs, 
+                    map<string, map<string, vector<double> > >& nodeMsgs, 
                     vector<string>& queries,
                     string& obs_index,
                     map<string, int>& truth, 
-                    map<string, vector<double>>& res, 
+                    map<string, vector<double> >& res, 
                     string& node,
                     int pos) {
   if (pos==nodeMsgs.size()) {
@@ -327,12 +327,12 @@ void enumerateQueryTruthAdvance(Clique& c,
 
 
 void enumerateObsTruthAdvance(Clique& c, 
-                    map<string, map<string, vector<double>>>& nodeMsgs, 
+                    map<string, map<string, vector<double> > >& nodeMsgs, 
                     vector<string>& obs,
                     vector<string>& queries,
                     map<string, int>& truth, 
                     map<string, int>& prob_obs,
-                    map<string, vector<double>>& res, 
+                    map<string, vector<double> >& res, 
                     string& node,
                     int pos) {
   if (pos==obs.size()) {
@@ -351,21 +351,21 @@ void enumerateObsTruthAdvance(Clique& c,
 
 
 
-map<string, vector<double>> recursiveOnNodeAdvance(
+map<string, vector<double> > recursiveOnNodeAdvance(
                             MLN* mln,
                             int parent, 
                             string node,
                             map<string, int>& prob_obs
                             ) {
-  map<string, vector<double>> marginalDist;
+  map<string, vector<double> > marginalDist;
   for (int ci : mln->c_map[node]) {
     if (ci!=parent) {
-      map<string, vector<double>> marginalTemp = recursiveOnCliqueAdvance(mln, node, ci, prob_obs);
+      map<string, vector<double> > marginalTemp = recursiveOnCliqueAdvance(mln, node, ci, prob_obs);
       if (marginalDist.size()==0) {
         marginalDist = marginalTemp;
       }
       else {
-        map<string, vector<double>> temp;
+        map<string, vector<double> > temp;
         for (auto it1 : marginalDist) {
           for (auto it2 : marginalTemp) {
             string index = buildIndex(it1.first, it2.first);
@@ -387,15 +387,15 @@ map<string, vector<double>> recursiveOnNodeAdvance(
 }
 
 
-map<string, vector<double>> recursiveOnCliqueAdvance(
+map<string, vector<double> > recursiveOnCliqueAdvance(
                                 MLN* mln, 
                                 string node, 
                                 int c,
                                 map<string, int> prob_obs
                                 ) {
-  map<string, vector<double>> res;
+  map<string, vector<double> > res;
   vector<string> literals = mln->cliques[c].getLiterals();
-  map<string, map<string, vector<double>>> nodeMsgs;
+  map<string, map<string, vector<double> > > nodeMsgs;
   vector<string> queries;
   vector<string> obs;
   for (string literal : literals) {

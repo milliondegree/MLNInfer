@@ -61,7 +61,7 @@ public:
   bool isRuleName(string& literal);
 
   void buildPotentialMaps(const unordered_set<string>& obs, const unordered_set<string>& queries, const map<string, double>& prob);
-  map<int, vector<double>> getAllPotentials();
+  map<int, vector<double> > getAllPotentials();
 
   string toString();
   void printClique();
@@ -81,12 +81,12 @@ private:
 
   bool compound = false;
   vector<string> rule_heads;
-  vector<vector<string>> rule_bodies;
-  vector<vector<string>> literalss; // composed literals
-  vector<vector<Literal>> sliteralss; // composed sliterals
+  vector<vector<string> > rule_bodies;
+  vector<vector<string> > literalss; // composed literals
+  vector<vector<Literal> > sliteralss; // composed sliterals
   vector<Clique> subCLiques;
 
-  map<int, vector<double>> all_potentials;
+  map<int, vector<double> > all_potentials;
 
   void buildLiterals();
   void enumerateTotalPotentials(

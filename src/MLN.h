@@ -51,14 +51,13 @@ public:
   unordered_set<string> obs;
   unordered_set<string> queries;
   map<string, double> prob;
-  map<string, vector<int>> c_map;
-  unordered_map<string, unordered_map<string, double>> pd;
+  map<string, vector<int> > c_map;
+  unordered_map<string, unordered_map<string, double> > pd;
 
   CProvGraph provG;
 
   friend class Parser;
   friend class Grader;
-  friend class Pruner;
 
   MLN operator + (const MLN& mln );
 
@@ -70,8 +69,8 @@ public:
   void setObs(unordered_set<string> obs);
   void setQueries(unordered_set<string> queries);
   void setProb(map<string, double> prob);
-  void setCMap(map<string, vector<int>> c_map);
-  void setPd(unordered_map<string, unordered_map<string, double>> pd);
+  void setCMap(map<string, vector<int> > c_map);
+  void setPd(unordered_map<string, unordered_map<string, double> > pd);
 
   void merge();
 
@@ -82,7 +81,7 @@ public:
   int numberCliques(string literal);
   vector<Clique> getCliques();
   vector<Clique> getCliques(string literal);
-  map<string, vector<int>> getCMap();
+  map<string, vector<int> > getCMap();
   map<string, double> getProb();
   unordered_set<string> getObsLiterals();
   unordered_set<string> getQueryLiterals();
@@ -115,7 +114,7 @@ public:
 
   void loopyBeliefPropagationWithProv(string query);
 
-  map<string, vector<double>> getAllProbs(int round, int times);
+  map<string, vector<double> > getAllProbs(int round, int times);
   unordered_map<string, double> getInfluence(string query);
 
   string toString();
@@ -129,7 +128,7 @@ public:
 
   double computeCrossEntropyLoss(const string& target, const vector<string>& query_names, map<string, double>& original_probs, Regulation regulation, double theta);
   map<string, double> computeGradients(const string& target, const vector<string>& query_names, map<string, double>& original_probs, Regulation regulation, double theta, int rule_name);
-  void updateObs(vector<pair<string, double>>& gradients, double delta, size_t number_of_changes);
+  void updateObs(vector<pair<string, double> >& gradients, double delta, size_t number_of_changes);
 
   void buildCliqueMaps();
 
@@ -173,7 +172,7 @@ public:
 
 private:
   void parseRuleHead(MLN& mln, string& prov, int& i);
-  vector<vector<string>> parseRules(MLN& mln, string& prov, int& i);
+  vector<vector<string> > parseRules(MLN& mln, string& prov, int& i);
   vector<string> parseRule(MLN& mln, string& prov, int& i);
   vector<string> parseRuleBody(MLN& mln, string& prov, int& i);
   bool findIn(MLN& mln, Clique& c);
