@@ -270,7 +270,7 @@ void MLN::build(string prov) {
     this->cliques.push_back(c);
     int index = this->cliques.size()-1;
     this->c_map[head].push_back(index);
-    // build clique list of rule body
+    // build clique list of rule body@
     for (string body : r_body) {
       if (this->c_map.find(body)==this->c_map.end()) {
         this->c_map[body] = vector<int> ();
@@ -336,6 +336,45 @@ MLN MLN::getMinimalMLN(string& query) {
   unordered_set<string> valid_unknown;
   vector<bool> visited (this->cliques.size(), false);
   dfsSearch(valid_unknown, visited, query);
+
+  vector<Clique> mcliques;
+  unordered_set<string> mobs;
+  unordered_set<string> mqueries;
+  map<string, vector<int> > mc_map;
+  for (int i=0; i<this->cliques.size(); i++) {
+    if (visited[i]) {
+      mcliques.push_back(this->cliques[i]);
+      // if (!this->cliques[i].isSingular()) {
+      mobs.insert(this->cliques[i].getRuleName());
+      // }
+      for (string literal : this->cliques[i].getLiterals()) {
+        if (mc_map.find(literal)==mc_map.end()) {
+          mc_map[literal] = vector<int> ();
+        }
+        mc_map[literal].push_back(mcliques.size()-1);
+        if (this->obs.find(literal)==this->obs.end()) {
+          mqueries.insert(literal);
+        }
+        else {
+          mobs.insert(literal);
+        }
+      }
+    }
+  }
+  mmln.setCliques(mcliques);
+  mmln.setObs(mobs);
+  mmln.setQueries(mqueries);
+  mmln.setCMap(mc_map);
+  mmln.setProb(this->prob);
+  return mmln;
+}
+
+
+MLN MLN::getConnectedMLN(string& query) {
+  MLN mmln;
+  unordered_set<string> valid_unknown;
+  vector<bool> visited (this->cliques.size(), false);
+  dfsSearch(valid_unknown, visited, query, false);
 
   vector<Clique> mcliques;
   unordered_set<string> mobs;
@@ -979,9 +1018,61 @@ void MLN::saveToFile(ofstream& file) {
 }
 
 
-void MLN::dfsSearch(unordered_set<string>& valid_unknown, vector<bool>& visited, string& query) {
+void MLN::saveToDotFile(ofstream& file) {
+  file << "graph {\n";
+  file << "layout=\"neato\"\n";
+  file << "ratio=\"0.5\"\n";
+  unordered_map<string, int> node_map;
+  for (string literal : this->obs) {
+    if (Parser::isVariable(literal)) {
+      if (node_map.find(literal)==node_map.end()) {
+          node_map.insert({literal, node_map.size()+1});
+        }
+      int l_i = node_map[literal];
+      // file << l_i << " [label=\"" << literal << "\", color=\"goldenrod1\"]\n";
+      // file << l_i << " [shape=\"point\", color=\"goldenrod1\"]\n";
+      file << l_i << " [label=\"\", shape=circle, width=.3, color=\"goldenrod1\"]\n";
+    }
+  }
+  for (string literal : this->queries) {
+    if (Parser::isVariable(literal)) {
+      if (node_map.find(literal)==node_map.end()) {
+          node_map.insert({literal, node_map.size()+1});
+        }
+      int l_i = node_map[literal];
+      // file << l_i << " [label=\"" << literal << "\", color=\"darkgreen\"]\n";
+      file << l_i << " [label=\"\", shape=circle, width=.3, color=\"darkgreen\"]\n";
+    }
+  }
+
+  unordered_set<string> edge_set;
+  for (int i=0; i<this->cliques.size(); i++) {
+    Clique c = this->cliques[i];
+    if (c.isSingular()) continue;
+    vector<string> literals = c.getLiterals();
+    for (int i=0; i<literals.size(); i++) {
+      string l = literals[i];
+      int l_i = node_map[l];
+      for (int j=i+1; j<literals.size(); j++) {
+        string r = literals[j];
+        int r_i = node_map[r];
+        string edge1 = to_string(l_i)+"_"+to_string(r_i);
+        string edge2 = to_string(r_i)+"_"+to_string(l_i);
+        if (edge_set.find(edge1)==edge_set.end() && edge_set.find(edge2)==edge_set.end()) {
+          file << l_i << " -- " << r_i << "\n";
+          edge_set.insert(edge1);
+          edge_set.insert(edge2);
+        }
+      }
+    }
+  }
+  file << "}\n";
+}
+
+
+void MLN::dfsSearch(unordered_set<string>& valid_unknown, vector<bool>& visited, string& query, bool stopObserved) {
   if (this->obs.find(query)!=this->obs.end()) {
-    return;
+    if (stopObserved) return;
   }
   else {
     valid_unknown.insert(query);

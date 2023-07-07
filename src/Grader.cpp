@@ -75,7 +75,7 @@ void Grader::computeGradient(MLN& mln, string query, string infl, int round, dou
     mln.loopyBeliefPropagationMCS(query, round);
   }
   double upper_prob = mln.queryProb(query);
-  // if (Parser::isRuleName(infl)) cout << infl << ' ' << mln.prob[infl] << ' ' << upper_prob << endl;
+  // cout << infl << ' ' << mln.prob[infl] << ' ' << upper_prob << endl;
   mln.setObsProb(infl, lower);
   if (mode=="mcsat") {
     mln.mcsat(round, query);
@@ -93,7 +93,7 @@ void Grader::computeGradient(MLN& mln, string query, string infl, int round, dou
     mln.loopyBeliefPropagationMCS(query, round);
   }
   double lower_prob = mln.queryProb(query);
-  // if (Parser::isRuleName(infl)) cout << infl << ' ' << mln.prob[infl] << ' ' << lower_prob << endl;
+  // cout << infl << ' ' << mln.prob[infl] << ' ' << lower_prob << endl;
   mln.setObsProb(infl, prev);
   mln.pd[query][infl] = (upper_prob-lower_prob) / (upper-lower);
   clock_t t2 = clock();

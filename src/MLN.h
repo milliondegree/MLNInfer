@@ -86,6 +86,7 @@ public:
   unordered_set<string> getObsLiterals();
   unordered_set<string> getQueryLiterals();
   MLN getMinimalMLN(string& query);
+  MLN getConnectedMLN(string& query);
 
   void setObsProb(string str, double prob);
 
@@ -119,6 +120,7 @@ public:
 
   string toString();
   void saveToFile(ofstream& file);
+  void saveToDotFile(ofstream& file);
 
   MLN approximateSubGraph(string query, double target, int rounds, double delta);
   MLN approximateSubGraph_v2(string query, double target, int rounds, double delta, int max_clique_number);
@@ -136,7 +138,7 @@ public:
 
 private:
 
-  void dfsSearch(unordered_set<string>& valid_unknown, vector<bool>& visited, string& query);
+  void dfsSearch(unordered_set<string>& valid_unknown, vector<bool>& visited, string& query, bool stopObserved=true);
   void sampleSAT(unordered_map<string, int>& state, unordered_set<int>& c_idx, int maxFlips, int maxTries, double target, double p);
   void maxWalkSAT(unordered_map<string, int>& state, unordered_set<int>& c_idx, int maxFlips, int maxTries, double target, double p);
   void pSampleSAT(unordered_map<string, double>& state, unordered_set<int>& c_idx, int maxFlips, int maxTries, double target, double p);
@@ -166,6 +168,7 @@ public:
 
   static string extractName(string& s);
   static bool isRuleName(string& s);
+  static bool isVariable(string& s);
   // void extendR1Cliques(MLN& mln);
 
   ~Parser();

@@ -192,6 +192,16 @@ bool Parser::isRuleName(string& s) {
 }
 
 
+bool Parser::isVariable(string& s) {
+  int i = 0;
+  while (i<s.length()&&s[i]!='_') {
+    i++;
+  }
+  if (i==s.length()) return false;
+  return true;
+}
+
+
 
 bool Parser::findIn(MLN& mln, Clique& c) {
   for (auto& mc : mln.cliques) {
