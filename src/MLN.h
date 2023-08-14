@@ -110,10 +110,13 @@ public:
   void nonProbabilisticBeliefPropagation(string query);
   void advanceBeliefPropagation(string query);
   void loopyBeliefPropagation(string query);
+  int loopyBeliefPropagation();
   void pLoopyBeliefPropagation(string query);
   void loopyBeliefPropagationMCS(string query, int rounds);
 
   void loopyBeliefPropagationWithProv(string query);
+  int loopyBeliefPropagationWithProv();
+  int loopyBeliefPropagationWithCoarseProv();
 
   map<string, vector<double> > getAllProbs(int round, int times);
   unordered_map<string, double> getInfluence(string query);
@@ -122,7 +125,7 @@ public:
   void saveToFile(ofstream& file);
   void saveToDotFile(ofstream& file);
 
-  MLN approximateSubGraph(string query, double target, int rounds, double delta);
+  MLN approximateSubGraph(string query, double target, int rounds, double delta, int max_clique_number=100);
   MLN approximateSubGraph_v2(string query, double target, int rounds, double delta, int max_clique_number);
   MLN approximateSubGraph_v3(string query, double target, int rounds, double delta, int max_clique_number);
 

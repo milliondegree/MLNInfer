@@ -1,5 +1,7 @@
 from turtle import title
 import matplotlib
+matplotlib.rcParams['pdf.fonttype'] = 42
+matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 matplotlib.rcParams['pdf.fonttype'] = 42
 matplotlib.rcParams['ps.fonttype'] = 42
@@ -70,7 +72,7 @@ def drawRanks(file_list, top_k, query, xticklabels, to_save):
 
   fs1 = 34
   fs2 = 26
-  fig, ax = plt.subplots(figsize=(13,9))
+  fig, ax = plt.subplots(figsize=(14,9))
   for i in range(top_k):
     x = []
     y = []
@@ -94,8 +96,8 @@ def drawRanks(file_list, top_k, query, xticklabels, to_save):
     ax.plot(x, y, label=label, marker='o', markersize=15, linewidth=3)
   box = ax.get_position()
   ax.set_position([box.x0, box.y0, box.width, box.height*0.77])
-  ax.set_xlabel("Approximate subgraph size (# of cliques)", fontsize=fs1)
-  ax.set_ylabel("Rank of "+query, fontsize=fs1)
+  ax.set_xlabel("Approximate subgraphs (# of input vertices)", fontsize=fs1)
+  ax.set_ylabel("Rank of influences", fontsize=fs1)
   ax.set_xticks(list(range(len(file_list))))
   ax.set_xticklabels(xticklabels, fontsize=fs2)
   ax.set_yticks(list(range(1,top_k+1)))
@@ -109,47 +111,50 @@ def drawRanks(file_list, top_k, query, xticklabels, to_save):
 
 
 if __name__ == '__main__':
-  # drawRanks([
-  #         './data/vqa/church/toplist/after_3.txt',
-  #         './data/vqa/church/toplist/after_4.txt',
-  #         './data/vqa/church/toplist/after_5.txt',
-  #         './data/vqa/church/toplist/after_6.txt',
-  #         './data/vqa/church/toplist/after_7.txt',
-  #         './data/vqa/church/toplist/after_8.txt',
-  #         './data/vqa/church/toplist/after_9.txt',
-  #         './data/vqa/church/toplist/before.txt'
-  #         ],
-  #         8,
-  #         "ans(\"barn\")",
-  #         ['3','4','5','6','7','8', '9', '28'],
-  #         "./data/vqa/image/rank_ans_barn.pdf")  
-  # drawRanks([
-  #         './data/vqa/church/toplist2/after_3.txt',
-  #         './data/vqa/church/toplist2/after_4.txt',
-  #         './data/vqa/church/toplist2/after_5.txt',
-  #         './data/vqa/church/toplist2/after_6.txt',
-  #         './data/vqa/church/toplist2/after_7.txt',
-  #         './data/vqa/church/toplist2/after_8.txt',
-  #         './data/vqa/church/toplist2/after_9.txt',
-  #         './data/vqa/church/toplist2/before2.txt'
-  #         ],
-  #         8,
-  #         "ans(\"church\")",
-  #         ['3','4','5','6','7','8', '9', '28'],
-  #         "./data/vqa/image/rank_ans_church.pdf")    
   drawRanks([
-          './data/hypertext-class/sample7/toplist/after_5.txt',
-          './data/hypertext-class/sample7/toplist/after_10.txt',
-          './data/hypertext-class/sample7/toplist/after_15.txt',
-          './data/hypertext-class/sample7/toplist/after_20.txt',
-          './data/hypertext-class/sample7/toplist/after_25.txt',
-          './data/hypertext-class/sample7/toplist/after_30.txt',
-          './data/hypertext-class/sample7/toplist/before.txt',
+          './data/vqa/church/toplist/after_3.txt',
+          './data/vqa/church/toplist/after_4.txt',
+          './data/vqa/church/toplist/after_5.txt',
+          './data/vqa/church/toplist/after_6.txt',
+          './data/vqa/church/toplist/after_7.txt',
+          './data/vqa/church/toplist/after_8.txt',
+          './data/vqa/church/toplist/after_9.txt',
+          './data/vqa/church/toplist/before.txt'
           ],
           8,
-          "logical tuples",
-          ["5", "10", "15", "20", "25", "30", "103"],
-          "./data/hypertext-class/sample7/images/researchproject_43.pdf")   
+          "ans(\"barn\")",
+          ['12','15','18','21','24','27','30','55'],
+          # ['3','4','5','6','7','8', '9', '28'],
+          "./data/vqa/image/rank_ans_barn_new.pdf")  
+  drawRanks([
+          './data/vqa/church/toplist2/after_3.txt',
+          './data/vqa/church/toplist2/after_4.txt',
+          './data/vqa/church/toplist2/after_5.txt',
+          './data/vqa/church/toplist2/after_6.txt',
+          './data/vqa/church/toplist2/after_7.txt',
+          './data/vqa/church/toplist2/after_8.txt',
+          './data/vqa/church/toplist2/after_9.txt',
+          './data/vqa/church/toplist2/before2.txt'
+          ],
+          8,
+          "ans(\"church\")",
+          ['12','15','18','21','24','27','30','55'],
+          # ['3','4','5','6','7','8', '9', '28'],
+          "./data/vqa/image/rank_ans_church_new.pdf")    
+  # drawRanks([
+  #         './data/hypertext-class/sample7/toplist/after_5.txt',
+  #         './data/hypertext-class/sample7/toplist/after_10.txt',
+  #         './data/hypertext-class/sample7/toplist/after_15.txt',
+  #         './data/hypertext-class/sample7/toplist/after_20.txt',
+  #         './data/hypertext-class/sample7/toplist/after_25.txt',
+  #         './data/hypertext-class/sample7/toplist/after_30.txt',
+  #         './data/hypertext-class/sample7/toplist/before.txt',
+  #         ],
+  #         8,
+  #         "logical tuples",
+  #         # ["5", "10", "15", "20", "25", "30", "103"],
+  #         ["10", "20", "30", "40", "50", "60", "206"],
+  #         "./data/hypertext-class/sample7/images/researchproject_43.pdf")   
   # drawRanks([
   #         './data/hypertext-class/sample7/toplist_r/after_5.txt',
   #         './data/hypertext-class/sample7/toplist_r/after_10.txt',
@@ -161,7 +166,8 @@ if __name__ == '__main__':
   #         ],
   #         8,
   #         "rule weight tuples",
-  #         ["5", "10", "15", "20", "25", "30", "103"],
+  #         # ["5", "10", "15", "20", "25", "30", "103"],
+  #         ["10", "20", "30", "40", "50", "60", "206"],
   #         "./data/hypertext-class/sample7/images/r_researchproject_43.pdf") 
   # drawRanks([
   #         './data/hypertext-class/docbase2/toplist/after_5.txt',
@@ -174,19 +180,21 @@ if __name__ == '__main__':
   #         ],
   #         8,
   #         "logical tuples",
-  #         ["5", "10", "15", "20", "25", "30", "117"],
-  #         "./data/hypertext-class/docbase2/images/department_29.pdf") 
-  # drawRanks([
-  #         './data/vqa/terminal/toplist/after_3.txt',
-  #         './data/vqa/terminal/toplist/after_4.txt',
-  #         './data/vqa/terminal/toplist/after_5.txt',
-  #         './data/vqa/terminal/toplist/after_6.txt',
-  #         './data/vqa/terminal/toplist/after_7_heu.txt',
-  #         './data/vqa/terminal/toplist/after_8_heu.txt',
-  #         './data/vqa/terminal/toplist/after_9_heu.txt',
-  #         './data/vqa/terminal/toplist/origin.txt'
-  #         ],
-  #         8,
-  #         "ans(\"terminal\")",
-  #         ['3','4','5','6','7','8','9', '31'],
-  #         "./data/vqa/image/rank_ans_terminal.pdf")  
+  #         # ["5", "10", "15", "20", "25", "30", "103"],
+  #         ["10", "20", "30", "40", "50", "60", "234"],
+  #         "./data/hypertext-class/sample7/images/department_29.pdf") 
+  drawRanks([
+          './data/vqa/terminal/toplist/after_3.txt',
+          './data/vqa/terminal/toplist/after_4.txt',
+          './data/vqa/terminal/toplist/after_5.txt',
+          './data/vqa/terminal/toplist/after_6.txt',
+          './data/vqa/terminal/toplist/after_7_heu.txt',
+          './data/vqa/terminal/toplist/after_8_heu.txt',
+          './data/vqa/terminal/toplist/after_9_heu.txt',
+          './data/vqa/terminal/toplist/origin.txt'
+          ],
+          8,
+          "ans(\"terminal\")",
+          ['12','15','18','21','24','27','30','56'],
+          # ['3','4','5','6','7','8','9', '31'],
+          "./data/vqa/image/rank_ans_terminal_new.pdf")  

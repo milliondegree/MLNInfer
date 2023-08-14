@@ -623,9 +623,9 @@ int main(int argc, char* argv[]) {
       if (args.find("approx")!=args.end()) {
         clock_t t1 = clock();
         cout << "start approximate subgraph, target value: " << target << ", approx value: " << args["approx"] << ", rounds: " << args["round"] << endl;
-        // amln = mmln.approximateSubGraph_v3(query_name, target, stoi(args["round"]), stod(args["approx"]), stoi(args["clique_number"]));
-        MLN amln = mmln.approximateSubGraph_v2(query_name, target, stoi(args["round"]), stod(args["approx"]), stoi(args["clique_number"]));
-        // MLN amln = mmln.approximateSubGraph(query_name, target, stoi(args["round"]), stod(args["approx"]));
+        // MLN amln = mmln.approximateSubGraph_v3(query_name, target, stoi(args["round"]), stod(args["approx"]), stoi(args["clique_number"]));
+        // MLN amln = mmln.approximateSubGraph_v2(query_name, target, stoi(args["round"]), stod(args["approx"]), stoi(args["clique_number"]));
+        MLN amln = mmln.approximateSubGraph(query_name, target, stoi(args["round"]), stod(args["approx"]), stoi(args["clique_number"]));
         cout << "total time: " << (clock()-t1)*1.0/CLOCKS_PER_SEC << endl << endl;
 
         cout << "approxmimate subgraph: " << endl;
@@ -640,6 +640,7 @@ int main(int argc, char* argv[]) {
       }
       MLNs.push_back(mmln);
     }
+    exit(0);
 
     // graph combination
     MLN mmln = MLNs[0];

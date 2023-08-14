@@ -102,7 +102,7 @@ MLN buildMLNFromCliqueIDs(MLN* mln, set<int>& clique_ids) {
 }
 
 
-MLN MLN::approximateSubGraph(string query, double target, int rounds, double delta) {
+MLN MLN::approximateSubGraph(string query, double target, int rounds, double delta, int max_clique_number) {
   // initialization
   clock_t prob_cost = 0;
   clock_t build_cost = 0;
@@ -130,13 +130,14 @@ MLN MLN::approximateSubGraph(string query, double target, int rounds, double del
   double min_diff = 1;
   while (!pq.empty() && visited.size()<MAX_VISIT) {
     SubgraphDifference sd = pq.top();
-    // cout << "queue size: " << pq.size() << " visited size: " << visited.size() << " min diff: " << sd.diff << endl;
+    cout << "queue size: " << pq.size() << " visited size: " << visited.size() << " min diff: " << sd.diff << endl;
     pq.pop();
     if (sd.diff<delta) {
       ret = buildMLNFromCliqueIDs(this, sd.clique_ids);
       break;
     }
     else {
+      if (sd.clique_ids.size()==max_clique_number) continue;
       clock_t tt = clock();
       set<int> clique_ids = sd.clique_ids;
       set<int> new_ids;

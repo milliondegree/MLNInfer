@@ -9,10 +9,10 @@ int main() {
   CProvGraph provG(sp);
   
   string input_1_name = "input_1";
-  vertex_t input_1 = provG.addVariableVertex(Variable, input_1_name, true, 0.5);
+  vertex_t input_1 = provG.addVariableVertex(Input, input_1_name, 0.5);
 
   string input_2_name = "input_2";
-  vertex_t input_2 = provG.addVariableVertex(Variable, input_2_name, true, 0.5);
+  vertex_t input_2 = provG.addVariableVertex(Input, input_2_name, 0.5);
 
   string operator_1_name = "sum_output";
   vertex_t operator_1 = provG.addOperatorVertex(Sum, operator_1_name);
@@ -21,9 +21,12 @@ int main() {
   provG.addProvEdge(operator_1, input_2, false);
   
   string output_name = "output";
-  vertex_t output = provG.addVariableVertex(Variable, output_name, false, 1.0);
+  vertex_t output = provG.addVariableVertex(Derived, output_name, 1.0);
   
   provG.addProvEdge(output, operator_1, false);
+
+  provG.computeDerivative(output_name);
+  exit(0);
 
   /* test saveGraph */
   provG.saveGraph();
@@ -41,6 +44,8 @@ int main() {
   cout << endl << "start tracing provenance of " << output_name << endl;
   CProvGraph subProvG = provG.ProvenanceQuery(output_name);
   subProvG.saveGraph();
+
+
   
 
   return 0;

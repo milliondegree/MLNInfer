@@ -1,4 +1,6 @@
 import matplotlib
+matplotlib.rcParams['pdf.fonttype'] = 42
+matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 matplotlib.rcParams['pdf.fonttype'] = 42
 matplotlib.rcParams['ps.fonttype'] = 42
@@ -460,39 +462,40 @@ def overallComparison():
   iters = [23, 37, 74, 83, 90, 39, 43, 43, 109, ]
   # alchemy_total = [1.04, 1.32, 1.68, 1.89, 2.09, 2.94, 2.67, 3.07, 3.1, ]
   alchemy_grounding = [148, 180, 184, 188, 204, 212, 304, 320, 356, 360]
-  alchemy_bp = [170, 220, 260, 340, 430, 480, 560, 760, 810, 960] # ms
+  # alchemy_bp = [170, 220, 260, 340, 430, 480, 560, 760, 810, 960] # ms
+  alchemy_bp = [95, 121*2, 131*3, 146*4, 154*5, 175*6, 187*7, 211*8, 229*9, 269*10]
   
 
-  fig, ax = plt.subplots(figsize=(16, 6))
+  fig, ax = plt.subplots(figsize=(16, 8))
   ax2 = ax.twinx()
   xList = ["100", "200", "300", "400", "500", "600", "700", "800", "900", "1k"]
   w = 0.24
   x = np.arange(len(xList))
 
-  ax.bar(x-w, alchemy_bp, w, label='Probability Inference of Alchemy', color="crimson", edgecolor="black", linewidth=0, hatch='--', alpha=0.7)
+  # ax.bar(x-w, alchemy_bp, w, label='Probability Inference of Alchemy', color="crimson", edgecolor="black", linewidth=0, hatch='--', alpha=0.7)
+  ax.plot(x, alchemy_bp, label='Total running time on Alchemy', marker="D", markersize=15, color="tab:orange", linewidth=3, alpha=0.7)
   
   # graph_times = [4, 5, 6, 7, 7, 8, 9, 8, 9, 10]
   # ax.bar(x, graph_times, w, label='Graph Query', color="tab:blue", edgecolor="black", linewidth=0, hatch='xx')
 
   approx_times = [8, 8, 10, 20, 43, 100, 160, 206, 227, 301]
-  ax.bar(x, approx_times, w, color="tab:purple", label="Approx Query", linewidth=0, hatch='xx', alpha=0.7)
+  ax.bar(x-w/2, approx_times, w, color="tab:purple", label="Approx Subgraph Searching", linewidth=0, hatch='xx', alpha=0.7)
 
   # prob_times_before = [0, 0, 0, 0, 0, 0, 0, 0, 0, 10]
 
   influ_times = [0.02, 0.04, 0.08, 0.1, 0.3, 0.75, 1.0, 1.2, 1.8, 3.061]
-  ax2.bar(x+w, influ_times, w, label='Influ Query w/o Approx Query', color="tab:orange", hatch='++', edgecolor="black", linewidth=0, alpha=0.7)
+  ax2.bar(x+w/2, influ_times, w, label='ICE w/o Approx Query', color="tab:orange", hatch='++', edgecolor="black", linewidth=0, alpha=0.7)
 
   counter_times = [0.04, 0.1, 0.2, 0.45, 1, 1.9, 2.3, 3, 5.5, 9.061]
-  ax2.bar(x+w, counter_times, w, bottom=influ_times, label='CFE Query w/o Approx Query', color="tab:green", hatch='++', edgecolor="black", linewidth=0, alpha=0.7)
+  ax2.bar(x+w/2, counter_times, w, bottom=influ_times, label='CFE w/o Approx Query', color="tab:green", hatch='++', edgecolor="black", linewidth=0, alpha=0.7)
   
   influ_times_approx = [2, 4, 6, 8, 12, 16, 20, 30, 36, 41]
-  ax.bar(x, influ_times_approx, w, bottom=approx_times, label="Influ Query w/ Approx Query", color="tab:orange", hatch='xx', edgecolor="black", linewidth=0, alpha=0.7)
+  ax.bar(x-w/2, influ_times_approx, w, bottom=approx_times, label="ICE w/ Approx Query", color="tab:orange", hatch='xx', edgecolor="black", linewidth=0, alpha=0.7)
 
   counter_times_approx = [4, 8, 12, 15, 24, 50, 56, 85, 100, 123]
-  ax.bar(x, counter_times_approx, w, bottom=[approx_times[i]+influ_times_approx[i] for i in range(10)], label="CFE Query w/ Approx Query", color="tab:green", hatch='xx', edgecolor="black", linewidth=0, alpha=0.7)
+  ax.bar(x-w/2, counter_times_approx, w, bottom=[approx_times[i]+influ_times_approx[i] for i in range(10)], label="CFE w/ Approx Query", color="tab:green", hatch='xx', edgecolor="black", linewidth=0, alpha=0.7)
   
   box = ax.get_position()
-  ax.set_position([box.x0, box.y0+box.height*0.1, box.width, box.height*0.8])
 
   fs1 = 24
   fs2 = 18
@@ -502,10 +505,10 @@ def overallComparison():
   ax2.set_ylim(0, 14)
   ax.set_xticks(x)
   ax.set_xticklabels(xList, fontsize=fs2)
-  ax.set_ylim(0, 1000)
-  yList1 = list(range(0, 1001, 200))
-  ax.set_yticks(yList1)
-  ax.set_yticklabels([str(ele) for ele in yList1], fontsize=fs2)
+  # ax.set_ylim(0, 1000)
+  # yList1 = list(range(0, 1001, 200))
+  # ax.set_yticks(yList1)
+  # ax.set_yticklabels([str(ele) for ele in yList1], fontsize=fs2)
   yList2 = list(range(0, 14, 2))
   ax2.set_yticks(yList2)
   ax2.set_yticklabels([str(ele) for ele in yList2], fontsize=fs2)
@@ -513,8 +516,8 @@ def overallComparison():
   fig.legend(fontsize=20, ncol=1, loc='upper center', bbox_to_anchor=(0.26,0.98),fancybox=True)
   # ax.legend(fontsize=20)
   ax.grid(axis='y')
-  plt.tight_layout()
-  plt.savefig("./data/hypertext-class/sample7/images/overall_2.pdf")
+  # plt.tight_layout()
+  plt.savefig("./data/hypertext-class/sample7/images/overall_3.pdf")
 
 
 if __name__ == '__main__':
@@ -524,7 +527,7 @@ if __name__ == '__main__':
   # drawQueryTimes_5()
   # drawQueryTimes_7()
   # drawQueryTimes_11()
-  # drawMaintenanceTime_7()
+  drawMaintenanceTime_7()
   # drawProbQueryTimes_7AVG()
   # drawProbQueryTimes_7AVG_Logscale()
   # drawProbQueryTimes_8AVG()
@@ -540,3 +543,4 @@ if __name__ == '__main__':
   # drawQueries()
   # drawApprox()
   overallComparison()
+

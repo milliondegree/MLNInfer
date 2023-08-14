@@ -1,1 +1,1 @@
-dot -Tpng -o data/CProv/figures/mln-cprov-graph-test-cancer_2_iteration_3-approx.png data/CProv/raw/mln-cprov-graph-test-cancer_2_iteration_3-approx.dot
+dot -Tpng -o data/CProv/figures/test-topic_ResearchProject_43_iteration_3-approx.png data/CProv/raw/test-topic_ResearchProject_43_iteration_3-approx.dot
