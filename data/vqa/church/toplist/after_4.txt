@@ -1,0 +1,14 @@
+influence of sim_is_on on ans_barn is 0.121594
+influence of sim_barn_cross on ans_barn is 0.0568409
+influence of sim_building_in on ans_barn is 0.0391699
+influence of sim_building_color on ans_barn is 0.0349787
+influence of hasQ_building_is_WHAT on ans_barn is 0.0181228
+influence of sim_background_brown on ans_barn is 0.0197437
+influence of hasImg_cross_on_building on ans_barn is 0.017198
+influence of sim_barn_cloud on ans_barn is 0.0155878
+influence of sim_barn_horse on ans_barn is 0.0143141
+influence of sim_background_sky on ans_barn is 0.0135604
+influence of hasImg_cloud_in_sky on ans_barn is 0.00900566
+influence of hasQ_background_building_WHAT on ans_barn is 0.00797994
+influence of hasImg_horse_color_brown on ans_barn is 0.00358573
+influence of word_barn on ans_barn is 0.0160097

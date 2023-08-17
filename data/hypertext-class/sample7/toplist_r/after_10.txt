@@ -1,0 +1,6 @@
+influence of r1274 on topic_ResearchProject_43 is 0.183333
+influence of r2182 on topic_ResearchProject_43 is 0.126111
+influence of r371 on topic_ResearchProject_43 is 0.133333
+influence of r3936 on topic_ResearchProject_43 is 0.122778
+influence of r388 on topic_ResearchProject_43 is 0.108889
+influence of r673 on topic_ResearchProject_43 is -0.0194444

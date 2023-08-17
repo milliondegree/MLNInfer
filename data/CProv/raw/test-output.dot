@@ -1,0 +1,9 @@
+digraph G {
+0[label=output];
+1[label=sum_output];
+2[label=input_1];
+3[label=input_2];
+0->1 ;
+1->2 ;
+1->3 ;
+}

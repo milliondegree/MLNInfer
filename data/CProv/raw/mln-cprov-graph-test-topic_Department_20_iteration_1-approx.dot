@@ -1,0 +1,70 @@
+digraph G {
+0 [label="topic_Department_20_iteration_1: 0.480109, d: 1", shape=oval, color=limegreen];
+1 [label="scale_topic_Department_20_iteration_1", shape=box, color=tomato];
+2 [label="dist_topic_Department_20_0_iteration_1: 1, d: -0.249604", shape=oval, color=limegreen];
+3 [label="mul_dist_topic_Department_20_0_iteration_1", shape=box, color=tomato];
+4 [label="cliqueMsg_891_topic_Department_20_0_iteration_1: 1, d: -0.249604", shape=oval, color=limegreen];
+5 [label="sum_cliqueMsg_891_topic_Department_20_0_iteration_1", shape=box, color=tomato];
+6 [label="valueByNodeMsg_891_0_topic_Department_20_0_iteration_1: 1, d: -0.249604", shape=oval, color=limegreen];
+7 [label="div_valueByNodeMsg_891_0_topic_Department_20_0_iteration_1", shape=box, color=tomato];
+8 [label="value_891_0_iteration_1: 1, d: -4.59149e-41", shape=oval, color=limegreen];
+9 [label="mul_value_891_0_iteration_1", shape=box, color=tomato];
+10 [label="potential_891_0: 1, d: -4.59149e-41", shape=oval, color=dodgerblue];
+11 [label="nodeMsg_topic_Department_20_891_0_iteration_0: 1, d: 0", shape=oval, color=darkviolet];
+12 [label="dist_topic_Department_20_1_iteration_1: 0.92348, d: -0.249604", shape=oval, color=limegreen];
+13 [label="mul_dist_topic_Department_20_1_iteration_1", shape=box, color=tomato];
+14 [label="cliqueMsg_891_topic_Department_20_1_iteration_1: 0.92348, d: -0.249604", shape=oval, color=limegreen];
+15 [label="sum_cliqueMsg_891_topic_Department_20_1_iteration_1", shape=box, color=tomato];
+16 [label="valueByNodeMsg_891_1_topic_Department_20_1_iteration_1: 0.92348, d: -4.59149e-41", shape=oval, color=limegreen];
+17 [label="div_valueByNodeMsg_891_1_topic_Department_20_1_iteration_1", shape=box, color=tomato];
+18 [label="value_891_1_iteration_1: 0.92348, d: -4.59149e-41", shape=oval, color=limegreen];
+19 [label="mul_value_891_1_iteration_1", shape=box, color=tomato];
+20 [label="potential_891_1: 0.92348, d: 0.270287", shape=oval, color=dodgerblue];
+21 [label="nodeMsg_topic_Department_20_891_1_iteration_0: 1, d: 0", shape=oval, color=darkviolet];
+0->1  [color=purple]
+;
+2->3  [color=purple]
+;
+4->5  [color=purple]
+;
+6->7  [color=purple]
+;
+8->9  [color=purple]
+;
+9->10  [color=purple]
+;
+9->11  [color=purple]
+;
+7->8  [color=purple]
+;
+7->11  [color=purple]
+;
+5->6  [color=purple]
+;
+3->4  [color=purple]
+;
+1->2  [color=purple]
+;
+12->13  [color=purple]
+;
+14->15  [color=purple]
+;
+16->17  [color=purple]
+;
+18->19  [color=purple]
+;
+19->20  [color=purple]
+;
+19->21  [color=purple]
+;
+17->18  [color=purple]
+;
+17->21  [color=purple]
+;
+15->16  [color=purple]
+;
+13->14  [color=purple]
+;
+1->12  [color=purple]
+;
+}

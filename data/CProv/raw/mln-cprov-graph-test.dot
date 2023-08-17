@@ -1,0 +1,298 @@
+digraph G {
+0 [label="nodeMsg_topic_Department_29_0_1_iteration_0: 1, d: 6.56193e-10", shape=oval, color=darkviolet];
+1 [label="nodeMsg_topic_Department_29_0_0_iteration_0: 1, d: 0", shape=oval, color=darkviolet];
+2 [label="nodeMsg_topic_Department_29_1_1_iteration_0: 1, d: 0", shape=oval, color=darkviolet];
+3 [label="nodeMsg_topic_Department_29_1_0_iteration_0: 1, d: 0", shape=oval, color=darkviolet];
+4 [label="potential_0_0: 1, d: -9.22929e+25", shape=oval, color=dodgerblue];
+5 [label="potential_0_1: 1, d: -9.04786e+25", shape=oval, color=dodgerblue];
+6 [label="potential_1_0: 1, d: -9.04801e+25", shape=oval, color=dodgerblue];
+7 [label="potential_1_1: 2.25228, d: -9.04811e+25", shape=oval, color=dodgerblue];
+8 [label="value_0_0_iteration_1: 1, d: 0.000175671", shape=oval, color=limegreen];
+9 [label="mul_value_0_0_iteration_1", shape=box, color=tomato];
+10 [label="valueByNodeMsg_0_0_topic_Department_29_0_iteration_1: 1, d: -9.0481e+25", shape=oval, color=limegreen];
+11 [label="div_valueByNodeMsg_0_0_topic_Department_29_0_iteration_1", shape=box, color=tomato];
+12 [label="cliqueMsg_0_topic_Department_29_0_iteration_1: 1, d: -9.05081e+25", shape=oval, color=limegreen];
+13 [label="sum_cliqueMsg_0_topic_Department_29_0_iteration_1", shape=box, color=tomato];
+14 [label="value_0_1_iteration_1: 1, d: 2.24208e-43", shape=oval, color=limegreen];
+15 [label="mul_value_0_1_iteration_1", shape=box, color=tomato];
+16 [label="valueByNodeMsg_0_1_topic_Department_29_1_iteration_1: 1, d: 4.28885e-08", shape=oval, color=limegreen];
+17 [label="div_valueByNodeMsg_0_1_topic_Department_29_1_iteration_1", shape=box, color=tomato];
+18 [label="cliqueMsg_0_topic_Department_29_1_iteration_1: 1, d: -9.05481e+25", shape=oval, color=limegreen];
+19 [label="sum_cliqueMsg_0_topic_Department_29_1_iteration_1", shape=box, color=tomato];
+20 [label="value_1_0_iteration_1: 1, d: -9.05561e+25", shape=oval, color=limegreen];
+21 [label="mul_value_1_0_iteration_1", shape=box, color=tomato];
+22 [label="valueByNodeMsg_1_0_topic_Department_29_0_iteration_1: 1, d: 3.68935e+19", shape=oval, color=limegreen];
+23 [label="div_valueByNodeMsg_1_0_topic_Department_29_0_iteration_1", shape=box, color=tomato];
+24 [label="cliqueMsg_1_topic_Department_29_0_iteration_1: 1, d: 0", shape=oval, color=limegreen];
+25 [label="sum_cliqueMsg_1_topic_Department_29_0_iteration_1", shape=box, color=tomato];
+26 [label="value_1_1_iteration_1: 2.25228, d: 2.68053e-09", shape=oval, color=limegreen];
+27 [label="mul_value_1_1_iteration_1", shape=box, color=tomato];
+28 [label="valueByNodeMsg_1_1_topic_Department_29_1_iteration_1: 2.25228, d: -9.05452e+25", shape=oval, color=limegreen];
+29 [label="div_valueByNodeMsg_1_1_topic_Department_29_1_iteration_1", shape=box, color=tomato];
+30 [label="cliqueMsg_1_topic_Department_29_1_iteration_1: 2.25228, d: -9.0576e+25", shape=oval, color=limegreen];
+31 [label="sum_cliqueMsg_1_topic_Department_29_1_iteration_1", shape=box, color=tomato];
+32 [label="dist_topic_Department_29_1_iteration_1: 2.25228, d: -9.06439e+25", shape=oval, color=limegreen];
+33 [label="mul_dist_topic_Department_29_1_iteration_1", shape=box, color=tomato];
+34 [label="dist_topic_Department_29_0_iteration_1: 1, d: -2", shape=oval, color=limegreen];
+35 [label="mul_dist_topic_Department_29_0_iteration_1", shape=box, color=tomato];
+36 [label="nodeMsg_topic_Department_29_0_1_iteration_1: 2.25228, d: 0", shape=oval, color=limegreen];
+37 [label="div_nodeMsg_topic_Department_29_0_1_iteration_1", shape=box, color=tomato];
+38 [label="nodeMsg_topic_Department_29_0_0_iteration_1: 1, d: 6.66495e-10", shape=oval, color=limegreen];
+39 [label="div_nodeMsg_topic_Department_29_0_0_iteration_1", shape=box, color=tomato];
+40 [label="nodeMsg_topic_Department_29_1_1_iteration_1: 1, d: -9.5429e+25", shape=oval, color=limegreen];
+41 [label="div_nodeMsg_topic_Department_29_1_1_iteration_1", shape=box, color=tomato];
+42 [label="nodeMsg_topic_Department_29_1_0_iteration_1: 1, d: -9.06638e+25", shape=oval, color=limegreen];
+43 [label="div_nodeMsg_topic_Department_29_1_0_iteration_1", shape=box, color=tomato];
+44 [label="topic_Department_29_iteration_1: 0.692524, d: 1.23314e-42", shape=oval, color=limegreen];
+45 [label="scale_topic_Department_29_iteration_1", shape=box, color=tomato];
+46 [label="value_0_0_iteration_2: 1, d: 0", shape=oval, color=limegreen];
+47 [label="mul_value_0_0_iteration_2", shape=box, color=tomato];
+48 [label="valueByNodeMsg_0_0_topic_Department_29_0_iteration_2: 1, d: 0.000173764", shape=oval, color=limegreen];
+49 [label="div_valueByNodeMsg_0_0_topic_Department_29_0_iteration_2", shape=box, color=tomato];
+50 [label="cliqueMsg_0_topic_Department_29_0_iteration_2: 1, d: -9.06595e+25", shape=oval, color=limegreen];
+51 [label="sum_cliqueMsg_0_topic_Department_29_0_iteration_2", shape=box, color=tomato];
+52 [label="value_0_1_iteration_2: 2.25228, d: -9.06838e+25", shape=oval, color=limegreen];
+53 [label="mul_value_0_1_iteration_2", shape=box, color=tomato];
+54 [label="valueByNodeMsg_0_1_topic_Department_29_1_iteration_2: 1, d: 2", shape=oval, color=limegreen];
+55 [label="div_valueByNodeMsg_0_1_topic_Department_29_1_iteration_2", shape=box, color=tomato];
+56 [label="cliqueMsg_0_topic_Department_29_1_iteration_2: 1, d: -9.06944e+25", shape=oval, color=limegreen];
+57 [label="sum_cliqueMsg_0_topic_Department_29_1_iteration_2", shape=box, color=tomato];
+58 [label="value_1_0_iteration_2: 1, d: 2.71506e-06", shape=oval, color=limegreen];
+59 [label="mul_value_1_0_iteration_2", shape=box, color=tomato];
+60 [label="valueByNodeMsg_1_0_topic_Department_29_0_iteration_2: 1, d: -9.06647e+25", shape=oval, color=limegreen];
+61 [label="div_valueByNodeMsg_1_0_topic_Department_29_0_iteration_2", shape=box, color=tomato];
+62 [label="cliqueMsg_1_topic_Department_29_0_iteration_2: 1, d: -9.07037e+25", shape=oval, color=limegreen];
+63 [label="sum_cliqueMsg_1_topic_Department_29_0_iteration_2", shape=box, color=tomato];
+64 [label="value_1_1_iteration_2: 2.25228, d: 2", shape=oval, color=limegreen];
+65 [label="mul_value_1_1_iteration_2", shape=box, color=tomato];
+66 [label="valueByNodeMsg_1_1_topic_Department_29_1_iteration_2: 2.25228, d: 0", shape=oval, color=limegreen];
+67 [label="div_valueByNodeMsg_1_1_topic_Department_29_1_iteration_2", shape=box, color=tomato];
+68 [label="cliqueMsg_1_topic_Department_29_1_iteration_2: 2.25228, d: 1.0741e-05", shape=oval, color=limegreen];
+69 [label="sum_cliqueMsg_1_topic_Department_29_1_iteration_2", shape=box, color=tomato];
+70 [label="dist_topic_Department_29_1_iteration_2: 2.25228, d: -9.08492e+25", shape=oval, color=limegreen];
+71 [label="mul_dist_topic_Department_29_1_iteration_2", shape=box, color=tomato];
+72 [label="dist_topic_Department_29_0_iteration_2: 1, d: -9.08512e+25", shape=oval, color=limegreen];
+73 [label="mul_dist_topic_Department_29_0_iteration_2", shape=box, color=tomato];
+74 [label="nodeMsg_topic_Department_29_0_1_iteration_2: 2.25228, d: 4.48416e-43", shape=oval, color=limegreen];
+75 [label="div_nodeMsg_topic_Department_29_0_1_iteration_2", shape=box, color=tomato];
+76 [label="nodeMsg_topic_Department_29_0_0_iteration_2: 1, d: 0", shape=oval, color=limegreen];
+77 [label="div_nodeMsg_topic_Department_29_0_0_iteration_2", shape=box, color=tomato];
+78 [label="nodeMsg_topic_Department_29_1_1_iteration_2: 1, d: 6.71315e-07", shape=oval, color=limegreen];
+79 [label="div_nodeMsg_topic_Department_29_1_1_iteration_2", shape=box, color=tomato];
+80 [label="nodeMsg_topic_Department_29_1_0_iteration_2: 1, d: -9.08448e+25", shape=oval, color=limegreen];
+81 [label="div_nodeMsg_topic_Department_29_1_0_iteration_2", shape=box, color=tomato];
+82 [label="topic_Department_29_iteration_2: 0.692524, d: -9.08712e+25", shape=oval, color=limegreen];
+83 [label="scale_topic_Department_29_iteration_2", shape=box, color=tomato];
+8->9  [color=purple]
+ [label=""];
+9->4  [color=purple]
+ [label=""];
+9->1  [color=purple]
+ [label=""];
+10->11  [color=purple]
+ [label=""];
+11->8  [color=purple]
+ [label=""];
+11->1  [color=purple]
+ [label=""];
+12->13  [color=purple]
+ [label=""];
+13->10  [color=purple]
+ [label=""];
+14->15  [color=purple]
+ [label=""];
+15->5  [color=purple]
+ [label=""];
+15->0  [color=purple]
+ [label=""];
+16->17  [color=purple]
+ [label=""];
+17->14  [color=purple]
+ [label=""];
+17->0  [color=purple]
+ [label=""];
+18->19  [color=purple]
+ [label=""];
+19->16  [color=purple]
+ [label=""];
+20->21  [color=purple]
+ [label=""];
+21->6  [color=purple]
+ [label=""];
+21->3  [color=purple]
+ [label=""];
+22->23  [color=purple]
+ [label=""];
+23->20  [color=purple]
+ [label=""];
+23->3  [color=purple]
+ [label=""];
+24->25  [color=purple]
+ [label=""];
+25->22  [color=purple]
+ [label=""];
+26->27  [color=purple]
+ [label=""];
+27->7  [color=purple]
+ [label=""];
+27->2  [color=purple]
+ [label=""];
+28->29  [color=purple]
+ [label=""];
+29->26  [color=purple]
+ [label=""];
+29->2  [color=purple]
+ [label=""];
+30->31  [color=purple]
+ [label=""];
+31->28  [color=purple]
+ [label=""];
+32->33  [color=purple]
+ [label=""];
+33->18  [color=purple]
+ [label=""];
+33->30  [color=purple]
+ [label=""];
+34->35  [color=purple]
+ [label=""];
+35->12  [color=purple]
+ [label=""];
+35->24  [color=purple]
+ [label=""];
+36->37  [color=purple]
+ [label=""];
+37->32  [color=purple]
+ [label=""];
+37->18  [color=purple]
+ [label=""];
+38->39  [color=purple]
+ [label=""];
+39->34  [color=purple]
+ [label=""];
+39->12  [color=purple]
+ [label=""];
+40->41  [color=purple]
+ [label=""];
+41->32  [color=purple]
+ [label=""];
+41->30  [color=purple]
+ [label=""];
+42->43  [color=purple]
+ [label=""];
+43->34  [color=purple]
+ [label=""];
+43->24  [color=purple]
+ [label=""];
+44->45  [color=purple]
+ [label=""];
+45->34  [color=purple]
+ [label=""];
+45->32  [color=purple]
+ [label=""];
+46->47  [color=purple]
+ [label=""];
+47->4  [color=purple]
+ [label=""];
+47->38  [color=purple]
+ [label=""];
+48->49  [color=purple]
+ [label=""];
+49->46  [color=purple]
+ [label=""];
+49->38  [color=purple]
+ [label=""];
+50->51  [color=purple]
+ [label=""];
+51->48  [color=purple]
+ [label=""];
+52->53  [color=purple]
+ [label=""];
+53->5  [color=purple]
+ [label=""];
+53->36  [color=purple]
+ [label=""];
+54->55  [color=purple]
+ [label=""];
+55->52  [color=purple]
+ [label=""];
+55->36  [color=purple]
+ [label=""];
+56->57  [color=purple]
+ [label=""];
+57->54  [color=purple]
+ [label=""];
+58->59  [color=purple]
+ [label=""];
+59->6  [color=purple]
+ [label=""];
+59->42  [color=purple]
+ [label=""];
+60->61  [color=purple]
+ [label=""];
+61->58  [color=purple]
+ [label=""];
+61->42  [color=purple]
+ [label=""];
+62->63  [color=purple]
+ [label=""];
+63->60  [color=purple]
+ [label=""];
+64->65  [color=purple]
+ [label=""];
+65->7  [color=purple]
+ [label=""];
+65->40  [color=purple]
+ [label=""];
+66->67  [color=purple]
+ [label=""];
+67->64  [color=purple]
+ [label=""];
+67->40  [color=purple]
+ [label=""];
+68->69  [color=purple]
+ [label=""];
+69->66  [color=purple]
+ [label=""];
+70->71  [color=purple]
+ [label=""];
+71->56  [color=purple]
+ [label=""];
+71->68  [color=purple]
+ [label=""];
+72->73  [color=purple]
+ [label=""];
+73->50  [color=purple]
+ [label=""];
+73->62  [color=purple]
+ [label=""];
+74->75  [color=purple]
+ [label=""];
+75->70  [color=purple]
+ [label=""];
+75->56  [color=purple]
+ [label=""];
+76->77  [color=purple]
+ [label=""];
+77->72  [color=purple]
+ [label=""];
+77->50  [color=purple]
+ [label=""];
+78->79  [color=purple]
+ [label=""];
+79->70  [color=purple]
+ [label=""];
+79->68  [color=purple]
+ [label=""];
+80->81  [color=purple]
+ [label=""];
+81->72  [color=purple]
+ [label=""];
+81->62  [color=purple]
+ [label=""];
+82->83  [color=purple]
+ [label=""];
+83->72  [color=purple]
+ [label=""];
+83->70  [color=purple]
+ [label=""];
+}

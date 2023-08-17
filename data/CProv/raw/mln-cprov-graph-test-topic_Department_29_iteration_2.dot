@@ -1,0 +1,258 @@
+digraph G {
+0 [label="topic_Department_29_iteration_2: 0.692524, d: 1", shape=oval, color=limegreen];
+1 [label="scale_topic_Department_29_iteration_2", shape=box, color=tomato];
+2 [label="dist_topic_Department_29_0_iteration_2: 1, d: -0.212935", shape=oval, color=limegreen];
+3 [label="mul_dist_topic_Department_29_0_iteration_2", shape=box, color=tomato];
+4 [label="cliqueMsg_656_topic_Department_29_0_iteration_2: 1, d: -0.212935", shape=oval, color=limegreen];
+5 [label="sum_cliqueMsg_656_topic_Department_29_0_iteration_2", shape=box, color=tomato];
+6 [label="valueByNodeMsg_656_0_topic_Department_29_0_iteration_2: 1, d: -0.212935", shape=oval, color=limegreen];
+7 [label="div_valueByNodeMsg_656_0_topic_Department_29_0_iteration_2", shape=box, color=tomato];
+8 [label="value_656_0_iteration_2: 1, d: -0.212935", shape=oval, color=limegreen];
+9 [label="mul_value_656_0_iteration_2", shape=box, color=tomato];
+10 [label="potential_656_0: 1, d: -0.212935", shape=oval, color=dodgerblue];
+11 [label="nodeMsg_topic_Department_29_656_0_iteration_1: 1, d: 0", shape=oval, color=limegreen];
+12 [label="div_nodeMsg_topic_Department_29_656_0_iteration_1", shape=box, color=tomato];
+13 [label="dist_topic_Department_29_0_iteration_1: 1, d: 0", shape=oval, color=limegreen];
+14 [label="mul_dist_topic_Department_29_0_iteration_1", shape=box, color=tomato];
+15 [label="cliqueMsg_656_topic_Department_29_0_iteration_1: 1, d: 0", shape=oval, color=limegreen];
+16 [label="sum_cliqueMsg_656_topic_Department_29_0_iteration_1", shape=box, color=tomato];
+17 [label="valueByNodeMsg_656_0_topic_Department_29_0_iteration_1: 1, d: 0", shape=oval, color=limegreen];
+18 [label="div_valueByNodeMsg_656_0_topic_Department_29_0_iteration_1", shape=box, color=tomato];
+19 [label="value_656_0_iteration_1: 1, d: 0", shape=oval, color=limegreen];
+20 [label="mul_value_656_0_iteration_1", shape=box, color=tomato];
+21 [label="nodeMsg_topic_Department_29_656_0_iteration_0: 1, d: 0", shape=oval, color=darkviolet];
+22 [label="cliqueMsg_657_topic_Department_29_0_iteration_1: 1, d: 0", shape=oval, color=limegreen];
+23 [label="sum_cliqueMsg_657_topic_Department_29_0_iteration_1", shape=box, color=tomato];
+24 [label="valueByNodeMsg_657_0_topic_Department_29_0_iteration_1: 1, d: 0", shape=oval, color=limegreen];
+25 [label="div_valueByNodeMsg_657_0_topic_Department_29_0_iteration_1", shape=box, color=tomato];
+26 [label="value_657_0_iteration_1: 1, d: 0", shape=oval, color=limegreen];
+27 [label="mul_value_657_0_iteration_1", shape=box, color=tomato];
+28 [label="potential_657_0: 1, d: -0.212935", shape=oval, color=dodgerblue];
+29 [label="nodeMsg_topic_Department_29_657_0_iteration_0: 1, d: 0", shape=oval, color=darkviolet];
+30 [label="cliqueMsg_657_topic_Department_29_0_iteration_2: 1, d: -0.212935", shape=oval, color=limegreen];
+31 [label="sum_cliqueMsg_657_topic_Department_29_0_iteration_2", shape=box, color=tomato];
+32 [label="valueByNodeMsg_657_0_topic_Department_29_0_iteration_2: 1, d: -0.212935", shape=oval, color=limegreen];
+33 [label="div_valueByNodeMsg_657_0_topic_Department_29_0_iteration_2", shape=box, color=tomato];
+34 [label="value_657_0_iteration_2: 1, d: -0.212935", shape=oval, color=limegreen];
+35 [label="mul_value_657_0_iteration_2", shape=box, color=tomato];
+36 [label="nodeMsg_topic_Department_29_657_0_iteration_1: 1, d: 0", shape=oval, color=limegreen];
+37 [label="div_nodeMsg_topic_Department_29_657_0_iteration_1", shape=box, color=tomato];
+38 [label="dist_topic_Department_29_1_iteration_2: 2.25228, d: 0.0945417", shape=oval, color=limegreen];
+39 [label="mul_dist_topic_Department_29_1_iteration_2", shape=box, color=tomato];
+40 [label="cliqueMsg_656_topic_Department_29_1_iteration_2: 1, d: 0.212935", shape=oval, color=limegreen];
+41 [label="sum_cliqueMsg_656_topic_Department_29_1_iteration_2", shape=box, color=tomato];
+42 [label="valueByNodeMsg_656_1_topic_Department_29_1_iteration_2: 1, d: 0.212935", shape=oval, color=limegreen];
+43 [label="div_valueByNodeMsg_656_1_topic_Department_29_1_iteration_2", shape=box, color=tomato];
+44 [label="value_656_1_iteration_2: 2.25228, d: 0.0945417", shape=oval, color=limegreen];
+45 [label="mul_value_656_1_iteration_2", shape=box, color=tomato];
+46 [label="potential_656_1: 1, d: 0.212935", shape=oval, color=dodgerblue];
+47 [label="nodeMsg_topic_Department_29_656_1_iteration_1: 2.25228, d: 0", shape=oval, color=limegreen];
+48 [label="div_nodeMsg_topic_Department_29_656_1_iteration_1", shape=box, color=tomato];
+49 [label="dist_topic_Department_29_1_iteration_1: 2.25228, d: 0", shape=oval, color=limegreen];
+50 [label="mul_dist_topic_Department_29_1_iteration_1", shape=box, color=tomato];
+51 [label="cliqueMsg_656_topic_Department_29_1_iteration_1: 1, d: 0", shape=oval, color=limegreen];
+52 [label="sum_cliqueMsg_656_topic_Department_29_1_iteration_1", shape=box, color=tomato];
+53 [label="valueByNodeMsg_656_1_topic_Department_29_1_iteration_1: 1, d: 0", shape=oval, color=limegreen];
+54 [label="div_valueByNodeMsg_656_1_topic_Department_29_1_iteration_1", shape=box, color=tomato];
+55 [label="value_656_1_iteration_1: 1, d: 0", shape=oval, color=limegreen];
+56 [label="mul_value_656_1_iteration_1", shape=box, color=tomato];
+57 [label="nodeMsg_topic_Department_29_656_1_iteration_0: 1, d: 0", shape=oval, color=darkviolet];
+58 [label="cliqueMsg_657_topic_Department_29_1_iteration_1: 2.25228, d: 0", shape=oval, color=limegreen];
+59 [label="sum_cliqueMsg_657_topic_Department_29_1_iteration_1", shape=box, color=tomato];
+60 [label="valueByNodeMsg_657_1_topic_Department_29_1_iteration_1: 2.25228, d: 0", shape=oval, color=limegreen];
+61 [label="div_valueByNodeMsg_657_1_topic_Department_29_1_iteration_1", shape=box, color=tomato];
+62 [label="value_657_1_iteration_1: 2.25228, d: 0", shape=oval, color=limegreen];
+63 [label="mul_value_657_1_iteration_1", shape=box, color=tomato];
+64 [label="potential_657_1: 2.25228, d: 0.0945417", shape=oval, color=dodgerblue];
+65 [label="nodeMsg_topic_Department_29_657_1_iteration_0: 1, d: 0", shape=oval, color=darkviolet];
+66 [label="cliqueMsg_657_topic_Department_29_1_iteration_2: 2.25228, d: 0.0945417", shape=oval, color=limegreen];
+67 [label="sum_cliqueMsg_657_topic_Department_29_1_iteration_2", shape=box, color=tomato];
+68 [label="valueByNodeMsg_657_1_topic_Department_29_1_iteration_2: 2.25228, d: 0.0945417", shape=oval, color=limegreen];
+69 [label="div_valueByNodeMsg_657_1_topic_Department_29_1_iteration_2", shape=box, color=tomato];
+70 [label="value_657_1_iteration_2: 2.25228, d: 0.0945417", shape=oval, color=limegreen];
+71 [label="mul_value_657_1_iteration_2", shape=box, color=tomato];
+72 [label="nodeMsg_topic_Department_29_657_1_iteration_1: 1, d: 0", shape=oval, color=limegreen];
+73 [label="div_nodeMsg_topic_Department_29_657_1_iteration_1", shape=box, color=tomato];
+0->1  [color=purple]
+;
+1->2  [color=purple]
+ [label="(1,2):-0.212935"];
+2->3  [color=purple]
+;
+3->4  [color=purple]
+ [label="(3,4):-0.212935"];
+4->5  [color=purple]
+;
+5->6  [color=purple]
+ [label="(5,6):-0.212935"];
+6->7  [color=purple]
+;
+7->8  [color=purple]
+ [label="(7,8):-0.212935"];
+8->9  [color=purple]
+;
+9->10  [color=purple]
+ [label="(9,10):-0.212935"];
+9->11  [color=purple]
+ [label="(9,11):-0.212935"];
+11->12  [color=purple]
+;
+12->13  [color=purple]
+;
+13->14  [color=purple]
+;
+14->15  [color=purple]
+;
+15->16  [color=purple]
+;
+16->17  [color=purple]
+;
+17->18  [color=purple]
+;
+18->19  [color=purple]
+;
+19->20  [color=purple]
+;
+20->10  [color=purple]
+;
+20->21  [color=purple]
+;
+18->21  [color=purple]
+;
+14->22  [color=purple]
+;
+22->23  [color=purple]
+;
+23->24  [color=purple]
+;
+24->25  [color=purple]
+;
+25->26  [color=purple]
+;
+26->27  [color=purple]
+;
+27->28  [color=purple]
+;
+27->29  [color=purple]
+;
+25->29  [color=purple]
+;
+12->15  [color=purple]
+;
+7->11  [color=purple]
+ [label="(7,11):0.212935"];
+3->30  [color=purple]
+ [label="(3,30):-0.212935"];
+30->31  [color=purple]
+;
+31->32  [color=purple]
+ [label="(31,32):-0.212935"];
+32->33  [color=purple]
+;
+33->34  [color=purple]
+ [label="(33,34):-0.212935"];
+34->35  [color=purple]
+;
+35->28  [color=purple]
+ [label="(35,28):-0.212935"];
+35->36  [color=purple]
+ [label="(35,36):-0.212935"];
+36->37  [color=purple]
+;
+37->13  [color=purple]
+;
+37->22  [color=purple]
+;
+33->36  [color=purple]
+ [label="(33,36):0.212935"];
+1->38  [color=purple]
+ [label="(1,38):0.0945417"];
+38->39  [color=purple]
+;
+39->40  [color=purple]
+ [label="(39,40):0.212935"];
+40->41  [color=purple]
+;
+41->42  [color=purple]
+ [label="(41,42):0.212935"];
+42->43  [color=purple]
+;
+43->44  [color=purple]
+ [label="(43,44):0.0945417"];
+44->45  [color=purple]
+;
+45->46  [color=purple]
+ [label="(45,46):0.212935"];
+45->47  [color=purple]
+ [label="(45,47):0.0945417"];
+47->48  [color=purple]
+;
+48->49  [color=purple]
+;
+49->50  [color=purple]
+;
+50->51  [color=purple]
+;
+51->52  [color=purple]
+;
+52->53  [color=purple]
+;
+53->54  [color=purple]
+;
+54->55  [color=purple]
+;
+55->56  [color=purple]
+;
+56->46  [color=purple]
+;
+56->57  [color=purple]
+;
+54->57  [color=purple]
+;
+50->58  [color=purple]
+;
+58->59  [color=purple]
+;
+59->60  [color=purple]
+;
+60->61  [color=purple]
+;
+61->62  [color=purple]
+;
+62->63  [color=purple]
+;
+63->64  [color=purple]
+;
+63->65  [color=purple]
+;
+61->65  [color=purple]
+;
+48->51  [color=purple]
+;
+43->47  [color=purple]
+ [label="(43,47):-0.0945417"];
+39->66  [color=purple]
+ [label="(39,66):0.0945417"];
+66->67  [color=purple]
+;
+67->68  [color=purple]
+ [label="(67,68):0.0945417"];
+68->69  [color=purple]
+;
+69->70  [color=purple]
+ [label="(69,70):0.0945417"];
+70->71  [color=purple]
+;
+71->64  [color=purple]
+ [label="(71,64):0.0945417"];
+71->72  [color=purple]
+ [label="(71,72):0.212935"];
+72->73  [color=purple]
+;
+73->49  [color=purple]
+;
+73->58  [color=purple]
+;
+69->72  [color=purple]
+ [label="(69,72):-0.212935"];
+}

@@ -1,0 +1,8 @@
+influence of hasword_algorithm_43 on topic_ResearchProject_43 is -0.0695834886
+influence of hasword_time_43 on topic_ResearchProject_43 is -0.0652976525
+influence of hasword_graphic_43 on topic_ResearchProject_43 is -0.0549465144
+influence of hasword_game_43 on topic_ResearchProject_43 is -0.0250048601
+influence of hasword_output_43 on topic_ResearchProject_43 is -0.0112613952
+influence of hasword_request_43 on topic_ResearchProject_43 is -0.00991786154
+influence of links_43_40 on topic_ResearchProject_43 is -0.00835266816
+influence of hasword_jan_40 on topic_ResearchProject_43 is 0.000642949258

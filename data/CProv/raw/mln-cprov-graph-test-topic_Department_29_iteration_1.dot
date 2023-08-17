@@ -1,0 +1,122 @@
+digraph G {
+0 [label="topic_Department_29_iteration_1: 0.692524, d: 6.56193e-10", shape=oval, color=limegreen];
+1 [label="scale_topic_Department_29_iteration_1", shape=box, color=tomato];
+2 [label="dist_topic_Department_29_0_iteration_1: 1, d: 0", shape=oval, color=limegreen];
+3 [label="mul_dist_topic_Department_29_0_iteration_1", shape=box, color=tomato];
+4 [label="cliqueMsg_0_topic_Department_29_0_iteration_1: 1, d: 1.19135e-27", shape=oval, color=limegreen];
+5 [label="sum_cliqueMsg_0_topic_Department_29_0_iteration_1", shape=box, color=tomato];
+6 [label="valueByNodeMsg_0_0_topic_Department_29_0_iteration_1: 1, d: 1.68156e-44", shape=oval, color=limegreen];
+7 [label="div_valueByNodeMsg_0_0_topic_Department_29_0_iteration_1", shape=box, color=tomato];
+8 [label="value_0_0_iteration_1: 1, d: 4.48416e-43", shape=oval, color=limegreen];
+9 [label="mul_value_0_0_iteration_1", shape=box, color=tomato];
+10 [label="potential_0_0: 1, d: 1.25826e-27", shape=oval, color=dodgerblue];
+11 [label="nodeMsg_topic_Department_29_0_0_iteration_0: 1, d: 1.34525e-43", shape=oval, color=darkviolet];
+12 [label="cliqueMsg_1_topic_Department_29_0_iteration_1: 1, d: 1.81668e+25", shape=oval, color=limegreen];
+13 [label="sum_cliqueMsg_1_topic_Department_29_0_iteration_1", shape=box, color=tomato];
+14 [label="valueByNodeMsg_1_0_topic_Department_29_0_iteration_1: 1, d: 1.19062e-27", shape=oval, color=limegreen];
+15 [label="div_valueByNodeMsg_1_0_topic_Department_29_0_iteration_1", shape=box, color=tomato];
+16 [label="value_1_0_iteration_1: 1, d: 1.18938e-27", shape=oval, color=limegreen];
+17 [label="mul_value_1_0_iteration_1", shape=box, color=tomato];
+18 [label="potential_1_0: 1, d: 2.24208e-43", shape=oval, color=dodgerblue];
+19 [label="nodeMsg_topic_Department_29_1_0_iteration_0: 1, d: 7.00649e-45", shape=oval, color=darkviolet];
+20 [label="dist_topic_Department_29_1_iteration_1: 2.25228, d: 1.18949e-27", shape=oval, color=limegreen];
+21 [label="mul_dist_topic_Department_29_1_iteration_1", shape=box, color=tomato];
+22 [label="cliqueMsg_0_topic_Department_29_1_iteration_1: 1, d: 4.39179e-05", shape=oval, color=limegreen];
+23 [label="sum_cliqueMsg_0_topic_Department_29_1_iteration_1", shape=box, color=tomato];
+24 [label="valueByNodeMsg_0_1_topic_Department_29_1_iteration_1: 1, d: 0", shape=oval, color=limegreen];
+25 [label="div_valueByNodeMsg_0_1_topic_Department_29_1_iteration_1", shape=box, color=tomato];
+26 [label="value_0_1_iteration_1: 1, d: 0", shape=oval, color=limegreen];
+27 [label="mul_value_0_1_iteration_1", shape=box, color=tomato];
+28 [label="potential_0_1: 1, d: 0", shape=oval, color=dodgerblue];
+29 [label="nodeMsg_topic_Department_29_0_1_iteration_0: 1, d: 0", shape=oval, color=darkviolet];
+30 [label="cliqueMsg_1_topic_Department_29_1_iteration_1: 2.25228, d: 0", shape=oval, color=limegreen];
+31 [label="sum_cliqueMsg_1_topic_Department_29_1_iteration_1", shape=box, color=tomato];
+32 [label="valueByNodeMsg_1_1_topic_Department_29_1_iteration_1: 2.25228, d: 1.19088e-27", shape=oval, color=limegreen];
+33 [label="div_valueByNodeMsg_1_1_topic_Department_29_1_iteration_1", shape=box, color=tomato];
+34 [label="value_1_1_iteration_1: 2.25228, d: -1.0842e-19", shape=oval, color=limegreen];
+35 [label="mul_value_1_1_iteration_1", shape=box, color=tomato];
+36 [label="potential_1_1: 2.25228, d: 0", shape=oval, color=dodgerblue];
+37 [label="nodeMsg_topic_Department_29_1_1_iteration_0: 1, d: 1.12104e-43", shape=oval, color=darkviolet];
+0->1  [color=purple]
+ [label=""];
+2->3  [color=purple]
+ [label=""];
+4->5  [color=purple]
+ [label=""];
+6->7  [color=purple]
+ [label=""];
+8->9  [color=purple]
+ [label=""];
+12->13  [color=purple]
+ [label=""];
+14->15  [color=purple]
+ [label=""];
+16->17  [color=purple]
+ [label=""];
+20->21  [color=purple]
+ [label=""];
+22->23  [color=purple]
+ [label=""];
+24->25  [color=purple]
+ [label=""];
+26->27  [color=purple]
+ [label=""];
+30->31  [color=purple]
+ [label=""];
+32->33  [color=purple]
+ [label=""];
+34->35  [color=purple]
+ [label=""];
+1->2  [color=purple]
+ [label="Con: -0.307476 "];
+3->4  [color=purple]
+ [label=""];
+5->6  [color=purple]
+ [label="Con: -0.307476 "];
+7->8  [color=purple]
+ [label="Con: -0.307476 "];
+9->10  [color=purple]
+ [label=""];
+9->11  [color=purple]
+ [label=""];
+7->11  [color=purple]
+ [label=""];
+3->12  [color=purple]
+ [label=""];
+13->14  [color=purple]
+ [label="Con: -0.307476 "];
+15->16  [color=purple]
+ [label="Con: -0.307476 "];
+17->18  [color=purple]
+ [label=""];
+17->19  [color=purple]
+ [label=""];
+15->19  [color=purple]
+ [label=""];
+1->20  [color=purple]
+ [label="Con: 0.692524 "];
+21->22  [color=purple]
+ [label=""];
+23->24  [color=purple]
+ [label="Con: 0.692524 "];
+25->26  [color=purple]
+ [label="Con: 0.692524 "];
+27->28  [color=purple]
+ [label=""];
+27->29  [color=purple]
+ [label=""];
+25->29  [color=purple]
+ [label=""];
+21->30  [color=purple]
+ [label="Con: 0.192524 "];
+31->32  [color=purple]
+ [label="Con: 0.692524 "];
+33->34  [color=purple]
+ [label="Con: 0.692524 "];
+35->36  [color=purple]
+ [label="Con: 0.192524 "];
+35->37  [color=purple]
+ [label=""];
+33->37  [color=purple]
+ [label=""];
+}

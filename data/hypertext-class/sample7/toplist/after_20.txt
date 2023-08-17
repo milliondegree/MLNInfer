@@ -1,0 +1,17 @@
+influence of hasword_algorithm_43 on topic_ResearchProject_43 is -0.069544897
+influence of hasword_time_43 on topic_ResearchProject_43 is -0.0652611553
+influence of hasword_graphic_43 on topic_ResearchProject_43 is -0.0549152285
+influence of hasword_text_43 on topic_ResearchProject_43 is -0.0416080763
+influence of hasword_game_43 on topic_ResearchProject_43 is -0.0249898668
+influence of hasword_output_43 on topic_ResearchProject_43 is -0.0112544864
+influence of hasword_request_43 on topic_ResearchProject_43 is -0.00991176356
+influence of hasword_hardwar_43 on topic_ResearchProject_43 is -0.00879059904
+influence of links_43_88 on topic_ResearchProject_43 is -0.00875101083
+influence of links_43_68 on topic_ResearchProject_43 is -0.0078638309
+influence of hasword_manag_43 on topic_ResearchProject_43 is -0.00726654293
+influence of links_43_40 on topic_ResearchProject_43 is -0.00634461373
+influence of hasword_univers_40 on topic_ResearchProject_43 is 0.00193867618
+influence of hasword_type_68 on topic_ResearchProject_43 is 0.0011095532
+influence of hasword_jan_40 on topic_ResearchProject_43 is 0.000606375855
+influence of hasword_length_88 on topic_ResearchProject_43 is 0.000499279673
+influence of links_198_88 on topic_ResearchProject_43 is -0.000247200718

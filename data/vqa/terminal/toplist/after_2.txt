@@ -1,0 +1,6 @@
+influence of sim_terminal_planes on ans_terminal is 0.0373578
+influence of sim_building_parked on ans_terminal is 0.0203637
+influence of sim_is_are on ans_terminal is 0.0138177
+influence of hasImg_planes_are_parked on ans_terminal is 0.010601
+influence of word_terminal on ans_terminal is 0.00959054
+influence of hasQ_building_is_WHAT on ans_terminal is 0.00744598

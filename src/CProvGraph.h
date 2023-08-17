@@ -143,7 +143,7 @@ public:
   float value_diff;
   float derivative_diff;
   ApproxSubGraphDiff() {}
-  ApproxSubGraphDiff(const std::unordered_set<std::string>& s, float v_d, float d_d): EDBs(s), value_diff(d_d), derivative_diff(d_d) {}
+  ApproxSubGraphDiff(const std::unordered_set<std::string>& s, float v_d, float d_d): EDBs(s), value_diff(v_d), derivative_diff(d_d) {}
 
   bool operator == (const ApproxSubGraphDiff& asgd2) const {
     return this->EDBs==asgd2.EDBs;

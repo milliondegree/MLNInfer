@@ -1,0 +1,8 @@
+influence of hasword_depart_29 on topic_Department_29 is 0.0169803
+influence of hasword_question_29 on topic_Department_29 is 0.0209918
+influence of hasword_send_29 on topic_Department_29 is 0.013361
+influence of hasword_advanc_29 on topic_Department_29 is 0.0105143
+influence of hasword_cours_29 on topic_Department_29 is 0.00927376
+influence of hasword_html_29 on topic_Department_29 is -0.000997519
+influence of links_30_29 on topic_Department_29 is 0.000438127
+influence of hasword_utexa_29 on topic_Department_29 is -8.0844e-05

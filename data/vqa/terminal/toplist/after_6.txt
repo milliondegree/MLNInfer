@@ -1,0 +1,13 @@
+influence of sim_terminal_planes on ans_terminal is 0.0374304
+influence of sim_building_parked on ans_terminal is 0.0183939
+influence of sim_is_are on ans_terminal is 0.0135887
+influence of hasImg_planes_are_parked on ans_terminal is 0.0101953
+influence of word_terminal on ans_terminal is 0.0101069
+influence of hasQ_building_is_WHAT on ans_terminal is 0.00731781
+influence of hasQ_building_in_background on ans_terminal is -0.00132046
+influence of sim_background_white on ans_terminal is -0.00121148
+influence of sim_in_color on ans_terminal is -0.000569945
+influence of sim_building_plane on ans_terminal is -0.000567375
+influence of hasImg_white_color_plane on ans_terminal is -0.000530204
+influence of sim_terminal_white on ans_terminal is 0.000455319
+influence of sim_terminal_plane on ans_terminal is -0.000132415

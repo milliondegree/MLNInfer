@@ -1,0 +1,122 @@
+digraph G {
+0 [label="topic_Department_20_iteration_1: 0.480109, d: 1", shape=oval, color=limegreen];
+1 [label="scale_topic_Department_20_iteration_1", shape=box, color=tomato];
+2 [label="dist_topic_Department_20_0_iteration_1: 1, d: -0.249604", shape=oval, color=limegreen];
+3 [label="mul_dist_topic_Department_20_0_iteration_1", shape=box, color=tomato];
+4 [label="cliqueMsg_890_topic_Department_20_0_iteration_1: 1, d: -0.249604", shape=oval, color=limegreen];
+5 [label="sum_cliqueMsg_890_topic_Department_20_0_iteration_1", shape=box, color=tomato];
+6 [label="valueByNodeMsg_890_0_topic_Department_20_0_iteration_1: 1, d: -0.249604", shape=oval, color=limegreen];
+7 [label="div_valueByNodeMsg_890_0_topic_Department_20_0_iteration_1", shape=box, color=tomato];
+8 [label="value_890_0_iteration_1: 1, d: -0.249604", shape=oval, color=limegreen];
+9 [label="mul_value_890_0_iteration_1", shape=box, color=tomato];
+10 [label="potential_890_0: 1, d: -0.249604", shape=oval, color=dodgerblue];
+11 [label="nodeMsg_topic_Department_20_890_0_iteration_0: 1, d: 0", shape=oval, color=darkviolet];
+12 [label="cliqueMsg_891_topic_Department_20_0_iteration_1: 1, d: -0.249604", shape=oval, color=limegreen];
+13 [label="sum_cliqueMsg_891_topic_Department_20_0_iteration_1", shape=box, color=tomato];
+14 [label="valueByNodeMsg_891_0_topic_Department_20_0_iteration_1: 1, d: -0.249604", shape=oval, color=limegreen];
+15 [label="div_valueByNodeMsg_891_0_topic_Department_20_0_iteration_1", shape=box, color=tomato];
+16 [label="value_891_0_iteration_1: 1, d: -0.249604", shape=oval, color=limegreen];
+17 [label="mul_value_891_0_iteration_1", shape=box, color=tomato];
+18 [label="potential_891_0: 1, d: -0.249604", shape=oval, color=dodgerblue];
+19 [label="nodeMsg_topic_Department_20_891_0_iteration_0: 1, d: 0", shape=oval, color=darkviolet];
+20 [label="dist_topic_Department_20_1_iteration_1: 0.92348, d: 0.270287", shape=oval, color=limegreen];
+21 [label="mul_dist_topic_Department_20_1_iteration_1", shape=box, color=tomato];
+22 [label="cliqueMsg_890_topic_Department_20_1_iteration_1: 1, d: 0.249604", shape=oval, color=limegreen];
+23 [label="sum_cliqueMsg_890_topic_Department_20_1_iteration_1", shape=box, color=tomato];
+24 [label="valueByNodeMsg_890_1_topic_Department_20_1_iteration_1: 1, d: 0.249604", shape=oval, color=limegreen];
+25 [label="div_valueByNodeMsg_890_1_topic_Department_20_1_iteration_1", shape=box, color=tomato];
+26 [label="value_890_1_iteration_1: 1, d: 0.249604", shape=oval, color=limegreen];
+27 [label="mul_value_890_1_iteration_1", shape=box, color=tomato];
+28 [label="potential_890_1: 1, d: 0.249604", shape=oval, color=dodgerblue];
+29 [label="nodeMsg_topic_Department_20_890_1_iteration_0: 1, d: 0", shape=oval, color=darkviolet];
+30 [label="cliqueMsg_891_topic_Department_20_1_iteration_1: 0.92348, d: 0.270287", shape=oval, color=limegreen];
+31 [label="sum_cliqueMsg_891_topic_Department_20_1_iteration_1", shape=box, color=tomato];
+32 [label="valueByNodeMsg_891_1_topic_Department_20_1_iteration_1: 0.92348, d: 0.270287", shape=oval, color=limegreen];
+33 [label="div_valueByNodeMsg_891_1_topic_Department_20_1_iteration_1", shape=box, color=tomato];
+34 [label="value_891_1_iteration_1: 0.92348, d: 0.270287", shape=oval, color=limegreen];
+35 [label="mul_value_891_1_iteration_1", shape=box, color=tomato];
+36 [label="potential_891_1: 0.92348, d: 0.270287", shape=oval, color=dodgerblue];
+37 [label="nodeMsg_topic_Department_20_891_1_iteration_0: 1, d: 0", shape=oval, color=darkviolet];
+0->1  [color=purple]
+;
+1->2  [color=purple]
+ [label="(1,2):-0.249604"];
+2->3  [color=purple]
+;
+3->4  [color=purple]
+ [label="(3,4):-0.249604"];
+4->5  [color=purple]
+;
+5->6  [color=purple]
+ [label="(5,6):-0.249604"];
+6->7  [color=purple]
+;
+7->8  [color=purple]
+ [label="(7,8):-0.249604"];
+8->9  [color=purple]
+;
+9->10  [color=purple]
+ [label="(9,10):-0.249604"];
+9->11  [color=purple]
+ [label="(9,11):-0.249604"];
+7->11  [color=purple]
+ [label="(7,11):0.249604"];
+3->12  [color=purple]
+ [label="(3,12):-0.249604"];
+12->13  [color=purple]
+;
+13->14  [color=purple]
+ [label="(13,14):-0.249604"];
+14->15  [color=purple]
+;
+15->16  [color=purple]
+ [label="(15,16):-0.249604"];
+16->17  [color=purple]
+;
+17->18  [color=purple]
+ [label="(17,18):-0.249604"];
+17->19  [color=purple]
+ [label="(17,19):-0.249604"];
+15->19  [color=purple]
+ [label="(15,19):0.249604"];
+1->20  [color=purple]
+ [label="(1,20):0.270287"];
+20->21  [color=purple]
+;
+21->22  [color=purple]
+ [label="(21,22):0.249604"];
+22->23  [color=purple]
+;
+23->24  [color=purple]
+ [label="(23,24):0.249604"];
+24->25  [color=purple]
+;
+25->26  [color=purple]
+ [label="(25,26):0.249604"];
+26->27  [color=purple]
+;
+27->28  [color=purple]
+ [label="(27,28):0.249604"];
+27->29  [color=purple]
+ [label="(27,29):0.249604"];
+25->29  [color=purple]
+ [label="(25,29):-0.249604"];
+21->30  [color=purple]
+ [label="(21,30):0.270287"];
+30->31  [color=purple]
+;
+31->32  [color=purple]
+ [label="(31,32):0.270287"];
+32->33  [color=purple]
+;
+33->34  [color=purple]
+ [label="(33,34):0.270287"];
+34->35  [color=purple]
+;
+35->36  [color=purple]
+ [label="(35,36):0.270287"];
+35->37  [color=purple]
+ [label="(35,37):0.249604"];
+33->37  [color=purple]
+ [label="(33,37):-0.249604"];
+}

@@ -1,0 +1,17 @@
+influence of sim_terminal_planes on ans_terminal is 0.03721
+influence of sim_building_parked on ans_terminal is 0.0182521
+influence of sim_is_are on ans_terminal is 0.0135261
+influence of sim_is_on on ans_terminal is 0.0118134
+influence of hasImg_planes_are_parked on ans_terminal is 0.0111812
+influence of word_terminal on ans_terminal is 0.0107927
+influence of sim_terminal_cars on ans_terminal is 0.0104995
+influence of hasQ_building_is_WHAT on ans_terminal is 0.00881515
+influence of sim_building_road on ans_terminal is 0.00326886
+influence of sim_building_are on ans_terminal is 0.00304009
+influence of sim_background_parked on ans_terminal is 0.00155784
+influence of sim_terminal_large on ans_terminal is 0.00151427
+influence of hasQ_background_building_WHAT on ans_terminal is 0.00138632
+influence of hasImg_large_train_station on ans_terminal is 0.00112395
+influence of sim_is_train on ans_terminal is 0.00109496
+influence of hasImg_cars_on_road on ans_terminal is 0.000685651
+influence of sim_building_station on ans_terminal is -0.000668171

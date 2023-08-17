@@ -1,0 +1,15 @@
+influence of sim_church_cross on ans_church is 0.0584308
+influence of sim_is_on on ans_church is 0.0394294
+influence of sim_is_with on ans_church is 0.0221324
+influence of sim_building_color on ans_church is 0.0178026
+influence of sim_church_horse on ans_church is 0.0102908
+influence of hasQ_building_is_WHAT on ans_church is 0.00969584
+influence of sim_church_building on ans_church is 0.0088922
+influence of sim_building_building on ans_church is 0.00690321
+influence of word_church on ans_church is 0.00649256
+influence of hasImg_cross_on_building on ans_church is 0.0064562
+influence of sim_building_roof on ans_church is 0.00598611
+influence of hasQ_background_building_WHAT on ans_church is 0.00310024
+influence of hasImg_horse_color_brown on ans_church is 0.00280033
+influence of hasImg_building_with_roof on ans_church is 0.00278494
+influence of sim_background_brown on ans_church is 0.00871916

@@ -1,0 +1,14 @@
+influence of hasword_depart_29 on topic_Department_29 is 0.0169803
+influence of hasword_question_29 on topic_Department_29 is 0.0209918
+influence of hasword_send_29 on topic_Department_29 is 0.013361
+influence of hasword_advanc_29 on topic_Department_29 is 0.0105143
+influence of hasword_technologi_29 on topic_Department_29 is -0.00585869
+influence of hasword_cours_29 on topic_Department_29 is 0.00927376
+influence of hasword_austin_29 on topic_Department_29 is -0.00294136
+influence of hasword_email_29 on topic_Department_29 is 0.00204869
+influence of hasword_gmt_29 on topic_Department_29 is -0.00119764
+influence of hasword_html_29 on topic_Department_29 is -0.00113053
+influence of hasword_queri_29 on topic_Department_29 is -0.00107797
+influence of hasword_laboratori_29 on topic_Department_29 is -0.000928776
+influence of links_30_29 on topic_Department_29 is 0.000496448
+influence of hasword_utexa_29 on topic_Department_29 is -9.1612e-05
